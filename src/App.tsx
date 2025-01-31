@@ -1,35 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import * as d3 from "d3";
+import LinePlot from "./components/LinePlot";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [data, setData] = useState(() => d3.ticks(-2, 2, 200).map(Math.sin));
+
+  function onMouseMove(event: React.MouseEvent) {
+    const [x, y] = d3.pointer(event);
+    setData(data.slice(-200).concat(Math.atan2(x, y)));
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div onMouseMove={onMouseMove} className="App">
+      <LinePlot data={data} />
+    </div>
+  );
 }
 
-export default App
+export default App;
