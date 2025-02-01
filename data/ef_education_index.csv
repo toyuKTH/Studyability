@@ -315,7 +315,7 @@ India,57.3,Moderate Proficiency,2016,IN,IND,Asia,Southern Asia
 Dominican Republic,57.24,Moderate Proficiency,2016,DO,DOM,Americas,Latin America and the Caribbean
 Bulgaria,56.79,Moderate Proficiency,2016,BG,BGR,Europe,Eastern Europe
 Spain,56.66,Moderate Proficiency,2016,ES,ESP,Europe,Southern Europe
-Bosnia & Herzegovina,56.17,Moderate Proficiency,2016,,,,
+Bosnia and Herzegovina,56.17,Moderate Proficiency,2016,BA,BIH,Europe,Southern Europe
 South Korea,54.87,Moderate Proficiency,2016,KR,KOR,Asia,Eastern Asia
 Italy,54.63,Moderate Proficiency,2016,IT,ITA,Europe,Southern Europe
 France,54.39,Moderate Proficiency,2016,FR,FRA,Europe,Western Europe
@@ -786,7 +786,7 @@ Uruguay,509.0,Moderate Proficiency,2021,UY,URY,Americas,Latin America and the Ca
 El Salvador,508.0,Moderate Proficiency,2021,SV,SLV,Americas,Latin America and the Caribbean
 Honduras,506.0,Moderate Proficiency,2021,HN,HND,Americas,Latin America and the Caribbean
 Peru,505.0,Moderate Proficiency,2021,PE,PER,Americas,Latin America and the Caribbean
-"Macau,China",504.0,Moderate Proficiency,2021,,,,
+Macao,504.0,Moderate Proficiency,2021,MO,MAC,Asia,Eastern Asia
 Iran,501.0,Moderate Proficiency,2021,IR,IRN,Asia,Southern Asia
 Armenia,499.0,Low Proficiency,2021,AM,ARM,Asia,Western Asia
 Brazil,497.0,Low Proficiency,2021,BR,BRA,Americas,Latin America and the Caribbean
@@ -945,7 +945,7 @@ Somalia,414.0,Very Low Proficiency,2022,SO,SOM,Africa,Sub-Saharan Africa
 Oman,412.0,Very Low Proficiency,2022,OM,OMN,Asia,Western Asia
 Saudi Arabia,406.0,Very Low Proficiency,2022,SA,SAU,Asia,Western Asia
 Iraq,404.0,Very Low Proficiency,2022,IQ,IRQ,Asia,Western Asia
-C么te d'Ivoire,403.0,Very Low Proficiency,2022,,,,
+Ivory Coast,403.0,Very Low Proficiency,2022,CI,CIV,Africa,Sub-Saharan Africa
 Angola,402.0,Very Low Proficiency,2022,AO,AGO,Africa,Sub-Saharan Africa
 Tajikistan,397.0,Very Low Proficiency,2022,TJ,TJK,Asia,Central Asia
 Rwanda,392.0,Very Low Proficiency,2022,RW,RWA,Africa,Sub-Saharan Africa
@@ -1000,56 +1000,72 @@ France,531.0,Moderate Proficiency,2023,FR,FRA,Europe,Western Europe
 Paraguay,530.0,Moderate Proficiency,2023,PY,PRY,Americas,Latin America and the Caribbean
 Ukraine,530.0,Moderate Proficiency,2023,UA,UKR,Europe,Eastern Europe
 Uganda,529.0,Moderate Proficiency,2023,UG,UGA,Africa,Sub-Saharan Africa
-Dhaka,521.0,Moderate Proficiency,2023,,,,
-Guatemala City,521.0,Moderate Proficiency,2023,,,,
-Tehran,521.0,Moderate Proficiency,2023,,,,
-Kampala,520.0,Moderate Proficiency,2023,,,,
-Addis Ababa,515.0,Moderate Proficiency,2023,,,,
-Dar Es Salaam,515.0,Moderate Proficiency,2023,,,,
-Beijing,514.0,Moderate Proficiency,2023,,,,
-Algiers,513.0,Moderate Proficiency,2023,,,,
-Quito,513.0,Moderate Proficiency,2023,,,,
-Rio de Janeiro,513.0,Moderate Proficiency,2023,,,,
-Shanghai,512.0,Moderate Proficiency,2023,,,,
-Managua,511.0,Moderate Proficiency,2023,,,,
-Dubai,510.0,Low Proficiency,2023,,,,
-Rabat,506.0,Low Proficiency,2023,,,,
-Ankara,503.0,Low Proficiency,2023,,,,
-Tokyo,503.0,Low Proficiency,2023,,,,
-Jerusalem,500.0,Low Proficiency,2023,,,,
-Medellín,500.0,Low Proficiency,2023,,,,
-Ulaanbaatar,500.0,Low Proficiency,2023,,,,
-Panama City,491.0,Low Proficiency,2023,,,,
-Nur-Sultan,485.0,Low Proficiency,2023,,,,
-Bishkek,484.0,Low Proficiency,2023,,,,
-Doha,484.0,Low Proficiency,2023,,,,
-Damascus,477.0,Low Proficiency,2023,,,,
-Cairo,476.0,Low Proficiency,2023,,,,
-Guangzhou,475.0,Low Proficiency,2023,,,,
-Amman,470.0,Low Proficiency,2023,,,,
-Baku,466.0,Low Proficiency,2023,,,,
-Mexico City,462.0,Low Proficiency,2023,,,,
-Kabul,458.0,Low Proficiency,2023,,,,
-Bangkok,457.0,Very Low Proficiency,2023,,,,
-Delhi,451.0,Very Low Proficiency,2023,,,,
-Kuwait City,446.0,Very Low Proficiency,2023,,,,
-Tashkent,445.0,Very Low Proficiency,2023,,,,
-Mogadishu,442.0,Very Low Proficiency,2023,,,,
-Khartoum,440.0,Very Low Proficiency,2023,,,,
-Muscat,436.0,Very Low Proficiency,2023,,,,
-Yaoundé,436.0,Very Low Proficiency,2023,,,,
-Nay Pyi Taw,433.0,Very Low Proficiency,2023,,,,
-Luanda,428.0,Very Low Proficiency,2023,,,,
-Port-au-Prince,427.0,Very Low Proficiency,2023,,,,
-Abidjan,425.0,Very Low Proficiency,2023,,,,
-Baghdad,425.0,Very Low Proficiency,2023,,,,
-Phnom Penh,422.0,Very Low Proficiency,2023,,,,
-Kinshasa,421.0,Very Low Proficiency,2023,,,,
-Tripoli,410.0,Very Low Proficiency,2023,,,,
-Kigali,409.0,Very Low Proficiency,2023,,,,
-Sana'a,408.0,Very Low Proficiency,2023,,,,
-Riyadh,400.0,Very Low Proficiency,2023,,,,
-Dushanbe,392.0,Very Low Proficiency,2023,,,,
+Armenia,528.0,Moderate Proficiency,2023,AM,ARM,Asia,Western Asia
+South Korea,525.0,Moderate Proficiency,2023,KR,KOR,Asia,Eastern Asia
+El Salvador,524.0,Moderate Proficiency,2023,SV,SLV,Americas,Latin America and the Caribbean
+Peru,521.0,Moderate Proficiency,2023,PE,PER,Americas,Latin America and the Caribbean
+Chile,518.0,Moderate Proficiency,2023,CL,CHL,Americas,Latin America and the Caribbean
+Guatemala,515.0,Moderate Proficiency,2023,GT,GTM,Americas,Latin America and the Caribbean
+Israel,514.0,Moderate Proficiency,2023,IL,ISR,Asia,Western Asia
+Dominican Republic,512.0,Moderate Proficiency,2023,DO,DOM,Americas,Latin America and the Caribbean
+Venezuela,508.0,Moderate Proficiency,2023,VE,VEN,Americas,Latin America and the Caribbean
+Nepal,507.0,Moderate Proficiency,2023,NP,NPL,Asia,Southern Asia
+Iran,505.0,Moderate Proficiency,2023,IR,IRN,Asia,Southern Asia
+Vietnam,505.0,Moderate Proficiency,2023,VN,VNM,Asia,South-eastern Asia
+Bangladesh,504.0,Moderate Proficiency,2023,BD,BGD,Asia,Southern Asia
+India,504.0,Moderate Proficiency,2023,IN,IND,Asia,Southern Asia
+Nicaragua,503.0,Moderate Proficiency,2023,NI,NIC,Americas,Latin America and the Caribbean
+Tunisia,502.0,Moderate Proficiency,2023,TN,TUN,Africa,Northern Africa
+Pakistan,497.0,Low Proficiency,2023,PK,PAK,Asia,Southern Asia
+Lebanon,496.0,Low Proficiency,2023,LB,LBN,Asia,Western Asia
+Turkey,493.0,Low Proficiency,2023,TR,TUR,Asia,Western Asia
+Sri Lanka,491.0,Low Proficiency,2023,LK,LKA,Asia,Southern Asia
+Tanzania,491.0,Low Proficiency,2023,TZ,TZA,Africa,Sub-Saharan Africa
+Ethiopia,490.0,Low Proficiency,2023,ET,ETH,Africa,Sub-Saharan Africa
+Brazil,487.0,Low Proficiency,2023,BR,BRA,Americas,Latin America and the Caribbean
+Panama,486.0,Low Proficiency,2023,PA,PAN,Americas,Latin America and the Caribbean
+United Arab Emirates,486.0,Low Proficiency,2023,AE,ARE,Asia,Western Asia
+Mongolia,482.0,Low Proficiency,2023,MN,MNG,Asia,Eastern Asia
+Qatar,482.0,Low Proficiency,2023,QA,QAT,Asia,Western Asia
+Colombia,480.0,Low Proficiency,2023,CO,COL,Americas,Latin America and the Caribbean
+Morocco,478.0,Low Proficiency,2023,MA,MAR,Africa,Northern Africa
+Algeria,475.0,Low Proficiency,2023,DZ,DZA,Africa,Northern Africa
+Madagascar,474.0,Low Proficiency,2023,MG,MDG,Africa,Sub-Saharan Africa
+Indonesia,473.0,Low Proficiency,2023,ID,IDN,Asia,South-eastern Asia
+Ecuador,467.0,Low Proficiency,2023,EC,ECU,Americas,Latin America and the Caribbean
+Syria,467.0,Low Proficiency,2023,SY,SYR,Asia,Western Asia
+China,464.0,Low Proficiency,2023,CN,CHN,Asia,Eastern Asia
+Azerbaijan,463.0,Low Proficiency,2023,AZ,AZE,Asia,Western Asia
+Egypt,463.0,Low Proficiency,2023,EG,EGY,Africa,Northern Africa
+Kuwait,461.0,Low Proficiency,2023,KW,KWT,Asia,Western Asia
+Malawi,460.0,Low Proficiency,2023,MW,MWI,Africa,Sub-Saharan Africa
+Japan,457.0,Low Proficiency,2023,JP,JPN,Asia,Eastern Asia
+Afghanistan,456.0,Low Proficiency,2023,AF,AFG,Asia,Southern Asia
+Mexico,451.0,Low Proficiency,2023,MX,MEX,Americas,Latin America and the Caribbean
+Kyrgyzstan,450.0,Low Proficiency,2023,KG,KGZ,Asia,Central Asia
+Myanmar,450.0,Low Proficiency,2023,MM,MMR,Asia,South-eastern Asia
+Palestine,445.0,Very Low Proficiency,2023,PS,PSE,Asia,Western Asia
+Uzbekistan,442.0,Very Low Proficiency,2023,UZ,UZB,Asia,Central Asia
+Cameroon,438.0,Very Low Proficiency,2023,CM,CMR,Africa,Sub-Saharan Africa
+Senegal,438.0,Very Low Proficiency,2023,SN,SEN,Africa,Sub-Saharan Africa
+Jordan,431.0,Very Low Proficiency,2023,JO,JOR,Asia,Western Asia
+Sudan,430.0,Very Low Proficiency,2023,SD,SDN,Africa,Northern Africa
+Cambodia,421.0,Very Low Proficiency,2023,KH,KHM,Asia,South-eastern Asia
+Haiti,421.0,Very Low Proficiency,2023,HT,HTI,Americas,Latin America and the Caribbean
+Oman,418.0,Very Low Proficiency,2023,OM,OMN,Asia,Western Asia
+Angola,416.0,Very Low Proficiency,2023,AO,AGO,Africa,Sub-Saharan Africa
+Benin,416.0,Very Low Proficiency,2023,BJ,BEN,Africa,Sub-Saharan Africa
+Thailand,416.0,Very Low Proficiency,2023,TH,THA,Asia,South-eastern Asia
+Kazakhstan,415.0,Very Low Proficiency,2023,KZ,KAZ,Asia,Central Asia
+Somalia,411.0,Very Low Proficiency,2023,SO,SOM,Africa,Sub-Saharan Africa
+Iraq,410.0,Very Low Proficiency,2023,IQ,IRQ,Asia,Western Asia
+Ivory Coast,409.0,Very Low Proficiency,2023,CI,CIV,Africa,Sub-Saharan Africa
+Saudi Arabia,408.0,Very Low Proficiency,2023,SA,SAU,Asia,Western Asia
+Rwanda,405.0,Very Low Proficiency,2023,RW,RWA,Africa,Sub-Saharan Africa
+Libya,392.0,Very Low Proficiency,2023,LY,LBY,Africa,Northern Africa
+Yemen,392.0,Very Low Proficiency,2023,YE,YEM,Asia,Western Asia
+Tajikistan,388.0,Very Low Proficiency,2023,TJ,TJK,Asia,Central Asia
+Democratic Republic of the Congo,385.0,Very Low Proficiency,2023,CD,COD,Africa,Sub-Saharan Africa
 Netherlands,636.0,Very High Proficiency,2024,NL,NLD,Europe,Western Europe
 Norway,610.0,Very High Proficiency,2024,NO,NOR,Europe,Northern Europe
 Singapore,609.0,Very High Proficiency,2024,SG,SGP,Asia,South-eastern Asia
@@ -1074,7 +1090,7 @@ Luxembourg,576.0,High Proficiency,2024,LU,LUX,Europe,Western Europe
 Philippines,570.0,High Proficiency,2024,PH,PHL,Asia,South-eastern Asia
 Lithuania,569.0,High Proficiency,2024,LT,LTU,Europe,Northern Europe
 Serbia,568.0,High Proficiency,2024,RS,SRB,Europe,Southern Europe
-Czechia,567.0,High Proficiency,2024,,,,
+Czech Republic,567.0,High Proficiency,2024,CZ,CZE,Europe,Eastern Europe
 Malaysia,566.0,High Proficiency,2024,MY,MYS,Asia,South-eastern Asia
 Suriname,563.0,High Proficiency,2024,SR,SUR,Americas,Latin America and the Caribbean
 Argentina,562.0,High Proficiency,2024,AR,ARG,Americas,Latin America and the Caribbean
@@ -1163,6 +1179,6 @@ Angola,409.0,Very Low Proficiency,2024,AO,AGO,Africa,Sub-Saharan Africa
 Cambodia,408.0,Very Low Proficiency,2024,KH,KHM,Asia,South-eastern Asia
 Libya,405.0,Very Low Proficiency,2024,LY,LBY,Africa,Northern Africa
 Rwanda,401.0,Very Low Proficiency,2024,RW,RWA,Africa,Sub-Saharan Africa
-C么te d'Ivoire,399.0,Very Low Proficiency,2024,,,,
+Ivory Coast,399.0,Very Low Proficiency,2024,CI,CIV,Africa,Sub-Saharan Africa
 Somalia,399.0,Very Low Proficiency,2024,SO,SOM,Africa,Sub-Saharan Africa
 Yemen,394.0,Very Low Proficiency,2024,YE,YEM,Asia,Western Asia

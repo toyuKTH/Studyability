@@ -1000,56 +1000,72 @@ Rank,Country,EF EPI Score,Level,Year
 45,Paraguay,530.0,Moderate Proficiency,2023
 46,Ukraine,530.0,Moderate Proficiency,2023
 47,Uganda,529.0,Moderate Proficiency,2023
-48,Dhaka,521.0,Moderate Proficiency,2023
-49,Guatemala City,521.0,Moderate Proficiency,2023
-50,Tehran,521.0,Moderate Proficiency,2023
-51,Kampala,520.0,Moderate Proficiency,2023
-52,Addis Ababa,515.0,Moderate Proficiency,2023
-53,Dar Es Salaam,515.0,Moderate Proficiency,2023
-54,Beijing,514.0,Moderate Proficiency,2023
-55,Algiers,513.0,Moderate Proficiency,2023
-56,Quito,513.0,Moderate Proficiency,2023
-57,Rio de Janeiro,513.0,Moderate Proficiency,2023
-58,Shanghai,512.0,Moderate Proficiency,2023
-59,Managua,511.0,Moderate Proficiency,2023
-60,Dubai,510.0,Low Proficiency,2023
-61,Rabat,506.0,Low Proficiency,2023
-62,Ankara,503.0,Low Proficiency,2023
-63,Tokyo,503.0,Low Proficiency,2023
-64,Jerusalem,500.0,Low Proficiency,2023
-65,Medellín,500.0,Low Proficiency,2023
-66,Ulaanbaatar,500.0,Low Proficiency,2023
-67,Panama City,491.0,Low Proficiency,2023
-68,Nur-Sultan,485.0,Low Proficiency,2023
-69,Bishkek,484.0,Low Proficiency,2023
-70,Doha,484.0,Low Proficiency,2023
-71,Damascus,477.0,Low Proficiency,2023
-72,Cairo,476.0,Low Proficiency,2023
-73,Guangzhou,475.0,Low Proficiency,2023
-74,Amman,470.0,Low Proficiency,2023
-75,Baku,466.0,Low Proficiency,2023
-76,Mexico City,462.0,Low Proficiency,2023
-77,Kabul,458.0,Low Proficiency,2023
-78,Bangkok,457.0,Very Low Proficiency,2023
-79,Delhi,451.0,Very Low Proficiency,2023
-80,Kuwait City,446.0,Very Low Proficiency,2023
-81,Tashkent,445.0,Very Low Proficiency,2023
-82,Mogadishu,442.0,Very Low Proficiency,2023
-83,Khartoum,440.0,Very Low Proficiency,2023
-84,Muscat,436.0,Very Low Proficiency,2023
-85,Yaoundé,436.0,Very Low Proficiency,2023
-86,Nay Pyi Taw,433.0,Very Low Proficiency,2023
-87,Luanda,428.0,Very Low Proficiency,2023
-88,Port-au-Prince,427.0,Very Low Proficiency,2023
-89,Abidjan,425.0,Very Low Proficiency,2023
-90,Baghdad,425.0,Very Low Proficiency,2023
-91,Phnom Penh,422.0,Very Low Proficiency,2023
-92,Kinshasa,421.0,Very Low Proficiency,2023
-93,Tripoli,410.0,Very Low Proficiency,2023
-94,Kigali,409.0,Very Low Proficiency,2023
-95,Sana'a,408.0,Very Low Proficiency,2023
-96,Riyadh,400.0,Very Low Proficiency,2023
-97,Dushanbe,392.0,Very Low Proficiency,2023
+48,Armenia,528.0,Moderate Proficiency,2023
+49,South Korea,525.0,Moderate Proficiency,2023
+50,El Salvador,524.0,Moderate Proficiency,2023
+51,Peru,521.0,Moderate Proficiency,2023
+52,Chile,518.0,Moderate Proficiency,2023
+53,Guatemala,515.0,Moderate Proficiency,2023
+54,Israel,514.0,Moderate Proficiency,2023
+55,Dominican Republic,512.0,Moderate Proficiency,2023
+56,Venezuela,508.0,Moderate Proficiency,2023
+57,Nepal,507.0,Moderate Proficiency,2023
+58,Iran,505.0,Moderate Proficiency,2023
+58,Vietnam,505.0,Moderate Proficiency,2023
+60,Bangladesh,504.0,Moderate Proficiency,2023
+60,India,504.0,Moderate Proficiency,2023
+62,Nicaragua,503.0,Moderate Proficiency,2023
+63,Tunisia,502.0,Moderate Proficiency,2023
+64,Pakistan,497.0,Low Proficiency,2023
+65,Lebanon,496.0,Low Proficiency,2023
+66,Turkey,493.0,Low Proficiency,2023
+67,Sri Lanka,491.0,Low Proficiency,2023
+67,Tanzania,491.0,Low Proficiency,2023
+69,Ethiopia,490.0,Low Proficiency,2023
+70,Brazil,487.0,Low Proficiency,2023
+71,Panama,486.0,Low Proficiency,2023
+71,United Arab Emirates,486.0,Low Proficiency,2023
+73,Mongolia,482.0,Low Proficiency,2023
+73,Qatar,482.0,Low Proficiency,2023
+75,Colombia,480.0,Low Proficiency,2023
+76,Morocco,478.0,Low Proficiency,2023
+77,Algeria,475.0,Low Proficiency,2023
+78,Madagascar,474.0,Low Proficiency,2023
+79,Indonesia,473.0,Low Proficiency,2023
+80,Ecuador,467.0,Low Proficiency,2023
+80,Syria,467.0,Low Proficiency,2023
+82,China,464.0,Low Proficiency,2023
+83,Azerbaijan,463.0,Low Proficiency,2023
+83,Egypt,463.0,Low Proficiency,2023
+85,Kuwait,461.0,Low Proficiency,2023
+86,Malawi,460.0,Low Proficiency,2023
+87,Japan,457.0,Low Proficiency,2023
+88,Afghanistan,456.0,Low Proficiency,2023
+89,Mexico,451.0,Low Proficiency,2023
+90,Kyrgyzstan,450.0,Low Proficiency,2023
+90,Myanmar,450.0,Low Proficiency,2023
+92,Palestine,445.0,Very Low Proficiency,2023
+93,Uzbekistan,442.0,Very Low Proficiency,2023
+94,Cameroon,438.0,Very Low Proficiency,2023
+94,Senegal,438.0,Very Low Proficiency,2023
+96,Jordan,431.0,Very Low Proficiency,2023
+97,Sudan,430.0,Very Low Proficiency,2023
+98,Cambodia,421.0,Very Low Proficiency,2023
+98,Haiti,421.0,Very Low Proficiency,2023
+100,Oman,418.0,Very Low Proficiency,2023
+101,Angola,416.0,Very Low Proficiency,2023
+101,Benin,416.0,Very Low Proficiency,2023
+101,Thailand,416.0,Very Low Proficiency,2023
+104,Kazakhstan,415.0,Very Low Proficiency,2023
+105,Somalia,411.0,Very Low Proficiency,2023
+106,Iraq,410.0,Very Low Proficiency,2023
+107,Côte d'Ivoire,409.0,Very Low Proficiency,2023
+108,Saudi Arabia,408.0,Very Low Proficiency,2023
+109,Rwanda,405.0,Very Low Proficiency,2023
+110,Libya,392.0,Very Low Proficiency,2023
+110,Yemen,392.0,Very Low Proficiency,2023
+112,Tajikistan,388.0,Very Low Proficiency,2023
+113,Democratic Republic of the Congo,385.0,Very Low Proficiency,2023
 1,Netherlands,636.0,Very High Proficiency,2024
 2,Norway,610.0,Very High Proficiency,2024
 3,Singapore,609.0,Very High Proficiency,2024
