@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import * as d3 from "d3";
 // import LinePlot from "./components/LinePlot";
 import WorldMap from "./components/WorldMap";
 import { data } from "./topologyData/countryTopology";

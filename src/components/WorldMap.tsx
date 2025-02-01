@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 import { FeatureCollection } from "geojson";
-import { ReactNode, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 type MapProps = {
   width: number;
@@ -66,7 +66,7 @@ export const WorldMap = ({ width, height, data }: MapProps) => {
     path.on("mouseover", (event) => {
       if (event.target.tagName === "path") {
         svg.style("cursor", "pointer");
-        d3.select(`#${event.target.id}`).attr("fill", "orange");
+        d3.select(`#${event.target.id}`).attr("fill", "cornflowerblue");
         d3.selectAll("path").attr("opacity", "0.5");
         d3.select(`#${event.target.id}`).attr("opacity", "1");
       }
