@@ -1,60 +1,28 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import "./WorldMapFilter.css";
 import * as d3 from "d3";
 // import UniversityRankings from "../models/UniversityRankings.type";
-import { data } from "../topologyData/countryTopology";
-import { Dispatch } from "d3";
+import { CountryDispatchContext } from "../models/Context";
+import { IDispatchType } from "../models/Context.types";
+import { worldTopology } from "../data/topologyData/countryTopology";
 
-export default function WorldMapFilter({
-  costumeDispatch,
-}: {
-  costumeDispatch: Dispatch<object>;
-}) {
-  //   const [countryData, setCountryData] = useState<UniversityRankings[]>();
-  //   const [filteredCountryData, setFilteredCountryData] =
-  //     useState<UniversityRankings[]>();
+export default function WorldMapFilter() {
+  const countryDispatch = useContext(CountryDispatchContext);
   const [filterInput, setFilterInput] = useState<string>("");
 
   const [justCountries, setJustCountries] = useState<string[][]>([]);
   const [filteredCountries, setFilteredCountries] = useState<string[][]>([]);
 
   useEffect(() => {
-    const cleanCountryData = data.features.map((country) => {
+    const cleanCountryData = worldTopology?.features.map((country) => {
       return [country.properties?.name, country.id];
     });
+
+    if (!cleanCountryData) return;
+
     setJustCountries(cleanCountryData);
     setFilteredCountries(cleanCountryData);
-  }, [data]);
-
-  //   useEffect(() => {
-  //     async function fetchCountryData() {
-  //       const data: UniversityRankings[] = await d3.csv(
-  //         "../../data/university_rankings.csv",
-  //         (d): UniversityRankings => {
-  //           return {
-  //             "2025_rank": d["2025_rank"],
-  //             "2024_rank": d["2024_rank"],
-  //             university: d.university,
-  //             alpha_2: d.alpha_2,
-  //             academic_reputation: +d.academic_reputation,
-  //             employer_reputation: +d.employer_reputation,
-  //             international_students: +d.international_students,
-  //             employment_outcomes: +d.employment_outcomes,
-  //             sustainability: +d.sustainability,
-  //             qs_overall_score: +d.qs_overall_score,
-  //           };
-  //         }
-  //       );
-  //       data.sort((a, b) => {
-  //         // @ts-ignore
-  //         return a["2025_rank"] - b["2025_rank"];
-  //       });
-
-  //       setCountryData(data);
-  //     }
-
-  //     fetchCountryData().catch(console.error);
-  //   }, [countryData]);
+  }, [worldTopology]);
 
   useEffect(() => {
     if (!justCountries) return;
@@ -69,13 +37,13 @@ export default function WorldMapFilter({
     setFilterInput(event.target.value);
   };
 
-  const handleCountryHover = (country: string) => {
+  const handleCountryClick = (country: string) => {
     const countryPath = d3.select(`#${country}`);
     countryPath.attr("fill", "cornflowerblue");
 
     if (!countryPath.node()) return;
 
-    costumeDispatch.call("countrySelected", {}, { country });
+    countryDispatch({ type: IDispatchType.selectCountry, data: country });
   };
 
   return (
@@ -95,7 +63,7 @@ export default function WorldMapFilter({
           <div
             key={index}
             className="country-list-item"
-            onClick={() => handleCountryHover(country[1])}
+            onClick={() => handleCountryClick(country[1])}
           >
             <span>{country[0]}</span>
             {/* <span>{country.university}</span> */}

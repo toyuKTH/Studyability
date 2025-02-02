@@ -1,13 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import "./App.css";
-// import LinePlot from "./components/LinePlot";
 import WorldMap from "./components/WorldMap";
-import { data } from "./topologyData/countryTopology";
 import WorldMapFilter from "./components/WorldMapFilter";
-import * as d3 from "d3";
 
 function App() {
-  // const [data, setData] = useState(() => d3.ticks(-2, 2, 200).map(Math.sin));
   const [mapWidth, setMapWidth] = useState(0);
   const [mapHeight, setMapHeight] = useState(0);
 
@@ -19,36 +15,31 @@ function App() {
     setMapWidth(mapDivRef.current.offsetWidth);
     setMapHeight(mapDivRef.current.offsetHeight);
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResizeEvent);
+    var resizeTimeout: number;
+
+    function handleResizeEvent() {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        handleResize();
+      }, 200);
+    }
+
     function handleResize() {
       if (mapDivRef.current) {
         setMapWidth(mapDivRef.current.offsetWidth);
         setMapHeight(mapDivRef.current.offsetHeight);
       }
     }
-    return () => window.removeEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResizeEvent);
   }, [mapDivRef]);
-
-  // function onMouseMove(event: React.MouseEvent) {
-  //   const [x, y] = d3.pointer(event);
-  //   setData(data.slice(-200).concat(Math.atan2(x, y)));
-  // }
-
-  // get window width
-
-  const dispatch = d3.dispatch("countrySelected", "resetZoom");
 
   return (
     <div className="App">
       <div ref={mapDivRef} className="map-container">
-        <WorldMap
-          width={mapWidth}
-          height={mapHeight}
-          data={data as any}
-          costumeDispatch={dispatch}
-        />
+        <WorldMap width={mapWidth} height={mapHeight} />
       </div>
-      <WorldMapFilter costumeDispatch={dispatch} />
+      <WorldMapFilter />
     </div>
   );
 }

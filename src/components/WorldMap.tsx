@@ -1,53 +1,54 @@
 import * as d3 from "d3";
-import { Dispatch, ZoomBehavior } from "d3";
-import { FeatureCollection } from "geojson";
-import { useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import "./WorldMap.css";
+import { CountryDispatchContext, d3Dispatch } from "../models/Context";
+import { IDispatchType } from "../models/Context.types";
+import { worldTopology } from "../data/topologyData/countryTopology";
 
 type MapProps = {
   width: number;
   height: number;
-  data: FeatureCollection;
-  costumeDispatch: Dispatch<object>;
 };
 
-export const WorldMap = ({
-  width,
-  height,
-  data,
-  costumeDispatch,
-}: MapProps) => {
+export const WorldMap = ({ width, height }: MapProps) => {
+  const countryDispatch = useContext(CountryDispatchContext);
+
+  const [svgPaths, setSvgPaths] = useState<JSX.Element[]>([]);
   const [zoomed, setZoomed] = useState(false);
 
   const svgRef = useRef<SVGSVGElement>(null);
 
-  const projection = d3.geoNaturalEarth1().fitSize([width, height], data);
-
-  const geoPathGenerator = d3.geoPath().projection(projection);
-
-  const allSvgPaths = data.features
-    .filter((shape) => shape.id !== "ATA")
-    .map((shape) => {
-      return (
-        <path
-          key={shape.id}
-          id={shape.id?.toString()}
-          d={geoPathGenerator(shape) as string}
-          stroke="lightGrey"
-          strokeWidth={0.5}
-          fill="grey"
-          fillOpacity={0.7}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      );
-    });
-
   useEffect(() => {
     if (!svgRef.current) return;
 
+    const world = worldTopology;
+
+    const projection = d3
+      .geoNaturalEarth1()
+      .fitSize([width, height], world as any);
+
+    const geoPath = d3.geoPath(projection);
     var svg = d3.select(svgRef.current);
-    var path = svg.selectAll("path");
+
+    const allSvgPaths = worldTopology.features
+      .filter((shape) => shape.id !== "ATA")
+      .map((shape) => {
+        return (
+          <path
+            key={shape.id}
+            id={shape.id?.toString()}
+            d={geoPath(shape as any) as any}
+            stroke="lightGrey"
+            strokeWidth={0.5}
+            fill="grey"
+            fillOpacity={0.7}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        );
+      });
+
+    setSvgPaths(allSvgPaths);
 
     const zoomBehavior = d3
       .zoom<SVGSVGElement, unknown>()
@@ -59,7 +60,7 @@ export const WorldMap = ({
       .on("zoom", zoomed);
 
     function zoomed(event: any) {
-      path.attr("transform", event.transform);
+      svg.selectAll("path").attr("transform", event.transform);
       if (
         event.transform.k !== 1 ||
         event.transform.x !== 0 ||
@@ -69,11 +70,11 @@ export const WorldMap = ({
       else setZoomed(false);
     }
 
-    svg.call(zoomBehavior);
+    svg.call(zoomBehavior as any);
 
-    costumeDispatch.on("countrySelected", (event: { country: string }) => {
-      const [[x0, y0], [x1, y1]] = geoPathGenerator.bounds(
-        data.features.find(
+    d3Dispatch.on("countrySelected", (event: { country: string }) => {
+      const [[x0, y0], [x1, y1]] = geoPath.bounds(
+        worldTopology.features.find(
           (shape) => shape.id === event.country
         ) as d3.GeoPermissibleObjects
       );
@@ -85,19 +86,21 @@ export const WorldMap = ({
           d3.zoomIdentity
             .translate(width / 2, height / 2)
             .scale(
-              Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
+              Math.min(6, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
             )
             .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
           d3.pointer(event, svg.node())
         );
     });
 
-    costumeDispatch.on("resetZoom", () => {
+    d3Dispatch.on("resetZoom", () => {
       svg
         .transition()
         .duration(750)
         .call(zoomBehavior.transform, d3.zoomIdentity);
     });
+
+    const path = svg.selectAll("path");
 
     path.on("mouseover", (event) => {
       if (event.target.tagName === "path") {
@@ -118,20 +121,24 @@ export const WorldMap = ({
 
     path.on("click", (event) => {
       if (event.target.tagName === "path") {
-        costumeDispatch.call("countrySelected", event, {
-          country: event.target.id,
+        countryDispatch({
+          type: IDispatchType.selectCountry,
+          data: event.target.id,
         });
       }
     });
 
     return () => {
-      costumeDispatch.on("countrySelected", null);
-      costumeDispatch.on("resetZoom", null);
+      d3Dispatch.on("countrySelected", null);
+      d3Dispatch.on("resetZoom", null);
+      path.on("mouseover", null);
+      path.on("mouseleave", null);
+      path.on("click", null);
     };
-  }, [svgRef.current, width, height]);
+  }, [width, height, svgRef.current]);
 
   function handleReset() {
-    costumeDispatch.call("resetZoom");
+    d3Dispatch.call("resetZoom");
   }
 
   return (
@@ -140,7 +147,7 @@ export const WorldMap = ({
         {zoomed && <button onClick={handleReset}>reset map</button>}
       </div>
       <svg width={width} height={height} ref={svgRef}>
-        {allSvgPaths}
+        {svgPaths}
       </svg>
     </div>
   );

@@ -1,4 +1,4 @@
-export const data = {
+export const worldTopology = {
   type: "FeatureCollection",
   features: [
     {
