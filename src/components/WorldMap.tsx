@@ -18,11 +18,6 @@ export const WorldMap = ({
   costumeDispatch,
 }: MapProps) => {
   const [zoomed, setZoomed] = useState(false);
-  const [originalPosition, setOriginalPosition] = useState({
-    k: 1,
-    x: 0,
-    y: 0,
-  });
 
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -66,9 +61,9 @@ export const WorldMap = ({
     function zoomed(event: any) {
       path.attr("transform", event.transform);
       if (
-        event.transform.k !== originalPosition.k ||
-        event.transform.x !== originalPosition.x ||
-        event.transform.y !== originalPosition.y
+        event.transform.k !== 1 ||
+        event.transform.x !== 0 ||
+        event.transform.y !== 0
       )
         setZoomed(true);
       else setZoomed(false);

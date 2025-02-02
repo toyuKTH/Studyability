@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./WorldMapFilter.css";
 import * as d3 from "d3";
-import UniversityRankings from "../models/UniversityRankings.type";
+// import UniversityRankings from "../models/UniversityRankings.type";
 import { data } from "../topologyData/countryTopology";
 import { Dispatch } from "d3";
 
@@ -10,9 +10,9 @@ export default function WorldMapFilter({
 }: {
   costumeDispatch: Dispatch<object>;
 }) {
-  const [countryData, setCountryData] = useState<UniversityRankings[]>();
-  const [filteredCountryData, setFilteredCountryData] =
-    useState<UniversityRankings[]>();
+  //   const [countryData, setCountryData] = useState<UniversityRankings[]>();
+  //   const [filteredCountryData, setFilteredCountryData] =
+  //     useState<UniversityRankings[]>();
   const [filterInput, setFilterInput] = useState<string>("");
 
   const [justCountries, setJustCountries] = useState<string[][]>([]);
