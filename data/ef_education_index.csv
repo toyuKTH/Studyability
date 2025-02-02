@@ -1,0 +1,1184 @@
+rank,country,ef_score,level,year,alpha_2,alpha_3,region,sub_region
+1,Norway,69.09,Very High Proficiency,2011,NO,NOR,Europe,Northern Europe
+2,Netherlands,67.93,Very High Proficiency,2011,NL,NLD,Europe,Western Europe
+3,Denmark,66.91,Very High Proficiency,2011,DK,DNK,Europe,Northern Europe
+4,Sweden,66.26,Very High Proficiency,2011,SE,SWE,Europe,Northern Europe
+5,Finland,65.38,Very High Proficiency,2011,FI,FIN,Europe,Northern Europe
+6,Austria,58.58,High Proficiency,2011,AT,AUT,Europe,Western Europe
+7,Belgium,57.5,High Proficiency,2011,BE,BEL,Europe,Western Europe
+8,Germany,56.8,High Proficiency,2011,DE,DEU,Europe,Western Europe
+9,Malaysia,55.54,High Proficiency,2011,MY,MYS,Asia,South-eastern Asia
+10,Poland,54.81,Moderate Proficiency,2011,PL,POL,Europe,Eastern Europe
+11,Switzerland,54.69,Moderate Proficiency,2011,CH,CHE,Europe,Western Europe
+12,Hong Kong,54.41,Moderate Proficiency,2011,HK,HKG,Asia,Eastern Asia
+13,South Korea,54.19,Moderate Proficiency,2011,KR,KOR,Asia,Eastern Asia
+14,Japan,53.82,Moderate Proficiency,2011,JP,JPN,Asia,Eastern Asia
+15,Portugal,53.66,Moderate Proficiency,2011,PT,PRT,Europe,Southern Europe
+16,Argentina,53.48,Moderate Proficiency,2011,AR,ARG,Americas,Latin America and the Caribbean
+17,France,51.48,Moderate Proficiency,2011,FR,FRA,Europe,Western Europe
+18,Mexico,51.31,Moderate Proficiency,2011,MX,MEX,Americas,Latin America and the Caribbean
+19,Czech Republic,51.01,Moderate Proficiency,2011,CZ,CZE,Europe,Eastern Europe
+20,Hungary,50.64,Moderate Proficiency,2011,HU,HUN,Europe,Eastern Europe
+21,Slovakia,50.64,Moderate Proficiency,2011,SK,SVK,Europe,Eastern Europe
+22,Costa Rica,49.15,Low Proficiency,2011,CR,CRI,Americas,Latin America and the Caribbean
+23,Italy,49.05,Low Proficiency,2011,IT,ITA,Europe,Southern Europe
+24,Spain,49.01,Low Proficiency,2011,ES,ESP,Europe,Southern Europe
+25,Taiwan,48.95,Low Proficiency,2011,TW,TWN,,
+26,Saudi Arabia,48.05,Low Proficiency,2011,SA,SAU,Asia,Western Asia
+27,Guatemala,47.85,Low Proficiency,2011,GT,GTM,Americas,Latin America and the Caribbean
+28,El Salvador,47.65,Low Proficiency,2011,SV,SLV,Americas,Latin America and the Caribbean
+29,China,47.62,Low Proficiency,2011,CN,CHN,Asia,Eastern Asia
+30,Brazil,47.35,Low Proficiency,2011,BR,BRA,Americas,Latin America and the Caribbean
+31,India,45.97,Low Proficiency,2011,IN,IND,Asia,Southern Asia
+32,Russia,45.79,Low Proficiency,2011,RU,RUS,Europe,Eastern Europe
+33,Dominican Republic,44.78,Very Low Proficiency,2011,DO,DOM,Americas,Latin America and the Caribbean
+34,Indonesia,44.71,Very Low Proficiency,2011,ID,IDN,Asia,South-eastern Asia
+35,Peru,44.71,Very Low Proficiency,2011,PE,PER,Americas,Latin America and the Caribbean
+36,Chile,44.54,Very Low Proficiency,2011,CL,CHL,Americas,Latin America and the Caribbean
+37,Ecuador,44.44,Very Low Proficiency,2011,EC,ECU,Americas,Latin America and the Caribbean
+38,Venezuela,44.35,Very Low Proficiency,2011,VE,VEN,Americas,Latin America and the Caribbean
+39,Vietnam,43.92,Very Low Proficiency,2011,VN,VNM,Asia,South-eastern Asia
+40,Panama,43.67,Very Low Proficiency,2011,PA,PAN,Americas,Latin America and the Caribbean
+41,Colombia,42.77,Very Low Proficiency,2011,CO,COL,Americas,Latin America and the Caribbean
+42,Thailand,41.82,Very Low Proficiency,2011,TH,THA,Asia,South-eastern Asia
+43,Turkey,37.66,Very Low Proficiency,2011,TR,TUR,Asia,Western Asia
+44,Kazakhstan,31.74,Very Low Proficiency,2011,KZ,KAZ,Asia,Central Asia
+1,Sweden,68.91,Very High Proficiency,2012,SE,SWE,Europe,Northern Europe
+2,Denmark,67.96,Very High Proficiency,2012,DK,DNK,Europe,Northern Europe
+3,Netherlands,66.32,Very High Proficiency,2012,NL,NLD,Europe,Western Europe
+4,Finland,64.37,Very High Proficiency,2012,FI,FIN,Europe,Northern Europe
+5,Norway,63.22,Very High Proficiency,2012,NO,NOR,Europe,Northern Europe
+6,Belgium,62.46,High Proficiency,2012,BE,BEL,Europe,Western Europe
+7,Austria,62.14,High Proficiency,2012,AT,AUT,Europe,Western Europe
+8,Hungary,60.39,High Proficiency,2012,HU,HUN,Europe,Eastern Europe
+9,Germany,60.07,High Proficiency,2012,DE,DEU,Europe,Western Europe
+10,Poland,59.08,High Proficiency,2012,PL,POL,Europe,Eastern Europe
+11,Czech Republic,58.9,High Proficiency,2012,CZ,CZE,Europe,Eastern Europe
+12,Singapore,58.65,High Proficiency,2012,SG,SGP,Asia,South-eastern Asia
+13,Malaysia,57.95,High Proficiency,2012,MY,MYS,Asia,South-eastern Asia
+14,India,57.49,Moderate Proficiency,2012,IN,IND,Asia,Southern Asia
+15,Switzerland,57.39,Moderate Proficiency,2012,CH,CHE,Europe,Western Europe
+16,Slovakia,56.62,Moderate Proficiency,2012,SK,SVK,Europe,Eastern Europe
+17,Pakistan,56.03,Moderate Proficiency,2012,PK,PAK,Asia,Southern Asia
+18,Spain,55.89,Moderate Proficiency,2012,ES,ESP,Europe,Southern Europe
+19,Portugal,55.39,Moderate Proficiency,2012,PT,PRT,Europe,Southern Europe
+20,Argentina,55.38,Moderate Proficiency,2012,AR,ARG,Americas,Latin America and the Caribbean
+21,South Korea,55.36,Moderate Proficiency,2012,KR,KOR,Asia,Eastern Asia
+22,Japan,55.14,Moderate Proficiency,2012,JP,JPN,Asia,Eastern Asia
+23,France,54.28,Moderate Proficiency,2012,FR,FRA,Europe,Western Europe
+24,Italy,54.01,Moderate Proficiency,2012,IT,ITA,Europe,Southern Europe
+25,Hong Kong,53.65,Moderate Proficiency,2012,HK,HKG,Asia,Eastern Asia
+26,Uruguay,53.42,Low Proficiency,2012,UY,URY,Americas,Latin America and the Caribbean
+27,Indonesia,53.31,Low Proficiency,2012,ID,IDN,Asia,South-eastern Asia
+28,Iran,52.92,Low Proficiency,2012,IR,IRN,Asia,Southern Asia
+29,Russia,52.78,Low Proficiency,2012,RU,RUS,Europe,Eastern Europe
+30,Taiwan,52.42,Low Proficiency,2012,TW,TWN,,
+31,Vietnam,52.14,Low Proficiency,2012,VN,VNM,Asia,South-eastern Asia
+32,Turkey,51.19,Low Proficiency,2012,TR,TUR,Asia,Western Asia
+33,Peru,50.55,Low Proficiency,2012,PE,PER,Americas,Latin America and the Caribbean
+34,Costa Rica,50.45,Low Proficiency,2012,CR,CRI,Americas,Latin America and the Caribbean
+35,Morocco,49.4,Low Proficiency,2012,MA,MAR,Africa,Northern Africa
+36,China,49.0,Low Proficiency,2012,CN,CHN,Asia,Eastern Asia
+37,Qatar,48.79,Low Proficiency,2012,QA,QAT,Asia,Western Asia
+38,Mexico,48.6,Low Proficiency,2012,MX,MEX,Americas,Latin America and the Caribbean
+39,Chile,48.41,Very Low Proficiency,2012,CL,CHL,Americas,Latin America and the Caribbean
+40,Venezuela,47.5,Very Low Proficiency,2012,VE,VEN,Americas,Latin America and the Caribbean
+41,El Salvador,47.31,Very Low Proficiency,2012,SV,SLV,Americas,Latin America and the Caribbean
+42,Syria,47.22,Very Low Proficiency,2012,SY,SYR,Asia,Western Asia
+43,Ecuador,47.19,Very Low Proficiency,2012,EC,ECU,Americas,Latin America and the Caribbean
+44,Algeria,47.13,Very Low Proficiency,2012,DZ,DZA,Africa,Northern Africa
+45,Kuwait,47.01,Very Low Proficiency,2012,KW,KWT,Asia,Western Asia
+46,Brazil,46.86,Very Low Proficiency,2012,BR,BRA,Americas,Latin America and the Caribbean
+47,Guatemala,46.66,Very Low Proficiency,2012,GT,GTM,Americas,Latin America and the Caribbean
+48,Egypt,45.92,Very Low Proficiency,2012,EG,EGY,Africa,Northern Africa
+49,United Arab Emirates,45.53,Very Low Proficiency,2012,AE,ARE,Asia,Western Asia
+50,Colombia,45.07,Very Low Proficiency,2012,CO,COL,Americas,Latin America and the Caribbean
+51,Panama,44.68,Very Low Proficiency,2012,PA,PAN,Americas,Latin America and the Caribbean
+52,Saudi Arabia,44.36,Very Low Proficiency,2012,SA,SAU,Asia,Western Asia
+53,Thailand,42.53,Very Low Proficiency,2012,TH,THA,Asia,South-eastern Asia
+54,Libya,42.53,Very Low Proficiency,2012,LY,LBY,Africa,Northern Africa
+1,Sweden,68.69,Very High Proficiency,2013,SE,SWE,Europe,Northern Europe
+2,Norway,66.6,Very High Proficiency,2013,NO,NOR,Europe,Northern Europe
+3,Netherlands,66.19,Very High Proficiency,2013,NL,NLD,Europe,Western Europe
+4,Estonia,65.55,Very High Proficiency,2013,EE,EST,Europe,Northern Europe
+5,Denmark,65.15,Very High Proficiency,2013,DK,DNK,Europe,Northern Europe
+6,Austria,62.66,Very High Proficiency,2013,AT,AUT,Europe,Western Europe
+7,Finland,62.63,Very High Proficiency,2013,FI,FIN,Europe,Northern Europe
+8,Poland,62.25,High Proficiency,2013,PL,POL,Europe,Eastern Europe
+9,Hungary,60.41,High Proficiency,2013,HU,HUN,Europe,Eastern Europe
+10,Slovenia,60.19,High Proficiency,2013,SI,SVN,Europe,Southern Europe
+11,Malaysia,58.99,High Proficiency,2013,MY,MYS,Asia,South-eastern Asia
+12,Singapore,58.92,High Proficiency,2013,SG,SGP,Asia,South-eastern Asia
+13,Belgium,58.74,High Proficiency,2013,BE,BEL,Europe,Western Europe
+14,Germany,58.47,High Proficiency,2013,DE,DEU,Europe,Western Europe
+15,Latvia,57.66,High Proficiency,2013,LV,LVA,Europe,Northern Europe
+16,Switzerland,57.59,High Proficiency,2013,CH,CHE,Europe,Western Europe
+17,Portugal,57.52,High Proficiency,2013,PT,PRT,Europe,Southern Europe
+18,Slovakia,54.58,Moderate Proficiency,2013,SK,SVK,Europe,Eastern Europe
+19,Argentina,54.43,Moderate Proficiency,2013,AR,ARG,Americas,Latin America and the Caribbean
+20,Czech Republic,54.4,Moderate Proficiency,2013,CZ,CZE,Europe,Eastern Europe
+21,India,54.38,Moderate Proficiency,2013,IN,IND,Asia,Southern Asia
+22,Hong Kong,53.54,Moderate Proficiency,2013,HK,HKG,Asia,Eastern Asia
+23,Spain,53.51,Moderate Proficiency,2013,ES,ESP,Europe,Southern Europe
+24,South Korea,53.46,Moderate Proficiency,2013,KR,KOR,Asia,Eastern Asia
+25,Indonesia,53.44,Moderate Proficiency,2013,ID,IDN,Asia,South-eastern Asia
+26,Japan,53.21,Moderate Proficiency,2013,JP,JPN,Asia,Eastern Asia
+27,Ukraine,53.09,Moderate Proficiency,2013,UA,UKR,Europe,Eastern Europe
+28,Vietnam,52.27,Moderate Proficiency,2013,VN,VNM,Asia,South-eastern Asia
+29,Uruguay,51.49,Low Proficiency,2013,UY,URY,Americas,Latin America and the Caribbean
+30,Sri Lanka,51.47,Low Proficiency,2013,LK,LKA,Asia,Southern Asia
+31,Russia,51.08,Low Proficiency,2013,RU,RUS,Europe,Eastern Europe
+32,Italy,50.97,Low Proficiency,2013,IT,ITA,Europe,Southern Europe
+33,Taiwan,50.95,Low Proficiency,2013,TW,TWN,,
+34,China,50.77,Low Proficiency,2013,CN,CHN,Asia,Eastern Asia
+35,France,50.53,Low Proficiency,2013,FR,FRA,Europe,Western Europe
+36,United Arab Emirates,50.37,Low Proficiency,2013,AE,ARE,Asia,Western Asia
+37,Costa Rica,50.23,Low Proficiency,2013,CR,CRI,Americas,Latin America and the Caribbean
+38,Brazil,50.07,Low Proficiency,2013,BR,BRA,Americas,Latin America and the Caribbean
+39,Peru,49.96,Low Proficiency,2013,PE,PER,Americas,Latin America and the Caribbean
+40,Mexico,49.91,Low Proficiency,2013,MX,MEX,Americas,Latin America and the Caribbean
+41,Turkey,49.52,Low Proficiency,2013,TR,TUR,Asia,Western Asia
+42,Iran,49.3,Low Proficiency,2013,IR,IRN,Asia,Southern Asia
+43,Egypt,48.89,Very Low Proficiency,2013,EG,EGY,Africa,Northern Africa
+44,Chile,48.2,Very Low Proficiency,2013,CL,CHL,Americas,Latin America and the Caribbean
+45,Morocco,47.71,Very Low Proficiency,2013,MA,MAR,Africa,Northern Africa
+46,Colombia,47.07,Very Low Proficiency,2013,CO,COL,Americas,Latin America and the Caribbean
+47,Kuwait,46.97,Very Low Proficiency,2013,KW,KWT,Asia,Western Asia
+48,Ecuador,46.9,Very Low Proficiency,2013,EC,ECU,Americas,Latin America and the Caribbean
+49,Venezuela,46.44,Very Low Proficiency,2013,VE,VEN,Americas,Latin America and the Caribbean
+50,Jordan,46.44,Very Low Proficiency,2013,JO,JOR,Asia,Western Asia
+51,Qatar,45.97,Very Low Proficiency,2013,QA,QAT,Asia,Western Asia
+52,Guatemala,45.72,Very Low Proficiency,2013,GT,GTM,Americas,Latin America and the Caribbean
+53,El Salvador,45.29,Very Low Proficiency,2013,SV,SLV,Americas,Latin America and the Caribbean
+54,Libya,44.65,Very Low Proficiency,2013,LY,LBY,Africa,Northern Africa
+55,Thailand,44.44,Very Low Proficiency,2013,TH,THA,Asia,South-eastern Asia
+56,Panama,43.61,Very Low Proficiency,2013,PA,PAN,Americas,Latin America and the Caribbean
+57,Kazakhstan,43.47,Very Low Proficiency,2013,KZ,KAZ,Asia,Central Asia
+58,Algeria,43.16,Very Low Proficiency,2013,DZ,DZA,Africa,Northern Africa
+59,Saudi Arabia,41.19,Very Low Proficiency,2013,SA,SAU,Asia,Western Asia
+60,Iraq,38.16,Very Low Proficiency,2013,IQ,IRQ,Asia,Western Asia
+1,Denmark,69.3,Very High Proficiency,2014,DK,DNK,Europe,Northern Europe
+2,Netherlands,68.99,Very High Proficiency,2014,NL,NLD,Europe,Western Europe
+3,Sweden,67.8,Very High Proficiency,2014,SE,SWE,Europe,Northern Europe
+4,Finland,64.4,Very High Proficiency,2014,FI,FIN,Europe,Northern Europe
+5,Norway,64.33,Very High Proficiency,2014,NO,NOR,Europe,Northern Europe
+6,Poland,64.26,Very High Proficiency,2014,PL,POL,Europe,Eastern Europe
+7,Austria,63.21,Very High Proficiency,2014,AT,AUT,Europe,Western Europe
+8,Estonia,61.39,High Proficiency,2014,EE,EST,Europe,Northern Europe
+9,Belgium,61.21,High Proficiency,2014,BE,BEL,Europe,Western Europe
+10,Germany,60.89,High Proficiency,2014,DE,DEU,Europe,Western Europe
+11,Slovenia,60.6,High Proficiency,2014,SI,SVN,Europe,Southern Europe
+12,Malaysia,59.73,High Proficiency,2014,MY,MYS,Asia,South-eastern Asia
+13,Singapore,59.58,High Proficiency,2014,SG,SGP,Asia,South-eastern Asia
+14,Latvia,59.43,High Proficiency,2014,LV,LVA,Europe,Northern Europe
+15,Argentina,59.02,High Proficiency,2014,AR,ARG,Americas,Latin America and the Caribbean
+16,Romania,58.63,High Proficiency,2014,RO,ROU,Europe,Eastern Europe
+17,Hungary,58.55,High Proficiency,2014,HU,HUN,Europe,Eastern Europe
+18,Switzerland,58.29,High Proficiency,2014,CH,CHE,Europe,Western Europe
+19,Czech Republic,57.42,Moderate Proficiency,2014,CZ,CZE,Europe,Eastern Europe
+20,Spain,57.18,Moderate Proficiency,2014,ES,ESP,Europe,Southern Europe
+21,Portugal,56.83,Moderate Proficiency,2014,PT,PRT,Europe,Southern Europe
+22,Slovakia,55.96,Moderate Proficiency,2014,SK,SVK,Europe,Eastern Europe
+23,Dominican Republic,53.66,Moderate Proficiency,2014,DO,DOM,Americas,Latin America and the Caribbean
+24,South Korea,53.62,Moderate Proficiency,2014,KR,KOR,Asia,Eastern Asia
+25,India,53.54,Moderate Proficiency,2014,IN,IND,Asia,Southern Asia
+26,Japan,52.88,Moderate Proficiency,2014,JP,JPN,Asia,Eastern Asia
+27,Italy,52.8,Moderate Proficiency,2014,IT,ITA,Europe,Southern Europe
+28,Indonesia,52.74,Moderate Proficiency,2014,ID,IDN,Asia,South-eastern Asia
+29,France,52.69,Moderate Proficiency,2014,FR,FRA,Europe,Western Europe
+30,Taiwan,52.56,Moderate Proficiency,2014,TW,TWN,,
+31,Hong Kong,52.5,Moderate Proficiency,2014,HK,HKG,Asia,Eastern Asia
+32,United Arab Emirates,51.8,Low Proficiency,2014,AE,ARE,Asia,Western Asia
+33,Vietnam,51.57,Low Proficiency,2014,VN,VNM,Asia,South-eastern Asia
+34,Peru,51.46,Low Proficiency,2014,PE,PER,Americas,Latin America and the Caribbean
+35,Ecuador,51.05,Low Proficiency,2014,EC,ECU,Americas,Latin America and the Caribbean
+36,Russia,50.44,Low Proficiency,2014,RU,RUS,Europe,Eastern Europe
+37,China,50.15,Low Proficiency,2014,CN,CHN,Asia,Eastern Asia
+38,Brazil,49.96,Low Proficiency,2014,BR,BRA,Americas,Latin America and the Caribbean
+39,Mexico,49.83,Low Proficiency,2014,MX,MEX,Americas,Latin America and the Caribbean
+40,Uruguay,49.61,Low Proficiency,2014,UY,URY,Americas,Latin America and the Caribbean
+41,Chile,48.75,Low Proficiency,2014,CL,CHL,Americas,Latin America and the Caribbean
+42,Colombia,48.54,Low Proficiency,2014,CO,COL,Americas,Latin America and the Caribbean
+43,Costa Rica,48.53,Low Proficiency,2014,CR,CRI,Americas,Latin America and the Caribbean
+44,Ukraine,48.5,Low Proficiency,2014,UA,UKR,Europe,Eastern Europe
+45,Jordan,47.82,Very Low Proficiency,2014,JO,JOR,Asia,Western Asia
+46,Qatar,47.81,Very Low Proficiency,2014,QA,QAT,Asia,Western Asia
+47,Turkey,47.8,Very Low Proficiency,2014,TR,TUR,Asia,Western Asia
+48,Thailand,47.79,Very Low Proficiency,2014,TH,THA,Asia,South-eastern Asia
+49,Sri Lanka,46.37,Very Low Proficiency,2014,LK,LKA,Asia,Southern Asia
+50,Venezuela,46.12,Very Low Proficiency,2014,VE,VEN,Americas,Latin America and the Caribbean
+51,Guatemala,45.77,Very Low Proficiency,2014,GT,GTM,Americas,Latin America and the Caribbean
+52,Panama,43.7,Very Low Proficiency,2014,PA,PAN,Americas,Latin America and the Caribbean
+53,El Salvador,43.46,Very Low Proficiency,2014,SV,SLV,Americas,Latin America and the Caribbean
+54,Kazakhstan,42.97,Very Low Proficiency,2014,KZ,KAZ,Asia,Central Asia
+55,Morocco,42.43,Very Low Proficiency,2014,MA,MAR,Africa,Northern Africa
+56,Egypt,42.13,Very Low Proficiency,2014,EG,EGY,Africa,Northern Africa
+57,Iran,41.83,Very Low Proficiency,2014,IR,IRN,Asia,Southern Asia
+58,Kuwait,41.8,Very Low Proficiency,2014,KW,KWT,Asia,Western Asia
+59,Saudi Arabia,39.48,Very Low Proficiency,2014,SA,SAU,Asia,Western Asia
+60,Algeria,38.51,Very Low Proficiency,2014,DZ,DZA,Africa,Northern Africa
+61,Cambodia,38.25,Very Low Proficiency,2014,KH,KHM,Asia,South-eastern Asia
+62,Libya,38.19,Very Low Proficiency,2014,LY,LBY,Africa,Northern Africa
+63,Iraq,38.02,Very Low Proficiency,2014,IQ,IRQ,Asia,Western Asia
+1,Sweden,70.94,Very High Proficiency,2015,SE,SWE,Europe,Northern Europe
+2,Netherlands,70.58,Very High Proficiency,2015,NL,NLD,Europe,Western Europe
+3,Denmark,70.05,Very High Proficiency,2015,DK,DNK,Europe,Northern Europe
+4,Norway,67.83,Very High Proficiency,2015,NO,NOR,Europe,Northern Europe
+5,Finland,65.32,Very High Proficiency,2015,FI,FIN,Europe,Northern Europe
+6,Slovenia,64.97,Very High Proficiency,2015,SI,SVN,Europe,Southern Europe
+7,Estonia,63.73,Very High Proficiency,2015,EE,EST,Europe,Northern Europe
+8,Luxembourg,63.45,Very High Proficiency,2015,LU,LUX,Europe,Western Europe
+9,Poland,62.95,Very High Proficiency,2015,PL,POL,Europe,Eastern Europe
+10,Austria,61.97,High Proficiency,2015,AT,AUT,Europe,Western Europe
+11,Germany,61.83,High Proficiency,2015,DE,DEU,Europe,Western Europe
+12,Singapore,61.08,High Proficiency,2015,SG,SGP,Asia,South-eastern Asia
+13,Portugal,60.61,High Proficiency,2015,PT,PRT,Europe,Southern Europe
+14,Malaysia,60.3,High Proficiency,2015,MY,MYS,Asia,South-eastern Asia
+15,Argentina,60.26,High Proficiency,2015,AR,ARG,Americas,Latin America and the Caribbean
+16,Romania,59.69,High Proficiency,2015,RO,ROU,Europe,Eastern Europe
+17,Belgium,59.13,High Proficiency,2015,BE,BEL,Europe,Western Europe
+18,Czech Republic,59.01,High Proficiency,2015,CZ,CZE,Europe,Eastern Europe
+19,Switzerland,58.43,High Proficiency,2015,CH,CHE,Europe,Western Europe
+20,India,58.21,High Proficiency,2015,IN,IND,Asia,Southern Asia
+21,Hungary,57.9,High Proficiency,2015,HU,HUN,Europe,Eastern Europe
+22,Latvia,57.16,Moderate Proficiency,2015,LV,LVA,Europe,Northern Europe
+23,Spain,56.8,Moderate Proficiency,2015,ES,ESP,Europe,Southern Europe
+24,Dominican Republic,56.71,Moderate Proficiency,2015,DO,DOM,Americas,Latin America and the Caribbean
+25,Slovakia,56.34,Moderate Proficiency,2015,SK,SVK,Europe,Eastern Europe
+26,Lithuania,55.08,Moderate Proficiency,2015,LT,LTU,Europe,Northern Europe
+27,South Korea,54.52,Moderate Proficiency,2015,KR,KOR,Asia,Eastern Asia
+28,Italy,54.02,Moderate Proficiency,2015,IT,ITA,Europe,Southern Europe
+29,Vietnam,53.81,Moderate Proficiency,2015,VN,VNM,Asia,South-eastern Asia
+30,Japan,53.57,Moderate Proficiency,2015,JP,JPN,Asia,Eastern Asia
+31,Taiwan,53.18,Moderate Proficiency,2015,TW,TWN,,
+32,Indonesia,52.91,Moderate Proficiency,2015,ID,IDN,Asia,South-eastern Asia
+33,Hong Kong,52.7,Moderate Proficiency,2015,HK,HKG,Asia,Eastern Asia
+34,Ukraine,52.61,Moderate Proficiency,2015,UA,UKR,Europe,Eastern Europe
+35,Peru,52.46,Low Proficiency,2015,PE,PER,Americas,Latin America and the Caribbean
+36,Chile,51.88,Low Proficiency,2015,CL,CHL,Americas,Latin America and the Caribbean
+37,France,51.84,Low Proficiency,2015,FR,FRA,Europe,Western Europe
+38,Ecuador,51.67,Low Proficiency,2015,EC,ECU,Americas,Latin America and the Caribbean
+39,Russia,51.59,Low Proficiency,2015,RU,RUS,Europe,Eastern Europe
+40,Mexico,51.34,Low Proficiency,2015,MX,MEX,Americas,Latin America and the Caribbean
+41,Brazil,51.05,Low Proficiency,2015,BR,BRA,Americas,Latin America and the Caribbean
+42,United Arab Emirates,50.87,Low Proficiency,2015,AE,ARE,Asia,Western Asia
+43,Costa Rica,50.53,Low Proficiency,2015,CR,CRI,Americas,Latin America and the Caribbean
+44,Uruguay,50.25,Low Proficiency,2015,UY,URY,Americas,Latin America and the Caribbean
+45,Pakistan,49.96,Low Proficiency,2015,PK,PAK,Asia,Southern Asia
+46,Guatemala,49.67,Low Proficiency,2015,GT,GTM,Americas,Latin America and the Caribbean
+47,China,49.41,Low Proficiency,2015,CN,CHN,Asia,Eastern Asia
+48,Panama,48.77,Low Proficiency,2015,PA,PAN,Americas,Latin America and the Caribbean
+49,Sri Lanka,47.89,Very Low Proficiency,2015,LK,LKA,Asia,Southern Asia
+50,Turkey,47.62,Very Low Proficiency,2015,TR,TUR,Asia,Western Asia
+51,Yemen,47.6,Very Low Proficiency,2015,YE,YEM,Asia,Western Asia
+52,Morocco,47.4,Very Low Proficiency,2015,MA,MAR,Africa,Northern Africa
+53,Jordan,47.33,Very Low Proficiency,2015,JO,JOR,Asia,Western Asia
+54,Kazakhstan,47.04,Very Low Proficiency,2015,KZ,KAZ,Asia,Central Asia
+55,Egypt,46.73,Very Low Proficiency,2015,EG,EGY,Africa,Northern Africa
+56,Iran,46.59,Very Low Proficiency,2015,IR,IRN,Asia,Southern Asia
+57,Colombia,46.54,Very Low Proficiency,2015,CO,COL,Americas,Latin America and the Caribbean
+58,Oman,46.34,Very Low Proficiency,2015,OM,OMN,Asia,Western Asia
+59,Venezuela,46.14,Very Low Proficiency,2015,VE,VEN,Americas,Latin America and the Caribbean
+60,Azerbaijan,46.12,Very Low Proficiency,2015,AZ,AZE,Asia,Western Asia
+61,El Salvador,45.52,Very Low Proficiency,2015,SV,SLV,Americas,Latin America and the Caribbean
+62,Thailand,45.35,Very Low Proficiency,2015,TH,THA,Asia,South-eastern Asia
+63,Qatar,43.72,Very Low Proficiency,2015,QA,QAT,Asia,Western Asia
+64,Mongolia,43.64,Very Low Proficiency,2015,MN,MNG,Asia,Eastern Asia
+65,Kuwait,42.65,Very Low Proficiency,2015,KW,KWT,Asia,Western Asia
+66,Iraq,40.69,Very Low Proficiency,2015,IQ,IRQ,Asia,Western Asia
+67,Algeria,40.34,Very Low Proficiency,2015,DZ,DZA,Africa,Northern Africa
+68,Saudi Arabia,39.93,Very Low Proficiency,2015,SA,SAU,Asia,Western Asia
+69,Cambodia,39.15,Very Low Proficiency,2015,KH,KHM,Asia,South-eastern Asia
+70,Libya,37.86,Very Low Proficiency,2015,LY,LBY,Africa,Northern Africa
+1,Netherlands,72.16,Very High Proficiency,2016,NL,NLD,Europe,Western Europe
+2,Denmark,71.15,Very High Proficiency,2016,DK,DNK,Europe,Northern Europe
+3,Sweden,70.81,Very High Proficiency,2016,SE,SWE,Europe,Northern Europe
+4,Norway,68.54,Very High Proficiency,2016,NO,NOR,Europe,Northern Europe
+5,Finland,66.61,Very High Proficiency,2016,FI,FIN,Europe,Northern Europe
+6,Singapore,63.52,Very High Proficiency,2016,SG,SGP,Asia,South-eastern Asia
+7,Luxembourg,63.2,Very High Proficiency,2016,LU,LUX,Europe,Western Europe
+8,Austria,62.13,High Proficiency,2016,AT,AUT,Europe,Western Europe
+9,Germany,61.58,High Proficiency,2016,DE,DEU,Europe,Western Europe
+10,Poland,61.49,High Proficiency,2016,PL,POL,Europe,Eastern Europe
+11,Belgium,60.9,High Proficiency,2016,BE,BEL,Europe,Western Europe
+12,Malaysia,60.7,High Proficiency,2016,MY,MYS,Asia,South-eastern Asia
+13,Philippines,60.33,High Proficiency,2016,PH,PHL,Asia,South-eastern Asia
+14,Switzerland,60.17,High Proficiency,2016,CH,CHE,Europe,Western Europe
+15,Portugal,59.68,High Proficiency,2016,PT,PRT,Europe,Southern Europe
+16,Czech Republic,59.09,High Proficiency,2016,CZ,CZE,Europe,Eastern Europe
+17,Serbia,59.07,High Proficiency,2016,RS,SRB,Europe,Southern Europe
+18,Hungary,58.72,High Proficiency,2016,HU,HUN,Europe,Eastern Europe
+19,Argentina,58.4,High Proficiency,2016,AR,ARG,Americas,Latin America and the Caribbean
+20,Romania,58.14,High Proficiency,2016,RO,ROU,Europe,Eastern Europe
+21,Slovakia,57.34,Moderate Proficiency,2016,SK,SVK,Europe,Eastern Europe
+22,India,57.3,Moderate Proficiency,2016,IN,IND,Asia,Southern Asia
+23,Dominican Republic,57.24,Moderate Proficiency,2016,DO,DOM,Americas,Latin America and the Caribbean
+24,Bulgaria,56.79,Moderate Proficiency,2016,BG,BGR,Europe,Eastern Europe
+25,Spain,56.66,Moderate Proficiency,2016,ES,ESP,Europe,Southern Europe
+26,Bosnia and Herzegovina,56.17,Moderate Proficiency,2016,BA,BIH,Europe,Southern Europe
+27,South Korea,54.87,Moderate Proficiency,2016,KR,KOR,Asia,Eastern Asia
+28,Italy,54.63,Moderate Proficiency,2016,IT,ITA,Europe,Southern Europe
+29,France,54.39,Moderate Proficiency,2016,FR,FRA,Europe,Western Europe
+30,Hong Kong,54.29,Moderate Proficiency,2016,HK,HKG,Asia,Eastern Asia
+31,Vietnam,54.06,Moderate Proficiency,2016,VN,VNM,Asia,South-eastern Asia
+32,Indonesia,52.94,Moderate Proficiency,2016,ID,IDN,Asia,South-eastern Asia
+33,Taiwan,52.82,Moderate Proficiency,2016,TW,TWN,,
+34,Russia,52.32,Low Proficiency,2016,RU,RUS,Europe,Eastern Europe
+35,Japan,51.69,Low Proficiency,2016,JP,JPN,Asia,Eastern Asia
+36,Uruguay,51.63,Low Proficiency,2016,UY,URY,Americas,Latin America and the Caribbean
+37,Macao,51.36,Low Proficiency,2016,MO,MAC,Asia,Eastern Asia
+38,Costa Rica,51.35,Low Proficiency,2016,CR,CRI,Americas,Latin America and the Caribbean
+39,China,50.94,Low Proficiency,2016,CN,CHN,Asia,Eastern Asia
+40,Brazil,50.66,Low Proficiency,2016,BR,BRA,Americas,Latin America and the Caribbean
+41,Ukraine,50.62,Low Proficiency,2016,UA,UKR,Europe,Eastern Europe
+42,Chile,50.1,Low Proficiency,2016,CL,CHL,Americas,Latin America and the Caribbean
+43,Mexico,49.88,Low Proficiency,2016,MX,MEX,Americas,Latin America and the Caribbean
+44,Morocco,49.86,Low Proficiency,2016,MA,MAR,Africa,Northern Africa
+45,Peru,49.84,Low Proficiency,2016,PE,PER,Americas,Latin America and the Caribbean
+46,United Arab Emirates,49.81,Low Proficiency,2016,AE,ARE,Asia,Western Asia
+47,Ecuador,49.13,Low Proficiency,2016,EC,ECU,Americas,Latin America and the Caribbean
+48,Pakistan,48.78,Low Proficiency,2016,PK,PAK,Asia,Southern Asia
+49,Colombia,48.41,Very Low Proficiency,2016,CO,COL,Americas,Latin America and the Caribbean
+50,Panama,48.08,Very Low Proficiency,2016,PA,PAN,Americas,Latin America and the Caribbean
+51,Turkey,47.89,Very Low Proficiency,2016,TR,TUR,Asia,Western Asia
+52,Tunisia,47.7,Very Low Proficiency,2016,TN,TUN,Africa,Northern Africa
+53,Guatemala,47.64,Very Low Proficiency,2016,GT,GTM,Americas,Latin America and the Caribbean
+54,Kazakhstan,47.42,Very Low Proficiency,2016,KZ,KAZ,Asia,Central Asia
+55,Egypt,47.32,Very Low Proficiency,2016,EG,EGY,Africa,Northern Africa
+56,Thailand,47.21,Very Low Proficiency,2016,TH,THA,Asia,South-eastern Asia
+57,Azerbaijan,46.9,Very Low Proficiency,2016,AZ,AZE,Asia,Western Asia
+58,Sri Lanka,46.58,Very Low Proficiency,2016,LK,LKA,Asia,Southern Asia
+59,Qatar,46.57,Very Low Proficiency,2016,QA,QAT,Asia,Western Asia
+60,Venezuela,46.53,Very Low Proficiency,2016,VE,VEN,Americas,Latin America and the Caribbean
+61,Iran,46.38,Very Low Proficiency,2016,IR,IRN,Asia,Southern Asia
+62,Jordan,45.85,Very Low Proficiency,2016,JO,JOR,Asia,Western Asia
+63,El Salvador,43.83,Very Low Proficiency,2016,SV,SLV,Americas,Latin America and the Caribbean
+64,Oman,43.44,Very Low Proficiency,2016,OM,OMN,Asia,Western Asia
+65,Kuwait,42.98,Very Low Proficiency,2016,KW,KWT,Asia,Western Asia
+66,Mongolia,42.77,Very Low Proficiency,2016,MN,MNG,Asia,Eastern Asia
+67,Algeria,41.6,Very Low Proficiency,2016,DZ,DZA,Africa,Northern Africa
+68,Saudi Arabia,40.91,Very Low Proficiency,2016,SA,SAU,Asia,Western Asia
+69,Cambodia,39.48,Very Low Proficiency,2016,KH,KHM,Asia,South-eastern Asia
+70,Laos,38.45,Very Low Proficiency,2016,LA,LAO,Asia,South-eastern Asia
+71,Libya,37.82,Very Low Proficiency,2016,LY,LBY,Africa,Northern Africa
+72,Iraq,37.65,Very Low Proficiency,2016,IQ,IRQ,Asia,Western Asia
+1,Netherlands,71.45,Very High Proficiency,2017,NL,NLD,Europe,Western Europe
+2,Sweden,70.4,Very High Proficiency,2017,SE,SWE,Europe,Northern Europe
+3,Denmark,69.93,Very High Proficiency,2017,DK,DNK,Europe,Northern Europe
+4,Norway,67.77,Very High Proficiency,2017,NO,NOR,Europe,Northern Europe
+5,Singapore,66.03,Very High Proficiency,2017,SG,SGP,Asia,South-eastern Asia
+6,Finland,65.83,Very High Proficiency,2017,FI,FIN,Europe,Northern Europe
+7,Luxembourg,64.57,Very High Proficiency,2017,LU,LUX,Europe,Western Europe
+8,South Africa,63.37,Very High Proficiency,2017,ZA,ZAF,Africa,Sub-Saharan Africa
+9,Germany,62.35,High Proficiency,2017,DE,DEU,Europe,Western Europe
+10,Austria,62.18,High Proficiency,2017,AT,AUT,Europe,Western Europe
+11,Poland,62.07,High Proficiency,2017,PL,POL,Europe,Eastern Europe
+12,Belgium,61.58,High Proficiency,2017,BE,BEL,Europe,Western Europe
+13,Malaysia,61.07,High Proficiency,2017,MY,MYS,Asia,South-eastern Asia
+14,Switzerland,60.95,High Proficiency,2017,CH,CHE,Europe,Western Europe
+15,Philippines,60.59,High Proficiency,2017,PH,PHL,Asia,South-eastern Asia
+16,Serbia,59.37,High Proficiency,2017,RS,SRB,Europe,Southern Europe
+17,Romania,59.13,High Proficiency,2017,RO,ROU,Europe,Eastern Europe
+18,Portugal,58.76,High Proficiency,2017,PT,PRT,Europe,Southern Europe
+19,Hungary,58.61,High Proficiency,2017,HU,HUN,Europe,Eastern Europe
+20,Czech Republic,57.87,High Proficiency,2017,CZ,CZE,Europe,Eastern Europe
+21,Slovakia,57.63,High Proficiency,2017,SK,SVK,Europe,Eastern Europe
+22,Bulgaria,57.34,Moderate Proficiency,2017,BG,BGR,Europe,Eastern Europe
+23,Greece,57.14,Moderate Proficiency,2017,GR,GRC,Europe,Southern Europe
+24,Lithuania,57.08,Moderate Proficiency,2017,LT,LTU,Europe,Northern Europe
+25,Argentina,56.51,Moderate Proficiency,2017,AR,ARG,Americas,Latin America and the Caribbean
+26,Dominican Republic,56.31,Moderate Proficiency,2017,DO,DOM,Americas,Latin America and the Caribbean
+27,India,56.12,Moderate Proficiency,2017,IN,IND,Asia,Southern Asia
+28,Spain,56.06,Moderate Proficiency,2017,ES,ESP,Europe,Southern Europe
+29,Hong Kong,55.81,Moderate Proficiency,2017,HK,HKG,Asia,Eastern Asia
+30,South Korea,55.32,Moderate Proficiency,2017,KR,KOR,Asia,Eastern Asia
+31,Nigeria,54.74,Moderate Proficiency,2017,NG,NGA,Africa,Sub-Saharan Africa
+32,France,54.39,Moderate Proficiency,2017,FR,FRA,Europe,Western Europe
+33,Italy,54.19,Moderate Proficiency,2017,IT,ITA,Europe,Southern Europe
+34,Vietnam,53.43,Moderate Proficiency,2017,VN,VNM,Asia,South-eastern Asia
+35,Costa Rica,53.13,Moderate Proficiency,2017,CR,CRI,Americas,Latin America and the Caribbean
+36,China,52.45,Low Proficiency,2017,CN,CHN,Asia,Eastern Asia
+37,Japan,52.34,Low Proficiency,2017,JP,JPN,Asia,Eastern Asia
+38,Russia,52.19,Low Proficiency,2017,RU,RUS,Europe,Eastern Europe
+39,Indonesia,52.15,Low Proficiency,2017,ID,IDN,Asia,South-eastern Asia
+40,Taiwan,52.04,Low Proficiency,2017,TW,TWN,,
+41,Brazil,51.92,Low Proficiency,2017,BR,BRA,Americas,Latin America and the Caribbean
+42,Macao,51.87,Low Proficiency,2017,MO,MAC,Asia,Eastern Asia
+43,Uruguay,51.73,Low Proficiency,2017,UY,URY,Americas,Latin America and the Caribbean
+44,Mexico,51.57,Low Proficiency,2017,MX,MEX,Americas,Latin America and the Caribbean
+45,Chile,51.5,Low Proficiency,2017,CL,CHL,Americas,Latin America and the Caribbean
+46,Bangladesh,50.96,Low Proficiency,2017,BD,BGD,Asia,Southern Asia
+47,Ukraine,50.91,Low Proficiency,2017,UA,UKR,Europe,Eastern Europe
+48,Cuba,50.83,Low Proficiency,2017,CU,CUB,Americas,Latin America and the Caribbean
+49,Panama,50.68,Low Proficiency,2017,PA,PAN,Americas,Latin America and the Caribbean
+50,Peru,50.5,Low Proficiency,2017,PE,PER,Americas,Latin America and the Caribbean
+51,Colombia,49.97,Low Proficiency,2017,CO,COL,Americas,Latin America and the Caribbean
+52,Pakistan,49.88,Low Proficiency,2017,PK,PAK,Asia,Southern Asia
+53,Thailand,49.78,Low Proficiency,2017,TH,THA,Asia,South-eastern Asia
+54,Guatemala,49.52,Low Proficiency,2017,GT,GTM,Americas,Latin America and the Caribbean
+55,Ecuador,49.42,Low Proficiency,2017,EC,ECU,Americas,Latin America and the Caribbean
+56,Tunisia,49.01,Low Proficiency,2017,TN,TUN,Africa,Northern Africa
+57,United Arab Emirates,48.88,Low Proficiency,2017,AE,ARE,Asia,Western Asia
+58,Syria,48.49,Very Low Proficiency,2017,SY,SYR,Asia,Western Asia
+59,Qatar,48.19,Very Low Proficiency,2017,QA,QAT,Asia,Western Asia
+60,Morocco,47.91,Very Low Proficiency,2017,MA,MAR,Africa,Northern Africa
+61,Sri Lanka,47.84,Very Low Proficiency,2017,LK,LKA,Asia,Southern Asia
+62,Turkey,47.8,Very Low Proficiency,2017,TR,TUR,Asia,Western Asia
+63,Jordan,47.4,Very Low Proficiency,2017,JO,JOR,Asia,Western Asia
+64,Azerbaijan,46.97,Very Low Proficiency,2017,AZ,AZE,Asia,Western Asia
+65,Iran,46.6,Very Low Proficiency,2017,IR,IRN,Asia,Southern Asia
+66,Egypt,46.51,Very Low Proficiency,2017,EG,EGY,Africa,Northern Africa
+67,Kazakhstan,45.95,Very Low Proficiency,2017,KZ,KAZ,Asia,Central Asia
+68,Venezuela,45.71,Very Low Proficiency,2017,VE,VEN,Americas,Latin America and the Caribbean
+69,El Salvador,45.7,Very Low Proficiency,2017,SV,SLV,Americas,Latin America and the Caribbean
+70,Oman,44.48,Very Low Proficiency,2017,OM,OMN,Asia,Western Asia
+71,Mongolia,44.21,Very Low Proficiency,2017,MN,MNG,Asia,Eastern Asia
+72,Saudi Arabia,43.98,Very Low Proficiency,2017,SA,SAU,Asia,Western Asia
+73,Angola,43.49,Very Low Proficiency,2017,AO,AGO,Africa,Sub-Saharan Africa
+74,Kuwait,42.77,Very Low Proficiency,2017,KW,KWT,Asia,Western Asia
+75,Cameroon,42.45,Very Low Proficiency,2017,CM,CMR,Africa,Sub-Saharan Africa
+76,Algeria,42.11,Very Low Proficiency,2017,DZ,DZA,Africa,Northern Africa
+77,Cambodia,41.98,Very Low Proficiency,2017,KH,KHM,Asia,South-eastern Asia
+78,Libya,38.61,Very Low Proficiency,2017,LY,LBY,Africa,Northern Africa
+79,Iraq,38.12,Very Low Proficiency,2017,IQ,IRQ,Asia,Western Asia
+80,Laos,37.56,Very Low Proficiency,2017,LA,LAO,Asia,South-eastern Asia
+1,Sweden,70.72,Very High Proficiency,2018,SE,SWE,Europe,Northern Europe
+2,Netherlands,70.31,Very High Proficiency,2018,NL,NLD,Europe,Western Europe
+3,Singapore,68.63,Very High Proficiency,2018,SG,SGP,Asia,South-eastern Asia
+4,Norway,68.38,Very High Proficiency,2018,NO,NOR,Europe,Northern Europe
+5,Denmark,67.34,Very High Proficiency,2018,DK,DNK,Europe,Northern Europe
+6,South Africa,66.52,Very High Proficiency,2018,ZA,ZAF,Africa,Sub-Saharan Africa
+7,Luxembourg,66.33,Very High Proficiency,2018,LU,LUX,Europe,Western Europe
+8,Finland,65.86,Very High Proficiency,2018,FI,FIN,Europe,Northern Europe
+9,Slovenia,64.84,Very High Proficiency,2018,SI,SVN,Europe,Southern Europe
+10,Germany,63.74,Very High Proficiency,2018,DE,DEU,Europe,Western Europe
+11,Belgium,63.52,Very High Proficiency,2018,BE,BEL,Europe,Western Europe
+12,Austria,63.13,Very High Proficiency,2018,AT,AUT,Europe,Western Europe
+13,Poland,62.45,High Proficiency,2018,PL,POL,Europe,Eastern Europe
+14,Philippines,61.84,High Proficiency,2018,PH,PHL,Asia,South-eastern Asia
+15,Switzerland,61.77,High Proficiency,2018,CH,CHE,Europe,Western Europe
+16,Romania,60.31,High Proficiency,2018,RO,ROU,Europe,Eastern Europe
+17,Croatia,60.16,High Proficiency,2018,HR,HRV,Europe,Southern Europe
+18,Serbia,60.04,High Proficiency,2018,RS,SRB,Europe,Southern Europe
+19,Portugal,60.02,High Proficiency,2018,PT,PRT,Europe,Southern Europe
+20,Czech Republic,59.99,High Proficiency,2018,CZ,CZE,Europe,Eastern Europe
+21,Hungary,59.51,High Proficiency,2018,HU,HUN,Europe,Eastern Europe
+22,Malaysia,59.32,High Proficiency,2018,MY,MYS,Asia,South-eastern Asia
+23,Greece,58.49,High Proficiency,2018,GR,GRC,Europe,Southern Europe
+24,Slovakia,58.11,High Proficiency,2018,SK,SVK,Europe,Eastern Europe
+25,Bulgaria,57.95,High Proficiency,2018,BG,BGR,Europe,Eastern Europe
+26,Lithuania,57.81,High Proficiency,2018,LT,LTU,Europe,Northern Europe
+27,Argentina,57.58,High Proficiency,2018,AR,ARG,Americas,Latin America and the Caribbean
+28,India,57.13,Moderate Proficiency,2018,IN,IND,Asia,Southern Asia
+29,Nigeria,56.72,Moderate Proficiency,2018,NG,NGA,Africa,Sub-Saharan Africa
+30,Hong Kong,56.38,Moderate Proficiency,2018,HK,HKG,Asia,Eastern Asia
+31,South Korea,56.27,Moderate Proficiency,2018,KR,KOR,Asia,Eastern Asia
+32,Spain,55.85,Moderate Proficiency,2018,ES,ESP,Europe,Southern Europe
+33,Lebanon,55.79,Moderate Proficiency,2018,LB,LBN,Asia,Western Asia
+34,Italy,55.77,Moderate Proficiency,2018,IT,ITA,Europe,Southern Europe
+35,France,55.49,Moderate Proficiency,2018,FR,FRA,Europe,Western Europe
+36,Costa Rica,55.01,Moderate Proficiency,2018,CR,CRI,Americas,Latin America and the Caribbean
+37,Dominican Republic,54.97,Moderate Proficiency,2018,DO,DOM,Americas,Latin America and the Caribbean
+38,Belarus,53.53,Moderate Proficiency,2018,BY,BLR,Europe,Eastern Europe
+39,Senegal,53.5,Moderate Proficiency,2018,SN,SEN,Africa,Sub-Saharan Africa
+40,Uruguay,53.41,Moderate Proficiency,2018,UY,URY,Americas,Latin America and the Caribbean
+41,Vietnam,53.12,Moderate Proficiency,2018,VN,VNM,Asia,South-eastern Asia
+42,Russia,52.96,Moderate Proficiency,2018,RU,RUS,Europe,Eastern Europe
+43,Ukraine,52.86,Moderate Proficiency,2018,UA,UKR,Europe,Eastern Europe
+44,Macao,52.57,Moderate Proficiency,2018,MO,MAC,Asia,Eastern Asia
+45,Georgia,52.28,Low Proficiency,2018,GE,GEO,Asia,Western Asia
+46,Chile,52.01,Low Proficiency,2018,CL,CHL,Americas,Latin America and the Caribbean
+47,China,51.94,Low Proficiency,2018,CN,CHN,Asia,Eastern Asia
+48,Taiwan,51.88,Low Proficiency,2018,TW,TWN,,
+49,Japan,51.8,Low Proficiency,2018,JP,JPN,Asia,Eastern Asia
+50,Pakistan,51.66,Low Proficiency,2018,PK,PAK,Asia,Southern Asia
+51,Indonesia,51.58,Low Proficiency,2018,ID,IDN,Asia,South-eastern Asia
+52,Albania,51.49,Low Proficiency,2018,AL,ALB,Europe,Southern Europe
+53,Brazil,50.93,Low Proficiency,2018,BR,BRA,Americas,Latin America and the Caribbean
+54,Ethiopia,50.79,Low Proficiency,2018,ET,ETH,Africa,Sub-Saharan Africa
+55,Guatemala,50.63,Low Proficiency,2018,GT,GTM,Americas,Latin America and the Caribbean
+56,Panama,49.98,Low Proficiency,2018,PA,PAN,Americas,Latin America and the Caribbean
+57,Mexico,49.76,Low Proficiency,2018,MX,MEX,Americas,Latin America and the Caribbean
+58,Sri Lanka,49.39,Low Proficiency,2018,LK,LKA,Asia,Southern Asia
+59,Peru,49.32,Low Proficiency,2018,PE,PER,Americas,Latin America and the Caribbean
+60,Colombia,48.9,Low Proficiency,2018,CO,COL,Americas,Latin America and the Caribbean
+61,Bolivia,48.87,Low Proficiency,2018,BO,BOL,Americas,Latin America and the Caribbean
+62,Egypt,48.76,Low Proficiency,2018,EG,EGY,Africa,Northern Africa
+63,Bangladesh,48.72,Low Proficiency,2018,BD,BGD,Asia,Southern Asia
+64,Thailand,48.54,Low Proficiency,2018,TH,THA,Asia,South-eastern Asia
+65,Ecuador,48.52,Low Proficiency,2018,EC,ECU,Americas,Latin America and the Caribbean
+66,Iran,48.29,Very Low Proficiency,2018,IR,IRN,Asia,Southern Asia
+67,Morocco,48.1,Very Low Proficiency,2018,MA,MAR,Africa,Northern Africa
+68,Tunisia,47.85,Very Low Proficiency,2018,TN,TUN,Africa,Northern Africa
+69,Honduras,47.8,Very Low Proficiency,2018,HN,HND,Americas,Latin America and the Caribbean
+70,El Salvador,47.42,Very Low Proficiency,2018,SV,SLV,Americas,Latin America and the Caribbean
+71,United Arab Emirates,47.27,Very Low Proficiency,2018,AE,ARE,Asia,Western Asia
+72,Nicaragua,47.26,Very Low Proficiency,2018,NI,NIC,Americas,Latin America and the Caribbean
+73,Turkey,47.17,Very Low Proficiency,2018,TR,TUR,Asia,Western Asia
+74,Jordan,47.1,Very Low Proficiency,2018,JO,JOR,Asia,Western Asia
+75,Venezuela,46.61,Very Low Proficiency,2018,VE,VEN,Americas,Latin America and the Caribbean
+76,Syria,46.37,Very Low Proficiency,2018,SY,SYR,Asia,Western Asia
+77,Azerbaijan,45.85,Very Low Proficiency,2018,AZ,AZE,Asia,Western Asia
+78,Kuwait,45.64,Very Low Proficiency,2018,KW,KWT,Asia,Western Asia
+79,Oman,45.56,Very Low Proficiency,2018,OM,OMN,Asia,Western Asia
+80,Kazakhstan,45.19,Very Low Proficiency,2018,KZ,KAZ,Asia,Central Asia
+81,Algeria,44.5,Very Low Proficiency,2018,DZ,DZA,Africa,Northern Africa
+82,Myanmar,44.23,Very Low Proficiency,2018,MM,MMR,Asia,South-eastern Asia
+83,Saudi Arabia,43.65,Very Low Proficiency,2018,SA,SAU,Asia,Western Asia
+84,Afghanistan,43.64,Very Low Proficiency,2018,AF,AFG,Asia,Southern Asia
+85,Cambodia,42.86,Very Low Proficiency,2018,KH,KHM,Asia,South-eastern Asia
+86,Uzbekistan,42.53,Very Low Proficiency,2018,UZ,UZB,Asia,Central Asia
+87,Iraq,40.82,Very Low Proficiency,2018,IQ,IRQ,Asia,Western Asia
+88,Libya,39.64,Very Low Proficiency,2018,LY,LBY,Africa,Northern Africa
+1,Netherlands,70.27,Very High Proficiency,2019,NL,NLD,Europe,Western Europe
+2,Sweden,68.74,Very High Proficiency,2019,SE,SWE,Europe,Northern Europe
+3,Norway,67.93,Very High Proficiency,2019,NO,NOR,Europe,Northern Europe
+4,Denmark,67.87,Very High Proficiency,2019,DK,DNK,Europe,Northern Europe
+5,Singapore,66.82,Very High Proficiency,2019,SG,SGP,Asia,South-eastern Asia
+6,South Africa,65.38,Very High Proficiency,2019,ZA,ZAF,Africa,Sub-Saharan Africa
+7,Finland,65.34,Very High Proficiency,2019,FI,FIN,Europe,Northern Europe
+8,Austria,64.11,Very High Proficiency,2019,AT,AUT,Europe,Western Europe
+9,Luxembourg,64.03,Very High Proficiency,2019,LU,LUX,Europe,Western Europe
+10,Germany,63.77,Very High Proficiency,2019,DE,DEU,Europe,Western Europe
+11,Poland,63.76,Very High Proficiency,2019,PL,POL,Europe,Eastern Europe
+12,Portugal,63.14,Very High Proficiency,2019,PT,PRT,Europe,Southern Europe
+13,Belgium,63.09,Very High Proficiency,2019,BE,BEL,Europe,Western Europe
+14,Croatia,63.07,Very High Proficiency,2019,HR,HRV,Europe,Southern Europe
+15,Hungary,61.86,High Proficiency,2019,HU,HUN,Europe,Eastern Europe
+16,Romania,61.36,High Proficiency,2019,RO,ROU,Europe,Eastern Europe
+17,Serbia,61.3,High Proficiency,2019,RS,SRB,Europe,Southern Europe
+18,Kenya,60.51,High Proficiency,2019,KE,KEN,Africa,Sub-Saharan Africa
+19,Switzerland,60.23,High Proficiency,2019,CH,CHE,Europe,Western Europe
+20,Philippines,60.14,High Proficiency,2019,PH,PHL,Asia,South-eastern Asia
+21,Lithuania,60.11,High Proficiency,2019,LT,LTU,Europe,Northern Europe
+22,Greece,59.87,High Proficiency,2019,GR,GRC,Europe,Southern Europe
+23,Czech Republic,59.3,High Proficiency,2019,CZ,CZE,Europe,Eastern Europe
+24,Bulgaria,58.97,High Proficiency,2019,BG,BGR,Europe,Eastern Europe
+25,Slovakia,58.82,High Proficiency,2019,SK,SVK,Europe,Eastern Europe
+26,Malaysia,58.55,High Proficiency,2019,MY,MYS,Asia,South-eastern Asia
+27,Argentina,58.38,High Proficiency,2019,AR,ARG,Americas,Latin America and the Caribbean
+28,Estonia,58.29,High Proficiency,2019,EE,EST,Europe,Northern Europe
+29,Nigeria,58.26,High Proficiency,2019,NG,NGA,Africa,Sub-Saharan Africa
+30,Costa Rica,57.38,Moderate Proficiency,2019,CR,CRI,Americas,Latin America and the Caribbean
+31,France,57.25,Moderate Proficiency,2019,FR,FRA,Europe,Western Europe
+32,Latvia,56.85,Moderate Proficiency,2019,LV,LVA,Europe,Northern Europe
+33,Hong Kong,55.63,Moderate Proficiency,2019,HK,HKG,Asia,Eastern Asia
+34,India,55.49,Moderate Proficiency,2019,IN,IND,Asia,Southern Asia
+35,Spain,55.46,Moderate Proficiency,2019,ES,ESP,Europe,Southern Europe
+36,Italy,55.31,Moderate Proficiency,2019,IT,ITA,Europe,Southern Europe
+37,South Korea,55.04,Moderate Proficiency,2019,KR,KOR,Asia,Eastern Asia
+38,Taiwan,54.18,Moderate Proficiency,2019,TW,TWN,,
+39,Uruguay,54.08,Moderate Proficiency,2019,UY,URY,Americas,Latin America and the Caribbean
+40,China,53.44,Moderate Proficiency,2019,CN,CHN,Asia,Eastern Asia
+41,Macao,53.34,Moderate Proficiency,2019,MO,MAC,Asia,Eastern Asia
+42,Chile,52.89,Moderate Proficiency,2019,CL,CHL,Americas,Latin America and the Caribbean
+43,Cuba,52.7,Moderate Proficiency,2019,CU,CUB,Americas,Latin America and the Caribbean
+44,Dominican Republic,52.58,Moderate Proficiency,2019,DO,DOM,Americas,Latin America and the Caribbean
+45,Paraguay,52.51,Moderate Proficiency,2019,PY,PRY,Americas,Latin America and the Caribbean
+46,Guatemala,52.5,Moderate Proficiency,2019,GT,GTM,Americas,Latin America and the Caribbean
+47,Belarus,52.39,Low Proficiency,2019,BY,BLR,Europe,Eastern Europe
+48,Russia,52.14,Low Proficiency,2019,RU,RUS,Europe,Eastern Europe
+49,Ukraine,52.13,Low Proficiency,2019,UA,UKR,Europe,Eastern Europe
+50,Albania,51.99,Low Proficiency,2019,AL,ALB,Europe,Southern Europe
+51,Bolivia,51.64,Low Proficiency,2019,BO,BOL,Americas,Latin America and the Caribbean
+52,Vietnam,51.57,Low Proficiency,2019,VN,VNM,Asia,South-eastern Asia
+53,Japan,51.51,Low Proficiency,2019,JP,JPN,Asia,Eastern Asia
+54,Pakistan,51.41,Low Proficiency,2019,PK,PAK,Asia,Southern Asia
+55,Bahrain,50.92,Low Proficiency,2019,BH,BHR,Asia,Western Asia
+56,Georgia,50.62,Low Proficiency,2019,GE,GEO,Asia,Western Asia
+57,Honduras,50.53,Low Proficiency,2019,HN,HND,Americas,Latin America and the Caribbean
+58,Peru,50.22,Low Proficiency,2019,PE,PER,Americas,Latin America and the Caribbean
+59,Brazil,50.1,Low Proficiency,2019,BR,BRA,Americas,Latin America and the Caribbean
+60,El Salvador,50.09,Low Proficiency,2019,SV,SLV,Americas,Latin America and the Caribbean
+61,Indonesia,50.06,Low Proficiency,2019,ID,IDN,Asia,South-eastern Asia
+62,Nicaragua,49.89,Low Proficiency,2019,NI,NIC,Americas,Latin America and the Caribbean
+63,Ethiopia,49.64,Low Proficiency,2019,ET,ETH,Africa,Sub-Saharan Africa
+64,Panama,49.6,Low Proficiency,2019,PA,PAN,Americas,Latin America and the Caribbean
+65,Tunisia,49.04,Low Proficiency,2019,TN,TUN,Africa,Northern Africa
+66,Nepal,49.0,Low Proficiency,2019,NP,NPL,Asia,Southern Asia
+67,Mexico,48.99,Low Proficiency,2019,MX,MEX,Americas,Latin America and the Caribbean
+68,Colombia,48.75,Low Proficiency,2019,CO,COL,Americas,Latin America and the Caribbean
+69,Iran,48.69,Low Proficiency,2019,IR,IRN,Asia,Southern Asia
+70,United Arab Emirates,48.19,Very Low Proficiency,2019,AE,ARE,Asia,Western Asia
+71,Bangladesh,48.11,Very Low Proficiency,2019,BD,BGD,Asia,Southern Asia
+72,Maldives,48.02,Very Low Proficiency,2019,MV,MDV,Asia,Southern Asia
+73,Venezuela,47.81,Very Low Proficiency,2019,VE,VEN,Americas,Latin America and the Caribbean
+74,Thailand,47.61,Very Low Proficiency,2019,TH,THA,Asia,South-eastern Asia
+75,Jordan,47.21,Very Low Proficiency,2019,JO,JOR,Asia,Western Asia
+76,Morocco,47.19,Very Low Proficiency,2019,MA,MAR,Africa,Northern Africa
+77,Egypt,47.11,Very Low Proficiency,2019,EG,EGY,Africa,Northern Africa
+78,Sri Lanka,47.1,Very Low Proficiency,2019,LK,LKA,Asia,Southern Asia
+79,Turkey,46.81,Very Low Proficiency,2019,TR,TUR,Asia,Western Asia
+80,Qatar,46.79,Very Low Proficiency,2019,QA,QAT,Asia,Western Asia
+81,Ecuador,46.57,Very Low Proficiency,2019,EC,ECU,Americas,Latin America and the Caribbean
+82,Syria,46.36,Very Low Proficiency,2019,SY,SYR,Asia,Western Asia
+83,Cameroon,46.28,Very Low Proficiency,2019,CM,CMR,Africa,Sub-Saharan Africa
+84,Kuwait,46.22,Very Low Proficiency,2019,KW,KWT,Asia,Western Asia
+85,Azerbaijan,46.13,Very Low Proficiency,2019,AZ,AZE,Asia,Western Asia
+86,Myanmar,46.0,Very Low Proficiency,2019,MM,MMR,Asia,South-eastern Asia
+87,Sudan,45.94,Very Low Proficiency,2019,SD,SDN,Africa,Northern Africa
+88,Mongolia,45.56,Very Low Proficiency,2019,MN,MNG,Asia,Eastern Asia
+89,Afghanistan,45.36,Very Low Proficiency,2019,AF,AFG,Asia,Southern Asia
+90,Algeria,45.28,Very Low Proficiency,2019,DZ,DZA,Africa,Northern Africa
+91,Angola,44.54,Very Low Proficiency,2019,AO,AGO,Africa,Sub-Saharan Africa
+92,Oman,44.39,Very Low Proficiency,2019,OM,OMN,Asia,Western Asia
+93,Kazakhstan,43.83,Very Low Proficiency,2019,KZ,KAZ,Asia,Central Asia
+94,Cambodia,43.78,Very Low Proficiency,2019,KH,KHM,Asia,South-eastern Asia
+95,Uzbekistan,43.18,Very Low Proficiency,2019,UZ,UZB,Asia,Central Asia
+96,Ivory Coast,42.41,Very Low Proficiency,2019,CI,CIV,Africa,Sub-Saharan Africa
+97,Iraq,42.39,Very Low Proficiency,2019,IQ,IRQ,Asia,Western Asia
+98,Saudi Arabia,41.6,Very Low Proficiency,2019,SA,SAU,Asia,Western Asia
+99,Kyrgyzstan,41.51,Very Low Proficiency,2019,KG,KGZ,Asia,Central Asia
+100,Libya,40.87,Very Low Proficiency,2019,LY,LBY,Africa,Northern Africa
+1,Netherlands,652.0,Very High Proficiency,2020,NL,NLD,Europe,Western Europe
+2,Denmark,632.0,Very High Proficiency,2020,DK,DNK,Europe,Northern Europe
+3,Finland,631.0,Very High Proficiency,2020,FI,FIN,Europe,Northern Europe
+4,Sweden,625.0,Very High Proficiency,2020,SE,SWE,Europe,Northern Europe
+5,Norway,624.0,Very High Proficiency,2020,NO,NOR,Europe,Northern Europe
+6,Austria,623.0,Very High Proficiency,2020,AT,AUT,Europe,Western Europe
+7,Portugal,618.0,Very High Proficiency,2020,PT,PRT,Europe,Southern Europe
+8,Germany,616.0,Very High Proficiency,2020,DE,DEU,Europe,Western Europe
+9,Belgium,612.0,Very High Proficiency,2020,BE,BEL,Europe,Western Europe
+10,Singapore,611.0,Very High Proficiency,2020,SG,SGP,Asia,South-eastern Asia
+11,Luxembourg,610.0,Very High Proficiency,2020,LU,LUX,Europe,Western Europe
+12,South Africa,607.0,Very High Proficiency,2020,ZA,ZAF,Africa,Sub-Saharan Africa
+13,Croatia,599.0,High Proficiency,2020,HR,HRV,Europe,Southern Europe
+14,Hungary,598.0,High Proficiency,2020,HU,HUN,Europe,Eastern Europe
+15,Serbia,597.0,High Proficiency,2020,RS,SRB,Europe,Southern Europe
+16,Poland,596.0,High Proficiency,2020,PL,POL,Europe,Eastern Europe
+17,Romania,589.0,High Proficiency,2020,RO,ROU,Europe,Eastern Europe
+18,Switzerland,588.0,High Proficiency,2020,CH,CHE,Europe,Western Europe
+19,Czech Republic,580.0,High Proficiency,2020,CZ,CZE,Europe,Eastern Europe
+20,Bulgaria,579.0,High Proficiency,2020,BG,BGR,Europe,Eastern Europe
+21,Greece,578.0,High Proficiency,2020,GR,GRC,Europe,Southern Europe
+22,Kenya,577.0,High Proficiency,2020,KE,KEN,Africa,Sub-Saharan Africa
+23,Slovakia,577.0,High Proficiency,2020,SK,SVK,Europe,Eastern Europe
+24,Lithuania,570.0,High Proficiency,2020,LT,LTU,Europe,Northern Europe
+25,Argentina,566.0,High Proficiency,2020,AR,ARG,Americas,Latin America and the Caribbean
+26,Estonia,566.0,High Proficiency,2020,EE,EST,Europe,Northern Europe
+27,Philippines,562.0,High Proficiency,2020,PH,PHL,Asia,South-eastern Asia
+28,France,559.0,High Proficiency,2020,FR,FRA,Europe,Western Europe
+29,Latvia,555.0,High Proficiency,2020,LV,LVA,Europe,Northern Europe
+30,Italy,547.0,Moderate Proficiency,2020,IT,ITA,Europe,Southern Europe
+31,Malaysia,547.0,Moderate Proficiency,2020,MY,MYS,Asia,South-eastern Asia
+32,South Korea,545.0,Moderate Proficiency,2020,KR,KOR,Asia,Eastern Asia
+33,Hong Kong,542.0,Moderate Proficiency,2020,HK,HKG,Asia,Eastern Asia
+34,Nigeria,537.0,Moderate Proficiency,2020,NG,NGA,Africa,Sub-Saharan Africa
+35,Spain,537.0,Moderate Proficiency,2020,ES,ESP,Europe,Southern Europe
+36,Costa Rica,530.0,Moderate Proficiency,2020,CR,CRI,Americas,Latin America and the Caribbean
+37,Chile,523.0,Moderate Proficiency,2020,CL,CHL,Americas,Latin America and the Caribbean
+38,China,520.0,Moderate Proficiency,2020,CN,CHN,Asia,Eastern Asia
+39,Paraguay,517.0,Moderate Proficiency,2020,PY,PRY,Americas,Latin America and the Caribbean
+40,Belarus,513.0,Moderate Proficiency,2020,BY,BLR,Europe,Eastern Europe
+41,Cuba,512.0,Moderate Proficiency,2020,CU,CUB,Americas,Latin America and the Caribbean
+42,Russia,512.0,Moderate Proficiency,2020,RU,RUS,Europe,Eastern Europe
+43,Albania,511.0,Moderate Proficiency,2020,AL,ALB,Europe,Southern Europe
+44,Ukraine,510.0,Moderate Proficiency,2020,UA,UKR,Europe,Eastern Europe
+45,Macao,505.0,Moderate Proficiency,2020,MO,MAC,Asia,Eastern Asia
+46,Bolivia,504.0,Moderate Proficiency,2020,BO,BOL,Americas,Latin America and the Caribbean
+47,Georgia,503.0,Moderate Proficiency,2020,GE,GEO,Asia,Western Asia
+48,Dominican Republic,499.0,Low Proficiency,2020,DO,DOM,Americas,Latin America and the Caribbean
+49,Honduras,498.0,Low Proficiency,2020,HN,HND,Americas,Latin America and the Caribbean
+50,India,496.0,Low Proficiency,2020,IN,IND,Asia,Southern Asia
+51,Armenia,494.0,Low Proficiency,2020,AM,ARM,Asia,Western Asia
+52,Uruguay,494.0,Low Proficiency,2020,UY,URY,Americas,Latin America and the Caribbean
+53,Brazil,490.0,Low Proficiency,2020,BR,BRA,Americas,Latin America and the Caribbean
+54,Tunisia,489.0,Low Proficiency,2020,TN,TUN,Africa,Northern Africa
+55,Japan,487.0,Low Proficiency,2020,JP,JPN,Asia,Eastern Asia
+56,El Salvador,483.0,Low Proficiency,2020,SV,SLV,Americas,Latin America and the Caribbean
+57,Iran,483.0,Low Proficiency,2020,IR,IRN,Asia,Southern Asia
+58,Panama,483.0,Low Proficiency,2020,PA,PAN,Americas,Latin America and the Caribbean
+59,Peru,482.0,Low Proficiency,2020,PE,PER,Americas,Latin America and the Caribbean
+60,Nepal,480.0,Low Proficiency,2020,NP,NPL,Asia,Southern Asia
+61,Pakistan,478.0,Low Proficiency,2020,PK,PAK,Asia,Southern Asia
+62,Ethiopia,477.0,Low Proficiency,2020,ET,ETH,Africa,Sub-Saharan Africa
+63,Bangladesh,476.0,Low Proficiency,2020,BD,BGD,Asia,Southern Asia
+64,Guatemala,476.0,Low Proficiency,2020,GT,GTM,Americas,Latin America and the Caribbean
+65,Vietnam,473.0,Low Proficiency,2020,VN,VNM,Asia,South-eastern Asia
+66,United Arab Emirates,472.0,Low Proficiency,2020,AE,ARE,Asia,Western Asia
+67,Venezuela,471.0,Low Proficiency,2020,VE,VEN,Americas,Latin America and the Caribbean
+68,Sri Lanka,466.0,Low Proficiency,2020,LK,LKA,Asia,Southern Asia
+69,Turkey,465.0,Low Proficiency,2020,TR,TUR,Asia,Western Asia
+70,Kuwait,461.0,Low Proficiency,2020,KW,KWT,Asia,Western Asia
+71,Qatar,459.0,Low Proficiency,2020,QA,QAT,Asia,Western Asia
+72,Jordan,456.0,Low Proficiency,2020,JO,JOR,Asia,Western Asia
+73,Nicaragua,455.0,Low Proficiency,2020,NI,NIC,Americas,Latin America and the Caribbean
+74,Bahrain,453.0,Low Proficiency,2020,BH,BHR,Asia,Western Asia
+75,Indonesia,453.0,Low Proficiency,2020,ID,IDN,Asia,South-eastern Asia
+76,Morocco,453.0,Low Proficiency,2020,MA,MAR,Africa,Northern Africa
+77,Colombia,448.0,Very Low Proficiency,2020,CO,COL,Americas,Latin America and the Caribbean
+78,Mongolia,446.0,Very Low Proficiency,2020,MN,MNG,Asia,Eastern Asia
+79,Afghanistan,445.0,Very Low Proficiency,2020,AF,AFG,Asia,Southern Asia
+80,Angola,444.0,Very Low Proficiency,2020,AO,AGO,Africa,Sub-Saharan Africa
+81,Algeria,442.0,Very Low Proficiency,2020,DZ,DZA,Africa,Northern Africa
+82,Mexico,440.0,Very Low Proficiency,2020,MX,MEX,Americas,Latin America and the Caribbean
+83,Egypt,437.0,Very Low Proficiency,2020,EG,EGY,Africa,Northern Africa
+84,Cambodia,435.0,Very Low Proficiency,2020,KH,KHM,Asia,South-eastern Asia
+85,Sudan,434.0,Very Low Proficiency,2020,SD,SDN,Africa,Northern Africa
+86,Azerbaijan,432.0,Very Low Proficiency,2020,AZ,AZE,Asia,Western Asia
+87,Syria,431.0,Very Low Proficiency,2020,SY,SYR,Asia,Western Asia
+88,Uzbekistan,430.0,Very Low Proficiency,2020,UZ,UZB,Asia,Central Asia
+89,Cameroon,419.0,Very Low Proficiency,2020,CM,CMR,Africa,Sub-Saharan Africa
+90,Thailand,419.0,Very Low Proficiency,2020,TH,THA,Asia,South-eastern Asia
+91,Ivory Coast,414.0,Very Low Proficiency,2020,CI,CIV,Africa,Sub-Saharan Africa
+92,Kazakhstan,412.0,Very Low Proficiency,2020,KZ,KAZ,Asia,Central Asia
+93,Ecuador,411.0,Very Low Proficiency,2020,EC,ECU,Americas,Latin America and the Caribbean
+94,Myanmar,411.0,Very Low Proficiency,2020,MM,MMR,Asia,South-eastern Asia
+95,Rwanda,408.0,Very Low Proficiency,2020,RW,RWA,Africa,Sub-Saharan Africa
+96,Kyrgyzstan,405.0,Very Low Proficiency,2020,KG,KGZ,Asia,Central Asia
+97,Saudi Arabia,399.0,Very Low Proficiency,2020,SA,SAU,Asia,Western Asia
+98,Oman,398.0,Very Low Proficiency,2020,OM,OMN,Asia,Western Asia
+99,Iraq,383.0,Very Low Proficiency,2020,IQ,IRQ,Asia,Western Asia
+100,Tajikistan,381.0,Very Low Proficiency,2020,TJ,TJK,Asia,Central Asia
+1,Netherlands,663.0,Very High Proficiency,2021,NL,NLD,Europe,Western Europe
+2,Austria,641.0,Very High Proficiency,2021,AT,AUT,Europe,Western Europe
+3,Denmark,636.0,Very High Proficiency,2021,DK,DNK,Europe,Northern Europe
+4,Singapore,635.0,Very High Proficiency,2021,SG,SGP,Asia,South-eastern Asia
+5,Norway,632.0,Very High Proficiency,2021,NO,NOR,Europe,Northern Europe
+6,Belgium,629.0,Very High Proficiency,2021,BE,BEL,Europe,Western Europe
+7,Portugal,625.0,Very High Proficiency,2021,PT,PRT,Europe,Southern Europe
+8,Sweden,623.0,Very High Proficiency,2021,SE,SWE,Europe,Northern Europe
+9,Finland,618.0,Very High Proficiency,2021,FI,FIN,Europe,Northern Europe
+10,Croatia,617.0,Very High Proficiency,2021,HR,HRV,Europe,Southern Europe
+11,Germany,616.0,Very High Proficiency,2021,DE,DEU,Europe,Western Europe
+12,South Africa,606.0,Very High Proficiency,2021,ZA,ZAF,Africa,Sub-Saharan Africa
+13,Luxembourg,604.0,Very High Proficiency,2021,LU,LUX,Europe,Western Europe
+14,Serbia,599.0,High Proficiency,2021,RS,SRB,Europe,Southern Europe
+15,Romania,598.0,High Proficiency,2021,RO,ROU,Europe,Eastern Europe
+16,Poland,597.0,High Proficiency,2021,PL,POL,Europe,Eastern Europe
+17,Hungary,593.0,High Proficiency,2021,HU,HUN,Europe,Eastern Europe
+18,Philippines,592.0,High Proficiency,2021,PH,PHL,Asia,South-eastern Asia
+19,Greece,591.0,High Proficiency,2021,GR,GRC,Europe,Southern Europe
+20,Slovakia,590.0,High Proficiency,2021,SK,SVK,Europe,Eastern Europe
+21,Kenya,587.0,High Proficiency,2021,KE,KEN,Africa,Sub-Saharan Africa
+22,Estonia,581.0,High Proficiency,2021,EE,EST,Europe,Northern Europe
+23,Bulgaria,580.0,High Proficiency,2021,BG,BGR,Europe,Eastern Europe
+24,Lithuania,579.0,High Proficiency,2021,LT,LTU,Europe,Northern Europe
+25,Switzerland,575.0,High Proficiency,2021,CH,CHE,Europe,Western Europe
+26,Latvia,569.0,High Proficiency,2021,LV,LVA,Europe,Northern Europe
+27,Czech Republic,563.0,High Proficiency,2021,CZ,CZE,Europe,Eastern Europe
+28,Malaysia,562.0,High Proficiency,2021,MY,MYS,Asia,South-eastern Asia
+29,Nigeria,560.0,High Proficiency,2021,NG,NGA,Africa,Sub-Saharan Africa
+30,Argentina,556.0,High Proficiency,2021,AR,ARG,Americas,Latin America and the Caribbean
+31,France,551.0,High Proficiency,2021,FR,FRA,Europe,Western Europe
+32,Hong Kong,545.0,Moderate Proficiency,2021,HK,HKG,Asia,Eastern Asia
+33,Spain,540.0,Moderate Proficiency,2021,ES,ESP,Europe,Southern Europe
+34,Lebanon,536.0,Moderate Proficiency,2021,LB,LBN,Asia,Western Asia
+35,Italy,535.0,Moderate Proficiency,2021,IT,ITA,Europe,Southern Europe
+36,Moldova,532.0,Moderate Proficiency,2021,MD,MDA,Europe,Eastern Europe
+37,South Korea,529.0,Moderate Proficiency,2021,KR,KOR,Asia,Eastern Asia
+38,Belarus,528.0,Moderate Proficiency,2021,BY,BLR,Europe,Eastern Europe
+39,Albania,527.0,Moderate Proficiency,2021,AL,ALB,Europe,Southern Europe
+40,Ukraine,525.0,Moderate Proficiency,2021,UA,UKR,Europe,Eastern Europe
+41,Bolivia,524.0,Moderate Proficiency,2021,BO,BOL,Americas,Latin America and the Caribbean
+42,Ghana,523.0,Moderate Proficiency,2021,GH,GHA,Africa,Sub-Saharan Africa
+43,Cuba,521.0,Moderate Proficiency,2021,CU,CUB,Americas,Latin America and the Caribbean
+44,Costa Rica,520.0,Moderate Proficiency,2021,CR,CRI,Americas,Latin America and the Caribbean
+44,Dominican Republic,520.0,Moderate Proficiency,2021,DO,DOM,Americas,Latin America and the Caribbean
+44,Paraguay,520.0,Moderate Proficiency,2021,PY,PRY,Americas,Latin America and the Caribbean
+47,Chile,516.0,Moderate Proficiency,2021,CL,CHL,Americas,Latin America and the Caribbean
+48,India,515.0,Moderate Proficiency,2021,IN,IND,Asia,Southern Asia
+49,China,513.0,Moderate Proficiency,2021,CN,CHN,Asia,Eastern Asia
+50,Georgia,512.0,Moderate Proficiency,2021,GE,GEO,Asia,Western Asia
+51,Russia,511.0,Moderate Proficiency,2021,RU,RUS,Europe,Eastern Europe
+52,Tunisia,510.0,Moderate Proficiency,2021,TN,TUN,Africa,Northern Africa
+53,Uruguay,509.0,Moderate Proficiency,2021,UY,URY,Americas,Latin America and the Caribbean
+54,El Salvador,508.0,Moderate Proficiency,2021,SV,SLV,Americas,Latin America and the Caribbean
+55,Honduras,506.0,Moderate Proficiency,2021,HN,HND,Americas,Latin America and the Caribbean
+56,Peru,505.0,Moderate Proficiency,2021,PE,PER,Americas,Latin America and the Caribbean
+57,Macao,504.0,Moderate Proficiency,2021,MO,MAC,Asia,Eastern Asia
+58,Iran,501.0,Moderate Proficiency,2021,IR,IRN,Asia,Southern Asia
+59,Armenia,499.0,Low Proficiency,2021,AM,ARM,Asia,Western Asia
+60,Brazil,497.0,Low Proficiency,2021,BR,BRA,Americas,Latin America and the Caribbean
+61,Guatemala,493.0,Low Proficiency,2021,GT,GTM,Americas,Latin America and the Caribbean
+62,Nepal,492.0,Low Proficiency,2021,NP,NPL,Asia,Southern Asia
+63,Ethiopia,491.0,Low Proficiency,2021,ET,ETH,Africa,Sub-Saharan Africa
+63,Pakistan,491.0,Low Proficiency,2021,PK,PAK,Asia,Southern Asia
+65,Bangladesh,490.0,Low Proficiency,2021,BD,BGD,Asia,Southern Asia
+66,Vietnam,486.0,Low Proficiency,2021,VN,VNM,Asia,South-eastern Asia
+67,Tanzania,485.0,Low Proficiency,2021,TZ,TZA,Africa,Sub-Saharan Africa
+68,Mozambique,482.0,Low Proficiency,2021,MZ,MOZ,Africa,Sub-Saharan Africa
+69,United Arab Emirates,480.0,Low Proficiency,2021,AE,ARE,Asia,Western Asia
+70,Turkey,478.0,Low Proficiency,2021,TR,TUR,Asia,Western Asia
+71,Morocco,477.0,Low Proficiency,2021,MA,MAR,Africa,Northern Africa
+72,Bahrain,476.0,Low Proficiency,2021,BH,BHR,Asia,Western Asia
+73,Panama,475.0,Low Proficiency,2021,PA,PAN,Americas,Latin America and the Caribbean
+73,Venezuela,475.0,Low Proficiency,2021,VE,VEN,Americas,Latin America and the Caribbean
+75,Algeria,474.0,Low Proficiency,2021,DZ,DZA,Africa,Northern Africa
+76,Nicaragua,470.0,Low Proficiency,2021,NI,NIC,Americas,Latin America and the Caribbean
+77,Madagascar,469.0,Low Proficiency,2021,MG,MDG,Africa,Sub-Saharan Africa
+78,Japan,468.0,Low Proficiency,2021,JP,JPN,Asia,Eastern Asia
+79,Qatar,467.0,Low Proficiency,2021,QA,QAT,Asia,Western Asia
+80,Indonesia,466.0,Low Proficiency,2021,ID,IDN,Asia,South-eastern Asia
+81,Colombia,465.0,Low Proficiency,2021,CO,COL,Americas,Latin America and the Caribbean
+82,Sri Lanka,464.0,Low Proficiency,2021,LK,LKA,Asia,Southern Asia
+83,Mongolia,461.0,Low Proficiency,2021,MN,MNG,Asia,Eastern Asia
+84,Kuwait,458.0,Low Proficiency,2021,KW,KWT,Asia,Western Asia
+85,Egypt,455.0,Low Proficiency,2021,EG,EGY,Africa,Northern Africa
+86,Azerbaijan,451.0,Low Proficiency,2021,AZ,AZE,Asia,Western Asia
+87,Afghanistan,448.0,Very Low Proficiency,2021,AF,AFG,Asia,Southern Asia
+88,Uzbekistan,447.0,Very Low Proficiency,2021,UZ,UZB,Asia,Central Asia
+89,Syria,445.0,Very Low Proficiency,2021,SY,SYR,Asia,Western Asia
+90,Ecuador,440.0,Very Low Proficiency,2021,EC,ECU,Americas,Latin America and the Caribbean
+90,Jordan,440.0,Very Low Proficiency,2021,JO,JOR,Asia,Western Asia
+92,Mexico,436.0,Very Low Proficiency,2021,MX,MEX,Americas,Latin America and the Caribbean
+93,Myanmar,429.0,Very Low Proficiency,2021,MM,MMR,Asia,South-eastern Asia
+94,Angola,428.0,Very Low Proficiency,2021,AO,AGO,Africa,Sub-Saharan Africa
+94,Cameroon,428.0,Very Low Proficiency,2021,CM,CMR,Africa,Sub-Saharan Africa
+96,Kazakhstan,426.0,Very Low Proficiency,2021,KZ,KAZ,Asia,Central Asia
+97,Cambodia,423.0,Very Low Proficiency,2021,KH,KHM,Asia,South-eastern Asia
+98,Sudan,421.0,Very Low Proficiency,2021,SD,SDN,Africa,Northern Africa
+99,Ivory Coast,420.0,Very Low Proficiency,2021,CI,CIV,Africa,Sub-Saharan Africa
+100,Thailand,419.0,Very Low Proficiency,2021,TH,THA,Asia,South-eastern Asia
+101,Kyrgyzstan,418.0,Very Low Proficiency,2021,KG,KGZ,Asia,Central Asia
+102,Oman,417.0,Very Low Proficiency,2021,OM,OMN,Asia,Western Asia
+103,Tajikistan,405.0,Very Low Proficiency,2021,TJ,TJK,Asia,Central Asia
+104,Saudi Arabia,404.0,Very Low Proficiency,2021,SA,SAU,Asia,Western Asia
+105,Haiti,403.0,Very Low Proficiency,2021,HT,HTI,Americas,Latin America and the Caribbean
+106,Somalia,401.0,Very Low Proficiency,2021,SO,SOM,Africa,Sub-Saharan Africa
+107,Iraq,399.0,Very Low Proficiency,2021,IQ,IRQ,Asia,Western Asia
+108,Libya,390.0,Very Low Proficiency,2021,LY,LBY,Africa,Northern Africa
+109,Rwanda,389.0,Very Low Proficiency,2021,RW,RWA,Africa,Sub-Saharan Africa
+110,Democratic Republic of the Congo,386.0,Very Low Proficiency,2021,CD,COD,Africa,Sub-Saharan Africa
+111,South Sudan,363.0,Very Low Proficiency,2021,SS,SSD,Africa,Sub-Saharan Africa
+112,Yemen,360.0,Very Low Proficiency,2021,YE,YEM,Asia,Western Asia
+1,Netherlands,661.0,Very High Proficiency,2022,NL,NLD,Europe,Western Europe
+2,Singapore,642.0,Very High Proficiency,2022,SG,SGP,Asia,South-eastern Asia
+3,Austria,628.0,Very High Proficiency,2022,AT,AUT,Europe,Western Europe
+4,Norway,627.0,Very High Proficiency,2022,NO,NOR,Europe,Northern Europe
+5,Denmark,625.0,Very High Proficiency,2022,DK,DNK,Europe,Northern Europe
+6,Belgium,620.0,Very High Proficiency,2022,BE,BEL,Europe,Western Europe
+7,Sweden,618.0,Very High Proficiency,2022,SE,SWE,Europe,Northern Europe
+8,Finland,615.0,Very High Proficiency,2022,FI,FIN,Europe,Northern Europe
+9,Portugal,614.0,Very High Proficiency,2022,PT,PRT,Europe,Southern Europe
+10,Germany,613.0,Very High Proficiency,2022,DE,DEU,Europe,Western Europe
+11,Croatia,612.0,Very High Proficiency,2022,HR,HRV,Europe,Southern Europe
+12,South Africa,609.0,Very High Proficiency,2022,ZA,ZAF,Africa,Sub-Saharan Africa
+13,Poland,600.0,Very High Proficiency,2022,PL,POL,Europe,Eastern Europe
+14,Greece,598.0,High Proficiency,2022,GR,GRC,Europe,Southern Europe
+15,Slovakia,597.0,High Proficiency,2022,SK,SVK,Europe,Eastern Europe
+16,Luxembourg,596.0,High Proficiency,2022,LU,LUX,Europe,Western Europe
+17,Romania,595.0,High Proficiency,2022,RO,ROU,Europe,Eastern Europe
+18,Hungary,590.0,High Proficiency,2022,HU,HUN,Europe,Eastern Europe
+19,Lithuania,589.0,High Proficiency,2022,LT,LTU,Europe,Northern Europe
+20,Kenya,582.0,High Proficiency,2022,KE,KEN,Africa,Sub-Saharan Africa
+21,Bulgaria,581.0,High Proficiency,2022,BG,BGR,Europe,Eastern Europe
+22,Philippines,578.0,High Proficiency,2022,PH,PHL,Asia,South-eastern Asia
+23,Czech Republic,575.0,High Proficiency,2022,CZ,CZE,Europe,Eastern Europe
+24,Malaysia,574.0,High Proficiency,2022,MY,MYS,Asia,South-eastern Asia
+25,Latvia,571.0,High Proficiency,2022,LV,LVA,Europe,Northern Europe
+26,Estonia,570.0,High Proficiency,2022,EE,EST,Europe,Northern Europe
+27,Serbia,567.0,High Proficiency,2022,RS,SRB,Europe,Southern Europe
+28,Nigeria,564.0,High Proficiency,2022,NG,NGA,Africa,Sub-Saharan Africa
+29,Switzerland,563.0,High Proficiency,2022,CH,CHE,Europe,Western Europe
+30,Argentina,562.0,High Proficiency,2022,AR,ARG,Americas,Latin America and the Caribbean
+31,Hong Kong,561.0,High Proficiency,2022,HK,HKG,Asia,Eastern Asia
+32,Italy,548.0,Moderate Proficiency,2022,IT,ITA,Europe,Southern Europe
+33,Spain,545.0,Moderate Proficiency,2022,ES,ESP,Europe,Southern Europe
+34,France,541.0,Moderate Proficiency,2022,FR,FRA,Europe,Western Europe
+35,Ukraine,539.0,Moderate Proficiency,2022,UA,UKR,Europe,Eastern Europe
+36,South Korea,537.0,Moderate Proficiency,2022,KR,KOR,Asia,Eastern Asia
+37,Costa Rica,536.0,Moderate Proficiency,2022,CR,CRI,Americas,Latin America and the Caribbean
+38,Cuba,535.0,Moderate Proficiency,2022,CU,CUB,Americas,Latin America and the Caribbean
+39,Belarus,533.0,Moderate Proficiency,2022,BY,BLR,Europe,Eastern Europe
+40,Russia,530.0,Moderate Proficiency,2022,RU,RUS,Europe,Eastern Europe
+41,Ghana,529.0,Moderate Proficiency,2022,GH,GHA,Africa,Sub-Saharan Africa
+42,Moldova,528.0,Moderate Proficiency,2022,MD,MDA,Europe,Eastern Europe
+43,Paraguay,526.0,Moderate Proficiency,2022,PY,PRY,Americas,Latin America and the Caribbean
+44,Bolivia,525.0,Moderate Proficiency,2022,BO,BOL,Americas,Latin America and the Caribbean
+45,Chile,524.0,Moderate Proficiency,2022,CL,CHL,Americas,Latin America and the Caribbean
+46,Georgia,524.0,Moderate Proficiency,2022,GE,GEO,Asia,Western Asia
+47,Albania,523.0,Moderate Proficiency,2022,AL,ALB,Europe,Southern Europe
+48,Honduras,522.0,Moderate Proficiency,2022,HN,HND,Americas,Latin America and the Caribbean
+49,Uruguay,521.0,Moderate Proficiency,2022,UY,URY,Americas,Latin America and the Caribbean
+50,El Salvador,519.0,Moderate Proficiency,2022,SV,SLV,Americas,Latin America and the Caribbean
+51,Peru,517.0,Moderate Proficiency,2022,PE,PER,Americas,Latin America and the Caribbean
+52,India,516.0,Moderate Proficiency,2022,IN,IND,Asia,Southern Asia
+53,Dominican Republic,514.0,Moderate Proficiency,2022,DO,DOM,Americas,Latin America and the Caribbean
+54,Lebanon,513.0,Moderate Proficiency,2022,LB,LBN,Asia,Western Asia
+55,Uganda,512.0,Moderate Proficiency,2022,UG,UGA,Africa,Sub-Saharan Africa
+56,Tunisia,511.0,Moderate Proficiency,2022,TN,TUN,Africa,Northern Africa
+57,Armenia,506.0,Moderate Proficiency,2022,AM,ARM,Asia,Western Asia
+58,Brazil,505.0,Moderate Proficiency,2022,BR,BRA,Americas,Latin America and the Caribbean
+59,Guatemala,505.0,Moderate Proficiency,2022,GT,GTM,Americas,Latin America and the Caribbean
+60,Vietnam,502.0,Moderate Proficiency,2022,VN,VNM,Asia,South-eastern Asia
+61,Nicaragua,499.0,Low Proficiency,2022,NI,NIC,Americas,Latin America and the Caribbean
+62,China,498.0,Low Proficiency,2022,CN,CHN,Asia,Eastern Asia
+63,Tanzania,496.0,Low Proficiency,2022,TZ,TZA,Africa,Sub-Saharan Africa
+64,Turkey,495.0,Low Proficiency,2022,TR,TUR,Asia,Western Asia
+65,Nepal,494.0,Low Proficiency,2022,NP,NPL,Asia,Southern Asia
+66,Bangladesh,493.0,Low Proficiency,2022,BD,BGD,Asia,Southern Asia
+67,Venezuela,492.0,Low Proficiency,2022,VE,VEN,Americas,Latin America and the Caribbean
+68,Ethiopia,490.0,Low Proficiency,2022,ET,ETH,Africa,Sub-Saharan Africa
+69,Iran,489.0,Low Proficiency,2022,IR,IRN,Asia,Southern Asia
+70,Pakistan,488.0,Low Proficiency,2022,PK,PAK,Asia,Southern Asia
+71,Sri Lanka,487.0,Low Proficiency,2022,LK,LKA,Asia,Southern Asia
+72,Mongolia,485.0,Low Proficiency,2022,MN,MNG,Asia,Eastern Asia
+73,Qatar,484.0,Low Proficiency,2022,QA,QAT,Asia,Western Asia
+74,Israel,483.0,Low Proficiency,2022,IL,ISR,Asia,Western Asia
+75,Panama,482.0,Low Proficiency,2022,PA,PAN,Americas,Latin America and the Caribbean
+76,Morocco,478.0,Low Proficiency,2022,MA,MAR,Africa,Northern Africa
+77,Colombia,477.0,Low Proficiency,2022,CO,COL,Americas,Latin America and the Caribbean
+78,Algeria,476.0,Low Proficiency,2022,DZ,DZA,Africa,Northern Africa
+79,United Arab Emirates,476.0,Low Proficiency,2022,AE,ARE,Asia,Western Asia
+80,Japan,475.0,Low Proficiency,2022,JP,JPN,Asia,Eastern Asia
+81,Indonesia,469.0,Low Proficiency,2022,ID,IDN,Asia,South-eastern Asia
+82,Ecuador,466.0,Low Proficiency,2022,EC,ECU,Americas,Latin America and the Caribbean
+83,Syria,461.0,Low Proficiency,2022,SY,SYR,Asia,Western Asia
+84,Kuwait,459.0,Low Proficiency,2022,KW,KWT,Asia,Western Asia
+85,Egypt,454.0,Low Proficiency,2022,EG,EGY,Africa,Northern Africa
+86,Mozambique,453.0,Low Proficiency,2022,MZ,MOZ,Africa,Sub-Saharan Africa
+87,Afghanistan,450.0,Low Proficiency,2022,AF,AFG,Asia,Southern Asia
+88,Mexico,447.0,Very Low Proficiency,2022,MX,MEX,Americas,Latin America and the Caribbean
+89,Uzbekistan,446.0,Very Low Proficiency,2022,UZ,UZB,Asia,Central Asia
+90,Jordan,443.0,Very Low Proficiency,2022,JO,JOR,Asia,Western Asia
+91,Kyrgyzstan,442.0,Very Low Proficiency,2022,KG,KGZ,Asia,Central Asia
+92,Azerbaijan,440.0,Very Low Proficiency,2022,AZ,AZE,Asia,Western Asia
+93,Myanmar,437.0,Very Low Proficiency,2022,MM,MMR,Asia,South-eastern Asia
+94,Cambodia,434.0,Very Low Proficiency,2022,KH,KHM,Asia,South-eastern Asia
+95,Sudan,426.0,Very Low Proficiency,2022,SD,SDN,Africa,Northern Africa
+96,Cameroon,425.0,Very Low Proficiency,2022,CM,CMR,Africa,Sub-Saharan Africa
+97,Thailand,423.0,Very Low Proficiency,2022,TH,THA,Asia,South-eastern Asia
+98,Haiti,421.0,Very Low Proficiency,2022,HT,HTI,Americas,Latin America and the Caribbean
+99,Kazakhstan,420.0,Very Low Proficiency,2022,KZ,KAZ,Asia,Central Asia
+100,Somalia,414.0,Very Low Proficiency,2022,SO,SOM,Africa,Sub-Saharan Africa
+101,Oman,412.0,Very Low Proficiency,2022,OM,OMN,Asia,Western Asia
+102,Saudi Arabia,406.0,Very Low Proficiency,2022,SA,SAU,Asia,Western Asia
+103,Iraq,404.0,Very Low Proficiency,2022,IQ,IRQ,Asia,Western Asia
+104,Ivory Coast,403.0,Very Low Proficiency,2022,CI,CIV,Africa,Sub-Saharan Africa
+105,Angola,402.0,Very Low Proficiency,2022,AO,AGO,Africa,Sub-Saharan Africa
+106,Tajikistan,397.0,Very Low Proficiency,2022,TJ,TJK,Asia,Central Asia
+107,Rwanda,392.0,Very Low Proficiency,2022,RW,RWA,Africa,Sub-Saharan Africa
+108,Libya,390.0,Very Low Proficiency,2022,LY,LBY,Africa,Northern Africa
+109,Yemen,370.0,Very Low Proficiency,2022,YE,YEM,Asia,Western Asia
+110,Democratic Republic of the Congo,367.0,Very Low Proficiency,2022,CD,COD,Africa,Sub-Saharan Africa
+111,Laos,364.0,Very Low Proficiency,2022,LA,LAO,Asia,South-eastern Asia
+1,Netherlands,647.0,Very High Proficiency,2023,NL,NLD,Europe,Western Europe
+2,Singapore,631.0,Very High Proficiency,2023,SG,SGP,Asia,South-eastern Asia
+3,Austria,616.0,Very High Proficiency,2023,AT,AUT,Europe,Western Europe
+4,Denmark,615.0,Very High Proficiency,2023,DK,DNK,Europe,Northern Europe
+5,Norway,614.0,Very High Proficiency,2023,NO,NOR,Europe,Northern Europe
+6,Sweden,609.0,Very High Proficiency,2023,SE,SWE,Europe,Northern Europe
+7,Belgium,608.0,Very High Proficiency,2023,BE,BEL,Europe,Western Europe
+8,Portugal,607.0,Very High Proficiency,2023,PT,PRT,Europe,Southern Europe
+9,South Africa,605.0,Very High Proficiency,2023,ZA,ZAF,Africa,Sub-Saharan Africa
+10,Germany,604.0,Very High Proficiency,2023,DE,DEU,Europe,Western Europe
+11,Croatia,603.0,Very High Proficiency,2023,HR,HRV,Europe,Southern Europe
+12,Greece,602.0,Very High Proficiency,2023,GR,GRC,Europe,Southern Europe
+13,Poland,598.0,High Proficiency,2023,PL,POL,Europe,Eastern Europe
+14,Finland,597.0,High Proficiency,2023,FI,FIN,Europe,Northern Europe
+15,Romania,596.0,High Proficiency,2023,RO,ROU,Europe,Eastern Europe
+16,Bulgaria,589.0,High Proficiency,2023,BG,BGR,Europe,Eastern Europe
+17,Hungary,588.0,High Proficiency,2023,HU,HUN,Europe,Eastern Europe
+18,Slovakia,587.0,High Proficiency,2023,SK,SVK,Europe,Eastern Europe
+19,Kenya,584.0,High Proficiency,2023,KE,KEN,Africa,Sub-Saharan Africa
+20,Philippines,578.0,High Proficiency,2023,PH,PHL,Asia,South-eastern Asia
+21,Lithuania,576.0,High Proficiency,2023,LT,LTU,Europe,Northern Europe
+22,Luxembourg,575.0,High Proficiency,2023,LU,LUX,Europe,Western Europe
+23,Estonia,570.0,High Proficiency,2023,EE,EST,Europe,Northern Europe
+24,Serbia,569.0,High Proficiency,2023,RS,SRB,Europe,Southern Europe
+25,Malaysia,568.0,High Proficiency,2023,MY,MYS,Asia,South-eastern Asia
+26,Czech Republic,565.0,High Proficiency,2023,CZ,CZE,Europe,Eastern Europe
+27,Nigeria,562.0,High Proficiency,2023,NG,NGA,Africa,Sub-Saharan Africa
+28,Argentina,560.0,High Proficiency,2023,AR,ARG,Americas,Latin America and the Caribbean
+29,Hong Kong,553.0,High Proficiency,2023,HK,HKG,Asia,Eastern Asia
+30,Switzerland,553.0,High Proficiency,2023,CH,CHE,Europe,Western Europe
+31,Honduras,544.0,Moderate Proficiency,2023,HN,HND,Americas,Latin America and the Caribbean
+32,Georgia,541.0,Moderate Proficiency,2023,GE,GEO,Asia,Western Asia
+33,Belarus,539.0,Moderate Proficiency,2023,BY,BLR,Europe,Eastern Europe
+34,Ghana,537.0,Moderate Proficiency,2023,GH,GHA,Africa,Sub-Saharan Africa
+35,Italy,535.0,Moderate Proficiency,2023,IT,ITA,Europe,Southern Europe
+36,Moldova,535.0,Moderate Proficiency,2023,MD,MDA,Europe,Eastern Europe
+37,Spain,535.0,Moderate Proficiency,2023,ES,ESP,Europe,Southern Europe
+38,Costa Rica,534.0,Moderate Proficiency,2023,CR,CRI,Americas,Latin America and the Caribbean
+39,Albania,533.0,Moderate Proficiency,2023,AL,ALB,Europe,Southern Europe
+40,Uruguay,533.0,Moderate Proficiency,2023,UY,URY,Americas,Latin America and the Caribbean
+41,Bolivia,532.0,Moderate Proficiency,2023,BO,BOL,Americas,Latin America and the Caribbean
+42,Russia,532.0,Moderate Proficiency,2023,RU,RUS,Europe,Eastern Europe
+43,Cuba,531.0,Moderate Proficiency,2023,CU,CUB,Americas,Latin America and the Caribbean
+44,France,531.0,Moderate Proficiency,2023,FR,FRA,Europe,Western Europe
+45,Paraguay,530.0,Moderate Proficiency,2023,PY,PRY,Americas,Latin America and the Caribbean
+46,Ukraine,530.0,Moderate Proficiency,2023,UA,UKR,Europe,Eastern Europe
+47,Uganda,529.0,Moderate Proficiency,2023,UG,UGA,Africa,Sub-Saharan Africa
+48,Armenia,528.0,Moderate Proficiency,2023,AM,ARM,Asia,Western Asia
+49,South Korea,525.0,Moderate Proficiency,2023,KR,KOR,Asia,Eastern Asia
+50,El Salvador,524.0,Moderate Proficiency,2023,SV,SLV,Americas,Latin America and the Caribbean
+51,Peru,521.0,Moderate Proficiency,2023,PE,PER,Americas,Latin America and the Caribbean
+52,Chile,518.0,Moderate Proficiency,2023,CL,CHL,Americas,Latin America and the Caribbean
+53,Guatemala,515.0,Moderate Proficiency,2023,GT,GTM,Americas,Latin America and the Caribbean
+54,Israel,514.0,Moderate Proficiency,2023,IL,ISR,Asia,Western Asia
+55,Dominican Republic,512.0,Moderate Proficiency,2023,DO,DOM,Americas,Latin America and the Caribbean
+56,Venezuela,508.0,Moderate Proficiency,2023,VE,VEN,Americas,Latin America and the Caribbean
+57,Nepal,507.0,Moderate Proficiency,2023,NP,NPL,Asia,Southern Asia
+58,Iran,505.0,Moderate Proficiency,2023,IR,IRN,Asia,Southern Asia
+58,Vietnam,505.0,Moderate Proficiency,2023,VN,VNM,Asia,South-eastern Asia
+60,Bangladesh,504.0,Moderate Proficiency,2023,BD,BGD,Asia,Southern Asia
+60,India,504.0,Moderate Proficiency,2023,IN,IND,Asia,Southern Asia
+62,Nicaragua,503.0,Moderate Proficiency,2023,NI,NIC,Americas,Latin America and the Caribbean
+63,Tunisia,502.0,Moderate Proficiency,2023,TN,TUN,Africa,Northern Africa
+64,Pakistan,497.0,Low Proficiency,2023,PK,PAK,Asia,Southern Asia
+65,Lebanon,496.0,Low Proficiency,2023,LB,LBN,Asia,Western Asia
+66,Turkey,493.0,Low Proficiency,2023,TR,TUR,Asia,Western Asia
+67,Sri Lanka,491.0,Low Proficiency,2023,LK,LKA,Asia,Southern Asia
+67,Tanzania,491.0,Low Proficiency,2023,TZ,TZA,Africa,Sub-Saharan Africa
+69,Ethiopia,490.0,Low Proficiency,2023,ET,ETH,Africa,Sub-Saharan Africa
+70,Brazil,487.0,Low Proficiency,2023,BR,BRA,Americas,Latin America and the Caribbean
+71,Panama,486.0,Low Proficiency,2023,PA,PAN,Americas,Latin America and the Caribbean
+71,United Arab Emirates,486.0,Low Proficiency,2023,AE,ARE,Asia,Western Asia
+73,Mongolia,482.0,Low Proficiency,2023,MN,MNG,Asia,Eastern Asia
+73,Qatar,482.0,Low Proficiency,2023,QA,QAT,Asia,Western Asia
+75,Colombia,480.0,Low Proficiency,2023,CO,COL,Americas,Latin America and the Caribbean
+76,Morocco,478.0,Low Proficiency,2023,MA,MAR,Africa,Northern Africa
+77,Algeria,475.0,Low Proficiency,2023,DZ,DZA,Africa,Northern Africa
+78,Madagascar,474.0,Low Proficiency,2023,MG,MDG,Africa,Sub-Saharan Africa
+79,Indonesia,473.0,Low Proficiency,2023,ID,IDN,Asia,South-eastern Asia
+80,Ecuador,467.0,Low Proficiency,2023,EC,ECU,Americas,Latin America and the Caribbean
+80,Syria,467.0,Low Proficiency,2023,SY,SYR,Asia,Western Asia
+82,China,464.0,Low Proficiency,2023,CN,CHN,Asia,Eastern Asia
+83,Azerbaijan,463.0,Low Proficiency,2023,AZ,AZE,Asia,Western Asia
+83,Egypt,463.0,Low Proficiency,2023,EG,EGY,Africa,Northern Africa
+85,Kuwait,461.0,Low Proficiency,2023,KW,KWT,Asia,Western Asia
+86,Malawi,460.0,Low Proficiency,2023,MW,MWI,Africa,Sub-Saharan Africa
+87,Japan,457.0,Low Proficiency,2023,JP,JPN,Asia,Eastern Asia
+88,Afghanistan,456.0,Low Proficiency,2023,AF,AFG,Asia,Southern Asia
+89,Mexico,451.0,Low Proficiency,2023,MX,MEX,Americas,Latin America and the Caribbean
+90,Kyrgyzstan,450.0,Low Proficiency,2023,KG,KGZ,Asia,Central Asia
+90,Myanmar,450.0,Low Proficiency,2023,MM,MMR,Asia,South-eastern Asia
+92,Palestine,445.0,Very Low Proficiency,2023,PS,PSE,Asia,Western Asia
+93,Uzbekistan,442.0,Very Low Proficiency,2023,UZ,UZB,Asia,Central Asia
+94,Cameroon,438.0,Very Low Proficiency,2023,CM,CMR,Africa,Sub-Saharan Africa
+94,Senegal,438.0,Very Low Proficiency,2023,SN,SEN,Africa,Sub-Saharan Africa
+96,Jordan,431.0,Very Low Proficiency,2023,JO,JOR,Asia,Western Asia
+97,Sudan,430.0,Very Low Proficiency,2023,SD,SDN,Africa,Northern Africa
+98,Cambodia,421.0,Very Low Proficiency,2023,KH,KHM,Asia,South-eastern Asia
+98,Haiti,421.0,Very Low Proficiency,2023,HT,HTI,Americas,Latin America and the Caribbean
+100,Oman,418.0,Very Low Proficiency,2023,OM,OMN,Asia,Western Asia
+101,Angola,416.0,Very Low Proficiency,2023,AO,AGO,Africa,Sub-Saharan Africa
+101,Benin,416.0,Very Low Proficiency,2023,BJ,BEN,Africa,Sub-Saharan Africa
+101,Thailand,416.0,Very Low Proficiency,2023,TH,THA,Asia,South-eastern Asia
+104,Kazakhstan,415.0,Very Low Proficiency,2023,KZ,KAZ,Asia,Central Asia
+105,Somalia,411.0,Very Low Proficiency,2023,SO,SOM,Africa,Sub-Saharan Africa
+106,Iraq,410.0,Very Low Proficiency,2023,IQ,IRQ,Asia,Western Asia
+107,Ivory Coast,409.0,Very Low Proficiency,2023,CI,CIV,Africa,Sub-Saharan Africa
+108,Saudi Arabia,408.0,Very Low Proficiency,2023,SA,SAU,Asia,Western Asia
+109,Rwanda,405.0,Very Low Proficiency,2023,RW,RWA,Africa,Sub-Saharan Africa
+110,Libya,392.0,Very Low Proficiency,2023,LY,LBY,Africa,Northern Africa
+110,Yemen,392.0,Very Low Proficiency,2023,YE,YEM,Asia,Western Asia
+112,Tajikistan,388.0,Very Low Proficiency,2023,TJ,TJK,Asia,Central Asia
+113,Democratic Republic of the Congo,385.0,Very Low Proficiency,2023,CD,COD,Africa,Sub-Saharan Africa
+1,Netherlands,636.0,Very High Proficiency,2024,NL,NLD,Europe,Western Europe
+2,Norway,610.0,Very High Proficiency,2024,NO,NOR,Europe,Northern Europe
+3,Singapore,609.0,Very High Proficiency,2024,SG,SGP,Asia,South-eastern Asia
+4,Sweden,608.0,Very High Proficiency,2024,SE,SWE,Europe,Northern Europe
+5,Croatia,607.0,Very High Proficiency,2024,HR,HRV,Europe,Southern Europe
+6,Portugal,605.0,Very High Proficiency,2024,PT,PRT,Europe,Southern Europe
+7,Denmark,603.0,Very High Proficiency,2024,DK,DNK,Europe,Northern Europe
+8,Greece,602.0,Very High Proficiency,2024,GR,GRC,Europe,Southern Europe
+9,Austria,600.0,Very High Proficiency,2024,AT,AUT,Europe,Western Europe
+10,Germany,598.0,High Proficiency,2024,DE,DEU,Europe,Western Europe
+11,South Africa,594.0,High Proficiency,2024,ZA,ZAF,Africa,Sub-Saharan Africa
+12,Romania,593.0,High Proficiency,2024,RO,ROU,Europe,Eastern Europe
+13,Belgium,592.0,High Proficiency,2024,BE,BEL,Europe,Western Europe
+14,Finland,590.0,High Proficiency,2024,FI,FIN,Europe,Northern Europe
+15,Poland,588.0,High Proficiency,2024,PL,POL,Europe,Eastern Europe
+16,Bulgaria,586.0,High Proficiency,2024,BG,BGR,Europe,Eastern Europe
+17,Hungary,585.0,High Proficiency,2024,HU,HUN,Europe,Eastern Europe
+18,Slovakia,584.0,High Proficiency,2024,SK,SVK,Europe,Eastern Europe
+19,Kenya,581.0,High Proficiency,2024,KE,KEN,Africa,Sub-Saharan Africa
+20,Estonia,578.0,High Proficiency,2024,EE,EST,Europe,Northern Europe
+21,Luxembourg,576.0,High Proficiency,2024,LU,LUX,Europe,Western Europe
+22,Philippines,570.0,High Proficiency,2024,PH,PHL,Asia,South-eastern Asia
+23,Lithuania,569.0,High Proficiency,2024,LT,LTU,Europe,Northern Europe
+24,Serbia,568.0,High Proficiency,2024,RS,SRB,Europe,Southern Europe
+25,Czech Republic,567.0,High Proficiency,2024,CZ,CZE,Europe,Eastern Europe
+26,Malaysia,566.0,High Proficiency,2024,MY,MYS,Asia,South-eastern Asia
+27,Suriname,563.0,High Proficiency,2024,SR,SUR,Americas,Latin America and the Caribbean
+28,Argentina,562.0,High Proficiency,2024,AR,ARG,Americas,Latin America and the Caribbean
+29,Cyprus,558.0,High Proficiency,2024,CY,CYP,Asia,Western Asia
+30,Nigeria,557.0,High Proficiency,2024,NG,NGA,Africa,Sub-Saharan Africa
+31,Switzerland,550.0,High Proficiency,2024,CH,CHE,Europe,Western Europe
+32,Hong Kong,549.0,Moderate Proficiency,2024,HK,HKG,Asia,Eastern Asia
+33,Honduras,545.0,Moderate Proficiency,2024,HN,HND,Americas,Latin America and the Caribbean
+34,Georgia,543.0,Moderate Proficiency,2024,GE,GEO,Asia,Western Asia
+35,Belarus,539.0,Moderate Proficiency,2024,BY,BLR,Europe,Eastern Europe
+36,Spain,538.0,Moderate Proficiency,2024,ES,ESP,Europe,Southern Europe
+37,Uruguay,538.0,Moderate Proficiency,2024,UY,URY,Americas,Latin America and the Caribbean
+38,Armenia,537.0,Moderate Proficiency,2024,AM,ARM,Asia,Western Asia
+39,Moldova,536.0,Moderate Proficiency,2024,MD,MDA,Europe,Eastern Europe
+40,Ukraine,535.0,Moderate Proficiency,2024,UA,UKR,Europe,Eastern Europe
+41,Costa Rica,534.0,Moderate Proficiency,2024,CR,CRI,Americas,Latin America and the Caribbean
+42,Ghana,534.0,Moderate Proficiency,2024,GH,GHA,Africa,Sub-Saharan Africa
+43,Albania,533.0,Moderate Proficiency,2024,AL,ALB,Europe,Southern Europe
+44,Russia,532.0,Moderate Proficiency,2024,RU,RUS,Europe,Eastern Europe
+45,Paraguay,531.0,Moderate Proficiency,2024,PY,PRY,Americas,Latin America and the Caribbean
+46,Italy,528.0,Moderate Proficiency,2024,IT,ITA,Europe,Southern Europe
+47,Bolivia,525.0,Moderate Proficiency,2024,BO,BOL,Americas,Latin America and the Caribbean
+48,Chile,525.0,Moderate Proficiency,2024,CL,CHL,Americas,Latin America and the Caribbean
+49,France,524.0,Moderate Proficiency,2024,FR,FRA,Europe,Western Europe
+50,South Korea,523.0,Moderate Proficiency,2024,KR,KOR,Asia,Eastern Asia
+51,Israel,522.0,Moderate Proficiency,2024,IL,ISR,Asia,Western Asia
+52,Cuba,520.0,Moderate Proficiency,2024,CU,CUB,Americas,Latin America and the Caribbean
+53,Peru,519.0,Moderate Proficiency,2024,PE,PER,Americas,Latin America and the Caribbean
+54,Uganda,518.0,Moderate Proficiency,2024,UG,UGA,Africa,Sub-Saharan Africa
+55,El Salvador,513.0,Moderate Proficiency,2024,SV,SLV,Americas,Latin America and the Caribbean
+56,Nepal,512.0,Moderate Proficiency,2024,NP,NPL,Asia,Southern Asia
+57,Venezuela,510.0,Moderate Proficiency,2024,VE,VEN,Americas,Latin America and the Caribbean
+58,Guatemala,507.0,Moderate Proficiency,2024,GT,GTM,Americas,Latin America and the Caribbean
+59,Nicaragua,505.0,Moderate Proficiency,2024,NI,NIC,Americas,Latin America and the Caribbean
+60,Dominican Republic,503.0,Moderate Proficiency,2024,DO,DOM,Americas,Latin America and the Caribbean
+61,Bangladesh,500.0,Moderate Proficiency,2024,BD,BGD,Asia,Southern Asia
+62,Iran,499.0,Low Proficiency,2024,IR,IRN,Asia,Southern Asia
+63,Ethiopia,498.0,Low Proficiency,2024,ET,ETH,Africa,Sub-Saharan Africa
+64,Vietnam,498.0,Low Proficiency,2024,VN,VNM,Asia,South-eastern Asia
+65,Turkey,497.0,Low Proficiency,2024,TR,TUR,Asia,Western Asia
+66,Tunisia,496.0,Low Proficiency,2024,TN,TUN,Africa,Northern Africa
+67,Pakistan,493.0,Low Proficiency,2024,PK,PAK,Asia,Southern Asia
+68,Lebanon,492.0,Low Proficiency,2024,LB,LBN,Asia,Western Asia
+69,India,490.0,Low Proficiency,2024,IN,IND,Asia,Southern Asia
+70,United Arab Emirates,489.0,Low Proficiency,2024,AE,ARE,Asia,Western Asia
+71,Panama,488.0,Low Proficiency,2024,PA,PAN,Americas,Latin America and the Caribbean
+72,Tanzania,487.0,Low Proficiency,2024,TZ,TZA,Africa,Sub-Saharan Africa
+73,Sri Lanka,486.0,Low Proficiency,2024,LK,LKA,Asia,Southern Asia
+74,Colombia,485.0,Low Proficiency,2024,CO,COL,Americas,Latin America and the Caribbean
+75,Qatar,480.0,Low Proficiency,2024,QA,QAT,Asia,Western Asia
+76,Morocco,479.0,Low Proficiency,2024,MA,MAR,Africa,Northern Africa
+77,Syria,473.0,Low Proficiency,2024,SY,SYR,Asia,Western Asia
+78,Algeria,471.0,Low Proficiency,2024,DZ,DZA,Africa,Northern Africa
+79,Mozambique,469.0,Low Proficiency,2024,MZ,MOZ,Africa,Sub-Saharan Africa
+80,Indonesia,468.0,Low Proficiency,2024,ID,IDN,Asia,South-eastern Asia
+81,Brazil,466.0,Low Proficiency,2024,BR,BRA,Americas,Latin America and the Caribbean
+82,Ecuador,465.0,Low Proficiency,2024,EC,ECU,Americas,Latin America and the Caribbean
+83,Egypt,465.0,Low Proficiency,2024,EG,EGY,Africa,Northern Africa
+84,Mongolia,464.0,Low Proficiency,2024,MN,MNG,Asia,Eastern Asia
+85,Madagascar,463.0,Low Proficiency,2024,MG,MDG,Africa,Sub-Saharan Africa
+86,Azerbaijan,462.0,Low Proficiency,2024,AZ,AZE,Asia,Western Asia
+87,Mexico,459.0,Low Proficiency,2024,MX,MEX,Americas,Latin America and the Caribbean
+88,Kyrgyzstan,457.0,Low Proficiency,2024,KG,KGZ,Asia,Central Asia
+89,Cabo Verde,456.0,Low Proficiency,2024,CV,CPV,Africa,Sub-Saharan Africa
+90,Kuwait,456.0,Low Proficiency,2024,KW,KWT,Asia,Western Asia
+91,China,455.0,Low Proficiency,2024,CN,CHN,Asia,Eastern Asia
+92,Japan,454.0,Very Low Proficiency,2024,JP,JPN,Asia,Eastern Asia
+93,Myanmar,449.0,Very Low Proficiency,2024,MM,MMR,Asia,South-eastern Asia
+94,Palestine,448.0,Very Low Proficiency,2024,PS,PSE,Asia,Western Asia
+95,Afghanistan,447.0,Very Low Proficiency,2024,AF,AFG,Asia,Southern Asia
+96,Malawi,447.0,Very Low Proficiency,2024,MW,MWI,Africa,Sub-Saharan Africa
+97,Cameroon,445.0,Very Low Proficiency,2024,CM,CMR,Africa,Sub-Saharan Africa
+98,Uzbekistan,439.0,Very Low Proficiency,2024,UZ,UZB,Asia,Central Asia
+99,Haiti,432.0,Very Low Proficiency,2024,HT,HTI,Americas,Latin America and the Caribbean
+100,Sudan,432.0,Very Low Proficiency,2024,SD,SDN,Africa,Northern Africa
+101,Jordan,431.0,Very Low Proficiency,2024,JO,JOR,Asia,Western Asia
+102,Senegal,429.0,Very Low Proficiency,2024,SN,SEN,Africa,Sub-Saharan Africa
+103,Kazakhstan,427.0,Very Low Proficiency,2024,KZ,KAZ,Asia,Central Asia
+104,Oman,421.0,Very Low Proficiency,2024,OM,OMN,Asia,Western Asia
+105,Saudi Arabia,417.0,Very Low Proficiency,2024,SA,SAU,Asia,Western Asia
+106,Thailand,415.0,Very Low Proficiency,2024,TH,THA,Asia,South-eastern Asia
+107,Iraq,414.0,Very Low Proficiency,2024,IQ,IRQ,Asia,Western Asia
+108,Benin,413.0,Very Low Proficiency,2024,BJ,BEN,Africa,Sub-Saharan Africa
+109,Tajikistan,412.0,Very Low Proficiency,2024,TJ,TJK,Asia,Central Asia
+110,Angola,409.0,Very Low Proficiency,2024,AO,AGO,Africa,Sub-Saharan Africa
+111,Cambodia,408.0,Very Low Proficiency,2024,KH,KHM,Asia,South-eastern Asia
+112,Libya,405.0,Very Low Proficiency,2024,LY,LBY,Africa,Northern Africa
+113,Rwanda,401.0,Very Low Proficiency,2024,RW,RWA,Africa,Sub-Saharan Africa
+114,Ivory Coast,399.0,Very Low Proficiency,2024,CI,CIV,Africa,Sub-Saharan Africa
+115,Somalia,399.0,Very Low Proficiency,2024,SO,SOM,Africa,Sub-Saharan Africa
+116,Yemen,394.0,Very Low Proficiency,2024,YE,YEM,Asia,Western Asia
