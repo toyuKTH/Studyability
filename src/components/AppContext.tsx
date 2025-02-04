@@ -3,14 +3,14 @@ import {
   countryReducer,
   CountryContext,
   CountryDispatchContext,
-} from "../models/Context";
+  initContext,
+} from "../context/Context";
 
 export default function AppContext({ children }: { children: ReactNode }) {
-  const [countriesContext, countryDispatch] = useReducer(countryReducer, {
-    selectedCountry: "",
-    selectedFilter: "",
-    data: null,
-  });
+  const [countriesContext, countryDispatch] = useReducer(
+    countryReducer,
+    initContext
+  );
 
   return (
     <CountryContext.Provider value={countriesContext}>

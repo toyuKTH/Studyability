@@ -22,6 +22,14 @@
     color: black;
   }
 
+  .map-filtering-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
   .map-filtering-country-list {
     width: 100%;
     overflow: hidden;

@@ -4,12 +4,16 @@ import {
   ICountryContext,
   ICountryDispatch,
   IDispatchType,
-} from "./Context.types";
+} from "../models/Context.types";
 
 export const initContext: ICountryContext = {
   selectedCountry: "",
   selectedFilter: "",
-  data: null,
+  hoveredCountry: "",
+  data: {
+    universityRankingsData: null,
+    countryCityUniversityData: null,
+  },
 };
 
 export const CountryContext = createContext(initContext);
@@ -17,13 +21,23 @@ export const CountryDispatchContext = createContext<Dispatch<ICountryDispatch>>(
   () => {}
 );
 
-export const d3Dispatch = d3.dispatch("countrySelected", "resetZoom");
+export const d3Dispatch = d3.dispatch(
+  "countrySelected",
+  "resetZoom",
+  "filterByUniversity"
+);
 
 export function countryReducer(
   context: ICountryContext,
   action: ICountryDispatch
 ) {
   switch (action.type) {
+    case IDispatchType.addInitData: {
+      return {
+        ...context,
+        data: action.data,
+      };
+    }
     case IDispatchType.addCountries: {
       return {
         ...context,
@@ -32,7 +46,9 @@ export function countryReducer(
     }
     case IDispatchType.selectCountry: {
       d3Dispatch.call("countrySelected", {}, { country: action.data });
-
+      console.log("selecting country: ", action.data);
+      // const newCountry =
+      //   action.data === context.selectedCountry ? "" : action.data;
       return {
         ...context,
         selectedCountry: action.data,
@@ -45,6 +61,9 @@ export function countryReducer(
       };
     }
     case IDispatchType.selectFilter: {
+      // if (action.data === "university") {
+      d3Dispatch.call("filterByUniversity");
+      // }
       return {
         ...context,
         selectedFilter: action.data,
@@ -54,6 +73,12 @@ export function countryReducer(
       return {
         ...context,
         selectedFilter: "",
+      };
+    }
+    case IDispatchType.hoverCountry: {
+      return {
+        ...context,
+        hoveredCountry: action.data,
       };
     }
     default: {

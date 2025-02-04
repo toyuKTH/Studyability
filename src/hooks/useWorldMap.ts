@@ -1,31 +1,18 @@
-import * as d3 from "d3";
-import { useContext, useEffect, useRef, useState } from "react";
-import "./WorldMap.css";
-import {
-  CountryContext,
-  CountryDispatchContext,
-  d3Dispatch,
-} from "../context/Context";
-import { IDispatchType } from "../models/Context.types";
-import { worldTopology } from "../data/topologyData/countryTopology";
+import d3, { svg, geoPath } from "d3";
+import { useEffect, useRef } from "react";
+import { d3Dispatch } from "../context/Context";
 import { getAlpha_2 } from "../data/CountryData";
-import CountryTooltip from "./CountryTooltip";
-// import { getAlpha_2, universityRankingsByCountry } from "../data/CountryData";
+import { worldTopology } from "../data/topologyData/countryTopology";
+import { IDispatchType } from "../models/Context.types";
 
-type MapProps = {
+export default function useWorldMap({
+  width,
+  height,
+}: {
   width: number;
   height: number;
-};
-
-export const WorldMap = ({ width, height }: MapProps) => {
-  const countryContext = useContext(CountryContext);
-  const countryDispatch = useContext(CountryDispatchContext);
-
-  const [svgPaths, setSvgPaths] = useState<JSX.Element[]>([]);
-  const [zoomed, setZoomed] = useState(false);
-
+}) {
   const mapSvgRef = useRef<SVGSVGElement>(null);
-  const scaleRef = useRef<SVGGElement>(null);
 
   useEffect(() => {
     if (!mapSvgRef.current) return;
@@ -291,35 +278,4 @@ export const WorldMap = ({ width, height }: MapProps) => {
       path.on("click", null);
     };
   }, [width, height, mapSvgRef.current, countryContext.selectedCountry]);
-
-  function handleReset() {
-    d3Dispatch.call("resetZoom");
-  }
-
-  return (
-    <div style={{ position: "relative" }}>
-      <div className="map-info">
-        {zoomed && <button onClick={handleReset}>reset map</button>}
-        {(countryContext.selectedCountry || countryContext.hoveredCountry) && (
-          <CountryTooltip
-            selectedCountry={
-              countryContext.selectedCountry || countryContext.hoveredCountry
-            }
-          />
-        )}
-      </div>
-      <svg width={width} height={height} ref={mapSvgRef}>
-        {svgPaths}
-      </svg>
-      <g
-        width={width}
-        transform={`translate(${
-          width / 2 - (scaleRef.current ? scaleRef.current.clientWidth / 2 : 0)
-        }, ${height - 20})`}
-        ref={scaleRef}
-      />
-    </div>
-  );
-};
-
-export default WorldMap;
+}

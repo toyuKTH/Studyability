@@ -1,20 +1,33 @@
+import { DSVParsedArray } from "d3";
+import {
+  ICountryCityUniversityData,
+  IUniversityRankings,
+} from "../data/CountryData";
+
+export interface IContextData {
+  universityRankingsData: DSVParsedArray<IUniversityRankings> | null;
+  countryCityUniversityData: DSVParsedArray<ICountryCityUniversityData> | null;
+}
 export interface ICountryContext {
   selectedCountry: string;
+  hoveredCountry: string;
   selectedFilter: string;
-  data: any;
+  data: IContextData;
 }
 
 export enum IDispatchType {
+  addInitData = "addInitData",
   addCountries = "addCountries",
   selectCountry = "selectCountry",
   deselectCountry = "deSelectCountry",
   selectFilter = "selectFilter",
   deselectFilter = "deselectFilter",
+  hoverCountry = "hoverCountry",
 }
 
 export interface ICountryDispatch {
   type: IDispatchType;
-  data: any;
+  data: IContextData | string;
 }
 
 // export interface AddCountriesDispatch extends CountryDispatch {

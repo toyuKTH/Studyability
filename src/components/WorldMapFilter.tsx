@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import "./WorldMapFilter.css";
 import * as d3 from "d3";
 // import UniversityRankings from "../models/UniversityRankings.type";
-import { CountryDispatchContext } from "../models/Context";
+import { CountryDispatchContext } from "../context/Context";
 import { IDispatchType } from "../models/Context.types";
 import { worldTopology } from "../data/topologyData/countryTopology";
 
@@ -46,6 +46,10 @@ export default function WorldMapFilter() {
     countryDispatch({ type: IDispatchType.selectCountry, data: country });
   };
 
+  const handleFilterByUniversity = () => {
+    countryDispatch({ type: IDispatchType.selectFilter, data: "university" });
+  };
+
   return (
     <div className="map-filtering-container">
       <input
@@ -55,7 +59,9 @@ export default function WorldMapFilter() {
         onChange={handleInputChange}
       />
       <div className="map-filtering-buttons">
-        <button>Filter</button>
+        <button onClick={handleFilterByUniversity}>
+          Number of universities by country
+        </button>
         <button>Reset</button>
       </div>
       <div className="map-filtering-country-list">
