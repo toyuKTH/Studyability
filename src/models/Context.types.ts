@@ -12,7 +12,7 @@ export interface ICountryContext {
   selectedCountry: string;
   hoveredCountry: string;
   selectedFilter: string;
-  data: IContextData;
+  data: IContextData | null;
 }
 
 export enum IDispatchType {

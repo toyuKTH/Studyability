@@ -1,7 +1,8 @@
 import * as d3 from "d3";
 import { useRef, useEffect, useContext } from "react";
-import { CountryContext } from "../context/Context";
-import { getAlpha_2 } from "../data/CountryData";
+import { CountryContext, CountryDispatchContext } from "../context/Context";
+import { getNumberOfUniversityRankings } from "../data/CountryData";
+import { IDispatchType } from "../models/Context.types";
 
 export interface IHeatMapScaleConfig {
   paintedObject: {
@@ -37,8 +38,10 @@ export interface IHeatMapScaleConfig {
 export default function useHeatMapScale(scaleConfig: IHeatMapScaleConfig) {
   const scaleSvgRef = useRef<SVGSVGElement>(null);
 
-  const countryCityUniversityData =
-    useContext(CountryContext).data.countryCityUniversityData;
+  const dispatchContext = useContext(CountryDispatchContext);
+
+  //   const countryCityUniversityData =
+  // useContext(CountryContext).data.countryCityUniversityData;
 
   useEffect(() => {
     if (!scaleSvgRef.current || scaleSvgRef.current.clientWidth < 20) return;
@@ -52,13 +55,17 @@ export default function useHeatMapScale(scaleConfig: IHeatMapScaleConfig) {
       .attr("opacity", scaleConfig.paintedObject.unselectedItems.opacity)
       .attr("fill", scaleConfig.paintedObject.unselectedItems.fill);
 
+    path.on("mouseover", function () {
+      dispatchContext({
+        type: IDispatchType.hoverCountry,
+        // @ts-ignore
+        data: this!.dataset.dataUnis,
+      });
+    });
+
     const filterPaths = path.filter(function (d) {
       // @ts-ignore
-      const alpha_2 = getAlpha_2(this!.id);
-      if (alpha_2 == null) return false;
-      const numberOfUnis = countryCityUniversityData?.filter(
-        (d) => d.alpha_2 === alpha_2
-      ).length;
+      const numberOfUnis = getNumberOfUniversityRankings(this!.id);
       // @ts-ignore
       this!.dataset.dataUnis = numberOfUnis;
       return numberOfUnis ? numberOfUnis > 0 : false;
@@ -146,11 +153,7 @@ export default function useHeatMapScale(scaleConfig: IHeatMapScaleConfig) {
     return () => {
       scaleSvg.selectAll("*").remove();
     };
-  }, [
-    countryCityUniversityData,
-    scaleSvgRef.current,
-    scaleSvgRef.current?.clientWidth,
-  ]);
+  }, [scaleSvgRef.current, scaleSvgRef.current?.clientWidth]);
 
   return {
     scaleSvgRef,

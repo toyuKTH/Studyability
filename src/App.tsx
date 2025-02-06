@@ -11,7 +11,7 @@ function App() {
   const [mapWidth, setMapWidth] = useState(0);
   const [mapHeight, setMapHeight] = useState(0);
 
-  const dispatchContext = useContext(CountryDispatchContext);
+  // const dispatchContext = useContext(CountryDispatchContext);
 
   const mapDivRef = useRef<HTMLDivElement>(null);
 
@@ -43,16 +43,16 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await loadData();
+      await loadData();
 
       setLoadingData(false);
-      dispatchContext({
-        type: IDispatchType.addInitData,
-        data: {
-          universityRankingsData: data.universityRankingsData,
-          countryCityUniversityData: data.countryCityUniversityData,
-        },
-      });
+      // dispatchContext({
+      //   type: IDispatchType.addInitData,
+      //   data: {
+      //     universityRankingsData: data.universityRankingsData,
+      //     countryCityUniversityData: data.countryCityUniversityData,
+      //   },
+      // });
     };
     fetchData();
   }, []);

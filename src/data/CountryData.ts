@@ -27,8 +27,10 @@ const alpha_2_to_alpha_3 = {} as { [key: string]: string };
 
 const alpha_3_to_alpha_2 = {} as { [key: string]: string };
 
+var universityRankingsByCountry = [] as IUniversityRankings[];
+
 export const loadData = async () => {
-  const universityRankingsData = await d3.csv(
+  universityRankingsByCountry = await d3.csv(
     "../../data/university_rankings.csv",
     (d): IUniversityRankings => {
       return {
@@ -61,8 +63,6 @@ export const loadData = async () => {
       };
     }
   );
-
-  return { universityRankingsData, countryCityUniversityData };
 };
 
 // export const universityRankingsByCountry = universityRankings.reduce(
@@ -80,4 +80,10 @@ export const getAlpha_2 = (alpha_3: string) => {
   // console.log(alpha_3);
   const alpha_2 = alpha_3_to_alpha_2[alpha_3];
   return alpha_2 ? alpha_2 : alpha_3;
+};
+
+export const getNumberOfUniversityRankings = (alpha_3: string) => {
+  const alpha_2 = getAlpha_2(alpha_3);
+  return universityRankingsByCountry.filter((d) => d.alpha_2 === alpha_2)
+    .length;
 };

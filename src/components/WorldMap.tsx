@@ -22,6 +22,8 @@ type MapProps = {
 export const WorldMap = ({ width, height }: MapProps) => {
   const [zoomed, setZoomed] = useState(false);
 
+  const countryContext = useContext(CountryContext);
+
   const { svgPaths, mapSvgRef } = useWorldMap({
     width,
     height,
@@ -38,7 +40,7 @@ export const WorldMap = ({ width, height }: MapProps) => {
       selectedItems: {
         fill: {
           interpolator: d3.interpolateBlues,
-          domain: [200, 300],
+          domain: [10, 50],
           clamp: true,
         },
         opacity: "1",
@@ -71,13 +73,13 @@ export const WorldMap = ({ width, height }: MapProps) => {
     <div style={{ position: "relative" }}>
       <div className="map-info">
         {zoomed && <button onClick={handleReset}>reset map position</button>}
-        {/* {(countryContext.selectedCountry || countryContext.hoveredCountry) && (
+        {(countryContext.selectedCountry || countryContext.hoveredCountry) && (
           <CountryTooltip
             selectedCountry={
               countryContext.selectedCountry || countryContext.hoveredCountry
             }
           />
-        )} */}
+        )}
       </div>
       <svg width={width} height={height} ref={mapSvgRef} id="world-map">
         {svgPaths}

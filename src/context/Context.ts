@@ -10,10 +10,7 @@ export const initContext: ICountryContext = {
   selectedCountry: "",
   selectedFilter: "",
   hoveredCountry: "",
-  data: {
-    universityRankingsData: null,
-    countryCityUniversityData: null,
-  },
+  data: null,
 };
 
 export const CountryContext = createContext(initContext);
