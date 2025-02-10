@@ -1,8 +1,7 @@
 import * as d3 from "d3";
-import { useRef, useEffect, useContext } from "react";
-import { CountryDispatchContext } from "../context/Context";
+import { useRef, useEffect, useContext, useState } from "react";
 import { getNumberOfUniversityRankings } from "../data/CountryData";
-import { IDispatchType } from "../models/Context.types";
+import { useAppSelector } from "../state/hooks";
 
 export interface IHeatMapScaleConfig {
   paintedObject: {
@@ -35,19 +34,24 @@ export interface IHeatMapScaleConfig {
   };
 }
 
-export default function useHeatMapScale(
-  scaleConfig: IHeatMapScaleConfig,
-  domain: [number, number]
-) {
+export default function useHeatMapScale(scaleConfig: IHeatMapScaleConfig) {
+  const showFilter = useAppSelector(
+    (state) => state.filter.universityRankings.showing
+  );
+
+  const filterDomain = useAppSelector(
+    (state) => state.filter.universityRankings.domain
+  );
+
   const scaleSvgRef = useRef<SVGSVGElement>(null);
 
-  const dispatchContext = useContext(CountryDispatchContext);
-
-  //   const countryCityUniversityData =
-  // useContext(CountryContext).data.countryCityUniversityData;
-
   useEffect(() => {
-    if (!scaleSvgRef.current || scaleSvgRef.current.clientWidth < 20) return;
+    if (
+      !scaleSvgRef.current ||
+      scaleSvgRef.current.clientWidth < 20 ||
+      !showFilter
+    )
+      return;
 
     const svg = d3.select(scaleConfig.paintedObject.selector);
     const path = svg.selectAll("path");
@@ -58,13 +62,13 @@ export default function useHeatMapScale(
       .attr("opacity", scaleConfig.paintedObject.unselectedItems.opacity)
       .attr("fill", scaleConfig.paintedObject.unselectedItems.fill);
 
-    path.on("mouseover", function () {
-      dispatchContext({
-        type: IDispatchType.hoverCountry,
-        // @ts-ignore
-        data: this!.dataset.dataUnis as string,
-      });
-    });
+    // path.on("mouseover", function () {
+    //   dispatchContext({
+    //     type: IDispatchType.hoverCountry,
+    //     // @ts-ignore
+    //     data: this!.dataset.dataUnis as string,
+    //   });
+    // });
 
     const filterPaths = path.filter(function (_) {
       // @ts-ignore
@@ -80,7 +84,7 @@ export default function useHeatMapScale(
         const color = d3.scaleSequential(
           scaleConfig.paintedObject.selectedItems.fill.interpolator
         );
-        color.domain(domain);
+        color.domain(filterDomain);
         color.clamp(scaleConfig.paintedObject.selectedItems.fill.clamp);
         // @ts-ignore
         return color(this!.dataset.dataUnis);
@@ -94,7 +98,7 @@ export default function useHeatMapScale(
     const color = d3.scaleSequential(
       scaleConfig.paintedObject.selectedItems.fill.interpolator
     );
-    color.domain(domain);
+    color.domain(filterDomain);
 
     const linearGradient = defs
       .append("linearGradient")
@@ -155,9 +159,17 @@ export default function useHeatMapScale(
     scaleSvg.append("g").call(axisBottom);
 
     return () => {
+      const svg = d3.select(scaleConfig.paintedObject.selector);
+      const path = svg.selectAll("path");
+      path.attr("opacity", "1").attr("fill", "grey");
       scaleSvg.selectAll("*").remove();
     };
-  }, [scaleSvgRef.current, scaleSvgRef.current?.clientWidth, domain]);
+  }, [
+    scaleSvgRef.current,
+    scaleSvgRef.current?.clientWidth,
+    filterDomain,
+    showFilter,
+  ]);
 
   return {
     scaleSvgRef,

@@ -8,6 +8,11 @@ import {
 } from "react";
 import "./MinMaxSlider.css";
 import { IDispatchType, IMapFilterAction } from "../App";
+import { useAppDispatch } from "../state/hooks";
+import {
+  setUniversityFilterMax,
+  setUniversityFilterMin,
+} from "../state/slices/filterSlice";
 
 interface IKnobAttributes {
   position: {
@@ -18,18 +23,18 @@ interface IKnobAttributes {
 }
 
 export default function MinMaxSlider({
-  mapFilterDispatch,
   minValueLimit,
   maxValueLimit,
   minValue,
   maxValue,
 }: {
-  mapFilterDispatch: Dispatch<IMapFilterAction>;
   minValueLimit: number;
   maxValueLimit: number;
   minValue: number;
   maxValue: number;
 }) {
+  const dispatch = useAppDispatch();
+
   const containerRef = useRef<HTMLDivElement>(null);
   const minKnobRef = useRef<HTMLDivElement>(null);
   const maxKnobRef = useRef<HTMLDivElement>(null);
@@ -52,7 +57,7 @@ export default function MinMaxSlider({
     setMinKnobAttributes((prev) => {
       return { ...prev, position: { x: valueToPos(minKnobAttributes.value) } };
     });
-  
+
     setMaxKnobAttributes((prev) => {
       return { ...prev, position: { x: valueToPos(maxKnobAttributes.value) } };
     });
@@ -78,17 +83,11 @@ export default function MinMaxSlider({
   }, [minKnobAttributes.clicked, maxKnobAttributes.clicked]);
 
   useEffect(() => {
-    mapFilterDispatch({
-      type: IDispatchType.universityFilterMin,
-      data: minKnobAttributes.value,
-    });
+    dispatch(setUniversityFilterMin(minKnobAttributes.value));
   }, [minKnobAttributes.value]);
 
   useEffect(() => {
-    mapFilterDispatch({
-      type: IDispatchType.universityFilterMax,
-      data: maxKnobAttributes.value,
-    });
+    dispatch(setUniversityFilterMax(maxKnobAttributes.value));
   }, [maxKnobAttributes.value]);
 
   function handleMouseDown(e: MouseEvent) {

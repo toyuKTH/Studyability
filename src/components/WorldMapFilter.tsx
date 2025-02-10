@@ -6,14 +6,23 @@ import * as d3 from "d3";
 // import { IDispatchType } from "../models/Context.types";
 import { worldTopology } from "../data/topologyData/countryTopology";
 import MinMaxSlider from "./MinMaxSlider";
-import { IMapFilterAction } from "../App";
+import { IDispatchType, IMapFilterAction } from "../App";
+import { useAppDispatch, useAppSelector } from "../state/hooks";
+import {
+  hideUniversityFilter,
+  showUniversityFilter,
+} from "../state/slices/filterSlice";
 
 export default function WorldMapFilter({
   mapFilterDispatch,
 }: {
   mapFilterDispatch: Dispatch<IMapFilterAction>;
 }) {
-  // const countryDispatch = useContext(CountryDispatchContext);
+  const universityFilterShowing = useAppSelector(
+    (state) => state.filter.universityRankings.showing
+  );
+  const dispatch = useAppDispatch();
+
   const [filterInput, setFilterInput] = useState<string>("");
 
   const [justCountries, setJustCountries] = useState<string[][]>([]);
@@ -52,9 +61,11 @@ export default function WorldMapFilter({
     // countryDispatch({ type: IDispatchType.selectCountry, data:  });
   };
 
-  // const handleFilterByUniversity = () => {
-  //   countryDispatch({ type: IDispatchType.selectFilter, data: {selectedFilter: "university" });
-  // };
+  const handleFilterByUniversity = () => {
+    dispatch(
+      universityFilterShowing ? hideUniversityFilter() : showUniversityFilter()
+    );
+  };
 
   return (
     <div className="map-filtering-container">
@@ -65,15 +76,23 @@ export default function WorldMapFilter({
         onChange={handleInputChange}
       />
       <div className="map-filtering-buttons">
-        {/* <button onClick={handleFilterByUniversity}> */}
-        <button>Number of universities by country</button>
-        <MinMaxSlider
-          mapFilterDispatch={mapFilterDispatch}
-          minValue={0}
-          minValueLimit={0}
-          maxValue={100}
-          maxValueLimit={100}
-        />
+        {universityFilterShowing ? (
+          <>
+            <button onClick={handleFilterByUniversity}>
+              Hide university filter
+            </button>
+            <MinMaxSlider
+              minValue={0}
+              minValueLimit={0}
+              maxValue={100}
+              maxValueLimit={100}
+            />
+          </>
+        ) : (
+          <button onClick={handleFilterByUniversity}>
+            Number of universities by country
+          </button>
+        )}
         <button>Reset</button>
       </div>
       <div className="map-filtering-country-list">

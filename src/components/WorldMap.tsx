@@ -1,6 +1,6 @@
 import * as d3 from "d3";
-import { useContext, useState } from "react";
-import { CountryContext, d3Dispatch } from "../context/Context";
+import { useContext, useRef, useState } from "react";
+import { CountryContext, d3Dispatch } from "../state/Context";
 import CountryTooltip from "./CountryTooltip";
 import useWorldMap from "../hooks/useWorldMap";
 import useHeatMapScale, { IHeatMapScaleConfig } from "../hooks/useHeatMapScale";
@@ -21,7 +21,7 @@ export const WorldMap = ({
 
   const countryContext = useContext(CountryContext);
 
-  const { svgPaths, mapSvgRef } = useWorldMap({
+  const { svgPaths, mapSvgRef, mapTooltipRef } = useWorldMap({
     width,
     height,
     setZoomed,
@@ -61,10 +61,7 @@ export const WorldMap = ({
     },
   };
 
-  const { scaleSvgRef } = useHeatMapScale(scaleConfig, [
-    mapFilterState.universityRankingsData.minVal,
-    mapFilterState.universityRankingsData.maxVal,
-  ]);
+  const { scaleSvgRef } = useHeatMapScale(scaleConfig);
 
   // d3Dispatch.on("filterByUniversity", filterByUniversity);
 
@@ -86,6 +83,7 @@ export const WorldMap = ({
           />
         )}
       </div>
+      <div ref={mapTooltipRef} className="map-hover-tooltip" hidden />
       <svg width={width} height={height} ref={mapSvgRef} id="world-map">
         {svgPaths}
       </svg>

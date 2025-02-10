@@ -3,7 +3,7 @@ import {
   countryReducer,
   CountryContext,
   CountryDispatchContext,
-} from "../context/Context";
+} from "../state/Context";
 
 export default function AppContext({ children }: { children: ReactNode }) {
   const [countriesContext, countryDispatch] = useReducer(countryReducer, {

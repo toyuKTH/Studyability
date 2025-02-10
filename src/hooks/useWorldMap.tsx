@@ -1,6 +1,6 @@
 import * as d3 from "d3";
-import { useContext, useEffect, useRef, useState } from "react";
-import { CountryContext, d3Dispatch } from "../context/Context";
+import { RefObject, useContext, useEffect, useRef, useState } from "react";
+import { CountryContext, d3Dispatch } from "../state/Context";
 import { getAlpha_2 } from "../data/CountryData";
 import { worldTopology } from "../data/topologyData/countryTopology";
 
@@ -13,13 +13,13 @@ export default function useWorldMap({
   height?: number;
   setZoomed: (value: boolean) => void;
 }) {
-  const countryContext = useContext(CountryContext);
-
   const [svgPaths, setSvgPaths] = useState<JSX.Element[]>([]);
   const mapSvgRef = useRef<SVGSVGElement>(null);
+  const mapTooltipRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!mapSvgRef.current || !width || !height) return;
+    if (!mapSvgRef.current || !width || !height || !mapTooltipRef.current)
+      return;
 
     const world = worldTopology;
 
@@ -118,34 +118,36 @@ export default function useWorldMap({
     });
 
     const path = svg.selectAll("path");
+    console.log("test");
 
     // const handleMouseOver = (event: any) => {
-    //   if (event.target.tagName === "path" && event.target.id) {
-    //     d3.select(`#${event.target.id}`)
-    //       .attr("fill", "cornflowerblue")
-    //       .attr("opacity", "1");
-    //     // d3.selectAll("path").attr("opacity", "0.5");
-    //     // d3.select(`#${event.target.id}`).attr("opacity", "1");
+    //   console.log("test");
+    //   // if (event.target.tagName === "path" && event.target.id) {
+    //   //   d3.select(`#${event.target.id}`)
+    //   //     .attr("fill", "cornflowerblue")
+    //   //     .attr("opacity", "1");
+    //   //   // d3.selectAll("path").attr("opacity", "0.5");
+    //   //   // d3.select(`#${event.target.id}`).attr("opacity", "1");
 
-    //     const filteredPaths = d3.selectAll("path").filter(function (d: any) {
-    //       return (
-    //         // @ts-ignore
-    //         this!.id != countryContext.selectedCountry &&
-    //         // @ts-ignore
-    //         this!.id != event.target.id
-    //       );
-    //     });
-    //     filteredPaths.attr("opacity", "0.5");
+    //   //   const filteredPaths = d3.selectAll("path").filter(function (d: any) {
+    //   //     return (
+    //   //       // @ts-ignore
+    //   //       this!.id != countryContext.selectedCountry &&
+    //   //       // @ts-ignore
+    //   //       this!.id != event.target.id
+    //   //     );
+    //   //   });
+    //   //   filteredPaths.attr("opacity", "0.5");
 
-    //     countryDispatch({
-    //       type: IDispatchType.hoverCountry,
-    //       data: event.target.id,
-    //     });
-    //     // if (countryTooltipRef.current) {
-    //     //   countryTooltipRef.current.innerHTML = event.target.id;
-    //     //   countryTooltipRef.current.classList.add("country-tooltip");
-    //     // }
-    //   }
+    //   //   countryDispatch({
+    //   //     type: IDispatchType.hoverCountry,
+    //   //     data: event.target.id,
+    //   //   });
+    //   //   // if (countryTooltipRef.current) {
+    //   //   //   countryTooltipRef.current.innerHTML = event.target.id;
+    //   //   //   countryTooltipRef.current.classList.add("country-tooltip");
+    //   //   // }
+    //   // }
     // };
 
     // const handleMouseLeave = (event: any) => {
@@ -198,11 +200,53 @@ export default function useWorldMap({
     return () => {
       d3Dispatch.on("countrySelected", null);
       d3Dispatch.on("resetZoom", null);
+      // path.on("mouseover", null);
+      // path.on("mouseleave", null);
+      path.on("click", null);
+    };
+  }, [
+    width,
+    height,
+    mapSvgRef.current,
+    // countryContext.data.selectedCountry,
+    mapTooltipRef.current,
+  ]);
+
+  useEffect(() => {
+    if (!mapSvgRef.current) return;
+
+    const path = d3.select(mapSvgRef.current).selectAll("path");
+
+    path.on("mouseover", function () {
+      // countryHovered.dispatch({
+      //   type: "hoverCountry",
+      //   // @ts-ignore
+      //   data: this!.id,
+      // });
+    });
+
+    path.on("mouseleave", function () {
+      // @ts-ignore
+      countryHovered.dispatch({
+        type: "hoverCountry",
+        data: "",
+      });
+    });
+
+    // path.on("click", function () {
+    //   // @ts-ignore
+    //   countryHovered.dispatch({
+    //     type: "selectCountry",
+    //     data: this!.id,
+    //   });
+    // });
+
+    return () => {
       path.on("mouseover", null);
       path.on("mouseleave", null);
       path.on("click", null);
     };
-  }, [width, height, mapSvgRef.current, countryContext.data.selectedCountry]);
+  }, [mapSvgRef.current]);
 
-  return { svgPaths, mapSvgRef };
+  return { svgPaths, mapSvgRef, mapTooltipRef };
 }

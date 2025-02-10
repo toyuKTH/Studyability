@@ -13,6 +13,15 @@
   }
 }
 
+.map-hover-tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  pointer-events: none;
+  color: black;
+}
+
 .map-scale {
   box-sizing: border-box;
   display: flex;

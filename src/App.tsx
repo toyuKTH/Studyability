@@ -2,11 +2,13 @@ import { useEffect, useReducer, useRef, useState } from "react";
 import WorldMap from "./components/WorldMap";
 import WorldMapFilter from "./components/WorldMapFilter";
 import { loadData } from "./data/CountryData";
-import { d3Dispatch } from "./context/Context";
+import { d3Dispatch } from "./state/Context";
 import "./App.css";
+import { useAppSelector } from "./state/hooks";
 
 export interface IMapFilterState {
   universityRankingsData: {
+    showScale: boolean;
     minVal: number;
     maxVal: number;
     data: any[];
@@ -22,6 +24,7 @@ export interface IMapFilterAction {
 export enum IDispatchType {
   universityFilterMax = "universityFilterMax",
   universityFilterMin = "universityFilterMin",
+  universityFilterShowScale = "universityFilterShowScale",
 }
 
 function mapFilterReducer(
@@ -45,6 +48,14 @@ function mapFilterReducer(
           minVal: action.data,
         },
       };
+    case IDispatchType.universityFilterShowScale:
+      return {
+        ...state,
+        universityRankingsData: {
+          ...state.universityRankingsData,
+          showScale: !state.universityRankingsData.showScale,
+        },
+      };
     default:
       return { ...state };
   }
@@ -53,6 +64,7 @@ function mapFilterReducer(
 function mapFilterStateInit() {
   return {
     universityRankingsData: {
+      showScale: false,
       minVal: 0,
       maxVal: 100,
       data: [],
