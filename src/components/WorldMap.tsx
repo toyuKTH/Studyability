@@ -1,25 +1,22 @@
 import * as d3 from "d3";
-import { useContext, useEffect, useRef, useState } from "react";
-import "./WorldMap.css";
-import {
-  CountryContext,
-  CountryDispatchContext,
-  d3Dispatch,
-} from "../context/Context";
-import { IDispatchType } from "../models/Context.types";
-import { worldTopology } from "../data/topologyData/countryTopology";
-import { getAlpha_2 } from "../data/CountryData";
+import { useContext, useState } from "react";
+import { CountryContext, d3Dispatch } from "../context/Context";
 import CountryTooltip from "./CountryTooltip";
 import useWorldMap from "../hooks/useWorldMap";
 import useHeatMapScale, { IHeatMapScaleConfig } from "../hooks/useHeatMapScale";
 // import { getAlpha_2, universityRankingsByCountry } from "../data/CountryData";
+import "./WorldMap.css";
+import { IMapFilterState } from "../App";
 
-type MapProps = {
+export const WorldMap = ({
+  width,
+  height,
+  mapFilterState,
+}: {
   width?: number;
   height?: number;
-};
-
-export const WorldMap = ({ width, height }: MapProps) => {
+  mapFilterState: IMapFilterState;
+}) => {
   const [zoomed, setZoomed] = useState(false);
 
   const countryContext = useContext(CountryContext);
@@ -40,7 +37,10 @@ export const WorldMap = ({ width, height }: MapProps) => {
       selectedItems: {
         fill: {
           interpolator: d3.interpolateBlues,
-          domain: [10, 50],
+          domain: [
+            mapFilterState.universityRankingsData.minVal,
+            mapFilterState.universityRankingsData.maxVal,
+          ],
           clamp: true,
         },
         opacity: "1",
@@ -61,7 +61,10 @@ export const WorldMap = ({ width, height }: MapProps) => {
     },
   };
 
-  const { scaleSvgRef } = useHeatMapScale(scaleConfig);
+  const { scaleSvgRef } = useHeatMapScale(scaleConfig, [
+    mapFilterState.universityRankingsData.minVal,
+    mapFilterState.universityRankingsData.maxVal,
+  ]);
 
   // d3Dispatch.on("filterByUniversity", filterByUniversity);
 
@@ -73,10 +76,12 @@ export const WorldMap = ({ width, height }: MapProps) => {
     <div style={{ position: "relative" }}>
       <div className="map-info">
         {zoomed && <button onClick={handleReset}>reset map position</button>}
-        {(countryContext.selectedCountry || countryContext.hoveredCountry) && (
+        {(countryContext.data.selectedCountry ||
+          countryContext.data.hoveredCountry) && (
           <CountryTooltip
             selectedCountry={
-              countryContext.selectedCountry || countryContext.hoveredCountry
+              countryContext.data.selectedCountry ||
+              countryContext.data.hoveredCountry
             }
           />
         )}

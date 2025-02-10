@@ -5,14 +5,16 @@ import {
 } from "../data/CountryData";
 
 export interface IContextData {
-  universityRankingsData: DSVParsedArray<IUniversityRankings> | null;
-  countryCityUniversityData: DSVParsedArray<ICountryCityUniversityData> | null;
+  universityRankingsData: DSVParsedArray<IUniversityRankings> | undefined;
+  countryCityUniversityData:
+    | DSVParsedArray<ICountryCityUniversityData>
+    | undefined;
+  selectedCountry: string;
+  selectedFilter: string;
+  hoveredCountry: string;
 }
 export interface ICountryContext {
-  selectedCountry: string;
-  hoveredCountry: string;
-  selectedFilter: string;
-  data: IContextData | null;
+  data: IContextData;
 }
 
 export enum IDispatchType {
@@ -27,30 +29,5 @@ export enum IDispatchType {
 
 export interface ICountryDispatch {
   type: IDispatchType;
-  data: IContextData | string;
+  data: IContextData;
 }
-
-// export interface AddCountriesDispatch extends CountryDispatch {
-//   type: "addCountries";
-//   data: any;
-// }
-
-// export interface SelectCountryDispatch extends CountryDispatch {
-//   type: "selectCountry";
-//   data: any;
-// }
-
-// export interface DeselectCountryDispatch extends CountryDispatch {
-//   type: "deSelectCountry";
-//   data: any;
-// }
-
-// export interface SelectFilterDispatch extends CountryDispatch {
-//   type: "selectFilter";
-//   data: any;
-// }
-
-// export interface DeSelectFilterDispatch extends CountryDispatch {
-//   type: "deselectFilter";
-//   data: any;
-// }

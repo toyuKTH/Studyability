@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 import { useRef, useEffect, useContext } from "react";
-import { CountryContext, CountryDispatchContext } from "../context/Context";
+import { CountryDispatchContext } from "../context/Context";
 import { getNumberOfUniversityRankings } from "../data/CountryData";
 import { IDispatchType } from "../models/Context.types";
 
@@ -35,7 +35,10 @@ export interface IHeatMapScaleConfig {
   };
 }
 
-export default function useHeatMapScale(scaleConfig: IHeatMapScaleConfig) {
+export default function useHeatMapScale(
+  scaleConfig: IHeatMapScaleConfig,
+  domain: [number, number]
+) {
   const scaleSvgRef = useRef<SVGSVGElement>(null);
 
   const dispatchContext = useContext(CountryDispatchContext);
@@ -59,13 +62,14 @@ export default function useHeatMapScale(scaleConfig: IHeatMapScaleConfig) {
       dispatchContext({
         type: IDispatchType.hoverCountry,
         // @ts-ignore
-        data: this!.dataset.dataUnis,
+        data: this!.dataset.dataUnis as string,
       });
     });
 
-    const filterPaths = path.filter(function (d) {
+    const filterPaths = path.filter(function (_) {
       // @ts-ignore
       const numberOfUnis = getNumberOfUniversityRankings(this!.id);
+
       // @ts-ignore
       this!.dataset.dataUnis = numberOfUnis;
       return numberOfUnis ? numberOfUnis > 0 : false;
@@ -76,7 +80,7 @@ export default function useHeatMapScale(scaleConfig: IHeatMapScaleConfig) {
         const color = d3.scaleSequential(
           scaleConfig.paintedObject.selectedItems.fill.interpolator
         );
-        color.domain(scaleConfig.paintedObject.selectedItems.fill.domain);
+        color.domain(domain);
         color.clamp(scaleConfig.paintedObject.selectedItems.fill.clamp);
         // @ts-ignore
         return color(this!.dataset.dataUnis);
@@ -90,7 +94,7 @@ export default function useHeatMapScale(scaleConfig: IHeatMapScaleConfig) {
     const color = d3.scaleSequential(
       scaleConfig.paintedObject.selectedItems.fill.interpolator
     );
-    color.domain(scaleConfig.paintedObject.selectedItems.fill.domain);
+    color.domain(domain);
 
     const linearGradient = defs
       .append("linearGradient")
@@ -153,7 +157,7 @@ export default function useHeatMapScale(scaleConfig: IHeatMapScaleConfig) {
     return () => {
       scaleSvg.selectAll("*").remove();
     };
-  }, [scaleSvgRef.current, scaleSvgRef.current?.clientWidth]);
+  }, [scaleSvgRef.current, scaleSvgRef.current?.clientWidth, domain]);
 
   return {
     scaleSvgRef,

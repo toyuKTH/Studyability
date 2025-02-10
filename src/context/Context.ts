@@ -7,10 +7,13 @@ import {
 } from "../models/Context.types";
 
 export const initContext: ICountryContext = {
-  selectedCountry: "",
-  selectedFilter: "",
-  hoveredCountry: "",
-  data: null,
+  data: {
+    universityRankingsData: undefined,
+    countryCityUniversityData: undefined,
+    selectedCountry: "",
+    selectedFilter: "",
+    hoveredCountry: "",
+  },
 };
 
 export const CountryContext = createContext(initContext);
@@ -27,7 +30,7 @@ export const d3Dispatch = d3.dispatch(
 export function countryReducer(
   context: ICountryContext,
   action: ICountryDispatch
-) {
+): ICountryContext {
   switch (action.type) {
     case IDispatchType.addInitData: {
       return {
@@ -48,13 +51,19 @@ export function countryReducer(
       //   action.data === context.selectedCountry ? "" : action.data;
       return {
         ...context,
-        selectedCountry: action.data,
+        data: {
+          ...context.data,
+          selectedCountry: action.data.selectedCountry,
+        },
       };
     }
     case IDispatchType.deselectCountry: {
       return {
         ...context,
-        selectedCountry: "",
+        data: {
+          ...context.data,
+          selectedCountry: "",
+        },
       };
     }
     case IDispatchType.selectFilter: {
@@ -63,19 +72,28 @@ export function countryReducer(
       // }
       return {
         ...context,
-        selectedFilter: action.data,
+        data: {
+          ...context.data,
+          selectedFilter: action.data.selectedFilter,
+        },
       };
     }
     case IDispatchType.deselectFilter: {
       return {
         ...context,
-        selectedFilter: "",
+        data: {
+          ...context.data,
+          selectedFilter: "",
+        },
       };
     }
     case IDispatchType.hoverCountry: {
       return {
         ...context,
-        hoveredCountry: action.data,
+        data: {
+          ...context.data,
+          hoveredCountry: action.data.hoveredCountry,
+        },
       };
     }
     default: {

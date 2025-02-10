@@ -47,7 +47,7 @@ export const loadData = async () => {
       };
     }
   );
-  const countryCityUniversityData = await d3.csv(
+  await d3.csv(
     "../../data/country_city_universities.csv",
     (d): ICountryCityUniversityData => {
       alpha_2_to_alpha_3[d.alpha_2] = d.alpha_3;
@@ -77,7 +77,6 @@ export const loadData = async () => {
 // );
 
 export const getAlpha_2 = (alpha_3: string) => {
-  // console.log(alpha_3);
   const alpha_2 = alpha_3_to_alpha_2[alpha_3];
   return alpha_2 ? alpha_2 : alpha_3;
 };

@@ -1,13 +1,8 @@
 import * as d3 from "d3";
 import { useContext, useEffect, useRef, useState } from "react";
-import {
-  CountryContext,
-  CountryDispatchContext,
-  d3Dispatch,
-} from "../context/Context";
+import { CountryContext, d3Dispatch } from "../context/Context";
 import { getAlpha_2 } from "../data/CountryData";
 import { worldTopology } from "../data/topologyData/countryTopology";
-import { IDispatchType } from "../models/Context.types";
 
 export default function useWorldMap({
   width,
@@ -19,7 +14,6 @@ export default function useWorldMap({
   setZoomed: (value: boolean) => void;
 }) {
   const countryContext = useContext(CountryContext);
-  const countryDispatch = useContext(CountryDispatchContext);
 
   const [svgPaths, setSvgPaths] = useState<JSX.Element[]>([]);
   const mapSvgRef = useRef<SVGSVGElement>(null);
@@ -106,7 +100,7 @@ export default function useWorldMap({
         .attr("opacity", "1");
 
       d3.selectAll("path")
-        .filter(function (d: any) {
+        .filter(function () {
           return (
             // @ts-ignore
             this!.id != event.country
@@ -208,7 +202,7 @@ export default function useWorldMap({
       path.on("mouseleave", null);
       path.on("click", null);
     };
-  }, [width, height, mapSvgRef.current, countryContext.selectedCountry]);
+  }, [width, height, mapSvgRef.current, countryContext.data.selectedCountry]);
 
   return { svgPaths, mapSvgRef };
 }

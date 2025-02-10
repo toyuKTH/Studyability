@@ -1,12 +1,72 @@
-import { useContext, useEffect, useRef, useState } from "react";
-import "./App.css";
+import { useEffect, useReducer, useRef, useState } from "react";
 import WorldMap from "./components/WorldMap";
 import WorldMapFilter from "./components/WorldMapFilter";
 import { loadData } from "./data/CountryData";
-import { CountryDispatchContext, d3Dispatch } from "./context/Context";
-import { IDispatchType } from "./models/Context.types";
+import { d3Dispatch } from "./context/Context";
+import "./App.css";
+
+export interface IMapFilterState {
+  universityRankingsData: {
+    minVal: number;
+    maxVal: number;
+    data: any[];
+  };
+  countryCityUniversityData: any;
+}
+
+export interface IMapFilterAction {
+  type: IDispatchType;
+  data: any;
+}
+
+export enum IDispatchType {
+  universityFilterMax = "universityFilterMax",
+  universityFilterMin = "universityFilterMin",
+}
+
+function mapFilterReducer(
+  state: IMapFilterState,
+  action: IMapFilterAction
+): IMapFilterState {
+  switch (action.type) {
+    case IDispatchType.universityFilterMax:
+      return {
+        ...state,
+        universityRankingsData: {
+          ...state.universityRankingsData,
+          maxVal: action.data,
+        },
+      };
+    case IDispatchType.universityFilterMin:
+      return {
+        ...state,
+        universityRankingsData: {
+          ...state.universityRankingsData,
+          minVal: action.data,
+        },
+      };
+    default:
+      return { ...state };
+  }
+}
+
+function mapFilterStateInit() {
+  return {
+    universityRankingsData: {
+      minVal: 0,
+      maxVal: 100,
+      data: [],
+    },
+    countryCityUniversityData: [],
+  };
+}
 
 function App() {
+  const [mapFilterState, mapFilterDispatch] = useReducer(
+    mapFilterReducer,
+    mapFilterStateInit()
+  );
+
   const [loadingData, setLoadingData] = useState(true);
   const [mapWidth, setMapWidth] = useState(0);
   const [mapHeight, setMapHeight] = useState(0);
@@ -63,9 +123,13 @@ function App() {
       {!loadingData && (
         <>
           <div ref={mapDivRef} className="map-container">
-            <WorldMap width={mapWidth} height={mapHeight} />
+            <WorldMap
+              width={mapWidth}
+              height={mapHeight}
+              mapFilterState={mapFilterState}
+            />
           </div>
-          <WorldMapFilter />
+          <WorldMapFilter mapFilterDispatch={mapFilterDispatch} />
         </>
       )}
     </div>
