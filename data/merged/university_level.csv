@@ -7,7 +7,7 @@
 6,5,Stanford University,US,100.0,100.0,60.8,100.0,81.2,96.1,57500.0,estimated,Stanford,Americas,Northern America,5
 7,7,Eth Zurich - Swiss Federal Institute Of Technology,CH,98.8,87.2,98.6,90.5,98.8,93.9,1624.0,scrape-topuniversities,Zurich,Europe,Western Europe,6
 8,8,National University Of Singapore (Nus),SG,99.5,91.1,88.9,100.0,97.7,93.7,13180.0,scrape-topuniversities,Singapore,Asia,South-eastern Asia,7
-9,9,Ucl,UK,99.5,98.3,100.0,70.3,74.8,91.6,30228.0,scrape-topuniversities,Ulm,Europe,Western Europe,8
+9,9,University College London,UK,99.5,98.3,100.0,70.3,74.8,91.6,,,London,Europe,Northern Europe,8
 10,15,California Institute Of Technology (Caltech),US,96.5,95.3,79.8,31.0,62.5,90.9,56000.0,estimated,Pasadena,Americas,Northern America,9
 11,12,University Of Pennsylvania,US,96.3,91.9,66.2,100.0,93.0,90.3,60000.0,estimated,Philadelphia,Americas,Northern America,10
 12,10,"University Of California, Berkeley (Ucb)",US,100.0,100.0,61.0,98.4,100.0,90.1,32000.0,estimated,Berkeley,Americas,Northern America,11
