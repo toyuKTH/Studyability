@@ -1,0 +1,219 @@
+cost_of_living_index,rent_index,cost_of_living_plus_rent_index,groceries_index,restaurant_price_index,local_purchasing_power_index,country,city,country_code,temp_year_avg,ef_score,ef_level
+101.7,59.6,81.5,111.4,101.5,152.2,Switzerland,Geneva,CH,,550.0,High Proficiency
+100.4,53.5,77.9,105.9,102.8,181.2,Switzerland,Zurich,CH,,550.0,High Proficiency
+100.0,100.0,100.0,100.0,100.0,100.0,United States,New York,US,,650.0,Native
+90.5,77.9,84.5,101.8,88.2,162.1,United States,San Francisco,US,,650.0,Native
+85.8,71.2,78.8,96.9,82.5,128.3,United States,Boston,US,10.9,650.0,Native
+83.9,42.1,63.8,91.1,89.3,104.9,Iceland,Reykjavik,IS,,,
+82.5,67.5,75.3,84.4,83.7,132.6,United States,Washington,US,,650.0,Native
+81.5,58.2,70.3,85.2,78.0,162.0,United States,Seattle,US,11.3,650.0,Native
+80.9,62.9,72.2,85.2,88.6,122.9,United States,Los Angeles,US,18.6,650.0,Native
+80.2,56.2,68.7,89.6,83.2,126.3,United States,Chicago,US,9.8,650.0,Native
+79.8,67.9,74.1,77.9,74.8,142.3,United States,San Diego,US,17.8,650.0,Native
+79.3,39.8,60.3,81.3,81.5,104.0,Australia,Canberra,AU,13.1,650.0,Native
+78.7,68.7,73.9,66.3,81.2,115.3,United Kingdom,London,GB,10.3,650.0,Native
+78.4,32.5,56.4,84.0,76.2,114.7,Norway,Oslo,NO,5.7,610.0,Very High Proficiency
+78.4,43.6,61.7,85.5,66.1,140.2,United States,Portland,US,,650.0,Native
+78.0,46.9,63.1,84.4,73.9,145.7,United States,Tampa,US,22.9,650.0,Native
+77.0,69.1,73.2,77.8,82.4,105.1,United States,Miami,US,24.9,650.0,Native
+76.7,67.2,72.1,74.6,50.4,111.1,Singapore,Singapore,SG,27.0,609.0,Very High Proficiency
+76.6,51.8,64.7,79.6,70.0,129.7,United States,Denver,US,10.4,650.0,Native
+76.0,32.5,55.1,80.6,79.8,109.3,Australia,Adelaide,AU,17.3,650.0,Native
+75.7,43.8,60.4,83.3,73.9,168.1,United States,Atlanta,US,17.0,650.0,Native
+75.7,40.1,58.6,67.7,86.7,123.7,Denmark,Copenhagen,DK,9.1,603.0,Very High Proficiency
+73.6,40.5,57.7,80.1,69.8,97.5,France,Paris,FR,12.3,524.0,Moderate Proficiency
+73.4,51.5,62.9,79.9,61.7,118.5,Australia,Sydney,AU,17.7,650.0,Native
+73.1,26.9,50.9,73.6,78.6,105.3,Finland,Espoo,FI,,590.0,High Proficiency
+72.1,41.8,57.6,83.9,66.9,79.5,Canada,Victoria,CA,,650.0,Native
+70.8,59.4,65.3,84.6,46.2,109.3,Hong Kong,Hong Kong,HK,23.3,549.0,Moderate Proficiency
+70.5,49.4,60.4,70.7,68.1,159.1,United States,Dallas,US,19.0,650.0,Native
+70.3,37.9,54.7,76.7,61.6,88.4,New Zealand,Wellington,NZ,12.9,650.0,Native
+69.9,36.8,54.0,67.6,70.9,111.6,United Kingdom,Edinburgh,GB,9.3,650.0,Native
+69.7,49.8,60.2,61.4,76.0,112.2,Netherlands,Amsterdam,NL,10.2,636.0,Very High Proficiency
+69.6,34.1,52.5,76.3,62.3,140.8,Australia,Perth,AU,18.7,650.0,Native
+69.5,33.7,52.3,74.8,62.3,124.1,Canada,Calgary,CA,4.4,650.0,Native
+69.3,52.6,61.3,60.9,74.5,100.8,Ireland,Dublin,IE,9.8,650.0,Native
+69.1,50.6,60.2,79.7,66.7,98.1,Canada,Vancouver,CA,10.4,650.0,Native
+69.1,38.8,54.6,65.4,79.7,99.1,Israel,Tel Aviv-Yafo,IL,,522.0,Moderate Proficiency
+68.6,40.0,54.9,65.1,67.0,105.5,Ireland,Cork,IE,,650.0,Native
+68.5,39.7,54.7,69.1,68.6,148.8,United States,Phoenix,US,23.9,650.0,Native
+68.5,37.8,53.7,69.1,68.1,142.4,United States,Las Vegas,US,20.3,650.0,Native
+67.9,36.5,52.8,74.3,60.1,135.2,Australia,Brisbane,AU,21.4,650.0,Native
+67.8,39.1,54.0,62.9,64.1,111.7,Germany,Munich,DE,,598.0,High Proficiency
+67.8,36.1,52.6,74.0,62.3,142.8,Australia,Melbourne,AU,15.1,650.0,Native
+67.7,32.1,50.7,74.5,60.2,127.8,New Zealand,Auckland,NZ,15.2,650.0,Native
+67.5,33.9,51.4,75.9,59.3,92.7,Canada,Halifax,CA,7.5,650.0,Native
+67.4,26.5,47.8,63.3,63.4,116.7,Germany,Hamburg,DE,,598.0,High Proficiency
+67.4,38.1,53.3,65.7,67.8,60.4,Italy,Milan,IT,13.0,528.0,Moderate Proficiency
+66.9,33.4,50.8,70.4,69.3,110.8,Canada,Ottawa,CA,6.6,650.0,Native
+66.8,53.9,60.6,69.7,66.3,166.0,United States,Austin,US,20.7,650.0,Native
+66.6,29.0,48.6,66.2,68.4,105.0,Belgium,Brussels,BE,10.5,592.0,High Proficiency
+66.3,45.2,56.2,70.5,66.7,107.6,Canada,Toronto,CA,9.4,650.0,Native
+66.3,25.6,46.8,66.1,69.5,111.7,Finland,Helsinki,FI,5.9,590.0,High Proficiency
+65.9,26.0,46.8,90.4,36.2,110.7,South Korea,Seoul,KR,12.5,523.0,Moderate Proficiency
+65.7,32.7,49.9,63.5,64.9,103.2,United Kingdom,Manchester,GB,,650.0,Native
+65.2,30.5,48.5,59.7,63.1,121.6,United Kingdom,Glasgow,GB,,650.0,Native
+65.1,39.2,52.7,66.8,60.7,162.9,United States,Houston,US,20.8,650.0,Native
+64.7,33.1,49.5,61.0,58.0,120.4,Germany,Berlin,DE,10.3,598.0,High Proficiency
+64.7,26.5,46.4,62.6,57.4,122.3,Germany,Dusseldorf,DE,,598.0,High Proficiency
+64.7,33.6,49.8,63.5,61.2,120.3,Sweden,Stockholm,SE,6.6,608.0,Very High Proficiency
+64.5,37.4,51.5,65.0,64.6,133.5,United States,San Antonio,US,20.8,650.0,Native
+64.3,26.1,46.0,67.1,59.3,113.1,Austria,Vienna,AT,10.4,600.0,Very High Proficiency
+64.2,27.5,46.6,61.9,60.4,145.7,Germany,Stuttgart,DE,,598.0,High Proficiency
+63.9,21.9,43.7,61.3,60.8,121.8,Germany,Nuremberg,DE,,598.0,High Proficiency
+63.7,30.1,47.6,59.8,63.4,142.3,Germany,Frankfurt,DE,10.6,598.0,High Proficiency
+63.5,32.3,48.5,59.8,63.1,131.1,Netherlands,Utrecht,NL,,636.0,Very High Proficiency
+63.4,24.1,44.5,67.6,60.7,97.4,Canada,Winnipeg,CA,3.0,650.0,Native
+63.3,25.0,44.9,63.7,60.8,70.5,Italy,Bologna,IT,,528.0,Moderate Proficiency
+63.2,29.1,46.8,72.0,61.7,131.6,New Zealand,Christchurch,NZ,12.2,650.0,Native
+62.9,28.9,46.6,70.1,66.3,102.4,Canada,Montreal,CA,6.8,650.0,Native
+62.8,19.0,41.8,59.4,68.3,113.8,Israel,Haifa,IL,,522.0,Moderate Proficiency
+62.7,26.9,45.5,61.9,52.4,117.5,Germany,Cologne,DE,,598.0,High Proficiency
+62.5,24.0,44.0,69.5,51.1,120.9,Canada,Edmonton,CA,4.2,650.0,Native
+62.2,30.7,47.1,59.0,59.5,139.4,Netherlands,Eindhoven,NL,,636.0,Very High Proficiency
+62.0,42.3,52.6,63.6,71.2,175.9,Luxembourg,Luxembourg,LU,,576.0,High Proficiency
+61.3,32.2,47.3,59.2,61.3,139.1,Netherlands,Rotterdam,NL,,636.0,Very High Proficiency
+60.8,23.1,42.7,61.7,56.7,125.2,Sweden,Gothenburg,SE,,608.0,Very High Proficiency
+60.2,18.1,40.0,62.9,45.8,112.1,Germany,Leipzig,DE,,598.0,High Proficiency
+60.2,33.2,47.2,58.5,57.5,138.9,Netherlands,The Hague (Den Haag),NL,,636.0,Very High Proficiency
+60.0,51.4,55.9,46.1,61.1,122.7,United Arab Emirates,Dubai,AE,26.9,489.0,Low Proficiency
+59.9,18.5,40.0,59.2,48.9,127.9,Germany,Dresden,DE,,598.0,High Proficiency
+59.6,23.9,42.5,59.2,59.7,130.6,Netherlands,Groningen,NL,,636.0,Very High Proficiency
+57.2,17.1,37.9,59.4,53.6,85.4,Italy,Turin,IT,,528.0,Moderate Proficiency
+57.0,38.0,47.9,51.7,58.1,76.3,Cyprus,Limassol,CY,,558.0,High Proficiency
+56.4,15.9,36.9,59.4,50.3,41.4,Trinidad and Tobago,Port of Spain,TT,,,
+56.4,12.2,35.2,70.1,42.1,56.5,China,Suzhou,CN,,455.0,Low Proficiency
+55.3,17.1,37.0,47.5,58.9,80.3,Estonia,Tallinn,EE,5.9,578.0,High Proficiency
+54.4,26.4,41.0,53.2,53.1,78.7,Italy,Rome,IT,15.2,528.0,Moderate Proficiency
+54.1,35.9,45.3,42.5,55.3,160.5,United Arab Emirates,Abu Dhabi,AE,,489.0,Low Proficiency
+54.1,14.1,34.9,51.9,47.8,63.3,Uruguay,Montevideo,UY,16.7,538.0,Moderate Proficiency
+54.0,30.5,42.7,51.6,53.9,87.4,Spain,Barcelona,ES,18.2,538.0,Moderate Proficiency
+53.6,13.1,34.2,49.4,51.4,47.7,Greece,Thessaloniki,GR,,602.0,Very High Proficiency
+53.5,16.5,35.7,50.3,53.1,52.8,Greece,Athens,GR,,602.0,Very High Proficiency
+53.2,33.1,43.5,51.3,53.7,92.6,Spain,Madrid,ES,15.0,538.0,Moderate Proficiency
+52.4,13.4,33.6,50.1,45.3,79.3,Estonia,Tartu,EE,,578.0,High Proficiency
+52.2,36.8,44.8,44.4,49.1,140.8,Qatar,Doha,QA,,480.0,Low Proficiency
+51.9,27.0,39.9,63.9,30.7,109.4,Japan,Tokyo,JP,15.4,454.0,Very Low Proficiency
+51.5,22.4,37.6,49.9,48.4,80.2,Slovenia,Ljubljana,SI,10.9,,
+50.9,11.9,32.2,43.3,48.8,68.3,Latvia,Riga,LV,6.2,,
+49.8,24.8,37.8,44.0,37.7,138.9,Saudi Arabia,Riyadh,SA,26.0,417.0,Very Low Proficiency
+49.7,17.9,34.5,48.8,40.4,74.6,Slovakia,Bratislava,SK,10.5,584.0,High Proficiency
+49.4,24.8,37.6,46.0,38.8,85.1,Czech Republic,Prague,CZ,8.4,567.0,High Proficiency
+49.0,33.5,41.6,46.5,45.3,55.7,Portugal,Lisbon,PT,17.5,605.0,Very High Proficiency
+48.2,18.7,34.0,44.6,49.6,79.3,Lithuania,Vilnius,LT,6.0,569.0,High Proficiency
+48.2,21.9,35.6,50.3,44.8,59.5,Mexico,Monterrey,MX,22.3,459.0,Low Proficiency
+47.6,23.7,36.1,50.6,45.6,43.6,Panama,Panama City,PA,28.0,488.0,Low Proficiency
+47.2,24.7,36.4,44.4,48.4,83.9,Spain,Valencia,ES,18.3,538.0,Moderate Proficiency
+47.0,18.2,33.2,62.2,26.8,99.3,Taiwan,Taipei,TW,23.0,,
+46.8,16.3,32.2,44.9,42.4,83.1,Croatia,Zagreb,HR,10.7,607.0,Very High Proficiency
+46.1,13.7,30.5,44.3,39.1,77.2,Lithuania,Kaunas,LT,,569.0,High Proficiency
+46.0,16.7,31.9,44.2,47.9,69.0,Croatia,Split,HR,16.1,607.0,Very High Proficiency
+45.8,12.7,29.9,45.8,34.2,97.9,Czech Republic,Plzen,CZ,,567.0,High Proficiency
+45.7,12.0,29.5,41.2,35.1,126.4,Saudi Arabia,Jeddah (Jiddah),SA,,417.0,Very Low Proficiency
+45.6,26.6,36.5,43.5,38.4,61.0,Portugal,Porto,PT,,605.0,Very High Proficiency
+45.2,16.9,31.6,34.0,35.9,20.5,Lebanon,Beirut,LB,20.9,492.0,Low Proficiency
+44.8,13.4,29.7,45.5,39.4,40.6,Albania,Tirana,AL,15.2,533.0,Moderate Proficiency
+43.9,24.9,34.8,37.9,40.8,95.4,Poland,Warsaw,PL,8.5,588.0,High Proficiency
+43.8,20.3,32.5,38.6,40.2,90.4,Poland,Krakow (Cracow),PL,,588.0,High Proficiency
+43.6,14.8,29.8,40.6,40.4,68.8,Hungary,Budapest,HU,11.3,585.0,High Proficiency
+43.3,23.3,33.7,34.8,41.1,124.1,Kuwait,Kuwait City,KW,25.7,456.0,Low Proficiency
+43.1,24.1,34.0,46.8,40.6,39.6,Mexico,Mexico City,MX,17.5,459.0,Low Proficiency
+42.8,15.0,29.4,38.3,36.4,98.1,Oman,Muscat,OM,28.0,421.0,Very Low Proficiency
+42.8,16.8,30.3,42.4,29.6,97.6,Czech Republic,Brno,CZ,,567.0,High Proficiency
+42.7,8.7,26.4,38.1,36.1,45.3,Jordan,Amman,JO,,431.0,Very Low Proficiency
+42.6,14.4,29.1,39.6,36.7,87.8,Poland,Katowice,PL,,588.0,High Proficiency
+42.5,18.3,30.9,38.1,38.2,88.9,Poland,Wroclaw,PL,,588.0,High Proficiency
+42.4,12.8,28.2,43.9,41.2,44.2,Chile,Santiago,CL,14.7,525.0,Moderate Proficiency
+42.1,20.4,31.7,37.1,39.2,34.0,Armenia,Yerevan,AM,12.4,537.0,Moderate Proficiency
+42.1,18.3,30.7,39.0,39.6,51.3,Serbia,Belgrade,RS,12.5,568.0,High Proficiency
+41.3,17.6,30.0,36.7,37.9,95.6,Poland,Gdansk,PL,,588.0,High Proficiency
+41.3,15.8,29.1,38.3,36.1,90.8,Poland,Poznan,PL,,588.0,High Proficiency
+41.3,12.6,27.5,38.7,43.3,74.3,Romania,Bucharest,RO,10.8,593.0,High Proficiency
+41.2,15.4,28.8,45.0,38.0,47.9,Mexico,Guadalajara,MX,20.9,459.0,Low Proficiency
+40.8,13.1,27.5,40.5,36.7,82.7,Bulgaria,Sofia,BG,10.6,586.0,High Proficiency
+39.5,15.9,28.2,45.1,19.2,39.7,Thailand,Bangkok,TH,28.6,415.0,Very Low Proficiency
+39.3,13.8,27.1,38.1,33.1,50.9,Serbia,Novi Sad,RS,,568.0,High Proficiency
+39.2,13.5,26.9,38.5,39.4,75.9,Romania,Cluj-Napoca,RO,,593.0,High Proficiency
+39.1,18.4,29.1,37.0,37.0,49.4,Turkey,Istanbul,TR,13.9,497.0,Low Proficiency
+38.9,22.0,30.8,35.6,37.0,76.5,Russia,Moscow,RU,5.8,532.0,Moderate Proficiency
+38.9,15.1,27.5,37.1,32.9,34.6,Turkey,Antalya,TR,,497.0,Low Proficiency
+38.9,11.1,25.6,38.5,36.6,60.5,Romania,Brasov,RO,,593.0,High Proficiency
+38.7,11.0,25.4,37.9,34.1,62.4,Bulgaria,Varna,BG,,586.0,High Proficiency
+38.4,10.7,25.1,31.2,34.5,110.8,South Africa,Johannesburg,ZA,15.5,594.0,High Proficiency
+38.0,9.4,24.3,36.2,37.7,70.8,Romania,Timisoara,RO,,593.0,High Proficiency
+37.9,13.3,26.1,36.7,30.1,58.8,Montenegro,Podgorica,ME,15.3,,
+37.9,12.3,25.6,38.2,30.0,54.3,Turkey,Izmir,TR,,497.0,Low Proficiency
+37.1,11.8,24.9,37.6,29.2,54.7,Turkey,Ankara,TR,12.0,497.0,Low Proficiency
+36.9,9.0,23.5,35.8,33.7,63.0,Romania,Iasi,RO,,593.0,High Proficiency
+36.5,26.7,31.8,42.0,22.5,93.4,China,Shanghai,CN,16.7,455.0,Low Proficiency
+36.4,7.8,22.7,35.5,23.6,64.3,Bosnia and Herzegovina,Sarajevo,BA,10.1,,
+36.3,9.2,23.3,37.8,30.4,69.5,Bulgaria,Plovdiv,BG,,586.0,High Proficiency
+36.0,7.1,22.1,51.0,20.0,18.1,Sri Lanka,Colombo,LK,27.4,486.0,Low Proficiency
+36.0,15.2,26.0,41.8,22.0,34.8,Philippines,Manila,PH,28.4,570.0,High Proficiency
+35.8,11.4,24.1,32.5,27.5,46.7,Moldova,Chisinau,MD,,536.0,Moderate Proficiency
+35.7,16.4,26.4,34.2,35.7,35.6,Georgia,Tbilisi,GE,12.9,543.0,Moderate Proficiency
+35.3,10.5,23.4,30.1,27.8,118.8,South Africa,Pretoria,ZA,18.2,594.0,High Proficiency
+35.2,17.2,26.6,31.5,30.0,105.2,South Africa,Cape Town,ZA,16.2,594.0,High Proficiency
+35.1,24.3,29.9,40.7,25.8,13.1,Nigeria,Lagos,NG,26.8,557.0,High Proficiency
+35.0,12.9,24.4,33.9,31.3,31.8,Brazil,Sao Paulo,BR,,466.0,Low Proficiency
+35.0,24.3,29.8,37.8,22.3,110.1,China,Beijing,CN,12.9,455.0,Low Proficiency
+34.6,10.6,23.1,37.5,28.5,40.3,Ecuador,Quito,EC,14.4,465.0,Low Proficiency
+34.6,7.6,21.6,33.4,24.3,53.3,North Macedonia,Skopje,MK,12.4,,
+34.3,10.0,22.6,31.1,27.1,45.5,Iraq,Erbil (Irbil),IQ,,414.0,Very Low Proficiency
+34.2,13.9,24.4,31.9,29.1,62.6,Russia,Saint Petersburg,RU,5.8,532.0,Moderate Proficiency
+34.2,18.7,26.8,40.2,21.7,104.8,China,Shenzhen,CN,,455.0,Low Proficiency
+34.2,16.6,25.7,33.0,34.2,45.8,Kazakhstan,Almaty,KZ,10.0,427.0,Very Low Proficiency
+34.1,7.5,21.3,33.1,25.5,51.8,Serbia,Nis,RS,,568.0,High Proficiency
+33.9,11.9,23.4,40.1,23.4,95.4,Malaysia,Kuala Lumpur,MY,27.3,566.0,High Proficiency
+33.8,10.7,22.7,30.1,27.8,25.9,Brazil,Rio de Janeiro,BR,23.8,466.0,Low Proficiency
+33.5,12.5,23.4,35.5,24.8,33.3,Peru,Lima,PE,19.2,519.0,Moderate Proficiency
+33.0,12.0,22.9,41.0,20.4,89.0,China,Guangzhou,CN,22.4,455.0,Low Proficiency
+32.9,9.6,21.7,27.5,25.7,91.7,South Africa,Durban,ZA,20.6,594.0,High Proficiency
+32.8,10.3,22.0,30.3,33.5,38.5,Azerbaijan,Baku,AZ,15.1,462.0,Low Proficiency
+32.8,11.6,22.6,31.9,24.8,38.6,Morocco,Casablanca,MA,,479.0,Low Proficiency
+32.5,10.8,22.1,30.0,25.4,42.8,Brazil,Florianopolis,BR,,466.0,Low Proficiency
+32.5,11.9,22.6,34.3,30.7,33.5,Argentina,Buenos Aires,AR,17.9,562.0,High Proficiency
+32.1,9.8,21.4,35.6,27.7,16.3,Ghana,Accra,GH,26.4,534.0,Moderate Proficiency
+31.9,11.3,22.0,32.6,28.7,47.4,Kazakhstan,Astana (Nur-Sultan),KZ,,427.0,Very Low Proficiency
+31.7,10.7,21.7,32.8,22.2,34.5,Kenya,Nairobi,KE,17.8,581.0,High Proficiency
+31.7,10.6,21.6,30.1,27.0,42.8,Brazil,Brasilia,BR,,466.0,Low Proficiency
+31.2,11.9,22.0,33.8,27.9,38.9,Georgia,Batumi,GE,14.0,543.0,Moderate Proficiency
+31.2,11.3,21.6,32.4,23.6,34.7,Colombia,Medellin,CO,,485.0,Low Proficiency
+31.0,11.0,21.4,28.8,27.6,54.0,Russia,Yekaterinburg,RU,,532.0,Moderate Proficiency
+30.5,12.7,22.0,35.7,15.9,39.5,Vietnam,Ho Chi Minh City,VN,27.4,498.0,Low Proficiency
+30.5,8.8,20.1,29.8,26.8,49.1,Russia,Novosibirsk,RU,1.7,532.0,Moderate Proficiency
+30.5,8.9,20.1,27.1,32.6,49.8,Russia,Krasnodar,RU,,532.0,Moderate Proficiency
+30.3,8.2,19.7,28.7,22.9,28.7,Brazil,Belo Horizonte,BR,21.1,466.0,Low Proficiency
+30.2,8.0,19.5,28.3,27.7,52.2,Russia,Nizhny Novgorod,RU,,532.0,Moderate Proficiency
+30.1,9.5,20.2,27.1,24.4,52.3,Russia,Kazan,RU,,532.0,Moderate Proficiency
+30.0,12.5,21.6,36.4,15.6,47.6,Indonesia,Jakarta,ID,26.7,468.0,Low Proficiency
+29.8,5.0,17.9,37.8,15.5,30.0,Algeria,Algiers,DZ,17.4,471.0,Low Proficiency
+29.8,5.5,18.1,32.8,17.6,30.6,Tunisia,Tunis,TN,18.4,496.0,Low Proficiency
+29.8,6.9,18.8,35.7,18.7,79.8,China,Chengdu,CN,,455.0,Low Proficiency
+29.6,9.9,20.2,34.4,15.6,42.0,Vietnam,Hanoi,VN,23.6,498.0,Low Proficiency
+29.6,7.6,19.1,28.6,22.5,40.6,Brazil,Curitiba,BR,16.8,466.0,Low Proficiency
+29.6,8.5,19.4,26.5,24.6,51.7,Russia,Rostov-on-Don (Rostov-na-donu),RU,,532.0,Moderate Proficiency
+29.4,8.3,19.3,28.6,21.9,50.7,Kosovo,Pristina,,,,
+29.1,10.0,19.9,30.6,21.6,31.0,Colombia,Bogota,CO,,485.0,Low Proficiency
+29.1,11.2,20.5,28.7,21.4,29.2,Kyrgyzstan,Bishkek,KG,11.3,457.0,Low Proficiency
+29.0,12.5,21.1,24.0,17.4,21.6,Iran,Tehran,IR,17.0,499.0,Low Proficiency
+28.6,11.8,20.6,27.1,24.7,43.7,Ukraine,Kiev (Kyiv),UA,,535.0,Moderate Proficiency
+27.8,9.6,19.0,26.6,27.4,59.5,Belarus,Minsk,BY,6.7,539.0,Moderate Proficiency
+27.8,14.3,21.3,28.9,20.6,38.9,Uzbekistan,Tashkent,UZ,14.8,439.0,Very Low Proficiency
+27.2,5.8,16.9,26.8,22.8,40.4,Ukraine,Odessa (Odesa),UA,,535.0,Moderate Proficiency
+26.2,4.5,15.8,26.4,17.2,25.9,Nepal,Kathmandu,NP,18.3,512.0,Moderate Proficiency
+25.8,9.5,18.0,25.7,19.0,44.5,Ukraine,Lviv,UA,7.8,535.0,Moderate Proficiency
+25.8,8.9,17.7,29.4,19.3,171.0,India,Bangalore,IN,,490.0,Low Proficiency
+25.4,8.4,17.2,27.6,22.2,128.0,India,Gurgaon,IN,,490.0,Low Proficiency
+25.1,3.3,14.6,29.0,15.3,34.0,Bangladesh,Dhaka,BD,25.9,500.0,Moderate Proficiency
+24.3,17.8,21.2,25.6,21.2,73.7,India,Mumbai,IN,27.1,490.0,Low Proficiency
+24.1,6.6,15.7,25.5,22.7,155.2,India,Pune,IN,,490.0,Low Proficiency
+23.9,7.4,16.0,24.6,19.7,121.7,India,Delhi,IN,,490.0,Low Proficiency
+22.8,6.4,15.0,25.6,16.4,127.2,India,Hyderabad,IN,,490.0,Low Proficiency
+22.8,4.8,14.2,26.3,16.9,63.4,India,Ahmedabad,IN,,490.0,Low Proficiency
+21.9,4.9,13.7,21.4,16.0,18.6,Egypt,Cairo,EG,21.4,465.0,Low Proficiency
+21.8,5.5,14.0,26.9,12.3,101.6,India,Chennai,IN,,490.0,Low Proficiency
+21.5,5.3,13.7,19.5,14.6,36.2,Pakistan,Islamabad,PK,,493.0,Low Proficiency
+21.1,3.6,12.7,24.6,14.6,69.0,India,Kolkata,IN,26.7,490.0,Low Proficiency
+19.1,3.3,11.5,16.8,15.3,27.3,Pakistan,Lahore,PK,24.3,493.0,Low Proficiency
+19.0,2.9,11.3,17.6,13.1,28.0,Pakistan,Karachi,PK,26.0,493.0,Low Proficiency

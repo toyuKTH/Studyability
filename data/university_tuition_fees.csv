@@ -1,0 +1,1504 @@
+2025_rank,university,tuition_fee_yearly_usd,method
+1,Massachusetts Institute of Technology (MIT),53790,official
+2,Imperial College London,44083,scrape-topuniversities
+3,University of Oxford,40000,estimated
+4,Harvard University,50000,estimated
+5,University of Cambridge,40000,estimated
+6,Stanford University,57500,estimated
+7,ETH Zurich - Swiss Federal Institute of Technology,1624,scrape-topuniversities
+8,National University of Singapore (NUS),13180,scrape-topuniversities
+9,UCL,30228,scrape-topuniversities
+10,California Institute of Technology (Caltech),56000,estimated
+11,University of Pennsylvania,60000,estimated
+12,"University of California, Berkeley (UCB)",32000,estimated
+13,The University of Melbourne,30000,estimated
+14,Peking University,3000,estimated
+15,"Nanyang Technological University, Singapore (NTU)",25000,estimated
+16,Cornell University,60000,estimated
+17,The University of Hong Kong,25000,estimated
+18,The University of Sydney,30000,estimated
+19,The University of New South Wales (UNSW Sydney),28000,estimated
+20,Tsinghua University,4000,estimated
+21,University of Chicago,60000,estimated
+22,Princeton University,54000,estimated
+23,Yale University,45000,estimated
+24,Université PSL,262,scrape-topuniversities
+25,University of Toronto,30000,estimated
+26,EPFL,1713,scrape-topuniversities
+27,The University of Edinburgh,32500,estimated
+28,Technical University of Munich,3500,estimated
+29,McGill University,24668,scrape-topuniversities
+30,The Australian National University,24784,scrape-topuniversities
+31,Seoul National University,7000,estimated
+32,Johns Hopkins University,58000,estimated
+32,The University of Tokyo,11000,estimated
+34,The University of Manchester,37785,scrape-topuniversities
+34,Columbia University,70000,estimated
+36,The Chinese University of Hong Kong (CUHK),19000,scrape-topuniversities
+37,Monash University,27000,estimated
+38,University of British Columbia,20000,estimated
+39,Fudan University,7000,estimated
+40,The University of Queensland,31736,scrape-topuniversities
+40,King's College London,32500,estimated
+42,"University of California, Los Angeles (UCLA)",40000,estimated
+43,New York University (NYU),60000,estimated
+44,University of Michigan-Ann Arbor,50000,estimated
+45,Shanghai Jiao Tong University,7500,estimated
+46,Institut Polytechnique de Paris,3500,estimated
+47,The Hong Kong University of Science and Technology,18000,scrape-topuniversities
+47,Zhejiang University,5000,estimated
+49,Delft University of Technology,20000,estimated
+50,Kyoto University,10000,estimated
+50,Northwestern University,60000,estimated
+50,The London School of Economics and Political Science (LSE),31200,estimated
+53,KAIST - Korea Advanced Institute of Science & Technology,6000,estimated
+54,University of Bristol,26000,estimated
+55,University of Amsterdam,15745,scrape-topuniversities
+56,Yonsei University,10000,estimated
+57,The Hong Kong Polytechnic University,13000,estimated
+58,Carnegie Mellon University,53000,estimated
+59,Ludwig-Maximilians-Universität München,2500,estimated
+60,Universiti Malaya (UM),6000,estimated
+61,Duke University,65000,estimated
+62,City University of Hong Kong,18700,scrape-topuniversities
+63,KU Leuven,8000,estimated
+63,Sorbonne University,3500,estimated
+65,The University of Auckland,21729,scrape-topuniversities
+66,University of Texas at Austin,40000,estimated
+67,Korea University,10000,estimated
+68,National Taiwan University (NTU),2000,scrape-topuniversities
+69,The University of Warwick,27000,estimated
+69,University of Illinois at Urbana-Champaign,40000,estimated
+71,Universidad de Buenos Aires (UBA),1000,estimated
+72,"University of California, San Diego (UCSD)",40000,estimated
+73,Université Paris-Saclay,178,scrape-topuniversities
+74,KTH Royal Institute of Technology,15991,scrape-topuniversities
+75,Lund University,17000,estimated
+76,University of Washington,32000,estimated
+77,The University of Western Australia,20000,estimated
+78,University of Glasgow,21000,estimated
+79,Brown University,58000,estimated
+80,University of Birmingham,22000,estimated
+80,University of Southampton,24000,estimated
+82,The University of Adelaide,20000,estimated
+82,University of Leeds,22000,estimated
+84,Ruprecht-Karls-Universität Heidelberg,158,scrape-topuniversities
+84,Tokyo Institute of Technology (Tokyo Tech),4600,scrape-topuniversities
+86,Osaka University,5000,estimated
+87,"Trinity College Dublin, The University of Dublin",11928,scrape-topuniversities
+88,University of Technology Sydney,27944,scrape-topuniversities
+89,Purdue University,31104,scrape-topuniversities
+89,Durham University,22000,estimated
+89,Pennsylvania State University,35000,estimated
+92,Universidade de São Paulo,1000,estimated
+93,Pontificia Universidad Católica de Chile (UC),9000,estimated
+94,Lomonosov Moscow State University,4000,estimated
+94,Universidad Nacional Autónoma de México (UNAM),100,estimated
+96,University of Alberta,15000,estimated
+97,Freie Universitaet Berlin,1500,estimated
+98,Pohang University of Science And Technology (POSTECH),10000,estimated
+99,RWTH Aachen University,2000,estimated
+100,University of Copenhagen,15000,estimated
+101,King Fahd University of Petroleum & Minerals,8000,estimated
+102,"KIT, Karlsruhe Institute of Technology",2000,estimated
+103,Uppsala University,17000,estimated
+104,University of St Andrews,27000,estimated
+105,The University of Sheffield,27079,scrape-topuniversities
+105,Utrecht University,20000,estimated
+107,Tohoku University,5000,estimated
+108,University of Nottingham,31777,scrape-topuniversities
+108,Boston University,57000,estimated
+109,University of Zurich,2714,scrape-topuniversities
+109,Technical University of Denmark,15745,scrape-topuniversities
+111,Politecnico di Milano,4199,scrape-topuniversities
+113,Aalto University,17000,estimated
+114,Georgia Institute of Technology,30000,estimated
+115,University of Waterloo,18000,estimated
+116,University of Wisconsin-Madison,35000,estimated
+117,University of Helsinki,13645,scrape-topuniversities
+118,Indian Institute of Technology Bombay (IITB),3000,estimated
+119,University of Oslo,17000,estimated
+120,Queen Mary University of London,24000,estimated
+120,Western University,15000,estimated
+122,Qatar University,10000,estimated
+123,RMIT University,20000,estimated
+123,Sungkyunkwan University (SKKU),10000,estimated
+125,University of Southern California,62000,estimated
+126,University College Dublin,21518,scrape-topuniversities
+126,Humboldt-Universität zu Berlin,1500,estimated
+128,Stockholm University,17000,estimated
+129,Newcastle University,22000,estimated
+130,"University of California, Davis",35000,estimated
+131,University of Basel,5000,estimated
+132,Sapienza University of Rome,1260,scrape-topuniversities
+133,Macquarie University,25150,scrape-topuniversities
+133,Alma Mater Studiorum - University of Bologna,2500,estimated
+133,University of Science and Technology of China,5000,estimated
+136,Eindhoven University of Technology,17109,scrape-topuniversities
+137,University of Vienna,1500,estimated
+138,Universiti Kebangsaan Malaysia (UKM),5000,estimated
+139,Chalmers University of Technology,14963,scrape-topuniversities
+139,Universidad de Chile,6000,estimated
+141,Leiden University,21098,scrape-topuniversities
+141,Lancaster University,23000,estimated
+141,Rice University,60000,estimated
+144,Aarhus University,10497,scrape-topuniversities
+145,Nanjing University,5000,estimated
+146,Universiti Sains Malaysia (USM),5000,estimated
+147,Technische Universität Berlin (TU Berlin),2000,estimated
+148,Universiti Putra Malaysia (UPM),3717,scrape-topuniversities
+149,King Abdulaziz University (KAU),8000,estimated
+150,Indian Institute of Technology Delhi (IITD),3000,estimated
+150,University of Bath,24000,estimated
+152,Michigan State University,35000,estimated
+152,Nagoya University,5000,estimated
+154,Texas A&M University,32000,estimated
+155,University of Geneva,4500,estimated
+155,"University of North Carolina, Chapel Hill",35000,estimated
+155,Wageningen University & Research,20000,estimated
+158,Erasmus University Rotterdam,9027,scrape-topuniversities
+159,Université de Montréal,15110,scrape-topuniversities
+159,University of Groningen,18000,estimated
+161,University of Bern,2000,estimated
+162,Hanyang University,10000,estimated
+163,Al-Farabi Kazakh National University,2000,estimated
+164,Complutense University of Madrid,14433,scrape-topuniversities
+165,Universitat de Barcelona,7000,estimated
+165,University of Liverpool,23000,estimated
+167,Kyushu University,5000,estimated
+167,University of Wollongong,20000,estimated
+169,The University of Exeter,27079,scrape-topuniversities
+169,Ghent University,5000,estimated
+171,University of Cape Town,4000,estimated
+172,University of Reading,24560,scrape-topuniversities
+173,Hokkaido University,5000,estimated
+174,Curtin University,19000,estimated
+175,Universitat Autònoma de Barcelona,6298,scrape-topuniversities
+176,McMaster University,18000,estimated
+176,Washington University in St. Louis,60000,estimated
+178,"University of California, Santa Barbara (UCSB)",40000,estimated
+179,"The University of Newcastle, Australia (UON)",20000,estimated
+179,Universidad de los Andes,9000,estimated
+181,Universiti Teknologi Malaysia,5000,estimated
+181,Waseda University,5000,estimated
+183,Hamad Bin Khalifa University,15000,estimated
+184,University of York,24000,estimated
+185,Tecnológico de Monterrey,17000,estimated
+186,Cardiff University,24812,scrape-topuniversities
+187,École Normale Supérieure de Lyon,2500,estimated
+188,Keio University,8000,estimated
+189,University of Ottawa,15000,estimated
+190,Technische Universität Wien,1500,estimated
+191,Universität Hamburg,1500,estimated
+192,Tongji University,6000,estimated
+193,Queen's University at Kingston,15000,estimated
+194,Wuhan University,5000,estimated
+194,University of Gothenburg,20000,estimated
+196,Emory University,60000,estimated
+197,Deakin University,19053,scrape-topuniversities
+198,Universidad Autónoma de Madrid,10000,estimated
+198,University of Calgary,25000,estimated
+200,Arizona State University,30000,estimated
+200,King Saud University,7000,estimated
+202,Khalifa University of Science and Technology,27200,scrape-topuniversities
+203,Université catholique de Louvain (UCLouvain),12000,estimated
+203,University of Minnesota Twin Cities,30000,estimated
+205,Ecole des Ponts ParisTech,13000,estimated
+206,Queen's University Belfast,22545,scrape-topuniversities
+206,Universitas Indonesia,6000,estimated
+208,The Ohio State University,35000,estimated
+209,Tel Aviv University,25000,estimated
+210,National Tsing Hua University,3200,scrape-topuniversities
+211,Indian Institute of Science,4000,estimated
+212,Albert-Ludwigs-Universitaet Freiburg,4000,estimated
+213,Queensland University of Technology (QUT),20069,scrape-topuniversities
+214,University of Otago,25000,estimated
+215,National Cheng Kung University (NCKU),8000,estimated
+215,University of Florida,30000,estimated
+217,La Trobe University,19942,scrape-topuniversities
+218,"University of Maryland, College Park",35000,estimated
+219,National Yang Ming Chiao Tung University,10000,estimated
+219,Universidad Nacional de Colombia,2000,estimated
+221,Vrije Universiteit Amsterdam,20000,estimated
+222,Eberhard Karls Universität Tübingen,4000,estimated
+222,Indian Institute of Technology Kharagpur (IIT-KGP),3000,estimated
+224,Friedrich-Alexander-Universität Erlangen-Nürnberg,3000,estimated
+224,Loughborough University,25000,estimated
+224,University of Lausanne,30000,estimated
+227,Indian Institute of Technology Madras (IITM),3000,estimated
+227,Rheinische Friedrich-Wilhelms-Universität Bonn,3000,estimated
+229,Chulalongkorn University,8000,estimated
+230,Maastricht University,18000,estimated
+230,Universite libre de Bruxelles,12000,estimated
+232,Universidade Estadual de Campinas (Unicamp),3000,estimated
+233,University of Twente,15000,estimated
+234,Technische Universität Dresden,3000,estimated
+235,University of Waikato,20000,estimated
+236,Università di Padova,2834,scrape-topuniversities
+236,University of Aberdeen,20000,estimated
+236,University of Rochester,60000,estimated
+239,Gadjah Mada University,5000,estimated
+239,Massey University,25000,estimated
+241,Politecnico di Torino,8000,estimated
+241,Technical University of Darmstadt,3000,estimated
+243,Dartmouth College,60000,estimated
+244,Victoria University of Wellington,20000,estimated
+245,University of Macau,5000,estimated
+246,University of Sussex,23301,scrape-topuniversities
+246,Charles University,4000,estimated
+248,Vanderbilt University,65000,estimated
+249,University of Navarra,10497,scrape-topuniversities
+250,American University of Beirut (AUB),20000,estimated
+251,Taylor's University,8750,scrape-topuniversities
+252,Hong Kong Baptist University,12740,scrape-topuniversities
+252,University of Göttingen,3000,estimated
+252,Harbin Institute of Technology,5000,estimated
+255,Griffith University,25000,estimated
+256,Heriot-Watt University,25190,scrape-topuniversities
+256,Bandung Institute of Technology (ITB),4000,estimated
+258,University of Warsaw,8000,estimated
+259,Case Western Reserve University,55000,estimated
+260,University of Lisbon,6000,estimated
+261,United Arab Emirates University,31000,scrape-topuniversities
+261,University of Canterbury,20000,estimated
+263,Indian Institute of Technology Kanpur (IITK),3000,estimated
+264,Norwegian University of Science And Technology,15000,estimated
+265,UCSI University,5532,scrape-topuniversities
+265,Universitat Pompeu Fabra (Barcelona),12000,estimated
+267,University of Witwatersrand,4700,scrape-topuniversities
+267,University of Antwerp,6088,scrape-topuniversities
+269,Universiti Teknologi PETRONAS (UTP),5000,estimated
+269,Tianjin University,5000,estimated
+271,Beijing Normal University,4000,estimated
+272,Radboud University,14170,scrape-topuniversities
+273,University College Cork,20000,estimated
+273,University of Galway,15000,estimated
+275,University of Massachusetts Amherst,39293,scrape-topuniversities
+275,Dalhousie University,20000,estimated
+275,University of Pittsburgh,55000,estimated
+278,University of Porto,4000,estimated
+278,Vrije Universiteit Brussel (VUB),12000,estimated
+280,Ulsan National Institute of Science and Technology (UNIST),10000,estimated
+281,The Hebrew University of Jerusalem,25000,estimated
+281,University of Strathclyde,22000,estimated
+283,Université Paris 1 Panthéon-Sorbonne,15000,estimated
+284,Southern University of Science and Technology,5000,estimated
+285,Middle East Technical University,8000,estimated
+285,Universidad Carlos III de Madrid (UC3M),12000,estimated
+285,University of Cologne,3000,estimated
+285,University of Leicester,20000,estimated
+285,University of Milan,8000,estimated
+285,University of Surrey,20000,estimated
+291,Swinburne University of Technology,20000,estimated
+291,University of Bergen,15000,estimated
+293,The University of Arizona,40000,estimated
+293,University of Tasmania,20000,estimated
+295,Xi’an Jiaotong University,5000,estimated
+296,Stellenbosch University,6000,estimated
+297,University of Virginia,45000,estimated
+298,Swansea University,20152,scrape-topuniversities
+298,Bauman Moscow State Technical University,4000,estimated
+300,Huazhong University of Science and Technology,6000,estimated
+301,Georgetown University,61872,scrape-topuniversities
+302,Beijing Institute of Technology,5000,estimated
+302,Université Paris Cité,800,estimated
+304,Linköping University,9352,scrape-topuniversities
+304,Universidade Federal do Rio de Janeiro,1500,estimated
+306,Aalborg University,15000,estimated
+307,"University of California, Irvine",50000,estimated
+308,Airlangga University,4770,scrape-topuniversities
+309,Goethe-University Frankfurt am Main,3000,estimated
+309,Universität Innsbruck,2500,estimated
+311,North Carolina State University,35000,estimated
+312,Jagiellonian University,8000,estimated
+312,University of Johannesburg,4000,estimated
+314,Universität Stuttgart,3000,estimated
+315,Quaid-i-Azam University,2000,estimated
+316,RUDN University,4100,scrape-topuniversities
+316,University of Notre Dame,60000,estimated
+316,Shandong University,5000,estimated
+319,Simon Fraser University,25000,estimated
+320,University of Colorado Boulder,40000,estimated
+321,L.N. Gumilyov Eurasian National University (ENU),3000,estimated
+321,National Technical University of Athens,8000,estimated
+321,Universidad Politécnica de Madrid (UPM),10000,estimated
+324,University of Miami,55000,estimated
+324,University of Southern Denmark (SDU),15000,estimated
+326,Istanbul Technical University,7000,estimated
+326,Daegu Gyeongbuk Institute of Science and Technology (DGIST),7000,estimated
+328,Kyung Hee University,10000,estimated
+328,Rutgers University–New Brunswick,55000,estimated
+328,University of Delhi,3000,estimated
+331,Sun Yat-sen University,6000,estimated
+332,American University of Sharjah,20000,estimated
+332,University of East Anglia (UEA),22000,estimated
+334,Université Grenoble Alpes,15000,estimated
+335,Indian Institute of Technology Roorkee (IITR),3000,estimated
+336,Sichuan University,6000,estimated
+336,Flinders University,20000,estimated
+336,Lappeenranta-Lahti University of Technology LUT,15000,estimated
+336,University of the Philippines,4000,estimated
+340,University of Saskatchewan,20000,estimated
+340,University of South Australia,20000,estimated
+342,Brunel University London,20000,estimated
+342,Sharif University of Technology,2500,estimated
+344,University of Oulu,12596,scrape-topuniversities
+344,Indian Institute of Technology Guwahati (IITG),3000,estimated
+344,Tufts University,60000,estimated
+347,Tilburg University,12596,scrape-topuniversities
+347,University of Naples - Federico II,7000,estimated
+349,University of Victoria (UVic),18000,estimated
+350,Cairo University,2000,estimated
+350,Sciences Po,20000,estimated
+352,"City, University of London",22671,scrape-topuniversities
+353,National University of Sciences And Technology (NUST) Islamabad,3000,estimated
+354,University of Pretoria,4000,estimated
+355,Indiana University Bloomington,45000,estimated
+355,University of Coimbra,3000,estimated
+355,University of Luxembourg,1200,estimated
+358,University of Tartu,5248,scrape-topuniversities
+359,Pontificia Universidad Católica del Perú,3000,scrape-topuniversities
+359,Gwangju Institute of Science and Technology (GIST),10000,estimated
+359,University of Aveiro,4000,estimated
+362,York University,21144,scrape-topuniversities
+362,Xiamen University,5000,estimated
+362,Sultan Qaboos University,5000,estimated
+365,Saint Petersburg State University,4000,estimated
+365,University of Illinois at Chicago (UIC),40000,estimated
+367,Westfälische Wilhelms-Universität Münster,3000,estimated
+368,Mahidol University,7000,estimated
+368,University of Jordan,5000,estimated
+368,University of Tehran,2000,estimated
+371,Universitat Politècnica de Catalunya · BarcelonaTech (UPC),4356,scrape-topuniversities
+371,George Washington University,62110,scrape-topuniversities
+371,Lincoln University,20000,estimated
+371,University of Turin,8000,estimated
+375,University of Florence,1298,scrape-topuniversities
+375,University of Turku,15000,estimated
+377,Pontificia Universidad Javeriana,2666,scrape-topuniversities
+377,Nankai University,5000,estimated
+377,University of Tsukuba,8000,estimated
+380,University of Kent,22671,scrape-topuniversities
+380,Technische Universität Bergakademie Freiberg,500,estimated
+382,University of Pisa,8000,estimated
+383,Anna University,3000,estimated
+384,Western Sydney University,20000,estimated
+385,Universiti Brunei Darussalam (UBD),5000,estimated
+385,South China University of Technology,5000,estimated
+387,Belarusian State University,2000,estimated
+388,Universidade Nova de Lisboa,4000,estimated
+389,Università Vita-Salute San Raffaele,10000,estimated
+389,University of Cyprus (UCY),8000,estimated
+389,Virginia Polytechnic Institute and State University,40000,estimated
+392,National Taiwan University of Science and Technology (Taiwan Tech),8000,estimated
+393,National and Kapodistrian University of Athens,8000,estimated
+393,"University of California, Santa Cruz",40000,estimated
+393,University of Rome Tor Vergata,10000,estimated
+396,Northeastern University,55000,estimated
+396,Ruhr-Universität Bochum,2500,estimated
+396,Sejong University,10000,estimated
+396,Université de Liège,12000,estimated
+396,University of Southern Queensland,18000,estimated
+401,Kazan (Volga region) Federal University,4170,scrape-topuniversities
+401,Koç University,15000,estimated
+403,Amirkabir University of Technology,2500,estimated
+403,University of Canberra,20000,estimated
+405,USI - Università della Svizzera italiana,8897,scrape-topuniversities
+405,Institut National des Sciences Appliquées de Lyon (INSA),12000,estimated
+405,Satbayev University,2500,estimated
+408,"Birkbeck, University of London",20000,estimated
+408,Masaryk University,5000,estimated
+410,HSE University,5270,scrape-topuniversities
+410,The American University in Cairo,22050,scrape-topuniversities
+412,Auckland University of Technology (AUT),20000,estimated
+413,Graz University of Technology,3500,estimated
+413,Yeshiva University,55000,estimated
+415,Concordia University,13363,scrape-topuniversities
+416,Oxford Brookes University,21537,scrape-topuniversities
+416,Technion - Israel Institute of Technology,25000,estimated
+418,University of Dundee,22000,estimated
+418,Boğaziçi University,3500,estimated
+420,Czech Technical University in Prague,3000,estimated
+421,Dublin City University,16270,scrape-topuniversities
+421,University of Limerick,20000,estimated
+423,Aston University,22000,estimated
+423,Université Laval,15000,estimated
+425,National Taipei University of Technology,8000,estimated
+426,Leibniz University Hannover,2500,estimated
+426,IPB University (Bogor Agricultural University),1000,estimated
+428,Julius-Maximilians-Universität Würzburg,3000,estimated
+428,Southeast University,5000,estimated
+430,University of Science and Technology Beijing,5000,estimated
+431,Central South University,5000,estimated
+431,Tomsk State University,3000,estimated
+431,University of Granada,6000,estimated
+434,University of Sharjah,20000,estimated
+435,IE University,25000,estimated
+436,Iran University of Science and Technology,2500,estimated
+436,Murdoch University,20000,estimated
+436,Universitat Politècnica de València,10000,estimated
+439,Vilnius University,4000,estimated
+440,Università degli Studi di Pavia,8000,estimated
+440,Singapore University of Technology and Design,28000,estimated
+442,Università Cattolica del Sacro Cuore,16584,scrape-topuniversities
+442,Colorado State University,35000,estimated
+442,Novosibirsk State University,3000,estimated
+445,James Cook University,20000,estimated
+445,Justus-Liebig-University Giessen,3000,estimated
+445,Universitat de Valencia,8000,estimated
+448,Université de Montpellier,12000,estimated
+448,Hunan University,5000,estimated
+448,Dalian University of Technology,5000,estimated
+451,University of Electronic Science and Technology of China,5000,estimated
+452,National Taiwan Normal University,8000,estimated
+452,University of Kansas,35000,estimated
+452,University of Stirling,20000,estimated
+452,Beihang University (former BUAA),5000,estimated
+456,Moscow Institute of Physics and Technology (MIPT / Moscow Phystech),3500,estimated
+456,Umea University,15000,estimated
+456,Université de Strasbourg,12000,estimated
+456,University of Guelph,18000,estimated
+460,"Stony Brook University, State University of New York",40000,estimated
+461,Universidad de Santiago de Chile (USACH),6000,estimated
+462,Tampere University,15000,estimated
+462,Universidad de Sevilla,8000,estimated
+464,Macau University of Science and Technology,5000,estimated
+465,Kobe University,10000,estimated
+466,Universität Konstanz,2500,estimated
+466,Universitat Ramon Llull,10000,estimated
+466,University at Buffalo SUNY,40000,estimated
+466,Washington State University,35000,estimated
+470,Iowa State University,35000,estimated
+471,Ben-Gurion University of The Negev,20000,estimated
+472,"Essex, University of",22000,estimated
+472,Johannes Kepler University Linz,3500,estimated
+474,Bangor University,20000,estimated
+474,Hiroshima University,8000,estimated
+474,Universität Potsdam,2500,estimated
+477,Royal Holloway University of London,36400,scrape-topuniversities
+477,Ajman University,15000,estimated
+477,Bilkent University,15000,estimated
+477,Indian Institute of Technology Indore (IIT Indore),2000,estimated
+481,Pontificia Universidad Católica Argentina,5000,scrape-topuniversities
+481,Aix-Marseille University,10000,estimated
+481,"The University of Tennessee, Knoxville",35000,estimated
+484,China Agricultural University,5000,estimated
+485,National Sun Yat-sen University,8000,estimated
+485,American University of Ras Al Khaimah (AURAK),15000,estimated
+487,Universität Mannheim,3000,estimated
+488,University of Hawai‘i at Mānoa,40000,estimated
+489,Shanghai University,5000,estimated
+489,Chung-Ang University (CAU),10000,estimated
+489,UNESP,1500,estimated
+489,University of Jyväskylä,15000,estimated
+489,Chongqing University,5000,estimated
+489,Isfahan University of Technology,800,estimated
+495,Central Queensland University (CQUniversity Australia),20000,estimated
+495,Duy Tan University,1500,estimated
+497,National Research Nuclear University MEPhI,3500,estimated
+497,Universidad de Costa Rica,4000,estimated
+497,"University of California, Riverside",45000,estimated
+497,Jilin University,4000,estimated
+501,Abu Dhabi University,20000,estimated
+501,Colorado School of Mines,40000,estimated
+501,Johannes Gutenberg Universität Mainz,3000,estimated
+501,University of Huddersfield,20000,estimated
+501,East China Normal University,4000,estimated
+506,University of Delaware,52164,scrape-topuniversities
+506,University of Trento,10000,estimated
+508,SOAS University of London,25631,scrape-topuniversities
+508,Aristotle University of Thessaloniki,8000,estimated
+508,Shenzhen University,5000,estimated
+511,Ewha Womans University,10000,estimated
+511,Zhengzhou University,2000,estimated
+513,University of Milano-Bicocca,630,scrape-topuniversities
+513,Prince Mohammad Bin Fahd university,10000,scrape-topuniversities
+513,Imam Abdulrahman Bin Faisal University (IAU),7000,estimated
+516,Ural Federal University - UrFU,3350,scrape-topuniversities
+516,University of Hull,17948,scrape-topuniversities
+516,Ateneo de Manila University,4000,estimated
+516,Edith Cowan University,20000,estimated
+516,Kyungpook National University,10000,estimated
+516,Sabanci University,15000,estimated
+516,INTI International University,7500,estimated
+523,Canadian University Dubai,18000,scrape-topuniversities
+524,Pusan National University,10000,estimated
+524,Universidad Austral,8000,estimated
+526,Universität Jena,2500,estimated
+527,Missouri University of Science and Technology,35000,estimated
+527,University of Bayreuth,3000,estimated
+527,Warsaw University of Technology,8000,estimated
+527,Universität Leipzig,500,estimated
+531,Coventry University,20000,estimated
+531,University of Utah,40000,estimated
+531,University of Bradford,20000,estimated
+531,Indian Institute of Technology (BHU) Varanasi,2000,estimated
+534,Universidad Nacional de La Plata (UNLP),2000,estimated
+535,Lahore University of Management Sciences (LUMS),10000,estimated
+535,Northumbria University at Newcastle,22000,estimated
+535,University of Bordeaux,12000,estimated
+535,University of Eastern Finland,15000,estimated
+539,University of Salamanca,1016,scrape-topuniversities
+539,Sunway University,7400,scrape-topuniversities
+539,Applied Science University - Bahrain,8000,estimated
+539,Hitotsubashi University,10000,estimated
+539,Université de Fribourg,15000,estimated
+544,Universidad de Zaragoza,3713,scrape-topuniversities
+544,Universidad Pontificia Comillas,15000,estimated
+547,University of Genoa,8000,estimated
+547,University of Windsor,20000,estimated
+547,Northwestern Polytechnical University,3000,estimated
+547,Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU),1000,estimated
+547,University of Iceland,500,estimated
+552,Al Ain University,15000,estimated
+552,University of Tabriz,800,estimated
+554,Hasselt University,12000,estimated
+554,Jordan University of Science & Technology,5000,estimated
+554,Universiti Utara Malaysia (UUM),4000,estimated
+554,University of Dhaka,2000,estimated
+554,University Ulm,3000,estimated
+559,Peter the Great St. Petersburg Polytechnic University,2928,scrape-topuniversities
+559,Ulster University,20000,estimated
+559,Umm Al-Qura University,7000,estimated
+562,Université Claude Bernard Lyon 1,12000,estimated
+562,Universiti Teknologi Brunei,5000,estimated
+564,Eötvös Loránd University,4000,estimated
+565,Nanjing University of Science and Technology,5000,estimated
+565,University of Connecticut,45000,estimated
+567,MGIMO University,6813,scrape-topuniversities
+567,Chiang Mai University,6000,estimated
+567,Lebanese University,2000,estimated
+570,"University of Chemistry and Technology, Prague",3000,estimated
+570,University of Szeged,4000,estimated
+570,University of the Punjab,2000,estimated
+573,Florida State University,21685,scrape-topuniversities
+574,University of Debrecen,6500,scrape-topuniversities
+574,Florida International University,40000,estimated
+576,National Research Tomsk Polytechnic University,3636,scrape-topuniversities
+576,Sogang University,10000,estimated
+576,Southern Cross University,18000,estimated
+576,Universidad Adolfo Ibáñez,12000,estimated
+580,Jawaharlal Nehru University,1700,scrape-topuniversities
+580,Management and Science University,4000,estimated
+580,Politecnico di Bari,7000,estimated
+580,Université Paul Sabatier Toulouse III,12000,estimated
+580,Jinan University (China),5000,estimated
+585,Singapore Management University,24600,scrape-topuniversities
+585,Institut Teknologi Sepuluh Nopember (ITS Surabaya),4000,estimated
+587,Bond University,25000,estimated
+587,The University of Georgia,40000,estimated
+587,Universiti Teknologi MARA - UiTM,4000,estimated
+587,University of Kwazulu-Natal,4000,estimated
+587,Shoolini University of Biotechnology and Management Sciences,4000,estimated
+592,Ain Shams University,2000,estimated
+592,Nottingham Trent University,22000,estimated
+592,Universität Bremen,2000,estimated
+595,ITMO University,3000,estimated
+596,Thammasat University,3400,scrape-topuniversities
+596,Universitas Padjadjaran,3000,estimated
+596,University of Iowa,40000,estimated
+596,University of Ljubljana,6000,estimated
+596,University of Texas Dallas,35000,estimated
+601-610,Ca' Foscari University of Venice,8000,estimated
+601-610,Illinois Institute of Technology,50000,estimated
+601-610,King Khalid University,7000,estimated
+601-610,"Kingston University, London",20000,estimated
+601-610,Manchester Metropolitan University (MMU),22000,estimated
+601-610,National Chengchi University,8000,estimated
+601-610,Paris Lodron University of Salzburg,3500,estimated
+601-610,Rensselaer Polytechnic Institute,55000,estimated
+601-610,Universität des Saarlandes,3000,estimated
+601-610,University of Crete,8000,estimated
+601-610,University of Hohenheim,3500,estimated
+601-610,University of South Carolina,40000,estimated
+611-620,Taipei Medical University (TMU),1800,scrape-topuniversities
+611-620,American University of the Middle East,12000,estimated
+611-620,Brno University of Technology,3500,estimated
+611-620,Christian-Albrechts-University zu Kiel,3000,estimated
+611-620,Pontifícia Universidade Católica do Rio de Janeiro,3000,estimated
+611-620,University of Klagenfurt,3500,estimated
+611-620,University of Minho,4000,estimated
+611-620,Asia Pacific University of Technology and Innovation (APU),8000,estimated
+611-620,Eastern Mediterranean University,5000,estimated
+621-630,Zayed University,20420,scrape-topuniversities
+621-630,Renmin (People's) University of China,5000,estimated
+621-630,Abo Akademi University,5000,estimated
+621-630,American University in Dubai,20000,estimated
+621-630,Auezov South Kazakhstan University (SKU),2000,estimated
+621-630,Charles Darwin University,20000,estimated
+621-630,Istanbul University,7000,estimated
+621-630,Tallinn University of Technology (TalTech),8000,estimated
+621-630,Universidad de Alcalá,8000,estimated
+621-630,Universidad de Palermo (UP),10000,estimated
+621-630,University of South Florida,30000,estimated
+621-630,University of Tromsø – The Arctic University of Norway,10000,estimated
+631-640,Tulane University,65538,scrape-topuniversities
+631-640,Ajou University,8000,estimated
+631-640,Boston College,60000,estimated
+631-640,Chang Gung University,8000,estimated
+631-640,Far Eastern Federal University,3000,estimated
+631-640,Inha University,8000,estimated
+631-640,Savitribai Phule Pune University,3000,estimated
+631-640,Universidad de Concepción,4000,estimated
+631-640,University of Portsmouth,15000,estimated
+631-640,China University of Petroleum,3000,estimated
+641-650,Lehigh University,61180,scrape-topuniversities
+641-650,East China University of Science and Technology,5000,estimated
+641-650,Beirut Arab University,6000,estimated
+641-650,De La Salle University,10000,estimated
+641-650,Hacettepe University,4000,estimated
+641-650,National Central University,8000,estimated
+641-650,Oregon State University,35000,estimated
+641-650,Ritsumeikan University,15000,estimated
+641-650,Universiti Tenaga Nasional (UNITEN),10000,estimated
+641-650,"University of Missouri, Columbia",30000,estimated
+641-650,University of the Basque Country,4000,estimated
+641-650,Soochow University,5000,estimated
+641-650,Symbiosis International (Deemed University),5000,estimated
+651-660,HUFS – Hankuk (Korea) University of Foreign Studies,8000,estimated
+651-660,Palacký University Olomouc,3000,estimated
+651-660,Universidad de Santiago de Compostela,5000,estimated
+651-660,University of Houston,55000,estimated
+651-660,University of Zagreb,5000,estimated
+661-670,Aberystwyth University,15000,estimated
+661-670,City University of New York,20000,estimated
+661-670,Free University of Bozen-Bolzano,5000,estimated
+661-670,International Islamic University Malaysia (IIUM),4000,estimated
+661-670,Memorial University of Newfoundland,8000,estimated
+661-670,National Chung Hsing University,8000,estimated
+661-670,Sofia University “St. Kliment Ohridski”,4000,estimated
+661-670,Tokyo Medical and Dental University (TMDU),8000,estimated
+661-670,Universidad de la República (Udelar),1000,estimated
+661-670,University of Manitoba,15000,estimated
+661-670,University of Plymouth,15000,estimated
+661-670,Comenius University Bratislava,1000,estimated
+661-670,ISCTE - Instituto Universitario de Lisboa,1500,estimated
+671-680,Abai Kazakh National Pedagogical University,2000,estimated
+671-680,Bar-Ilan University,15000,estimated
+671-680,Karl-Franzens-Universitaet Graz,3000,estimated
+671-680,Kazakh National Agrarian University KazNAU,2000,estimated
+671-680,Martin-Luther-Universität Halle-Wittenberg,2500,estimated
+671-680,Universidade Federal de Minas Gerais,1000,estimated
+671-680,University of Haifa,15000,estimated
+681-690,"Goldsmiths, University of London",20000,estimated
+681-690,Indian Institute of Technology Hyderabad,3000,estimated
+681-690,Jeonbuk National University,8000,estimated
+681-690,Princess Nourah bint Abdulrahman University,2000,estimated
+681-690,Temple University,40000,estimated
+681-690,"University of Agriculture, Faisalabad",3000,estimated
+681-690,University of New Brunswick,20000,estimated
+681-690,China University of Mining and Technology,2500,estimated
+681-690,Prince Sultan University,15000,estimated
+691-700,University of Siena,735,scrape-topuniversities
+691-700,Pakistan Institute of Engineering and Applied Sciences (PIEAS),3000,estimated
+691-700,Shiraz University,3000,estimated
+691-700,Universidad Central de Venezuela,1500,estimated
+691-700,Universidad de La Habana,1000,estimated
+691-700,Universidad Panamericana (UP),8000,estimated
+691-700,Universidade Federal de São Paulo,1500,estimated
+691-700,Universidade Federal do Rio Grande Do Sul,1500,estimated
+691-700,University of Brescia,5000,estimated
+691-700,University of Greenwich,15000,estimated
+691-700,Chandigarh University,4000,estimated
+691-700,Norwegian University of Life Sciences (UMB),1000,estimated
+701-710,Stevens Institute of Technology,57900,scrape-topuniversities
+701-710,Dongguk University,8000,estimated
+701-710,Lebanese American University,20000,estimated
+701-710,Taras Shevchenko National University of Kyiv,4000,estimated
+701-710,University of Nebraska – Lincoln,40000,estimated
+701-710,University of Oklahoma,35000,estimated
+701-710,Beijing University of Chemical Technology,3000,estimated
+701-710,National Institute of Technology Tiruchirappalli,2000,estimated
+711-720,American University,55000,estimated
+711-720,COMSATS University Islamabad,3000,estimated
+711-720,Czech University of Life Sciences in Prague,3000,estimated
+711-720,De Montfort University,15000,estimated
+711-720,"Lingnan University, Hong Kong",10000,estimated
+711-720,Plekhanov Russian University of Economics,4000,estimated
+711-720,Saint Joseph University of Beirut (USJ),8000,estimated
+711-720,The National University of Science and Technology MISIS,3000,estimated
+711-720,Ton Duc Thang University,4000,estimated
+711-720,University of Mumbai,3000,estimated
+711-720,Nanjing Agricultural University,2000,estimated
+711-720,Ahlia University,7000,estimated
+711-720,Université de Franche-Comté,2000,estimated
+721-730,Jadavpur University,21,scrape-topuniversities
+721-730,Brandeis University,60000,estimated
+721-730,Budapest University of Technology and Economics,4000,estimated
+721-730,Diponegoro University,2000,estimated
+721-730,Drexel University,55000,estimated
+721-730,Konkuk University,8000,estimated
+721-730,Middlesex University,20000,estimated
+721-730,Riga Technical University,5000,estimated
+721-730,Université de Lille,8000,estimated
+721-730,University of Modena and Reggio Emilia,4000,estimated
+721-730,University of Trieste,5000,estimated
+721-730,Lanzhou University,4000,estimated
+721-730,Effat University,15000,estimated
+721-730,Université de Rennes 1 (University of Rennes),1500,estimated
+731-740,Universitat Rovira i Virgili,5000,estimated
+731-740,University of Belgrade,2000,estimated
+731-740,Université Côte d'Azur,1500,estimated
+741-750,V. N. Karazin Kharkiv National University,2285,scrape-topuniversities
+741-750,Altai State University,1500,estimated
+741-750,Carleton University,20000,estimated
+741-750,Universidad Católica Andres Bello,8000,estimated
+741-750,Universidad de Montevideo (UM),5000,estimated
+741-750,Universität Regensburg,3000,estimated
+741-750,Universiti Malaysia Pahang,4000,estimated
+741-750,University of Central Florida,30000,estimated
+741-750,University of the West of England,20000,estimated
+741-750,University of Westminster,20000,estimated
+741-750,Victoria University,20000,estimated
+741-750,Vytautas Magnus University,4000,estimated
+741-750,Wake Forest University,60000,estimated
+751-760,University of Calcutta,1000,scrape-topuniversities
+751-760,Instituto Tecnológico Autónomo de México (ITAM),25000,estimated
+751-760,Kaunas University of Technology,4000,estimated
+751-760,Technische Universität Braunschweig,3000,estimated
+751-760,Tokyo University of Science,8000,estimated
+751-760,Universidade de Brasília,3000,estimated
+751-760,Universita' Politecnica delle Marche,4000,estimated
+751-760,University of Engineering & Technology (UET) Lahore,3000,estimated
+751-760,University of Malta,10000,estimated
+751-760,University of Messina (UniME),7000,estimated
+761-770,Nanjing University of Aeronautics and Astronautics,5000,estimated
+761-770,"Adam Mickiewicz University, Pozna?",3000,estimated
+761-770,Bangladesh University of Engineering and Technology,2000,estimated
+761-770,King Faisal University,7000,estimated
+761-770,University of Cincinnati,60000,estimated
+761-770,"University of Colorado, Denver",30000,estimated
+761-770,University of Patras,8000,estimated
+771-780,Bournemouth University,15000,estimated
+771-780,Chiba University,8000,estimated
+771-780,Holy Spirit University of Kaslik,10000,estimated
+771-780,Universidad del Rosario,8000,estimated
+771-780,Université de Tunis El Manar,3000,estimated
+771-780,"University of Maryland, Baltimore County",30000,estimated
+771-780,University of Pecs,6000,estimated
+771-780,Verona University,8000,estimated
+771-780,Yokohama City University,8000,estimated
+771-780,Addis Ababa University,500,estimated
+771-780,Colegio de México,1000,estimated
+781-790,Babes-Bolyai University,4000,estimated
+781-790,Kasetsart University,5000,estimated
+781-790,Qassim University,4000,estimated
+781-790,Texas Tech University,30000,estimated
+781-790,The New School,55000,estimated
+781-790,Universidad de Belgrano,8000,estimated
+781-790,Universidade Federal de Santa Catarina,1500,estimated
+781-790,University of Latvia,4000,estimated
+781-790,University of Mons,10000,estimated
+781-790,National University of Uzbekistan,800,estimated
+781-790,Zurich University of Applied Sciences (ZHAW),2000,estimated
+791-800,Sechenov University,8700,scrape-topuniversities
+791-800,Ivane Javakhishvili Tbilisi State University,3000,estimated
+791-800,Keele University,20000,estimated
+791-800,New Jersey Institute of Technology (NJIT),45000,estimated
+791-800,Universidad de Antioquia,2000,estimated
+791-800,University of Kentucky,35000,estimated
+791-800,University of New Mexico,30000,estimated
+791-800,Vellore Institute of Technology (VIT),8000,estimated
+791-800,Wayne State University,35000,estimated
+791-800,Alfaisal University,20000,estimated
+801-850,Instituto Politécnico Nacional (IPN),2170,scrape-topuniversities
+801-850,Universiti Tunku Abdul Rahman (UTAR),3992,scrape-topuniversities
+801-850,Universidad Anáhuac México,8500,scrape-topuniversities
+801-850,Alexandria University,2000,estimated
+801-850,Ankara Üniversitesi,3000,estimated
+801-850,Belarusian National Technical University (BNTU),2000,estimated
+801-850,"Birla Institute of Technology and Science, Pilani",10000,estimated
+801-850,Edinburgh Napier University,15000,estimated
+801-850,Gdańsk University of Technology,4000,estimated
+801-850,Wuhan University of Technology,4000,estimated
+801-850,Immanuel Kant Baltic Federal University,2500,estimated
+801-850,Jouf University,2000,estimated
+801-850,Kuwait University,3000,estimated
+801-850,Liverpool John Moores University,20000,estimated
+801-850,London South Bank University,20000,estimated
+801-850,Maynooth University,18000,estimated
+801-850,National Technical University of Ukraine Igor Sikorsky Kyiv Polytechnic Institute,5000,estimated
+801-850,Philipps-Universität Marburg,3000,estimated
+801-850,Pontificia Universidad Católica de Valparaíso,8000,estimated
+801-850,Rutgers University–Newark,50000,estimated
+801-850,Syracuse University,55000,estimated
+801-850,The Catholic University of Korea,12000,estimated
+801-850,TU Dortmund University,3500,estimated
+801-850,Universidad Iberoamericana IBERO,12000,estimated
+801-850,Universidad San Francisco de Quito (USFQ),8000,estimated
+801-850,Università degli Studi di Perugia,5000,estimated
+801-850,Universitas Brawijaya,3000,estimated
+801-850,Universität Duisburg-Essen,3000,estimated
+801-850,Universität Rostock,2500,estimated
+801-850,Université de Lorraine,6000,estimated
+801-850,University of Alicante,4000,estimated
+801-850,University of Baghdad,2000,estimated
+801-850,University of Bari,8000,estimated
+801-850,University of Brighton,20000,estimated
+801-850,University of Bucharest,3000,estimated
+801-850,University of Hyderabad,3000,estimated
+801-850,University of Oregon,40000,estimated
+801-850,University of Salerno,8000,estimated
+801-850,University of Ulsan,15000,estimated
+801-850,Beijing University of Technology,5000,estimated
+801-850,Huazhong Agricultural University,2000,estimated
+801-850,Ocean University of China,2000,estimated
+801-850,Al-Ahliyya Amman University,5000,estimated
+801-850,Asia University Taiwan,6000,estimated
+801-850,Khoja Akhmet Yassawi International Kazakh-Turkish University,1000,estimated
+801-850,Toronto Metropolitan University,20000,estimated
+801-850,University of Alaska Fairbanks,16000,official
+801-850,University of Petroleum and Energy Studies (UPES),6000,estimated
+801-850,University of Stavanger,1000,estimated
+851-900,University at Albany SUNY,29058,scrape-topuniversities
+851-900,Clarkson University,54960,scrape-topuniversities
+851-900,AGH University of Science and Technology,4000,estimated
+851-900,Charles Sturt University,20000,estimated
+851-900,Chonnam National University,8000,estimated
+851-900,Chungnam National University,7000,estimated
+851-900,CY Cergy Paris University,8000,estimated
+851-900,Georgia State University,35000,estimated
+851-900,Gulf University for Science and Technology,10000,estimated
+851-900,Jamia Millia Islamia,3000,estimated
+851-900,Kansas State University,30000,estimated
+851-900,Karaganda State Technical University,2000,estimated
+851-900,Mendel University in Brno,3500,estimated
+851-900,Nagasaki University,5000,estimated
+851-900,North-West University,8000,estimated
+851-900,Okayama University,6000,estimated
+851-900,Oklahoma State University,30000,estimated
+851-900,Pavol Jozef Šafárik University in Košice,3500,estimated
+851-900,Shahid Beheshti University (SBU),2500,estimated
+851-900,Technological University Dublin,20000,estimated
+851-900,Thapar Institute of Engineering & Technology,8000,estimated
+851-900,Tokyo University of Agriculture and Technology,6000,estimated
+851-900,Universidad ORT Uruguay,8000,estimated
+851-900,Università degli Studi di Ferrara,4000,estimated
+851-900,Université de Nantes,8000,estimated
+851-900,Université de Sherbrooke,15000,estimated
+851-900,Université du Québec,10000,estimated
+851-900,University Duesseldorf,20000,estimated
+851-900,UNIVERSITY OF GDANSK,4000,estimated
+851-900,University of Ghana,5000,estimated
+851-900,University of Hertfordshire,20000,estimated
+851-900,University of Lincoln,20000,estimated
+851-900,University of Mississippi,35000,estimated
+851-900,University of Palermo,10000,estimated
+851-900,University of Santo Tomas,5000,estimated
+851-900,University of Wroclaw,5000,estimated
+851-900,Viet Nam National University Ho Chi Minh City (VNU-HCM),5000,estimated
+851-900,Worcester Polytechnic Institute,55000,estimated
+851-900,Wroclaw University of Science and Technology (WRUST),4000,estimated
+851-900,Yerevan State University,2000,estimated
+851-900,Donghua University,2000,estimated
+851-900,Northwest Agriculture and Forestry University,1500,estimated
+851-900,Al-Quds University,2000,estimated
+851-900,Applied Science Private University - Jordan,5000,estimated
+851-900,Kyrgyz Russian Slavic University,1000,estimated
+851-900,Poznan University of Life Sciences,1500,estimated
+851-900,Swarthmore College,55000,estimated
+851-900,Universidad de Valladolid,1500,estimated
+851-900,University of Dubai,15000,estimated
+851-900,University of South Africa,1000,estimated
+901-950,Gazi Üniversitesi,420,scrape-topuniversities
+901-950,Australian Catholic University,14607,scrape-topuniversities
+901-950,Beijing University of Posts and Telecommunications,4000,estimated
+901-950,Beijing Jiaotong University,5000,estimated
+901-950,Auburn University,35000,estimated
+901-950,Bina Nusantara University (BINUS),10000,estimated
+901-950,Clark University,50000,estimated
+901-950,Clemson University,40000,estimated
+901-950,Financial University under the Government of the Russian Federation,3000,estimated
+901-950,Hallym University,10000,estimated
+901-950,"Manipal Academy of Higher Education, Manipal, Karnataka, India",10000,estimated
+901-950,Michigan Technological University,28000,estimated
+901-950,National Research Saratov State University,3000,estimated
+901-950,Nicolaus Copernicus University,4000,estimated
+901-950,North South University,6000,estimated
+901-950,Princess Sumaya University for Technology,9000,estimated
+901-950,Robert Gordon University,17000,estimated
+901-950,South Ural State University (National Research University),3500,estimated
+901-950,Universidad Católica del Uruguay (UCU),7000,estimated
+901-950,Universidad Central Marta Abreu de Las Villas,1500,estimated
+901-950,Universidad EAFIT,5000,estimated
+901-950,Universidad Externado de Colombia,6000,estimated
+901-950,Universidad Nacional de Córdoba - UNC,2000,estimated
+901-950,Universidad Nacional Mayor de San Marcos,1500,estimated
+901-950,Universidad Pontificia Bolivariana,5000,estimated
+901-950,Universidade Católica Portuguesa - UCP,7000,estimated
+901-950,Universidade de Vigo,4000,estimated
+901-950,Università degli Studi della Tuscia (University of Tuscia),4000,estimated
+901-950,Università degli studi Roma Tre,4500,estimated
+901-950,University of Calabria,4000,estimated
+901-950,University of East London,15000,estimated
+901-950,University of Lodz,4000,estimated
+901-950,University of Maribor,5000,estimated
+901-950,University of Murcia,4000,estimated
+901-950,University of Nairobi,5000,estimated
+901-950,University of Salford,16000,estimated
+901-950,University Paris 2 Panthéon-Assas,8000,estimated
+901-950,Viet Nam National University Ho Chi Minh City (VNU-HCM),5000,estimated
+901-950,Worcester Polytechnic Institute,52000,estimated
+901-950,Wroclaw University of Science and Technology (WRUST),4000,estimated
+901-950,Yerevan State University,2000,estimated
+901-950,Yokohama City University,8000,estimated
+901-950,Future University in Egypt,5000,estimated
+901-950,Georgian Technical University,1000,estimated
+901-950,Karaganda Buketov University,1000,estimated
+901-950,Kyrgyz-Turkish Manas University,1500,estimated
+901-950,Osaka Metropolitan University,7000,estimated
+901-950,Ritsumeikan Asia Pacific University,25000,estimated
+901-950,"University of Alabama, Birmingham",15000,official
+901-950,University of Hail,7000,estimated
+901-950,University of Peshawar,1000,estimated
+951-1000,University of Parma,647,scrape-topuniversities
+951-1000,Baku State University,1500,scrape-topuniversities
+951-1000,King Mongkut's University of Technology Thonburi,3360,scrape-topuniversities
+951-1000,S.D. Asfendiyarov Kazakh National Medical University,4184,scrape-topuniversities
+951-1000,Sophia University,10000,scrape-topuniversities
+951-1000,The University of Alabama,33372,scrape-topuniversities
+951-1000,Athens University of Economics and Business,8000,estimated
+951-1000,Auburn University,31000,estimated
+951-1000,Bina Nusantara University (BINUS),6000,estimated
+951-1000,Clark University,47000,estimated
+951-1000,Clemson University,38000,estimated
+951-1000,Financial University under the Government of the Russian Federation,4000,estimated
+951-1000,Hallym University,8000,estimated
+951-1000,Indian Institute of Technology Bhubaneswar,3000,estimated
+951-1000,Instituto Tecnológico de Buenos Aires (ITBA),8000,estimated
+951-1000,Khon Kaen University,4000,estimated
+951-1000,Kumamoto University,5000,estimated
+951-1000,Mansoura University,2000,estimated
+951-1000,Niigata University,5000,estimated
+951-1000,Pontificia Universidad Católica del Ecuador (PUCE),5000,estimated
+951-1000,Prince of Songkla University,4000,estimated
+951-1000,"Queen Margaret University, Edinburgh",15000,estimated
+951-1000,Rhodes University,6000,estimated
+951-1000,Riga Stradins University,7000,estimated
+951-1000,Southern Federal University,3500,estimated
+951-1000,The University of Lahore,4000,estimated
+951-1000,Universidad Autónoma Metropolitana (UAM),2000,estimated
+951-1000,Universidad de La Sabana,6000,estimated
+951-1000,Universidad de los Andes - Chile,8000,estimated
+951-1000,Universidad de San Andrés - UdeSA,8000,estimated
+951-1000,Universidad Nacional de Rosario (UNR),2000,estimated
+951-1000,Universidad Técnica Federico Santa María (USM),5000,estimated
+951-1000,Universidad Torcuato Di Tella,10000,estimated
+951-1000,Université Toulouse 1 Capitole,8000,estimated
+951-1000,University of Bahrain,4000,estimated
+951-1000,University of Central Lancashire,15000,estimated
+951-1000,University of Colombo,5000,estimated
+951-1000,University of Denver,52000,estimated
+951-1000,University of the Western Cape,5000,estimated
+951-1000,Yarmouk University,4000,estimated
+951-1000,Yeungnam University,8000,estimated
+951-1000,Almaty Technological University,1000,estimated
+951-1000,D. Serikbayev East Kazakhstan state technical university,1000,estimated
+951-1000,Ferdowsi University of Mashhad,800,estimated
+951-1000,Northern Borders University,8000,estimated
+951-1000,Saveetha Institute of Medical and Technical Sciences (deemed to be university),6000,estimated
+951-1000,St. Louis University,28000,official
+951-1000,Universidad de Córdoba - España,1500,estimated
+951-1000,Universidad de León,1500,estimated
+951-1000,Université Sorbonne Paris Nord,1500,estimated
+951-1000,Universiti Pendidikan Sultan Idris (UPSI),2000,estimated
+951-1000,University of Regina,14000,official
+951-1000,University of South Bohemia,1500,estimated
+1001-1200,Universiti Malaysia Sabah (UMS),1672,scrape-topuniversities
+1001-1200,Université de Tunis,1742,scrape-topuniversities
+1001-1200,Sumy State University,2070,scrape-topuniversities
+1001-1200,Universidad de La Frontera (UFRO),2562,scrape-topuniversities
+1001-1200,University of Hradec Kralove,3149,scrape-topuniversities
+1001-1200,Yokohama National University,4660,scrape-topuniversities
+1001-1200,Universidad de Puerto Rico,5954,scrape-topuniversities
+1001-1200,O.P. Jindal Global University,7825,scrape-topuniversities
+1001-1200,SRM INSTITUTE OF SCIENCE AND TECHNOLOGY,9450,scrape-topuniversities
+1001-1200,Xi'an Jiaotong Liverpool University,12405,scrape-topuniversities
+1001-1200,The University of Northampton,17633,scrape-topuniversities
+1001-1200,Binghamton University SUNY,24910,scrape-topuniversities
+1001-1200,Universidad Rey Juan Carlos,28446,scrape-topuniversities
+1001-1200,University of Arkansas Fayetteville,29966,scrape-topuniversities
+1001-1200,University of Rhode Island,34362,scrape-topuniversities
+1001-1200,George Mason University,50000,scrape-topuniversities
+1001-1200,Athens University of Economics and Business,20000,estimated
+1001-1200,Al-Azhar University,2000,estimated
+1001-1200,Aligarh Muslim University,3000,estimated
+1001-1200,Amity University,10000,estimated
+1001-1200,Amrita Vishwa Vidyapeetham,8000,estimated
+1001-1200,An-Najah National University,4000,estimated
+1001-1200,Assiut University,2000,estimated
+1001-1200,Azerbaijan State University of Economics,3000,estimated
+1001-1200,Banaras Hindu University,3000,estimated
+1001-1200,Baylor University,50000,estimated
+1001-1200,Bielefeld University,3000,estimated
+1001-1200,Birmingham City University,15000,estimated
+1001-1200,BRAC University,6000,estimated
+1001-1200,Brigham Young University,7000,estimated
+1001-1200,Canterbury Christ Church University,15000,estimated
+1001-1200,Chang Jung Christian University,5000,estimated
+1001-1200,Chung Yuan Christian University,6000,estimated
+1001-1200,Chungbuk National University,7000,estimated
+1001-1200,College of William and Mary,35000,estimated
+1001-1200,Corvinus University of Budapest,6500,estimated
+1001-1200,Cracow University of Technology (Politechnika Krakowska),4000,estimated
+1001-1200,Dankook University,8000,estimated
+1001-1200,EGE UNIVERSITY,3000,estimated
+1001-1200,Escuela Superior Politécnica del Litoral (ESPOL),5000,estimated
+1001-1200,Fordham University,50000,estimated
+1001-1200,Gifu University,5000,estimated
+1001-1200,Glasgow Caledonian University,17000,estimated
+1001-1200,Gunma University,5000,estimated
+1001-1200,Howard University,30000,estimated
+1001-1200,Indiana University–Purdue University Indianapolis,30000,estimated
+1001-1200,International Christian University,20000,estimated
+1001-1200,Islamic University of Madinah,2000,estimated
+1001-1200,"ITESO, Universidad Jesuita de Guadalajara",6000,estimated
+1001-1200,Kagoshima University,5000,estimated
+1001-1200,Kangwon National University,7000,estimated
+1001-1200,Kazakh-British Technical University,6000,estimated
+1001-1200,Kent State University,20000,estimated
+1001-1200,Kyushu Institute of Technology,5000,estimated
+1001-1200,Leeds Beckett University,15000,estimated
+1001-1200,Lobachevsky University,3500,estimated
+1001-1200,Lodz University of Technology,4000,estimated
+1001-1200,London Metropolitan University,15000,estimated
+1001-1200,Loyola University Chicago,45000,estimated
+1001-1200,Lviv Polytechnic National University,2500,estimated
+1001-1200,Marmara University,3000,estimated
+1001-1200,Mississippi State University,25000,estimated
+1001-1200,Multimedia University (MMU),6000,estimated
+1001-1200,Mustansiriyah University,2000,estimated
+1001-1200,Mutah University,4000,estimated
+1001-1200,Southwest University,4000,estimated
+1001-1200,National Chung Cheng University,4000,estimated
+1001-1200,National University of Kyiv-Mohyla Academy (NaUKMA),2500,estimated
+1001-1200,NJSC KIMEP University,6000,estimated
+1001-1200,Northern Arizona University,25000,estimated
+1001-1200,Northwest University (China),4000,estimated
+1001-1200,Ohio University,22000,estimated
+1001-1200,Panjab University,3000,estimated
+1001-1200,Paul Valéry University Montpellier,4000,estimated
+1001-1200,Pontifícia Universidade Católica de São Paulo,7000,estimated
+1001-1200,Poznań University of Technology,4000,estimated
+1001-1200,Rochester Institute of Technology (RIT),50000,estimated
+1001-1200,Russian Presidential Academy of National Economy and Public Administration,4000,estimated
+1001-1200,Saint Petersburg Electrotechnical University ETU-LETI,4000,estimated
+1001-1200,Saint-Petersburg Mining University,4000,estimated
+1001-1200,Samara National Research University (Samara University),3500,estimated
+1001-1200,San Diego State University,20000,estimated
+1001-1200,Sheffield Hallam University,15000,estimated
+1001-1200,Shinshu University,5000,estimated
+1001-1200,"Siberian Federal University, SibFU",3500,estimated
+1001-1200,Silesian University of Technology,4000,estimated
+1001-1200,Slovak University of Agriculture in Nitra,4000,estimated
+1001-1200,Slovak University of Technology in Bratislava,4000,estimated
+1001-1200,Southern Methodist University,50000,estimated
+1001-1200,Széchenyi István University,4000,estimated
+1001-1200,Taibah University,2000,estimated
+1001-1200,Tallinn University,5000,estimated
+1001-1200,Technical University of Kosice,4000,estimated
+1001-1200,Tecnológico de Costa Rica -TEC,5000,estimated
+1001-1200,Telkom University,6000,estimated
+1001-1200,The Hashemite University,4000,estimated
+1001-1200,The University of Texas at Arlington,25000,estimated
+1001-1200,Tokushima University,5000,estimated
+1001-1200,Tokyo Metropolitan University,5000,estimated
+1001-1200,Universidad Andrés Bello,7000,estimated
+1001-1200,Universidad Austral de Chile,5000,estimated
+1001-1200,Universidad Autónoma de Nuevo León,4000,estimated
+1001-1200,Universidad Autónoma del Estado de México (UAEMex),4000,estimated
+1001-1200,Universidad de Castilla-La Mancha,4000,estimated
+1001-1200,Universidad de Guadalajara (UDG),4000,estimated
+1001-1200,Universidad de las Américas Puebla (UDLAP),7000,estimated
+1001-1200,Universidad de Lima,6000,estimated
+1001-1200,Universidad de Los Andes - (ULA) Mérida,4000,estimated
+1001-1200,Universidad de Oviedo,4000,estimated
+1001-1200,Universidad de Talca,5000,estimated
+1001-1200,Universidad del Norte,6000,estimated
+1001-1200,Universidad del Pacífico,7000,estimated
+1001-1200,Universidad del Valle,5000,estimated
+1001-1200,Universidad Diego Portales (UDP),6000,estimated
+1001-1200,Universidad ICESI,6000,estimated
+1001-1200,Universidad Nacional de Cuyo,2000,estimated
+1001-1200,Universidad Nacional de la Asunción,2000,estimated
+1001-1200,Universidad Nacional de San Luis,2000,estimated
+1001-1200,Universidad Nacional del Centro de la Provincia de Buenos Aires (UNICEN),2000,estimated
+1001-1200,Universidad Peruana Cayetano Heredia (UPCH),7000,estimated
+1001-1200,Universidad Simón Bolívar (USB),4000,estimated
+1001-1200,Universidad Tecnológica de Panamá (UTP),5000,estimated
+1001-1200,Universidad Tecnológica Nacional (UTN),2000,estimated
+1001-1200,Universidade da Coruña,4000,estimated
+1001-1200,Universidade Federal de Pernambuco (UFPE),3000,estimated
+1001-1200,Universidade Federal de São Carlos (UFSCar),3000,estimated
+1001-1200,Universidade Federal do Paraná - UFPR,3000,estimated
+1001-1200,Universidade Federal Fluminense,3000,estimated
+1001-1200,Universita' degli Studi G. d'Annunzio Chieti Pescara,4000,estimated
+1001-1200,Università degli Studi di Udine,4000,estimated
+1001-1200,Universitas Hasanuddin,6000,estimated
+1001-1200,Universitas Sebelas Maret,6000,estimated
+1001-1200,Universität Siegen,3000,estimated
+1001-1200,Université de Caen Normandie,4000,estimated
+1001-1200,Université de Poitiers,4000,estimated
+1001-1200,Université de Sousse,2000,estimated
+1001-1200,Université de Toulouse II-Le Mirail,4000,estimated
+1001-1200,Université Lumière Lyon 2,4000,estimated
+1001-1200,Université Mohammed V de Rabat,2000,estimated
+1001-1200,Université Paris-Nanterre,4000,estimated
+1001-1200,Universiti Malaysia Sarawak (UNIMAS),6000,estimated
+1001-1200,Universiti Malaysia Terengganu (UMT),6000,estimated
+1001-1200,University of Derby,15000,estimated
+1001-1200,University of Karachi,4000,estimated
+1001-1200,University of Khartoum,2000,estimated
+1001-1200,University of Massachusetts Boston,30000,estimated
+1001-1200,"University of Missouri, Kansas City",25000,estimated
+1001-1200,University of Naples Parthenope,4000,estimated
+1001-1200,University of New England Australia,20000,estimated
+1001-1200,University of New Hampshire,30000,estimated
+1001-1200,University of North Carolina at Charlotte,25000,estimated
+1001-1200,University of North Texas,25000,estimated
+1001-1200,University of Novi Sad,4000,estimated
+1001-1200,University of Sarajevo,2000,estimated
+1001-1200,University of Seoul,7000,estimated
+1001-1200,University of Texas at San Antonio,25000,estimated
+1001-1200,University of Texas El Paso,25000,estimated
+1001-1200,University of the Sunshine Coast,20000,estimated
+1001-1200,University of Tulsa,40000,estimated
+1001-1200,University of Vermont,40000,estimated
+1001-1200,University of Wolverhampton,15000,estimated
+1001-1200,University of Wyoming,20000,estimated
+1001-1200,University of Žilina,4000,estimated
+1001-1200,Utah State University,20000,estimated
+1001-1200,VSB - Technical University of Ostrava,4000,estimated
+1001-1200,Warsaw University of Life Sciences – SGGW (WULS-SGGW),4000,estimated
+1001-1200,West Virginia University,25000,estimated
+1001-1200,"Arab Academy for Science, Technology and Maritime Transport",2000,estimated
+1001-1200,Azerbaijan State Oil and Industry University,1000,estimated
+1001-1200,Gebze Technical University (GTU),2500,estimated
+1001-1200,Guru Gobind Singh Indraprastha University,4000,estimated
+1001-1200,Nanjing Normal University,1500,estimated
+1001-1200,Hungarian University of Agriculture and Life Sciences,1500,estimated
+1001-1200,International Islamic University Islamabad (IIU),2000,estimated
+1001-1200,Jiangnan University,2000,estimated
+1001-1200,Mykolas Romeris University,1500,estimated
+1001-1200,Narxoz University,1500,estimated
+1001-1200,National Technical University Kharkiv Polytechnic Institute,1500,estimated
+1001-1200,Sohar University,5000,estimated
+1001-1200,Soonchunhyang University,7000,estimated
+1001-1200,Hohai University,2000,estimated
+1001-1200,Sungshin Women's University,6000,estimated
+1001-1200,Universidad Autónoma Chapingo,1500,estimated
+1001-1200,Università del Salento,2000,estimated
+1001-1200,Universitat de Lleida,1500,estimated
+1001-1200,Université de Sfax,1000,estimated
+1001-1200,Universiti Tun Hussein Onn University of Malaysia (UTHM),2000,estimated
+1001-1200,University of Deusto,4000,estimated
+1001-1200,University of Ibadan,1000,estimated
+1001-1200,University of Idaho,14000,official
+1001-1200,University of Ioannina,2000,estimated
+1001-1200,University of Lagos,1000,estimated
+1001-1200,University of Louisville,20000,official
+1001-1200,University of Tabuk,8000,estimated
+1001-1200,University of the Free State,1500,estimated
+1001-1200,University of Toledo,18000,official
+1001-1200,University of Warmia and Mazury in Olsztyn,1500,estimated
+1201-1400,Anadolu University,90,scrape-topuniversities
+1201-1400,Universidad Mayor de San Andrés (UMSA),200,scrape-topuniversities
+1201-1400,Dokuz Eylül Üniversitesi,525,scrape-topuniversities
+1201-1400,University of Silesia in Katowice,1267,scrape-topuniversities
+1201-1400,Damascus University,3200,scrape-topuniversities
+1201-1400,Yuan Ze University,3772,scrape-topuniversities
+1201-1400,Tanta University,9750,scrape-topuniversities
+1201-1400,Al-Balqa Applied University,4000,estimated
+1201-1400,Alexandru Ioan Cuza University,4000,estimated
+1201-1400,Aoyama Gakuin University,10000,estimated
+1201-1400,Bahauddin Zakariya University,4000,estimated
+1201-1400,Beijing Foreign Studies University,4000,estimated
+1201-1400,Beijing University of Chinese Medicine,4000,estimated
+1201-1400,Belarusian State University of Informatics and Radioelectronics,3000,estimated
+1201-1400,Benemérita Universidad Autónoma de Puebla,4000,estimated
+1201-1400,Birzeit University,4000,estimated
+1201-1400,British University in Egypt,6000,estimated
+1201-1400,Brock University,20000,estimated
+1201-1400,China University of Political Science and Law,4000,estimated
+1201-1400,Cukurova University,3000,estimated
+1201-1400,Doshisha University,10000,estimated
+1201-1400,Escuela Politécnica Nacional,5000,estimated
+1201-1400,Feng Chia University,6000,estimated
+1201-1400,Florida Atlantic University - Boca Raton,20000,estimated
+1201-1400,Fu Jen Catholic University,6000,estimated
+1201-1400,German University in Cairo,6000,estimated
+1201-1400,Hanoi University of Science and Technology,4000,estimated
+1201-1400,Harper Adams University,15000,estimated
+1201-1400,Helwan University,2000,estimated
+1201-1400,Hongik University,8000,estimated
+1201-1400,Istanbul Aydin University,3000,estimated
+1201-1400,Istanbul Bilgi Üniversitesi,3000,estimated
+1201-1400,Ivan Franko National University of Lviv,2500,estimated
+1201-1400,Izmir Institute of Technology (IZTECH),3000,estimated
+1201-1400,Jamia Hamdard,3000,estimated
+1201-1400,Jeju National University,7000,estimated
+1201-1400,Kazakh Ablai Khan University of International Relations and World Languages,4000,estimated
+1201-1400,Kazan National Research Technological University,3500,estimated
+1201-1400,Kindai University (Kinki University),10000,estimated
+1201-1400,Kookmin University,8000,estimated
+1201-1400,Kyoto Institute of Technology,5000,estimated
+1201-1400,Marquette University,40000,estimated
+1201-1400,Meiji University,4500,estimated
+1201-1400,Mendeleev University of Chemical Technology,3700,estimated
+1201-1400,Miami University,34000,estimated
+1201-1400,Moscow Pedagogical State University,3500,estimated
+1201-1400,Nagoya Institute of Technology (NIT),5000,estimated
+1201-1400,National Dong Hwa University,2000,estimated
+1201-1400,National Research University Moscow Power Engineering Institute (MPEI),4000,estimated
+1201-1400,National Taipei University,2500,estimated
+1201-1400,National Taiwan Ocean University,2500,estimated
+1201-1400,Novosibirsk State Technical University,3500,estimated
+1201-1400,Osmania University,1000,estimated
+1201-1400,Perm State National Research University,3500,estimated
+1201-1400,Pondicherry University,1000,estimated
+1201-1400,Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS),8000,estimated
+1201-1400,Portland State University,20000,estimated
+1201-1400,Pukyong National University,4000,estimated
+1201-1400,Rikkyo University,10000,estimated
+1201-1400,Saitama University,5000,estimated
+1201-1400,Saken Seifullin Kazakh Agrotechnical University,2000,estimated
+1201-1400,Seattle University,50000,estimated
+1201-1400,Seoul National University of Science and Technology,6500,estimated
+1201-1400,Shanghai International Studies University,3200,estimated
+1201-1400,Shanghai University of Finance and Economics,5000,estimated
+1201-1400,Siksha 'O' Anusandhan (Deemed to be University),1000,estimated
+1201-1400,Sookmyung Women's University,6000,estimated
+1201-1400,Suez Canal University,2000,estimated
+1201-1400,Suranaree University of Technology,3000,estimated
+1201-1400,Tamkang University,2500,estimated
+1201-1400,Technical University of Cluj-Napoca,2000,estimated
+1201-1400,Technical University of Liberec,2500,estimated
+1201-1400,Technical University of Lublin,2500,estimated
+1201-1400,The Gheorghe Asachi Technical University of Iasi,2500,estimated
+1201-1400,The Herzen State Pedagogical University of Russia,3500,estimated
+1201-1400,The Josip Juraj Strossmayer University of Osijek,2000,estimated
+1201-1400,The National Research University Belgorod State University,3500,estimated
+1201-1400,Tokai University,9000,estimated
+1201-1400,Tomas Bata University in Zlin,2000,estimated
+1201-1400,Transilvania University of Brasov,2000,estimated
+1201-1400,Tunghai University,2500,estimated
+1201-1400,Universidad Autónoma del Estado de Hidalgo (UAEH),1500,estimated
+1201-1400,Universidad Católica del Norte,3000,estimated
+1201-1400,Universidad Central del Ecuador,1000,estimated
+1201-1400,Universidad de Monterrey (UDEM),15000,estimated
+1201-1400,Universidad de Valparaíso (UV),3000,estimated
+1201-1400,Universidad del Bío-Bío,2500,estimated
+1201-1400,Universidad del Desarrollo (UDD),8000,estimated
+1201-1400,Universidad del Salvador,2000,estimated
+1201-1400,Universidad Industrial de Santander - UIS,1000,estimated
+1201-1400,Universidad Metropolitana,2000,estimated
+1201-1400,Universidad Nacional Agraria la Molina,1500,estimated
+1201-1400,Universidad Nacional Autónoma de Honduras (UNAH),1000,estimated
+1201-1400,Universidad Nacional de Mar del Plata,1000,estimated
+1201-1400,Universidad Nacional de Río Cuarto - UNRC,1000,estimated
+1201-1400,Universidad Nacional de San Martín (UNSAM),1500,estimated
+1201-1400,Universidad Nacional del Litoral,1500,estimated
+1201-1400,Universidad Nacional del Sur,1500,estimated
+1201-1400,Universidad Peruana de Ciencias Aplicadas,5000,estimated
+1201-1400,Universidade do Estado do Rio de Janeiro (UERJ),2000,estimated
+1201-1400,Universidade Federal da Bahia,1000,estimated
+1201-1400,Universidade Federal de Juiz de Fora- (UFJF),1000,estimated
+1201-1400,Universidade Federal de Pelotas,1000,estimated
+1201-1400,Universidade Federal de Santa Maria,1000,estimated
+1201-1400,Universidade Federal de Viçosa (UFV),1000,estimated
+1201-1400,Universidade Federal do Ceará (UFC),1000,estimated
+1201-1400,Università degli Studi di Bergamo,1500,estimated
+1201-1400,Universitas Sumatera Utara,1000,estimated
+1201-1400,Université Jean Moulin Lyon 3,3000,estimated
+1201-1400,Universiti Kuala Lumpur (UniKL),4000,estimated
+1201-1400,Universiti Malaysia Perlis,2500,estimated
+1201-1400,University of Babylon,1500,estimated
+1201-1400,University of Basrah,1500,estimated
+1201-1400,University of Bialystok,2750,estimated
+1201-1400,University of International Business and Economics,4000,estimated
+1201-1400,University of Kragujevac,1500,estimated
+1201-1400,University of Kufa,1250,estimated
+1201-1400,University of Miskolc,2500,estimated
+1201-1400,University of Niš,1250,estimated
+1201-1400,University of Ostrava,2000,estimated
+1201-1400,University of Pardubice,2000,estimated
+1201-1400,University of Peradeniya,1500,estimated
+1201-1400,University of Rijeka,2000,estimated
+1201-1400,University of San Diego,32500,official
+1201-1400,University of San Francisco,36000,official
+1201-1400,University of South Alabama (USA),11000,official
+1201-1400,University of Split,2000,estimated
+1201-1400,University of the Pacific,30500,official
+1201-1400,University of Tyumen,2500,estimated
+1201-1400,University of West Bohemia,2000,estimated
+1201-1400,University of Wisconsin Milwaukee,18000,official
+1201-1400,University POLITEHNICA of Bucharest,3000,estimated
+1201-1400,Voronezh State University,1750,estimated
+1201-1400,Western Michigan University,16500,official
+1201-1400,Yamaguchi University,7000,official
+1201-1400,Youngsan University,5000,estimated
+1201-1400,Zagazig University,1250,estimated
+1201-1400,Ataturk University,1500,estimated
+1201-1400,Atma Jaya Catholic University Jakarta,2000,estimated
+1201-1400,Central Michigan University,17000,official
+1201-1400,Chaoyang University of Technology,5000,estimated
+1201-1400,Chitkara University,4000,estimated
+1201-1400,Chittagong University of Engineering and Technology,500,estimated
+1201-1400,Cleveland State University,16000,official
+1201-1400,CUNY The City College of New York,15000,official
+1201-1400,Daffodil International University,800,estimated
+1201-1400,Erciyes Üniversitesi,1500,estimated
+1201-1400,Fundación CEU San Pablo,3000,estimated
+1201-1400,Hue University,1000,estimated
+1201-1400,Instituto Tecnológico de Santo Domingo (INTEC),4000,estimated
+1201-1400,Jahangirnagar University,500,estimated
+1201-1400,Kenyatta University,500,estimated
+1201-1400,Kharkiv National University of Radio Electronics,1000,estimated
+1201-1400,Khulna University,500,estimated
+1201-1400,Khulna University of Engineering and Technology,500,estimated
+1201-1400,King Mongkut's Institute of Technology Ladkrabang,3000,estimated
+1201-1400,King Mongkut's University of Technology North Bangkok,3000,estimated
+1201-1400,Kwame Nkrumah University of Science and Technology,1000,estimated
+1201-1400,Kyrgyz State Technical University,800,estimated
+1201-1400,Óbuda University,1500,estimated
+1201-1400,Odessa I.I. Mechnikov National University,1000,estimated
+1201-1400,Pontificia Universidad Catolica Madre y Maestra,4000,estimated
+1201-1400,Rajshahi University,500,estimated
+1201-1400,San Francisco State University,17000,official
+1201-1400,Sathyabama Institute of Science and Technology (deemed to be university),4000,estimated
+1201-1400,Shahjalal University of Science and Technology,500,estimated
+1201-1400,Suleyman Demirel University,1500,estimated
+1201-1400,"Suleyman Demirel University, Kazakhstan",1500,estimated
+1201-1400,Technische Universität Kaiserslautern,1000,estimated
+1201-1400,Toraighyrov University,1000,estimated
+1201-1400,Universidad Autónoma de Guadalajara (UAG),2000,estimated
+1201-1400,Universidad de Las Américas (UDLA) Ecuador,3000,estimated
+1201-1400,Universidad de Oriente Santiago de Cuba,1000,estimated
+1201-1400,Universidad de Panama,2000,estimated
+1201-1400,Universidad de Piura,2500,estimated
+1201-1400,Universidad de San Carlos de Guatemala - USAC,1500,estimated
+1201-1400,Universidad de Tarapaca,1500,estimated
+1201-1400,Universidad del Zulia,1000,estimated
+1201-1400,Universidad La Salle (ULSA),2000,estimated
+1201-1400,Universidad Latinoamericana de Ciencia y Tecnología Costa Rica (ULACIT),2500,estimated
+1201-1400,Universidad Nacional de Ingeniería Peru,1000,estimated
+1201-1400,"Universidad Nacional, Costa Rica",1000,estimated
+1201-1400,Universidade Federal do Rio Grande Do Norte,1500,estimated
+1201-1400,Universidade Presbiteriana Mackenzie,2000,estimated
+1201-1400,Universitas Islam Indonesia,1500,estimated
+1201-1400,Universitas Muhammadiyah Yogyakarta,1500,estimated
+1201-1400,Universitas Pendidikan Indonesia,1500,estimated
+1201-1400,Universitatea de Vest din Timisoara / West University of Timisoara,1500,estimated
+1201-1400,Université de Limoges,1500,estimated
+1201-1400,Universiti Teknikal Malaysia Melaka,2000,estimated
+1201-1400,University of Memphis,14000,official
+1201-1400,University of Missouri Saint Louis,15000,official
+1201-1400,University of North Carolina at Greensboro,14000,official
+1201-1400,University of Pannonia,1500,estimated
+1201-1400,University of Primorska,1500,estimated
+1201-1400,University of Rzeszów,1500,estimated
+1201-1400,University of Sri Jayewardenepura,1000,estimated
+1201-1400,Vancouver Island University,8000,official
+1201-1400,Yogyakarta State University,1500,estimated
+1401,Stefan cel Mare University of Suceava,2834,scrape-topuniversities
+1401,Don State Technical University,1250,estimated
+1401,Akdeniz Üniversitesi,1750,estimated
+1401,Católica de Córdoba,3500,estimated
+1401,"Indian Institute of Information Technology, Allahabad",3500,official
+1401,Indiana State University,13000,official
+1401,Irkutsk State University,1750,estimated
+1401,Lucian Blaga University of Sibiu,2000,estimated
+1401,MIREA - Russian Technological University,2500,estimated
+1401,Moscow City University,3000,estimated
+1401,Pontifícia Universidade Católica do Paraná,4500,official
+1401,Russian State Agrarian University - Moscow Timiryazev Agricultural Acad,1750,estimated
+1401,Russian State University for the Humanities,1750,estimated
+1401,Sakarya University,2500,official
+1401,Shibaura Institute of Technology,7000,official
+1401,Soochow University (Taiwan),4500,official
+1401,"The University of Notre Dame, Australia",26500,official
+1401,Universidad Autónoma de Baja California,3500,estimated
+1401,Universidad Autónoma de Chile,4500,estimated
+1401,Universidad Autónoma de Querétaro (UAQ),3500,estimated
+1401,Universidad Autónoma de San Luis de Potosí,3500,estimated
+1401,Universidad Autonoma de Yucatan,3500,estimated
+1401,Universidad Autónoma del Estado de Morelos (UAEM),3500,estimated
+1401,Universidad Bernardo O'Higgins,3000,estimated
+1401,Universidad Católica Boliviana San Pablo,4500,estimated
+1401,Universidad Católica de Colombia,4500,estimated
+1401,Universidad Católica de Santiago de Guayaquil,4500,estimated
+1401,Universidad de Córdoba - Colombia,4000,estimated
+1401,Universidad de Guanajuato,3500,estimated
+1401,Universidad de La Salle,4500,estimated
+1401,Universidad de La Serena,3000,estimated
+1401,Universidad de las Fuerzas Armadas ESPE (Ex - Escuela Politécnica del Ejército),2000,estimated
+1401,Universidad de Medellín,3000,estimated
+1401,Universidad de Sonora,3500,estimated
+1401,Universidad Nacional de Quilmes,1500,estimated
+1401,Universidad San Ignacio de Loyola,5000,estimated
+1401,Universidad Tecnológica de Bolívar,3000,estimated
+1401,"Universidad Tecnológica de la Habana José Antonio Echeverría, Cujae",2000,estimated
+1401,Universidad Tecnológica de Pereira,2500,estimated
+1401,Universidade Estadual de Londrina,3500,estimated
+1401,Universidade Federal da Paraíba,2500,estimated
+1401,Universidade Federal de Goiás,2500,estimated
+1401,Universitas Andalas,2000,estimated
+1401,Universitas Muhammadiyah Surakarta,2500,estimated
+1401,University of Montana Missoula,13000,official
+1401,"University Politehnica of Timisoara, UPT",2500,estimated
+1401,California Polytechnic State University,16854,official
+1401,California State University – Los Angeles,9500,official
+1401,"California State University, Long Beach",10000,official
+1401,East West University,3500,estimated
+1401,Fundación Universidad De Bogotá-Jorge Tadeo Lozano,2500,estimated
+1401,Humboldt State University,9500,estimated
+1401,Illinois State University,12000,estimated
+1401,"International University of Business, Agriculture and Technology (IUBAT)",1750,estimated
+1401,Korkyt Ata Kyzylorda University,1250,estimated
+1401,Kwansei Gakuin University,8000,estimated
+1401,M.Kh. Dulaty Taraz Regional University,1500,estimated
+1401,Naresuan University,1500,estimated
+1401,National University of Life and Environmental Sciences of Ukraine,1200,estimated
+1401,"National University of Modern Languages (NUML), Islamabad",1750,estimated
+1401,Nova Southeastern University,30000,official
+1401,Pontifícia Universidade Católica de Minas Gerais – PUC Minas,4500,estimated
+1401,Pontificia Universidade Católica do Campinas - PUC Campinas,4000,estimated
+1401,Shanghai Normal University,2500,estimated
+1401,Silpakorn University,1500,estimated
+1401,Soongsil University,5000,estimated
+1401,Stamford University Bangladesh,2500,estimated
+1401,State University of Malang,1500,estimated
+1401,Udayana University,1750,estimated
+1401,United International University,3000,estimated
+1401,Universidad Alberto Hurtado,3500,estimated
+1401,Universidad Autónoma de Aguascalientes,3000,estimated
+1401,Universidad Católica de La Santísima Concepción - UCSC,3000,estimated
+1401,Universidad Católica de Temuco,3000,estimated
+1401,Universidad Central de Chile,3500,estimated
+1401,Universidad de Caldas,2000,estimated
+1401,Universidad de Carabobo,1500,estimated
+1401,Universidad de Cartagena,2500,estimated
+1401,Universidad de Cuenca,1500,estimated
+1401,Universidad de Santander - UDES,2500,estimated
+1401,Universidad del Cauca,1500,estimated
+1401,Universidad del Valle de Mexico (UVM),3500,estimated
+1401,Universidad Michoacana de San Nicolás de Hidalgo,2500,estimated
+1401,Universidad Nacional de Tucumán,1000,estimated
+1401,Universidad Nacional del Comahue,1000,estimated
+1401,UNIVERSIDAD POLITECNICA SALESIANA,1500,estimated
+1401,Universidad Popular Autónoma del Estado de Puebla (UPAEP),4500,estimated
+1401,Universidad Tecnica Particular De Loja (UTPL),2000,estimated
+1401,Universidad Veracruzana,3000,estimated
+1401,Universidade do Estado de Santa Catarina,3500,estimated
+1401,Universidade Federal de Uberlândia,2500,estimated
+1401,Universidade Federal do Estado do Rio de Janeiro - UNIRIO,2500,estimated
+1401,Universidade Federal do Parà - UFPA,2000,estimated
+1401,Universitas Kristen Petra,1500,estimated
+1401,Universiti Sains Islam Malaysia,3000,estimated
+1401,University of Central Oklahoma,12000,official
+1401,University of Craiova,1500,estimated
+1401,University of Lampung,1500,estimated
+1401,University of Mataram,1500,estimated
+1401,University of Oradea,1500,estimated
+1401,University of San Carlos,2000,estimated
+1401,Western Washington University,16000,official
