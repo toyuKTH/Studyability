@@ -1,25 +1,28 @@
 import * as d3 from "d3";
 import { RefObject, useContext, useEffect, useRef, useState } from "react";
-import { CountryContext, d3Dispatch } from "../state/Context";
 import { getAlpha_2 } from "../data/CountryData";
 import { worldTopology } from "../data/topologyData/countryTopology";
+import { useAppDispatch } from "../state/hooks";
+import {
+  setHoveredCountry,
+  setMapZoomed,
+} from "../state/slices/mapInteractionSlice";
 
 export default function useWorldMap({
   width,
   height,
-  setZoomed,
+  mapSvgRef,
 }: {
   width?: number;
   height?: number;
-  setZoomed: (value: boolean) => void;
+  mapSvgRef: RefObject<SVGSVGElement>;
 }) {
+  const dispatch = useAppDispatch();
+
   const [svgPaths, setSvgPaths] = useState<JSX.Element[]>([]);
-  const mapSvgRef = useRef<SVGSVGElement>(null);
-  const mapTooltipRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!mapSvgRef.current || !width || !height || !mapTooltipRef.current)
-      return;
+    if (!mapSvgRef.current || !width || !height) return;
 
     const world = worldTopology;
 
@@ -60,8 +63,9 @@ export default function useWorldMap({
         [width / 2, height / 2],
         [width, height],
       ])
-      .scaleExtent([1, 8])
-      .on("zoom", zoomed);
+      .scaleExtent([1, 8]);
+
+    zoomBehavior.on("zoom", zoomed);
 
     function zoomed(event: any) {
       svg.selectAll("path").attr("transform", event.transform);
@@ -70,116 +74,54 @@ export default function useWorldMap({
         event.transform.x !== 0 ||
         event.transform.y !== 0
       )
-        setZoomed(true);
-      else setZoomed(false);
+        dispatch(setMapZoomed(true));
+      else dispatch(setMapZoomed(false));
     }
 
     svg.call(zoomBehavior as any);
 
-    d3Dispatch.on("countrySelected", (event: { country: string }) => {
-      const [[x0, y0], [x1, y1]] = geoPath.bounds(
-        worldTopology.features.find(
-          (shape) => shape.id === event.country
-        ) as d3.GeoPermissibleObjects
-      );
-      svg
-        .transition()
-        .duration(750)
-        .call(
-          zoomBehavior.transform,
-          d3.zoomIdentity
-            .translate(width / 2, height / 2)
-            .scale(
-              Math.min(6, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
-            )
-            .translate(-(x0 + x1) / 2, -(y0 + y1) / 2)
-          // d3.pointer(event, svg.node())
-        );
-      d3.select(`#${event.country}`)
-        .attr("fill", "cornflowerblue")
-        .attr("opacity", "1");
-
-      d3.selectAll("path")
-        .filter(function () {
-          return (
-            // @ts-ignore
-            this!.id != event.country
-          );
-        })
-        .attr("fill", "grey")
-        .attr("opacity", "0.5");
-    });
-
-    d3Dispatch.on("resetZoom", () => {
+    svg.on("resetZoom", () => {
       svg
         .transition()
         .duration(750)
         .call(zoomBehavior.transform, d3.zoomIdentity);
     });
 
-    const path = svg.selectAll("path");
-    console.log("test");
+    // d3Dispatch.on("countrySelected", (event: { country: string }) => {
+    //   const [[x0, y0], [x1, y1]] = geoPath.bounds(
+    //     worldTopology.features.find(
+    //       (shape) => shape.id === event.country
+    //     ) as d3.GeoPermissibleObjects
+    //   );
+    //   svg
+    //     .transition()
+    //     .duration(750)
+    //     .call(
+    //       zoomBehavior.transform,
+    //       d3.zoomIdentity
+    //         .translate(width / 2, height / 2)
+    //         .scale(
+    //           Math.min(6, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height))
+    //         )
+    //         .translate(-(x0 + x1) / 2, -(y0 + y1) / 2)
+    //       // d3.pointer(event, svg.node())
+    //     );
+    //   d3.select(`#${event.country}`)
+    //     .attr("fill", "cornflowerblue")
+    //     .attr("opacity", "1");
 
-    // const handleMouseOver = (event: any) => {
-    //   console.log("test");
-    //   // if (event.target.tagName === "path" && event.target.id) {
-    //   //   d3.select(`#${event.target.id}`)
-    //   //     .attr("fill", "cornflowerblue")
-    //   //     .attr("opacity", "1");
-    //   //   // d3.selectAll("path").attr("opacity", "0.5");
-    //   //   // d3.select(`#${event.target.id}`).attr("opacity", "1");
-
-    //   //   const filteredPaths = d3.selectAll("path").filter(function (d: any) {
-    //   //     return (
-    //   //       // @ts-ignore
-    //   //       this!.id != countryContext.selectedCountry &&
-    //   //       // @ts-ignore
-    //   //       this!.id != event.target.id
-    //   //     );
-    //   //   });
-    //   //   filteredPaths.attr("opacity", "0.5");
-
-    //   //   countryDispatch({
-    //   //     type: IDispatchType.hoverCountry,
-    //   //     data: event.target.id,
-    //   //   });
-    //   //   // if (countryTooltipRef.current) {
-    //   //   //   countryTooltipRef.current.innerHTML = event.target.id;
-    //   //   //   countryTooltipRef.current.classList.add("country-tooltip");
-    //   //   // }
-    //   // }
-    // };
-
-    // const handleMouseLeave = (event: any) => {
-    //   if (event.target.tagName === "path") {
-    //     if (countryContext.selectedFilter) {
-    //       d3.select(`#${countryContext.hoveredCountry}`)
-    //         .attr("fill", "grey")
-    //         .attr("opacity", "1");
-    //     }
-    //     console.log(countryContext.selectedCountry);
-
-    //     const filteredPaths = d3.selectAll("path").filter(function (d: any) {
+    //   d3.selectAll("path")
+    //     .filter(function () {
     //       return (
     //         // @ts-ignore
-    //         this!.id != countryContext.selectedCountry
+    //         this!.id != event.country
     //       );
-    //     });
-    //     filteredPaths
-    //       .attr("fill", "grey")
-    //       .attr("opacity", countryContext.selectedCountry ? "0.5" : "1");
+    //     })
+    //     .attr("fill", "grey")
+    //     .attr("opacity", "0.5");
+    // });
 
-    //     countryDispatch({
-    //       type: IDispatchType.hoverCountry,
-    //       data: "",
-    //     });
-
-    //     // if (countryTooltipRef.current) {
-    //     //   countryTooltipRef.current.innerHTML = "";
-    //     //   countryTooltipRef.current.classList.remove("country-tooltip");
-    //     // }
-    //   }
-    // };
+    const path = svg.selectAll("path");
 
     // const handleClicked = (event: any) => {
     //   if (event.target.tagName === "path") {
@@ -191,62 +133,37 @@ export default function useWorldMap({
     //   }
     // };
 
-    // path.on("mouseover", handleMouseOver);
-    // path.on("mouseleave", handleMouseLeave);
     // path.on("click", handleClicked);
 
     console.log("map rendered");
 
     return () => {
-      d3Dispatch.on("countrySelected", null);
-      d3Dispatch.on("resetZoom", null);
-      // path.on("mouseover", null);
-      // path.on("mouseleave", null);
       path.on("click", null);
     };
-  }, [
-    width,
-    height,
-    mapSvgRef.current,
-    // countryContext.data.selectedCountry,
-    mapTooltipRef.current,
-  ]);
+  }, [width, height, mapSvgRef.current]);
 
   useEffect(() => {
-    if (!mapSvgRef.current) return;
+    if (!mapSvgRef.current || svgPaths.length === 0) return;
 
     const path = d3.select(mapSvgRef.current).selectAll("path");
 
-    path.on("mouseover", function () {
-      // countryHovered.dispatch({
-      //   type: "hoverCountry",
-      //   // @ts-ignore
-      //   data: this!.id,
-      // });
-    });
+    const handleMouseOver = (event: any) => {
+      dispatch(setHoveredCountry(event.target.id));
+    };
 
-    path.on("mouseleave", function () {
-      // @ts-ignore
-      countryHovered.dispatch({
-        type: "hoverCountry",
-        data: "",
-      });
-    });
+    const handleMouseLeave = (event: any) => {
+      dispatch(setHoveredCountry(""));
+    };
 
-    // path.on("click", function () {
-    //   // @ts-ignore
-    //   countryHovered.dispatch({
-    //     type: "selectCountry",
-    //     data: this!.id,
-    //   });
-    // });
+    path.on("mouseover", handleMouseOver);
+    path.on("mouseleave", handleMouseLeave);
 
     return () => {
       path.on("mouseover", null);
       path.on("mouseleave", null);
       path.on("click", null);
     };
-  }, [mapSvgRef.current]);
+  }, [mapSvgRef.current, svgPaths]);
 
-  return { svgPaths, mapSvgRef, mapTooltipRef };
+  return { svgPaths, mapSvgRef };
 }

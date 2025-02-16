@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import filterSlice from "./slices/filterSlice";
+import mapInteractionSlice from "./slices/mapInteractionSlice";
 // ...
 
 export const store = configureStore({
   reducer: {
     filter: filterSlice,
+    mapInteraction: mapInteractionSlice,
   },
 });
 

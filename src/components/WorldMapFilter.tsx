@@ -6,22 +6,18 @@ import * as d3 from "d3";
 // import { IDispatchType } from "../models/Context.types";
 import { worldTopology } from "../data/topologyData/countryTopology";
 import MinMaxSlider from "./MinMaxSlider";
-import { IDispatchType, IMapFilterAction } from "../App";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
 import {
   hideUniversityFilter,
   showUniversityFilter,
 } from "../state/slices/filterSlice";
+import { setSelectedCountry } from "../state/slices/mapInteractionSlice";
 
-export default function WorldMapFilter({
-  mapFilterDispatch,
-}: {
-  mapFilterDispatch: Dispatch<IMapFilterAction>;
-}) {
+export default function WorldMapFilter() {
+  const dispatch = useAppDispatch();
   const universityFilterShowing = useAppSelector(
     (state) => state.filter.universityRankings.showing
   );
-  const dispatch = useAppDispatch();
 
   const [filterInput, setFilterInput] = useState<string>("");
 
@@ -57,8 +53,8 @@ export default function WorldMapFilter({
     countryPath.attr("fill", "cornflowerblue");
 
     if (!countryPath.node()) return;
-
-    // countryDispatch({ type: IDispatchType.selectCountry, data:  });
+    // @ts-ignore
+    dispatch(setSelectedCountry(countryPath.node().dataset.alpha_2));
   };
 
   const handleFilterByUniversity = () => {

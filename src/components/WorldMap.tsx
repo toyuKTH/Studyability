@@ -1,30 +1,37 @@
 import * as d3 from "d3";
-import { useContext, useRef, useState } from "react";
-import { CountryContext, d3Dispatch } from "../state/Context";
-import CountryTooltip from "./CountryTooltip";
+import { useEffect, useRef, useState } from "react";
 import useWorldMap from "../hooks/useWorldMap";
 import useHeatMapScale, { IHeatMapScaleConfig } from "../hooks/useHeatMapScale";
-// import { getAlpha_2, universityRankingsByCountry } from "../data/CountryData";
 import "./WorldMap.css";
-import { IMapFilterState } from "../App";
+import { useAppDispatch, useAppSelector } from "../state/hooks";
+import CountryTooltip from "./CountryTooltip";
+import Map, { MapMouseEvent, MapRef } from "react-map-gl/mapbox";
+import { setMapZoomed } from "../state/slices/mapInteractionSlice";
+// import "maplibre-gl/dist/maplibre-gl.css";
 
 export const WorldMap = ({
   width,
   height,
-  mapFilterState,
 }: {
   width?: number;
   height?: number;
-  mapFilterState: IMapFilterState;
 }) => {
-  const [zoomed, setZoomed] = useState(false);
+  const mapToken = import.meta.env.VITE_MAP_BOX_TOKEN;
+  const mapStyle = import.meta.env.VITE_MAP_STYLE;
 
-  const countryContext = useContext(CountryContext);
+  const dispatch = useAppDispatch();
 
-  const { svgPaths, mapSvgRef, mapTooltipRef } = useWorldMap({
+  const zoomed = useAppSelector((state) => state.mapInteraction.mapZoomed);
+
+  const [originalMapZoom, setOriginalMapZoom] = useState<number | null>(null);
+
+  const mapSvgRef = useRef<SVGSVGElement>(null);
+  const mapRef = useRef<MapRef>(null);
+
+  const { svgPaths } = useWorldMap({
     width,
     height,
-    setZoomed,
+    mapSvgRef,
   });
 
   const scaleConfig: IHeatMapScaleConfig = {
@@ -37,10 +44,7 @@ export const WorldMap = ({
       selectedItems: {
         fill: {
           interpolator: d3.interpolateBlues,
-          domain: [
-            mapFilterState.universityRankingsData.minVal,
-            mapFilterState.universityRankingsData.maxVal,
-          ],
+          domain: [0, 100],
           clamp: true,
         },
         opacity: "1",
@@ -63,33 +67,64 @@ export const WorldMap = ({
 
   const { scaleSvgRef } = useHeatMapScale(scaleConfig);
 
-  // d3Dispatch.on("filterByUniversity", filterByUniversity);
+  useEffect(() => {
+    if (!mapRef.current || originalMapZoom) return;
 
-  function handleReset() {
-    d3Dispatch.call("resetZoom");
-  }
+    setOriginalMapZoom(mapRef.current.getZoom());
+  }, [mapRef.current]);
+
+  const handleResetZoom = () => {
+    // const svg = d3.select(mapSvgRef.current);
+    // svg.dispatch("resetZoom");
+    if (mapRef.current) {
+      const min = mapRef.current.getMinZoom();
+      mapRef.current.zoomTo(min, { duration: 5000 });
+      dispatch(setMapZoomed(false));
+    }
+  };
 
   return (
     <div style={{ position: "relative" }}>
-      <div className="map-info">
-        {zoomed && <button onClick={handleReset}>reset map position</button>}
-        {(countryContext.data.selectedCountry ||
-          countryContext.data.hoveredCountry) && (
-          <CountryTooltip
-            selectedCountry={
-              countryContext.data.selectedCountry ||
-              countryContext.data.hoveredCountry
-            }
-          />
-        )}
-      </div>
-      <div ref={mapTooltipRef} className="map-hover-tooltip" hidden />
-      <svg width={width} height={height} ref={mapSvgRef} id="world-map">
+      <CountryTooltip />
+      {/* <svg width={width} height={height} ref={mapSvgRef} id="world-map">
         {svgPaths}
       </svg>
       <div className="map-scale" style={{ width }}>
         <svg ref={scaleSvgRef} width={"100%"} height={"100%"} />
+      </div> */}
+      <div className="map-info">
+        {zoomed && (
+          <button onClick={handleResetZoom}>reset map position</button>
+        )}
       </div>
+      {mapToken && (
+        <Map
+          onZoomEnd={() => {
+            console.log(mapRef.current!.getZoom());
+            if (!mapRef.current || mapRef.current.getZoom() < 2)
+              dispatch(setMapZoomed(false));
+            else dispatch(setMapZoomed(true));
+          }}
+          maxBounds={[
+            [-180, -75],
+            [180, 83],
+          ]}
+          renderWorldCopies={false}
+          onMouseEnter={(e: MapMouseEvent) => {
+            console.log("enter", e);
+          }}
+          projection={"mercator"}
+          mapboxAccessToken={mapToken}
+          initialViewState={{
+            longitude: -100,
+            latitude: 40,
+            zoom: 1,
+          }}
+          ref={mapRef}
+          style={{ width, height }}
+          mapStyle={mapStyle}
+        ></Map>
+      )}
     </div>
   );
 };

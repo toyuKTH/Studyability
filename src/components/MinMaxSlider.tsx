@@ -1,13 +1,11 @@
 import {
   ChangeEvent,
-  Dispatch,
-  RefObject,
+  MouseEventHandler,
   useEffect,
   useRef,
   useState,
 } from "react";
 import "./MinMaxSlider.css";
-import { IDispatchType, IMapFilterAction } from "../App";
 import { useAppDispatch } from "../state/hooks";
 import {
   setUniversityFilterMax,
@@ -62,10 +60,13 @@ export default function MinMaxSlider({
       return { ...prev, position: { x: valueToPos(maxKnobAttributes.value) } };
     });
 
+    // containerRef.current.addEventListener("click", handleContainerClick);
+
     minKnobRef.current.addEventListener("mousedown", handleMouseDown);
     maxKnobRef.current.addEventListener("mousedown", handleMouseDown);
 
     return () => {
+      // containerRef.current?.removeEventListener("click", handleContainerClick);
       minKnobRef.current?.removeEventListener("mousedown", handleMouseDown);
       maxKnobRef.current?.removeEventListener("mousedown", handleMouseDown);
     };
@@ -90,6 +91,52 @@ export default function MinMaxSlider({
     dispatch(setUniversityFilterMax(maxKnobAttributes.value));
   }, [maxKnobAttributes.value]);
 
+  useEffect(() => {
+    if (!containerRef.current) return;
+    setMaxKnobAttributes((prev) => {
+      return { ...prev, position: { x: valueToPos(prev.value) } };
+    });
+  }, [containerRef.current?.clientWidth]);
+
+  const handleContainerClick: MouseEventHandler<HTMLDivElement> = (e) => {
+    if (!containerRef.current || !minKnobRef.current || !maxKnobRef.current)
+      return;
+
+    const boundedMousePos = Math.min(
+      Math.max(e.screenX - containerRef.current!.offsetLeft, 0),
+      containerRef.current.clientWidth - minKnobRef.current.clientWidth / 2
+    );
+
+    const minOffset = Math.abs(boundedMousePos - minKnobAttributes.position.x);
+    const maxOffset = Math.abs(boundedMousePos - maxKnobAttributes.position.x);
+
+    if (minOffset < maxOffset) {
+      setMinKnobAttributes((prev) => {
+        return {
+          ...prev,
+          position: {
+            x: boundedMousePos - minKnobRef.current!.clientWidth / 2,
+          },
+          value: posToValue(
+            boundedMousePos - minKnobRef.current!.clientWidth / 2
+          ),
+        };
+      });
+    } else {
+      setMaxKnobAttributes((prev) => {
+        return {
+          ...prev,
+          position: {
+            x: boundedMousePos - minKnobRef.current!.clientWidth / 2,
+          },
+          value: posToValue(
+            boundedMousePos - minKnobRef.current!.clientWidth / 2
+          ),
+        };
+      });
+    }
+  };
+
   function handleMouseDown(e: MouseEvent) {
     // @ts-ignore
     const elementId = this.id as string;
@@ -107,6 +154,7 @@ export default function MinMaxSlider({
   }
 
   function handleMouseUp(e: MouseEvent) {
+    e.stopPropagation();
     if (minKnobAttributes.clicked) {
       setMinKnobAttributes((prevState) => {
         return { ...prevState, clicked: false };
@@ -221,7 +269,11 @@ export default function MinMaxSlider({
 
   return (
     <div className="min-max-container">
-      <div ref={containerRef} className="min-max-slider-container">
+      <div
+        ref={containerRef}
+        className="min-max-slider-container"
+        onClick={handleContainerClick}
+      >
         <div
           className="min-max-slider-fill"
           style={{
@@ -236,6 +288,9 @@ export default function MinMaxSlider({
           style={{
             transform: `translate(${minKnobAttributes.position.x}px, 0px)`,
           }}
+          onClick={(e) => {
+            e.stopPropagation();
+          }}
         />
         <div
           ref={maxKnobRef}
@@ -243,6 +298,9 @@ export default function MinMaxSlider({
           id="max-knob"
           style={{
             transform: `translate(${maxKnobAttributes.position.x}px, 0px)`,
+          }}
+          onClick={(e) => {
+            e.stopPropagation();
           }}
         />
       </div>
