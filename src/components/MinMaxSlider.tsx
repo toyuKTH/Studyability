@@ -12,6 +12,17 @@ import {
   setUniversityFilterMin,
 } from "../state/slices/filterSlice";
 
+function lerp(
+  x1: { pos: number; weight: number },
+  x2: { pos: number; weight: number },
+  x: number
+) {
+  return (
+    ((x2.pos - x) / (x2.pos - x1.pos)) * x1.weight +
+    ((x - x1.pos) / (x2.pos - x1.pos)) * x2.weight
+  );
+}
+
 interface IKnobAttributes {
   position: {
     x: number;
@@ -21,11 +32,17 @@ interface IKnobAttributes {
 }
 
 export default function MinMaxSlider({
+  title,
+  id,
+  resetButton,
   minValueLimit,
   maxValueLimit,
   minValue,
   maxValue,
 }: {
+  title: string;
+  id: string;
+  resetButton?: boolean;
   minValueLimit: number;
   maxValueLimit: number;
   minValue: number;
@@ -38,12 +55,12 @@ export default function MinMaxSlider({
   const maxKnobRef = useRef<HTMLDivElement>(null);
 
   const [minKnobAttributes, setMinKnobAttributes] = useState<IKnobAttributes>({
-    position: { x: valueToPos(minValue) },
+    position: { x: 0 },
     value: minValue,
     clicked: false,
   });
   const [maxKnobAttributes, setMaxKnobAttributes] = useState<IKnobAttributes>({
-    position: { x: valueToPos(maxValue) },
+    position: { x: 0 },
     value: maxValue,
     clicked: false,
   });
@@ -53,11 +70,21 @@ export default function MinMaxSlider({
       return;
 
     setMinKnobAttributes((prev) => {
-      return { ...prev, position: { x: valueToPos(minKnobAttributes.value) } };
+      return {
+        ...prev,
+        position: { x: 0 - minKnobRef.current!.clientWidth / 2 },
+      };
     });
 
     setMaxKnobAttributes((prev) => {
-      return { ...prev, position: { x: valueToPos(maxKnobAttributes.value) } };
+      return {
+        ...prev,
+        position: {
+          x:
+            containerRef.current!.getBoundingClientRect().width -
+            minKnobRef.current!.clientWidth / 2,
+        },
+      };
     });
 
     // containerRef.current.addEventListener("click", handleContainerClick);
@@ -139,14 +166,14 @@ export default function MinMaxSlider({
 
   function handleMouseDown(e: MouseEvent) {
     // @ts-ignore
-    const elementId = this.id as string;
+    const elementId = this.id.split("-")[0] as string;
     e.preventDefault();
 
-    if (elementId === "min-knob") {
+    if (elementId === "min") {
       setMinKnobAttributes((prevState) => {
         return { ...prevState, clicked: true };
       });
-    } else if (elementId === "max-knob") {
+    } else if (elementId === "max") {
       setMaxKnobAttributes((prevState) => {
         return { ...prevState, clicked: true };
       });
@@ -169,12 +196,22 @@ export default function MinMaxSlider({
   function handleMouseMove(e: MouseEvent) {
     e.preventDefault();
 
-    if (!minKnobRef.current || !maxKnobRef.current) return;
+    if (!minKnobRef.current || !maxKnobRef.current || !containerRef.current)
+      return;
 
-    const containerBounds = containerRef.current!.getBoundingClientRect();
+    const containerBounds = containerRef.current.getBoundingClientRect();
 
-    const boundedMousePos =
+    let boundedMousePos =
       e.clientX - containerBounds.left - minKnobRef.current.clientWidth / 2;
+
+    boundedMousePos = Math.max(
+      -minKnobRef.current.clientWidth / 2,
+      boundedMousePos
+    );
+    boundedMousePos = Math.min(
+      containerBounds.width - minKnobRef.current.clientWidth / 2,
+      boundedMousePos
+    );
 
     if (minKnobAttributes.clicked) {
       const minOffset = Math.min(
@@ -208,16 +245,21 @@ export default function MinMaxSlider({
   }
 
   function posToValue(pos: number) {
-    if (!containerRef.current || !minKnobRef.current) return 0;
+    if (!containerRef.current || !minKnobRef.current) return minValueLimit;
 
-    return Math.round(
-      ((pos + minKnobRef.current.clientWidth / 2) * maxValueLimit) /
-        containerRef.current.getBoundingClientRect().width
+    return lerp(
+      { pos: 0 - minKnobRef.current.clientWidth / 2, weight: minValueLimit },
+      {
+        pos:
+          containerRef.current.clientWidth - minKnobRef.current.clientWidth / 2,
+        weight: maxValueLimit,
+      },
+      pos
     );
   }
 
   function valueToPos(value: number) {
-    if (!containerRef.current || !minKnobRef.current) return 0;
+    if (!containerRef.current || !minKnobRef.current) return minValueLimit;
 
     return (
       Math.round(
@@ -267,8 +309,38 @@ export default function MinMaxSlider({
     }
   }
 
+  const handleReset = () => {
+    setMinKnobAttributes((prev) => {
+      return {
+        ...prev,
+        value: minValueLimit,
+        position: { x: 0 - minKnobRef.current!.clientWidth / 2 },
+      };
+    });
+
+    setMaxKnobAttributes((prev) => {
+      return {
+        ...prev,
+        value: maxValueLimit,
+        position: {
+          x:
+            containerRef.current!.getBoundingClientRect().width -
+            minKnobRef.current!.clientWidth / 2,
+        },
+      };
+    });
+  };
+
   return (
-    <div className="min-max-container">
+    <div className="min-max-container" id={id}>
+      <div className="min-max-header">
+        <label className="slider-label">{title}</label>
+        {resetButton &&
+          (minKnobAttributes.value !== minValue ||
+            maxKnobAttributes.value !== maxValue) && (
+            <button onClick={handleReset}>Reset</button>
+          )}
+      </div>
       <div
         ref={containerRef}
         className="min-max-slider-container"
@@ -284,7 +356,7 @@ export default function MinMaxSlider({
         <div
           ref={minKnobRef}
           className="min-max-knob"
-          id="min-knob"
+          id={"min-knob-" + id}
           style={{
             transform: `translate(${minKnobAttributes.position.x}px, 0px)`,
           }}
@@ -295,7 +367,7 @@ export default function MinMaxSlider({
         <div
           ref={maxKnobRef}
           className="min-max-knob"
-          id="max-knob"
+          id={"max-knob-" + id}
           style={{
             transform: `translate(${maxKnobAttributes.position.x}px, 0px)`,
           }}
@@ -305,35 +377,47 @@ export default function MinMaxSlider({
         />
       </div>
       <div className="min-max-input-container">
-        <div style={{ display: "flex", flexDirection: "column", width: "20%" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-start",
+            alignItems: "center",
+          }}
+        >
           <input
-            id="min-input"
+            id={"min-input-" + id}
             className="slider-input"
             value={minKnobAttributes.value}
             onChange={minMaxInputHandler}
           />
           <label
-            htmlFor="min-input"
+            htmlFor={"min-input-" + id}
             className="slider-label"
-            style={{ textAlign: "left" }}
+            style={{ textAlign: "left", color: "#1a1a1a" }}
           >
             Min
           </label>
         </div>
-        <div style={{ display: "flex", flexDirection: "column", width: "20%" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-start",
+            alignItems: "center",
+          }}
+        >
+          <label
+            htmlFor={"max-input-" + id}
+            className="slider-label"
+            style={{ textAlign: "right", color: "#1a1a1a" }}
+          >
+            Max
+          </label>
           <input
-            id="max-input"
+            id={"max-input-" + id}
             className="slider-input"
             value={maxKnobAttributes.value}
             onChange={minMaxInputHandler}
           />
-          <label
-            htmlFor="max-input"
-            className="slider-label"
-            style={{ textAlign: "right" }}
-          >
-            Max
-          </label>
         </div>
       </div>
     </div>

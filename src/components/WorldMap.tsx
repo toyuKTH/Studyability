@@ -5,9 +5,10 @@ import useHeatMapScale, { IHeatMapScaleConfig } from "../hooks/useHeatMapScale";
 import "./WorldMap.css";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
 import CountryTooltip from "./CountryTooltip";
-import Map, { MapMouseEvent, MapRef } from "react-map-gl/mapbox";
 import { setMapZoomed } from "../state/slices/mapInteractionSlice";
-// import "maplibre-gl/dist/maplibre-gl.css";
+import mapboxgl, { GeoJSONFeature, TargetFeature } from "mapbox-gl";
+
+import "mapbox-gl/dist/mapbox-gl.css";
 
 export const WorldMap = ({
   width,
@@ -17,114 +18,146 @@ export const WorldMap = ({
   height?: number;
 }) => {
   const mapToken = import.meta.env.VITE_MAP_BOX_TOKEN;
-  const mapStyle = import.meta.env.VITE_MAP_STYLE;
 
   const dispatch = useAppDispatch();
 
   const zoomed = useAppSelector((state) => state.mapInteraction.mapZoomed);
 
-  const [originalMapZoom, setOriginalMapZoom] = useState<number | null>(null);
-
-  const mapSvgRef = useRef<SVGSVGElement>(null);
-  const mapRef = useRef<MapRef>(null);
-
-  const { svgPaths } = useWorldMap({
-    width,
-    height,
-    mapSvgRef,
-  });
-
-  const scaleConfig: IHeatMapScaleConfig = {
-    paintedObject: {
-      selector: "#world-map",
-      unselectedItems: {
-        opacity: "0.1",
-        fill: "grey",
-      },
-      selectedItems: {
-        fill: {
-          interpolator: d3.interpolateBlues,
-          domain: [0, 100],
-          clamp: true,
-        },
-        opacity: "1",
-      },
-    },
-    axis: {
-      dimensions: {
-        height: 10,
-        margins: {
-          top: 10,
-          bottom: 0,
-          right: 10,
-          left: 10,
-        },
-        tickRatio: 100,
-        tickSize: 10,
-      },
-    },
-  };
-
-  const { scaleSvgRef } = useHeatMapScale(scaleConfig);
+  const mapContainerRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<mapboxgl.Map | null>(null);
+  const featureRef = useRef<GeoJSONFeature | null>(null);
 
   useEffect(() => {
-    if (!mapRef.current || originalMapZoom) return;
+    if (!mapContainerRef.current) return;
 
-    setOriginalMapZoom(mapRef.current.getZoom());
-  }, [mapRef.current]);
+    mapboxgl.accessToken = mapToken;
+
+    mapRef.current = new mapboxgl.Map({
+      container: mapContainerRef.current,
+      style: "mapbox://styles/gianlucabeltran/cm74xnf5b007d01r31e4r0pex",
+      center: [0, 0],
+      zoom: 1,
+      renderWorldCopies: false,
+    });
+
+    const handleZoom = () => {
+      if (mapRef.current) {
+        const zoom = mapRef.current.getZoom();
+        if (zoom > 1.5) {
+          dispatch(setMapZoomed(true));
+        } else {
+          dispatch(setMapZoomed(false));
+        }
+
+        if (zoom > 4) {
+          mapRef.current.setLayoutProperty(
+            "country-boundaries",
+            "visibility",
+            "none"
+          );
+        } else {
+          mapRef.current.setLayoutProperty(
+            "country-boundaries",
+            "visibility",
+            "visible"
+          );
+        }
+      }
+    };
+
+    // const handleMouseEnter = (e: mapboxgl.MapMouseEvent) => {
+    //   if (featureRef.current) {
+    //     mapRef.current.setFeatureState(featureRef.current, {
+    //       ["state"]: false,
+    //     });
+    //   }
+    //   if (!e.features) return;
+    //   featureRef.current = e.features[0];
+    //   mapRef.current.setFeatureState(featureRef.current, { ["state"]: true });
+    // };
+
+    // const handleMouseLeave = () => {
+    //   if (featureRef.current) {
+    //     mapRef.current.setFeatureState(featureRef.current, {
+    //       ["state"]: false,
+    //     });
+    //     featureRef.current = null;
+    //   }
+    // };
+
+    const handleMouseMove = (e: mapboxgl.MapMouseEvent) => {
+      if (!mapRef.current) return;
+
+      if (e.features) {
+        if (featureRef.current?.id === e.features[0].id) return;
+
+        if (featureRef.current) {
+          mapRef.current.setFeatureState(featureRef.current, {
+            ["state"]: false,
+          });
+        }
+
+        featureRef.current = e.features[0];
+        mapRef.current.setFeatureState(featureRef.current, {
+          ["state"]: true,
+        });
+      }
+    };
+
+    const handleMouseLeave = (e: mapboxgl.MapMouseEvent) => {
+      if (!mapRef.current) return;
+
+      if (featureRef.current) {
+        mapRef.current.setFeatureState(featureRef.current, {
+          ["state"]: false,
+        });
+        featureRef.current = null;
+      }
+    };
+
+    mapRef.current.on("mousemove", "country-boundaries", handleMouseMove);
+
+    mapRef.current.on("mouseleave", "country-boundaries", handleMouseLeave);
+
+    // mapRef.current.on("mouseenter", "country-boundaries", handleMouseEnter);
+
+    // mapRef.current.on("mouseleave", "country-boundaries", handleMouseLeave);
+
+    // const handleCountryHover = (event: mapboxgl.MapMouseEvent) => {
+    //   const country = event.features?.[0].properties?.name;
+    //   console.log("hover", country);
+    // };
+
+    mapRef.current.on("zoom", handleZoom);
+    // mapRef.current.on("mousemove", "country-boundaries", handleCountryHover);
+
+    return () => {
+      if (mapRef.current) {
+        mapRef.current.off("zoom", handleZoom);
+        mapRef.current.off("mousemove", "country-boundaries", handleMouseMove);
+        mapRef.current.off(
+          "mouseleave",
+          "country-boundaries",
+          handleMouseLeave
+        );
+      }
+    };
+  }, []);
 
   const handleResetZoom = () => {
-    // const svg = d3.select(mapSvgRef.current);
-    // svg.dispatch("resetZoom");
     if (mapRef.current) {
-      const min = mapRef.current.getMinZoom();
-      mapRef.current.zoomTo(min, { duration: 5000 });
-      dispatch(setMapZoomed(false));
+      mapRef.current.zoomTo(1, { duration: 2000 });
     }
   };
 
   return (
     <div style={{ position: "relative" }}>
-      <CountryTooltip />
-      {/* <svg width={width} height={height} ref={mapSvgRef} id="world-map">
-        {svgPaths}
-      </svg>
-      <div className="map-scale" style={{ width }}>
-        <svg ref={scaleSvgRef} width={"100%"} height={"100%"} />
-      </div> */}
       <div className="map-info">
         {zoomed && (
           <button onClick={handleResetZoom}>reset map position</button>
         )}
       </div>
-      {mapToken && (
-        <Map
-          onZoomEnd={() => {
-            console.log(mapRef.current!.getZoom());
-            if (!mapRef.current || mapRef.current.getZoom() < 2)
-              dispatch(setMapZoomed(false));
-            else dispatch(setMapZoomed(true));
-          }}
-          maxBounds={[
-            [-180, -75],
-            [180, 83],
-          ]}
-          renderWorldCopies={false}
-          onMouseEnter={(e: MapMouseEvent) => {
-            console.log("enter", e);
-          }}
-          projection={"mercator"}
-          mapboxAccessToken={mapToken}
-          initialViewState={{
-            longitude: -100,
-            latitude: 40,
-            zoom: 1,
-          }}
-          ref={mapRef}
-          style={{ width, height }}
-          mapStyle={mapStyle}
-        ></Map>
-      )}
+      <div ref={mapContainerRef} style={{ width, height }} />
     </div>
   );
 };

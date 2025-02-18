@@ -1,28 +1,27 @@
 import { useEffect, useRef, useState } from "react";
 import WorldMap from "./components/WorldMap";
 import WorldMapFilter from "./components/WorldMapFilter";
-import { loadData } from "./data/CountryData";
 import "./App.css";
 
 function App() {
-  const [loadingData, setLoadingData] = useState(true);
   const [mapWidth, setMapWidth] = useState(0);
   const [mapHeight, setMapHeight] = useState(0);
 
   const mapDivRef = useRef<HTMLDivElement>(null);
 
+  const resizeTimeout = useRef<number>(0);
+
   useEffect(() => {
-    if (!mapDivRef.current || loadingData) return;
+    if (!mapDivRef.current) return;
 
     setMapWidth(mapDivRef.current.offsetWidth);
     setMapHeight(mapDivRef.current.offsetHeight);
 
     window.addEventListener("resize", handleResizeEvent);
-    var resizeTimeout: number;
 
     function handleResizeEvent() {
-      clearTimeout(resizeTimeout);
-      resizeTimeout = setTimeout(() => {
+      clearTimeout(resizeTimeout.current);
+      resizeTimeout.current = setTimeout(() => {
         handleResize();
       }, 200);
     }
@@ -34,28 +33,15 @@ function App() {
       }
     }
     return () => window.removeEventListener("resize", handleResizeEvent);
-  }, [mapDivRef, loadingData]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      await loadData();
-
-      setLoadingData(false);
-    };
-    fetchData();
-  }, []);
+  }, [mapDivRef.current]);
 
   return (
     <div className="App">
-      {loadingData && <div className="loading">Loading data...</div>}
-      {!loadingData && (
-        <>
-          <div ref={mapDivRef} className="map-container">
-            <WorldMap width={mapWidth} height={mapHeight} />
-          </div>
-          <WorldMapFilter />
-        </>
-      )}
+      <div ref={mapDivRef} className="map-container">
+        {mapDivRef.current && <WorldMap width={mapWidth} height={mapHeight} />}
+      </div>
+      <div id={"scatterplot"}></div>
+      <WorldMapFilter />
     </div>
   );
 }

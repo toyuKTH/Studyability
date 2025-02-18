@@ -26,6 +26,7 @@ export default function LinePlot({
     marginTop,
   ]);
   const line = d3.line((_, i) => x(i), y);
+
   return (
     <svg width={width} height={height}>
       <path
