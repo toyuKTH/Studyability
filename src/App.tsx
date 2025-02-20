@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import WorldMap from "./components/WorldMap";
 import WorldMapFilter from "./components/WorldMapFilter";
 import "./App.css";
+import ParallelPlot from "./components/ParallelPlot";
 
 function App() {
   const [mapWidth, setMapWidth] = useState(0);
@@ -37,10 +38,23 @@ function App() {
 
   return (
     <div className="App">
-      <div ref={mapDivRef} className="map-container">
-        {mapDivRef.current && <WorldMap width={mapWidth} height={mapHeight} />}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          height: "100%",
+          width: "100%",
+        }}
+      >
+        <div ref={mapDivRef} className="map-container">
+          {mapDivRef.current && (
+            <WorldMap width={mapWidth} height={mapHeight} />
+          )}
+        </div>
+        <div className="parallel-plot-container">
+          <ParallelPlot />
+        </div>
       </div>
-      <div id={"scatterplot"}></div>
       <WorldMapFilter />
     </div>
   );

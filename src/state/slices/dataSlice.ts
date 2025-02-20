@@ -2,7 +2,7 @@ import { createSelector, createSlice } from "@reduxjs/toolkit";
 import data from "../../data/json_db.json";
 import { RootState } from "../store";
 
-interface ICityDB {
+export interface ICityDB {
   [city: string]: {
     costOfLiving: {
       cost_of_living_index: number;
@@ -24,7 +24,7 @@ interface ICityDB {
   };
 }
 
-interface ICountryDB {
+export interface ICountryDB {
   [country: string]: {
     costOfLiving: {
       cost_of_living_index: number;
@@ -44,7 +44,7 @@ interface ICountryDB {
   };
 }
 
-interface IUniversityDB {
+export interface IUniversityDB {
   [uniId: string]: {
     location: {
       city: string | null;
@@ -97,6 +97,7 @@ export const {} = dataSlice.actions;
 
 const selectUniversities = (state: RootState) => state.data.universities;
 const selectCountries = (state: RootState) => state.data.countries;
+const selectFilters = (state: RootState) => state.filter;
 
 export const selectUniversitiesByFilter = createSelector(
   selectUniversities,
@@ -153,6 +154,216 @@ export const selectCountriesMaxMinFilterValues = createSelector(
         minEnglishProficiency,
       },
     };
+  }
+);
+
+export const selectUniversitiesMaxMinFilterValues = createSelector(
+  selectUniversities,
+  (universities) => {
+    const maxQsScore = Math.max(
+      ...Object.keys(universities).map((key) => {
+        const parsedInt = parseInt(
+          universities[key].qsRankingInfo.qs_overall_score
+        );
+        if (isNaN(parsedInt)) {
+          return 0;
+        }
+        return parsedInt;
+      })
+    );
+    const minQsScore = Math.min(
+      ...Object.keys(universities).map((key) => {
+        const parsedInt = parseInt(
+          universities[key].qsRankingInfo.qs_overall_score
+        );
+        if (isNaN(parsedInt)) {
+          return 0;
+        }
+        return parsedInt;
+      })
+    );
+
+    const maxTuitionFee = Math.max(
+      ...Object.keys(universities).map(
+        (key) => universities[key].tuitionFee.amount || 0
+      )
+    );
+
+    const minTuitionFee = Math.min(
+      ...Object.keys(universities).map(
+        (key) => universities[key].tuitionFee.amount || 10000
+      )
+    );
+
+    const maxAcademicReputation = Math.max(
+      ...Object.keys(universities).map(
+        (key) => universities[key].qsRankingInfo.academic_reputation
+      )
+    );
+    const minAcademicReputation = Math.min(
+      ...Object.keys(universities).map(
+        (key) => universities[key].qsRankingInfo.academic_reputation
+      )
+    );
+
+    const maxEmploymentOutcomes = Math.max(
+      ...Object.keys(universities).map(
+        (key) => universities[key].qsRankingInfo.employment_outcomes
+      )
+    );
+
+    const minEmploymentOutcomes = Math.min(
+      ...Object.keys(universities).map(
+        (key) => universities[key].qsRankingInfo.employment_outcomes
+      )
+    );
+
+    const maxInternationalStudents = Math.max(
+      ...Object.keys(universities).map(
+        (key) => universities[key].qsRankingInfo.international_students || 0
+      )
+    );
+
+    const minInternationalStudents = Math.min(
+      ...Object.keys(universities).map(
+        (key) => universities[key].qsRankingInfo.international_students || 10000
+      )
+    );
+
+    const maxSustainability = Math.max(
+      ...Object.keys(universities).map(
+        (key) => universities[key].qsRankingInfo.sustainability || 0
+      )
+    );
+
+    const minSustainability = Math.min(
+      ...Object.keys(universities).map(
+        (key) => universities[key].qsRankingInfo.sustainability || 10000
+      )
+    );
+
+    return {
+      qsScore: {
+        maxQsScore,
+        minQsScore,
+      },
+      tuitionFee: {
+        maxTuitionFee,
+        minTuitionFee,
+      },
+      academicReputation: {
+        maxAcademicReputation,
+        minAcademicReputation,
+      },
+      employmentOutcomes: {
+        maxEmploymentOutcomes,
+        minEmploymentOutcomes,
+      },
+      internationalStudents: {
+        maxInternationalStudents,
+        minInternationalStudents,
+      },
+      sustainability: {
+        maxSustainability,
+        minSustainability,
+      },
+    };
+  }
+);
+
+export const getFilteredCountries = createSelector(
+  selectCountries,
+  selectFilters,
+  (countries, filters) => {
+    const filteredCountriesCostOfLiving = Object.values(countries).filter(
+      (country) => {
+        let fitsCostOfLiving: boolean[] = [];
+        Object.keys(filters.countries.costOfLiving).forEach((key) => {
+          // @ts-ignore
+          const domains = filters.countries.costOfLiving[key].domain;
+          if (domains.length === 0) {
+            // fitsCostOfLiving.push(true);
+            return;
+          }
+
+          domains.forEach((domain: [number, number]) => {
+            if (
+              // @ts-ignore
+              country.costOfLiving[key] <= domain[0] ||
+              // @ts-ignore
+              country.costOfLiving[key] >= domain[1]
+            ) {
+              fitsCostOfLiving.push(false);
+            } else {
+              fitsCostOfLiving.push(true);
+            }
+          });
+        });
+
+        return fitsCostOfLiving.includes(true);
+      }
+    );
+
+    const filteredCountriesTemp = Object.values(
+      filteredCountriesCostOfLiving
+    ).filter((country) => {
+      let fitsTemperature: boolean[] = [];
+      const domains = filters.countries.temperature.domain;
+      if (domains.length != 0) {
+        domains.forEach((domain: [number, number]) => {
+          if (!country.temperature) {
+            fitsTemperature.push(false);
+            return;
+          }
+
+          if (
+            country.temperature <= domain[0] ||
+            country.temperature >= domain[1]
+          ) {
+            fitsTemperature.push(false);
+          } else {
+            fitsTemperature.push(true);
+          }
+        });
+      } else {
+        fitsTemperature.push(true);
+      }
+
+      return fitsTemperature.includes(true);
+    });
+
+    const filteredCountriesEP = Object.values(filteredCountriesTemp).filter(
+      (country) => {
+        let fitsEP: boolean[] = [];
+        Object.keys(filters.countries.efScore).forEach((key) => {
+          // @ts-ignore
+          const domains = filters.countries.efScore[key].domain;
+          if (domains.length === 0) {
+            // fitsCostOfLiving.push(true);
+            return;
+          }
+
+          domains.forEach((domain: [number, number]) => {
+            if (
+              // @ts-ignore
+              country.efScore[key] <= domain[0] ||
+              // @ts-ignore
+              country.efScore[key] >= domain[1]
+            ) {
+              fitsEP.push(false);
+            } else {
+              fitsEP.push(true);
+            }
+          });
+        });
+
+        return fitsEP.includes(true);
+      }
+    );
+
+    console.log(filteredCountriesEP);
+
+    return filteredCountriesEP;
   }
 );
 
