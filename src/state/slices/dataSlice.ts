@@ -99,13 +99,6 @@ const selectUniversities = (state: RootState) => state.data.universities;
 const selectCountries = (state: RootState) => state.data.countries;
 const selectFilters = (state: RootState) => state.filter;
 
-export const selectUniversitiesByFilter = createSelector(
-  selectUniversities,
-  (universities) => {
-    return Object.keys(universities).map((key) => universities[key].name);
-  }
-);
-
 export const selectCountriesMaxMinFilterValues = createSelector(
   selectCountries,
   (countries) => {
@@ -271,10 +264,11 @@ export const selectUniversitiesMaxMinFilterValues = createSelector(
   }
 );
 
-export const getFilteredCountries = createSelector(
+export const getFilteredData = createSelector(
   selectCountries,
+  selectUniversities,
   selectFilters,
-  (countries, filters) => {
+  (countries, universities, filters) => {
     const filteredCountriesCostOfLiving = Object.values(countries).filter(
       (country) => {
         let fitsCostOfLiving: boolean[] = [];
@@ -361,9 +355,52 @@ export const getFilteredCountries = createSelector(
       }
     );
 
-    console.log(filteredCountriesEP);
+    const universitiesInCountryFilter = filteredCountriesEP.reduce(
+      (acc: number[], country) => {
+        return acc.concat(country.universities);
+      },
+      []
+    );
 
-    return filteredCountriesEP;
+    const filteredUniversitiesList = Object.keys(universities).filter((uni) =>
+      universitiesInCountryFilter.includes(parseInt(uni))
+    );
+
+    const filteredUniversities = filteredUniversitiesList.reduce(
+      (
+        acc: {
+          location: {
+            city: string | null;
+            countryCode: string;
+          };
+          name: string;
+          qsRankingInfo: {
+            academic_reputation: number;
+            employment_outcomes: number;
+            international_students: number | null;
+            qs_overall_score: string;
+            rank: string;
+            sustainability: number | null;
+          };
+          tuitionFee: {
+            amount: number | null;
+            provinance: string | null;
+          };
+          website: string;
+        }[],
+        uni
+      ) => {
+        const tempUni = universities[uni];
+        acc.push(tempUni);
+        return acc;
+      },
+      []
+    );
+
+    return {
+      filteredCountries: filteredCountriesEP,
+      filteredUniversities: filteredUniversities,
+    };
   }
 );
 

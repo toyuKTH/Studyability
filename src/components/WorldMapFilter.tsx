@@ -1,15 +1,29 @@
 import { useAppSelector } from "../state/hooks";
-import { getFilteredCountries } from "../state/slices/dataSlice";
+import { getFilteredData } from "../state/slices/dataSlice";
 import "./WorldMapFilter.css";
 
 export default function WorldMapFilter() {
   const filter = useAppSelector((state) => state.filter);
-  const filteredCountries = useAppSelector(getFilteredCountries);
+  const filteredData = useAppSelector(getFilteredData);
 
   return (
     <div className="map-filtering-container">
       <h2>Filtered universities</h2>
-      {Object.values(filteredCountries).length}
+      <div>
+        {Object.values(filteredData.filteredUniversities).length} universities
+        in
+      </div>
+      {Object.values(filteredData.filteredCountries).length} countries
+      {Object.values(filteredData.filteredUniversities).map((uni) => {
+        return (
+          <div>
+            {uni.name}, {uni.location.countryCode}
+          </div>
+        );
+      })}
+      {Object.values(filteredData.filteredCountries).map((country) => {
+        return <div>{country.name}</div>;
+      })}
       <h2>University filters</h2>
       <p>QS Overall Score</p>
       {filter.universityRankings.tuitionFee.amount.domain.map((amount) => {

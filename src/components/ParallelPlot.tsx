@@ -152,7 +152,6 @@ export default function ParallelPlot() {
 
         if (match && match[1]) {
           const number = parseInt(match[1], 10);
-          console.log(Object.values(eventData[0]), "fix error");
           let domain = [];
           if (Object.values(eventData[0])[0]) {
             domain = Object.values(eventData[0])[0][0];
