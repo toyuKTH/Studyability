@@ -73,6 +73,8 @@ interface IDataState {
   universities: IUniversityDB;
 }
 
+const uniNamesSet = new Set();
+
 const initialState: IDataState = {
   cities: {
     ...(data.city_db as ICityDB),
@@ -81,7 +83,16 @@ const initialState: IDataState = {
     ...(data.country_db as ICountryDB),
   },
   universities: {
-    ...(data.uni_db as IUniversityDB),
+    ...Object.keys(data.uni_db).reduce((acc: IUniversityDB, uniId) => {
+      // @ts-ignore
+      const tempUni = data.uni_db[uniId];
+      if (uniNamesSet.has(tempUni.name)) {
+        return acc;
+      }
+      uniNamesSet.add(tempUni.name);
+      acc[uniId] = tempUni;
+      return acc;
+    }, {}),
   },
 };
 
@@ -176,6 +187,30 @@ export const selectUniversitiesMaxMinFilterValues = createSelector(
       })
     );
 
+    const maxRank = Math.max(
+      ...Object.keys(universities).map((key) => {
+        const parsedInt = parseInt(
+          universities[key].qsRankingInfo.rank.split("-")[0]
+        );
+        if (isNaN(parsedInt)) {
+          return 0;
+        }
+        return parsedInt;
+      })
+    );
+
+    const minRank = Math.min(
+      ...Object.keys(universities).map((key) => {
+        const parsedInt = parseInt(
+          universities[key].qsRankingInfo.rank.split("-")[0]
+        );
+        if (isNaN(parsedInt)) {
+          return 0;
+        }
+        return parsedInt;
+      })
+    );
+
     const maxTuitionFee = Math.max(
       ...Object.keys(universities).map(
         (key) => universities[key].tuitionFee.amount || 0
@@ -236,6 +271,10 @@ export const selectUniversitiesMaxMinFilterValues = createSelector(
     );
 
     return {
+      rank: {
+        maxRank,
+        minRank,
+      },
       qsScore: {
         maxQsScore,
         minQsScore,
@@ -362,40 +401,104 @@ export const getFilteredData = createSelector(
       []
     );
 
-    const filteredUniversitiesList = Object.keys(universities).filter((uni) =>
+    let filteredUniversitiesList = Object.keys(universities).filter((uni) =>
       universitiesInCountryFilter.includes(parseInt(uni))
     );
 
-    const filteredUniversities = filteredUniversitiesList.reduce(
-      (
-        acc: {
-          location: {
-            city: string | null;
-            countryCode: string;
-          };
-          name: string;
-          qsRankingInfo: {
-            academic_reputation: number;
-            employment_outcomes: number;
-            international_students: number | null;
-            qs_overall_score: string;
-            rank: string;
-            sustainability: number | null;
-          };
-          tuitionFee: {
-            amount: number | null;
-            provinance: string | null;
-          };
-          website: string;
-        }[],
-        uni
-      ) => {
-        const tempUni = universities[uni];
-        acc.push(tempUni);
-        return acc;
-      },
-      []
-    );
+    const filteredUniversities = filteredUniversitiesList
+      .reduce(
+        (
+          acc: {
+            location: {
+              city: string | null;
+              countryCode: string;
+            };
+            name: string;
+            qsRankingInfo: {
+              academic_reputation: number;
+              employment_outcomes: number;
+              international_students: number | null;
+              qs_overall_score: string;
+              rank: string;
+              sustainability: number | null;
+            };
+            tuitionFee: {
+              amount: number | null;
+              provinance: string | null;
+            };
+            website: string;
+          }[],
+          uni
+        ) => {
+          const tempUni = universities[uni];
+          acc.push(tempUni);
+          return acc;
+        },
+        []
+      )
+      .filter((uni) => {
+        let fitsQS: boolean[] = [];
+        Object.keys(filters.universityRankings.qsRankingInfo).forEach((key) => {
+          // @ts-ignore
+          const domains = filters.universityRankings.qsRankingInfo[key].domain;
+          if (domains.length === 0) {
+            // fitsCostOfLiving.push(true);
+            return;
+          }
+
+          if (key === "rank") {
+            domains.forEach((domain: [number, number]) => {
+              const rank = parseInt(uni.qsRankingInfo[key].split("-")[0]);
+              if (rank <= domain[0] || rank >= domain[1]) {
+                fitsQS.push(false);
+              } else {
+                fitsQS.push(true);
+              }
+            });
+            return;
+          }
+
+          domains.forEach((domain: [number, number]) => {
+            if (
+              // @ts-ignore
+              uni.qsRankingInfo[key] <= domain[0] ||
+              // @ts-ignore
+              uni.qsRankingInfo[key] >= domain[1]
+            ) {
+              fitsQS.push(false);
+            } else {
+              fitsQS.push(true);
+            }
+          });
+        });
+
+        return fitsQS.includes(true);
+      })
+      .filter((uni) => {
+        let fitsTuition: boolean[] = [];
+        const domains = filters.universityRankings.tuitionFee.amount.domain;
+        if (domains.length != 0) {
+          domains.forEach((domain: [number, number]) => {
+            if (!uni.tuitionFee.amount) {
+              fitsTuition.push(false);
+              return;
+            }
+
+            if (
+              uni.tuitionFee.amount <= domain[0] ||
+              uni.tuitionFee.amount >= domain[1]
+            ) {
+              fitsTuition.push(false);
+            } else {
+              fitsTuition.push(true);
+            }
+          });
+        } else {
+          fitsTuition.push(true);
+        }
+
+        return fitsTuition.includes(true);
+      });
 
     return {
       filteredCountries: filteredCountriesEP,

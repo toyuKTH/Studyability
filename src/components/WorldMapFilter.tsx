@@ -16,22 +16,22 @@ export default function WorldMapFilter() {
       {Object.values(filteredData.filteredCountries).length} countries
       {Object.values(filteredData.filteredUniversities).map((uni) => {
         return (
-          <div>
+          <div key={uni.name}>
             {uni.name}, {uni.location.countryCode}
           </div>
         );
       })}
-      {Object.values(filteredData.filteredCountries).map((country) => {
-        return <div>{country.name}</div>;
+      {Object.values(filteredData.filteredCountries).map((country, index) => {
+        return <div key={index}>{country.name}</div>;
       })}
       <h2>University filters</h2>
       <p>QS Overall Score</p>
       {filter.universityRankings.tuitionFee.amount.domain.map((amount) => {
         return (
-          <>
+          <div>
             <div>{amount[0]}</div>
             <div>{amount[0]}</div>
-          </>
+          </div>
         );
       })}
       <h2>Country filters</h2>

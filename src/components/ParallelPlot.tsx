@@ -30,7 +30,7 @@ export default function ParallelPlot() {
       {
         dataset: FilterType.UniversityRankings,
         attribute: FilterAttribute.QSRankingInfo,
-        subAttribute: FilterSubAttribute.QSOverallScore,
+        subAttribute: FilterSubAttribute.Rank,
       },
       {
         dataset: FilterType.UniversityRankings,
@@ -55,10 +55,13 @@ export default function ParallelPlot() {
 
     const dimensions = [
       {
-        range: [minMaxUnis.qsScore.minQsScore, minMaxUnis.qsScore.maxQsScore],
-        label: "qs_score",
+        range: [minMaxUnis.rank.minRank, minMaxUnis.rank.maxRank],
+        label: "rank",
         values: Object.keys(data.universities).map((key) => {
-          return data.universities[key].qsRankingInfo.qs_overall_score;
+          const rankNumber = parseInt(
+            data.universities[key].qsRankingInfo.rank
+          );
+          return rankNumber;
         }),
       },
       {
@@ -77,12 +80,6 @@ export default function ParallelPlot() {
           minMaxCountries.temperature.minTemperature,
           minMaxCountries.temperature.maxTemperature,
         ],
-        // values: Object.keys(data.countries).map((key) => {
-        //   // skip value if it is not a number
-        //   if (!data.countries[key].temperature)
-        //     return minMaxCountries.temperature.minTemperature;
-        //   return data.countries[key].temperature;
-        // }),
         values: Object.keys(data.countries).reduce((acc: number[], key) => {
           if (!data.countries[key].temperature) {
             return acc;
@@ -98,9 +95,6 @@ export default function ParallelPlot() {
           minMaxCountries.englishProficiency.minEnglishProficiency,
           minMaxCountries.englishProficiency.maxEnglishProficiency,
         ],
-        // values: Object.keys(data.countries).map((key) => {
-        //   return data.countries[key].efScore.ef_score;
-        // }),
         values: Object.keys(data.countries).reduce((acc: number[], key) => {
           if (!data.countries[key].efScore.ef_score) {
             return acc;
@@ -125,15 +119,18 @@ export default function ParallelPlot() {
     var plotData = [
       {
         type: "parcoords" as Plotly.PlotType,
-        pad: [80, 80, 80, 80],
+        // pad: [80, 80, 80, 80],
         line: {
           color: Object.keys(data.universities).map((key) => {
-            return data.universities[key].qsRankingInfo.qs_overall_score;
+            const rankNumber = parseInt(
+              data.universities[key].qsRankingInfo.rank
+            );
+            return rankNumber;
           }),
           colorscale: [
-            [70, "red"],
-            [50, "green"],
-            [0, "blue"],
+            [minMaxUnis.rank.maxRank, "red"],
+            [(minMaxUnis.rank.minRank + minMaxUnis.rank.maxRank) / 2, "yellow"],
+            [minMaxUnis.rank.minRank, "green"],
           ],
         },
         dimensions,
