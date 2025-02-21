@@ -138,7 +138,7 @@ export default function ParallelPlot() {
     ];
 
     var layout = {
-      width: 800,
+      width: 600,
     };
 
     Plotly.newPlot(containerRef.current, plotData, layout, {
