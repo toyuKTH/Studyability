@@ -3,6 +3,7 @@ import WorldMap from "./components/WorldMap";
 import WorldMapFilter from "./components/WorldMapFilter";
 import "./App.css";
 import ParallelPlot from "./components/ParallelPlot";
+import ScatterPlot from "./components/ScatterPlot";
 
 function App() {
   const [mapWidth, setMapWidth] = useState(0);
@@ -51,8 +52,13 @@ function App() {
             <WorldMap width={mapWidth} height={mapHeight} />
           )}
         </div>
-        <div className="parallel-plot-container">
-          <ParallelPlot />
+        <div className="plot-group-container">
+          <div className="parallel-plot-container">
+            <ParallelPlot />
+          </div>
+          <div className="scatter-plot-container">
+            <ScatterPlot />
+          </div>
         </div>
       </div>
       <WorldMapFilter />
