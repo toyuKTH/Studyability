@@ -1,11 +1,12 @@
 import * as Plotly from "plotly.js-dist-min";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { getFilteredData } from "../state/slices/dataSlice";
 import { useAppSelector } from "../state/hooks";
 
 export default function ScatterPlot() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const filteredData = useAppSelector(getFilteredData);
+  const {filteredUniversities} = useAppSelector(getFilteredData);
+  const [] = useState({x: 'sustainability', y: 'academic_reputation'});
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -13,33 +14,44 @@ export default function ScatterPlot() {
     const xTitle = "sustainability";
     const yTitle = "academic reputation";
     let x, y, uniMarker;
-    if (filteredData.filteredUniversities.length > 0) {
-      uniMarker = Object.values(filteredData.filteredUniversities).map(
-        (u) => u.name
+    if (filteredUniversities.length > 0) {
+      uniMarker = Object.values(filteredUniversities).map(
+        (u) => `${u.name}, ${u.countryName}`
       );
-      x = Object.values(filteredData.filteredUniversities).map(
+      x = Object.values(filteredUniversities).map(
         (u) => u.sustainability
       );
-      y = Object.values(filteredData.filteredUniversities).map(
+      y = Object.values(filteredUniversities).map(
         (u) => u.academic_reputation
       );
     }
 
-    const plotData = [
-      {
-        mode: "markers",
-        type: "scatter" as Plotly.PlotType,
-        name: "Uni",
-        x: x,
-        y: y,
-        text: uniMarker,
-        marker: { size: 12 },
+    const filteredUniPlot = {
+      mode: "markers",
+      type: "scatter" as Plotly.PlotType,
+      name: "Uni",
+      x: x,
+      y: y,
+      text: uniMarker,
+      marker: { 
+        size: 9,
+        color: '#636EFA'
       },
+      hoverlabel: {
+        bgcolor: '#EA7878',
+        font: {color: '#000'},
+        bordercolor: '#EA7878'
+      },
+    };
+
+    const plotData = [
+      filteredUniPlot,
     ];
 
     const layout = {
-      width: 400,
+      width: '400',
       title: { text: "Scattered Uni" },
+      plot_bgcolor: '#E5ECF6',
       xaxis: {
         title: {
           text: xTitle,
@@ -62,7 +74,7 @@ export default function ScatterPlot() {
       if (!containerRef.current) return;
       Plotly.purge(containerRef.current);
     };
-  }, [containerRef.current, filteredData]);
+  }, [containerRef.current, filteredUniversities]);
 
-  return <div className="scatter-plot" ref={containerRef}></div>;
+  return <div className="scatter-plot-container" ref={containerRef}></div>;
 }
