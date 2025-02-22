@@ -1,35 +1,69 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useRef, useState } from "react";
+import WorldMap from "./components/WorldMap";
+import WorldMapFilter from "./components/WorldMapFilter";
+import "./App.css";
+import ParallelPlot from "./components/ParallelPlot";
+import ScatterPlot from "./components/ScatterPlot";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [mapWidth, setMapWidth] = useState(0);
+  const [mapHeight, setMapHeight] = useState(0);
+
+  const mapDivRef = useRef<HTMLDivElement>(null);
+
+  const resizeTimeout = useRef<number>(0);
+
+  useEffect(() => {
+    if (!mapDivRef.current) return;
+
+    setMapWidth(mapDivRef.current.offsetWidth);
+    setMapHeight(mapDivRef.current.offsetHeight);
+
+    window.addEventListener("resize", handleResizeEvent);
+
+    function handleResizeEvent() {
+      clearTimeout(resizeTimeout.current);
+      resizeTimeout.current = setTimeout(() => {
+        handleResize();
+      }, 200);
+    }
+
+    function handleResize() {
+      if (mapDivRef.current) {
+        setMapWidth(mapDivRef.current.offsetWidth);
+        setMapHeight(mapDivRef.current.offsetHeight);
+      }
+    }
+    return () => window.removeEventListener("resize", handleResizeEvent);
+  }, [mapDivRef.current]);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="App">
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          height: "100%",
+          width: "100%",
+        }}
+      >
+        <div ref={mapDivRef} className="map-container">
+          {mapDivRef.current && (
+            <WorldMap width={mapWidth} height={mapHeight} />
+          )}
+        </div>
+        <div className="plot-group-container">
+          <div className="parallel-plot-container">
+            <ParallelPlot />
+          </div>
+          <div className="scatter-plot-container">
+            <ScatterPlot />
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <WorldMapFilter />
+    </div>
+  );
 }
 
-export default App
+export default App;
