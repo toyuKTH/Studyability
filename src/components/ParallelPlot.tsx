@@ -7,15 +7,11 @@ import {
 import * as Plotly from "plotly.js-dist-min";
 
 import "./ParallelPlot.css";
-import {
-  FilterAttribute,
-  FilterSubAttribute,
-  FilterType,
-  updateFilter,
-} from "../state/slices/filterSlice";
+import { IFilterState, updateFilter } from "../state/slices/filterSlice";
 
 export default function ParallelPlot() {
   const dispatch = useAppDispatch();
+  
   const data = useAppSelector((state) => state.data);
 
   const minMaxUnis = useAppSelector(selectUniversitiesMaxMinFilterValues);
@@ -26,95 +22,102 @@ export default function ParallelPlot() {
   useEffect(() => {
     if (!containerRef.current) return;
 
-    const dimensionDataSets = [
-      {
-        dataset: FilterType.UniversityRankings,
-        attribute: FilterAttribute.QSRankingInfo,
-        subAttribute: FilterSubAttribute.Rank,
-      },
-      {
-        dataset: FilterType.UniversityRankings,
-        attribute: FilterAttribute.TuitionFee,
-        subAttribute: FilterSubAttribute.TuitionFee,
-      },
-      {
-        dataset: FilterType.Countries,
-        attribute: FilterAttribute.Temperature,
-      },
-      {
-        dataset: FilterType.Countries,
-        attribute: FilterAttribute.EfScore,
-        subAttribute: FilterSubAttribute.EFScore,
-      },
-      {
-        dataset: FilterType.Countries,
-        attribute: FilterAttribute.CostOfLiving,
-        subAttribute: FilterSubAttribute.CostOfLivingIndex,
-      },
+    const dimensionDataKeys: (
+      | keyof IFilterState["universityRankings"]
+      | keyof IFilterState["countries"]
+    )[] = [
+      "temperature",
+      "ef_score",
+      "cost_of_living_index",
+      "rank",
+      "tuitionFee",
     ];
 
-    const dimensions = [
-      {
-        range: [minMaxUnis.rank.minRank, minMaxUnis.rank.maxRank],
-        label: "rank",
-        values: Object.keys(data.universities).map((key) => {
-          const rankNumber = parseInt(
-            data.universities[key].qsRankingInfo.rank
+    const dimensions = dimensionDataKeys.map((key) => {
+      let range: [number, number] = [0, 0];
+      let values: number[] = [];
+      let label = "";
+
+      switch (key) {
+        case "rank":
+          range = [minMaxUnis.rank.minRank, minMaxUnis.rank.maxRank];
+          values = Object.keys(data.universities).map((key) => {
+            const rankNumber = parseInt(data.universities[key].rank);
+            if (isNaN(rankNumber)) {
+              return minMaxUnis.rank.maxRank;
+            }
+            return rankNumber;
+          });
+          label = "Rank";
+          break;
+        case "tuitionFee":
+          range = [
+            minMaxUnis.tuitionFee.minTuitionFee,
+            minMaxUnis.tuitionFee.maxTuitionFee,
+          ];
+          values = Object.keys(data.universities).map((key) => {
+            const tuitionFee = data.universities[key].tuitionFee;
+            if (!tuitionFee || isNaN(tuitionFee)) {
+              return minMaxUnis.tuitionFee.minTuitionFee;
+            }
+            return tuitionFee;
+          });
+          label = "Tuition Fee";
+          break;
+        case "temperature":
+          label = "Temperature";
+          range = [
+            minMaxCountries.temperature.minTemperature,
+            minMaxCountries.temperature.maxTemperature,
+          ];
+          values = Object.keys(data.universities).reduce(
+            (acc: number[], key) => {
+              if (!data.universities[key].temperature) {
+                return acc;
+              } else {
+                acc.push(data.universities[key].temperature);
+              }
+              return acc;
+            },
+            []
           );
-          return rankNumber;
-        }),
-      },
-      {
-        range: [
-          minMaxUnis.tuitionFee.minTuitionFee,
-          minMaxUnis.tuitionFee.maxTuitionFee,
-        ],
-        label: "tuition_fee",
-        values: Object.keys(data.universities).map((key) => {
-          return data.universities[key].tuitionFee.amount;
-        }),
-      },
-      {
-        label: "average_temperature",
-        range: [
-          minMaxCountries.temperature.minTemperature,
-          minMaxCountries.temperature.maxTemperature,
-        ],
-        values: Object.keys(data.countries).reduce((acc: number[], key) => {
-          if (!data.countries[key].temperature) {
-            return acc;
-          } else {
-            acc.push(data.countries[key].temperature);
-          }
-          return acc;
-        }, []),
-      },
-      {
-        label: "english_proficiency",
-        range: [
-          minMaxCountries.englishProficiency.minEnglishProficiency,
-          minMaxCountries.englishProficiency.maxEnglishProficiency,
-        ],
-        values: Object.keys(data.countries).reduce((acc: number[], key) => {
-          if (!data.countries[key].efScore.ef_score) {
-            return acc;
-          } else {
-            acc.push(data.countries[key].efScore.ef_score);
-          }
-          return acc;
-        }, []),
-      },
-      {
-        label: "cost_of_living",
-        range: [
-          minMaxCountries.costOfLiving.minCostOfLiving,
-          minMaxCountries.costOfLiving.maxCostOfLiving,
-        ],
-        values: Object.keys(data.countries).map((key) => {
-          return data.countries[key].costOfLiving.cost_of_living_index;
-        }),
-      },
-    ];
+          break;
+        case "ef_score":
+          label = "English Proficiency";
+          range = [
+            minMaxCountries.englishProficiency.minEnglishProficiency,
+            minMaxCountries.englishProficiency.maxEnglishProficiency,
+          ];
+          values = Object.keys(data.universities).reduce(
+            (acc: number[], key) => {
+              if (!data.universities[key].ef_score) {
+                return acc;
+              } else {
+                acc.push(data.universities[key].ef_score);
+              }
+              return acc;
+            },
+            []
+          );
+          break;
+        case "cost_of_living_index":
+          label = "Cost of Living";
+          range = [
+            minMaxCountries.costOfLiving.minCostOfLiving,
+            minMaxCountries.costOfLiving.maxCostOfLiving,
+          ];
+          values = Object.keys(data.universities).map((key) => {
+            return data.universities[key].cost_of_living_index;
+          });
+          break;
+      }
+
+      return {
+        range,
+        label,
+        values,
+      };
+    });
 
     var plotData = [
       {
@@ -122,15 +125,13 @@ export default function ParallelPlot() {
         // pad: [80, 80, 80, 80],
         line: {
           color: Object.keys(data.universities).map((key) => {
-            const rankNumber = parseInt(
-              data.universities[key].qsRankingInfo.rank
-            );
+            const rankNumber = parseInt(data.universities[key].rank);
             return rankNumber;
           }),
           colorscale: [
+            [minMaxUnis.rank.minRank, "green"],
             [minMaxUnis.rank.maxRank, "red"],
             [(minMaxUnis.rank.minRank + minMaxUnis.rank.maxRank) / 2, "yellow"],
-            [minMaxUnis.rank.minRank, "green"],
           ],
         },
         dimensions,
@@ -146,9 +147,9 @@ export default function ParallelPlot() {
     }).then((gd) => {
       gd.on("plotly_restyle", (eventData) => {
         const match = Object.keys(eventData[0])[0].match(/dimensions\[(\d+)\]/);
-
         if (match && match[1]) {
           const number = parseInt(match[1], 10);
+
           let domain = [];
           if (Object.values(eventData[0])[0]) {
             domain = Object.values(eventData[0])[0][0];
@@ -156,11 +157,10 @@ export default function ParallelPlot() {
               domain = [domain];
             }
           }
+
           dispatch(
             updateFilter({
-              filterData: dimensionDataSets[number].dataset,
-              filterAttribute: dimensionDataSets[number].attribute,
-              filterSubAttribute: dimensionDataSets[number].subAttribute,
+              filterAttribute: dimensionDataKeys[number],
               domain,
             })
           );

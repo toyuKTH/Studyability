@@ -13,24 +13,25 @@ export default function WorldMapFilter() {
         {Object.values(filteredData.filteredUniversities).length} universities
         in
       </div>
-      {Object.values(filteredData.filteredCountries).length} countries
-      {Object.values(filteredData.filteredUniversities).map((uni) => {
+      {Object.values(filteredData.filterdCountries).length} countries
+      {/* {Object.values(filteredData.filteredUniversities).map((uni) => {
         return (
           <div key={uni.name}>
-            {uni.name}, {uni.location.countryCode}
+            {uni.name}, {uni.countryCode}
           </div>
         );
       })}
-      {Object.values(filteredData.filteredCountries).map((country, index) => {
+        */}
+      {/* {Object.values(filteredData.filterdCountries).map((country, index) => {
         return <div key={index}>{country.name}</div>;
-      })}
-      <h2>University filters</h2>
+      })} */}
+      <h2>filters</h2>
       <p>QS Overall Score</p>
-      {filter.universityRankings.tuitionFee.amount.domain.map((amount) => {
+      {filter.universityRankings.tuitionFee.domain.map((amount) => {
         return (
           <div>
             <div>{amount[0]}</div>
-            <div>{amount[0]}</div>
+            <div>{amount[1]}</div>
           </div>
         );
       })}
@@ -45,18 +46,16 @@ export default function WorldMapFilter() {
         );
       })}
       <p>Cost of living</p>
-      {filter.countries.costOfLiving.cost_of_living_index.domain.map(
-        (costOfLivingIndex) => {
-          return (
-            <>
-              <div>{costOfLivingIndex[0]}</div>
-              <div>{costOfLivingIndex[1]}</div>
-            </>
-          );
-        }
-      )}
+      {filter.countries.cost_of_living_index.domain.map((costOfLivingIndex) => {
+        return (
+          <>
+            <div>{costOfLivingIndex[0]}</div>
+            <div>{costOfLivingIndex[1]}</div>
+          </>
+        );
+      })}
       <p>English proficiency</p>
-      {filter.countries.efScore.ef_score.domain.map((efScore) => {
+      {filter.countries.ef_score.domain.map((efScore) => {
         return (
           <>
             <div>{efScore[0]}</div>
