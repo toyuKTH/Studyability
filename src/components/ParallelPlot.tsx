@@ -11,7 +11,7 @@ import { IFilterState, updateFilter } from "../state/slices/filterSlice";
 
 export default function ParallelPlot() {
   const dispatch = useAppDispatch();
-  
+
   const data = useAppSelector((state) => state.data);
 
   const minMaxUnis = useAppSelector(selectUniversitiesMaxMinFilterValues);
@@ -73,7 +73,7 @@ export default function ParallelPlot() {
           values = Object.keys(data.universities).reduce(
             (acc: number[], key) => {
               if (!data.universities[key].temperature) {
-                return acc;
+                acc.push(minMaxCountries.temperature.maxTemperature);
               } else {
                 acc.push(data.universities[key].temperature);
               }
@@ -91,7 +91,9 @@ export default function ParallelPlot() {
           values = Object.keys(data.universities).reduce(
             (acc: number[], key) => {
               if (!data.universities[key].ef_score) {
-                return acc;
+                acc.push(
+                  minMaxCountries.englishProficiency.maxEnglishProficiency
+                );
               } else {
                 acc.push(data.universities[key].ef_score);
               }
