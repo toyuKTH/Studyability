@@ -6,6 +6,8 @@ export default function WorldMapFilter() {
   const filter = useAppSelector((state) => state.filter);
   const filteredData = useAppSelector(getFilteredData);
 
+  console.log("filteredData", filteredData);
+
   return (
     <div className="map-filtering-container">
       <h2>Filtered universities</h2>
