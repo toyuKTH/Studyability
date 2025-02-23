@@ -1,16 +1,8 @@
-import * as d3 from "d3";
-import { useEffect, useRef, useState } from "react";
-import useWorldMap from "../hooks/useWorldMap";
-import useHeatMapScale, { IHeatMapScaleConfig } from "../hooks/useHeatMapScale";
+import { useEffect, useRef } from "react";
 import "./WorldMap.css";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
-import CountryTooltip from "./CountryTooltip";
 import { setMapZoomed } from "../state/slices/mapInteractionSlice";
-import mapboxgl, {
-  GeoJSONFeature,
-  GeoJSONSource,
-  TargetFeature,
-} from "mapbox-gl";
+import mapboxgl, { GeoJSONFeature, GeoJSONSource } from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 
