@@ -8,6 +8,7 @@ export const store = configureStore({
     filter: filterSlice,
     mapInteraction: mapInteractionSlice,
     data: dataSlice,
+    uniSelection: uniSelectionSlice
   },
 });
 
