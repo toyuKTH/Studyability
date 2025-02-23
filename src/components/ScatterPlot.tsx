@@ -12,7 +12,7 @@ export default function ScatterPlot() {
 
   const {filteredUniversities} = useAppSelector(getFilteredData);
   const currentUniversity = useAppSelector((state) => state.uniSelection.currentUniversity);
-  const [axisLabels, ] = useState({x: 'employment_outcomes', y: 'academic_reputation'});
+  const [axisLabels, ] = useState({x: 'sustainability', y: 'academic_reputation'});
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -109,7 +109,8 @@ export default function ScatterPlot() {
       .then((sc) => {
         sc.on('plotly_click', (eventData) => {
           if (eventData.points[0].data.name == '') {
-            dispatch(setCurrentUniversity(eventData.points[0].customdata as typeof filteredUniversities[0]));
+            const selectedUniversity = eventData.points[0].customdata as unknown;
+            dispatch(setCurrentUniversity(selectedUniversity as typeof filteredUniversities[0]));
           }
           if (eventData.points[0].data.name == 'Selected') {
             dispatch(setCurrentUniversity(null));

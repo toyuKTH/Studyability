@@ -15,10 +15,10 @@ export const uniSelectionSlice = createSlice({
     name: 'uniSelection',
     initialState,
     reducers: {
-        setCurrentUniversity: (state, action: PayloadAction<string | null>) => {
+        setCurrentUniversity: (state, action: PayloadAction<IUniversity | null>) => {
             state.currentUniversity = action.payload;
         },
-        setUniToCompare: (state, action: PayloadAction<string[] | null>) => {
+        setUniToCompare: (state, action: PayloadAction<IUniversity[] | null>) => {
             state.uniToCompare = action.payload;
         }
     }
