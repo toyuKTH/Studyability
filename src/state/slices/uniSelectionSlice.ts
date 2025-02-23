@@ -3,12 +3,12 @@ import { IUniversity } from "./dataSlice";
 
 interface IUniSelectionState {
     currentUniversity: IUniversity | null;
-    uniToCompare: IUniversity[] | null;
+    uniToCompare: IUniversity[];
 }
 
 const initialState: IUniSelectionState = {
     currentUniversity: null,
-    uniToCompare: null
+    uniToCompare: []
 }
 
 export const uniSelectionSlice = createSlice({
@@ -18,13 +18,16 @@ export const uniSelectionSlice = createSlice({
         setCurrentUniversity: (state, action: PayloadAction<IUniversity | null>) => {
             state.currentUniversity = action.payload;
         },
-        setUniToCompare: (state, action: PayloadAction<IUniversity[] | null>) => {
-            state.uniToCompare = action.payload;
+        addUniToCompare: (state, action: PayloadAction<IUniversity>) => {
+            state.uniToCompare.push(action.payload);
+        },
+        removeUniToCompare: () => {
+            /* To do */
         }
     }
 });
 
-export const { setCurrentUniversity, setUniToCompare} =
+export const { setCurrentUniversity, addUniToCompare, removeUniToCompare} =
   uniSelectionSlice.actions;
 
 export default uniSelectionSlice.reducer;
