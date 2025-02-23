@@ -64,7 +64,7 @@ interface IUniversityBase {
   };
   website: string;
 }
-interface IUniversity {
+export interface IUniversity {
   city: string | null;
   countryCode: keyof typeof data.country_db;
   cost_of_living_index: number;

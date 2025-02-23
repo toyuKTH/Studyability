@@ -2,6 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import filterSlice from "./slices/filterSlice";
 import mapInteractionSlice from "./slices/mapInteractionSlice";
 import dataSlice from "./slices/dataSlice";
+import uniSelectionSlice from "./slices/uniSelectionSlice";
 // ...
 
 export const store = configureStore({
@@ -9,6 +10,7 @@ export const store = configureStore({
     filter: filterSlice,
     mapInteraction: mapInteractionSlice,
     data: dataSlice,
+    uniSelection: uniSelectionSlice
   },
 });
 
