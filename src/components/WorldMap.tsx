@@ -6,9 +6,19 @@ import "./WorldMap.css";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
 import CountryTooltip from "./CountryTooltip";
 import { setMapZoomed } from "../state/slices/mapInteractionSlice";
-import mapboxgl, { GeoJSONFeature, TargetFeature } from "mapbox-gl";
+import mapboxgl, {
+  GeoJSONFeature,
+  GeoJSONSource,
+  TargetFeature,
+} from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
+
+interface IStudiabilityFeatureProperties {
+  st_university: string;
+  st_rank: number;
+  st_country_code: string;
+}
 
 export const WorldMap = ({
   width,
@@ -33,11 +43,143 @@ export const WorldMap = ({
     mapboxgl.accessToken = mapToken;
 
     mapRef.current = new mapboxgl.Map({
-      container: mapContainerRef.current,
-      style: "mapbox://styles/gianlucabeltran/cm74xnf5b007d01r31e4r0pex",
-      center: [0, 0],
-      zoom: 1,
+      projection: "mercator",
       renderWorldCopies: false,
+      container: mapContainerRef.current,
+      style: "mapbox://styles/mapbox/dark-v11",
+      center: [0, 70],
+      zoom: 0,
+    });
+
+    mapRef.current.on("load", () => {
+      if (!mapRef.current) return;
+
+      mapRef.current.addSource("uni_locations", {
+        type: "geojson",
+        data: "./data/GeoJSON/UniCleanedGeojson/unis_point_geometry.geojson",
+        cluster: true,
+        clusterMaxZoom: 14,
+        clusterRadius: 50,
+      });
+
+      mapRef.current.addLayer({
+        id: "clusters",
+        type: "circle",
+        source: "uni_locations",
+        filter: ["has", "point_count"],
+        paint: {
+          "circle-color": [
+            "step",
+            ["get", "point_count"],
+            "#51bbd6",
+            100,
+            "#f1f075",
+            750,
+            "#f28cb1",
+          ],
+          "circle-radius": [
+            "step",
+            ["get", "point_count"],
+            20,
+            100,
+            30,
+            750,
+            40,
+          ],
+        },
+      });
+
+      mapRef.current.addLayer({
+        id: "cluster-count",
+        type: "symbol",
+        source: "uni_locations",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": ["get", "point_count_abbreviated"],
+          "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+          "text-size": 12,
+        },
+      });
+
+      mapRef.current.addLayer({
+        id: "unclustered-point",
+        type: "circle",
+        source: "uni_locations",
+        filter: ["!", ["has", "point_count"]],
+        paint: {
+          "circle-color": "#11b4da",
+          "circle-radius": 4,
+          "circle-stroke-width": 1,
+          "circle-stroke-color": "#fff",
+        },
+      });
+
+      // inspect a cluster on click
+      mapRef.current.on("click", "clusters", (e) => {
+        if (!mapRef.current) return;
+
+        const features = mapRef.current.queryRenderedFeatures(e.point, {
+          layers: ["clusters"],
+        });
+        if (!features[0].properties) return;
+
+        const clusterId = features[0].properties.cluster_id;
+
+        const source = mapRef.current.getSource(
+          "uni_locations"
+        ) as GeoJSONSource;
+
+        if (!source) return;
+
+        source.getClusterExpansionZoom(clusterId, (err, zoom) => {
+          if (err) return;
+
+          if (!mapRef.current) return;
+
+          const geometry = features[0].geometry as GeoJSON.Point;
+
+          mapRef.current.easeTo({
+            center: geometry?.coordinates as [number, number],
+            zoom: zoom || undefined,
+          });
+        });
+      });
+
+      // When a click event occurs on a feature in
+      // the unclustered-point layer, open a popup at
+      // the location of the feature, with
+      // description HTML from its properties.
+      mapRef.current.on("click", "unclustered-point", (e) => {
+        if (!mapRef.current || !e.features) return;
+
+        const geometry = e.features[0].geometry as GeoJSON.Point;
+        const properties = e.features[0]
+          .properties as IStudiabilityFeatureProperties;
+        const coordinates = geometry.coordinates;
+        const name = properties.st_university;
+        const rank = properties.st_rank;
+
+        // Ensure that if the map is zoomed out such that
+        // multiple copies of the feature are visible, the
+        // popup appears over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+        new mapboxgl.Popup()
+          .setLngLat(coordinates as [number, number])
+          .setHTML(`Name: ${name}<br>Rank: ${rank}`)
+          .addTo(mapRef.current);
+      });
+
+      mapRef.current.on("mouseenter", "clusters", () => {
+        if (!mapRef.current) return;
+        mapRef.current.getCanvas().style.cursor = "pointer";
+      });
+      mapRef.current.on("mouseleave", "clusters", () => {
+        if (!mapRef.current) return;
+        mapRef.current.getCanvas().style.cursor = "";
+      });
     });
 
     const handleZoom = () => {
@@ -133,13 +275,7 @@ export const WorldMap = ({
 
     return () => {
       if (mapRef.current) {
-        mapRef.current.off("zoom", handleZoom);
-        mapRef.current.off("mousemove", "country-boundaries", handleMouseMove);
-        mapRef.current.off(
-          "mouseleave",
-          "country-boundaries",
-          handleMouseLeave
-        );
+        mapRef.current.remove();
       }
     };
   }, []);
@@ -157,7 +293,7 @@ export const WorldMap = ({
           <button onClick={handleResetZoom}>reset map position</button>
         )}
       </div>
-      <div ref={mapContainerRef} style={{ width, height }} />
+      <div ref={mapContainerRef} style={{ width, height, color: "black" }} />
     </div>
   );
 };
