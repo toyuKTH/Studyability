@@ -25,3 +25,6 @@ dist-ssr
 *.ipynb_checkpoints/
 
 .env
+
+./data/GeoJSON/studyability/*
+./data/GeoJSON/UniGeoJsonDataMultiPolygon/*
