@@ -2524,8 +2524,8 @@
             "country": "Slovenia",
             "country_code": "SI",
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "High Proficiency",
+                "ef_score": 585.0
             },
             "name": "Ljubljana",
             "temperature": 10.9,
@@ -3343,8 +3343,8 @@
             "country": "Montenegro",
             "country_code": "ME",
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Moderate Proficiency",
+                "ef_score": 510.0
             },
             "name": "Podgorica",
             "temperature": 15.3,
@@ -3362,8 +3362,8 @@
             "country": "Trinidad and Tobago",
             "country_code": "TT",
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "High Proficiency",
+                "ef_score": 555.0
             },
             "name": "Port of Spain",
             "temperature": null,
@@ -3618,8 +3618,8 @@
             "country": "Iceland",
             "country_code": "IS",
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Very High Proficiency",
+                "ef_score": 620.0
             },
             "name": "Reykjavik",
             "temperature": null,
@@ -3639,8 +3639,8 @@
             "country": "Latvia",
             "country_code": "LV",
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "High Proficiency",
+                "ef_score": 580.0
             },
             "name": "Riga",
             "temperature": 6.2,
@@ -3909,8 +3909,8 @@
             "country": "Bosnia and Herzegovina",
             "country_code": "BA",
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Moderate Proficiency",
+                "ef_score": 505.0
             },
             "name": "Sarajevo",
             "temperature": 10.1,
@@ -4071,8 +4071,8 @@
             "country": "North Macedonia",
             "country_code": "MK",
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Low Proficiency",
+                "ef_score": 495.0
             },
             "name": "Skopje",
             "temperature": 12.4,
@@ -4228,8 +4228,8 @@
             "country": "Taiwan",
             "country_code": "TW",
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Moderate Proficiency",
+                "ef_score": 545.0
             },
             "name": "Taipei",
             "temperature": 23.0,
@@ -5137,8 +5137,8 @@
                 "restaurant_price_index": 23.6
             },
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Moderate Proficiency",
+                "ef_score": 505.0
             },
             "name": "Bosnia and Herzegovina",
             "temperature": 10.1,
@@ -5235,8 +5235,8 @@
                 "restaurant_price_index": null
             },
             "efScore": {
-                "ef_level": "Very Low Proficiency",
-                "ef_score": 393.0
+                "ef_level": "High Proficiency",
+                "ef_score": 575.0
             },
             "name": "Brunei",
             "temperature": null,
@@ -6413,8 +6413,8 @@
                 "restaurant_price_index": 89.3
             },
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Very High Proficiency",
+                "ef_score": 620.0
             },
             "name": "Iceland",
             "temperature": null,
@@ -6838,8 +6838,8 @@
                 "restaurant_price_index": 48.8
             },
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "High Proficiency",
+                "ef_score": 580.0
             },
             "name": "Latvia",
             "temperature": 6.2,
@@ -6895,8 +6895,8 @@
                 "restaurant_price_index": 30.1
             },
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Moderate Proficiency",
+                "ef_score": 510.0
             },
             "name": "Montenegro",
             "temperature": 15.3,
@@ -6912,8 +6912,8 @@
                 "restaurant_price_index": 24.3
             },
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Low Proficiency",
+                "ef_score": 495.0
             },
             "name": "North Macedonia",
             "temperature": 12.4,
@@ -6929,8 +6929,8 @@
                 "restaurant_price_index": null
             },
             "efScore": {
-                "ef_level": "Very Low Proficiency",
-                "ef_score": 392.0
+                "ef_level": "Very High Proficiency",
+                "ef_score": 615.0
             },
             "name": "Malta",
             "temperature": null,
@@ -7326,8 +7326,8 @@
                 "restaurant_price_index": null
             },
             "efScore": {
-                "ef_level": "Very Low Proficiency",
-                "ef_score": 391.0
+                "ef_level": "High Proficiency",
+                "ef_score": 565.0
             },
             "name": "Puerto Rico",
             "temperature": null,
@@ -7596,8 +7596,8 @@
                 "restaurant_price_index": 48.4
             },
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "High Proficiency",
+                "ef_score": 585.0
             },
             "name": "Slovenia",
             "temperature": 10.9,
@@ -7737,8 +7737,8 @@
                 "restaurant_price_index": 50.3
             },
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "High Proficiency",
+                "ef_score": 555.0
             },
             "name": "Trinidad and Tobago",
             "temperature": null,
@@ -7754,8 +7754,8 @@
                 "restaurant_price_index": 26.8
             },
             "efScore": {
-                "ef_level": null,
-                "ef_score": null
+                "ef_level": "Moderate Proficiency",
+                "ef_score": 545.0
             },
             "name": "Taiwan",
             "temperature": 23.0,
