@@ -1,15 +1,18 @@
-import { useAppSelector } from "../state/hooks";
-import SelectedUniversity from "./SelectedUniversity";
-import WelcomeBox from "./WelcomeBox";
+import { useAppSelector } from '../state/hooks';
+import SelectedUniversity from './SelectedUniversity';
+import WelcomeBox from './WelcomeBox';
+import './TopSidebar.css';
 
 function TopSidebar() {
-    const currentUniversity = useAppSelector((state) => state.uniSelection.currentUniversity);
-    return (
-        <div className="top-sidebar-container">
-            {currentUniversity==null && <WelcomeBox/>}
-            {currentUniversity!=null && <SelectedUniversity/>}
-        </div>
-    );
+  const currentUniversity = useAppSelector(
+    (state) => state.uniSelection.currentUniversity
+  );
+  return (
+    <div className='top-sidebar-container'>
+      {currentUniversity == null && <WelcomeBox />}
+      {currentUniversity != null && <SelectedUniversity />}
+    </div>
+  );
 }
 
 export default TopSidebar;
