@@ -5225,6 +5225,26 @@
                 669
             ]
         },
+        "BN": {
+            "costOfLiving": {
+                "cost_of_living_index": null,
+                "cost_of_living_plus_rent_index": null,
+                "groceries_index": null,
+                "local_purchasing_power_index": null,
+                "rent_index": null,
+                "restaurant_price_index": null
+            },
+            "efScore": {
+                "ef_level": "Very Low Proficiency",
+                "ef_score": 393.0
+            },
+            "name": "Brunei",
+            "temperature": null,
+            "universities": [
+                385,
+                562
+            ]
+        },
         "BR": {
             "costOfLiving": {
                 "cost_of_living_index": 35.0,
@@ -6899,6 +6919,25 @@
             "temperature": 12.4,
             "universities": []
         },
+        "MT": {
+            "costOfLiving": {
+                "cost_of_living_index": null,
+                "cost_of_living_plus_rent_index": null,
+                "groceries_index": null,
+                "local_purchasing_power_index": null,
+                "rent_index": null,
+                "restaurant_price_index": null
+            },
+            "efScore": {
+                "ef_level": "Very Low Proficiency",
+                "ef_score": 392.0
+            },
+            "name": "Malta",
+            "temperature": null,
+            "universities": [
+                761
+            ]
+        },
         "MX": {
             "costOfLiving": {
                 "cost_of_living_index": 48.2,
@@ -7275,6 +7314,25 @@
                 1378,
                 1393,
                 1396
+            ]
+        },
+        "PR": {
+            "costOfLiving": {
+                "cost_of_living_index": null,
+                "cost_of_living_plus_rent_index": null,
+                "groceries_index": null,
+                "local_purchasing_power_index": null,
+                "rent_index": null,
+                "restaurant_price_index": null
+            },
+            "efScore": {
+                "ef_level": "Very Low Proficiency",
+                "ef_score": 391.0
+            },
+            "name": "Puerto Rico",
+            "temperature": null,
+            "universities": [
+                1133
             ]
         },
         "PT": {
