@@ -7,7 +7,7 @@ from fuzzywuzzy import fuzz
 # but only keep the universities that match the ones in the university_db
 
 pathRawData = './data/GeoJSON/UniGeoJsonDataMultiPolygon'
-outputPath = './data/UniCleanedGeojson/cleaned_universities_points.geojson'
+outputPath = './data/GeoJSON/UniCleanedGeojson/cleaned_universities_points.geojson'
 rawFiles = sorted(os.listdir(pathRawData))
 
 # shape of the final json
@@ -28,6 +28,8 @@ print("Number of universities in the university_db: ", len(universityNames), "\n
 print("Fuzzy name matching ratio threshold: ") 
 fuzzyThreshold = int(input())
 
+fuzzyNamesAboveThreshold = []
+
 def checkIfUniNamesMatch(feature):
     for name in featureNameColumns:
         if name in feature['properties'] and feature['properties'][name] in universityNames:
@@ -36,7 +38,9 @@ def checkIfUniNamesMatch(feature):
         if name in feature['properties']:
             for uni in universityNames:
                 uniFromFeature = feature['properties'][name]
-                if fuzz.ratio(uni, uniFromFeature) >= fuzzyThreshold:
+                fuzzRatio = fuzz.ratio(uni, uniFromFeature)
+                if fuzzRatio >= fuzzyThreshold:
+                    fuzzyNamesAboveThreshold.append({"ourUni": uni, "featureUni": uniFromFeature, "ratio": fuzzRatio})
                     return True
     return False
 
@@ -54,6 +58,8 @@ def getUniversityName(feature):
     return None
 
 for file in rawFiles:
+    if not file.endswith('.geojson'):
+        continue
     print("Processing file: ", file)
     geoJsonDf = pd.read_json(f'{pathRawData}/{file}')
 
@@ -85,6 +91,19 @@ for file in rawFiles:
 # ask user if they want to write the final json to a file
 print("Do you want to write the final json to a file? (y/n)")
 userInput = input()
+
+fuzzyNameJsonObject = {
+    "fuzzyThreshold": fuzzyThreshold,
+    "fuzzyNamesAboveThreshold": fuzzyNamesAboveThreshold
+}
+
+print("Do you want to write the fuzzy name matching results to a file? (y/n)")
+userInputFuzzy = input()
+
+if userInputFuzzy == 'y':
+    with open('./data/GeoJSON/UniCleanedGeojson/fuzzy_name_matching.json', 'w') as f:
+        json.dump(fuzzyNameJsonObject, f)
+    print("Wrote the fuzzy name matching results to: ./data/GeoJSON/UniCleanedGeojson/fuzzy_name_matching.json")
 
 if userInput != 'y':
     print("Exiting without writing to file,", len(finalJson['features']), " universities")
