@@ -4,6 +4,7 @@ import WorldMapFilter from "./components/WorldMapFilter";
 import "./App.css";
 import ParallelPlot from "./components/ParallelPlot";
 import ScatterPlot from "./components/ScatterPlot";
+import TopSidebar from "./components/TopSidebar";
 
 function App() {
   const [mapWidth, setMapWidth] = useState(0);
@@ -39,14 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          height: "100%",
-          width: "100%",
-        }}
-      >
+      <div className="center-area-container">
         <div ref={mapDivRef} className="map-container">
           {mapDivRef.current && (
             <WorldMap width={mapWidth} height={mapHeight} />
@@ -61,7 +55,10 @@ function App() {
           </div>
         </div>
       </div>
-      <WorldMapFilter />
+      <div className="right-sidebar-container">
+        <TopSidebar />
+        <WorldMapFilter />
+      </div>
     </div>
   );
 }

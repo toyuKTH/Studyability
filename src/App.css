@@ -46,3 +46,21 @@ body {
   height: 40%;
   background: #91A09B;
 }
+
+.center-area-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.right-sidebar-container {
+  flex: 1;
+  height: 100%;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  background: #91A09B;
+  color: #000;
+}
