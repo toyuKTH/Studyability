@@ -1,0 +1,10 @@
+.top-sidebar-container {
+  height: 600px;
+  padding: 10px;
+}
+
+.top-sidebar-container h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 24px;
+}
