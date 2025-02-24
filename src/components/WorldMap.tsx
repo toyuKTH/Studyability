@@ -1,15 +1,20 @@
 import { useEffect, useRef } from "react";
 import "./WorldMap.css";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
-import { setMapZoomed } from "../state/slices/mapInteractionSlice";
+import {
+  flyToUniComplete,
+  setMapZoomed,
+} from "../state/slices/mapInteractionSlice";
 import mapboxgl, { GeoJSONFeature, GeoJSONSource } from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
+import { getFilteredData } from "../state/slices/dataSlice";
 
 interface IStudiabilityFeatureProperties {
   st_university: string;
   st_rank: number;
   st_country_code: string;
+  website?: string;
 }
 
 export const WorldMap = ({
@@ -22,6 +27,9 @@ export const WorldMap = ({
   const mapToken = import.meta.env.VITE_MAP_BOX_TOKEN;
 
   const dispatch = useAppDispatch();
+
+  const filteredData = useAppSelector(getFilteredData);
+  const flyToUni = useAppSelector((state) => state.mapInteraction.flyToUni);
 
   const zoomed = useAppSelector((state) => state.mapInteraction.mapZoomed);
 
@@ -158,9 +166,17 @@ export const WorldMap = ({
           coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
 
+        const uniWebsite = properties.website;
+
         new mapboxgl.Popup()
           .setLngLat(coordinates as [number, number])
-          .setHTML(`Name: ${name}<br>Rank: ${rank}`)
+          .setHTML(
+            `Name: ${name}<br>Rank: ${rank}${
+              uniWebsite
+                ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
+                : ""
+            }`
+          )
           .addTo(mapRef.current);
       });
 
@@ -182,88 +198,10 @@ export const WorldMap = ({
         } else {
           dispatch(setMapZoomed(false));
         }
-
-        if (zoom > 4) {
-          mapRef.current.setLayoutProperty(
-            "country-boundaries",
-            "visibility",
-            "none"
-          );
-        } else {
-          mapRef.current.setLayoutProperty(
-            "country-boundaries",
-            "visibility",
-            "visible"
-          );
-        }
       }
     };
-
-    // const handleMouseEnter = (e: mapboxgl.MapMouseEvent) => {
-    //   if (featureRef.current) {
-    //     mapRef.current.setFeatureState(featureRef.current, {
-    //       ["state"]: false,
-    //     });
-    //   }
-    //   if (!e.features) return;
-    //   featureRef.current = e.features[0];
-    //   mapRef.current.setFeatureState(featureRef.current, { ["state"]: true });
-    // };
-
-    // const handleMouseLeave = () => {
-    //   if (featureRef.current) {
-    //     mapRef.current.setFeatureState(featureRef.current, {
-    //       ["state"]: false,
-    //     });
-    //     featureRef.current = null;
-    //   }
-    // };
-
-    const handleMouseMove = (e: mapboxgl.MapMouseEvent) => {
-      if (!mapRef.current) return;
-
-      if (e.features) {
-        if (featureRef.current?.id === e.features[0].id) return;
-
-        if (featureRef.current) {
-          mapRef.current.setFeatureState(featureRef.current, {
-            ["state"]: false,
-          });
-        }
-
-        featureRef.current = e.features[0];
-        mapRef.current.setFeatureState(featureRef.current, {
-          ["state"]: true,
-        });
-      }
-    };
-
-    const handleMouseLeave = (e: mapboxgl.MapMouseEvent) => {
-      if (!mapRef.current) return;
-
-      if (featureRef.current) {
-        mapRef.current.setFeatureState(featureRef.current, {
-          ["state"]: false,
-        });
-        featureRef.current = null;
-      }
-    };
-
-    mapRef.current.on("mousemove", "country-boundaries", handleMouseMove);
-
-    mapRef.current.on("mouseleave", "country-boundaries", handleMouseLeave);
-
-    // mapRef.current.on("mouseenter", "country-boundaries", handleMouseEnter);
-
-    // mapRef.current.on("mouseleave", "country-boundaries", handleMouseLeave);
-
-    // const handleCountryHover = (event: mapboxgl.MapMouseEvent) => {
-    //   const country = event.features?.[0].properties?.name;
-    //   console.log("hover", country);
-    // };
 
     mapRef.current.on("zoom", handleZoom);
-    // mapRef.current.on("mousemove", "country-boundaries", handleCountryHover);
 
     return () => {
       if (mapRef.current) {
@@ -271,6 +209,54 @@ export const WorldMap = ({
       }
     };
   }, []);
+
+  useEffect(() => {
+    if (!mapRef.current || !flyToUni) return;
+
+    const name = flyToUni.name;
+    const countryCode = flyToUni.countryCode;
+
+    fetch(`./data/GeoJSON/UniCleanedGeojson/unis_point_geometry.geojson`).then(
+      (res) =>
+        res.json().then((data) => {
+          data.features.forEach((feature: GeoJSONFeature) => {
+            const properties =
+              feature.properties as IStudiabilityFeatureProperties;
+            if (
+              properties.st_university === name &&
+              properties.st_country_code === countryCode
+            ) {
+              const geometry = feature.geometry as GeoJSON.Point;
+              mapRef.current
+                ?.flyTo({
+                  center: geometry.coordinates as [number, number],
+                  zoom: 15,
+                  duration: 5000,
+                  curve: 1.42,
+                  easing: (t) => t,
+                })
+                .once("moveend", () => {
+                  const uniWebsite = properties.website;
+                  new mapboxgl.Popup()
+                    .setLngLat(geometry.coordinates as [number, number])
+                    .setHTML(
+                      `Name: ${name}<br>Rank: ${properties.st_rank}${
+                        uniWebsite
+                          ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
+                          : ""
+                      }`
+                    )
+                    .addTo(mapRef.current!);
+
+                  dispatch(flyToUniComplete());
+                });
+            } else {
+              dispatch(flyToUniComplete());
+            }
+          });
+        })
+    );
+  }, [flyToUni]);
 
   const handleResetZoom = () => {
     if (mapRef.current) {

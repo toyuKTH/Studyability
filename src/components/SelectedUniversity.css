@@ -2,6 +2,14 @@
   padding: 5px;
 }
 
+.selected-university-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  /* border-bottom: 1px solid #ccc; */
+}
+
 .selected-university-title {
   text-align: center;
 }
