@@ -12,22 +12,27 @@ const initialState: IUniSelectionState = {
 }
 
 export const uniSelectionSlice = createSlice({
-    name: 'uniSelection',
-    initialState,
-    reducers: {
-        setCurrentUniversity: (state, action: PayloadAction<IUniversity | null>) => {
-            state.currentUniversity = action.payload;
-        },
-        addUniToCompare: (state, action: PayloadAction<IUniversity>) => {
-            state.uniToCompare.push(action.payload);
-        },
-        removeUniToCompare: () => {
-            /* To do */
-        }
-    }
+  name: 'uniSelection',
+  initialState,
+  reducers: {
+    setCurrentUniversity: (
+      state,
+      action: PayloadAction<IUniversity | null>
+    ) => {
+      state.currentUniversity = action.payload;
+    },
+    addUniToCompare: (state, action: PayloadAction<IUniversity>) => {
+      state.uniToCompare.push(action.payload);
+    },
+    removeUniToCompare: (state, action: PayloadAction<IUniversity>) => {
+      state.uniToCompare = [...state.uniToCompare].filter((uni) => {
+        return Object.is(uni, action.payload);
+      });
+    },
+  },
 });
 
-export const { setCurrentUniversity, addUniToCompare, removeUniToCompare} =
+export const { setCurrentUniversity, addUniToCompare, removeUniToCompare } =
   uniSelectionSlice.actions;
 
 export default uniSelectionSlice.reducer;
