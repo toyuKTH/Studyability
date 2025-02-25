@@ -780,6 +780,7 @@
 771-780,"Yokohama City University",8000,estimated
 771-780,"Addis Ababa University",500,estimated
 771-780,"Colegio de México",1000,estimated
+771-780,"China University Of Geosciences",3600,estimated
 781-790,"Babes-Bolyai University",4000,estimated
 781-790,"Kasetsart University",5000,estimated
 781-790,"Qassim University",4000,estimated
@@ -886,7 +887,10 @@
 851-900,"University of Palermo",10000,estimated
 851-900,"University of Santo Tomas",5000,estimated
 851-900,"University of Wroclaw",5000,estimated
-851-900,"Viet Nam National University Ho Chi Minh City (VNU-HCM)",5000,estimated
+851-900,"Vietnam National University, Hanoi",5000,estimated
+851-900,"Vilnius Gediminas Technical University",5410,official
+851-900,"Virginia Commonwealth University",32000,official
+851-900,"Yildiz Technical University",850,official
 851-900,"Worcester Polytechnic Institute",55000,estimated
 851-900,"Wroclaw University of Science and Technology (WRUST)",4000,estimated
 851-900,"Yerevan State University",2000,estimated
@@ -951,6 +955,12 @@
 901-950,"University of Alabama, Birmingham",15000,official
 901-950,"University of Hail",7000,estimated
 901-950,"University of Peshawar",1000,estimated
+901-950,"Catania University",1700,estimated
+901-950,"German Jordanian University",5000,official
+901-950,"Imam Mohammad Ibn Saud Islamic University – Imsiu",8500,estimated
+901-950,"Louisiana State University",29000,estimated
+901-950,"Kanazawa University",3600,official
+901-950,"Makerere University",4000,estimated
 951-1000,"University of Parma",647,scrape-topuniversities
 951-1000,"Baku State University",1500,scrape-topuniversities
 951-1000,"King Mongkut's University of Technology Thonburi",3360,scrape-topuniversities
@@ -1178,6 +1188,7 @@
 1001-1200,"Nanjing Normal University",1500,estimated
 1001-1200,"Hungarian University of Agriculture and Life Sciences",1500,estimated
 1001-1200,"International Islamic University Islamabad (IIU)",2000,estimated
+1001-1200,"Harbin Engineering University",4600,official
 1001-1200,"Jiangnan University",2000,estimated
 1001-1200,"Mykolas Romeris University",1500,estimated
 1001-1200,"Narxoz University",1500,estimated
