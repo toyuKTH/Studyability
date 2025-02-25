@@ -1,9 +1,10 @@
-import * as Plotly from "plotly.js-dist-min";
-import { useEffect, useRef, useState } from "react";
-import { getFilteredData } from "../state/slices/dataSlice";
-import { useAppDispatch, useAppSelector } from "../state/hooks";
-import { titleCase } from "../helpers/stringUtils";
-import { setCurrentUniversity } from "../state/slices/uniSelectionSlice";
+import * as Plotly from 'plotly.js-dist-min';
+import { useEffect, useRef, useState } from 'react';
+import { getFilteredData } from '../state/slices/dataSlice';
+import { useAppDispatch, useAppSelector } from '../state/hooks';
+import { titleCase } from '../helpers/stringUtils';
+import { setCurrentUniversity } from '../state/slices/uniSelectionSlice';
+import './ScatterPlot.css';
 
 export default function ScatterPlot() {
   const containerRef = useRef<HTMLDivElement>(null);

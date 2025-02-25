@@ -1,70 +1,65 @@
-import { useAppSelector } from "../state/hooks";
-import { getFilteredData } from "../state/slices/dataSlice";
-import "./WorldMapFilter.css";
+import { useAppSelector } from '../state/hooks';
+import { getFilteredData, IUniversity } from '../state/slices/dataSlice';
+import UniversityRow from './UniversityRow';
+import './WorldMapFilter.css';
 
 export default function WorldMapFilter() {
-  const filter = useAppSelector((state) => state.filter);
-  const filteredData = useAppSelector(getFilteredData);
+  let { filteredUniversities } = useAppSelector(getFilteredData);
+  const currentUniversity = useAppSelector(
+    (state) => state.uniSelection.currentUniversity
+  );
+  const uniToCompare = useAppSelector(
+    (state) => state.uniSelection.uniToCompare
+  );
+  let isCurrentUniSelected = false;
+  let comparedUniversities = [] as IUniversity[];
 
-  console.log("filteredData", filteredData);
+  if (uniToCompare.length > 0) {
+    comparedUniversities = [...uniToCompare].filter((uni) => {
+      return filteredUniversities.includes(uni);
+    });
+    filteredUniversities = [...filteredUniversities].filter((uni) => {
+      return !uniToCompare.includes(uni);
+    });
+    if (currentUniversity != null) {
+      isCurrentUniSelected = uniToCompare.indexOf(currentUniversity) !== -1;
+    }
+  }
+
+  const mapUniversityRow =
+    (isSelectedToCompare: boolean) => (uni: IUniversity, index: number) => {
+      return (
+        <UniversityRow
+          uni={uni}
+          isSelectedToCompare={isSelectedToCompare}
+          key={`uni-${index}`}
+        />
+      );
+    };
+
+  const mapCurrentUniversity = mapUniversityRow(isCurrentUniSelected);
 
   return (
-    <div className="map-filtering-container">
-      <h2>Filtered universities</h2>
-      <div>
-        {Object.values(filteredData.filteredUniversities).length} universities
-        in
+    <div
+      className='filtering-list-container'
+      style={currentUniversity != null ? { minHeight: '40%' } : {}}
+    >
+      <div className='map-filtering-title'>
+        <h2>University List</h2>
       </div>
-      {Object.values(filteredData.filterdCountries).length} countries
-      {/* {Object.values(filteredData.filteredUniversities).map((uni) => {
-        return (
-          <div key={uni.name}>
-            {uni.name}, {uni.countryCode}
-          </div>
-        );
-      })}
-        */}
-      {/* {Object.values(filteredData.filterdCountries).map((country, index) => {
-        return <div key={index}>{country.name}</div>;
-      })} */}
-      <h2>filters</h2>
-      <p>QS Overall Score</p>
-      {filter.universityRankings.tuitionFee.domain.map((amount) => {
-        return (
-          <div>
-            <div>{amount[0]}</div>
-            <div>{amount[1]}</div>
-          </div>
-        );
-      })}
-      <h2>Country filters</h2>
-      <p>Temperature</p>
-      {filter.countries.temperature.domain.map((temperature) => {
-        return (
-          <>
-            <div>{temperature[0]}</div>
-            <div>{temperature[1]}</div>
-          </>
-        );
-      })}
-      <p>Cost of living</p>
-      {filter.countries.cost_of_living_index.domain.map((costOfLivingIndex) => {
-        return (
-          <>
-            <div>{costOfLivingIndex[0]}</div>
-            <div>{costOfLivingIndex[1]}</div>
-          </>
-        );
-      })}
-      <p>English proficiency</p>
-      {filter.countries.ef_score.domain.map((efScore) => {
-        return (
-          <>
-            <div>{efScore[0]}</div>
-            <div>{efScore[1]}</div>
-          </>
-        );
-      })}
+      <div className='map-filtering-body'>
+        <table>
+          <tbody>
+            {currentUniversity != null &&
+              mapCurrentUniversity(currentUniversity, 0)}
+            {currentUniversity == null &&
+              comparedUniversities.length > 0 &&
+              comparedUniversities.map(mapUniversityRow(true))}
+            {currentUniversity == null &&
+              filteredUniversities.map(mapUniversityRow(false))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
