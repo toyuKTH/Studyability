@@ -1,8 +1,9 @@
-import { useAppDispatch } from '../state/hooks';
+import { useAppDispatch, useAppSelector } from '../state/hooks';
 import { IUniversity } from '../state/slices/dataSlice';
 import {
   addUniToCompare,
   removeUniToCompare,
+  setCurrentUniversity,
 } from '../state/slices/uniSelectionSlice';
 
 export default function UniversityRow({
@@ -14,9 +15,22 @@ export default function UniversityRow({
 }>) {
   const dispatch = useAppDispatch();
 
+  const currentUniversity = useAppSelector(
+    (state) => state.uniSelection.currentUniversity
+  );
+
+  const isCurrentUniversity = Object.is(currentUniversity, uni);
+
   return (
     <tr className='university-list-item'>
-      <td>
+      <td
+        className='university-list-label'
+        onClick={
+          isCurrentUniversity
+            ? () => dispatch(setCurrentUniversity(null))
+            : () => dispatch(setCurrentUniversity(uni))
+        }
+      >
         {uni.name}, <strong>{uni.countryName}</strong>
       </td>
       <td>
