@@ -12,10 +12,14 @@ export default function WorldMapFilter() {
     (state) => state.uniSelection.uniToCompare
   );
   let isCurrentUniSelected = false;
+  let comparedUniversities = [] as IUniversity[];
 
   if (uniToCompare.length > 0) {
+    comparedUniversities = [...uniToCompare].filter((uni) => {
+      return filteredUniversities.includes(uni);
+    });
     filteredUniversities = [...filteredUniversities].filter((uni) => {
-      return uniToCompare.indexOf(uni) === -1;
+      return !uniToCompare.includes(uni);
     });
     if (currentUniversity != null) {
       isCurrentUniSelected = uniToCompare.indexOf(currentUniversity) !== -1;
@@ -49,8 +53,8 @@ export default function WorldMapFilter() {
             {currentUniversity != null &&
               mapCurrentUniversity(currentUniversity, 0)}
             {currentUniversity == null &&
-              uniToCompare.length > 0 &&
-              uniToCompare.map(mapUniversityRow(true))}
+              comparedUniversities.length > 0 &&
+              comparedUniversities.map(mapUniversityRow(true))}
             {currentUniversity == null &&
               filteredUniversities.map(mapUniversityRow(false))}
           </tbody>
