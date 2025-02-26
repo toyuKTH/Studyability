@@ -8,14 +8,21 @@ function SelectedUniversity() {
   const currentUniversity = useAppSelector(
     (state) => state.uniSelection.currentUniversity
   );
+
+  const flyToUniStatus = useAppSelector(
+    (state) => state.mapInteraction.flyToUni.state
+  );
+
   const dispatch = useAppDispatch();
 
   return (
     <div className="selected-university-container">
       <div className="selected-university-header">
-        <button onClick={() => dispatch(flyToUni(currentUniversity!))}>
-          fly to
-        </button>
+        {currentUniversity && flyToUniStatus === "idle" && (
+          <button onClick={() => dispatch(flyToUni(currentUniversity))}>
+            fly to
+          </button>
+        )}
         <button className="cancel-selection" onClick={cancelUniSelection}>
           <svg
             width="30"

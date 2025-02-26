@@ -37,9 +37,11 @@ export default function ParallelPlot() {
       let range: [number, number] = [0, 0];
       let values: number[] = [];
       let label = "";
+      let constraintRange: [number, number] | null = null;
 
       switch (key) {
         case "rank":
+          constraintRange = [1, 50];
           range = [minMaxUnis.rank.minRank, minMaxUnis.rank.maxRank];
           values = Object.keys(data.universities).map((key) => {
             const rankNumber = parseInt(data.universities[key].rank);
@@ -118,6 +120,7 @@ export default function ParallelPlot() {
         range,
         label,
         values,
+        constraintrange: constraintRange,
       };
     });
 

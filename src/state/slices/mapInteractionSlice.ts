@@ -5,14 +5,20 @@ interface IMapInteractionState {
   hoveredCountry: string | null;
   selectedCountry: string | null;
   mapZoomed: boolean;
-  flyToUni: IUniversity | null;
+  flyToUni: {
+    state: "idle" | "flying";
+    uni: IUniversity | null;
+  };
 }
 
 const initialState: IMapInteractionState = {
   hoveredCountry: null,
   selectedCountry: null,
   mapZoomed: false,
-  flyToUni: null,
+  flyToUni: {
+    state: "idle",
+    uni: null,
+  },
 };
 
 export const mapInteractionSlice = createSlice({
@@ -29,10 +35,16 @@ export const mapInteractionSlice = createSlice({
       state.mapZoomed = action.payload;
     },
     flyToUni: (state, action: PayloadAction<IUniversity>) => {
-      state.flyToUni = action.payload;
+      state.flyToUni = {
+        state: "flying",
+        uni: action.payload,
+      };
     },
     flyToUniComplete: (state) => {
-      state.flyToUni = null;
+      state.flyToUni = {
+        state: "idle",
+        uni: null,
+      };
     },
   },
 });

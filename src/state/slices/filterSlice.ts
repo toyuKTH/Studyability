@@ -42,7 +42,7 @@ const initialState: IFilterState = {
       domain: [],
     },
     rank: {
-      domain: [],
+      domain: [[1, 50]],
     },
     sustainability: {
       domain: [],
@@ -101,15 +101,12 @@ export const filterSlice = createSlice({
       }>
     ) => {
       const { filterAttribute, domain } = action.payload;
-      console.log("filterAttribute", filterAttribute);
-      console.log("domain", domain);
+
       if (filterAttribute in state.universityRankings) {
-        console.log("in universityRankings");
         state.universityRankings[
           filterAttribute as keyof IFilterState["universityRankings"]
         ].domain = domain;
       } else if (filterAttribute in state.countries) {
-        console.log("in countries");
         state.countries[
           filterAttribute as keyof IFilterState["countries"]
         ].domain = domain;
