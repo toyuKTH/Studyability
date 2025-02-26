@@ -11,7 +11,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { getFilteredData } from "../state/slices/dataSlice";
 import { fetchGeoJSON } from "../helpers/fetchGeoJSON";
 
-interface IStudiabilityFeatureProperties {
+export interface IStudiabilityFeatureProperties {
   st_university: string;
   st_rank: number;
   st_country_code: string;
@@ -36,7 +36,8 @@ export const WorldMap = ({
 
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
-  const featureRef = useRef<GeoJSONFeature | null>(null);
+
+  const popUpRefs = useRef<mapboxgl.Popup[]>([]);
 
   useEffect(() => {
     if (!mapContainerRef.current) return;
@@ -207,7 +208,7 @@ export const WorldMap = ({
 
         const uniWebsite = properties.website;
 
-        new mapboxgl.Popup()
+        const popup = new mapboxgl.Popup()
           .setLngLat(coordinates as [number, number])
           .setHTML(
             `Name: ${name}<br>Rank: ${rank}${
@@ -217,6 +218,8 @@ export const WorldMap = ({
             }`
           )
           .addTo(mapRef.current);
+
+        popUpRefs.current.push(popup);
       });
 
       mapRef.current.on("mouseenter", "clusters", () => {
@@ -241,6 +244,11 @@ export const WorldMap = ({
     };
 
     mapRef.current.on("zoom", handleZoom);
+    mapRef.current.on("closeAllPopups", () => {
+      popUpRefs.current.forEach((popup) => {
+        popup.remove();
+      });
+    });
 
     return () => {
       if (mapRef.current) {
@@ -252,57 +260,52 @@ export const WorldMap = ({
   useEffect(() => {
     if (!mapRef.current || flyToUni.state !== "flying" || !flyToUni.uni) return;
 
-    const name = flyToUni.uni.name;
-    const countryCode = flyToUni.uni.countryCode;
+    const geometry = flyToUni.uni.geometry as GeoJSON.Point;
+    const properties = flyToUni.uni
+      .properties as IStudiabilityFeatureProperties;
 
-    const fetchJSON = async () => {
-      try {
-        const data = await fetchGeoJSON(
-          `./data/GeoJSON/UniCleanedGeojson/unis_point_geometry.geojson`
-        );
+    if (!geometry || !properties) {
+      dispatch(flyToUniComplete());
+      return;
+    }
 
-        data.features.forEach((feature: GeoJSONFeature) => {
-          const properties =
-            feature.properties as IStudiabilityFeatureProperties;
-          if (
-            properties.st_university === name &&
-            properties.st_country_code === countryCode
-          ) {
-            const geometry = feature.geometry as GeoJSON.Point;
-            mapRef.current
-              ?.flyTo({
-                center: geometry.coordinates as [number, number],
-                zoom: 15,
-                duration: 5000,
-                curve: 1.42,
-                easing: (t) => t,
-              })
-              .once("moveend", () => {
-                const uniWebsite = properties.website;
-                new mapboxgl.Popup()
-                  .setLngLat(geometry.coordinates as [number, number])
-                  .setHTML(
-                    `Name: ${name}<br>Rank: ${properties.st_rank}${
-                      uniWebsite
-                        ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
-                        : ""
-                    }`
-                  )
-                  .addTo(mapRef.current!);
+    mapRef.current.fire("closeAllPopups");
 
-                dispatch(flyToUniComplete());
-              });
-          } else {
-            // dispatch(flyToUniComplete());
-          }
-        });
-      } catch (error) {
-        console.error("Error fetching GeoJSON:", error);
-        return null;
+    mapRef.current
+      ?.flyTo({
+        center: geometry.coordinates as [number, number],
+        zoom: 15,
+        duration: 5000,
+        curve: 1.42,
+        easing: (t) => t,
+      })
+      .once("moveend", () => {
+        const uniWebsite = properties.website;
+
+        const popup = new mapboxgl.Popup()
+          .setLngLat(geometry.coordinates as [number, number])
+          .setHTML(
+            `Name: ${properties.st_university}<br>Rank: ${properties.st_rank}${
+              uniWebsite
+                ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
+                : ""
+            }`
+          )
+          .addTo(mapRef.current!);
+
+        popUpRefs.current.push(popup);
+
+        dispatch(flyToUniComplete());
+      })
+      .once("dragstart", () => {
+        dispatch(flyToUniComplete());
+      });
+
+    return () => {
+      if (mapRef.current) {
+        // mapRef.current.stop();
       }
     };
-
-    fetchJSON();
   }, [flyToUni]);
 
   useEffect(() => {
