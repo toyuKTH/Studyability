@@ -42,7 +42,7 @@ export default function ParallelPlot() {
       switch (key) {
         case "rank":
           constraintRange = [1, 50];
-          range = [minMaxUnis.rank.minRank, minMaxUnis.rank.maxRank];
+          range = [minMaxUnis.rank.maxRank, minMaxUnis.rank.minRank];
           values = Object.keys(data.universities).map((key) => {
             const rankNumber = parseInt(data.universities[key].rank);
             if (isNaN(rankNumber)) {
