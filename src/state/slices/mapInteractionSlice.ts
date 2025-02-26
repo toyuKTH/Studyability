@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { IUniversity } from "./dataSlice";
+import { GeoJSONFeature } from "mapbox-gl";
 
 interface IMapInteractionState {
   hoveredCountry: string | null;
@@ -7,7 +7,7 @@ interface IMapInteractionState {
   mapZoomed: boolean;
   flyToUni: {
     state: "idle" | "flying";
-    uni: IUniversity | null;
+    uni: GeoJSONFeature | null;
   };
 }
 
@@ -25,37 +25,21 @@ export const mapInteractionSlice = createSlice({
   name: "mapInteraction",
   initialState,
   reducers: {
-    setHoveredCountry: (state, action: PayloadAction<string | null>) => {
-      state.hoveredCountry = action.payload;
-    },
-    setSelectedCountry: (state, action: PayloadAction<string | null>) => {
-      state.selectedCountry = action.payload;
-    },
     setMapZoomed: (state, action: PayloadAction<boolean>) => {
       state.mapZoomed = action.payload;
     },
-    flyToUni: (state, action: PayloadAction<IUniversity>) => {
-      state.flyToUni = {
-        state: "flying",
-        uni: action.payload,
-      };
+    flyToUni: (state, action: PayloadAction<any>) => {
+      state.flyToUni.uni = action.payload;
+      state.flyToUni.state = "flying";
     },
     flyToUniComplete: (state) => {
-      state.flyToUni = {
-        state: "idle",
-        uni: null,
-      };
+      state.flyToUni.state = "idle";
     },
   },
 });
 
-export const {
-  setHoveredCountry,
-  setSelectedCountry,
-  setMapZoomed,
-  flyToUni,
-  flyToUniComplete,
-} = mapInteractionSlice.actions;
+export const { setMapZoomed, flyToUni, flyToUniComplete } =
+  mapInteractionSlice.actions;
 
 // Other code such as selectors can use the imported `RootState` type
 // export const selectCount = (state: RootState) => state.counter.value;
