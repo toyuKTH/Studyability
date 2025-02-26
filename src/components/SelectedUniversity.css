@@ -12,6 +12,14 @@
 
 .selected-university-title {
   text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.selected-university-element {
+  font-size: 14px;
 }
 
 button.cancel-selection {

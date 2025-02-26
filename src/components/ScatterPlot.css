@@ -1,7 +1,51 @@
 .scatter-plot-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
+  display: inline-flex;
+  background-color: #fff;
+  flex-direction: row;
+  overflow: hidden;
+
+  .scatter-y-wrapper {
+    color: black;
+    font-weight: 200;
+    min-width: 34px;
+    .scatter-y-selector {
+      padding: 2px;
+      float: left;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .scatter-y-label {
+      writing-mode: tb-rl;
+      transform: rotate(180deg);
+      text-align: center;
+      cursor: pointer;
+      margin-top: 50px;
+      margin-left: 10px;
+      img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .scatter-plot-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .scatter-x-label {
+      color: black;
+      text-align: center;
+      cursor: pointer;
+      font-weight: 200;
+      vertical-align: middle;
+    }
+  }
+}
+
+.scatter-plot-chart {
+  display: inline-flex;
+  width: 90%;
+  height: 90%;
   justify-content: center;
   align-items: center;
 }
