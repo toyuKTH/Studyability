@@ -252,7 +252,7 @@ export const selectUniversitiesMaxMinFilterValues = createSelector(
       })
     );
 
-    const maxRank = Math.max(
+    const maxRank = Math.min(
       ...Object.keys(universities).map((key) => {
         const parsedInt = parseInt(universities[key].rank.split("-")[0]);
         if (isNaN(parsedInt)) {
@@ -262,7 +262,7 @@ export const selectUniversitiesMaxMinFilterValues = createSelector(
       })
     );
 
-    const minRank = Math.min(
+    const minRank = Math.max(
       ...Object.keys(universities).map((key) => {
         const parsedInt = parseInt(universities[key].rank.split("-")[0]);
         if (isNaN(parsedInt)) {
