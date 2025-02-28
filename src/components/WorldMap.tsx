@@ -12,9 +12,8 @@ import { getFilteredData } from "../state/slices/dataSlice";
 import { fetchGeoJSON } from "../helpers/fetchGeoJSON";
 
 export interface IStudiabilityFeatureProperties {
-  st_university: string;
-  st_rank: number;
-  st_country_code: string;
+  university_id: number;
+  university_name: string;
   website?: string;
 }
 
@@ -49,7 +48,7 @@ export const WorldMap = ({
     const fetchJSON = async () => {
       try {
         const data = await fetchGeoJSON(
-          `./data/GeoJSON/UniCleanedGeojson/unis_point_geometry.geojson`
+          `./data/GeoJSON/osm_search/cleaned_demo_v4.geojson`
         );
 
         const filteredGeoJSON = data.features.filter(
@@ -57,9 +56,7 @@ export const WorldMap = ({
             const properties =
               feature.properties as IStudiabilityFeatureProperties;
             return filteredData.filteredUniversities.some(
-              (uni) =>
-                uni.name === properties.st_university &&
-                uni.countryCode === properties.st_country_code
+              (uni) => uni.name === properties.university_name
             );
           }
         );
@@ -87,7 +84,7 @@ export const WorldMap = ({
 
       mapRef.current.addSource("uni_locations", {
         type: "geojson",
-        data: "./data/GeoJSON/UniCleanedGeojson/unis_point_geometry.geojson",
+        data: "./data/GeoJSON/osm_search/cleaned_demo_v4.geojson",
         cluster: true,
         clusterMaxZoom: 14,
         clusterRadius: 50,
@@ -196,8 +193,8 @@ export const WorldMap = ({
         const properties = e.features[0]
           .properties as IStudiabilityFeatureProperties;
         const coordinates = geometry.coordinates;
-        const name = properties.st_university;
-        const rank = properties.st_rank;
+        const name = properties.university_name;
+        const rank = properties.university_id;
 
         // Ensure that if the map is zoomed out such that
         // multiple copies of the feature are visible, the
@@ -285,7 +282,9 @@ export const WorldMap = ({
         const popup = new mapboxgl.Popup()
           .setLngLat(geometry.coordinates as [number, number])
           .setHTML(
-            `Name: ${properties.st_university}<br>Rank: ${properties.st_rank}${
+            `Name: ${properties.university_name}<br>Rank: ${
+              properties.university_id
+            }${
               uniWebsite
                 ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
                 : ""
@@ -318,7 +317,7 @@ export const WorldMap = ({
     const fetchJSON = async () => {
       try {
         const data = await fetchGeoJSON(
-          `./data/GeoJSON/UniCleanedGeojson/unis_point_geometry.geojson`
+          `./data/GeoJSON/osm_search/cleaned_demo_v4.geojson`
         );
 
         const filteredGeoJSON = data.features.filter(
@@ -326,9 +325,7 @@ export const WorldMap = ({
             const properties =
               feature.properties as IStudiabilityFeatureProperties;
             return filteredData.filteredUniversities.some(
-              (uni) =>
-                uni.name === properties.st_university &&
-                uni.countryCode === properties.st_country_code
+              (uni) => uni.name === properties.university_name
             );
           }
         );

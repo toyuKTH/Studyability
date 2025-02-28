@@ -1,7 +1,7 @@
 export async function fetchGeoJSON(url?: string) {
   try {
     const response = await fetch(
-      url || `./data/GeoJSON/UniCleanedGeojson/unis_point_geometry.geojson`
+      url || `./data/GeoJSON/osm_search/cleaned_demo_v4.geojson`
     );
     const geoJSON = await response.json();
 
