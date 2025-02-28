@@ -124,7 +124,7 @@ export default function ParallelPlot() {
       };
     });
 
-    var plotData = [
+    const plotData = [
       {
         type: "parcoords" as Plotly.PlotType,
         // pad: [80, 80, 80, 80],
@@ -140,10 +140,15 @@ export default function ParallelPlot() {
           ],
         },
         dimensions,
+        unselected: {
+          line: {
+            opacity: 0.02,
+          },
+        },
       },
     ];
 
-    var layout = {
+    const layout = {
       width: 600,
     };
 
