@@ -17,7 +17,16 @@ export default function ParallelPlot() {
   const minMaxUnis = useAppSelector(selectUniversitiesMaxMinFilterValues);
   const minMaxCountries = useAppSelector(selectCountriesMaxMinFilterValues);
 
+  const isPlotHighlighted = useAppSelector(
+    (state) => state.highlightInteraction.isParaplotHighlighted
+  );
+
   const containerRef = useRef<HTMLDivElement>(null);
+
+  let paperBGColor = "#fff";
+  if (isPlotHighlighted) {
+    paperBGColor = "#7d9ff5";
+  }
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -157,6 +166,7 @@ export default function ParallelPlot() {
         r: "50",
         l: "55",
       },
+      paper_bgcolor: paperBGColor,
     };
 
     Plotly.newPlot(containerRef.current, plotData, layout, {
@@ -191,7 +201,7 @@ export default function ParallelPlot() {
       if (!containerRef.current) return;
       Plotly.purge(containerRef.current);
     };
-  }, [containerRef.current]);
+  }, [containerRef.current, paperBGColor]);
 
-  return <div className="plot-container" ref={containerRef} id="graph"></div>;
+  return <div className='plot-container' ref={containerRef} id='graph'></div>;
 }
