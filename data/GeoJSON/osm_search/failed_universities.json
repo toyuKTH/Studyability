@@ -1,0 +1,1952 @@
+[
+    {
+        "university_id": 6,
+        "university_name": "Eth Zurich - Swiss Federal Institute Of Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Eth%20Zurich%20-%20Swiss%20Federal%20Institute%20Of%20Technology%20Zurich%20CH&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 11,
+        "university_name": "University Of California, Berkeley (Ucb)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20California%2C%20Berkeley%20%20Berkeley%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 14,
+        "university_name": "Nanyang Technological University, Singapore (Ntu)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Nanyang%20Technological%20University%2C%20Singapore%20%20Singapore%20SG&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 18,
+        "university_name": "The University Of New South Wales (Unsw Sydney)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20University%20Of%20New%20South%20Wales%20%20Sydney%20AU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 35,
+        "university_name": "The Chinese University Of Hong Kong (Cuhk)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20Chinese%20University%20Of%20Hong%20Kong%20%20Hong%20Kong%20HK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 41,
+        "university_name": "University Of California, Los Angeles (Ucla)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20California%2C%20Los%20Angeles%20%20Los%20Angeles%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 51,
+        "university_name": "The London School Of Economics And Political Science (Lse)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20London%20School%20Of%20Economics%20And%20Political%20Science%20%20London%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 68,
+        "university_name": "The University Of Warwick",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20University%20Of%20Warwick%20Coventry%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 69,
+        "university_name": "University Of Illinois At Urbana-Champaign",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Illinois%20At%20Urbana-Champaign%20Urbana%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 81,
+        "university_name": "The University Of Adelaide",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20University%20Of%20Adelaide%20Adelaide%20AU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 84,
+        "university_name": "Tokyo Institute Of Technology (Tokyo Tech)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Tokyo%20Institute%20Of%20Technology%20%20Tokyo%20JP&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 86,
+        "university_name": "Trinity College Dublin, The University Of Dublin",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Trinity%20College%20Dublin%2C%20The%20University%20Of%20Dublin%20Dublin%20IE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 92,
+        "university_name": "Pontificia Universidad Cat\u00f3lica De Chile (Uc)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Pontificia%20Universidad%20Cat%C3%B3lica%20De%20Chile%20%20Santiago%20CL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 94,
+        "university_name": "Universidad Nacional Aut\u00f3noma De M\u00e9xico (Unam)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Nacional%20Aut%C3%B3noma%20De%20M%C3%A9xico%20%20Brussels%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 101,
+        "university_name": "Kit, Karlsruhe Institute Of Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Kit%2C%20Karlsruhe%20Institute%20Of%20Technology%20Karlsruhe%20DE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 129,
+        "university_name": "University Of California, Davis",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20California%2C%20Davis%20Davis%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 131,
+        "university_name": "Sapienza University Of Rome",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Sapienza%20University%20Of%20Rome%20Rome%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 148,
+        "university_name": "King Abdulaziz University (Kau)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=King%20Abdulaziz%20University%20%20Jeddah%20SA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 155,
+        "university_name": "University Of North Carolina, Chapel Hill",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20North%20Carolina%2C%20Chapel%20Hill%20Chapel%20Hill%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 157,
+        "university_name": "Erasmus University Rotterdam",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Erasmus%20University%20Rotterdam%20Rotterdam%20NL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 163,
+        "university_name": "Complutense University Of Madrid",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Complutense%20University%20Of%20Madrid%20Madrid%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 169,
+        "university_name": "The University Of Exeter",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20University%20Of%20Exeter%20Exeter%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 177,
+        "university_name": "University Of California, Santa Barbara (Ucsb)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20California%2C%20Santa%20Barbara%20%20Santa%20Barbara%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 178,
+        "university_name": "The University Of Newcastle, Australia (Uon)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20University%20Of%20Newcastle%2C%20Australia%20%20Newcastle%20AU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 182,
+        "university_name": "Hamad Bin Khalifa University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Hamad%20Bin%20Khalifa%20University%20Doha%20QA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 186,
+        "university_name": "\u00c9cole Normale Sup\u00e9rieure De Lyon",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=%C3%89cole%20Normale%20Sup%C3%A9rieure%20De%20Lyon%20Lyon%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 192,
+        "university_name": "Queen'S University At Kingston",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Queen%27S%20University%20At%20Kingston%20Kingston%20CA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 201,
+        "university_name": "Khalifa University Of Science And Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Khalifa%20University%20Of%20Science%20And%20Technology%20Xi%27an%20AE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 204,
+        "university_name": "Ecole Des Ponts Paristech",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Ecole%20Des%20Ponts%20Paristech%20Champs-sur-Marne%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 217,
+        "university_name": "University Of Maryland, College Park",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Maryland%2C%20College%20Park%20College%20Park%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 231,
+        "university_name": "Universidade Estadual De Campinas (Unicamp)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Estadual%20De%20Campinas%20%20Campinas%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 241,
+        "university_name": "Technical University Of Darmstadt",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Technical%20University%20Of%20Darmstadt%20Darmstadt%20DE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 248,
+        "university_name": "University Of Navarra",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Navarra%20Pamplona%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 249,
+        "university_name": "American University Of Beirut (Aub)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=American%20University%20Of%20Beirut%20%20Beirut%20LB&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 253,
+        "university_name": "University Of G\u00f6ttingen",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20G%C3%B6ttingen%20G%C3%B6ttingen%20DE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 255,
+        "university_name": "Bandung Institute Of Technology (Itb)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Bandung%20Institute%20Of%20Technology%20%20Bandung%20ID&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 261,
+        "university_name": "University Of Canterbury | Te Whare W?Nanga O Waitaha",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Canterbury%20%7C%20Te%20Whare%20W%3FNanga%20O%20Waitaha%20Christchurch%20NZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 262,
+        "university_name": "Indian Institute Of Technology Kanpur (Iitk)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Indian%20Institute%20Of%20Technology%20Kanpur%20%20Kanpur%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 265,
+        "university_name": "Universitat Pompeu Fabra (Barcelona)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universitat%20Pompeu%20Fabra%20%20Barcelona%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 280,
+        "university_name": "The Hebrew University Of Jerusalem",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20Hebrew%20University%20Of%20Jerusalem%20Jerusalem%20IL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 285,
+        "university_name": "Universidad Carlos Iii De Madrid (Uc3M)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Carlos%20Iii%20De%20Madrid%20%20Lleida%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 292,
+        "university_name": "The University Of Arizona",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20University%20Of%20Arizona%20Tucson%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 297,
+        "university_name": "Bauman Moscow State Technical University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Bauman%20Moscow%20State%20Technical%20University%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 308,
+        "university_name": "Goethe-University Frankfurt Am Main",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Goethe-University%20Frankfurt%20Am%20Main%20Frankfurt%20DE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 314,
+        "university_name": "Quaid-I-Azam University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Quaid-I-Azam%20University%20Islamabad%20PK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 320,
+        "university_name": "L.N. Gumilyov Eurasian National University (Enu)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=L.N.%20Gumilyov%20Eurasian%20National%20University%20%20Pretoria%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 322,
+        "university_name": "Universidad Polit\u00e9cnica De Madrid (Upm)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Polit%C3%A9cnica%20De%20Madrid%20%20Lleida%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 325,
+        "university_name": "Daegu Gyeongbuk Institute Of Science And Technology (Dgist)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Daegu%20Gyeongbuk%20Institute%20Of%20Science%20And%20Technology%20%20Daegu%20KR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 330,
+        "university_name": "Renmin (People'S) University Of China",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Renmin%20%20University%20Of%20China%20Beijing%20CN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 336,
+        "university_name": "Lappeenranta-Lahti University Of Technology Lut",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Lappeenranta-Lahti%20University%20Of%20Technology%20Lut%20Lappeenranta%20FI&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 347,
+        "university_name": "University Of Naples - Federico Ii",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Naples%20-%20Federico%20Ii%20Naples%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 352,
+        "university_name": "National University Of Sciences And Technology (Nust) Islamabad",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20University%20Of%20Sciences%20And%20Technology%20%20Islamabad%20Islamabad%20PK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 365,
+        "university_name": "University Of Illinois At Chicago (Uic)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Illinois%20At%20Chicago%20%20Chicago%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 372,
+        "university_name": "Universitat Polit\u00e8cnica De Catalunya \u00b7 Barcelonatech (Upc)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universitat%20Polit%C3%A8cnica%20De%20Catalunya%20%C2%B7%20Barcelonatech%20%20Castro%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 381,
+        "university_name": "University Of Pisa",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Pisa%20Pisa%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 389,
+        "university_name": "University Of Cyprus (Ucy)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Cyprus%20%20Nicosia%20CY&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 391,
+        "university_name": "National Taiwan University Of Science And Technology (Taiwan Tech)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20Taiwan%20University%20Of%20Science%20And%20Technology%20%20Taipei%20TW&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 392,
+        "university_name": "National And Kapodistrian University Of Athens",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20And%20Kapodistrian%20University%20Of%20Athens%20Athens%20GR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 394,
+        "university_name": "University Of Rome \"Tor Vergata\"",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Rome%20%22Tor%20Vergata%22%20Rome%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 400,
+        "university_name": "Kazan (Volga Region) Federal University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Kazan%20%20Federal%20University%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 404,
+        "university_name": "Institut National Des Sciences Appliqu\u00e9es De Lyon (Insa)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Institut%20National%20Des%20Sciences%20Appliqu%C3%A9es%20De%20Lyon%20%20Lyon%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 407,
+        "university_name": "Birkbeck, University Of London",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Birkbeck%2C%20University%20Of%20London%20London%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 418,
+        "university_name": "Bo?Azi\u00e7i University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Bo%3FAzi%C3%A7i%20University%20Istanbul%20TR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 425,
+        "university_name": "Ipb University (A.K.A. Bogor Agricultural University)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Ipb%20University%20%20Pretoria%20ID&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 426,
+        "university_name": "Leibniz University Hannover",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Leibniz%20University%20Hannover%20Hanover%20DE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 428,
+        "university_name": "Central South University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Central%20South%20University%20Changsha%20CN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 445,
+        "university_name": "Justus-Liebig-University Giessen",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Justus-Liebig-University%20Giessen%20Giessen%20DE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 455,
+        "university_name": "Moscow Institute Of Physics And Technology (Mipt / Moscow Phystech)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Moscow%20Institute%20Of%20Physics%20And%20Technology%20%20Moscow%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 460,
+        "university_name": "Universidad De Santiago De Chile (Usach)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Santiago%20De%20Chile%20%20Santiago%20CL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 480,
+        "university_name": "Aix-Marseille University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Aix-Marseille%20University%20Marseille%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 484,
+        "university_name": "American University Of Ras Al Khaimah ( Aurak )",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=American%20University%20Of%20Ras%20Al%20Khaimah%20%20Washington%20AE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 487,
+        "university_name": "University Of Hawai?I At M?Noa",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Hawai%3FI%20At%20M%3FNoa%20Honolulu%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 494,
+        "university_name": "Central Queensland University (Cquniversity Australia)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Central%20Queensland%20University%20%20Rockhampton%20AU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 495,
+        "university_name": "Duy Tan University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Duy%20Tan%20University%20Da%20Nang%20VN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 497,
+        "university_name": "National Research Nuclear University Mephi (Moscow Engineering Physics Institute)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20Research%20Nuclear%20University%20Mephi%20%20Moscow%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 511,
+        "university_name": "Beihang University (Former Buaa)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Beihang%20University%20%20Beijing%20CN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 512,
+        "university_name": "Imam Abdulrahman Bin Faisal University (Iau) (Formerly University Of Dammam)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Imam%20Abdulrahman%20Bin%20Faisal%20University%20%20%20Dammam%20SA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 513,
+        "university_name": "Prince Mohammad Bin Fahd University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Prince%20Mohammad%20Bin%20Fahd%20University%20Cairo%20SA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 514,
+        "university_name": "University Of Milano-Bicocca",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Milano-Bicocca%20Milan%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 531,
+        "university_name": "Indian Institute Of Technology (Bhu) Varanasi",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Indian%20Institute%20Of%20Technology%20%20Varanasi%20Varanasi%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 533,
+        "university_name": "Universidad Nacional De La Plata (Unlp)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Nacional%20De%20La%20Plata%20%20Melbourne%20AR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 534,
+        "university_name": "Lahore University Of Management Sciences (Lums)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Lahore%20University%20Of%20Management%20Sciences%20%20Pretoria%20PK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 535,
+        "university_name": "Northumbria University At Newcastle",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Northumbria%20University%20At%20Newcastle%20Newcastle%20upon%20Tyne%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 536,
+        "university_name": "University Of Bordeaux",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Bordeaux%20Bordeaux%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 538,
+        "university_name": "Applied Science University - Bahrain",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Applied%20Science%20University%20-%20Bahrain%20Cairo%20BH&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 547,
+        "university_name": "Tashkent Institute Of Irrigation And Agricultural Mechanization Engineers - National Research University (Tiiame-Nru)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Tashkent%20Institute%20Of%20Irrigation%20And%20Agricultural%20Mechanization%20Engineers%20-%20National%20Research%20University%20%20Pretoria%20UZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 554,
+        "university_name": "Jordan University Of Science & Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Jordan%20University%20Of%20Science%20%26%20Technology%20Irbid%20JO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 568,
+        "university_name": "Mgimo University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Mgimo%20University%20Miami%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 569,
+        "university_name": "University Of Chemistry And Technology, Prague",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Chemistry%20And%20Technology%2C%20Prague%20Prague%20CZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 575,
+        "university_name": "National Research Tomsk Polytechnic University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20Research%20Tomsk%20Polytechnic%20University%20Tomsk%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 580,
+        "university_name": "Nanjing Agricultural University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Nanjing%20Agricultural%20University%20Nanjing%20CN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 584,
+        "university_name": "Institut Teknologi Sepuluh Nopember (Its Surabaya)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Institut%20Teknologi%20Sepuluh%20Nopember%20%20Lille%20ID&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 587,
+        "university_name": "Shoolini University Of Biotechnology And Management Sciences",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Shoolini%20University%20Of%20Biotechnology%20And%20Management%20Sciences%20Pretoria%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 600,
+        "university_name": "Ca' Foscari University Of Venice",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Ca%27%20Foscari%20University%20Of%20Venice%20Venice%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 603,
+        "university_name": "Kingston University, London",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Kingston%20University%2C%20London%20London%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 604,
+        "university_name": "Manchester Metropolitan University (Mmu)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Manchester%20Metropolitan%20University%20%20Manchester%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 606,
+        "university_name": "Paris Lodron University Of Salzburg",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Paris%20Lodron%20University%20Of%20Salzburg%20Salzburg%20AT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 613,
+        "university_name": "Asia Pacific University Of Technology And Innovation (Apu)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Asia%20Pacific%20University%20Of%20Technology%20And%20Innovation%20%20Pretoria%20MY&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 615,
+        "university_name": "Christian-Albrechts-University Zu Kiel",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Christian-Albrechts-University%20Zu%20Kiel%20Kiel%20DE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 618,
+        "university_name": "Taipei Medical University (Tmu)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Taipei%20Medical%20University%20%20%20TW&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 623,
+        "university_name": "Auezov South Kazakhstan University (Sku)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Auezov%20South%20Kazakhstan%20University%20%20Pretoria%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 629,
+        "university_name": "Universidad De Palermo (Up)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Palermo%20%20Quebec%20AR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 652,
+        "university_name": "Symbiosis International (Deemed University)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Symbiosis%20International%20%20Chennai%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 654,
+        "university_name": "University Of Missouri, Columbia",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Missouri%2C%20Columbia%20Columbia%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 656,
+        "university_name": "Hufs - Hankuk (Korea) University Of Foreign Studies",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Hufs%20-%20Hankuk%20%20University%20Of%20Foreign%20Studies%20Seoul%20KR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 657,
+        "university_name": "Palack\u00fd University Olomouc",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Palack%C3%BD%20University%20Olomouc%20Olomouc%20CZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 670,
+        "university_name": "Tokyo Medical And Dental University (Tmdu)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Tokyo%20Medical%20And%20Dental%20University%20%20Tokyo%20JP&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 671,
+        "university_name": "Universidad De La Rep\u00fablica (Udelar)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20La%20Rep%C3%BAblica%20%20Melbourne%20UY&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 677,
+        "university_name": "Kazakh National Agrarian University Kaznau",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Kazakh%20National%20Agrarian%20University%20Kaznau%20Pretoria%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 679,
+        "university_name": "Universidade Federal De Minas Gerais",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20De%20Minas%20Gerais%20Ural%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 682,
+        "university_name": "Goldsmiths, University Of London",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Goldsmiths%2C%20University%20Of%20London%20London%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 686,
+        "university_name": "Princess Nourah Bint Abdulrahman University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Princess%20Nourah%20Bint%20Abdulrahman%20University%20Riyadh%20SA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 691,
+        "university_name": "Norwegian University Of Life Sciences (Umb)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Norwegian%20University%20Of%20Life%20Sciences%20%20%C3%85s%20NO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 696,
+        "university_name": "Universidad Panamericana (Up)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Panamericana%20%20Washington%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 698,
+        "university_name": "Universidade Federal Do Rio Grande Do Sul",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20Do%20Rio%20Grande%20Do%20Sul%20Salvador%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 699,
+        "university_name": "University Of Brescia",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Brescia%20Brescia%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 701,
+        "university_name": "University Of Siena",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Siena%20Siena%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 713,
+        "university_name": "Czech University Of Life Sciences In Prague",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Czech%20University%20Of%20Life%20Sciences%20In%20Prague%20Prague%20CZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 715,
+        "university_name": "Lingnan University, Hong Kong",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Lingnan%20University%2C%20Hong%20Kong%20Milton%20Keynes%20HK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 718,
+        "university_name": "Saint Joseph University Of Beirut (Usj)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Saint%20Joseph%20University%20Of%20Beirut%20%20Pretoria%20LB&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 719,
+        "university_name": "The National University Of Science And Technology Misis",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20National%20University%20Of%20Science%20And%20Technology%20Misis%20Moscow%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 722,
+        "university_name": "University Of Mumbai",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Mumbai%20Miami%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 730,
+        "university_name": "Jinan University (China)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Jinan%20University%20%20Jinan%20CN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 734,
+        "university_name": "Universit\u00e9 De Rennes 1 (University Of Rennes)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universit%C3%A9%20De%20Rennes%201%20%20Rennes%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 735,
+        "university_name": "University Of Modena And Reggio Emilia",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Modena%20And%20Reggio%20Emilia%20Modena%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 736,
+        "university_name": "University Of Trieste",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Trieste%20Trieste%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 740,
+        "university_name": "Altai State University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Altai%20State%20University%20Logan%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 749,
+        "university_name": "V. N. Karazin Kharkiv National University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=V.%20N.%20Karazin%20Kharkiv%20National%20University%20Pretoria%20UA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 753,
+        "university_name": "Instituto Tecnol\u00f3gico Aut\u00f3nomo De M\u00e9xico (Itam)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Instituto%20Tecnol%C3%B3gico%20Aut%C3%B3nomo%20De%20M%C3%A9xico%20%20Brussels%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 760,
+        "university_name": "University Of Engineering & Technology (Uet) Lahore",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Engineering%20%26%20Technology%20%20Lahore%20Pretoria%20PK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 762,
+        "university_name": "University Of Messina (Unime)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Messina%20%20Messina%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 763,
+        "university_name": "Adam Mickiewicz University, Pozna?",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Adam%20Mickiewicz%20University%2C%20Pozna%3F%20Pozna%C5%84%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 777,
+        "university_name": "Universit\u00e9 De Tunis El Manar",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universit%C3%A9%20De%20Tunis%20El%20Manar%20Tunis%20TN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 778,
+        "university_name": "University Of Maryland, Baltimore County",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Maryland%2C%20Baltimore%20County%20Baltimore%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 780,
+        "university_name": "Verona University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Verona%20University%20Verona%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 783,
+        "university_name": "National University Of Uzbekistan",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20University%20Of%20Uzbekistan%20Cairo%20UZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 790,
+        "university_name": "University Of Mons",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Mons%20Mons%20BE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 802,
+        "university_name": "Al-Ahliyya Amman University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Al-Ahliyya%20Amman%20University%20Cairo%20JO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 805,
+        "university_name": "Asia University Taiwan",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Asia%20University%20Taiwan%20Taichung%20TW&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 808,
+        "university_name": "Birla Institute Of Technology And Science, Pilani",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Birla%20Institute%20Of%20Technology%20And%20Science%2C%20Pilani%20Pilani%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 810,
+        "university_name": "Gda?Sk University Of Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Gda%3FSk%20University%20Of%20Technology%20Gda%C5%84sk%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 815,
+        "university_name": "Khoja Akhmet Yassawi International Kazakh-Turkish University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Khoja%20Akhmet%20Yassawi%20International%20Kazakh-Turkish%20University%20Pretoria%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 828,
+        "university_name": "Tu Dortmund University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Tu%20Dortmund%20University%20Dortmund%20DE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 830,
+        "university_name": "Universidad Iberoamericana Ibero",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Iberoamericana%20Ibero%20Washington%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 831,
+        "university_name": "Universidad San Francisco De Quito (Usfq)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20San%20Francisco%20De%20Quito%20%20San%20Diego%20EC&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 839,
+        "university_name": "University Of Alicante",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Alicante%20Alicante%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 847,
+        "university_name": "University Of Salerno",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Salerno%20Salerno%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 850,
+        "university_name": "Northwest Agriculture And Forestry University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Northwest%20Agriculture%20And%20Forestry%20University%20Fuzhou%20CN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 853,
+        "university_name": "Applied Science Private University - Jordan",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Applied%20Science%20Private%20University%20-%20Jordan%20Pretoria%20JO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 858,
+        "university_name": "Cy Cergy Paris University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Cy%20Cergy%20Paris%20University%20Cergy%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 861,
+        "university_name": "Gulf University For Science And Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Gulf%20University%20For%20Science%20And%20Technology%20Shanghai%20KW&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 864,
+        "university_name": "Karaganda State Technical University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Karaganda%20State%20Technical%20University%20Cairo%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 872,
+        "university_name": "Pavol Jozef \u0160af\u00e1rik University In Ko\u0161ice",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Pavol%20Jozef%20%C5%A0af%C3%A1rik%20University%20In%20Ko%C5%A1ice%20Ko%C5%A1ice%20SK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 880,
+        "university_name": "Universidad Ort Uruguay",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Ort%20Uruguay%20Montevideo%20UY&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 885,
+        "university_name": "University At Albany Suny",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20At%20Albany%20Suny%20Albany%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 893,
+        "university_name": "University Of Palermo",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Palermo%20Palermo%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 897,
+        "university_name": "Vietnam National University, Hanoi",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Vietnam%20National%20University%2C%20Hanoi%20Hanoi%20VN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 904,
+        "university_name": "Catania University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Catania%20University%20Catania%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 909,
+        "university_name": "Imam Mohammad Ibn Saud Islamic University \u2013 Imsiu",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Imam%20Mohammad%20Ibn%20Saud%20Islamic%20University%20%E2%80%93%20Imsiu%20Pretoria%20SA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 911,
+        "university_name": "Karaganda Buketov University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Karaganda%20Buketov%20University%20Cairo%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 915,
+        "university_name": "Manipal Academy Of Higher Education, Manipal, Karnataka, India",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Manipal%20Academy%20Of%20Higher%20Education%2C%20Manipal%2C%20Karnataka%2C%20India%20Manipal%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 917,
+        "university_name": "National Research Saratov State University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20Research%20Saratov%20State%20University%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 922,
+        "university_name": "Ritsumeikan Asia Pacific University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Ritsumeikan%20Asia%20Pacific%20University%20Cairo%20JP&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 924,
+        "university_name": "South Ural State University (National Research University)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=South%20Ural%20State%20University%20%20Ural%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 925,
+        "university_name": "Universidad Cat\u00f3lica Del Uruguay (Ucu)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Cat%C3%B3lica%20Del%20Uruguay%20%20Izmir%20UY&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 929,
+        "university_name": "Universidad Nacional De C\u00f3rdoba - Unc",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Nacional%20De%20C%C3%B3rdoba%20-%20Unc%20Brunswick%20AR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 934,
+        "university_name": "Universit\u00e0 Degli Studi Della Tuscia (University Of Tuscia)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universit%C3%A0%20Degli%20Studi%20Della%20Tuscia%20%20Pretoria%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 935,
+        "university_name": "Universit\u00e0 Degli Studi Roma Tre",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universit%C3%A0%20Degli%20Studi%20Roma%20Tre%20Rome%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 937,
+        "university_name": "University Of Calabria",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Calabria%20Rende%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 942,
+        "university_name": "University Of Murcia",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Murcia%20Murcia%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 946,
+        "university_name": "University Paris 2 Panth\u00e9on-Assas",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Paris%202%20Panth%C3%A9on-Assas%20Cairo%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 947,
+        "university_name": "Viet Nam National University Ho Chi Minh City (Vnu-Hcm)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Viet%20Nam%20National%20University%20Ho%20Chi%20Minh%20City%20%20Ho%20Chi%20Minh%20City%20VN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 948,
+        "university_name": "Viet Nam National University Ho Chi Minh City (Vnu-Hcm)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Viet%20Nam%20National%20University%20Ho%20Chi%20Minh%20City%20%20Ho%20Chi%20Minh%20City%20VN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 951,
+        "university_name": "Wroclaw University Of Science And Technology (Wrust)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Wroclaw%20University%20Of%20Science%20And%20Technology%20%20Krak%C3%B3w%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 952,
+        "university_name": "Wroclaw University Of Science And Technology (Wrust)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Wroclaw%20University%20Of%20Science%20And%20Technology%20%20Krak%C3%B3w%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 969,
+        "university_name": "D. Serikbayev East Kazakhstan State Technical University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=D.%20Serikbayev%20East%20Kazakhstan%20State%20Technical%20University%20Pretoria%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 971,
+        "university_name": "Financial University Under The Government Of The Russian Federation",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Financial%20University%20Under%20The%20Government%20Of%20The%20Russian%20Federation%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 972,
+        "university_name": "Financial University Under The Government Of The Russian Federation",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Financial%20University%20Under%20The%20Government%20Of%20The%20Russian%20Federation%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 982,
+        "university_name": "Northern Borders University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Northern%20Borders%20University%20Cairo%20SA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 985,
+        "university_name": "Queen Margaret University , Edinburgh",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Queen%20Margaret%20University%20%2C%20Edinburgh%20Cairo%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 988,
+        "university_name": "S.D. Asfendiyarov Kazakh National Medical University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=S.D.%20Asfendiyarov%20Kazakh%20National%20Medical%20University%20Pretoria%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 989,
+        "university_name": "Saveetha Institute Of Medical And Technical Sciences (Deemed To Be University)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Saveetha%20Institute%20Of%20Medical%20And%20Technical%20Sciences%20%20Chennai%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 996,
+        "university_name": "Universidad De C\u00f3rdoba - Espa\u00f1a",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20C%C3%B3rdoba%20-%20Espa%C3%B1a%20Brunswick%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 999,
+        "university_name": "Universidad De Los Andes - Chile",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Los%20Andes%20-%20Chile%20Brunswick%20CL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1000,
+        "university_name": "Universidad De San Andr\u00e9s - Udesa",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20San%20Andr%C3%A9s%20-%20Udesa%20Brunswick%20AR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1002,
+        "university_name": "Universidad T\u00e9cnica Federico Santa Mar\u00eda (Usm)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20T%C3%A9cnica%20Federico%20Santa%20Mar%C3%ADa%20%20Santa%20Clara%20CL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1003,
+        "university_name": "Universidad Torcuato Di Tella",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Torcuato%20Di%20Tella%20Espoo%20AR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1005,
+        "university_name": "Universit\u00e9 Toulouse 1 Capitole",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universit%C3%A9%20Toulouse%201%20Capitole%20Toulouse%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1006,
+        "university_name": "Universiti Pendidikan Sultan Idris (Upsi)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universiti%20Pendidikan%20Sultan%20Idris%20%20Muscat%20MY&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1011,
+        "university_name": "University Of Parma",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Parma%20Parma%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1022,
+        "university_name": "Arab Academy For Science, Technology And Maritime Transport",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Arab%20Academy%20For%20Science%2C%20Technology%20And%20Maritime%20Transport%20Wuhan%20EG&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1024,
+        "university_name": "Azerbaijan State Oil And Industry University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Azerbaijan%20State%20Oil%20And%20Industry%20University%20Pretoria%20AZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1025,
+        "university_name": "Azerbaijan State University Of Economics",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Azerbaijan%20State%20University%20Of%20Economics%20Pretoria%20AZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1039,
+        "university_name": "Cracow University Of Technology (Politechnika Krakowska)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Cracow%20University%20Of%20Technology%20%20Cracow%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1042,
+        "university_name": "Escuela Superior Polit\u00e9cnica Del Litoral (Espol)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Escuela%20Superior%20Polit%C3%A9cnica%20Del%20Litoral%20%20Pisa%20EC&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1044,
+        "university_name": "Gebze Technical University (Gtu)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Gebze%20Technical%20University%20%20Gebze%20TR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1054,
+        "university_name": "Indiana University\u2013Purdue University Indianapolis",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Indiana%20University%E2%80%93Purdue%20University%20Indianapolis%20Indianapolis%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1056,
+        "university_name": "International Islamic University Islamabad (Iiu)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=International%20Islamic%20University%20Islamabad%20%20Pretoria%20PK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1058,
+        "university_name": "Iteso, Universidad Jesuita De Guadalajara",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Iteso%2C%20Universidad%20Jesuita%20De%20Guadalajara%20Lleida%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1064,
+        "university_name": "Kyushu Institute Of Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Kyushu%20Institute%20Of%20Technology%20Kitakyushu%20JP&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1067,
+        "university_name": "Lodz University Of Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Lodz%20University%20Of%20Technology%20%C5%81%C3%B3d%C5%BA%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1076,
+        "university_name": "Mykolas Romeris University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Mykolas%20Romeris%20University%20Cairo%20LT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1081,
+        "university_name": "National University Of Kyiv-Mohyla Academy (Naukma)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20University%20Of%20Kyiv-Mohyla%20Academy%20%20Pretoria%20UA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1082,
+        "university_name": "Njsc Kimep University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Njsc%20Kimep%20University%20Mexico%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1084,
+        "university_name": "Northwest University (China)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Northwest%20University%20%20Taicheng%20CN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1085,
+        "university_name": "O.P. Jindal Global University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=O.P.%20Jindal%20Global%20University%20Cairo%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1088,
+        "university_name": "Paul Val\u00e9ry University Montpellier",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Paul%20Val%C3%A9ry%20University%20Montpellier%20Montpellier%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1090,
+        "university_name": "Pozna? University Of Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Pozna%3F%20University%20Of%20Technology%20Pozna%C5%84%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1093,
+        "university_name": "Saint Petersburg Electrotechnical University Etu-Leti",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Saint%20Petersburg%20Electrotechnical%20University%20Etu-Leti%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1094,
+        "university_name": "Saint-Petersburg Mining University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Saint-Petersburg%20Mining%20University%20Cairo%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1095,
+        "university_name": "Samara National Research University (Samara University)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Samara%20National%20Research%20University%20%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1102,
+        "university_name": "Slovak University Of Technology In Bratislava",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Slovak%20University%20Of%20Technology%20In%20Bratislava%20Bratislava%20SK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1103,
+        "university_name": "Sohar University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Sohar%20University%20Sohag%20OM&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1117,
+        "university_name": "The University Of Northampton",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20University%20Of%20Northampton%20Cairo%20UK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1125,
+        "university_name": "Universidad Aut\u00f3noma Del Estado De M\u00e9xico (Uaemex)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Aut%C3%B3noma%20Del%20Estado%20De%20M%C3%A9xico%20%20Louvain-la-Neuve%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1127,
+        "university_name": "Universidad De Guadalajara (Udg)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Guadalajara%20%20Lleida%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1128,
+        "university_name": "Universidad De La Frontera (Ufro)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20La%20Frontera%20%20Melbourne%20CL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1129,
+        "university_name": "Universidad De Las Am\u00e9ricas Puebla (Udlap)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Las%20Am%C3%A9ricas%20Puebla%20%20Lleida%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1131,
+        "university_name": "Universidad De Los Andes - (Ula) M\u00e9rida",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Los%20Andes%20-%20%20M%C3%A9rida%20Brunswick%20VE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1143,
+        "university_name": "Universidad Nacional Del Centro De La Provincia De Buenos Aires (Unicen)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Nacional%20Del%20Centro%20De%20La%20Provincia%20De%20Buenos%20Aires%20%20Castro%20AR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1144,
+        "university_name": "Universidad Peruana Cayetano Heredia (Upch)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Peruana%20Cayetano%20Heredia%20%20Lima%20PE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1147,
+        "university_name": "Universidad Tecnol\u00f3gica De Panam\u00e1 (Utp)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Tecnol%C3%B3gica%20De%20Panam%C3%A1%20%20Lleida%20PA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1150,
+        "university_name": "Universidade Federal De Pernambuco (Ufpe)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20De%20Pernambuco%20%20Salvador%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1151,
+        "university_name": "Universidade Federal De S\u00e3o Carlos (Ufscar)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20De%20S%C3%A3o%20Carlos%20%20S%C3%A3o%20Paulo%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1152,
+        "university_name": "Universidade Federal Do Paran\u00e1 - Ufpr",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20Do%20Paran%C3%A1%20-%20Ufpr%20Brunswick%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1154,
+        "university_name": "Universita' Degli Studi \"G. D'Annunzio\" Chieti Pescara",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universita%27%20Degli%20Studi%20%22G.%20D%27Annunzio%22%20Chieti%20Pescara%20Lleida%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1165,
+        "university_name": "Universit\u00e9 De Toulouse Ii-Le Mirail",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universit%C3%A9%20De%20Toulouse%20Ii-Le%20Mirail%20Paris%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1168,
+        "university_name": "Universit\u00e9 Mohammed V De Rabat",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universit%C3%A9%20Mohammed%20V%20De%20Rabat%20Quebec%20MA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1173,
+        "university_name": "Universiti Tun Hussein Onn University Of Malaysia (Uthm)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universiti%20Tun%20Hussein%20Onn%20University%20Of%20Malaysia%20%20Pretoria%20MY&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1174,
+        "university_name": "University Of Arkansas Fayetteville",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Arkansas%20Fayetteville%20Fayetteville%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1177,
+        "university_name": "University Of Hradec Kralove",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Hradec%20Kralove%20Cairo%20CZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1186,
+        "university_name": "University Of Missouri, Kansas City",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Missouri%2C%20Kansas%20City%20Kansas%20City%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1187,
+        "university_name": "University Of Naples Parthenope",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Naples%20Parthenope%20Naples%20IT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1188,
+        "university_name": "University Of New England Australia",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20New%20England%20Australia%20Armidale%20AU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1194,
+        "university_name": "University Of Sarajevo",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Sarajevo%20Mexico%20BA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1204,
+        "university_name": "University Of Warmia And Mazury In Olsztyn",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Warmia%20And%20Mazury%20In%20Olsztyn%20Olsztyn%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1209,
+        "university_name": "Vsb - Technical University Of Ostrava",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Vsb%20-%20Technical%20University%20Of%20Ostrava%20Ostrava%20CZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1210,
+        "university_name": "Warsaw University Of Life Sciences \u2013 Sggw (Wuls-Sggw)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Warsaw%20University%20Of%20Life%20Sciences%20%E2%80%93%20Sggw%20%20Warsaw%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1213,
+        "university_name": "Yokohama National University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Yokohama%20National%20University%20Yokohama%20JP&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1219,
+        "university_name": "Atma Jaya Catholic University Jakarta",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Atma%20Jaya%20Catholic%20University%20Jakarta%20Cairo%20ID&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1232,
+        "university_name": "Chittagong University Of Engineering And Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Chittagong%20University%20Of%20Engineering%20And%20Technology%20Pretoria%20BD&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1235,
+        "university_name": "Cuny The City College Of New York",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Cuny%20The%20City%20College%20Of%20New%20York%20York%20US&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1245,
+        "university_name": "Fundaci\u00f3n Ceu San Pablo",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Fundaci%C3%B3n%20Ceu%20San%20Pablo%20San%20Diego%20ES&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1252,
+        "university_name": "Instituto Tecnol\u00f3gico De Santo Domingo (Intec)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Instituto%20Tecnol%C3%B3gico%20De%20Santo%20Domingo%20%20Brussels%20DO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1256,
+        "university_name": "Izmir Institute Of Technology (Iztech)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Izmir%20Institute%20Of%20Technology%20%20S%C3%A3o%20Paulo%20TR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1270,
+        "university_name": "Kwame Nkrumah University Of Science And Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Kwame%20Nkrumah%20University%20Of%20Science%20And%20Technology%20Kumasi%20GH&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1271,
+        "university_name": "Kyoto Institute Of Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Kyoto%20Institute%20Of%20Technology%20Kyoto%20JP&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1272,
+        "university_name": "Kyrgyz State Technical University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Kyrgyz%20State%20Technical%20University%20Cairo%20KG&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1275,
+        "university_name": "Mendeleev University Of Chemical Technology",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Mendeleev%20University%20Of%20Chemical%20Technology%20Graz%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1278,
+        "university_name": "Nagoya Institute Of Technology (Nit)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Nagoya%20Institute%20Of%20Technology%20%20Nagoya%20JP&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1280,
+        "university_name": "National Research University Moscow Power Engineering Institute (Mpei)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20Research%20University%20Moscow%20Power%20Engineering%20Institute%20%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1283,
+        "university_name": "Novosibirsk State Technical University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Novosibirsk%20State%20Technical%20University%20Novosibirsk%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1285,
+        "university_name": "Odessa I.I. Mechnikov National University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Odessa%20I.I.%20Mechnikov%20National%20University%20Pretoria%20UA&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1287,
+        "university_name": "Perm State National Research University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Perm%20State%20National%20Research%20University%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1290,
+        "university_name": "Pontif\u00edcia Universidade Cat\u00f3lica Do Rio Grande Do Sul (Pucrs)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Pontif%C3%ADcia%20Universidade%20Cat%C3%B3lica%20Do%20Rio%20Grande%20Do%20Sul%20%20Castro%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1296,
+        "university_name": "Saken Seifullin Kazakh Agrotechnical University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Saken%20Seifullin%20Kazakh%20Agrotechnical%20University%20Pretoria%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1298,
+        "university_name": "Sathyabama Institute Of Science And Technology (Deemed To Be University)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Sathyabama%20Institute%20Of%20Science%20And%20Technology%20%20Pretoria%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1304,
+        "university_name": "Siksha 'O' Anusandhan (Deemed To Be University)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Siksha%20%27O%27%20Anusandhan%20%20Chennai%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1307,
+        "university_name": "Suleyman Demirel University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Suleyman%20Demirel%20University%20Isparta%20TR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1308,
+        "university_name": "Suleyman Demirel University, Kazakhstan",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Suleyman%20Demirel%20University%2C%20Kazakhstan%20Milton%20Keynes%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1312,
+        "university_name": "Technical University Of Cluj-Napoca",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Technical%20University%20Of%20Cluj-Napoca%20Cairo%20RO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1313,
+        "university_name": "Technical University Of Liberec",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Technical%20University%20Of%20Liberec%20Chania%20CZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1314,
+        "university_name": "Technical University Of Lublin",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Technical%20University%20Of%20Lublin%20Berlin%20PL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1316,
+        "university_name": "The \"Gheorghe Asachi\" Technical University Of Iasi",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20%22Gheorghe%20Asachi%22%20Technical%20University%20Of%20Iasi%20Pretoria%20RO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1317,
+        "university_name": "The Herzen State Pedagogical University Of Russia",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20Herzen%20State%20Pedagogical%20University%20Of%20Russia%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1318,
+        "university_name": "The Josip Juraj Strossmayer University Of Osijek",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20Josip%20Juraj%20Strossmayer%20University%20Of%20Osijek%20Osijek%20HR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1319,
+        "university_name": "The National Research University \"Belgorod State University\"",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20National%20Research%20University%20%22Belgorod%20State%20University%22%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1321,
+        "university_name": "Tomas Bata University In Zlin",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Tomas%20Bata%20University%20In%20Zlin%20Cairo%20CZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1323,
+        "university_name": "Transilvania University Of Brasov",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Transilvania%20University%20Of%20Brasov%20Bra%C8%99ov%20RO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1325,
+        "university_name": "Universidad Aut\u00f3noma De Guadalajara (Uag)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Aut%C3%B3noma%20De%20Guadalajara%20%20Lleida%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1326,
+        "university_name": "Universidad Aut\u00f3noma Del Estado De Hidalgo (Uaeh)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Aut%C3%B3noma%20Del%20Estado%20De%20Hidalgo%20%20Louvain-la-Neuve%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1329,
+        "university_name": "Universidad De Las Am\u00e9ricas (Udla) Ecuador",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Las%20Am%C3%A9ricas%20%20Ecuador%20Lleida%20EC&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1331,
+        "university_name": "Universidad De Oriente Santiago De Cuba",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Oriente%20Santiago%20De%20Cuba%20Lleida%20CU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1334,
+        "university_name": "Universidad De San Carlos De Guatemala - Usac",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20San%20Carlos%20De%20Guatemala%20-%20Usac%20San%20Diego%20GT&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1336,
+        "university_name": "Universidad De Valpara\u00edso (Uv)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Valpara%C3%ADso%20%20Quebec%20CL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1338,
+        "university_name": "Universidad Del Desarrollo (Udd)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Del%20Desarrollo%20%20Santiago%20CL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1343,
+        "university_name": "Universidad Latinoamericana De Ciencia Y Tecnolog\u00eda Costa Rica (Ulacit)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Latinoamericana%20De%20Ciencia%20Y%20Tecnolog%C3%ADa%20Costa%20Rica%20%20Castro%20CR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1344,
+        "university_name": "Universidad Mayor De San Andr\u00e9s (Umsa)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Mayor%20De%20San%20Andr%C3%A9s%20%20Santiago%20BO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1347,
+        "university_name": "Universidad Nacional Aut\u00f3noma De Honduras (Unah)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Nacional%20Aut%C3%B3noma%20De%20Honduras%20%20Louvain-la-Neuve%20HN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1348,
+        "university_name": "Universidad Nacional De Ingenier\u00eda Peru",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Nacional%20De%20Ingenier%C3%ADa%20Peru%20Lleida%20PE&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1350,
+        "university_name": "Universidad Nacional De R\u00edo Cuarto - Unrc",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Nacional%20De%20R%C3%ADo%20Cuarto%20-%20Unrc%20Lleida%20AR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1351,
+        "university_name": "Universidad Nacional De San Mart\u00edn (Unsam)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Nacional%20De%20San%20Mart%C3%ADn%20%20San%20Diego%20AR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1354,
+        "university_name": "Universidad Nacional, Costa Rica",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Nacional%2C%20Costa%20Rica%20San%20Jos%C3%A9%20CR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1356,
+        "university_name": "Universidade Do Estado Do Rio De Janeiro (Uerj)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Do%20Estado%20Do%20Rio%20De%20Janeiro%20%20Brussels%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1358,
+        "university_name": "Universidade Federal De Juiz De Fora- (Ufjf)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20De%20Juiz%20De%20Fora-%20%20Salvador%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1361,
+        "university_name": "Universidade Federal De Vi\u00e7osa (Ufv)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20De%20Vi%C3%A7osa%20%20Ural%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1362,
+        "university_name": "Universidade Federal Do Cear\u00e1 (Ufc)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20Do%20Cear%C3%A1%20%20Ural%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1363,
+        "university_name": "Universidade Federal Do Rio Grande Do Norte",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20Do%20Rio%20Grande%20Do%20Norte%20Salvador%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1370,
+        "university_name": "Universitatea De Vest Din Timisoara / West University Of Timisoara",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universitatea%20De%20Vest%20Din%20Timisoara%20%2F%20West%20University%20Of%20Timisoara%20Timi%C8%99oara%20RO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1372,
+        "university_name": "Universit\u00e9 Jean Moulin Lyon 3",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universit%C3%A9%20Jean%20Moulin%20Lyon%203%20Lyon%20FR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1380,
+        "university_name": "University Of Kragujevac",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Kragujevac%20Kragujevac%20RS&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1389,
+        "university_name": "University Of Pardubice",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Pardubice%20Mexico%20CZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1392,
+        "university_name": "University Of Rijeka",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Rijeka%20Rijeka%20HR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1401,
+        "university_name": "University Of Tyumen",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Tyumen%20Turin%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1402,
+        "university_name": "University Of West Bohemia",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20West%20Bohemia%20%C4%8Cesk%C3%A9%20Bud%C4%9Bjovice%20CZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1409,
+        "university_name": "Yogyakarta State University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Yogyakarta%20State%20University%20Cairo%20ID&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1420,
+        "university_name": "Fundaci\u00f3n Universidad De Bogot\u00e1-Jorge Tadeo Lozano",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Fundaci%C3%B3n%20Universidad%20De%20Bogot%C3%A1-Jorge%20Tadeo%20Lozano%20Louvain-la-Neuve%20CO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1423,
+        "university_name": "Indian Institute Of Information Technology, Allahabad",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Indian%20Institute%20Of%20Information%20Technology%2C%20Allahabad%20Pretoria%20IN&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1425,
+        "university_name": "International University Of Business, Agriculture And Technology (Iubat)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=International%20University%20Of%20Business%2C%20Agriculture%20And%20Technology%20%20Pretoria%20BD&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1426,
+        "university_name": "Irkutsk State University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Irkutsk%20State%20University%20Cairo%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1427,
+        "university_name": "Korkyt Ata Kyzylorda University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Korkyt%20Ata%20Kyzylorda%20University%20Cairo%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1429,
+        "university_name": "Lucian Blaga University Of Sibiu",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Lucian%20Blaga%20University%20Of%20Sibiu%20Cairo%20RO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1430,
+        "university_name": "M.Kh. Dulaty Taraz Regional University",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=M.Kh.%20Dulaty%20Taraz%20Regional%20University%20Cairo%20KZ&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1435,
+        "university_name": "National University Of Modern Languages (Numl), Islamabad",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=National%20University%20Of%20Modern%20Languages%20%2C%20Islamabad%20Pretoria%20PK&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1437,
+        "university_name": "Pontif\u00edcia Universidade Cat\u00f3lica De Minas Gerais \u2013 Puc Minas",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Pontif%C3%ADcia%20Universidade%20Cat%C3%B3lica%20De%20Minas%20Gerais%20%E2%80%93%20Puc%20Minas%20Castro%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1438,
+        "university_name": "Pontificia Universidade Cat\u00f3lica Do Campinas - Puc Campinas",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Pontificia%20Universidade%20Cat%C3%B3lica%20Do%20Campinas%20-%20Puc%20Campinas%20Minneapolis%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1440,
+        "university_name": "Russian State Agrarian University - Moscow Timiryazev Agricultural Academy",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Russian%20State%20Agrarian%20University%20-%20Moscow%20Timiryazev%20Agricultural%20Academy%20Pretoria%20RU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1446,
+        "university_name": "Soochow University (Taiwan)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Soochow%20University%20%20Suzhou%20TW&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1450,
+        "university_name": "Stefan Cel Mare University Of Suceava",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Stefan%20Cel%20Mare%20University%20Of%20Suceava%20Cairo%20RO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1451,
+        "university_name": "The University Of Notre Dame, Australia",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=The%20University%20Of%20Notre%20Dame%2C%20Australia%20Sydney%20AU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1458,
+        "university_name": "Universidad Aut\u00f3noma De Quer\u00e9taro (Uaq)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Aut%C3%B3noma%20De%20Quer%C3%A9taro%20%20Lleida%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1459,
+        "university_name": "Universidad Aut\u00f3noma De San Luis De Potos\u00ed",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Aut%C3%B3noma%20De%20San%20Luis%20De%20Potos%C3%AD%20San%20Diego%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1461,
+        "university_name": "Universidad Aut\u00f3noma Del Estado De Morelos (Uaem)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Aut%C3%B3noma%20Del%20Estado%20De%20Morelos%20%20Louvain-la-Neuve%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1465,
+        "university_name": "Universidad Cat\u00f3lica De La Sant\u00edsima Concepci\u00f3n - Ucsc",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Cat%C3%B3lica%20De%20La%20Sant%C3%ADsima%20Concepci%C3%B3n%20-%20Ucsc%20Castro%20CL&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1472,
+        "university_name": "Universidad De C\u00f3rdoba - Colombia",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20C%C3%B3rdoba%20-%20Colombia%20Brunswick%20CO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1477,
+        "university_name": "Universidad De Las Fuerzas Armadas Espe (Ex - Escuela Polit\u00e9cnica Del Ej\u00e9rcito)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20De%20Las%20Fuerzas%20Armadas%20Espe%20%20Castro%20EC&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1488,
+        "university_name": "Universidad Popular Aut\u00f3noma Del Estado De Puebla (Upaep)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Popular%20Aut%C3%B3noma%20Del%20Estado%20De%20Puebla%20%20Castro%20MX&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1490,
+        "university_name": "Universidad Tecnica Particular De Loja (Utpl)",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Tecnica%20Particular%20De%20Loja%20%20Brussels%20EC&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1492,
+        "university_name": "Universidad Tecnol\u00f3gica De La Habana Jos\u00e9 Antonio Echeverr\u00eda, Cujae",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidad%20Tecnol%C3%B3gica%20De%20La%20Habana%20Jos%C3%A9%20Antonio%20Echeverr%C3%ADa%2C%20Cujae%20Castro%20CU&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1500,
+        "university_name": "Universidade Federal Do Estado Do Rio De Janeiro - Unirio",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20Do%20Estado%20Do%20Rio%20De%20Janeiro%20-%20Unirio%20Castro%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1501,
+        "university_name": "Universidade Federal Do Par\u00e0 - Ufpa",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=Universidade%20Federal%20Do%20Par%C3%A0%20-%20Ufpa%20Brunswick%20BR&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1507,
+        "university_name": "University Of Craiova",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Craiova%20Padova%20RO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1508,
+        "university_name": "University Of Lampung",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Lampung%20Hamburg%20ID&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1511,
+        "university_name": "University Of Oradea",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Oradea%20Granada%20RO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1513,
+        "university_name": "University Politehnica Of Timisoara, Upt",
+        "original_url": "https://nominatim.openstreetmap.org/search.php?q=University%20Politehnica%20Of%20Timisoara%2C%20Upt%20Pretoria%20RO&format=geojson&addressdetails=1&limit=1",
+        "error": "No features found"
+    }
+]
