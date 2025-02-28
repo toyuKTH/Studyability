@@ -40,10 +40,7 @@ function SelectedUniversity() {
           (feature: GeoJSONFeature) => {
             const properties =
               feature.properties as IStudiabilityFeatureProperties;
-            return (
-              properties.st_university === currentUniversity.name &&
-              properties.st_country_code === currentUniversity.countryCode
-            );
+            return properties.university_name === currentUniversity.name;
           }
         );
 
