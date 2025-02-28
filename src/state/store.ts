@@ -3,6 +3,7 @@ import filterSlice from "./slices/filterSlice";
 import mapInteractionSlice from "./slices/mapInteractionSlice";
 import dataSlice from "./slices/dataSlice";
 import uniSelectionSlice from "./slices/uniSelectionSlice";
+import highlightInteractionSlice from "./slices/highlightInteractionSlice";
 
 export const store = configureStore({
   reducer: {
@@ -10,6 +11,7 @@ export const store = configureStore({
     mapInteraction: mapInteractionSlice,
     data: dataSlice,
     uniSelection: uniSelectionSlice,
+    highlightInteraction: highlightInteractionSlice,
   },
 });
 
