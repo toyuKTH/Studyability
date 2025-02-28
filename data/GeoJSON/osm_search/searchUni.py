@@ -22,7 +22,7 @@ def create_nominatim_url(name):
     return f"{base_url}?{requests.compat.urlencode(params)}"
 
 # Read input CSV
-df = pd.read_csv("final_uni_list.csv")
+df = pd.read_csv("uni_iteration_2.csv")
 
 successful_geojson = {"type": "FeatureCollection", "features": []}
 wrong_type_geojson = {"type": "FeatureCollection", "features": []}
@@ -32,15 +32,16 @@ for index, row in df.iterrows():
     entry = {
         "university_id": row['university_id'],
         "university_name": row['university_name'],
-        "original_url": row['url']
+        "query": row['query']
     }
     
     try:
         # Create proper Nominatim URL
-        search_query = f"{row['university_name']} University"
+        search_query = f"{row['query']}"
         url = create_nominatim_url(search_query)
-        
+
         response = requests.get(url, headers=HEADERS)
+        print(f"{response}")
         time.sleep(random.uniform(1.1, 1.5))  # Respect rate limit
         
         if response.status_code == 200:
@@ -48,6 +49,7 @@ for index, row in df.iterrows():
             if len(geojson_data.get('features', [])) > 0:
                 feature = geojson_data['features'][0]
                 feature_type = feature['properties'].get('type')
+                print(f"Found feature of type: {feature_type}")
                 
                 # Modify the feature properties
                 feature['properties'].update({
@@ -60,7 +62,8 @@ for index, row in df.iterrows():
                 else:
                     wrong_type_geojson['features'].append(feature)
             else:
-                failed_universities.append({**entry, "error": "No features found"})
+                failed_universities.append({**entry, "error": "No features found "})
+                print(f"No features found for {entry['university_name']}")
         else:
             failed_universities.append({**entry, "error": f"HTTP {response.status_code}", "response": response.text})
 
@@ -72,13 +75,13 @@ for index, row in df.iterrows():
     print(f"Processed {index+1}/{len(df)}: {row['university_name']}")
 
 # Save results
-with open("successful_geojson.geojson", "w") as f:
+with open("successful_geojson_2.geojson", "w") as f:
     json.dump(successful_geojson, f, indent=4)
 
-with open("wrong_type.geojson", "w") as f:
+with open("wrong_type_2.geojson", "w") as f:
     json.dump(wrong_type_geojson, f, indent=4)
 
-with open("failed_universities.json", "w") as f:
+with open("failed_universities_2.json", "w") as f:
     json.dump(failed_universities, f, indent=4)
 
 print(f"\nResults:")
