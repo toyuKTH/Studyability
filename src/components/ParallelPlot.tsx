@@ -138,11 +138,12 @@ export default function ParallelPlot() {
             [minMaxUnis.rank.maxRank, "red"],
             [(minMaxUnis.rank.minRank + minMaxUnis.rank.maxRank) / 2, "yellow"],
           ],
+          opacity: 2,
         },
         dimensions,
         unselected: {
           line: {
-            opacity: 0.02,
+            color: "#afafb3",
           },
         },
       },
@@ -150,6 +151,12 @@ export default function ParallelPlot() {
 
     const layout = {
       width: 600,
+      margin: {
+        t: "60",
+        b: "35",
+        r: "50",
+        l: "55",
+      },
     };
 
     Plotly.newPlot(containerRef.current, plotData, layout, {
