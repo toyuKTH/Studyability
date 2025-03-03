@@ -1,0 +1,194 @@
+[
+    {
+        "university_id": 182,
+        "university_name": "Hamad Bin Khalifa University",
+        "query": "Hamad Bin Khalifa University",
+        "error": "No features found "
+    },
+    {
+        "university_id": 297,
+        "university_name": "Bauman Moscow State Technical University",
+        "query": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c\u0435\u043d\u0438 \u041d. \u042d. \u0411\u0430\u0443\u043c\u0430\u043d\u0430",
+        "error": "No features found "
+    },
+    {
+        "university_id": 314,
+        "university_name": "Quaid-I-Azam University",
+        "query": "Quaid-i-Azam University",
+        "error": "No features found "
+    },
+    {
+        "university_id": 392,
+        "university_name": "National And Kapodistrian University Of Athens",
+        "query": "\u0395\u03b8\u03bd\u03b9\u03ba\u03cc \u03ba\u03b1\u03b9 \u039a\u03b1\u03c0\u03bf\u03b4\u03b9\u03c3\u03c4\u03c1\u03b9\u03b1\u03ba\u03cc \u03a0\u03b1\u03bd\u03b5\u03c0\u03b9\u03c3\u03c4\u03ae\u03bc\u03b9\u03bf \u0391\u03b8\u03b7\u03bd\u03ce\u03bd",
+        "error": "No features found "
+    },
+    {
+        "university_id": 394,
+        "university_name": "University Of Rome \"Tor Vergata\"",
+        "query": "Universit\u00e0 degli Studi di Roma \"Tor Vergata\"",
+        "error": "No features found "
+    },
+    {
+        "university_id": 691,
+        "university_name": "Norwegian University Of Life Sciences (Umb)",
+        "query": "Norges milj\u00f8- og biovitenskapelige universitet",
+        "error": "No features found "
+    },
+    {
+        "university_id": 735,
+        "university_name": "University Of Modena And Reggio Emilia",
+        "query": "Universit\u00e0 degli Studi di Modena e Reggio Emilia",
+        "error": "No features found "
+    },
+    {
+        "university_id": 783,
+        "university_name": "National University Of Uzbekistan",
+        "query": "Mirzo Ulugbek nomidagi O\u2018zbekiston Milliy universiteti",
+        "error": "No features found "
+    },
+    {
+        "university_id": 802,
+        "university_name": "Al-Ahliyya Amman University",
+        "query": "\u062c\u0627\u0645\u0639\u0629 \u0639\u0645\u0627\u0646 \u0627\u0644\u0623\u0647\u0644\u064a\u0629",
+        "error": "No features found "
+    },
+    {
+        "university_id": 861,
+        "university_name": "Gulf University For Science And Technology",
+        "query": "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u062e\u0644\u064a\u062c \u0644\u0644\u0639\u0644\u0648\u0645 \u0648\u0627\u0644\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627",
+        "error": "No features found "
+    },
+    {
+        "university_id": 864,
+        "university_name": "Karaganda State Technical University",
+        "query": "\u049a\u0430\u0440\u0430\u0493\u0430\u043d\u0434\u044b \u0442\u0435\u0445\u043d\u0438\u043a\u0430\u043b\u044b\u049b \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0456",
+        "error": "No features found "
+    },
+    {
+        "university_id": 917,
+        "university_name": "National Research Saratov State University",
+        "query": "\u0421\u0430\u0440\u0430\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c\u0435\u043d\u0438 \u041d.\u0413. \u0427\u0435\u0440\u043d\u044b\u0448\u0435\u0432\u0441\u043a\u043e\u0433\u043e",
+        "error": "No features found "
+    },
+    {
+        "university_id": 969,
+        "university_name": "D. Serikbayev East Kazakhstan State Technical University",
+        "query": "\u0414. \u0421\u0435\u0440\u0456\u043a\u0431\u0430\u0435\u0432 \u0430\u0442\u044b\u043d\u0434\u0430\u0493\u044b \u0428\u044b\u0493\u044b\u0441 \u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d \u0442\u0435\u0445\u043d\u0438\u043a\u0430\u043b\u044b\u049b \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0456",
+        "error": "No features found "
+    },
+    {
+        "university_id": 988,
+        "university_name": "S.D. Asfendiyarov Kazakh National Medical University",
+        "query": "\u0421.\u0414. \u0410\u0441\u0444\u0435\u043d\u0434\u0438\u044f\u0440\u043e\u0432 \u0430\u0442\u044b\u043d\u0434\u0430\u0493\u044b \u049a\u0430\u0437\u0430\u049b \u04b1\u043b\u0442\u0442\u044b\u049b \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0456",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1003,
+        "university_name": "Universidad Torcuato Di Tella",
+        "query": "Universidad Torcuato Di Tella",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1006,
+        "university_name": "Universiti Pendidikan Sultan Idris (Upsi)",
+        "query": "Universiti Pendidikan Sultan Idris",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1085,
+        "university_name": "O.P. Jindal Global University",
+        "query": "O.P. Jindal Global University",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1103,
+        "university_name": "Sohar University",
+        "query": "Sohar University",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1154,
+        "university_name": "Universita' Degli Studi \"G. D'Annunzio\" Chieti Pescara",
+        "query": "Universit\u00e0 degli Studi \"G. d'Annunzio\" Chieti-Pescara",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1168,
+        "university_name": "Universit\u00e9 Mohammed V De Rabat",
+        "query": "\u062c\u0627\u0645\u0639\u0629 \u0645\u062d\u0645\u062f \u0627\u0644\u062e\u0627\u0645\u0633 \u0628\u0627\u0644\u0631\u0628\u0627\u0637",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1210,
+        "university_name": "Warsaw University Of Life Sciences \u2013 Sggw (Wuls-Sggw)",
+        "query": "Szko\u0142a G\u0142\u00f3wna Gospodarstwa Wiejskiego w Warszawie",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1232,
+        "university_name": "Chittagong University Of Engineering And Technology",
+        "query": "\u099a\u099f\u09cd\u099f\u0997\u09cd\u09b0\u09be\u09ae \u09aa\u09cd\u09b0\u0995\u09cc\u09b6\u09b2 \u0993 \u09aa\u09cd\u09b0\u09af\u09c1\u0995\u09cd\u09a4\u09bf \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09af\u09bc",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1296,
+        "university_name": "Saken Seifullin Kazakh Agrotechnical University",
+        "query": "\u0421\u04d9\u043a\u0435\u043d \u0421\u0435\u0439\u0444\u0443\u043b\u043b\u0438\u043d \u0430\u0442\u044b\u043d\u0434\u0430\u0493\u044b \u049a\u0430\u0437\u0430\u049b \u0430\u0433\u0440\u043e\u0442\u0435\u0445\u043d\u0438\u043a\u0430\u043b\u044b\u049b \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0456",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1304,
+        "university_name": "Siksha 'O' Anusandhan (Deemed To Be University)",
+        "query": "Siksha 'O' Anusandhan University",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1317,
+        "university_name": "The Herzen State Pedagogical University Of Russia",
+        "query": "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043f\u0435\u0434\u0430\u0433\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c. \u0410. \u0418. \u0413\u0435\u0440\u0446\u0435\u043d\u0430",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1318,
+        "university_name": "The Josip Juraj Strossmayer University Of Osijek",
+        "query": "Sveu\u010dili\u0161te Josipa Jurja Strossmayera u Osijeku",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1323,
+        "university_name": "Transilvania University Of Brasov",
+        "query": "Universitatea Transilvania din Bra\u0219ov",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1372,
+        "university_name": "Universit\u00e9 Jean Moulin Lyon 3",
+        "query": "Universit\u00e9 Jean Moulin Lyon 3",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1402,
+        "university_name": "University Of West Bohemia",
+        "query": "Z\u00e1pado\u010desk\u00e1 univerzita v Plzni",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1427,
+        "university_name": "Korkyt Ata Kyzylorda University",
+        "query": "\u049a\u043e\u0440\u049b\u044b\u0442 \u0410\u0442\u0430 \u0430\u0442\u044b\u043d\u0434\u0430\u0493\u044b \u049a\u044b\u0437\u044b\u043b\u043e\u0440\u0434\u0430 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0456",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1430,
+        "university_name": "M.Kh. Dulaty Taraz Regional University",
+        "query": "\u041c.\u0425. \u0414\u0443\u043b\u0430\u0442\u0438 \u0430\u0442\u044b\u043d\u0434\u0430\u0493\u044b \u0422\u0430\u0440\u0430\u0437 \u04e9\u04a3\u0456\u0440\u043b\u0456\u043a \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0456",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1450,
+        "university_name": "Stefan Cel Mare University Of Suceava",
+        "query": "Universitatea \u201e\u0218tefan cel Mare\u201d din Suceava",
+        "error": "No features found "
+    }
+]
