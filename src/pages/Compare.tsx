@@ -1,5 +1,7 @@
+import "./Compare.css";
+
 function Compare() {
-  return <>This is Compare</>;
+  return <div className='compare-container'>This is Compare</div>;
 }
 
 export default Compare;

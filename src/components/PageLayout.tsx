@@ -12,7 +12,7 @@ function PageLayout({ children }: Readonly<{ children: ReactElement }>) {
             src='/logo-white.svg'
             alt='studyability logo'
           />
-          <span className='logo-name'>Studyability</span>
+          <div className='logo-name'>StudyAbility</div>
         </div>
         <PageNav />
       </div>
