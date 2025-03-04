@@ -1,0 +1,18 @@
+.nav-container {
+  position: absolute;
+  width: 153px;
+  height: 61px;
+  float: right;
+  top: 49px;
+  left: 912px;
+
+  a {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26.4px;
+    margin: 20px;
+  }
+}
