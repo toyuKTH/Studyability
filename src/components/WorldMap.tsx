@@ -1,15 +1,15 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./WorldMap.css";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
 import {
   flyToUniComplete,
   setMapZoomed,
 } from "../state/slices/mapInteractionSlice";
-import mapboxgl, { GeoJSONFeature, GeoJSONSource } from "mapbox-gl";
+import mapboxgl, { GeoJSONSource } from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 import { getFilteredData } from "../state/slices/dataSlice";
-import { fetchGeoJSON } from "../helpers/fetchGeoJSON";
+import { fetchMapData } from "../helpers/fetchGeoJSON";
 
 export interface IStudiabilityFeatureProperties {
   university_id: number;
@@ -43,33 +43,6 @@ export const WorldMap = ({
 
     mapboxgl.accessToken = mapToken;
 
-    let mapData: any = null;
-
-    const fetchJSON = async () => {
-      try {
-        const data = await fetchGeoJSON(
-          `./data/GeoJSON/osm_search/cleaned_demo_v4.geojson`
-        );
-
-        const filteredGeoJSON = data.features.filter(
-          (feature: GeoJSONFeature) => {
-            const properties =
-              feature.properties as IStudiabilityFeatureProperties;
-            return filteredData.filteredUniversities.some(
-              (uni) => uni.name === properties.university_name
-            );
-          }
-        );
-
-        mapData = filteredGeoJSON;
-      } catch (error) {
-        console.error("Error fetching GeoJSON:", error);
-        return null;
-      }
-    };
-
-    fetchJSON();
-
     mapRef.current = new mapboxgl.Map({
       projection: "mercator",
       renderWorldCopies: false,
@@ -79,24 +52,20 @@ export const WorldMap = ({
       zoom: 0,
     });
 
-    mapRef.current.on("load", () => {
+    mapRef.current.on("load", async () => {
       if (!mapRef.current) return;
+
+      const rawData = await fetchMapData(filteredData);
 
       mapRef.current.addSource("uni_locations", {
         type: "geojson",
-        data: "./data/GeoJSON/osm_search/cleaned_demo_v4.geojson",
+        data: {
+          type: "FeatureCollection",
+          features: rawData,
+        },
         cluster: true,
-        clusterMaxZoom: 14,
+        clusterMaxZoom: 30,
         clusterRadius: 50,
-      });
-
-      const source = mapRef.current.getSource("uni_locations") as GeoJSONSource;
-
-      if (!source) return;
-
-      source.setData({
-        type: "FeatureCollection",
-        features: mapData,
       });
 
       mapRef.current.addLayer({
@@ -227,6 +196,8 @@ export const WorldMap = ({
         if (!mapRef.current) return;
         mapRef.current.getCanvas().style.cursor = "";
       });
+
+      console.log("Map loaded with " + rawData.length + " features");
     });
 
     const handleZoom = () => {
@@ -253,6 +224,11 @@ export const WorldMap = ({
       }
     };
   }, []);
+
+  useEffect(() => {
+    if (!mapRef.current) return;
+    mapRef.current.resize();
+  }, [width, height]);
 
   useEffect(() => {
     if (!mapRef.current || flyToUni.state !== "flying" || !flyToUni.uni) return;
@@ -299,12 +275,6 @@ export const WorldMap = ({
       .once("dragstart", () => {
         dispatch(flyToUniComplete());
       });
-
-    return () => {
-      if (mapRef.current) {
-        // mapRef.current.stop();
-      }
-    };
   }, [flyToUni]);
 
   useEffect(() => {
@@ -314,36 +284,24 @@ export const WorldMap = ({
 
     if (!source) return;
 
-    const fetchJSON = async () => {
+    const updateMapData = async () => {
       try {
-        const data = await fetchGeoJSON(
-          `./data/GeoJSON/osm_search/cleaned_demo_v4.geojson`
-        );
-
-        const filteredGeoJSON = data.features.filter(
-          (feature: GeoJSONFeature) => {
-            const properties =
-              feature.properties as IStudiabilityFeatureProperties;
-            return filteredData.filteredUniversities.some(
-              (uni) => uni.name === properties.university_name
-            );
-          }
-        );
+        const data = await fetchMapData(filteredData);
 
         source.setData({
           type: "FeatureCollection",
-          features: filteredGeoJSON,
+          features: data,
         });
 
-        console.log("filteredGeoJSON", filteredGeoJSON);
+        console.log("Map updated with " + data.length + " features");
       } catch (error) {
         console.error("Error fetching GeoJSON:", error);
         return null;
       }
     };
 
-    fetchJSON();
-  }, [filteredData, mapRef.current]);
+    updateMapData();
+  }, [filteredData]);
 
   const handleResetZoom = () => {
     if (mapRef.current) {

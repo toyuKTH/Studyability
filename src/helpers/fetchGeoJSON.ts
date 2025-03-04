@@ -1,3 +1,7 @@
+import { GeoJSONFeature } from "mapbox-gl";
+import { IStudiabilityFeatureProperties } from "../components/WorldMap";
+import { ICountryDB, IUniversity } from "../state/slices/dataSlice";
+
 export async function fetchGeoJSON(url?: string) {
   try {
     const response = await fetch(
@@ -11,3 +15,26 @@ export async function fetchGeoJSON(url?: string) {
     return null;
   }
 }
+
+export const fetchMapData = async (filteredData: {
+  filterdCountries: ICountryDB;
+  filteredUniversities: IUniversity[];
+}) => {
+  try {
+    const data = await fetchGeoJSON(
+      `./data/GeoJSON/osm_search/cleaned_demo_v4.geojson`
+    );
+
+    const filteredGeoJSON = data.features.filter((feature: GeoJSONFeature) => {
+      const properties = feature.properties as IStudiabilityFeatureProperties;
+      return filteredData.filteredUniversities.some(
+        (uni) => uni.name === properties.university_name
+      );
+    });
+
+    return filteredGeoJSON;
+  } catch (error) {
+    console.error("Error fetching GeoJSON:", error);
+    return null;
+  }
+};

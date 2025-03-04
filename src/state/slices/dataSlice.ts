@@ -28,12 +28,12 @@ export interface ICityDB {
 export interface ICountryDB {
   [country: string]: {
     costOfLiving: {
-      cost_of_living_index: number;
-      cost_of_living_plus_rent_index: number;
-      groceries_index: number;
-      local_purchasing_power_index: number;
-      rent_index: number;
-      restaurant_price_index: number;
+      cost_of_living_index: number | null;
+      cost_of_living_plus_rent_index: number | null;
+      groceries_index: number | null;
+      local_purchasing_power_index: number | null;
+      rent_index: number | null;
+      restaurant_price_index: number | null;
     };
     efScore: {
       ef_level: string | null;
@@ -67,12 +67,12 @@ interface IUniversityBase {
 export interface IUniversity {
   city: string | null;
   countryCode: keyof typeof data.country_db;
-  cost_of_living_index: number;
-  cost_of_living_plus_rent_index: number;
-  groceries_index: number;
-  local_purchasing_power_index: number;
-  rent_index: number;
-  restaurant_price_index: number;
+  cost_of_living_index: number | null;
+  cost_of_living_plus_rent_index: number | null;
+  groceries_index: number | null;
+  local_purchasing_power_index: number | null;
+  rent_index: number | null;
+  restaurant_price_index: number | null;
   ef_level: string | null;
   ef_score: number | null;
   countryName: string;
@@ -97,6 +97,7 @@ interface IDataState {
   cities: ICityDB;
   countries: ICountryDB;
   universities: IUniversityDB;
+  geoJSONUnis: any;
 }
 
 const uniNamesSet = new Set();
@@ -163,6 +164,7 @@ const initialState: IDataState = {
       return acc;
     }, {}),
   },
+  geoJSONUnis: {},
 };
 
 export const dataSlice = createSlice({
@@ -184,12 +186,12 @@ export const selectCountriesMaxMinFilterValues = createSelector(
   (countries) => {
     const maxCostOfLiving = Math.max(
       ...Object.keys(countries).map(
-        (key) => countries[key].costOfLiving.cost_of_living_index
+        (key) => countries[key].costOfLiving.cost_of_living_index || 0
       )
     );
     const minCostOfLiving = Math.min(
       ...Object.keys(countries).map(
-        (key) => countries[key].costOfLiving.cost_of_living_index
+        (key) => countries[key].costOfLiving.cost_of_living_index || 10000
       )
     );
 
