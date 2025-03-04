@@ -12,7 +12,7 @@ function App() {
 
   const mapDivRef = useRef<HTMLDivElement>(null);
 
-  const resizeTimeout = useRef<number>(0);
+  const resizeTimeout = useRef<NodeJS.Timeout>();
 
   useEffect(() => {
     if (!mapDivRef.current) return;
