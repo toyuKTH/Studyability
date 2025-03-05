@@ -9,7 +9,7 @@ function PageLayout({ children }: Readonly<{ children: ReactElement }>) {
         <div className="logo-group">
           <img
             className="logo-icon"
-            src="/logo-test.png"
+            src="/logo-final.png"
             alt="studyability logo"
           />
           <h1 className="logo-name">Studyability</h1>
