@@ -1,8 +1,10 @@
-import { NavLink } from "react-router";
+import { NavLink, useLocation } from "react-router";
 import "./PageNav.css";
 import { useAppSelector } from "../state/hooks";
 
 function PageNav() {
+  const route = useLocation();
+
   const unisToCompare = useAppSelector(
     (state) => state.uniSelection.uniToCompare
   );
@@ -13,7 +15,7 @@ function PageNav() {
       </NavLink>
       <NavLink to="/compare" end>
         Compare
-        {unisToCompare.length > 0 && (
+        {unisToCompare.length > 0 && route.pathname !== "/compare" && (
           <div className="unis-selected">{unisToCompare.length}</div>
         )}
       </NavLink>
