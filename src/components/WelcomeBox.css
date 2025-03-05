@@ -5,4 +5,8 @@
     /* color: #646cff; */
     text-decoration: underline;
   }
+
+  a {
+    color: blue;
+  }
 }

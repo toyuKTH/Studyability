@@ -43,8 +43,6 @@
     max-height: 400px;
     scrollbar-color: #e42c2c9e transparent;
     scrollbar-width: thin;
-    scroll-behavior: smooth;
-    padding-right: 10px;
 
     .university-list-item {
       display: flex;

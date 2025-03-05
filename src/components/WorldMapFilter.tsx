@@ -34,7 +34,7 @@ export default function WorldMapFilter() {
         </div>
       </div>
       <div className="map-filtering-body">
-        <table>
+        <table style={{ width: "100%" }}>
           <tbody>
             {filteredData.filteredUniversities.map((uni, index) => (
               <UniversityRow
