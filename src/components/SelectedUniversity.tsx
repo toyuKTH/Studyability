@@ -111,7 +111,7 @@ function SelectedUniversity() {
             )}
             <li>Tuition Fee: {currentUniversity?.tuitionFee} USD</li>
           </ul>
-          <RadialBar />
+          {/* <RadialBar /> */}
         </>
       )}
       {!geoJsonLoaded && <p>Loading uni data...</p>}
