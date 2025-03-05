@@ -2,15 +2,36 @@
   display: flex;
   align-items: flex-end;
   gap: 10px;
+  position: relative;
+  top: 5px;
+  right: 30%;
+
+  .unis-selected {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e42c2c;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 10px;
+    top: 0;
+    right: 0;
+    color: white;
+  }
 
   a {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     color: #fff;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 26.4px;
+    font-size: 15px;
     padding: 15px 15px 0;
+    padding-bottom: 5px;
+
+    transition: all 0.2s ease-in-out;
 
     &.active,
     &:hover {

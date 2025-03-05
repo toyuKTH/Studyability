@@ -405,7 +405,6 @@ export const getFilteredData = createSelector(
           }
 
           if (value >= domain[0] && value <= domain[1]) {
-            // } else {
             fitsCurrentFilter = true;
           }
         });
@@ -482,7 +481,7 @@ export const getFilteredData = createSelector(
     );
 
     return {
-      filterdCountries: filteredCountriesObject,
+      filterdCountries: Object.values(filteredCountriesObject),
       filteredUniversities,
     };
   }
