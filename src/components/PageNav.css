@@ -1,11 +1,7 @@
 .nav-container {
-  position: absolute;
-  width: 153px;
-  height: 61px;
-  float: right;
-  top: 49px;
-  left: 912px;
-  display: inline-flex;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
 
   a {
     border-top-left-radius: 8px;
@@ -14,7 +10,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 26.4px;
-    padding: 20px 20px 0;
+    padding: 15px 15px 0;
 
     &.active,
     &:hover {

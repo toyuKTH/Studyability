@@ -3,11 +3,11 @@ import "./PageNav.css";
 
 function PageNav() {
   return (
-    <nav className='nav-container'>
-      <NavLink to='/' end>
-        Home
+    <nav className="nav-container">
+      <NavLink to="/" end>
+        Explore
       </NavLink>
-      <NavLink to='/compare' end>
+      <NavLink to="/compare" end>
         Compare
       </NavLink>
     </nav>

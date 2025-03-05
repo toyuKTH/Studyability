@@ -38,6 +38,7 @@ body {
 .plot-group-container {
   flex-grow: 1;
   display: flex;
+  justify-content: space-evenly;
   height: 40%;
   background: #91a09b;
 }

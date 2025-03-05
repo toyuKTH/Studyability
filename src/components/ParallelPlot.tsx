@@ -139,7 +139,6 @@ export default function ParallelPlot() {
         line: {
           color: Object.keys(data.universities).map((key) => {
             const rankNumber = parseInt(data.universities[key].rank);
-            console.log(rankNumber);
             return rankNumber;
           }),
           colorscale: [
