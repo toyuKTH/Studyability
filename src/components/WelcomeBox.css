@@ -1,12 +1,8 @@
 .welcome-box-wrapper {
   .paraplot-name {
-    background-color: #fff;
-    &:hover {
-      cursor: pointer;
-    }
-  }
-
-  &:hover {
-    cursor: default;
+    font-weight: bold;
+    cursor: pointer;
+    /* color: #646cff; */
+    text-decoration: underline;
   }
 }

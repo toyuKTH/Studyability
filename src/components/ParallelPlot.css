@@ -5,3 +5,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.highlight-mask {
+  pointer-events: none;
+  background-color: rgba(128, 128, 128, 0.308);
+  position: absolute;
+}
