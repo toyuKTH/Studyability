@@ -4,15 +4,15 @@ import "./PageLayout.css";
 
 function PageLayout({ children }: Readonly<{ children: ReactElement }>) {
   return (
-    <div className="App">
-      <div className="page-header">
-        <div className="logo-group">
+    <div className='App'>
+      <div className='page-header'>
+        <div className='logo-group'>
           <img
-            className="logo-icon"
-            src="/logo-final.png"
-            alt="studyability logo"
+            className='logo-icon'
+            src='/logo-dark.svg'
+            alt='studyability logo'
           />
-          <h1 className="logo-name">Studyability</h1>
+          <h1 className='logo-name'>Studyability</h1>
         </div>
         <PageNav />
       </div>
