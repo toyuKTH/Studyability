@@ -12,11 +12,11 @@ function PageLayout({ children }: Readonly<{ children: ReactElement }>) {
             src="/logo-test.png"
             alt="studyability logo"
           />
-          <div className="logo-name">Studyability</div>
+          <h1 className="logo-name">Studyability</h1>
         </div>
         <PageNav />
       </div>
-      <div style={{ height: "90%" }}>{children}</div>
+      <div style={{ height: "95%", overflowY: "auto" }}>{children}</div>
     </div>
   );
 }
