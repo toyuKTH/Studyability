@@ -24,9 +24,6 @@ export default function ParallelPlot() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   let paperBGColor = "#fff";
-  if (isPlotHighlighted) {
-    paperBGColor = "#7d9ff5";
-  }
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -206,10 +203,8 @@ export default function ParallelPlot() {
     <div className="plot-container" ref={containerRef} id="graph">
       <div
         className="highlight-mask"
+        hidden={!isPlotHighlighted}
         style={{
-          backgroundColor: !isPlotHighlighted
-            ? "transparent"
-            : "rgba(128, 128, 128, 0.308)",
           width: containerRef.current?.clientWidth,
           height: containerRef.current?.clientHeight,
         }}
