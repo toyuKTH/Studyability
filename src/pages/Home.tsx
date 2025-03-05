@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from "react";
-import WorldMap from "./components/WorldMap";
-import WorldMapFilter from "./components/WorldMapFilter";
-import "./App.css";
-import ParallelPlot from "./components/ParallelPlot";
-import ScatterPlot from "./components/ScatterPlot";
-import TopSidebar from "./components/TopSidebar";
+import WorldMap from "../components/WorldMap";
+import WorldMapFilter from "../components/WorldMapFilter";
+import "./Home.css";
+import ParallelPlot from "../components/ParallelPlot";
+import ScatterPlot from "../components/ScatterPlot";
+import TopSidebar from "../components/TopSidebar";
 
-function App() {
+function Home() {
   const [mapWidth, setMapWidth] = useState(0);
   const [mapHeight, setMapHeight] = useState(0);
 
@@ -39,23 +39,23 @@ function App() {
   }, [mapDivRef.current]);
 
   return (
-    <div className="App">
-      <div className="center-area-container">
-        <div ref={mapDivRef} className="map-container">
+    <div className='Home'>
+      <div className='center-area-container'>
+        <div ref={mapDivRef} className='map-container'>
           {mapDivRef.current && (
             <WorldMap width={mapWidth} height={mapHeight} />
           )}
         </div>
-        <div className="plot-group-container">
-          <div className="parallel-plot-container">
+        <div className='plot-group-container'>
+          <div className='parallel-plot-container'>
             <ParallelPlot />
           </div>
-          <div className="scatter-plot-container">
+          <div className='scatter-plot-container'>
             <ScatterPlot />
           </div>
         </div>
       </div>
-      <div className="right-sidebar-container">
+      <div className='right-sidebar-container'>
         <TopSidebar />
         <WorldMapFilter />
       </div>
@@ -63,4 +63,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
