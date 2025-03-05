@@ -15,6 +15,9 @@
   font-family: Zen Dots;
   justify-content: space-between;
 
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+
   .logo-group {
     display: flex;
     /* display: inline-flex; */
