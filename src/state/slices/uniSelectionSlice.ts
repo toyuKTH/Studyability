@@ -2,17 +2,17 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { IUniversity } from "./dataSlice";
 
 interface IUniSelectionState {
-    currentUniversity: IUniversity | null;
-    uniToCompare: IUniversity[];
+  currentUniversity: IUniversity | null;
+  uniToCompare: IUniversity[];
 }
 
 const initialState: IUniSelectionState = {
-    currentUniversity: null,
-    uniToCompare: []
-}
+  currentUniversity: null,
+  uniToCompare: [],
+};
 
 export const uniSelectionSlice = createSlice({
-  name: 'uniSelection',
+  name: "uniSelection",
   initialState,
   reducers: {
     setCurrentUniversity: (
@@ -22,11 +22,15 @@ export const uniSelectionSlice = createSlice({
       state.currentUniversity = action.payload;
     },
     addUniToCompare: (state, action: PayloadAction<IUniversity>) => {
-      state.uniToCompare.push(action.payload);
+      if (state.uniToCompare.some((uni) => uni.name === action.payload.name)) {
+        state.uniToCompare = [...state.uniToCompare].filter((uni) => {
+          return uni.name !== action.payload.name;
+        });
+      } else state.uniToCompare.push(action.payload);
     },
     removeUniToCompare: (state, action: PayloadAction<IUniversity>) => {
       state.uniToCompare = [...state.uniToCompare].filter((uni) => {
-        return Object.is(uni, action.payload);
+        return uni.name !== action.payload.name;
       });
     },
   },
