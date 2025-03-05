@@ -4,19 +4,19 @@ import "./PageLayout.css";
 
 function PageLayout({ children }: Readonly<{ children: ReactElement }>) {
   return (
-    <div className='App'>
-      <div className='page-header'>
-        <div className='logo-group'>
+    <div className="App">
+      <div className="page-header">
+        <div className="logo-group">
           <img
-            className='logo-icon'
-            src='/logo-white.svg'
-            alt='studyability logo'
+            className="logo-icon"
+            src="/logo-test.png"
+            alt="studyability logo"
           />
-          <div className='logo-name'>StudyAbility</div>
+          <div className="logo-name">Studyability</div>
         </div>
         <PageNav />
       </div>
-      <div className='page-content'>{children}</div>
+      <div style={{ height: "90%" }}>{children}</div>
     </div>
   );
 }

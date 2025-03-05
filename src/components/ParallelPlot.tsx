@@ -120,7 +120,7 @@ export default function ParallelPlot() {
             minMaxCountries.costOfLiving.maxCostOfLiving,
           ];
           values = Object.keys(data.universities).map((key) => {
-            return data.universities[key].cost_of_living_index;
+            return data.universities[key].cost_of_living_index || 0;
           });
           break;
       }
@@ -136,18 +136,17 @@ export default function ParallelPlot() {
     const plotData = [
       {
         type: "parcoords" as Plotly.PlotType,
-        // pad: [80, 80, 80, 80],
         line: {
           color: Object.keys(data.universities).map((key) => {
             const rankNumber = parseInt(data.universities[key].rank);
             return rankNumber;
           }),
           colorscale: [
-            [minMaxUnis.rank.minRank, "green"],
-            [minMaxUnis.rank.maxRank, "red"],
-            [(minMaxUnis.rank.minRank + minMaxUnis.rank.maxRank) / 2, "yellow"],
+            [0, "green"],
+            [1, "red"],
+            [0.5, "yellow"],
           ],
-          opacity: 2,
+          opacity: 10,
         },
         dimensions,
         unselected: {
@@ -159,12 +158,12 @@ export default function ParallelPlot() {
     ];
 
     const layout = {
-      width: 600,
+      autosize: true,
       margin: {
-        t: "60",
-        b: "35",
-        r: "50",
-        l: "55",
+        t: 60,
+        b: 35,
+        r: 50,
+        l: 55,
       },
       paper_bgcolor: paperBGColor,
     };
@@ -201,7 +200,20 @@ export default function ParallelPlot() {
       if (!containerRef.current) return;
       Plotly.purge(containerRef.current);
     };
-  }, [containerRef.current, paperBGColor]);
+  }, [containerRef.current]);
 
-  return <div className='plot-container' ref={containerRef} id='graph'></div>;
+  return (
+    <div className="plot-container" ref={containerRef} id="graph">
+      <div
+        className="highlight-mask"
+        style={{
+          backgroundColor: !isPlotHighlighted
+            ? "transparent"
+            : "rgba(128, 128, 128, 0.308)",
+          width: containerRef.current?.clientWidth,
+          height: containerRef.current?.clientHeight,
+        }}
+      />
+    </div>
+  );
 }
