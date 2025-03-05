@@ -1,47 +1,40 @@
-import { useAppDispatch, useAppSelector } from '../state/hooks';
-import { IUniversity } from '../state/slices/dataSlice';
-import {
-  addUniToCompare,
-  removeUniToCompare,
-  setCurrentUniversity,
-} from '../state/slices/uniSelectionSlice';
+import { ChangeEvent, MouseEvent } from "react";
+import { IUniversity } from "../state/slices/dataSlice";
 
 export default function UniversityRow({
   uni,
   isSelectedToCompare,
+  selected,
+  onClick,
+  onToggleCheckbox,
 }: Readonly<{
   uni: IUniversity;
   isSelectedToCompare: boolean;
+  selected: boolean;
+  onClick?: (e: MouseEvent<HTMLTableRowElement>) => void;
+  onToggleCheckbox?: (e: ChangeEvent<HTMLInputElement>) => void;
 }>) {
-  const dispatch = useAppDispatch();
-
-  const currentUniversity = useAppSelector(
-    (state) => state.uniSelection.currentUniversity
-  );
-
-  const isCurrentUniversity = Object.is(currentUniversity, uni);
-
   return (
-    <tr className='university-list-item'>
-      <td
-        className='university-list-label'
-        onClick={
-          isCurrentUniversity
-            ? () => dispatch(setCurrentUniversity(null))
-            : () => dispatch(setCurrentUniversity(uni))
-        }
-      >
-        {uni.name}, <strong>{uni.countryName}</strong>
+    <tr
+      className={`university-list-item ${
+        selected ? "university-selected" : ""
+      }`}
+      onClick={onClick}
+    >
+      <td className="university-list-label">
+        <div className="university-name">
+          #{uni.rank} {uni.name}
+        </div>
+        <div className="university-location">
+          {uni.city}, {uni.countryName}
+        </div>
       </td>
       <td>
         <input
-          type='checkbox'
-          onChange={
-            isSelectedToCompare
-              ? () => dispatch(removeUniToCompare(uni))
-              : () => dispatch(addUniToCompare(uni))
-          }
-          name='selectUniToCompare'
+          type="checkbox"
+          onChange={onToggleCheckbox}
+          onClick={(e) => e.stopPropagation()}
+          name="selectUniToCompare"
           checked={isSelectedToCompare}
         />
       </td>

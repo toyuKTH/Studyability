@@ -39,23 +39,23 @@ function Home() {
   }, [mapDivRef.current]);
 
   return (
-    <div className='Home'>
-      <div className='center-area-container'>
-        <div ref={mapDivRef} className='map-container'>
+    <div className="Home">
+      <div className="center-area-container">
+        <div className="plot-group-container">
+          <div className="parallel-plot-container">
+            <ParallelPlot />
+          </div>
+          <div className="scatter-plot-container">
+            <ScatterPlot />
+          </div>
+        </div>
+        <div ref={mapDivRef} className="map-container">
           {mapDivRef.current && (
             <WorldMap width={mapWidth} height={mapHeight} />
           )}
         </div>
-        <div className='plot-group-container'>
-          <div className='parallel-plot-container'>
-            <ParallelPlot />
-          </div>
-          <div className='scatter-plot-container'>
-            <ScatterPlot />
-          </div>
-        </div>
       </div>
-      <div className='right-sidebar-container'>
+      <div className="right-sidebar-container">
         <TopSidebar />
         <WorldMapFilter />
       </div>

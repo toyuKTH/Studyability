@@ -16,10 +16,7 @@ export async function fetchGeoJSON(url?: string) {
   }
 }
 
-export const fetchMapData = async (filteredData: {
-  filterdCountries: ICountryDB;
-  filteredUniversities: IUniversity[];
-}) => {
+export const fetchMapData = async (filteredData: IUniversity[]) => {
   try {
     const data = await fetchGeoJSON(
       `./data/GeoJSON/osm_search/cleaned_demo_v4.geojson`
@@ -27,7 +24,7 @@ export const fetchMapData = async (filteredData: {
 
     const filteredGeoJSON = data.features.filter((feature: GeoJSONFeature) => {
       const properties = feature.properties as IStudiabilityFeatureProperties;
-      return filteredData.filteredUniversities.some(
+      return filteredData.some(
         (uni) => uni.name === properties.university_name
       );
     });

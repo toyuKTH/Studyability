@@ -1,29 +1,40 @@
 .filtering-list-container {
-  /* flex: 1; */
   height: 50%;
-  background-color: #f0f0f0;
-  padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
   box-sizing: border-box;
-  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 
   .map-filtering-title {
-    width: 211px;
-    height: 59px;
-    background-color: #e42c2c9e;
-    text-align: center;
-    vertical-align: middle;
-    display: block;
-    border-radius: 8px;
-    gap: 10px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+
+    .map-filtering-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* padding-right: 10px; */
+
+      p {
+        margin: 0;
+        font-size: 15px;
+        color: rgb(92, 92, 92);
+      }
+    }
   }
 
   .map-filtering-title h2 {
-    line-height: 59px;
     margin: auto;
-    color: #fff;
     font-weight: 400;
   }
 
@@ -32,22 +43,54 @@
     max-height: 400px;
     scrollbar-color: #e42c2c9e transparent;
     scrollbar-width: thin;
+    scroll-behavior: smooth;
     padding-right: 10px;
-    margin-top: 10px;
 
     .university-list-item {
-      border: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 5px;
+      margin-bottom: 5px;
 
-      td {
-        padding: 0;
-      }
+      .university-list-label {
+        flex: 1;
 
-      .university-list-label:hover {
-        cursor: pointer;
+        .university-name {
+          font-weight: bold;
+        }
+
+        .university-location {
+          font-size: 15px;
+          color: rgb(92, 92, 92);
+        }
       }
 
       &:hover {
+        cursor: pointer;
         background-color: lightgray;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .university-selected {
+      background-color: #e42c2c9e;
+      color: white;
+
+      .university-location {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.817) !important;
+      }
+
+      &:hover {
+        background-color: #e42c2c9e;
       }
     }
   }

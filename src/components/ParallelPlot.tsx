@@ -117,7 +117,10 @@ export default function ParallelPlot() {
             minMaxCountries.costOfLiving.maxCostOfLiving,
           ];
           values = Object.keys(data.universities).map((key) => {
-            return data.universities[key].cost_of_living_index || 0;
+            return (
+              data.universities[key].cost_of_living_index ||
+              minMaxCountries.costOfLiving.maxCostOfLiving
+            );
           });
           break;
       }

@@ -55,7 +55,7 @@ export const WorldMap = ({
     mapRef.current.on("load", async () => {
       if (!mapRef.current) return;
 
-      const rawData = await fetchMapData(filteredData);
+      const rawData = await fetchMapData(filteredData.filteredUniversities);
 
       mapRef.current.addSource("uni_locations", {
         type: "geojson",
@@ -286,7 +286,7 @@ export const WorldMap = ({
 
     const updateMapData = async () => {
       try {
-        const data = await fetchMapData(filteredData);
+        const data = await fetchMapData(filteredData.filteredUniversities);
 
         source.setData({
           type: "FeatureCollection",

@@ -1,62 +1,61 @@
-import { useAppSelector } from '../state/hooks';
-import { getFilteredData, IUniversity } from '../state/slices/dataSlice';
-import UniversityRow from './UniversityRow';
-import './WorldMapFilter.css';
+import { useAppDispatch, useAppSelector } from "../state/hooks";
+import { getFilteredData, IUniversity } from "../state/slices/dataSlice";
+import {
+  addUniToCompare,
+  setCurrentUniversity,
+} from "../state/slices/uniSelectionSlice";
+import UniversityRow from "./UniversityRow";
+import "./WorldMapFilter.css";
 
 export default function WorldMapFilter() {
-  let { filteredUniversities } = useAppSelector(getFilteredData);
+  const dispatch = useAppDispatch();
+  const filteredData = useAppSelector(getFilteredData);
+
   const currentUniversity = useAppSelector(
     (state) => state.uniSelection.currentUniversity
   );
-  const uniToCompare = useAppSelector(
+
+  const unisToCompare = useAppSelector(
     (state) => state.uniSelection.uniToCompare
   );
-  let isCurrentUniSelected = false;
-  let comparedUniversities = [] as IUniversity[];
-
-  if (uniToCompare.length > 0) {
-    comparedUniversities = [...uniToCompare].filter((uni) => {
-      return filteredUniversities.includes(uni);
-    });
-    filteredUniversities = [...filteredUniversities].filter((uni) => {
-      return !uniToCompare.includes(uni);
-    });
-    if (currentUniversity != null) {
-      isCurrentUniSelected = uniToCompare.indexOf(currentUniversity) !== -1;
-    }
-  }
-
-  const mapUniversityRow =
-    (isSelectedToCompare: boolean) => (uni: IUniversity, index: number) => {
-      return (
-        <UniversityRow
-          uni={uni}
-          isSelectedToCompare={isSelectedToCompare}
-          key={`uni-${index}`}
-        />
-      );
-    };
-
-  const mapCurrentUniversity = mapUniversityRow(isCurrentUniSelected);
 
   return (
-    <div
-      className='filtering-list-container'
-      style={currentUniversity != null ? { minHeight: '40%' } : {}}
-    >
-      <div className='map-filtering-title'>
-        <h2>University List</h2>
+    <div className="filtering-list-container">
+      <div className="map-filtering-title">
+        <h2 style={{ margin: 0, marginTop: "5px" }}>Filtered universities</h2>
+        <div className="map-filtering-info">
+          {filteredData.filteredUniversities.length > 0 && (
+            <p>
+              {filteredData.filteredUniversities.length} universities in{" "}
+              {filteredData.filterdCountries.length} countries
+            </p>
+          )}
+          <p>compare</p>
+        </div>
       </div>
-      <div className='map-filtering-body'>
+      <div className="map-filtering-body">
         <table>
           <tbody>
-            {currentUniversity != null &&
-              mapCurrentUniversity(currentUniversity, 0)}
-            {currentUniversity == null &&
-              comparedUniversities.length > 0 &&
-              comparedUniversities.map(mapUniversityRow(true))}
-            {currentUniversity == null &&
-              filteredUniversities.map(mapUniversityRow(false))}
+            {filteredData.filteredUniversities.map((uni, index) => (
+              <UniversityRow
+                uni={uni}
+                key={`uni-${index}`}
+                isSelectedToCompare={unisToCompare.some(
+                  (u) => u.name === uni.name
+                )}
+                selected={currentUniversity?.name === uni.name}
+                onClick={(_) => {
+                  if (uni.name === currentUniversity?.name) {
+                    dispatch(setCurrentUniversity(null));
+                  } else {
+                    dispatch(setCurrentUniversity(uni));
+                  }
+                }}
+                onToggleCheckbox={(_) => {
+                  dispatch(addUniToCompare(uni));
+                }}
+              />
+            ))}
           </tbody>
         </table>
       </div>
