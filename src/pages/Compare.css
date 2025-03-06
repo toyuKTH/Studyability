@@ -1,3 +1,13 @@
 .compare-container {
-  height: 350%; /*dummy styling to mimic long page*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  min-height: 100%;
+  .compare-empty {
+    color: #000;
+    font-size: 18px;
+    padding: 50px;
+    flex: 1;
+  }
 }
