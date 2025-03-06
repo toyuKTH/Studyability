@@ -1,3 +1,37 @@
 .radar-chart-group {
   margin: 0 100px;
+
+  .radar-chart-container {
+    height: 450px;
+    overflow: hidden;
+    margin: 40px;
+    .radar-x-label {
+      text-decoration-line: underline;
+      text-decoration-thickness: 25%;
+      text-decoration-color: #375a8c;
+      font-size: 18px;
+    }
+  }
+
+  .attribute-container {
+    color: #000;
+    min-height: 300px;
+    .category-selector {
+      border: none;
+      color: black;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 16px;
+      &.included {
+        background-color: #ddd;
+      }
+      &.excluded {
+        background-color: #ddd;
+      }
+    }
+  }
 }

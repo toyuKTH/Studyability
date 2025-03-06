@@ -2,6 +2,10 @@ import ApexCharts from "apexcharts";
 import { useEffect, useRef, useState } from "react";
 import { useAppSelector } from "../state/hooks";
 import "./RadarChart.css";
+import {
+  getQSAttributeLabel,
+  qsAttributeKeys,
+} from "../helpers/qsAttributeUtils";
 
 export default function RadarChart() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -9,21 +13,12 @@ export default function RadarChart() {
     (state) => state.uniSelection.uniToCompare
   );
 
-  const categoriesOpt = [
-    //  "international_faculty_ratio",
-    "academic_reputation",
-    "employment_outcomes",
-    "international_students",
-    "sustainability",
-    "employer_reputation",
-    "faculty_student",
-    "citations_per_faculty",
-    "international_faculty",
-    "international_research_network",
-  ];
+  const categoriesOpt = qsAttributeKeys;
+
+  const highlighted = "international_faculty";
 
   const [categories, setCategories] = useState([...categoriesOpt]);
-  const [excludedCategories, setExcludedCategories] = useState([]);
+  const [excludedCategories, setExcludedCategories] = useState([] as string[]);
 
   const series = uniToCompare.map((uni) => {
     const categoryData = Object.entries(uni)
@@ -41,9 +36,13 @@ export default function RadarChart() {
     const chartOptions = {
       series,
       chart: {
-        height: 400,
-        width: 500,
+        height: 600,
         type: "radar",
+        toolbar: {
+          show: false,
+        },
+        offsetY: -80,
+        parentHeightOffset: -300,
       },
       yaxis: {
         min: 0,
@@ -52,6 +51,11 @@ export default function RadarChart() {
       },
       xaxis: {
         categories,
+        labels: {
+          style: {
+            fontWeight: 400,
+          },
+        },
       },
       fill: {
         opacity: 0,
@@ -68,21 +72,42 @@ export default function RadarChart() {
               colors: ["#E5ECF6"],
             },
             connectorColors: "#fff",
+            offsetX: -80,
           },
+        },
+      },
+      legend: {
+        show: true,
+        position: "right",
+        horizontalAlign: "left",
+        floating: false,
+      },
+      tooltip: {
+        fillSeriesColor: true,
+        x: {
+          show: false,
+        },
+        y: {
+          show: true,
         },
       },
       animations: {
         enabled: true,
         speed: 800,
-        dynamicAnimation: {
-          enabled: true,
-          speed: 350,
-        },
       },
     };
 
     const chart = new ApexCharts(containerRef.current, chartOptions);
     chart.render();
+
+    const parent = containerRef.current;
+    const labels = parent.querySelectorAll(".apexcharts-xaxis-label");
+    labels.forEach(function (el) {
+      if (el.innerHTML.toString() == highlighted) {
+        el.setAttribute("class", "radar-x-label");
+        el.setAttribute("fill", "#000");
+      }
+    });
 
     return () => {
       if (!containerRef.current) return;
@@ -90,9 +115,54 @@ export default function RadarChart() {
     };
   }, [containerRef.current, categories, uniToCompare]);
 
+  function excludeCategory(catName: string) {
+    const ec = [catName, ...excludedCategories];
+    const filteredCat = [...categories].filter((v) => v != catName);
+    setExcludedCategories(ec);
+    setCategories(filteredCat);
+  }
+
+  function includeCategory(catName: string) {
+    const ec = [catName, ...categories];
+    const filteredCat = [...excludedCategories].filter((v) => v != catName);
+    setCategories(ec);
+    setExcludedCategories(filteredCat);
+  }
+
   return (
     <div className="radar-chart-group">
       <div className="radar-chart-container" ref={containerRef} />
+      <div className="attribute-container">
+        <span>Attribute To Include :</span>
+        <div>
+          {categories?.map((cat) => (
+            <button
+              key={`${cat}-included`}
+              className="category-selector included"
+              onClick={() => {
+                excludeCategory(cat);
+              }}
+            >
+              <span>{getQSAttributeLabel(cat)} </span>
+              <span> x</span>
+            </button>
+          ))}
+        </div>
+        <span>Attribute To Exclude :</span>
+        <div>
+          {excludedCategories?.map((cat) => (
+            <button
+              key={`${cat}-excluded`}
+              className="category-selector excluded"
+              onClick={() => {
+                includeCategory(cat);
+              }}
+            >
+              {getQSAttributeLabel(cat)} <span>+</span>
+            </button>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
