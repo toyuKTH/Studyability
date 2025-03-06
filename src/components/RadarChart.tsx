@@ -81,6 +81,7 @@ export default function RadarChart() {
         horizontalAlign: "left",
         floating: false,
         offsetY: 80,
+        offsetX: 200,
       },
       tooltip: {
         fillSeriesColor: true,
@@ -111,8 +112,8 @@ export default function RadarChart() {
     const labels = parent.querySelectorAll(".apexcharts-xaxis-label");
     labels.forEach(function (el) {
       if (el.innerHTML.toString() == highlighted) {
+        /* just try to mimic highlight */
         el.setAttribute("class", "radar-x-label");
-        el.setAttribute("fill", "#000");
       }
     });
 
@@ -140,34 +141,38 @@ export default function RadarChart() {
     <div className="radar-chart-group">
       <div className="radar-chart-container" ref={containerRef} />
       <div className="attribute-container">
-        <span>Attribute To Include :</span>
         <div>
-          {categories?.map((cat) => (
-            <button
-              key={`${cat}-included`}
-              className="category-selector included"
-              onClick={() => {
-                excludeCategory(cat);
-              }}
-            >
-              <span>{getQSAttributeLabel(cat)} </span>
-              <span> x</span>
-            </button>
-          ))}
+          <span>Attribute To Include :</span>
+          <div>
+            {categories?.map((cat) => (
+              <button
+                key={`${cat}-included`}
+                className="category-selector included"
+                onClick={() => {
+                  excludeCategory(cat);
+                }}
+              >
+                <span>{getQSAttributeLabel(cat)} </span>
+                <span> x</span>
+              </button>
+            ))}
+          </div>
         </div>
-        <span>Attribute To Exclude :</span>
         <div>
-          {excludedCategories?.map((cat) => (
-            <button
-              key={`${cat}-excluded`}
-              className="category-selector excluded"
-              onClick={() => {
-                includeCategory(cat);
-              }}
-            >
-              {getQSAttributeLabel(cat)} <span>+</span>
-            </button>
-          ))}
+          <span>Attribute To Exclude :</span>
+          <div>
+            {excludedCategories?.map((cat) => (
+              <button
+                key={`${cat}-excluded`}
+                className="category-selector excluded"
+                onClick={() => {
+                  includeCategory(cat);
+                }}
+              >
+                {getQSAttributeLabel(cat)} <span>+</span>
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </div>

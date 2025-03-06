@@ -18,8 +18,11 @@
 
   .attribute-container {
     color: #000;
-    min-height: 300px;
+    min-height: 100px;
     font-size: 12px;
+    display: flex;
+    width: 65%;
+    margin: -70px auto 10px;
     .category-selector {
       border: none;
       color: black;
