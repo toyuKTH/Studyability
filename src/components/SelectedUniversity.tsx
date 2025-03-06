@@ -139,7 +139,7 @@ function SelectedUniversity({
                 </div>
               </div>
               <div>
-                <div className="info-row-header">Englis proficiency</div>
+                <div className="info-row-header">English proficiency</div>
                 <div className="info-row" id={InfoEnum.ef_score}>
                   <LanguageSVG width={24} height={24} />
                   <div>{currentUniversity.ef_score}</div>
