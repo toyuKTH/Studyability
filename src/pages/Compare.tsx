@@ -1,7 +1,12 @@
+import RadarChart from "../components/RadarChart";
 import "./Compare.css";
 
 function Compare() {
-  return <div className='compare-container'>This is Compare</div>;
+  return (
+    <div className="compare-container">
+      <RadarChart />
+    </div>
+  );
 }
 
 export default Compare;

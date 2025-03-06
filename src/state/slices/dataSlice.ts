@@ -57,6 +57,11 @@ interface IUniversityBase {
     qs_overall_score: string;
     rank: string;
     sustainability: number | null;
+    employer_reputation: number | null;
+    faculty_student: number | null;
+    citations_per_faculty: number | null;
+    international_faculty: number | null;
+    international_research_network: number | null;
   };
   tuitionFee: {
     amount: number | null;
@@ -87,6 +92,11 @@ export interface IUniversity {
   tuitionFee: number | null;
   tuitionFeeProvinance: string | null;
   website: string;
+  employer_reputation: number | null;
+  faculty_student: number | null;
+  citations_per_faculty: number | null;
+  international_faculty: number | null;
+  international_research_network: number | null;
 }
 
 export interface IUniversityDB {
@@ -157,6 +167,12 @@ const initialState: IDataState = {
         restaurant_price_index:
           data.country_db[countryCode].costOfLiving.restaurant_price_index,
         ef_level: data.country_db[countryCode].efScore.ef_level,
+        employer_reputation: tempUni.qsRankingInfo.employer_reputation,
+        faculty_student: tempUni.qsRankingInfo.faculty_student,
+        citations_per_faculty: tempUni.qsRankingInfo.citations_per_faculty,
+        international_faculty: tempUni.qsRankingInfo.international_faculty,
+        international_research_network:
+          tempUni.qsRankingInfo.international_research_network,
       };
 
       uniNamesSet.add(tempUni.name);

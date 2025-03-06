@@ -1,3 +1,6 @@
 .compare-container {
-  height: 350%; /*dummy styling to mimic long page*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
 }
