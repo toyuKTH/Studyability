@@ -2,9 +2,12 @@
   margin: 0 100px;
 
   .radar-chart-container {
-    height: 450px;
+    top: -80px;
+    left: 40px;
+    position: relative;
+    height: 300px;
     overflow: hidden;
-    margin: 40px;
+    margin: 40px 40px 0;
     .radar-x-label {
       text-decoration-line: underline;
       text-decoration-thickness: 25%;
@@ -16,6 +19,7 @@
   .attribute-container {
     color: #000;
     min-height: 300px;
+    font-size: 12px;
     .category-selector {
       border: none;
       color: black;

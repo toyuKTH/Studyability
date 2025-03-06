@@ -36,12 +36,11 @@ export default function RadarChart() {
     const chartOptions = {
       series,
       chart: {
-        height: 600,
+        height: 400,
         type: "radar",
         toolbar: {
           show: false,
         },
-        offsetY: -80,
         parentHeightOffset: -300,
       },
       yaxis: {
@@ -81,14 +80,22 @@ export default function RadarChart() {
         position: "right",
         horizontalAlign: "left",
         floating: false,
+        offsetY: 80,
       },
       tooltip: {
         fillSeriesColor: true,
         x: {
           show: false,
+          style: {
+            fontSize: 18,
+          },
         },
         y: {
           show: true,
+        },
+        followCursor: true,
+        fixed: {
+          offsetY: -80,
         },
       },
       animations: {
