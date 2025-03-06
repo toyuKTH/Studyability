@@ -20,7 +20,7 @@ def create_nominatim_url(name):
     return f"{base_url}?{requests.compat.urlencode(params)}"
 
 # Read input CSV
-df = pd.read_csv("uni_iteration_5.csv")
+df = pd.read_csv("uni_iteration_6.csv")
 
 successful_geojson = {"type": "FeatureCollection", "features": []}
 wrong_type_geojson = {"type": "FeatureCollection", "features": []}
@@ -86,10 +86,10 @@ for index, row in df.iterrows():
                 
                 if university_feature['properties'].get('type') in accepted_types:
                     successful_geojson['features'].append(university_feature)
-                    print(f"SUCCESS - {entry['university_name']} - '{university_feature['properties'].get('type')}'")
+                    print(f"SUCCESS - {university_feature['properties'].get('name')} - '{university_feature['properties'].get('type')}'")
                 else:
                     wrong_type_geojson['features'].append(university_feature)
-                    print(f"WRONG - {entry['university_name']} - '{university_feature['properties'].get('type')}'")
+                    print(f"WRONG - {university_feature['properties'].get('name')} - '{university_feature['properties'].get('type')}'")
             else:
                 failed_universities.append({**entry, "error": "No features found"})
                 print(f"FAILED - {entry['university_name']}")
