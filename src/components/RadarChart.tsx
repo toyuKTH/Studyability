@@ -81,7 +81,7 @@ export default function RadarChart() {
         horizontalAlign: "left",
         floating: false,
         offsetY: 80,
-        offsetX: 200,
+        offsetX: 170,
       },
       tooltip: {
         fillSeriesColor: true,
@@ -141,8 +141,8 @@ export default function RadarChart() {
     <div className="radar-chart-group">
       <div className="radar-chart-container" ref={containerRef} />
       <div className="attribute-container">
-        <div>
-          <span>Attribute To Include :</span>
+        <div className="attribute-selector-group">
+          <span>Attribute(s) To Include :</span>
           <div>
             {categories?.map((cat) => (
               <button
@@ -158,8 +158,8 @@ export default function RadarChart() {
             ))}
           </div>
         </div>
-        <div>
-          <span>Attribute To Exclude :</span>
+        <div className="attribute-selector-group">
+          <span>Attribute(s) To Exclude :</span>
           <div>
             {excludedCategories?.map((cat) => (
               <button

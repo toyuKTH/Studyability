@@ -1,5 +1,6 @@
 .radar-chart-group {
   margin: 0 100px;
+  overflow: hidden;
 
   .radar-chart-container {
     top: -80px;
@@ -23,6 +24,11 @@
     display: flex;
     width: 65%;
     margin: -70px auto 10px;
+
+    .attribute-selector-group {
+      min-width: 250px;
+    }
+
     .category-selector {
       border: none;
       color: black;
