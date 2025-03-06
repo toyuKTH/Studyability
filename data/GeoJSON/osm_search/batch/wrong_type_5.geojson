@@ -1,0 +1,2101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 181956176,
+                "osm_type": "node",
+                "osm_id": 903351381,
+                "place_rank": 30,
+                "category": "historic",
+                "type": "memorial",
+                "importance": 8.908293278396304e-05,
+                "addresstype": "historic",
+                "name": "\u041c\u0438\u0445\u0430\u0438\u043b \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0438\u0447 \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432",
+                "display_name": "\u041c\u0438\u0445\u0430\u0438\u043b \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0438\u0447 \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432, \u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0441\u043a\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c, \u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b, \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c.\u00a0\u041c.\u00a0\u0412.\u00a0\u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0430, \u0440\u0430\u0439\u043e\u043d \u0420\u0430\u043c\u0435\u043d\u043a\u0438, \u041c\u043e\u0441\u043a\u0432\u0430, \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, 119991, \u0420\u043e\u0441\u0441\u0438\u044f",
+                "address": {
+                    "historic": "\u041c\u0438\u0445\u0430\u0438\u043b \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0438\u0447 \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432",
+                    "road": "\u0423\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0441\u043a\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                    "neighbourhood": "\u041b\u0435\u043d\u0438\u043d\u0441\u043a\u0438\u0435 \u0433\u043e\u0440\u044b",
+                    "suburb": "\u0440\u0430\u0439\u043e\u043d \u0420\u0430\u043c\u0435\u043d\u043a\u0438",
+                    "city": "\u041c\u043e\u0441\u043a\u0432\u0430",
+                    "state": "\u041c\u043e\u0441\u043a\u0432\u0430",
+                    "ISO3166-2-lvl4": "RU-MOW",
+                    "region": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                    "postcode": "119991",
+                    "country": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                    "country_code": "ru"
+                },
+                "university_id": 93,
+                "university_name": "Lomonosov Moscow State University"
+            },
+            "bbox": [
+                37.5360095,
+                55.7054906,
+                37.5361095,
+                55.7055906
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.5360595,
+                    55.7055406
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 91989663,
+                "osm_type": "way",
+                "osm_id": 107245342,
+                "place_rank": 30,
+                "category": "building",
+                "type": "industrial",
+                "importance": 0.5640111742966406,
+                "addresstype": "building",
+                "name": "Universiteit Gent Vakgroep Textielkunde",
+                "display_name": "Universiteit Gent Vakgroep Textielkunde, 70A, Technologiepark-Zwijnaarde, Wetenschapspark Ardoyen, Zwijnaarde, Gent, Oost-Vlaanderen, Vlaanderen, 9052, Belgi\u00eb / Belgique / Belgien",
+                "address": {
+                    "building": "Universiteit Gent Vakgroep Textielkunde",
+                    "house_number": "70A",
+                    "road": "Technologiepark-Zwijnaarde",
+                    "industrial": "Wetenschapspark Ardoyen",
+                    "village": "Zwijnaarde",
+                    "city": "Gent",
+                    "county": "Gent",
+                    "state": "Oost-Vlaanderen",
+                    "ISO3166-2-lvl6": "BE-VOV",
+                    "region": "Vlaanderen",
+                    "ISO3166-2-lvl4": "BE-VLG",
+                    "postcode": "9052",
+                    "country": "Belgi\u00eb / Belgique / Belgien",
+                    "country_code": "be"
+                },
+                "university_id": 168,
+                "university_name": "Ghent University"
+            },
+            "bbox": [
+                3.7106965,
+                51.0077507,
+                3.7110699,
+                51.0080245
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.710883068491984,
+                    51.00784845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 139246617,
+                "osm_type": "node",
+                "osm_id": 10974315234,
+                "place_rank": 30,
+                "category": "tourism",
+                "type": "information",
+                "importance": 6.446707866021237e-05,
+                "addresstype": "tourism",
+                "name": "University of Twente",
+                "display_name": "University of Twente, Witbreuksweg, Enschede, Overijssel, Nederland, 7522 LM, Nederland",
+                "address": {
+                    "tourism": "University of Twente",
+                    "road": "Witbreuksweg",
+                    "city": "Enschede",
+                    "state": "Overijssel",
+                    "ISO3166-2-lvl4": "NL-OV",
+                    "country": "Nederland",
+                    "postcode": "7522 LM",
+                    "country_code": "nl"
+                },
+                "university_id": 232,
+                "university_name": "University Of Twente"
+            },
+            "bbox": [
+                6.8502019,
+                52.2520655,
+                6.8503019,
+                52.2521655
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.8502519,
+                    52.2521155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 155080084,
+                "osm_type": "node",
+                "osm_id": 9423753626,
+                "place_rank": 30,
+                "category": "historic",
+                "type": "memorial",
+                "importance": 7.369115739676535e-05,
+                "addresstype": "historic",
+                "name": "Charles (Carlo) Bassi",
+                "display_name": "Charles (Carlo) Bassi, Rothoviuksenkatu, Kasarmialue, I, Keskusta, Turku, Turun seutukunta, Varsinais-Suomi, Manner-Suomi, 20500, Suomi / Finland",
+                "address": {
+                    "historic": "Charles (Carlo) Bassi",
+                    "road": "Rothoviuksenkatu",
+                    "neighbourhood": "Kasarmialue",
+                    "suburb": "Keskusta",
+                    "city": "Turku",
+                    "municipality": "Turun seutukunta",
+                    "state": "Varsinais-Suomi",
+                    "ISO3166-2-lvl4": "FI-19",
+                    "region": "Manner-Suomi",
+                    "postcode": "20500",
+                    "country": "Suomi / Finland",
+                    "country_code": "fi"
+                },
+                "university_id": 245,
+                "university_name": "Charles University"
+            },
+            "bbox": [
+                22.2791128,
+                60.4518405,
+                22.2792128,
+                60.4519405
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.2791628,
+                    60.4518905
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 23702390,
+                "osm_type": "node",
+                "osm_id": 3450098569,
+                "place_rank": 30,
+                "category": "railway",
+                "type": "station",
+                "importance": 0.23790322239318296,
+                "addresstype": "railway",
+                "name": "Griffith University",
+                "display_name": "Griffith University, Parklands Drive, Southport, Gold Coast City, Queensland, 4214, Australia",
+                "address": {
+                    "railway": "Griffith University",
+                    "road": "Parklands Drive",
+                    "suburb": "Southport",
+                    "city": "Gold Coast City",
+                    "state": "Queensland",
+                    "ISO3166-2-lvl4": "AU-QLD",
+                    "postcode": "4214",
+                    "country": "Australia",
+                    "country_code": "au"
+                },
+                "university_id": 254,
+                "university_name": "Griffith University"
+            },
+            "bbox": [
+                153.379692,
+                -27.9683383,
+                153.389692,
+                -27.9583383
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.384692,
+                    -27.9633383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 317920629,
+                "osm_type": "way",
+                "osm_id": 468077100,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "hospital",
+                "importance": 5.7347219043213816e-05,
+                "addresstype": "amenity",
+                "name": "Medical University of South Carolina: Florence",
+                "display_name": "Medical University of South Carolina: Florence, 805, Pamplico Highway, Nob Hill, Florence, Florence County, South Carolina, 29505, United States",
+                "address": {
+                    "amenity": "Medical University of South Carolina: Florence",
+                    "house_number": "805",
+                    "road": "Pamplico Highway",
+                    "hamlet": "Nob Hill",
+                    "city": "Florence",
+                    "county": "Florence County",
+                    "state": "South Carolina",
+                    "ISO3166-2-lvl4": "US-SC",
+                    "postcode": "29505",
+                    "country": "United States",
+                    "country_code": "us"
+                },
+                "university_id": 374,
+                "university_name": "University Of Florence"
+            },
+            "bbox": [
+                -79.7556448,
+                34.157002,
+                -79.7496741,
+                34.1628238
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.75252412213905,
+                    34.159640800000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 19683416,
+                "osm_type": "node",
+                "osm_id": 10281251016,
+                "place_rank": 30,
+                "category": "tourism",
+                "type": "information",
+                "importance": 8.246051728079679e-05,
+                "addresstype": "tourism",
+                "name": "Western Sydney University",
+                "display_name": "Western Sydney University, Narellan Road, Campbelltown, Sydney, Campbelltown City Council, New South Wales, 2560, Australia",
+                "address": {
+                    "tourism": "Western Sydney University",
+                    "road": "Narellan Road",
+                    "town": "Campbelltown",
+                    "city": "Sydney",
+                    "municipality": "Campbelltown City Council",
+                    "state": "New South Wales",
+                    "ISO3166-2-lvl4": "AU-NSW",
+                    "postcode": "2560",
+                    "country": "Australia",
+                    "country_code": "au"
+                },
+                "university_id": 383,
+                "university_name": "Western Sydney University"
+            },
+            "bbox": [
+                150.7932045,
+                -34.065483,
+                150.7933045,
+                -34.065383
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.7932545,
+                    -34.065433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 234220269,
+                "osm_type": "way",
+                "osm_id": 1198906163,
+                "place_rank": 30,
+                "category": "building",
+                "type": "yes",
+                "importance": 6.17311360341347e-05,
+                "addresstype": "building",
+                "name": "House",
+                "display_name": "House, Athanikkal - Thenhipalam - Chetyarmad- Calicut university road, Thenhipalam, Tirurangadi, Malappuram, Kerala, 673634, India",
+                "address": {
+                    "building": "House",
+                    "road": "Athanikkal - Thenhipalam - Chetyarmad- Calicut university road",
+                    "suburb": "Thenhipalam",
+                    "county": "Tirurangadi",
+                    "state_district": "Malappuram",
+                    "state": "Kerala",
+                    "ISO3166-2-lvl4": "IN-KL",
+                    "postcode": "673634",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 409,
+                "university_name": "Hse University"
+            },
+            "bbox": [
+                75.8783947,
+                11.1391944,
+                75.8786396,
+                11.1394045
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.87849300422795,
+                    11.1392934
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 272734267,
+                "osm_type": "node",
+                "osm_id": 5967392537,
+                "place_rank": 30,
+                "category": "shop",
+                "type": "general",
+                "importance": 7.224612802314821e-05,
+                "addresstype": "shop",
+                "name": "Tienda Universidad de Granada",
+                "display_name": "Tienda Universidad de Granada, Calle Doctor Severo Ochoa, Pajaritos, Beiro, Granada, Comarca de la Vega de Granada, Granada, Andaluc\u00eda, 18071, Espa\u00f1a",
+                "address": {
+                    "shop": "Tienda Universidad de Granada",
+                    "road": "Calle Doctor Severo Ochoa",
+                    "neighbourhood": "Pajaritos",
+                    "city_district": "Beiro",
+                    "city": "Granada",
+                    "county": "Comarca de la Vega de Granada",
+                    "province": "Granada",
+                    "ISO3166-2-lvl6": "ES-GR",
+                    "state": "Andaluc\u00eda",
+                    "ISO3166-2-lvl4": "ES-AN",
+                    "postcode": "18071",
+                    "country": "Espa\u00f1a",
+                    "country_code": "es"
+                },
+                "university_id": 432,
+                "university_name": "University Of Granada"
+            },
+            "bbox": [
+                -3.6056778,
+                37.1826711,
+                -3.6055778,
+                37.1827711
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.6056278,
+                    37.1827211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 315730582,
+                "osm_type": "relation",
+                "osm_id": 12878230,
+                "place_rank": 20,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.1334009117265583,
+                "addresstype": "suburb",
+                "name": "University of Tennessee",
+                "display_name": "University of Tennessee, Knoxville, Knox County, East Tennessee, Tennessee, United States",
+                "address": {
+                    "suburb": "University of Tennessee",
+                    "city": "Knoxville",
+                    "county": "Knox County",
+                    "region": "East Tennessee",
+                    "state": "Tennessee",
+                    "ISO3166-2-lvl4": "US-TN",
+                    "country": "United States",
+                    "country_code": "us"
+                },
+                "university_id": 482,
+                "university_name": "The University Of Tennessee, Knoxville"
+            },
+            "bbox": [
+                -83.9470599,
+                35.9428179,
+                -83.921989,
+                35.9603217
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.93087998929315,
+                    35.9515612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 265453892,
+                "osm_type": "node",
+                "osm_id": 4593308758,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "library",
+                "importance": 6.610589761191757e-05,
+                "addresstype": "amenity",
+                "name": "Biblioteca Geral da Universidade do Minho",
+                "display_name": "Biblioteca Geral da Universidade do Minho, Rua da Universidade, Gualtar, Braga, 4710-057, Portugal",
+                "address": {
+                    "amenity": "Biblioteca Geral da Universidade do Minho",
+                    "road": "Rua da Universidade",
+                    "village": "Gualtar",
+                    "city": "Braga",
+                    "county": "Braga",
+                    "ISO3166-2-lvl6": "PT-03",
+                    "postcode": "4710-057",
+                    "country": "Portugal",
+                    "country_code": "pt"
+                },
+                "university_id": 620,
+                "university_name": "University Of Minho"
+            },
+            "bbox": [
+                -8.3968623,
+                41.5598612,
+                -8.3967623,
+                41.5599612
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.3968123,
+                    41.5599112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 264807796,
+                "osm_type": "node",
+                "osm_id": 11263766708,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "post_office",
+                "importance": 6.436179140912517e-05,
+                "addresstype": "amenity",
+                "name": "Memorial University",
+                "display_name": "Memorial University, 1, Arctic Avenue, Memorial University of Newfoundland main campus, St. John's, Newfoundland, Newfoundland and Labrador, A1B 1T0, Canada",
+                "address": {
+                    "amenity": "Memorial University",
+                    "house_number": "1",
+                    "road": "Arctic Avenue",
+                    "city_district": "Memorial University of Newfoundland main campus",
+                    "city": "St. John's",
+                    "state_district": "Newfoundland",
+                    "state": "Newfoundland and Labrador",
+                    "ISO3166-2-lvl4": "CA-NL",
+                    "postcode": "A1B 1T0",
+                    "country": "Canada",
+                    "country_code": "ca"
+                },
+                "university_id": 667,
+                "university_name": "Memorial University Of Newfoundland"
+            },
+            "bbox": [
+                -52.7352411,
+                47.5732331,
+                -52.7351411,
+                47.5733331
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -52.7351911,
+                    47.5732831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 247592362,
+                "osm_type": "node",
+                "osm_id": 7140431035,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 6.485313191419879e-05,
+                "addresstype": "highway",
+                "name": "\u5927\u962a\u516c\u7acb\u5927\u5b66",
+                "display_name": "\u5927\u962a\u516c\u7acb\u5927\u5b66, Mediacenter, \u6749\u672c\u4e09\u4e01\u76ee, \u4f4f\u5409\u533a, \u5927\u962a\u5e02, \u5927\u962a\u5e9c, 558-0022, \u65e5\u672c",
+                "address": {
+                    "highway": "\u5927\u962a\u516c\u7acb\u5927\u5b66",
+                    "road": "Mediacenter",
+                    "neighbourhood": "\u6749\u672c\u4e09\u4e01\u76ee",
+                    "suburb": "\u4f4f\u5409\u533a",
+                    "city": "\u5927\u962a\u5e02",
+                    "province": "\u5927\u962a\u5e9c",
+                    "ISO3166-2-lvl4": "JP-27",
+                    "postcode": "558-0022",
+                    "country": "\u65e5\u672c",
+                    "country_code": "jp"
+                },
+                "university_id": 920,
+                "university_name": "Osaka Metropolitan University"
+            },
+            "bbox": [
+                135.5076814,
+                34.5914687,
+                135.5077814,
+                34.5915687
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.5077314,
+                    34.5915187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 243103408,
+                "osm_type": "node",
+                "osm_id": 5209321403,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 5.187685969324815e-05,
+                "addresstype": "highway",
+                "name": "Shinshu University",
+                "display_name": "Shinshu University, \u56fd\u9053292\u53f7, \u84ee\u6c60, \u5c71\u30ce\u5185\u753a, \u4e0b\u9ad8\u4e95\u90e1, \u9577\u91ce\u770c, \u65e5\u672c",
+                "address": {
+                    "highway": "Shinshu University",
+                    "road": "\u56fd\u9053292\u53f7",
+                    "neighbourhood": "\u84ee\u6c60",
+                    "town": "\u5c71\u30ce\u5185\u753a",
+                    "county": "\u4e0b\u9ad8\u4e95\u90e1",
+                    "province": "\u9577\u91ce\u770c",
+                    "ISO3166-2-lvl4": "JP-20",
+                    "country": "\u65e5\u672c",
+                    "country_code": "jp"
+                },
+                "university_id": 1098,
+                "university_name": "Shinshu University"
+            },
+            "bbox": [
+                138.4937432,
+                36.7116808,
+                138.4938432,
+                36.7117808
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    138.4937932,
+                    36.7117308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 245381775,
+                "osm_type": "node",
+                "osm_id": 2990205846,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 6.0803387502815555e-05,
+                "addresstype": "highway",
+                "name": "\u5fb3\u5cf6\u5927\u5b66\u524d",
+                "display_name": "\u5fb3\u5cf6\u5927\u5b66\u524d, \u5409\u91ce\u5ddd\u30d0\u30a4\u30d1\u30b9, \u52a9\u4efb\u6a4b\u4e09\u4e01\u76ee, \u5fb3\u5cf6\u5e02, \u5fb3\u5cf6\u770c, 770-8571, \u65e5\u672c",
+                "address": {
+                    "highway": "\u5fb3\u5cf6\u5927\u5b66\u524d",
+                    "road": "\u5409\u91ce\u5ddd\u30d0\u30a4\u30d1\u30b9",
+                    "neighbourhood": "\u52a9\u4efb\u6a4b\u4e09\u4e01\u76ee",
+                    "city": "\u5fb3\u5cf6\u5e02",
+                    "province": "\u5fb3\u5cf6\u770c",
+                    "ISO3166-2-lvl4": "JP-36",
+                    "postcode": "770-8571",
+                    "country": "\u65e5\u672c",
+                    "country_code": "jp"
+                },
+                "university_id": 1119,
+                "university_name": "Tokushima University"
+            },
+            "bbox": [
+                134.558931,
+                34.0787568,
+                134.559031,
+                34.0788568
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    134.558981,
+                    34.0788068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 35440714,
+                "osm_type": "way",
+                "osm_id": 539288366,
+                "place_rank": 22,
+                "category": "natural",
+                "type": "wood",
+                "importance": 0.4842920675609961,
+                "addresstype": "wood",
+                "name": "University of Lagos",
+                "display_name": "University of Lagos, Lagos Mainland, Lagos, Nigeria",
+                "address": {
+                    "wood": "University of Lagos",
+                    "county": "Lagos Mainland",
+                    "state": "Lagos",
+                    "ISO3166-2-lvl4": "NG-LA",
+                    "country": "Nigeria",
+                    "country_code": "ng"
+                },
+                "university_id": 1183,
+                "university_name": "University Of Lagos"
+            },
+            "bbox": [
+                3.3837495,
+                6.5016962,
+                3.4045333,
+                6.522325
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.3934056720755486,
+                    6.51209515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 248776530,
+                "osm_type": "node",
+                "osm_id": 2646508486,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 6.631799801628165e-05,
+                "addresstype": "highway",
+                "name": "\u8fd1\u757f\u5927\u5b66",
+                "display_name": "\u8fd1\u757f\u5927\u5b66, \u7b2c\u4e8c\u962a\u5948\u9053\u8def, \u4e2d\u753a, \u5948\u826f\u5e02, \u5948\u826f\u770c, 631-0052, \u65e5\u672c",
+                "address": {
+                    "highway": "\u8fd1\u757f\u5927\u5b66",
+                    "road": "\u7b2c\u4e8c\u962a\u5948\u9053\u8def",
+                    "neighbourhood": "\u4e2d\u753a",
+                    "city": "\u5948\u826f\u5e02",
+                    "province": "\u5948\u826f\u770c",
+                    "ISO3166-2-lvl4": "JP-29",
+                    "postcode": "631-0052",
+                    "country": "\u65e5\u672c",
+                    "country_code": "jp"
+                },
+                "university_id": 1266,
+                "university_name": "Kindai University (Kinki University)"
+            },
+            "bbox": [
+                135.7347536,
+                34.6710558,
+                135.7348536,
+                34.6711558
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.7348036,
+                    34.6711058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 41676790,
+                "osm_type": "node",
+                "osm_id": 4086360289,
+                "place_rank": 19,
+                "category": "place",
+                "type": "suburb",
+                "importance": 0.14673389715419238,
+                "addresstype": "suburb",
+                "name": "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u0628\u0635\u0631\u0629",
+                "display_name": "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u0628\u0635\u0631\u0629, \u0627\u0644\u0628\u062f\u0631\u0627\u0646, \u0646\u0627\u062d\u064a\u0629 \u0627\u0644\u0647\u0627\u0631\u062b\u0629, \u0642\u0636\u0627\u0621 \u0627\u0644\u0628\u0635\u0631\u0629, \u0645\u062d\u0627\u0641\u0638\u0629 \u0627\u0644\u0628\u0635\u0631\u0629, 60100, \u0627\u0644\u0639\u0631\u0627\u0642",
+                "address": {
+                    "suburb": "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u0628\u0635\u0631\u0629",
+                    "town": "\u0627\u0644\u0628\u062f\u0631\u0627\u0646",
+                    "subdistrict": "\u0646\u0627\u062d\u064a\u0629 \u0627\u0644\u0647\u0627\u0631\u062b\u0629",
+                    "district": "\u0642\u0636\u0627\u0621 \u0627\u0644\u0628\u0635\u0631\u0629",
+                    "state": "\u0645\u062d\u0627\u0641\u0638\u0629 \u0627\u0644\u0628\u0635\u0631\u0629",
+                    "ISO3166-2-lvl4": "IQ-BA",
+                    "postcode": "60100",
+                    "country": "\u0627\u0644\u0639\u0631\u0627\u0642",
+                    "country_code": "iq"
+                },
+                "university_id": 1377,
+                "university_name": "University Of Basrah"
+            },
+            "bbox": [
+                47.7229414,
+                30.5456616,
+                47.7629414,
+                30.5856616
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    47.7429414,
+                    30.5656616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 235402032,
+                "osm_type": "way",
+                "osm_id": 220323124,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "library",
+                "importance": 5.683146410310548e-05,
+                "addresstype": "amenity",
+                "name": "University Library",
+                "display_name": "University Library, University of moratuwa Main Street, Molpe, Wewala, Colombo District, Western Province, 10400, Sri Lanka",
+                "address": {
+                    "amenity": "University Library",
+                    "road": "University of moratuwa Main Street",
+                    "hamlet": "Molpe",
+                    "village": "Wewala",
+                    "state_district": "Colombo District",
+                    "ISO3166-2-lvl5": "LK-11",
+                    "state": "Western Province",
+                    "ISO3166-2-lvl4": "LK-1",
+                    "postcode": "10400",
+                    "country": "Sri Lanka",
+                    "country_code": "lk"
+                },
+                "university_id": 1399,
+                "university_name": "University Of Sri Jayewardenepura"
+            },
+            "bbox": [
+                79.9008592,
+                6.7950967,
+                79.9012606,
+                6.7955872
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.9010599,
+                    6.79534195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 64740337,
+                "osm_type": "node",
+                "osm_id": 6595702378,
+                "place_rank": 30,
+                "category": "office",
+                "type": "company",
+                "importance": 7.85145342183111e-05,
+                "addresstype": "office",
+                "name": "ETH Z\u00fcrich",
+                "display_name": "ETH Z\u00fcrich, 130, Binzm\u00fchlestrasse, Oerlikon, Kreis 11, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8050, Schweiz/Suisse/Svizzera/Svizra",
+                "address": {
+                    "office": "ETH Z\u00fcrich",
+                    "house_number": "130",
+                    "road": "Binzm\u00fchlestrasse",
+                    "suburb": "Oerlikon",
+                    "city": "Z\u00fcrich",
+                    "county": "Bezirk Z\u00fcrich",
+                    "state": "Z\u00fcrich",
+                    "ISO3166-2-lvl4": "CH-ZH",
+                    "postcode": "8050",
+                    "country": "Schweiz/Suisse/Svizzera/Svizra",
+                    "country_code": "ch"
+                },
+                "university_id": 6,
+                "university_name": "Eth Zurich - Swiss Federal Institute Of Technology"
+            },
+            "bbox": [
+                8.5374414,
+                47.413168,
+                8.5375414,
+                47.413268
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5374914,
+                    47.413218
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 242895334,
+                "osm_type": "node",
+                "osm_id": 306328978,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "traffic_signals",
+                "importance": 8.593499656667457e-05,
+                "addresstype": "highway",
+                "name": "\u56fd\u7acb\u6771\u4eac\u9ad8\u5c02",
+                "display_name": "\u56fd\u7acb\u6771\u4eac\u9ad8\u5c02, \u3081\u3058\u308d\u53f0\u56db\u4e01\u76ee, \u516b\u738b\u5b50\u5e02, \u6771\u4eac\u90fd, 193-8799, \u65e5\u672c",
+                "address": {
+                    "highway": "\u56fd\u7acb\u6771\u4eac\u9ad8\u5c02",
+                    "neighbourhood": "\u3081\u3058\u308d\u53f0\u56db\u4e01\u76ee",
+                    "city": "\u516b\u738b\u5b50\u5e02",
+                    "ISO3166-2-lvl4": "JP-13",
+                    "postcode": "193-8799",
+                    "country": "\u65e5\u672c",
+                    "country_code": "jp"
+                },
+                "university_id": 84,
+                "university_name": "Tokyo Institute Of Technology (Tokyo Tech)"
+            },
+            "bbox": [
+                139.3008389,
+                35.6381746,
+                139.3009389,
+                35.6382746
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.3008889,
+                    35.6382246
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 394518080,
+                "osm_type": "way",
+                "osm_id": 1342821538,
+                "place_rank": 30,
+                "category": "tourism",
+                "type": "artwork",
+                "importance": 6.50988021667356e-05,
+                "addresstype": "tourism",
+                "name": "University of Newcastle",
+                "display_name": "University of Newcastle, Ring Road, Callaghan, Newcastle, Newcastle-Maitland, City of Newcastle, New South Wales, 2308, Australia",
+                "address": {
+                    "tourism": "University of Newcastle",
+                    "road": "Ring Road",
+                    "suburb": "Callaghan",
+                    "city": "Newcastle",
+                    "municipality": "City of Newcastle",
+                    "state": "New South Wales",
+                    "ISO3166-2-lvl4": "AU-NSW",
+                    "postcode": "2308",
+                    "country": "Australia",
+                    "country_code": "au"
+                },
+                "university_id": 178,
+                "university_name": "The University Of Newcastle, Australia (Uon)"
+            },
+            "bbox": [
+                151.6977409,
+                -32.8950322,
+                151.697993,
+                -32.8950096
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.69786625800776,
+                    -32.89503071335315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 113781479,
+                "osm_type": "way",
+                "osm_id": 949322216,
+                "place_rank": 30,
+                "category": "building",
+                "type": "yes",
+                "importance": 7.148928053707205e-05,
+                "addresstype": "building",
+                "name": "TU",
+                "display_name": "TU, Prinzenschneise, Wixhausen, Darmstadt, Hessen, 64291, Deutschland",
+                "address": {
+                    "building": "TU",
+                    "road": "Prinzenschneise",
+                    "city_district": "Wixhausen",
+                    "city": "Darmstadt",
+                    "municipality": "Darmstadt",
+                    "state": "Hessen",
+                    "ISO3166-2-lvl4": "DE-HE",
+                    "postcode": "64291",
+                    "country": "Deutschland",
+                    "country_code": "de"
+                },
+                "university_id": 241,
+                "university_name": "Technical University Of Darmstadt"
+            },
+            "bbox": [
+                8.6781988,
+                49.9314257,
+                8.6797971,
+                49.931496
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.678997963056037,
+                    49.93146155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 115444074,
+                "osm_type": "relation",
+                "osm_id": 162693,
+                "place_rank": 16,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.47767360575534856,
+                "addresstype": "town",
+                "name": "Aub",
+                "display_name": "Aub, Verwaltungsgemeinschaft Aub, Landkreis W\u00fcrzburg, Bayern, 97239, Deutschland",
+                "address": {
+                    "town": "Aub",
+                    "municipality": "Verwaltungsgemeinschaft Aub",
+                    "county": "Landkreis W\u00fcrzburg",
+                    "state": "Bayern",
+                    "ISO3166-2-lvl4": "DE-BY",
+                    "postcode": "97239",
+                    "country": "Deutschland",
+                    "country_code": "de"
+                },
+                "university_id": 249,
+                "university_name": "American University Of Beirut (Aub)"
+            },
+            "bbox": [
+                10.0068821,
+                49.5208213,
+                10.0844707,
+                49.5697255
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0652861,
+                    49.5524989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 26901577,
+                "osm_type": "way",
+                "osm_id": 177629384,
+                "place_rank": 30,
+                "category": "place",
+                "type": "house",
+                "importance": 0.4977934830316414,
+                "addresstype": "place",
+                "name": "Institut Teknologi Bandung",
+                "display_name": "Institut Teknologi Bandung, 10-12, Jalan Skanda, Lebak Siliwangi, Coblong, Kota Bandung, Jawa Barat, Jawa, 40132, Indonesia",
+                "address": {
+                    "place": "Institut Teknologi Bandung",
+                    "house_number": "10-12",
+                    "road": "Jalan Skanda",
+                    "village": "Lebak Siliwangi",
+                    "subdistrict": "Coblong",
+                    "city": "Kota Bandung",
+                    "state": "Jawa Barat",
+                    "ISO3166-2-lvl4": "ID-JB",
+                    "region": "Jawa",
+                    "ISO3166-2-lvl3": "ID-JW",
+                    "postcode": "40132",
+                    "country": "Indonesia",
+                    "country_code": "id"
+                },
+                "university_id": 255,
+                "university_name": "Bandung Institute Of Technology (Itb)"
+            },
+            "bbox": [
+                107.6081711,
+                -6.8936567,
+                107.6127309,
+                -6.8873266
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.61031355794628,
+                    -6.89044875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 225602727,
+                "osm_type": "way",
+                "osm_id": 1138189976,
+                "place_rank": 30,
+                "category": "railway",
+                "type": "station",
+                "importance": 0.20759174723523172,
+                "addresstype": "railway",
+                "name": "IIT Kanpur",
+                "display_name": "IIT Kanpur, NH34, Kanpur, Kanpur Nagar, Uttar Pradesh, 208016, India",
+                "address": {
+                    "railway": "IIT Kanpur",
+                    "road": "NH34",
+                    "city": "Kanpur",
+                    "state_district": "Kanpur Nagar",
+                    "state": "Uttar Pradesh",
+                    "ISO3166-2-lvl4": "IN-UP",
+                    "postcode": "208016",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 262,
+                "university_name": "Indian Institute Of Technology Kanpur (Iitk)"
+            },
+            "bbox": [
+                80.2479683,
+                26.5088451,
+                80.2486574,
+                26.5095668
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.24823225761622,
+                    26.5093058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 271884082,
+                "osm_type": "node",
+                "osm_id": 5079192913,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "bicycle_rental",
+                "importance": 6.331960021358079e-05,
+                "addresstype": "amenity",
+                "name": "Gbici - Univ. UC3M",
+                "display_name": "Gbici - Univ. UC3M, 126, Calle Madrid, Las Margaritas, Getafe, Comunidad de Madrid, 28903, Espa\u00f1a",
+                "address": {
+                    "amenity": "Gbici - Univ. UC3M",
+                    "house_number": "126",
+                    "road": "Calle Madrid",
+                    "suburb": "Las Margaritas",
+                    "city": "Getafe",
+                    "state": "Comunidad de Madrid",
+                    "ISO3166-2-lvl4": "ES-MD",
+                    "postcode": "28903",
+                    "country": "Espa\u00f1a",
+                    "country_code": "es"
+                },
+                "university_id": 285,
+                "university_name": "Universidad Carlos Iii De Madrid (Uc3M)"
+            },
+            "bbox": [
+                -3.7269481,
+                40.3165132,
+                -3.7268481,
+                40.3166132
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.7268981,
+                    40.3165632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 250179891,
+                "osm_type": "node",
+                "osm_id": 4636161180,
+                "place_rank": 30,
+                "category": "tourism",
+                "type": "information",
+                "importance": 7.06881818874955e-05,
+                "addresstype": "tourism",
+                "name": "DGIST \ud6c4\ubb38",
+                "display_name": "DGIST \ud6c4\ubb38, 333, \ud14c\ud06c\ub178\uc911\uc559\ub300\ub85c, \uc720\uac00\uc74d, \ub2ec\uc131\uad70, \ub300\uad6c\uad11\uc5ed\uc2dc, 42988, \ub300\ud55c\ubbfc\uad6d",
+                "address": {
+                    "tourism": "DGIST \ud6c4\ubb38",
+                    "house_number": "333",
+                    "road": "\ud14c\ud06c\ub178\uc911\uc559\ub300\ub85c",
+                    "town": "\uc720\uac00\uc74d",
+                    "county": "\ub2ec\uc131\uad70",
+                    "city": "\ub300\uad6c\uad11\uc5ed\uc2dc",
+                    "ISO3166-2-lvl4": "KR-27",
+                    "postcode": "42988",
+                    "country": "\ub300\ud55c\ubbfc\uad6d",
+                    "country_code": "kr"
+                },
+                "university_id": 325,
+                "university_name": "Daegu Gyeongbuk Institute Of Science And Technology (Dgist)"
+            },
+            "bbox": [
+                128.4541674,
+                35.7027747,
+                128.4542674,
+                35.7028747
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    128.4542174,
+                    35.7028247
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 213808441,
+                "osm_type": "node",
+                "osm_id": 7242298925,
+                "place_rank": 30,
+                "category": "office",
+                "type": "quango",
+                "importance": 7.457007705801507e-05,
+                "addresstype": "office",
+                "name": "La French Tech Taiwan",
+                "display_name": "La French Tech Taiwan, N.2, \u5357\u4eac\u6771\u8def\u56db\u6bb5, \u7f8e\u4ec1\u91cc, \u677e\u5c71\u5340, \u4e2d\u5d19, \u81fa\u5317\u5e02, 105, \u81fa\u7063",
+                "address": {
+                    "office": "La French Tech Taiwan",
+                    "house_number": "N.2",
+                    "road": "\u5357\u4eac\u6771\u8def\u56db\u6bb5",
+                    "neighbourhood": "\u7f8e\u4ec1\u91cc",
+                    "suburb": "\u677e\u5c71\u5340",
+                    "village": "\u4e2d\u5d19",
+                    "city": "\u81fa\u5317\u5e02",
+                    "ISO3166-2-lvl4": "TW-TPE",
+                    "postcode": "105",
+                    "country": "\u81fa\u7063",
+                    "country_code": "tw"
+                },
+                "university_id": 391,
+                "university_name": "National Taiwan University Of Science And Technology (Taiwan Tech)"
+            },
+            "bbox": [
+                121.5495396,
+                25.050276,
+                121.5496396,
+                25.050376
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.5495896,
+                    25.050326
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 155357562,
+                "osm_type": "way",
+                "osm_id": 779937918,
+                "place_rank": 26,
+                "category": "highway",
+                "type": "unclassified",
+                "importance": 0.05340702449073011,
+                "addresstype": "road",
+                "name": "Aurakatu",
+                "display_name": "Aurakatu, Aninkaistenm\u00e4ki, VI, Keskusta, Turku, Turun seutukunta, Varsinais-Suomi, Manner-Suomi, 20800, Suomi / Finland",
+                "address": {
+                    "road": "Aurakatu",
+                    "neighbourhood": "Aninkaistenm\u00e4ki",
+                    "suburb": "Keskusta",
+                    "city": "Turku",
+                    "municipality": "Turun seutukunta",
+                    "state": "Varsinais-Suomi",
+                    "ISO3166-2-lvl4": "FI-19",
+                    "region": "Manner-Suomi",
+                    "postcode": "20800",
+                    "country": "Suomi / Finland",
+                    "country_code": "fi"
+                },
+                "university_id": 484,
+                "university_name": "American University Of Ras Al Khaimah ( Aurak )"
+            },
+            "bbox": [
+                22.2651534,
+                60.4506935,
+                22.2666717,
+                60.4517638
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.265914636513767,
+                    60.45123130306775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 309150132,
+                "osm_type": "node",
+                "osm_id": 151898795,
+                "place_rank": 20,
+                "category": "place",
+                "type": "hamlet",
+                "importance": 0.13336833524071104,
+                "addresstype": "hamlet",
+                "name": "Lums",
+                "display_name": "Lums, Madison Parish, Louisiana, 71282, United States",
+                "address": {
+                    "hamlet": "Lums",
+                    "county": "Madison Parish",
+                    "state": "Louisiana",
+                    "ISO3166-2-lvl4": "US-LA",
+                    "postcode": "71282",
+                    "country": "United States",
+                    "country_code": "us"
+                },
+                "university_id": 534,
+                "university_name": "Lahore University Of Management Sciences (Lums)"
+            },
+            "bbox": [
+                -91.1748319,
+                32.3756993,
+                -91.1348319,
+                32.4156993
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -91.1548319,
+                    32.3956993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 253739451,
+                "osm_type": "node",
+                "osm_id": 502591255,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 7.204776073849115e-05,
+                "addresstype": "highway",
+                "name": "Northumbria University",
+                "display_name": "Northumbria University, Sandyford Road, Haymarket, Newcastle upon Tyne, Tyne and Wear, North East, England, NE1 8PN, United Kingdom",
+                "address": {
+                    "highway": "Northumbria University",
+                    "road": "Sandyford Road",
+                    "suburb": "Haymarket",
+                    "city": "Newcastle upon Tyne",
+                    "ISO3166-2-lvl8": "GB-NET",
+                    "county": "Tyne and Wear",
+                    "state_district": "North East",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "NE1 8PN",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 535,
+                "university_name": "Northumbria University At Newcastle"
+            },
+            "bbox": [
+                -1.6096901,
+                54.9787191,
+                -1.6095901,
+                54.9788191
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.6096401,
+                    54.9787691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 238099680,
+                "osm_type": "node",
+                "osm_id": 4293343216,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 5.36987869077137e-05,
+                "addresstype": "highway",
+                "name": "BITS Pilani",
+                "display_name": "BITS Pilani, Lover's Lane, Kapra mandal, Medchal\u2013Malkajgiri, Telangana, 500087, India",
+                "address": {
+                    "highway": "BITS Pilani",
+                    "road": "Lover's Lane",
+                    "county": "Kapra mandal",
+                    "state_district": "Medchal\u2013Malkajgiri",
+                    "state": "Telangana",
+                    "ISO3166-2-lvl4": "IN-TS",
+                    "postcode": "500087",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 808,
+                "university_name": "Birla Institute Of Technology And Science, Pilani"
+            },
+            "bbox": [
+                78.572741,
+                17.547135,
+                78.572841,
+                17.547235
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.572791,
+                    17.547185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 232028947,
+                "osm_type": "node",
+                "osm_id": 6888414909,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "blood_bank",
+                "importance": 5.509498741126142e-05,
+                "addresstype": "amenity",
+                "name": "Saveetha Medical College and Hospital Blood Bank (A unit of Saveetha Institute of Medical and Technical Sciences)",
+                "display_name": "Saveetha Medical College and Hospital Blood Bank (A unit of Saveetha Institute of Medical and Technical Sciences), NH48, Thandalam, Sriperumbudur, Kanchipuram, Thiruvallur, Tamil Nadu, 602105, India",
+                "address": {
+                    "amenity": "Saveetha Medical College and Hospital Blood Bank (A unit of Saveetha Institute of Medical and Technical Sciences)",
+                    "road": "NH48",
+                    "village": "Thandalam",
+                    "municipality": "Sriperumbudur",
+                    "district": "Kanchipuram",
+                    "state_district": "Thiruvallur",
+                    "state": "Tamil Nadu",
+                    "ISO3166-2-lvl4": "IN-TN",
+                    "postcode": "602105",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 989,
+                "university_name": "Saveetha Institute Of Medical And Technical Sciences (Deemed To Be University)"
+            },
+            "bbox": [
+                80.015561,
+                13.0245362,
+                80.015661,
+                13.0246362
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.015611,
+                    13.0245862
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 260080662,
+                "osm_type": "node",
+                "osm_id": 5844132582,
+                "place_rank": 30,
+                "category": "shop",
+                "type": "convenience",
+                "importance": 6.515526054775338e-05,
+                "addresstype": "shop",
+                "name": "Morrisons Daily",
+                "display_name": "Morrisons Daily, Nunn Mills Road, Northampton, West Northamptonshire, England, NN1 5PA, United Kingdom",
+                "address": {
+                    "shop": "Morrisons Daily",
+                    "road": "Nunn Mills Road",
+                    "town": "Northampton",
+                    "county": "West Northamptonshire",
+                    "ISO3166-2-lvl6": "GB-WNH",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "NN1 5PA",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 1117,
+                "university_name": "The University Of Northampton"
+            },
+            "bbox": [
+                -0.8899529,
+                52.2312412,
+                -0.8898529,
+                52.2313412
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.8899029,
+                    52.2312912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 287941569,
+                "osm_type": "way",
+                "osm_id": 463700476,
+                "place_rank": 26,
+                "category": "highway",
+                "type": "residential",
+                "importance": 0.05339686503395129,
+                "addresstype": "road",
+                "name": "Universidad de Guadalajara",
+                "display_name": "Universidad de Guadalajara, Morelia, Michoac\u00e1n, 58337, M\u00e9xico",
+                "address": {
+                    "road": "Universidad de Guadalajara",
+                    "city": "Morelia",
+                    "county": "Morelia",
+                    "state": "Michoac\u00e1n",
+                    "ISO3166-2-lvl4": "MX-MIC",
+                    "postcode": "58337",
+                    "country": "M\u00e9xico",
+                    "country_code": "mx"
+                },
+                "university_id": 1127,
+                "university_name": "Universidad De Guadalajara (Udg)"
+            },
+            "bbox": [
+                -101.2514273,
+                19.7191131,
+                -101.250761,
+                19.720886
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.25111801224135,
+                    19.720008467628958
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 301468278,
+                "osm_type": "way",
+                "osm_id": 490766032,
+                "place_rank": 22,
+                "category": "landuse",
+                "type": "industrial",
+                "importance": 0.10669666819256883,
+                "addresstype": "industrial",
+                "name": "INTEC",
+                "display_name": "INTEC, Butte County, Idaho, United States",
+                "address": {
+                    "industrial": "INTEC",
+                    "county": "Butte County",
+                    "state": "Idaho",
+                    "ISO3166-2-lvl4": "US-ID",
+                    "country": "United States",
+                    "country_code": "us"
+                },
+                "university_id": 1252,
+                "university_name": "Instituto Tecnol\u00f3gico De Santo Domingo (Intec)"
+            },
+            "bbox": [
+                -112.9387477,
+                43.5646213,
+                -112.9245722,
+                43.5766524
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.9313278245676,
+                    43.56988115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 245389310,
+                "osm_type": "node",
+                "osm_id": 9081279031,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 7.531471732657385e-05,
+                "addresstype": "highway",
+                "name": "\u5de6\u4eac\u533a\u7dcf\u5408\u5e81\u820e\u30fb\u4eac\u90fd\u5de5\u82b8\u7e4a\u7dad\u5927\u5b66\u524d",
+                "display_name": "\u5de6\u4eac\u533a\u7dcf\u5408\u5e81\u820e\u30fb\u4eac\u90fd\u5de5\u82b8\u7e4a\u7dad\u5927\u5b66\u524d, \u5317\u6cc9\u901a, \u677e\u30b1\u5d0e\u5802\u30ce\u4e0a\u753a, \u5de6\u4eac\u533a, \u4eac\u90fd\u5e02, \u4eac\u90fd\u5e9c, 606-0931, \u65e5\u672c",
+                "address": {
+                    "highway": "\u5de6\u4eac\u533a\u7dcf\u5408\u5e81\u820e\u30fb\u4eac\u90fd\u5de5\u82b8\u7e4a\u7dad\u5927\u5b66\u524d",
+                    "road": "\u5317\u6cc9\u901a",
+                    "neighbourhood": "\u677e\u30b1\u5d0e\u5802\u30ce\u4e0a\u753a",
+                    "suburb": "\u5de6\u4eac\u533a",
+                    "city": "\u4eac\u90fd\u5e02",
+                    "province": "\u4eac\u90fd\u5e9c",
+                    "ISO3166-2-lvl4": "JP-26",
+                    "postcode": "606-0931",
+                    "country": "\u65e5\u672c",
+                    "country_code": "jp"
+                },
+                "university_id": 1271,
+                "university_name": "Kyoto Institute Of Technology"
+            },
+            "bbox": [
+                135.7798711,
+                35.0482024,
+                135.7799711,
+                35.0483024
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.7799211,
+                    35.0482524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 57766564,
+                "osm_type": "node",
+                "osm_id": 6131413450,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 6.542076752875589e-05,
+                "addresstype": "highway",
+                "name": "\u0423\u043d\u0438\u0432\u0435\u0440\u0437\u0438\u0442\u0435\u0442",
+                "display_name": "\u0423\u043d\u0438\u0432\u0435\u0440\u0437\u0438\u0442\u0435\u0442, \u0421\u043b\u043e\u0431\u043e\u0434\u0435, \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446, \u0413\u0440\u0430\u0434 \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446, \u0428\u0443\u043c\u0430\u0434\u0438\u0458\u0441\u043a\u0438 \u0443\u043f\u0440\u0430\u0432\u043d\u0438 \u043e\u043a\u0440\u0443\u0433, \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u043d\u0430 \u0421\u0440\u0431\u0438\u0458\u0430, 34114, \u0421\u0440\u0431\u0438\u0458\u0430",
+                "address": {
+                    "highway": "\u0423\u043d\u0438\u0432\u0435\u0440\u0437\u0438\u0442\u0435\u0442",
+                    "road": "\u0421\u043b\u043e\u0431\u043e\u0434\u0435",
+                    "city": "\u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446",
+                    "municipality": "\u0413\u0440\u0430\u0434 \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446",
+                    "county": "\u0428\u0443\u043c\u0430\u0434\u0438\u0458\u0441\u043a\u0438 \u0443\u043f\u0440\u0430\u0432\u043d\u0438 \u043e\u043a\u0440\u0443\u0433",
+                    "ISO3166-2-lvl6": "RS-12",
+                    "state": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u043d\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
+                    "postcode": "34114",
+                    "country": "\u0421\u0440\u0431\u0438\u0458\u0430",
+                    "country_code": "rs"
+                },
+                "university_id": 1380,
+                "university_name": "University Of Kragujevac"
+            },
+            "bbox": [
+                20.9203531,
+                44.0224567,
+                20.9204531,
+                44.0225567
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.9204031,
+                    44.0225067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 207368610,
+                "osm_type": "node",
+                "osm_id": 7666490743,
+                "place_rank": 30,
+                "category": "railway",
+                "type": "station",
+                "importance": 0.29503227113851116,
+                "addresstype": "railway",
+                "name": "\u4e2d\u5357\u5927\u5b66",
+                "display_name": "\u4e2d\u5357\u5927\u5b66, \u540e\u6e56\u8def, \u6854\u5b50\u6d32\u8857\u9053, \u957f\u6c99\u5e02, \u6e58\u6c5f\u65b0\u533a, \u5cb3\u9e93\u533a, \u957f\u6c99\u5e02, \u6e56\u5357\u7701, 410012, \u4e2d\u56fd",
+                "address": {
+                    "railway": "\u4e2d\u5357\u5927\u5b66",
+                    "road": "\u540e\u6e56\u8def",
+                    "suburb": "\u6854\u5b50\u6d32\u8857\u9053",
+                    "city": "\u957f\u6c99\u5e02",
+                    "municipality": "\u6e58\u6c5f\u65b0\u533a",
+                    "district": "\u5cb3\u9e93\u533a",
+                    "region": "\u957f\u6c99\u5e02",
+                    "state": "\u6e56\u5357\u7701",
+                    "ISO3166-2-lvl4": "CN-HN",
+                    "postcode": "410012",
+                    "country": "\u4e2d\u56fd",
+                    "country_code": "cn"
+                },
+                "university_id": 428,
+                "university_name": "Central South University"
+            },
+            "bbox": [
+                112.9272974,
+                28.1528368,
+                112.9372974,
+                28.1628368
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.9322974,
+                    28.1578368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 302269549,
+                "osm_type": "way",
+                "osm_id": 573002149,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "place_of_worship",
+                "importance": 7.372472724493809e-05,
+                "addresstype": "amenity",
+                "name": "Newman Center",
+                "display_name": "Newman Center, 170, University Street, East Central, Salt Lake City, Salt Lake County, Utah, 84102, United States",
+                "address": {
+                    "amenity": "Newman Center",
+                    "house_number": "170",
+                    "road": "University Street",
+                    "neighbourhood": "East Central",
+                    "city": "Salt Lake City",
+                    "county": "Salt Lake County",
+                    "state": "Utah",
+                    "ISO3166-2-lvl4": "US-UT",
+                    "postcode": "84102",
+                    "country": "United States",
+                    "country_code": "us"
+                },
+                "university_id": 701,
+                "university_name": "University Of Siena"
+            },
+            "bbox": [
+                -111.853024,
+                40.7652284,
+                -111.8525892,
+                40.7656371
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.85279650863075,
+                    40.7654225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 252399317,
+                "osm_type": "node",
+                "osm_id": 4781204887,
+                "place_rank": 30,
+                "category": "office",
+                "type": "research",
+                "importance": 9.99999999995449e-06,
+                "addresstype": "office",
+                "name": "Stacja Polarna Uniwersytetu im. Adama Mickiewicza \"Petuniabukta\"",
+                "display_name": "Stacja Polarna Uniwersytetu im. Adama Mickiewicza \"Petuniabukta\", Trail to Petunia bay Scientific base, Pyramiden, Svalbard, Norge",
+                "address": {
+                    "office": "Stacja Polarna Uniwersytetu im. Adama Mickiewicza \"Petuniabukta\"",
+                    "road": "Trail to Petunia bay Scientific base",
+                    "residential": "Pyramiden",
+                    "region": "Svalbard",
+                    "ISO3166-2-lvl4": "NO-21",
+                    "country": "Norge",
+                    "country_code": "no"
+                },
+                "university_id": 763,
+                "university_name": "Adam Mickiewicz University, Pozna?"
+            },
+            "bbox": [
+                16.4568215,
+                78.6856965,
+                16.4569215,
+                78.6857965
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.4568715,
+                    78.6857465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 42293619,
+                "osm_type": "relation",
+                "osm_id": 13254379,
+                "place_rank": 20,
+                "category": "boundary",
+                "type": "administrative",
+                "importance": 0.45983432981199174,
+                "addresstype": "suburb",
+                "name": "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u0625\u0645\u0627\u0645 \u0645\u062d\u0645\u062f \u0628\u0646 \u0633\u0639\u0648\u062f \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u0629",
+                "display_name": "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u0625\u0645\u0627\u0645 \u0645\u062d\u0645\u062f \u0628\u0646 \u0633\u0639\u0648\u062f \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u0629, \u0628\u0644\u062f\u064a\u0629 \u0627\u0644\u0634\u0645\u0627\u0644, \u0645\u062d\u0627\u0641\u0638\u0629 \u0627\u0644\u0631\u064a\u0627\u0636, \u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u0631\u064a\u0627\u0636, \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+                "address": {
+                    "suburb": "\u062c\u0627\u0645\u0639\u0629 \u0627\u0644\u0625\u0645\u0627\u0645 \u0645\u062d\u0645\u062f \u0628\u0646 \u0633\u0639\u0648\u062f \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u0629",
+                    "municipality": "\u0628\u0644\u062f\u064a\u0629 \u0627\u0644\u0634\u0645\u0627\u0644",
+                    "province": "\u0645\u062d\u0627\u0641\u0638\u0629 \u0627\u0644\u0631\u064a\u0627\u0636",
+                    "state": "\u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u0631\u064a\u0627\u0636",
+                    "ISO3166-2-lvl4": "SA-01",
+                    "country": "\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+                    "country_code": "sa"
+                },
+                "university_id": 909,
+                "university_name": "Imam Mohammad Ibn Saud Islamic University \u2013 Imsiu"
+            },
+            "bbox": [
+                46.6878102,
+                24.8014602,
+                46.7168784,
+                24.8237258
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.70187841454667,
+                    24.81322035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 272450451,
+                "osm_type": "node",
+                "osm_id": 716874872,
+                "place_rank": 30,
+                "category": "railway",
+                "type": "tram_stop",
+                "importance": 6.895780880441012e-05,
+                "addresstype": "railway",
+                "name": "Universidad de Murcia",
+                "display_name": "Universidad de Murcia, Anillo Campus de Espinardo, Los Rectores, Casas de Cementerio de Nuestro Padre Jesus, El Puntal, Murcia, \u00c1rea Metropolitana de Murcia, Regi\u00f3n de Murcia, 30100, Espa\u00f1a",
+                "address": {
+                    "railway": "Universidad de Murcia",
+                    "road": "Anillo Campus de Espinardo",
+                    "neighbourhood": "Los Rectores",
+                    "city_district": "El Puntal",
+                    "city": "Murcia",
+                    "county": "\u00c1rea Metropolitana de Murcia",
+                    "province": "Regi\u00f3n de Murcia",
+                    "ISO3166-2-lvl6": "ES-MU",
+                    "state": "Regi\u00f3n de Murcia",
+                    "ISO3166-2-lvl4": "ES-MC",
+                    "postcode": "30100",
+                    "country": "Espa\u00f1a",
+                    "country_code": "es"
+                },
+                "university_id": 942,
+                "university_name": "University Of Murcia"
+            },
+            "bbox": [
+                -1.1676858,
+                38.0146621,
+                -1.1675858,
+                38.0147621
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.1676358,
+                    38.0147121
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 239878258,
+                "osm_type": "node",
+                "osm_id": 11586280332,
+                "place_rank": 30,
+                "category": "railway",
+                "type": "stop",
+                "importance": 0.29436395425274753,
+                "addresstype": "railway",
+                "name": "\u0110\u1ea1i H\u1ecdc Qu\u1ed1c Gia",
+                "display_name": "\u0110\u1ea1i H\u1ecdc Qu\u1ed1c Gia, \u0110\u01b0\u1eddng Song H\u00e0nh Xa l\u1ed9 H\u00e0 N\u1ed9i, Khu ph\u1ed1 23, Ph\u01b0\u1eddng Linh Trung, Th\u00e0nh ph\u1ed1 Th\u1ee7 \u0110\u1ee9c, Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh, 71300, Vi\u1ec7t Nam",
+                "address": {
+                    "railway": "\u0110\u1ea1i H\u1ecdc Qu\u1ed1c Gia",
+                    "road": "\u0110\u01b0\u1eddng Song H\u00e0nh Xa l\u1ed9 H\u00e0 N\u1ed9i",
+                    "quarter": "Khu ph\u1ed1 23",
+                    "suburb": "Ph\u01b0\u1eddng Linh Trung",
+                    "city": "Th\u00e0nh ph\u1ed1 Th\u1ee7 \u0110\u1ee9c",
+                    "ISO3166-2-lvl4": "VN-SG",
+                    "postcode": "71300",
+                    "country": "Vi\u1ec7t Nam",
+                    "country_code": "vn"
+                },
+                "university_id": 947,
+                "university_name": "Viet Nam National University Ho Chi Minh City (Vnu-Hcm)"
+            },
+            "bbox": [
+                106.801143,
+                10.8662695,
+                106.801243,
+                10.8663695
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.801193,
+                    10.8663195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 239878258,
+                "osm_type": "node",
+                "osm_id": 11586280332,
+                "place_rank": 30,
+                "category": "railway",
+                "type": "stop",
+                "importance": 0.29436395425274753,
+                "addresstype": "railway",
+                "name": "\u0110\u1ea1i H\u1ecdc Qu\u1ed1c Gia",
+                "display_name": "\u0110\u1ea1i H\u1ecdc Qu\u1ed1c Gia, \u0110\u01b0\u1eddng Song H\u00e0nh Xa l\u1ed9 H\u00e0 N\u1ed9i, Khu ph\u1ed1 23, Ph\u01b0\u1eddng Linh Trung, Th\u00e0nh ph\u1ed1 Th\u1ee7 \u0110\u1ee9c, Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh, 71300, Vi\u1ec7t Nam",
+                "address": {
+                    "railway": "\u0110\u1ea1i H\u1ecdc Qu\u1ed1c Gia",
+                    "road": "\u0110\u01b0\u1eddng Song H\u00e0nh Xa l\u1ed9 H\u00e0 N\u1ed9i",
+                    "quarter": "Khu ph\u1ed1 23",
+                    "suburb": "Ph\u01b0\u1eddng Linh Trung",
+                    "city": "Th\u00e0nh ph\u1ed1 Th\u1ee7 \u0110\u1ee9c",
+                    "ISO3166-2-lvl4": "VN-SG",
+                    "postcode": "71300",
+                    "country": "Vi\u1ec7t Nam",
+                    "country_code": "vn"
+                },
+                "university_id": 948,
+                "university_name": "Viet Nam National University Ho Chi Minh City (Vnu-Hcm)"
+            },
+            "bbox": [
+                106.801143,
+                10.8662695,
+                106.801243,
+                10.8663695
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.801193,
+                    10.8663195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 168351016,
+                "osm_type": "node",
+                "osm_id": 1194226487,
+                "place_rank": 30,
+                "category": "tourism",
+                "type": "information",
+                "importance": 7.477149614705146e-05,
+                "addresstype": "tourism",
+                "name": "Politechnika \u0141\u00f3dzka",
+                "display_name": "Politechnika \u0141\u00f3dzka, Profesora Bohdana Stefanowskiego, Stare Polesie, Politechniczna, \u0141\u00f3d\u017a-Polesie, \u0141\u00f3d\u017a, wojew\u00f3dztwo \u0142\u00f3dzkie, 90-537, Polska",
+                "address": {
+                    "tourism": "Politechnika \u0141\u00f3dzka",
+                    "road": "Profesora Bohdana Stefanowskiego",
+                    "quarter": "Stare Polesie",
+                    "neighbourhood": "Politechniczna",
+                    "suburb": "\u0141\u00f3d\u017a-Polesie",
+                    "city": "\u0141\u00f3d\u017a",
+                    "state": "wojew\u00f3dztwo \u0142\u00f3dzkie",
+                    "ISO3166-2-lvl4": "PL-10",
+                    "postcode": "90-537",
+                    "country": "Polska",
+                    "country_code": "pl"
+                },
+                "university_id": 1067,
+                "university_name": "Lodz University Of Technology"
+            },
+            "bbox": [
+                19.4529075,
+                51.752527,
+                19.4530075,
+                51.752627
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.4529575,
+                    51.752577
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 159560636,
+                "osm_type": "node",
+                "osm_id": 1611566607,
+                "place_rank": 30,
+                "category": "tourism",
+                "type": "hostel",
+                "importance": 8.232166018153685e-05,
+                "addresstype": "tourism",
+                "name": "\u041e\u0431\u0449\u0435\u0436\u0438\u0442\u0438\u0435 \u0424\u0413\u0411\u041e\u0423 \u0412\u041f\u041e \u00ab\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0441\u043a\u0438\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0433\u043e\u0440\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u00bb",
+                "display_name": "\u041e\u0431\u0449\u0435\u0436\u0438\u0442\u0438\u0435 \u0424\u0413\u0411\u041e\u0423 \u0412\u041f\u041e \u00ab\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0441\u043a\u0438\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0433\u043e\u0440\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u00bb, 15 \u043a3, \u041c\u043e\u0440\u0441\u043a\u0430\u044f \u043d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f, \u041c\u043e\u0440\u0441\u043a\u043e\u0439, \u043e\u043a\u0440\u0443\u0433 \u041c\u043e\u0440\u0441\u043a\u043e\u0439, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0435\u0432\u0435\u0440\u043e-\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, 199226, \u0420\u043e\u0441\u0441\u0438\u044f",
+                "address": {
+                    "tourism": "\u041e\u0431\u0449\u0435\u0436\u0438\u0442\u0438\u0435 \u0424\u0413\u0411\u041e\u0423 \u0412\u041f\u041e \u00ab\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0441\u043a\u0438\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0433\u043e\u0440\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u00bb",
+                    "house_number": "15 \u043a3",
+                    "road": "\u041c\u043e\u0440\u0441\u043a\u0430\u044f \u043d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f",
+                    "suburb": "\u041c\u043e\u0440\u0441\u043a\u043e\u0439",
+                    "city_district": "\u043e\u043a\u0440\u0443\u0433 \u041c\u043e\u0440\u0441\u043a\u043e\u0439",
+                    "city": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+                    "state": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+                    "ISO3166-2-lvl4": "RU-SPE",
+                    "region": "\u0421\u0435\u0432\u0435\u0440\u043e-\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                    "postcode": "199226",
+                    "country": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                    "country_code": "ru"
+                },
+                "university_id": 1094,
+                "university_name": "Saint-Petersburg Mining University"
+            },
+            "bbox": [
+                30.2095809,
+                59.9416453,
+                30.2096809,
+                59.9417453
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.2096309,
+                    59.9416953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 174986733,
+                "osm_type": "node",
+                "osm_id": 4369833749,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "library",
+                "importance": 7.727397573810967e-05,
+                "addresstype": "amenity",
+                "name": "Slovensk\u00e1 technick\u00e1 univerzita v Bratislave, Fakulta architekt\u00fary - Kni\u017enica",
+                "display_name": "Slovensk\u00e1 technick\u00e1 univerzita v Bratislave, Fakulta architekt\u00fary - Kni\u017enica, 19, N\u00e1mestie slobody, Fir\u0161n\u00e1l, Oblas\u0165 \u017dilinsk\u00e1, Bratislava, okres Bratislava I, Bratislava, Bratislavsk\u00fd kraj, 812 45, Slovensko",
+                "address": {
+                    "amenity": "Slovensk\u00e1 technick\u00e1 univerzita v Bratislave, Fakulta architekt\u00fary - Kni\u017enica",
+                    "house_number": "19",
+                    "road": "N\u00e1mestie slobody",
+                    "neighbourhood": "Fir\u0161n\u00e1l",
+                    "suburb": "Bratislava",
+                    "city_district": "okres Bratislava I",
+                    "city": "Bratislava",
+                    "state": "Bratislavsk\u00fd kraj",
+                    "ISO3166-2-lvl4": "SK-BL",
+                    "postcode": "812 45",
+                    "country": "Slovensko",
+                    "country_code": "sk"
+                },
+                "university_id": 1102,
+                "university_name": "Slovak University Of Technology In Bratislava"
+            },
+            "bbox": [
+                17.1106504,
+                48.1513224,
+                17.1107504,
+                48.1514224
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1107004,
+                    48.1513724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 271695902,
+                "osm_type": "way",
+                "osm_id": 359893795,
+                "place_rank": 30,
+                "category": "building",
+                "type": "civic",
+                "importance": 8.580834668493199e-05,
+                "addresstype": "building",
+                "name": "Fundaci\u00f3n Universitaria San Pablo CEU",
+                "display_name": "Fundaci\u00f3n Universitaria San Pablo CEU, 35, Calle de Tutor, Arg\u00fcelles, Moncloa-Aravaca, Madrid, Comunidad de Madrid, 28008, Espa\u00f1a",
+                "address": {
+                    "building": "Fundaci\u00f3n Universitaria San Pablo CEU",
+                    "house_number": "35",
+                    "road": "Calle de Tutor",
+                    "quarter": "Arg\u00fcelles",
+                    "suburb": "Moncloa-Aravaca",
+                    "city": "Madrid",
+                    "state": "Comunidad de Madrid",
+                    "ISO3166-2-lvl4": "ES-MD",
+                    "postcode": "28008",
+                    "country": "Espa\u00f1a",
+                    "country_code": "es"
+                },
+                "university_id": 1245,
+                "university_name": "Fundaci\u00f3n Ceu San Pablo"
+            },
+            "bbox": [
+                -3.7167678,
+                40.4286889,
+                -3.7162674,
+                40.4290809
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.7164699016516076,
+                    40.4289069
+                ]
+            }
+        }
+    ]
+}

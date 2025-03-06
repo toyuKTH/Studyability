@@ -15,14 +15,12 @@ def create_nominatim_url(name):
     params = {
         'q': name,
         'format': 'geojson',
-        'addressdetails': 1,
-        'limit': 1,
-        'polygon_geojson': 1
+        'addressdetails': 1
     }
     return f"{base_url}?{requests.compat.urlencode(params)}"
 
 # Read input CSV
-df = pd.read_csv("uni_iteration_4.csv")
+df = pd.read_csv("uni_iteration_5.csv")
 
 successful_geojson = {"type": "FeatureCollection", "features": []}
 wrong_type_geojson = {"type": "FeatureCollection", "features": []}
@@ -46,24 +44,55 @@ for index, row in df.iterrows():
         
         if response.status_code == 200:
             geojson_data = response.json()
-            if len(geojson_data.get('features', [])) > 0:
-                feature = geojson_data['features'][0]
-                feature_type = feature['properties'].get('type')
-                print(f"Found feature of type: {feature_type}")
+            features = geojson_data.get('features', [])
+            print(f"Length: {len(features)}")
+            if len(features) > 0:
+                university_feature = None
+                for feature in features:
+                    feature_type = feature['properties'].get('type')
+                    print(f"Found feature of type: {feature_type}")
+                    
+                    if feature_type == 'university':
+                        university_feature = feature
+                        break
+
+                    if feature_type == 'college':
+                        university_feature = feature
+                        break
+
+                    if feature_type == 'school':
+                        university_feature = feature
+                        break
+
+                    if feature_type == 'educational_institution':
+                        university_feature = feature
+                        break
+
+                    if feature_type == 'education':
+                        university_feature = feature
+                        break
+
+                # If no university type is found, use the first feature
+                if university_feature is None:
+                    university_feature = features[0]
                 
                 # Modify the feature properties
-                feature['properties'].update({
+                university_feature['properties'].update({
                     "university_id": entry['university_id'],
                     "university_name": entry['university_name']
                 })
+
+                accepted_types = ['university', 'college','school','educational_institution','education']
                 
-                if feature_type == 'university':
-                    successful_geojson['features'].append(feature)
+                if university_feature['properties'].get('type') in accepted_types:
+                    successful_geojson['features'].append(university_feature)
+                    print(f"SUCCESS - {entry['university_name']} - '{university_feature['properties'].get('type')}'")
                 else:
-                    wrong_type_geojson['features'].append(feature)
+                    wrong_type_geojson['features'].append(university_feature)
+                    print(f"WRONG - {entry['university_name']} - '{university_feature['properties'].get('type')}'")
             else:
-                failed_universities.append({**entry, "error": "No features found "})
-                print(f"No features found for {entry['university_name']}")
+                failed_universities.append({**entry, "error": "No features found"})
+                print(f"FAILED - {entry['university_name']}")
         else:
             failed_universities.append({**entry, "error": f"HTTP {response.status_code}", "response": response.text})
 
@@ -72,16 +101,16 @@ for index, row in df.iterrows():
         time.sleep(1)  # Maintain rate limit even on failure
 
     # Progress indicator
-    print(f"Processed {index+1}/{len(df)}: {row['university_name']}")
+    print(f"Processed {index+1}/{len(df)}: {row['university_name']}\n")
 
 # Save results
-with open("successful_geojson_2.geojson", "w") as f:
+with open("successful_geojson_v3.geojson", "w") as f:
     json.dump(successful_geojson, f, indent=4)
 
-with open("wrong_type_2.geojson", "w") as f:
+with open("wrong_type_v3.geojson", "w") as f:
     json.dump(wrong_type_geojson, f, indent=4)
 
-with open("failed_universities_2.json", "w") as f:
+with open("failed_universities_v3.json", "w") as f:
     json.dump(failed_universities, f, indent=4)
 
 print(f"\nResults:")

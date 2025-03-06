@@ -1,0 +1,126 @@
+university_id,university_name,query
+2,University Of Oxford,University of Oxford
+29,The Australian National University,Australian National University
+43,University Of Michigan-Ann Arbor,University of Michigan
+77,University Of Glasgow,University of Glasgow
+88,Durham University,Durham University
+93,Lomonosov Moscow State University,Lomonosov Moscow State University
+102,Uppsala University,Uppsala University
+154,University Of Geneva,University of Geneva
+168,Ghent University,Ghent University
+171,University Of Reading,University of Reading
+198,University Of Calgary,University of Calgary
+214,National Cheng Kung University (Ncku),National Cheng Kung University
+232,University Of Twente,University of Twente
+245,Charles University,Charles University
+254,Griffith University,Griffith University
+288,University Of Milan,University of Milan
+337,Xi’An Jiaotong University,Xi'an Jiaotong University
+374,University Of Florence,University of Florence
+383,Western Sydney University,Western Sydney University
+393,"University Of California, Santa Cruz",University of California
+409,Hse University,HSE University
+432,University Of Granada,University of Granada
+456,Umea University,Umeå University
+471,"Essex, University Of",University of Essex
+482,"The University Of Tennessee, Knoxville",University of Tennessee
+522,Canadian University Dubai,Canadian University Dubai
+574,University Of Debrecen,University of Debrecen
+588,The University Of Georgia,University of Georgia
+599,University Of Texas Dallas,University of Texas at Dallas
+620,University Of Minho,University of Minho
+667,Memorial University Of Newfoundland,Memorial University of Newfoundland
+751,Vytautas Magnus University,Vytautas Magnus University
+814,Jouf University,Jouf University
+840,University Of Baghdad,University of Baghdad
+849,University Of Ulsan,Ulsan National Institute of Science and Technology
+910,Kanazawa University,Kanazawa University
+920,Osaka Metropolitan University,Osaka Metropolitan University
+993,The University Of Alabama,University of Alabama
+1098,Shinshu University,Shinshu University
+1110,Széchenyi István University,Széchenyi István University
+1118,The University Of Texas At Arlington,University of Texas at Arlington
+1119,Tokushima University,Tokushima University
+1183,University Of Lagos,University of Lagos
+1198,University Of Texas El Paso,University of Texas at El Paso
+1216,Anadolu University,Anadolu University
+1218,Ataturk University,Atatürk University
+1234,Cukurova University,Çukurova University
+1263,Kharkiv National University Of Radio Electronics,Kharkiv National University of Radioelectronics
+1266,Kindai University (Kinki University),Kinki University
+1377,University Of Basrah,University of Basrah
+1391,University Of Primorska,University of Primorska
+1399,University Of Sri Jayewardenepura,University of Sri Jayewardenepura
+1442,Sakarya University,Sakarya University
+1445,Silpakorn University,Silpakorn University
+6,Eth Zurich - Swiss Federal Institute Of Technology,ETH Zurich
+84,Tokyo Institute Of Technology (Tokyo Tech),Tokyo Tech
+178,"The University Of Newcastle, Australia (Uon)",University of Newcastle
+186,École Normale Supérieure De Lyon,ENS Lyon
+241,Technical University Of Darmstadt,TU Darmstadt
+249,American University Of Beirut (Aub),AUB
+255,Bandung Institute Of Technology (Itb),ITB
+262,Indian Institute Of Technology Kanpur (Iitk),IIT Kanpur
+285,Universidad Carlos Iii De Madrid (Uc3M),UC3M
+325,Daegu Gyeongbuk Institute Of Science And Technology (Dgist),DGIST
+336,Lappeenranta-Lahti University Of Technology Lut,LUT University
+391,National Taiwan University Of Science And Technology (Taiwan Tech),Taiwan Tech
+404,Institut National Des Sciences Appliquées De Lyon (Insa),INSA Lyon
+407,"Birkbeck, University Of London",Birkbeck
+484,American University Of Ras Al Khaimah ( Aurak ),AURAK
+533,Universidad Nacional De La Plata (Unlp),UNLP
+534,Lahore University Of Management Sciences (Lums),LUMS
+535,Northumbria University At Newcastle,Northumbria University
+587,Shoolini University Of Biotechnology And Management Sciences,Shoolini University
+652,Symbiosis International (Deemed University),Symbiosis International University
+682,"Goldsmiths, University Of London",Goldsmiths
+760,University Of Engineering & Technology (Uet) Lahore,UET Lahore
+808,"Birla Institute Of Technology And Science, Pilani",BITS Pilani
+830,Universidad Iberoamericana Ibero,Universidad Iberoamericana
+989,Saveetha Institute Of Medical And Technical Sciences (Deemed To Be University),Saveetha Institute of Medical and Technical Sciences
+1022,"Arab Academy For Science, Technology And Maritime Transport",Arab Academy for Science
+1054,Indiana University–Purdue University Indianapolis,IUPUI
+1056,International Islamic University Islamabad (Iiu),IIUI
+1084,Northwest University (China),Northwest University
+1117,The University Of Northampton,University of Northampton
+1125,Universidad Autónoma Del Estado De México (Uaemex),UAEMex
+1127,Universidad De Guadalajara (Udg),Universidad de Guadalajara
+1152,Universidade Federal Do Paraná - Ufpr,UFPR
+1252,Instituto Tecnológico De Santo Domingo (Intec),INTEC
+1271,Kyoto Institute Of Technology,Kyoto Institute of Technology
+1343,Universidad Latinoamericana De Ciencia Y Tecnología Costa Rica (Ulacit),ULACIT
+1380,University Of Kragujevac,University of Kragujevac
+1435,"National University Of Modern Languages (Numl), Islamabad",NUML
+1438,Pontificia Universidade Católica Do Campinas - Puc Campinas,PUC Campinas
+1440,Russian State Agrarian University - Moscow Timiryazev Agricultural Academy,Moscow Timiryazev Agricultural Academy
+1477,Universidad De Las Fuerzas Armadas Espe (Ex - Escuela Politécnica Del Ejército),ESPE
+1488,Universidad Popular Autónoma Del Estado De Puebla (Upaep),UPAEP
+192,Queen'S University At Kingston,Queen's University
+204,Ecole Des Ponts Paristech,École des Ponts ParisTech
+381,University Of Pisa,Università di Pisa
+418,Bo?Aziçi University,Boğaziçi University
+428,Central South University,中南大学
+671,Universidad De La República (Udelar),Universidad de la República
+701,University Of Siena,University of Siena
+763,"Adam Mickiewicz University, Pozna?",Adam Mickiewicz University
+790,University Of Mons,Université de Mons
+909,Imam Mohammad Ibn Saud Islamic University – Imsiu,جامعة الإمام محمد بن سعود الإسلامية
+935,Università Degli Studi Roma Tre,Università Roma Tre
+942,University Of Murcia,Universidad de Murcia
+947,Viet Nam National University Ho Chi Minh City (Vnu-Hcm),Đại học Quốc gia Thành phố Hồ Chí Minh
+948,Viet Nam National University Ho Chi Minh City (Vnu-Hcm),Đại học Quốc gia Thành phố Hồ Chí Minh
+971,Financial University Under The Government Of The Russian Federation,Financial University under the Government of the Russian Federation
+972,Financial University Under The Government Of The Russian Federation,Financial University under the Government of the Russian Federation
+1005,Université Toulouse 1 Capitole,Université Toulouse 1 Capitole
+1067,Lodz University Of Technology,Politechnika Łódzka
+1094,Saint-Petersburg Mining University,Санкт-Петербургский горный университет
+1102,Slovak University Of Technology In Bratislava,Slovenská technická univerzita v Bratislave
+1213,Yokohama National University,横浜国立大学
+1219,Atma Jaya Catholic University Jakarta,Universitas Katolik Indonesia Atmajaya
+1245,Fundación Ceu San Pablo,Fundación CEU San Pablo
+1270,Kwame Nkrumah University Of Science And Technology,Kwame Nkrumah University of Science & Technology
+1329,Universidad De Las Américas (Udla) Ecuador,Universidad de Las Américas
+1389,University Of Pardubice,Univerzita Pardubice
+182,Hamad Bin Khalifa University,HBKU Qatar
+392,National And Kapodistrian University Of Athens,uoa.gr
+735,University Of Modena And Reggio Emilia,Università di Modena e Reggio Emilia
