@@ -6,10 +6,11 @@
 }
 
 .selected-university-header {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  width: 100%;
   /* padding: 5px; */
 }
 
@@ -77,4 +78,42 @@ button.cancel-selection:hover {
   border-radius: 5px;
   width: auto;
   cursor: pointer;
+}
+
+.compare-button {
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #354248c0;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: white;
+  }
+
+  &:hover {
+    background-color: #354248;
+    border-radius: 5px;
+  }
+}
+
+.remove-compare-button {
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #e42c2cc7;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: white;
+  }
+
+  &:hover {
+    background-color: #e42c2c6e;
+    border-radius: 5px;
+  }
 }

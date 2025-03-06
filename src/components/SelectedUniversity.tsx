@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
 import { flyToUni } from "../state/slices/mapInteractionSlice";
-import { setCurrentUniversity } from "../state/slices/uniSelectionSlice";
+import {
+  addUniToCompare,
+  setCurrentUniversity,
+} from "../state/slices/uniSelectionSlice";
 import RadialBar from "./RadialBar";
 import "./SelectedUniversity.css";
 import { fetchGeoJSON } from "../helpers/fetchGeoJSON";
@@ -13,6 +16,8 @@ import RankSVG from "./svg/RankSVG";
 import MoneySVG from "./svg/MoneySVG";
 import TemperatureSVG from "./svg/TemperatureSVG";
 import LanguageSVG from "./svg/LanguageSVG";
+import AddSVG from "./svg/AddSVG";
+import RemoveSVG from "./svg/RemoveSVG";
 
 enum InfoEnum {
   rank = "rank",
@@ -27,6 +32,10 @@ function SelectedUniversity({
   currentUniversity: IUniversity;
 }) {
   const dispatch = useAppDispatch();
+
+  const unisToCompare = useAppSelector(
+    (state) => state.uniSelection.uniToCompare
+  );
 
   const flyToUniStatus = useAppSelector(
     (state) => state.mapInteraction.flyToUni.state
@@ -86,26 +95,72 @@ function SelectedUniversity({
     dispatch(setCurrentUniversity(null));
   }
 
+  function handleAddToCompare() {
+    dispatch(addUniToCompare(currentUniversity));
+  }
+
+  function uniIsInCompareList() {
+    return unisToCompare.some(
+      (compareUni) => compareUni.name === currentUniversity.name
+    );
+  }
+
   return (
     <div className="selected-university-container">
       {geoJsonLoaded && (
         <>
           <div className="selected-university-header">
-            <div>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
               <h2 className="selected-university-title">
                 {currentUniversity?.name}
               </h2>
+              <button
+                className="cancel-selection"
+                style={{ width: "24px", height: "24" }}
+                onClick={cancelUniSelection}
+              >
+                <CancelSVG width={24} height={24} />
+              </button>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                width: "100%",
+                alignItems: "center",
+                justifyContent: "space-between",
+              }}
+            >
               <h3 className="selected-university-subtitle">
                 {currentUniversity?.city}, {currentUniversity?.countryName}
               </h3>
+              <div
+                className={
+                  uniIsInCompareList()
+                    ? "remove-compare-button"
+                    : "compare-button"
+                }
+              >
+                <button onClick={handleAddToCompare}>
+                  {uniIsInCompareList() ? (
+                    <>
+                      <RemoveSVG width={20} height={20} fill="white" />
+                      <div>Compare</div>
+                    </>
+                  ) : (
+                    <>
+                      <AddSVG width={20} height={20} fill="white" />
+                      <div>Compare</div>
+                    </>
+                  )}
+                </button>
+              </div>
             </div>
-            <button
-              className="cancel-selection"
-              style={{ width: "24px", height: "24" }}
-              onClick={cancelUniSelection}
-            >
-              <CancelSVG width={24} height={24} />
-            </button>
           </div>
           <div className="selected-university-element">
             <div
@@ -147,13 +202,20 @@ function SelectedUniversity({
               </div>
             </div>
 
-            <div
-              style={{
-                width: "60%",
-              }}
+            {/* <div
+            // style={{
+            //   width: "60%",
+            //   display: "flex",
+            //   flexDirection: "column",
+            //   justifyContent: "space-evenly",
+            //   alignItems: "center",
+            //   padding: "20px 0",
+            // }}
             >
-              <RadialBar />
-            </div>
+              <div> */}
+            <RadialBar />
+            {/* </div>
+            </div> */}
           </div>
           {/* {canFlyToUni.canFly && flyToUniStatus !== "flying" && (
             <button
