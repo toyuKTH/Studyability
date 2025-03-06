@@ -32,6 +32,12 @@
   background-color: rgba(255, 255, 255, 0.744);
   border-radius: 10px;
 
+  .info-row-header {
+    font-size: small;
+    text-align: center;
+    color: #000000ab;
+  }
+
   .info-row {
     width: 100px;
     display: flex;
@@ -39,6 +45,8 @@
     justify-content: space-between;
     gap: 30px;
     margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
   }
 }
 

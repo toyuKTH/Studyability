@@ -14,6 +14,13 @@ import MoneySVG from "./svg/MoneySVG";
 import TemperatureSVG from "./svg/TemperatureSVG";
 import LanguageSVG from "./svg/LanguageSVG";
 
+enum InfoEnum {
+  rank = "rank",
+  tuition = "tuition",
+  temperature = "temperature",
+  ef_score = "ef_score",
+}
+
 function SelectedUniversity({
   currentUniversity,
 }: {
@@ -110,21 +117,33 @@ function SelectedUniversity({
                 alignItems: "center",
               }}
             >
-              <div className="info-row">
-                <RankSVG width={24} height={24} />
-                <div>{currentUniversity?.rank}</div>
+              <div>
+                <div className="info-row-header">Rank</div>
+                <div className="info-row" id={InfoEnum.rank}>
+                  <RankSVG width={24} height={24} />
+                  <div>{currentUniversity?.rank}</div>
+                </div>
               </div>
-              <div className="info-row">
-                <MoneySVG width={24} height={24} />
-                <div>{currentUniversity?.tuitionFee}</div>
+              <div>
+                <div className="info-row-header">Tuition (USD)</div>
+                <div className="info-row" id={InfoEnum.tuition}>
+                  <MoneySVG width={24} height={24} />
+                  <div>{currentUniversity?.tuitionFee}</div>
+                </div>
               </div>
-              <div className="info-row">
-                <TemperatureSVG width={24} height={24} />
-                <div>{currentUniversity.temperature}</div>
+              <div>
+                <div className="info-row-header">Temperature (°C)</div>
+                <div className="info-row" id={InfoEnum.temperature}>
+                  <TemperatureSVG width={24} height={24} />
+                  <div>{currentUniversity.temperature}</div>
+                </div>
               </div>
-              <div className="info-row">
-                <LanguageSVG width={24} height={24} />
-                <div>{currentUniversity.ef_score}</div>
+              <div>
+                <div className="info-row-header">Englis proficiency</div>
+                <div className="info-row" id={InfoEnum.ef_score}>
+                  <LanguageSVG width={24} height={24} />
+                  <div>{currentUniversity.ef_score}</div>
+                </div>
               </div>
             </div>
 
