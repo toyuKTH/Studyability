@@ -5,6 +5,7 @@ import "./Home.css";
 import ParallelPlot from "../components/ParallelPlot";
 import ScatterPlot from "../components/ScatterPlot";
 import TopSidebar from "../components/TopSidebar";
+import UniversityDrawer from "../components/UniversityDrawer";
 
 function Home() {
   const [mapWidth, setMapWidth] = useState(0);
@@ -40,6 +41,7 @@ function Home() {
 
   return (
     <div className="Home">
+      <UniversityDrawer />
       <div className="center-area-container">
         <div className="plot-group-container">
           <div className="parallel-plot-container">
