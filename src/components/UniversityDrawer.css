@@ -1,7 +1,7 @@
 .uni-drawer-container {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -400px;
   height: 100%;
   z-index: 1;
   display: flex;
@@ -43,6 +43,6 @@
     }
   }
   &.open {
-    right: -400px;
+    right: 0;
   }
 }
