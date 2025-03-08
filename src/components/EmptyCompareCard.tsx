@@ -56,10 +56,18 @@ export default function EmptyCompareCard() {
           value={inputValue}
           onChange={handleInput}
         />
-        <button>
+        <div style={{ display: "flex", alignItems: "center" }}>
           <SearchSVG width={30} height={30} />
-        </button>
+        </div>
       </div>
+      {inputValue && (
+        <div className="search-results-header">
+          <p>
+            {searchResults.length}{" "}
+            {searchResults.length > 1 ? "universities" : "university"} found
+          </p>
+        </div>
+      )}
       {searchResults.length === 0 && (
         <div className="card-empty-graph-container">
           <p>{noResults ? "University not found" : "Search to add"}</p>
