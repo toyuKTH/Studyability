@@ -149,7 +149,8 @@ export default function ScatterPlot() {
         r: "10",
         l: "25",
       },
-      plot_bgcolor: "#E5ECF6",
+      paper_bgcolor: "#f0f0f0",
+      plot_bgcolor: "#f0f0f0",
       showlegend: false,
       xaxis: {
         fixedrange: true,
@@ -206,10 +207,10 @@ export default function ScatterPlot() {
   ]);
 
   return (
-    <div className='scatter-plot-container'>
-      <div className='scatter-y-wrapper'>
+    <div className="scatter-plot-container">
+      <div className="scatter-y-wrapper">
         {axisSelectionModeOn.y && (
-          <div className='scatter-y-selector'>
+          <div className="scatter-y-selector">
             <label>Change Y Axis : </label>
             <select
               onChange={(e) => {
@@ -239,34 +240,34 @@ export default function ScatterPlot() {
         )}
         {!axisSelectionModeOn.y && (
           <div
-            className='scatter-y-label'
+            className="scatter-y-label"
             onClick={() =>
               setSelectionMode({ x: axisSelectionModeOn.x, y: true })
             }
           >
             <span>{titleCase(axisLabels.y)}</span>
             <svg
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              xmlns='http://www.w3.org/2000/svg'
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d='M16 13V11.5H10V9.5H16V8L19 10.5L16 13Z'
-                fill='currentColor'
+                d="M16 13V11.5H10V9.5H16V8L19 10.5L16 13Z"
+                fill="currentColor"
               />
               <path
-                d='M8 17V15.5H14V13.5H8V12L5 14.5L8 17Z'
-                fill='currentColor'
+                d="M8 17V15.5H14V13.5H8V12L5 14.5L8 17Z"
+                fill="currentColor"
               />
             </svg>
           </div>
         )}
       </div>
-      <div className='scatter-plot-wrapper'>
-        <div className='scatter-plot-chart' ref={containerRef}></div>
-        <div className='scatter-x-label'>
+      <div className="scatter-plot-wrapper">
+        <div className="scatter-plot-chart" ref={containerRef}></div>
+        <div className="scatter-x-label">
           {!axisSelectionModeOn.x && (
             <div
               onClick={() =>
@@ -275,19 +276,19 @@ export default function ScatterPlot() {
             >
               <span>{titleCase(axisLabels.x)}</span>
               <svg
-                width='24'
-                height='24'
-                viewBox='0 0 24 24'
-                fill='none'
-                xmlns='http://www.w3.org/2000/svg'
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d='M12 16H13.5L13.5 10H15.5L15.5 16H17L14.5 19L12 16Z'
-                  fill='currentColor'
+                  d="M12 16H13.5L13.5 10H15.5L15.5 16H17L14.5 19L12 16Z"
+                  fill="currentColor"
                 />
                 <path
-                  d='M8 8H9.5L9.5 14H11.5L11.5 8H13L10.5 5L8 8Z'
-                  fill='currentColor'
+                  d="M8 8H9.5L9.5 14H11.5L11.5 8H13L10.5 5L8 8Z"
+                  fill="currentColor"
                 />
               </svg>
             </div>
@@ -324,7 +325,7 @@ export default function ScatterPlot() {
         </div>
       </div>
       {hoveredUniversity && (
-        <div className='scatter-hover-label'>
+        <div className="scatter-hover-label">
           <div>
             <span>(</span>
             <span>{hoveredUniversity[axisLabels.x as keyof IUniversity]}</span>
@@ -332,7 +333,7 @@ export default function ScatterPlot() {
             <span>{hoveredUniversity[axisLabels.y as keyof IUniversity]}</span>
             <span>)</span>
           </div>
-          <div className='scatter-university-label'>
+          <div className="scatter-university-label">
             {hoveredUniversity?.name}, {hoveredUniversity.countryName}
           </div>
         </div>

@@ -47,7 +47,7 @@ export const WorldMap = ({
       projection: "mercator",
       renderWorldCopies: false,
       container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/dark-v11",
+      style: "mapbox://styles/gianlucabeltran/cm7yuesis01b301sb8rapbuot",
       center: [0, 70],
       zoom: 0,
     });
