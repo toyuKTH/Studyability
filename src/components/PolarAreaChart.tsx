@@ -20,10 +20,18 @@ export default function PolarAreaChart({
   useEffect(() => {
     if (!containerRef.current) return;
 
-    const series = categories.map((category) => {
+    let series = categories.map((category) => {
       const categoryData = uni[category as keyof IUniversity];
       return categoryData;
     });
+
+    series = series.reduce((acc, val) => {
+      const num = Number(val);
+      if (num) {
+        acc.push(num);
+      }
+      return acc;
+    }, [] as number[]);
 
     const chartOptions = {
       series: empty ? [0, 0, 0, 0, 0, 0, 0, 0, 0] : series,
