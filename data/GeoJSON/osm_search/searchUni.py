@@ -20,7 +20,7 @@ def create_nominatim_url(name):
     return f"{base_url}?{requests.compat.urlencode(params)}"
 
 # Read input CSV
-df = pd.read_csv("uni_iteration_6.csv")
+df = pd.read_csv("uni_iteration_7.csv")
 
 successful_geojson = {"type": "FeatureCollection", "features": []}
 wrong_type_geojson = {"type": "FeatureCollection", "features": []}
