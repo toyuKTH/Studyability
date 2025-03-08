@@ -23,8 +23,11 @@ export default function RadarChart() {
 
   const categoriesOpt = qsAttributeKeys;
 
-  const highlighted = useAppSelector(
+  const highlightedAttribute = useAppSelector(
     (state) => state.highlightInteraction.qsAttributeToHighlight
+  );
+  const highlightedUni = useAppSelector(
+    (state) => state.highlightInteraction.uniToHighlight
   );
 
   const [categories, setCategories] = useState([...categoriesOpt]);
@@ -53,21 +56,28 @@ export default function RadarChart() {
           show: false,
         },
         parentHeightOffset: -300,
+        animations: {
+          enabled: false,
+        },
         events: {
-          legendClick: (
-            _: unknown,
-            seriesIndex: number,
-            { globals: { chartID } }: { globals: { chartID: string } }
-          ) => {
-            dispatch(setUniToHighlight(uniToCompare[seriesIndex]));
-            ApexCharts.exec(chartID, "hideSeries", series[0].name);
+          legendClick: (_: unknown, seriesIndex: number) => {
+            if (uniToCompare[seriesIndex].name === highlightedUni?.name) {
+              dispatch(setUniToHighlight(null));
+            } else {
+              dispatch(setUniToHighlight(uniToCompare[seriesIndex]));
+            }
           },
           xAxisLabelClick: ({
             target: { innerHTML },
           }: {
             target: { innerHTML: string };
           }) => {
-            dispatch(setQSAttributeToHighlight(getQSAttributeKey(innerHTML)));
+            const qsKey = getQSAttributeKey(innerHTML);
+            if (qsKey !== highlightedAttribute) {
+              dispatch(setQSAttributeToHighlight(qsKey));
+            } else {
+              dispatch(setQSAttributeToHighlight(null));
+            }
           },
         },
       },
@@ -116,6 +126,9 @@ export default function RadarChart() {
         onItemClick: {
           toggleDataSeries: false,
         },
+        onItemHover: {
+          highlightDataSeries: highlightedUni === null,
+        },
       },
       tooltip: {
         fillSeriesColor: true,
@@ -133,10 +146,6 @@ export default function RadarChart() {
           offsetY: -80,
         },
       },
-      animations: {
-        enabled: true,
-        speed: 800,
-      },
     };
 
     const chart = new ApexCharts(containerRef.current, chartOptions);
@@ -146,11 +155,28 @@ export default function RadarChart() {
     const labels = parent.querySelectorAll(".apexcharts-xaxis-label");
     labels.forEach(function (el) {
       const qsKey = getQSAttributeKey(el.innerHTML);
-      if (qsKey == highlighted) {
+      if (qsKey == highlightedAttribute) {
         el.setAttribute("class", "apexcharts-xaxis-label radar-x-label");
         el.setAttribute("fill", getQSAttributeColor(qsKey));
       }
     });
+
+    const legends = parent.querySelectorAll(".apexcharts-legend-series");
+    legends.forEach(function (el) {
+      const uniName = el.querySelector(".apexcharts-legend-text")?.innerHTML;
+      if (highlightedUni && uniName != highlightedUni.name) {
+        el.setAttribute(
+          "class",
+          "apexcharts-legend-series apexcharts-inactive-legend"
+        );
+      } else {
+        el.setAttribute("class", "apexcharts-legend-series");
+      }
+    });
+
+    if (highlightedUni) {
+      chart.highlightSeries(highlightedUni.name);
+    }
 
     return () => {
       if (!containerRef.current) return;

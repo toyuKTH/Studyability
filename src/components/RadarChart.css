@@ -9,7 +9,9 @@
     height: 350px;
     overflow: hidden;
     margin: 40px 40px 0;
-    .apexcharts-xaxis-label {
+
+    .apexcharts-xaxis-label,
+    .apexcharts-legend-series {
       cursor: pointer;
     }
     .radar-x-label {

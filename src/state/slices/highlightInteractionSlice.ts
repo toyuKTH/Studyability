@@ -20,10 +20,13 @@ export const highlightInteractionSlice = createSlice({
     setParaplotHighlight: (state, action: PayloadAction<boolean>) => {
       state.isParaplotHighlighted = action.payload;
     },
-    setUniToHighlight: (state, action: PayloadAction<IUniversity>) => {
+    setUniToHighlight: (state, action: PayloadAction<IUniversity | null>) => {
       state.uniToHighlight = action.payload;
     },
-    setQSAttributeToHighlight: (state, action: PayloadAction<string>) => {
+    setQSAttributeToHighlight: (
+      state,
+      action: PayloadAction<string | null>
+    ) => {
       state.qsAttributeToHighlight = action.payload;
     },
   },
