@@ -1,6 +1,6 @@
 .scatter-plot-container {
   display: inline-flex;
-  background-color: #fff;
+  background-color: #f0f0f0;
   flex-direction: row;
   overflow: hidden;
   position: relative;

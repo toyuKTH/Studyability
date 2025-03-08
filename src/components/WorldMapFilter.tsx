@@ -1,5 +1,5 @@
 import { useAppDispatch, useAppSelector } from "../state/hooks";
-import { getFilteredData, IUniversity } from "../state/slices/dataSlice";
+import { getFilteredData } from "../state/slices/dataSlice";
 import {
   addUniToCompare,
   setCurrentUniversity,
@@ -54,6 +54,10 @@ export default function WorldMapFilter() {
                 onToggleCheckbox={(_) => {
                   dispatch(addUniToCompare(uni));
                 }}
+                disabled={
+                  unisToCompare.length >= 5 &&
+                  !unisToCompare.some((u) => u.name === uni.name)
+                }
               />
             ))}
           </tbody>

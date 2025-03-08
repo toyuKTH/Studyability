@@ -23,7 +23,7 @@ export default function ParallelPlot() {
 
   const containerRef = useRef<HTMLDivElement>(null);
 
-  let paperBGColor = "#fff";
+  let paperBGColor = "#f0f0f0";
 
   useEffect(() => {
     if (!containerRef.current) return;

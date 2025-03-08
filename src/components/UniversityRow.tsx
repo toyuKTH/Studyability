@@ -7,12 +7,14 @@ export default function UniversityRow({
   selected,
   onClick,
   onToggleCheckbox,
+  disabled,
 }: Readonly<{
   uni: IUniversity;
   isSelectedToCompare: boolean;
   selected: boolean;
   onClick?: (e: MouseEvent<HTMLTableRowElement>) => void;
   onToggleCheckbox?: (e: ChangeEvent<HTMLInputElement>) => void;
+  disabled: boolean;
 }>) {
   return (
     <tr
@@ -36,6 +38,7 @@ export default function UniversityRow({
           onClick={(e) => e.stopPropagation()}
           name="selectUniToCompare"
           checked={isSelectedToCompare}
+          disabled={disabled}
         />
       </td>
     </tr>

@@ -19,13 +19,6 @@ import LanguageSVG from "./svg/LanguageSVG";
 import AddSVG from "./svg/AddSVG";
 import RemoveSVG from "./svg/RemoveSVG";
 
-enum InfoEnum {
-  rank = "rank",
-  tuition = "tuition",
-  temperature = "temperature",
-  ef_score = "ef_score",
-}
-
 function SelectedUniversity({
   currentUniversity,
 }: {
@@ -99,11 +92,9 @@ function SelectedUniversity({
     dispatch(addUniToCompare(currentUniversity));
   }
 
-  function uniIsInCompareList() {
-    return unisToCompare.some(
-      (compareUni) => compareUni.name === currentUniversity.name
-    );
-  }
+  const uniIsInCompareList = unisToCompare.some(
+    (compareUni) => compareUni.name === currentUniversity.name
+  );
 
   return (
     <div className="selected-university-container">
@@ -141,23 +132,21 @@ function SelectedUniversity({
               </h3>
               <div
                 className={
-                  uniIsInCompareList()
+                  uniIsInCompareList
                     ? "remove-compare-button"
                     : "compare-button"
                 }
               >
-                <button onClick={handleAddToCompare}>
-                  {uniIsInCompareList() ? (
-                    <>
-                      <RemoveSVG width={20} height={20} fill="white" />
-                      <div>Compare</div>
-                    </>
+                <button
+                  onClick={handleAddToCompare}
+                  disabled={!uniIsInCompareList && unisToCompare.length >= 5}
+                >
+                  {uniIsInCompareList ? (
+                    <RemoveSVG width={20} height={20} fill="white" />
                   ) : (
-                    <>
-                      <AddSVG width={20} height={20} fill="white" />
-                      <div>Compare</div>
-                    </>
+                    <AddSVG width={20} height={20} fill="white" />
                   )}
+                  <div>Compare</div>
                 </button>
               </div>
             </div>
@@ -174,48 +163,34 @@ function SelectedUniversity({
             >
               <div>
                 <div className="info-row-header">Rank</div>
-                <div className="info-row" id={InfoEnum.rank}>
+                <div className="info-row">
                   <RankSVG width={24} height={24} />
                   <div>{currentUniversity?.rank}</div>
                 </div>
               </div>
               <div>
                 <div className="info-row-header">Tuition (USD)</div>
-                <div className="info-row" id={InfoEnum.tuition}>
+                <div className="info-row">
                   <MoneySVG width={24} height={24} />
                   <div>{currentUniversity?.tuitionFee}</div>
                 </div>
               </div>
               <div>
                 <div className="info-row-header">Temperature (°C)</div>
-                <div className="info-row" id={InfoEnum.temperature}>
+                <div className="info-row">
                   <TemperatureSVG width={24} height={24} />
                   <div>{currentUniversity.temperature}</div>
                 </div>
               </div>
               <div>
                 <div className="info-row-header">English proficiency</div>
-                <div className="info-row" id={InfoEnum.ef_score}>
+                <div className="info-row">
                   <LanguageSVG width={24} height={24} />
                   <div>{currentUniversity.ef_score}</div>
                 </div>
               </div>
             </div>
-
-            {/* <div
-            // style={{
-            //   width: "60%",
-            //   display: "flex",
-            //   flexDirection: "column",
-            //   justifyContent: "space-evenly",
-            //   alignItems: "center",
-            //   padding: "20px 0",
-            // }}
-            >
-              <div> */}
             <RadialBar />
-            {/* </div>
-            </div> */}
           </div>
           {/* {canFlyToUni.canFly && flyToUniStatus !== "flying" && (
             <button
