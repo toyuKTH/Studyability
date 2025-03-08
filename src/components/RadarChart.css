@@ -9,11 +9,14 @@
     height: 350px;
     overflow: hidden;
     margin: 40px 40px 0;
+
+    .apexcharts-xaxis-label,
+    .apexcharts-legend-series {
+      cursor: pointer;
+    }
     .radar-x-label {
-      text-decoration-line: underline;
       text-decoration-thickness: 25%;
-      text-decoration-color: #375a8c;
-      font-size: 18px;
+      font-weight: 600;
     }
   }
 
@@ -27,6 +30,11 @@
 
     .attribute-selector-group {
       min-width: 250px;
+      .attribute-error-message {
+        position: fixed;
+        color: red;
+        margin-top: -16px;
+      }
     }
 
     .category-selector {
@@ -39,11 +47,12 @@
       margin: 4px 2px;
       cursor: pointer;
       border-radius: 16px;
-      &.included {
-        background-color: #ddd;
+      background-color: #ddd;
+      &:hover {
+        background-color: #aeaeae;
       }
-      &.excluded {
-        background-color: #ddd;
+      &:focus {
+        outline: none;
       }
     }
   }

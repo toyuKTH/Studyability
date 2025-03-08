@@ -1,11 +1,17 @@
 import ApexCharts from "apexcharts";
 import { useEffect, useRef, useState } from "react";
-import { useAppSelector } from "../state/hooks";
+import { useAppDispatch, useAppSelector } from "../state/hooks";
 import "./RadarChart.css";
 import {
+  getQSAttributeColor,
+  getQSAttributeKey,
   getQSAttributeLabel,
   qsAttributeKeys,
 } from "../helpers/qsAttributeUtils";
+import {
+  setQSAttributeToHighlight,
+  setUniToHighlight,
+} from "../state/slices/highlightInteractionSlice";
 
 export default function RadarChart() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -13,12 +19,20 @@ export default function RadarChart() {
     (state) => state.uniSelection.uniToCompare
   );
 
+  const dispatch = useAppDispatch();
+
   const categoriesOpt = qsAttributeKeys;
 
-  const highlighted = "international_faculty";
+  const highlightedAttribute = useAppSelector(
+    (state) => state.highlightInteraction.qsAttributeToHighlight
+  );
+  const highlightedUni = useAppSelector(
+    (state) => state.highlightInteraction.uniToHighlight
+  );
 
   const [categories, setCategories] = useState([...categoriesOpt]);
   const [excludedCategories, setExcludedCategories] = useState([] as string[]);
+  const [errorMessage, setErrorMessage] = useState(null as string | null);
 
   const series = uniToCompare.map((uni) => {
     const categoryData = Object.entries(uni)
@@ -42,6 +56,30 @@ export default function RadarChart() {
           show: false,
         },
         parentHeightOffset: -300,
+        animations: {
+          enabled: false,
+        },
+        events: {
+          legendClick: (_: unknown, seriesIndex: number) => {
+            if (uniToCompare[seriesIndex].name === highlightedUni?.name) {
+              dispatch(setUniToHighlight(null));
+            } else {
+              dispatch(setUniToHighlight(uniToCompare[seriesIndex]));
+            }
+          },
+          xAxisLabelClick: ({
+            target: { innerHTML },
+          }: {
+            target: { innerHTML: string };
+          }) => {
+            const qsKey = getQSAttributeKey(innerHTML);
+            if (qsKey !== highlightedAttribute) {
+              dispatch(setQSAttributeToHighlight(qsKey));
+            } else {
+              dispatch(setQSAttributeToHighlight(null));
+            }
+          },
+        },
       },
       yaxis: {
         min: 0,
@@ -53,6 +91,9 @@ export default function RadarChart() {
         labels: {
           style: {
             fontWeight: 400,
+          },
+          formatter: (value: string) => {
+            return getQSAttributeLabel(value);
           },
         },
       },
@@ -82,6 +123,12 @@ export default function RadarChart() {
         floating: false,
         offsetY: 80,
         offsetX: 170,
+        onItemClick: {
+          toggleDataSeries: false,
+        },
+        onItemHover: {
+          highlightDataSeries: highlightedUni === null,
+        },
       },
       tooltip: {
         fillSeriesColor: true,
@@ -99,10 +146,6 @@ export default function RadarChart() {
           offsetY: -80,
         },
       },
-      animations: {
-        enabled: true,
-        speed: 800,
-      },
     };
 
     const chart = new ApexCharts(containerRef.current, chartOptions);
@@ -111,23 +154,52 @@ export default function RadarChart() {
     const parent = containerRef.current;
     const labels = parent.querySelectorAll(".apexcharts-xaxis-label");
     labels.forEach(function (el) {
-      if (el.innerHTML.toString() == highlighted) {
-        /* just try to mimic highlight */
-        el.setAttribute("class", "radar-x-label");
+      const qsKey = getQSAttributeKey(el.innerHTML);
+      if (qsKey == highlightedAttribute) {
+        el.setAttribute("class", "apexcharts-xaxis-label radar-x-label");
+        el.setAttribute("fill", getQSAttributeColor(qsKey));
       }
     });
+
+    const legends = parent.querySelectorAll(".apexcharts-legend-series");
+    legends.forEach(function (el) {
+      const uniName = el.querySelector(".apexcharts-legend-text")?.innerHTML;
+      if (highlightedUni && uniName != highlightedUni.name) {
+        el.setAttribute(
+          "class",
+          "apexcharts-legend-series apexcharts-inactive-legend"
+        );
+      } else {
+        el.setAttribute("class", "apexcharts-legend-series");
+      }
+    });
+
+    if (highlightedUni) {
+      chart.highlightSeries(highlightedUni.name);
+    }
 
     return () => {
       if (!containerRef.current) return;
       chart.destroy();
     };
-  }, [containerRef.current, categories, uniToCompare]);
+  }, [containerRef.current, categories, series]);
+
+  function flashErrorMessage(message: string) {
+    setErrorMessage(message);
+    setTimeout(() => {
+      setErrorMessage(null);
+    }, 2000);
+  }
 
   function excludeCategory(catName: string) {
-    const ec = [catName, ...excludedCategories];
-    const filteredCat = [...categories].filter((v) => v != catName);
-    setExcludedCategories(ec);
-    setCategories(filteredCat);
+    if (categories.length > 3) {
+      const ec = [catName, ...excludedCategories];
+      const filteredCat = [...categories].filter((v) => v != catName);
+      setExcludedCategories(ec);
+      setCategories(filteredCat);
+    } else {
+      flashErrorMessage("minimum 3 attributes");
+    }
   }
 
   function includeCategory(catName: string) {
@@ -142,6 +214,9 @@ export default function RadarChart() {
       <div className="radar-chart-container" ref={containerRef} />
       <div className="attribute-container">
         <div className="attribute-selector-group">
+          {errorMessage && (
+            <div className="attribute-error-message">{errorMessage}</div>
+          )}
           <span>Attribute(s) To Include :</span>
           <div>
             {categories?.map((cat) => (
