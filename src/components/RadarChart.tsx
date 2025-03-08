@@ -1,11 +1,17 @@
 import ApexCharts from "apexcharts";
 import { useEffect, useRef, useState } from "react";
-import { useAppSelector } from "../state/hooks";
+import { useAppDispatch, useAppSelector } from "../state/hooks";
 import "./RadarChart.css";
 import {
+  getQSAttributeColor,
+  getQSAttributeKey,
   getQSAttributeLabel,
   qsAttributeKeys,
 } from "../helpers/qsAttributeUtils";
+import {
+  setQSAttributeToHighlight,
+  setUniToHighlight,
+} from "../state/slices/highlightInteractionSlice";
 
 export default function RadarChart() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -13,9 +19,13 @@ export default function RadarChart() {
     (state) => state.uniSelection.uniToCompare
   );
 
+  const dispatch = useAppDispatch();
+
   const categoriesOpt = qsAttributeKeys;
 
-  const highlighted = "international_faculty";
+  const highlighted = useAppSelector(
+    (state) => state.highlightInteraction.qsAttributeToHighlight
+  );
 
   const [categories, setCategories] = useState([...categoriesOpt]);
   const [excludedCategories, setExcludedCategories] = useState([] as string[]);
@@ -42,6 +52,23 @@ export default function RadarChart() {
           show: false,
         },
         parentHeightOffset: -300,
+        events: {
+          legendClick: (
+            _: unknown,
+            seriesIndex: number,
+            { globals: { chartID } }: { globals: { chartID: string } }
+          ) => {
+            dispatch(setUniToHighlight(uniToCompare[seriesIndex]));
+            ApexCharts.exec(chartID, "hideSeries", series[0].name);
+          },
+          xAxisLabelClick: ({
+            target: { innerHTML },
+          }: {
+            target: { innerHTML: string };
+          }) => {
+            dispatch(setQSAttributeToHighlight(getQSAttributeKey(innerHTML)));
+          },
+        },
       },
       yaxis: {
         min: 0,
@@ -53,6 +80,9 @@ export default function RadarChart() {
         labels: {
           style: {
             fontWeight: 400,
+          },
+          formatter: (value: string) => {
+            return getQSAttributeLabel(value);
           },
         },
       },
@@ -82,6 +112,9 @@ export default function RadarChart() {
         floating: false,
         offsetY: 80,
         offsetX: 170,
+        onItemClick: {
+          toggleDataSeries: false,
+        },
       },
       tooltip: {
         fillSeriesColor: true,
@@ -111,9 +144,10 @@ export default function RadarChart() {
     const parent = containerRef.current;
     const labels = parent.querySelectorAll(".apexcharts-xaxis-label");
     labels.forEach(function (el) {
-      if (el.innerHTML.toString() == highlighted) {
-        /* just try to mimic highlight */
+      const qsKey = getQSAttributeKey(el.innerHTML);
+      if (qsKey == highlighted) {
         el.setAttribute("class", "radar-x-label");
+        el.setAttribute("fill", getQSAttributeColor(qsKey));
       }
     });
 
@@ -121,7 +155,7 @@ export default function RadarChart() {
       if (!containerRef.current) return;
       chart.destroy();
     };
-  }, [containerRef.current, categories, uniToCompare]);
+  }, [containerRef.current, categories, series]);
 
   function excludeCategory(catName: string) {
     const ec = [catName, ...excludedCategories];

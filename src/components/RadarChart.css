@@ -10,10 +10,8 @@
     overflow: hidden;
     margin: 40px 40px 0;
     .radar-x-label {
-      text-decoration-line: underline;
       text-decoration-thickness: 25%;
-      text-decoration-color: #375a8c;
-      font-size: 18px;
+      font-weight: 600;
     }
   }
 

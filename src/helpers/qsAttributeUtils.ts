@@ -26,7 +26,7 @@ const qsAttributeStyles: IQSAttributeStyles = {
   },
   international_students: {
     label: "International Student Ratio",
-    color: "#9DA7C4",
+    color: "#3B508A",
   },
   sustainability: {
     label: "Sustainability",
@@ -37,7 +37,7 @@ const qsAttributeStyles: IQSAttributeStyles = {
     color: "#D4ED99",
   },
   faculty_student: {
-    label: "Faculty Student",
+    label: "Faculty Student Ratio",
     color: "#461667",
   },
   citations_per_faculty: {
@@ -50,7 +50,7 @@ const qsAttributeStyles: IQSAttributeStyles = {
   },
   international_research_network: {
     label: "International Research Network",
-    color: "#A9DB32",
+    color: "#3B508A",
   },
 };
 
@@ -70,6 +70,13 @@ export function getQSAttributeLabel(key: string) {
   return qsAttributeStyles[key as keyof IQSAttributeStyles].label;
 }
 
+export function getQSAttributeKey(nameToSearch: string) {
+  const index = Object.entries(qsAttributeStyles).find((v) => {
+    return v[1].label == nameToSearch;
+  });
+  return index ? index[0] : "";
+}
+
 export function getQSAttributeColor(key: string) {
-  return qsAttributeStyles[key as keyof IQSAttributeStyles].label;
+  return qsAttributeStyles[key as keyof IQSAttributeStyles].color;
 }
