@@ -29,6 +29,7 @@ export default function RadarChart() {
 
   const [categories, setCategories] = useState([...categoriesOpt]);
   const [excludedCategories, setExcludedCategories] = useState([] as string[]);
+  const [errorMessage, setErrorMessage] = useState(null as string | null);
 
   const series = uniToCompare.map((uni) => {
     const categoryData = Object.entries(uni)
@@ -146,7 +147,7 @@ export default function RadarChart() {
     labels.forEach(function (el) {
       const qsKey = getQSAttributeKey(el.innerHTML);
       if (qsKey == highlighted) {
-        el.setAttribute("class", "radar-x-label");
+        el.setAttribute("class", "apexcharts-xaxis-label radar-x-label");
         el.setAttribute("fill", getQSAttributeColor(qsKey));
       }
     });
@@ -157,11 +158,22 @@ export default function RadarChart() {
     };
   }, [containerRef.current, categories, series]);
 
+  function flashErrorMessage(message: string) {
+    setErrorMessage(message);
+    setTimeout(() => {
+      setErrorMessage(null);
+    }, 2000);
+  }
+
   function excludeCategory(catName: string) {
-    const ec = [catName, ...excludedCategories];
-    const filteredCat = [...categories].filter((v) => v != catName);
-    setExcludedCategories(ec);
-    setCategories(filteredCat);
+    if (categories.length > 3) {
+      const ec = [catName, ...excludedCategories];
+      const filteredCat = [...categories].filter((v) => v != catName);
+      setExcludedCategories(ec);
+      setCategories(filteredCat);
+    } else {
+      flashErrorMessage("minimum 3 attributes");
+    }
   }
 
   function includeCategory(catName: string) {
@@ -176,6 +188,9 @@ export default function RadarChart() {
       <div className="radar-chart-container" ref={containerRef} />
       <div className="attribute-container">
         <div className="attribute-selector-group">
+          {errorMessage && (
+            <div className="attribute-error-message">{errorMessage}</div>
+          )}
           <span>Attribute(s) To Include :</span>
           <div>
             {categories?.map((cat) => (
