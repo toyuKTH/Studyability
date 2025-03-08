@@ -1,0 +1,914 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 18523629,
+                "osm_type": "relation",
+                "osm_id": 15629064,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 8.045242999919154e-05,
+                "addresstype": "amenity",
+                "name": "The University of Melbourne, Parkville Campus",
+                "display_name": "The University of Melbourne, Parkville Campus, Painsdale Place, Carlton, Melbourne, City of Melbourne, Victoria, 3053, Australia",
+                "address": {
+                    "amenity": "The University of Melbourne, Parkville Campus",
+                    "road": "Painsdale Place",
+                    "suburb": "Carlton",
+                    "city": "Melbourne",
+                    "municipality": "City of Melbourne",
+                    "state": "Victoria",
+                    "ISO3166-2-lvl4": "AU-VIC",
+                    "postcode": "3053",
+                    "country": "Australia",
+                    "country_code": "au"
+                },
+                "university_id": 12,
+                "university_name": "The University Of Melbourne"
+            },
+            "bbox": [
+                144.9529763,
+                -37.8042551,
+                144.9656882,
+                -37.7920251
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96144589788645,
+                    -37.7960951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 391363844,
+                "osm_type": "relation",
+                "osm_id": 18398038,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.6190455064741409,
+                "addresstype": "amenity",
+                "name": "King's College London, Waterloo Campus",
+                "display_name": "King's College London, Waterloo Campus, Cornwall Road, South Bank, Waterloo, London Borough of Lambeth, London, Greater London, England, SE1 8YF, United Kingdom",
+                "address": {
+                    "amenity": "King's College London, Waterloo Campus",
+                    "road": "Cornwall Road",
+                    "quarter": "South Bank",
+                    "suburb": "Waterloo",
+                    "city_district": "London Borough of Lambeth",
+                    "ISO3166-2-lvl8": "GB-LBH",
+                    "city": "London",
+                    "state_district": "Greater London",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "SE1 8YF",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 39,
+                "university_name": "King'S College London"
+            },
+            "bbox": [
+                -0.1137324,
+                51.5046864,
+                -0.1109479,
+                51.506249
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.11159453201831254,
+                    51.5052366
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 84491316,
+                "osm_type": "node",
+                "osm_id": 4377211163,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 7.607461661702933e-05,
+                "addresstype": "amenity",
+                "name": "Faculty of Psychology, University of Basel",
+                "display_name": "Faculty of Psychology, University of Basel, 60-62, Missionsstrasse, Am Ring, Grossbasel, Basel, Basel-Stadt, 4055, Schweiz/Suisse/Svizzera/Svizra",
+                "address": {
+                    "amenity": "Faculty of Psychology, University of Basel",
+                    "house_number": "60-62",
+                    "road": "Missionsstrasse",
+                    "suburb": "Am Ring",
+                    "borough": "Grossbasel",
+                    "city": "Basel",
+                    "state": "Basel-Stadt",
+                    "ISO3166-2-lvl4": "CH-BS",
+                    "postcode": "4055",
+                    "country": "Schweiz/Suisse/Svizzera/Svizra",
+                    "country_code": "ch"
+                },
+                "university_id": 130,
+                "university_name": "University Of Basel"
+            },
+            "bbox": [
+                7.5752461,
+                47.5612151,
+                7.5753461,
+                47.5613151
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5752961,
+                    47.5612651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 344922909,
+                "osm_type": "relation",
+                "osm_id": 2217609,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.6467260205123235,
+                "addresstype": "amenity",
+                "name": "The University of Minnesota, Twin Cities Campus",
+                "display_name": "The University of Minnesota, Twin Cities Campus, Northeast Broadway Street, Beltrami, Falcon Heights, Hennepin County, Minnesota, 55455, United States",
+                "address": {
+                    "amenity": "The University of Minnesota, Twin Cities Campus",
+                    "road": "Northeast Broadway Street",
+                    "neighbourhood": "Beltrami",
+                    "village": "Falcon Heights",
+                    "county": "Hennepin County",
+                    "state": "Minnesota",
+                    "ISO3166-2-lvl4": "US-MN",
+                    "postcode": "55455",
+                    "country": "United States",
+                    "country_code": "us"
+                },
+                "university_id": 203,
+                "university_name": "University Of Minnesota Twin Cities"
+            },
+            "bbox": [
+                -93.2468353,
+                44.9570809,
+                -93.1679862,
+                44.9988917
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.17945580218503,
+                    44.9863392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 259851127,
+                "osm_type": "relation",
+                "osm_id": 7608159,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.5037052835687112,
+                "addresstype": "amenity",
+                "name": "City, University of London",
+                "display_name": "City, University of London, Berry Place, Brunswick Close Estate, Clerkenwell, London Borough of Islington, London, Greater London, England, EC1V 0HG, United Kingdom",
+                "address": {
+                    "amenity": "City, University of London",
+                    "road": "Berry Place",
+                    "neighbourhood": "Brunswick Close Estate",
+                    "suburb": "Clerkenwell",
+                    "city_district": "London Borough of Islington",
+                    "ISO3166-2-lvl8": "GB-ISL",
+                    "city": "London",
+                    "state_district": "Greater London",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "EC1V 0HG",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 351,
+                "university_name": "City, University Of London"
+            },
+            "bbox": [
+                -0.1059069,
+                51.5268973,
+                -0.1003824,
+                51.5283917
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.10352447335648303,
+                    51.527658200000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 275161976,
+                "osm_type": "node",
+                "osm_id": 9729426585,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "college",
+                "importance": 8.149767299911524e-05,
+                "addresstype": "amenity",
+                "name": "Universidade Nova de Lisboa",
+                "display_name": "Universidade Nova de Lisboa, Corredor Verde Monsanto-Parque Eduardo VII, Campolide, Lisboa, 1099-085, Portugal",
+                "address": {
+                    "amenity": "Universidade Nova de Lisboa",
+                    "road": "Corredor Verde Monsanto-Parque Eduardo VII",
+                    "suburb": "Campolide",
+                    "city": "Lisboa",
+                    "county": "Lisboa",
+                    "ISO3166-2-lvl6": "PT-11",
+                    "postcode": "1099-085",
+                    "country": "Portugal",
+                    "country_code": "pt"
+                },
+                "university_id": 387,
+                "university_name": "Universidade Nova De Lisboa"
+            },
+            "bbox": [
+                -9.1602502,
+                38.7327907,
+                -9.1601502,
+                38.7328907
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.1602002,
+                    38.7328407
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 255574918,
+                "osm_type": "way",
+                "osm_id": 42344916,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.3252605844508426,
+                "addresstype": "amenity",
+                "name": "Ulster University, Magee Campus",
+                "display_name": "Ulster University, Magee Campus, Northland Road, Pennyburn, Derry/Londonderry, County Londonderry, Northern Ireland / Tuaisceart \u00c9ireann, BT48 7JL, United Kingdom",
+                "address": {
+                    "amenity": "Ulster University, Magee Campus",
+                    "road": "Northland Road",
+                    "suburb": "Pennyburn",
+                    "city": "Derry/Londonderry",
+                    "county": "County Londonderry",
+                    "state": "Northern Ireland / Tuaisceart \u00c9ireann",
+                    "ISO3166-2-lvl4": "GB-NIR",
+                    "postcode": "BT48 7JL",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 559,
+                "university_name": "Ulster University"
+            },
+            "bbox": [
+                -7.3253866,
+                55.0033897,
+                -7.3204126,
+                55.0083101
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.323088131481537,
+                    55.00584965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 270205366,
+                "osm_type": "way",
+                "osm_id": 140595757,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 7.18188754100407e-05,
+                "addresstype": "amenity",
+                "name": "Euskal Herriko Unibertsitatea, Ibaeta Campusa",
+                "display_name": "Euskal Herriko Unibertsitatea, Ibaeta Campusa, Zarautz kalea, Lugaritz, Ibaeta, Mendebaldea, Donostia/San Sebasti\u00e1n, Gipuzkoa, Euskadi, 20008, Espa\u00f1a",
+                "address": {
+                    "amenity": "Euskal Herriko Unibertsitatea, Ibaeta Campusa",
+                    "road": "Zarautz kalea",
+                    "neighbourhood": "Lugaritz",
+                    "suburb": "Ibaeta",
+                    "borough": "Mendebaldea",
+                    "city": "Donostia/San Sebasti\u00e1n",
+                    "province": "Gipuzkoa",
+                    "ISO3166-2-lvl6": "ES-SS",
+                    "state": "Euskadi",
+                    "ISO3166-2-lvl4": "ES-PV",
+                    "postcode": "20008",
+                    "country": "Espa\u00f1a",
+                    "country_code": "es"
+                },
+                "university_id": 655,
+                "university_name": "University Of The Basque Country"
+            },
+            "bbox": [
+                -2.014017,
+                43.3046386,
+                -2.0073526,
+                43.3138927
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.01066784661227,
+                    43.30927695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 260876281,
+                "osm_type": "way",
+                "osm_id": 23482197,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.47462680416048175,
+                "addresstype": "amenity",
+                "name": "University of the West of England, Frenchay Campus",
+                "display_name": "University of the West of England, Frenchay Campus, Frenchay Campus, Coldharbour Lane, Stoke Park, Stoke Park and Cheswick, Bristol, South Gloucestershire, West of England, England, BS16 1QY, United Kingdom",
+                "address": {
+                    "amenity": "University of the West of England, Frenchay Campus",
+                    "house_number": "Frenchay Campus",
+                    "road": "Coldharbour Lane",
+                    "suburb": "Stoke Park",
+                    "city": "Bristol",
+                    "county": "South Gloucestershire",
+                    "ISO3166-2-lvl6": "GB-SGC",
+                    "state_district": "West of England",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "BS16 1QY",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 747,
+                "university_name": "University Of The West Of England"
+            },
+            "bbox": [
+                -2.5564706,
+                51.4969896,
+                -2.5438137,
+                51.5046081
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5503106339491204,
+                    51.50076785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 232013596,
+                "osm_type": "way",
+                "osm_id": 121328847,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.29503227113851116,
+                "addresstype": "amenity",
+                "name": "Calcutta Institute of Engineering and Management",
+                "display_name": "Calcutta Institute of Engineering and Management, Chandi Ghosh Road, Purba Putiary, Ashok Nagar, Kolkata, West Bengal, 700040, India",
+                "address": {
+                    "amenity": "Calcutta Institute of Engineering and Management",
+                    "road": "Chandi Ghosh Road",
+                    "neighbourhood": "Purba Putiary",
+                    "suburb": "Ashok Nagar",
+                    "city": "Kolkata",
+                    "state_district": "Kolkata",
+                    "state": "West Bengal",
+                    "ISO3166-2-lvl4": "IN-WB",
+                    "postcode": "700040",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 759,
+                "university_name": "University Of Calcutta"
+            },
+            "bbox": [
+                88.3425154,
+                22.4836859,
+                88.3463349,
+                22.485737
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.34475274411396,
+                    22.48473255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 231256954,
+                "osm_type": "node",
+                "osm_id": 11821835355,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 7.101167315170547e-05,
+                "addresstype": "amenity",
+                "name": "Bangladesh University of Engineering and Technology (BUET), Public university, BUET Central Road, Dhaka",
+                "display_name": "Bangladesh University of Engineering and Technology (BUET), Public university, BUET Central Road, Dhaka, Zahir Raihan Road, \u09aa\u09b2\u09be\u09b6\u09c0, \u09ac\u0995\u09b6\u09c0\u09ac\u09be\u099c\u09be\u09b0, \u09a2\u09be\u0995\u09be, \u09a2\u09be\u0995\u09be \u09ae\u09b9\u09be\u09a8\u0997\u09b0, \u09a2\u09be\u0995\u09be \u099c\u09c7\u09b2\u09be, \u09a2\u09be\u0995\u09be \u09ac\u09bf\u09ad\u09be\u0997, 1211, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+                "address": {
+                    "amenity": "Bangladesh University of Engineering and Technology (BUET), Public university, BUET Central Road, Dhaka",
+                    "road": "Zahir Raihan Road",
+                    "neighbourhood": "\u09aa\u09b2\u09be\u09b6\u09c0",
+                    "suburb": "\u09ac\u0995\u09b6\u09c0\u09ac\u09be\u099c\u09be\u09b0",
+                    "city": "\u09a2\u09be\u0995\u09be",
+                    "municipality": "\u09a2\u09be\u0995\u09be \u09ae\u09b9\u09be\u09a8\u0997\u09b0",
+                    "state_district": "\u09a2\u09be\u0995\u09be \u099c\u09c7\u09b2\u09be",
+                    "ISO3166-2-lvl5": "BD-13",
+                    "state": "\u09a2\u09be\u0995\u09be \u09ac\u09bf\u09ad\u09be\u0997",
+                    "ISO3166-2-lvl4": "BD-C",
+                    "postcode": "1211",
+                    "country": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+                    "country_code": "bd"
+                },
+                "university_id": 764,
+                "university_name": "Bangladesh University Of Engineering And Technology"
+            },
+            "bbox": [
+                90.3926901,
+                23.7265155,
+                90.3927901,
+                23.7266155
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    90.3927401,
+                    23.7265655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 136546883,
+                "osm_type": "way",
+                "osm_id": 34479429,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.582886943076541,
+                "addresstype": "amenity",
+                "name": "Universit\u00e4t Rostock, Hauptgeb\u00e4ude",
+                "display_name": "Universit\u00e4t Rostock, Hauptgeb\u00e4ude, 1, Universit\u00e4tsplatz, N\u00f6rdliche Altstadt, Stadtmitte, Ortsbeirat 14 : Stadtmitte, Rostock, Mecklenburg-Vorpommern, 18055, Deutschland",
+                "address": {
+                    "amenity": "Universit\u00e4t Rostock, Hauptgeb\u00e4ude",
+                    "house_number": "1",
+                    "road": "Universit\u00e4tsplatz",
+                    "quarter": "N\u00f6rdliche Altstadt",
+                    "suburb": "Stadtmitte",
+                    "city_district": "Ortsbeirat 14 : Stadtmitte",
+                    "city": "Rostock",
+                    "state": "Mecklenburg-Vorpommern",
+                    "ISO3166-2-lvl4": "DE-MV",
+                    "postcode": "18055",
+                    "country": "Deutschland",
+                    "country_code": "de"
+                },
+                "university_id": 835,
+                "university_name": "Universit\u00e4t Rostock"
+            },
+            "bbox": [
+                12.1328092,
+                54.0877873,
+                12.1334815,
+                54.0883603
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.133285355477032,
+                    54.0880573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 259614270,
+                "osm_type": "way",
+                "osm_id": 492131081,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.49605034982870505,
+                "addresstype": "amenity",
+                "name": "University of Hertfordshire, College Lane Campus",
+                "display_name": "University of Hertfordshire, College Lane Campus, College Lane, Nast Hyde, Hatfield, Welwyn Hatfield, Hertfordshire, England, AL10 9AA, United Kingdom",
+                "address": {
+                    "amenity": "University of Hertfordshire, College Lane Campus",
+                    "road": "College Lane",
+                    "neighbourhood": "Nast Hyde",
+                    "town": "Hatfield",
+                    "city": "Welwyn Hatfield",
+                    "county": "Hertfordshire",
+                    "ISO3166-2-lvl6": "GB-HRT",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "AL10 9AA",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 890,
+                "university_name": "University Of Hertfordshire"
+            },
+            "bbox": [
+                -0.2445094,
+                51.7480625,
+                -0.234031,
+                51.7548853
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.23904979445944738,
+                    51.75174425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 225278904,
+                "osm_type": "node",
+                "osm_id": 11694241597,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.3665454396647808,
+                "addresstype": "amenity",
+                "name": "Indian Institute of Technology (BHU)",
+                "display_name": "Indian Institute of Technology (BHU), Semi Circle Road 2, Karbirdas Colony, Varanasi, Sadar, Varanasi, Uttar Pradesh, 221005, India",
+                "address": {
+                    "amenity": "Indian Institute of Technology (BHU)",
+                    "road": "Semi Circle Road 2",
+                    "neighbourhood": "Karbirdas Colony",
+                    "city": "Varanasi",
+                    "county": "Sadar",
+                    "state_district": "Varanasi",
+                    "state": "Uttar Pradesh",
+                    "ISO3166-2-lvl4": "IN-UP",
+                    "postcode": "221005",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 975,
+                "university_name": "Indian Institute Of Technology Bhubaneswar"
+            },
+            "bbox": [
+                82.9925396,
+                25.2621044,
+                82.9926396,
+                25.2622044
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.9925896,
+                    25.2621544
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 226742675,
+                "osm_type": "node",
+                "osm_id": 11982181380,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 5.58350499732512e-05,
+                "addresstype": "amenity",
+                "name": "Guru Govind Singh Indraprastha University",
+                "display_name": "Guru Govind Singh Indraprastha University, Road No 71A, Shahdara CBD, Vivek Vihar Tehsil, Shahdara, Delhi, 110095, India",
+                "address": {
+                    "amenity": "Guru Govind Singh Indraprastha University",
+                    "road": "Road No 71A",
+                    "city_district": "Shahdara CBD",
+                    "county": "Vivek Vihar Tehsil",
+                    "state_district": "Shahdara",
+                    "state": "Delhi",
+                    "ISO3166-2-lvl4": "IN-DL",
+                    "postcode": "110095",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 1049,
+                "university_name": "Guru Gobind Singh Indraprastha University"
+            },
+            "bbox": [
+                77.3025484,
+                28.6656847,
+                77.3026484,
+                28.6657847
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.3025984,
+                    28.6657347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 259666989,
+                "osm_type": "way",
+                "osm_id": 51348120,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 9.307927061870783e-05,
+                "addresstype": "amenity",
+                "name": "London Metropolitan University, Holloway Campus",
+                "display_name": "London Metropolitan University, Holloway Campus, Bryantwood Road, Lower Holloway, Highbury, London Borough of Islington, London, Greater London, England, N7 7BB, United Kingdom",
+                "address": {
+                    "amenity": "London Metropolitan University, Holloway Campus",
+                    "road": "Bryantwood Road",
+                    "neighbourhood": "Lower Holloway",
+                    "suburb": "Highbury",
+                    "city_district": "London Borough of Islington",
+                    "ISO3166-2-lvl8": "GB-ISL",
+                    "city": "London",
+                    "state_district": "Greater London",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "N7 7BB",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 1068,
+                "university_name": "London Metropolitan University"
+            },
+            "bbox": [
+                -0.1126318,
+                51.5512644,
+                -0.1092675,
+                51.5542339
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.11123849086113646,
+                    51.55280975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 107171980,
+                "osm_type": "way",
+                "osm_id": 44491292,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.4501590739043655,
+                "addresstype": "amenity",
+                "name": "Rheinland-Pf\u00e4lzische Technische Universit\u00e4t, Campus Kaiserslautern",
+                "display_name": "Rheinland-Pf\u00e4lzische Technische Universit\u00e4t, Campus Kaiserslautern, Paul-Ehrlich-Stra\u00dfe, PRE Uni-Park, Uni-Wohnstadt, Kaiserslautern, Rheinland-Pfalz, 67663, Deutschland",
+                "address": {
+                    "amenity": "Rheinland-Pf\u00e4lzische Technische Universit\u00e4t, Campus Kaiserslautern",
+                    "road": "Paul-Ehrlich-Stra\u00dfe",
+                    "neighbourhood": "PRE Uni-Park",
+                    "suburb": "Uni-Wohnstadt",
+                    "city": "Kaiserslautern",
+                    "state": "Rheinland-Pfalz",
+                    "ISO3166-2-lvl4": "DE-RP",
+                    "postcode": "67663",
+                    "country": "Deutschland",
+                    "country_code": "de"
+                },
+                "university_id": 1315,
+                "university_name": "Technische Universit\u00e4t Kaiserslautern"
+            },
+            "bbox": [
+                7.7495138,
+                49.4214956,
+                7.7611915,
+                49.4279092
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.754214153273509,
+                    49.4246142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 172935428,
+                "osm_type": "way",
+                "osm_id": 301389095,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 7.079957274734139e-05,
+                "addresstype": "amenity",
+                "name": "Katedra biologie a ekologie, P\u0159\u00edrodov\u011bdeck\u00e1 fakulta, Ostravsk\u00e1 univerzita v Ostrav\u011b",
+                "display_name": "Katedra biologie a ekologie, P\u0159\u00edrodov\u011bdeck\u00e1 fakulta, Ostravsk\u00e1 univerzita v Ostrav\u011b, M. D. Rettigov\u00e9, Slezsk\u00e1 Ostrava, Ostrava, okres Ostrava-m\u011bsto, Moravskoslezsk\u00fd kraj, Moravskoslezsko, 712 00, \u010cesko",
+                "address": {
+                    "amenity": "Katedra biologie a ekologie, P\u0159\u00edrodov\u011bdeck\u00e1 fakulta, Ostravsk\u00e1 univerzita v Ostrav\u011b",
+                    "road": "M. D. Rettigov\u00e9",
+                    "suburb": "Slezsk\u00e1 Ostrava",
+                    "city": "Ostrava",
+                    "municipality": "okres Ostrava-m\u011bsto",
+                    "ISO3166-2-lvl7": "CZ-806",
+                    "county": "Moravskoslezsk\u00fd kraj",
+                    "ISO3166-2-lvl6": "CZ-80",
+                    "state": "Moravskoslezsko",
+                    "postcode": "712 00",
+                    "country": "\u010cesko",
+                    "country_code": "cz"
+                },
+                "university_id": 1387,
+                "university_name": "University Of Ostrava"
+            },
+            "bbox": [
+                18.3038727,
+                49.8430053,
+                18.3050412,
+                49.8437691
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.304503394676573,
+                    49.8434782
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 326249701,
+                "osm_type": "relation",
+                "osm_id": 14368807,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.49833579560741526,
+                "addresstype": "amenity",
+                "name": "University at Albany, The State University of New York",
+                "display_name": "University at Albany, The State University of New York, The Rise Apartments - Pine Hills, City of Albany, Albany County, New York, 12203, United States",
+                "address": {
+                    "amenity": "University at Albany, The State University of New York",
+                    "residential": "The Rise Apartments - Pine Hills",
+                    "city": "City of Albany",
+                    "county": "Albany County",
+                    "state": "New York",
+                    "ISO3166-2-lvl4": "US-NY",
+                    "postcode": "12203",
+                    "country": "United States",
+                    "country_code": "us"
+                },
+                "university_id": 885,
+                "university_name": "University At Albany Suny"
+            },
+            "bbox": [
+                -73.8368652,
+                42.6244545,
+                -73.7340224,
+                42.6928695
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.82587727551194,
+                    42.6840271
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 231601855,
+                "osm_type": "way",
+                "osm_id": 490287434,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 0.3273081215768944,
+                "addresstype": "amenity",
+                "name": "International University of Business Agriculture and Technology",
+                "display_name": "International University of Business Agriculture and Technology, \u09a2\u09be\u0995\u09be - \u0986\u09b6\u09c1\u09b2\u09bf\u09af\u09bc\u09be \u09ae\u09b9\u09be\u09b8\u09a1\u09bc\u0995, \u09b8\u09c7\u0995\u09cd\u099f\u09b0 \u09e7\u09e6, \u09ad\u09be\u099f\u09c1\u09b2\u09bf\u09af\u09bc\u09be, \u09a2\u09be\u0995\u09be \u09ae\u09b9\u09be\u09a8\u0997\u09b0, \u09a2\u09be\u0995\u09be \u099c\u09c7\u09b2\u09be, \u09a2\u09be\u0995\u09be \u09ac\u09bf\u09ad\u09be\u0997, 1711, \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+                "address": {
+                    "amenity": "International University of Business Agriculture and Technology",
+                    "road": "\u09a2\u09be\u0995\u09be - \u0986\u09b6\u09c1\u09b2\u09bf\u09af\u09bc\u09be \u09ae\u09b9\u09be\u09b8\u09a1\u09bc\u0995",
+                    "quarter": "\u09b8\u09c7\u0995\u09cd\u099f\u09b0 \u09e7\u09e6",
+                    "suburb": "\u09ad\u09be\u099f\u09c1\u09b2\u09bf\u09af\u09bc\u09be",
+                    "municipality": "\u09a2\u09be\u0995\u09be \u09ae\u09b9\u09be\u09a8\u0997\u09b0",
+                    "state_district": "\u09a2\u09be\u0995\u09be \u099c\u09c7\u09b2\u09be",
+                    "ISO3166-2-lvl5": "BD-13",
+                    "state": "\u09a2\u09be\u0995\u09be \u09ac\u09bf\u09ad\u09be\u0997",
+                    "ISO3166-2-lvl4": "BD-C",
+                    "postcode": "1711",
+                    "country": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+                    "country_code": "bd"
+                },
+                "university_id": 1425,
+                "university_name": "International University Of Business, Agriculture And Technology (Iubat)"
+            },
+            "bbox": [
+                90.3902597,
+                23.8880399,
+                90.3910073,
+                23.8883829
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    90.39064087011994,
+                    23.8882231
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 56533462,
+                "osm_type": "relation",
+                "osm_id": 11842368,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "university",
+                "importance": 6.85015640496989e-05,
+                "addresstype": "amenity",
+                "name": "Universitatea din Oradea, Campus A",
+                "display_name": "Universitatea din Oradea, Campus A, Strada \u0218tefan Odobleja, Europa, Oradea, Zona Metropolitan\u0103 Oradea, Bihor, 410093, Rom\u00e2nia",
+                "address": {
+                    "amenity": "Universitatea din Oradea, Campus A",
+                    "road": "Strada \u0218tefan Odobleja",
+                    "suburb": "Europa",
+                    "city": "Oradea",
+                    "municipality": "Zona Metropolitan\u0103 Oradea",
+                    "county": "Bihor",
+                    "ISO3166-2-lvl4": "RO-BH",
+                    "postcode": "410093",
+                    "country": "Rom\u00e2nia",
+                    "country_code": "ro"
+                },
+                "university_id": 1511,
+                "university_name": "University Of Oradea"
+            },
+            "bbox": [
+                21.9143472,
+                47.0422614,
+                21.9219765,
+                47.0468989
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.918063744345524,
+                    47.044933400000005
+                ]
+            }
+        }
+    ]
+}
