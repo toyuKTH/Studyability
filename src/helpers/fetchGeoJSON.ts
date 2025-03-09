@@ -5,7 +5,7 @@ import { ICountryDB, IUniversity } from "../state/slices/dataSlice";
 export async function fetchGeoJSON(url?: string) {
   try {
     const response = await fetch(
-      url || `./data/GeoJSON/osm_search/cleaned_demo_v4.geojson`
+      url || `./data/GeoJSON/osm_search/joined_uni_demo_v2b.geojson`
     );
     const geoJSON = await response.json();
 
@@ -19,7 +19,7 @@ export async function fetchGeoJSON(url?: string) {
 export const fetchMapData = async (filteredData: IUniversity[]) => {
   try {
     const data = await fetchGeoJSON(
-      `./data/GeoJSON/osm_search/cleaned_demo_v4.geojson`
+      `./data/GeoJSON/osm_search/joined_uni_demo_v2b.geojson`
     );
 
     const filteredGeoJSON = data.features.filter((feature: GeoJSONFeature) => {

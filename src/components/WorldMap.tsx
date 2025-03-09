@@ -1,20 +1,21 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import "./WorldMap.css";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
 import {
   flyToUniComplete,
   setMapZoomed,
 } from "../state/slices/mapInteractionSlice";
-import mapboxgl, { GeoJSONSource } from "mapbox-gl";
+import mapboxgl, { GeoJSONSource, MapMouseEvent } from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 import { getFilteredData } from "../state/slices/dataSlice";
 import { fetchMapData } from "../helpers/fetchGeoJSON";
+import { setCurrentUniversity } from "../state/slices/uniSelectionSlice";
 
 export interface IStudiabilityFeatureProperties {
   university_id: number;
   university_name: string;
-  website?: string;
+  university_website?: string;
 }
 
 export const WorldMap = ({
@@ -25,11 +26,13 @@ export const WorldMap = ({
   height?: number;
 }) => {
   // const mapToken = import.meta.env.VITE_MAP_BOX_TOKEN;
-  const mapToken="pk.eyJ1IjoidG95dWt0aCIsImEiOiJjbTd5d2V3czIwY2F3MmpzYTA4b2x4d3EwIn0.zZv52q9VqahrIq6dturYUQ";
+  const mapToken =
+    "pk.eyJ1IjoidG95dWt0aCIsImEiOiJjbTd5d2V3czIwY2F3MmpzYTA4b2x4d3EwIn0.zZv52q9VqahrIq6dturYUQ";
 
   const dispatch = useAppDispatch();
 
   const filteredData = useAppSelector(getFilteredData);
+  const allData = useAppSelector((state) => state.data.universities);
   const flyToUni = useAppSelector((state) => state.mapInteraction.flyToUni);
 
   const zoomed = useAppSelector((state) => state.mapInteraction.mapZoomed);
@@ -156,38 +159,7 @@ export const WorldMap = ({
       // the unclustered-point layer, open a popup at
       // the location of the feature, with
       // description HTML from its properties.
-      mapRef.current.on("click", "unclustered-point", (e) => {
-        if (!mapRef.current || !e.features) return;
-
-        const geometry = e.features[0].geometry as GeoJSON.Point;
-        const properties = e.features[0]
-          .properties as IStudiabilityFeatureProperties;
-        const coordinates = geometry.coordinates;
-        const name = properties.university_name;
-        const rank = properties.university_id;
-
-        // Ensure that if the map is zoomed out such that
-        // multiple copies of the feature are visible, the
-        // popup appears over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-
-        const uniWebsite = properties.website;
-
-        const popup = new mapboxgl.Popup()
-          .setLngLat(coordinates as [number, number])
-          .setHTML(
-            `Name: ${name}<br>Rank: ${rank}${
-              uniWebsite
-                ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
-                : ""
-            }`
-          )
-          .addTo(mapRef.current);
-
-        popUpRefs.current.push(popup);
-      });
+      mapRef.current.on("click", "unclustered-point", handleClusterClick);
 
       mapRef.current.on("mouseenter", "clusters", () => {
         if (!mapRef.current) return;
@@ -254,13 +226,13 @@ export const WorldMap = ({
         easing: (t) => t,
       })
       .once("moveend", () => {
-        const uniWebsite = properties.website;
+        const uniWebsite = properties.university_website;
 
         const popup = new mapboxgl.Popup()
           .setLngLat(geometry.coordinates as [number, number])
           .setHTML(
             `Name: ${properties.university_name}<br>Rank: ${
-              properties.university_id
+              properties.university_id + 1
             }${
               uniWebsite
                 ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
@@ -303,6 +275,45 @@ export const WorldMap = ({
 
     updateMapData();
   }, [filteredData]);
+
+  const handleClusterClick = (e: MapMouseEvent) => {
+    if (!mapRef.current || !e.features) return;
+
+    const geometry = e.features[0].geometry as GeoJSON.Point;
+    const properties = e.features[0]
+      .properties as IStudiabilityFeatureProperties;
+    const coordinates = geometry.coordinates;
+    const name = properties.university_name;
+    const rank = properties.university_id;
+
+    const universityObject = Object.values(allData).find(
+      (uni) => uni.name === name
+    );
+
+    if (universityObject) dispatch(setCurrentUniversity(universityObject));
+
+    // Ensure that if the map is zoomed out such that
+    // multiple copies of the feature are visible, the
+    // popup appears over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+      coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    const uniWebsite = properties.university_website;
+
+    const popup = new mapboxgl.Popup()
+      .setLngLat(coordinates as [number, number])
+      .setHTML(
+        `Name: ${name}<br>Rank: ${rank + 1}${
+          uniWebsite
+            ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
+            : ""
+        }`
+      )
+      .addTo(mapRef.current);
+
+    popUpRefs.current.push(popup);
+  };
 
   const handleResetZoom = () => {
     if (mapRef.current) {
