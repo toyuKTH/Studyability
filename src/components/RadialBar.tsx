@@ -35,7 +35,7 @@ export default function RadialBar() {
         "International Students",
         "Faculty Student Ratio",
       ],
-      colors: ["#52687f", "#4e5f70", "#3d4a56", "#37414b", "#2b3035"],
+      colors: ["#FF6B57", "#FF3F34", "#E72C35", "#C3202F", "#AA1D2B"],
       plotOptions: {
         radialBar: {
           offsetY: 0,
