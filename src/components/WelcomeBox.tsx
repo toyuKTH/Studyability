@@ -16,7 +16,7 @@ function WelcomeBox() {
 
   return (
     <div className="welcome-box-wrapper">
-      <h2 style={{ textAlign: "center" }}>Welcome!</h2>
+      <h2 style={{ textAlign: "center", marginTop: 0 }}>Welcome!</h2>
       <p>
         This is a data visualization tool for exploring university rankings data
         from{" "}

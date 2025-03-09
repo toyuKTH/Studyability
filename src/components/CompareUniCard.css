@@ -169,13 +169,15 @@
       margin-bottom: 3px;
 
       &:hover {
-        background-color: #85e473;
-        /* background-color: #f0f0f0; */
+        /* background-color: #85e473; */
+        background-color: #354248a3;
+        color: white;
       }
 
       &:focus {
-        background-color: #85e473;
-
+        /* background-color: #85e473; */
+        background-color: #354248a3;
+        color: white;
         outline: none;
       }
     }

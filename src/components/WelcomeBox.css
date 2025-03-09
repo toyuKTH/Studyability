@@ -1,4 +1,6 @@
 .welcome-box-wrapper {
+  height: 100%;
+  overflow-y: auto;
   .paraplot-name {
     font-weight: bold;
     cursor: pointer;
