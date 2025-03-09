@@ -58,7 +58,7 @@ export default function ScatterPlot() {
       customdata: [...filteredUniversities],
       marker: {
         size: 15,
-        color: "#636EFA",
+        color: "#517F96",
         symbol: "circle",
         line: {},
       },
@@ -100,7 +100,7 @@ export default function ScatterPlot() {
     if (currentUniversity != null) {
       const markerStyle = {
         size: 15,
-        color: "#E42C2C",
+        color: "#CA3F4C",
         symbol: "circle",
         line: {},
       };

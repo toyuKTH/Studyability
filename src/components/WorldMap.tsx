@@ -25,7 +25,8 @@ export const WorldMap = ({
   width?: number;
   height?: number;
 }) => {
-  const mapToken = import.meta.env.VITE_MAP_BOX_TOKEN;
+  // const mapToken = import.meta.env.VITE_MAP_BOX_TOKEN;
+  const mapToken="pk.eyJ1IjoidG95dWt0aCIsImEiOiJjbTd5d2V3czIwY2F3MmpzYTA4b2x4d3EwIn0.zZv52q9VqahrIq6dturYUQ";
 
   const dispatch = useAppDispatch();
 
@@ -48,7 +49,7 @@ export const WorldMap = ({
       projection: "mercator",
       renderWorldCopies: false,
       container: mapContainerRef.current,
-      style: "mapbox://styles/gianlucabeltran/cm7yuesis01b301sb8rapbuot",
+      style: "mapbox://styles/toyukth/cm81ddad500zk01qu1p9ydafi",
       center: [0, 70],
       zoom: 0,
     });
@@ -78,11 +79,11 @@ export const WorldMap = ({
           "circle-color": [
             "step",
             ["get", "point_count"],
-            "#51bbd6",
+            "#517F96",
             100,
-            "#f1f075",
+            "#D37D6C",
             750,
-            "#f28cb1",
+            "#DCAB97",
           ],
           "circle-radius": [
             "step",
