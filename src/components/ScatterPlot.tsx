@@ -2,13 +2,13 @@ import * as Plotly from "plotly.js-dist-min";
 import { useEffect, useRef, useState } from "react";
 import { getFilteredData, IUniversity } from "../state/slices/dataSlice";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
-import { titleCase } from "../helpers/stringUtils";
 import {
   setCurrentUniversity,
   setCurrentUniversityGeoJSON,
 } from "../state/slices/uniSelectionSlice";
 import "./ScatterPlot.css";
 import { getUniGeoJSON } from "../helpers/fetchGeoJSON";
+import { getQSAttributeLabel } from "../helpers/qsAttributeUtils";
 
 export default function ScatterPlot() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -17,6 +17,7 @@ export default function ScatterPlot() {
     "academic_reputation",
     "employment_outcomes",
     "international_students",
+    "faculty_student",
   ];
 
   const dispatch = useAppDispatch();
@@ -240,7 +241,7 @@ export default function ScatterPlot() {
                     key={attribute}
                     selected={attribute === axisLabels.y}
                   >
-                    {titleCase(attribute)}
+                    {getQSAttributeLabel(attribute)}
                   </option>
                 ))}
             </select>
@@ -253,7 +254,7 @@ export default function ScatterPlot() {
               setSelectionMode({ x: axisSelectionModeOn.x, y: true })
             }
           >
-            <span>{titleCase(axisLabels.y)}</span>
+            <span>{getQSAttributeLabel(axisLabels.y)}</span>
             <svg
               width="24"
               height="24"
@@ -282,7 +283,7 @@ export default function ScatterPlot() {
                 setSelectionMode({ y: axisSelectionModeOn.y, x: true })
               }
             >
-              <span>{titleCase(axisLabels.x)}</span>
+              <span>{getQSAttributeLabel(axisLabels.x)}</span>
               <svg
                 width="24"
                 height="24"
@@ -324,7 +325,7 @@ export default function ScatterPlot() {
                       key={attribute}
                       selected={attribute === axisLabels.x}
                     >
-                      {titleCase(attribute)}
+                      {getQSAttributeLabel(attribute)}
                     </option>
                   ))}
               </select>
