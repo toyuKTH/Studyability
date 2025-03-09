@@ -1,0 +1,8 @@
+.multiple-bar-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+}

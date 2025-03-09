@@ -1,5 +1,6 @@
 import CompareUniCard from "../components/CompareUniCard";
 import EmptyCompareCard from "../components/EmptyCompareCard";
+import MultipleBarChart from "../components/MultipleBarChart";
 import RadarChart from "../components/RadarChart";
 import { useAppSelector } from "../state/hooks";
 import "./Compare.css";
@@ -22,7 +23,12 @@ function Compare() {
           <EmptyCompareCard />
         )}
       </div>
-      {uniToCompare.length > 0 && <RadarChart />}
+      {uniToCompare.length > 0 && (
+        <>
+          <RadarChart />
+          <MultipleBarChart />
+        </>
+      )}
     </div>
   );
 }
