@@ -4,6 +4,7 @@ import { useAppDispatch, useAppSelector } from "../state/hooks";
 import "./RadarChart.css";
 import {
   getQSAttributeColor,
+  getQSAttributeFontColor,
   getQSAttributeKey,
   getQSAttributeLabel,
   qsAttributeKeys,
@@ -11,7 +12,10 @@ import {
 import {
   setQSAttributeToHighlight,
   setUniToHighlight,
+  updateCategoriesToInclude,
 } from "../state/slices/highlightInteractionSlice";
+import CancelSVG from "./svg/CancelSVG";
+import AddSVG from "./svg/AddSVG";
 
 export default function RadarChart() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -21,17 +25,23 @@ export default function RadarChart() {
 
   const dispatch = useAppDispatch();
 
-  const categoriesOpt = qsAttributeKeys;
-
   const highlightedAttribute = useAppSelector(
     (state) => state.highlightInteraction.qsAttributeToHighlight
   );
   const highlightedUni = useAppSelector(
     (state) => state.highlightInteraction.uniToHighlight
   );
+  const categories = useAppSelector(
+    (state) => state.highlightInteraction.qsCategoriesToInclude
+  );
 
-  const [categories, setCategories] = useState([...categoriesOpt]);
-  const [excludedCategories, setExcludedCategories] = useState([] as string[]);
+  const tempExcludedCategories = qsAttributeKeys.filter(
+    (cat) => !categories.includes(cat)
+  );
+
+  const [excludedCategories, setExcludedCategories] = useState(
+    tempExcludedCategories
+  );
   const [errorMessage, setErrorMessage] = useState(null as string | null);
 
   const series = uniToCompare.map((uni) => {
@@ -50,12 +60,11 @@ export default function RadarChart() {
     const chartOptions = {
       series,
       chart: {
-        height: 400,
+        height: 600,
         type: "radar",
         toolbar: {
           show: false,
         },
-        parentHeightOffset: -300,
         animations: {
           enabled: false,
         },
@@ -112,7 +121,6 @@ export default function RadarChart() {
               colors: ["#E5ECF6"],
             },
             connectorColors: "#fff",
-            offsetX: -80,
           },
         },
       },
@@ -120,9 +128,10 @@ export default function RadarChart() {
         show: true,
         position: "right",
         horizontalAlign: "left",
-        floating: false,
-        offsetY: 80,
-        offsetX: 170,
+        showForSingleSeries: true,
+        floating: true,
+        offsetY: 230,
+        offsetX: -220,
         onItemClick: {
           toggleDataSeries: false,
         },
@@ -144,6 +153,16 @@ export default function RadarChart() {
         followCursor: true,
         fixed: {
           offsetY: -80,
+        },
+      },
+      title: {
+        text: "University Comparison",
+        align: "center",
+        offsetY: 50,
+        style: {
+          fontSize: "20px",
+          fontWeight: "bold",
+          color: "#263238",
         },
       },
     };
@@ -194,18 +213,16 @@ export default function RadarChart() {
   function excludeCategory(catName: string) {
     if (categories.length > 3) {
       const ec = [catName, ...excludedCategories];
-      const filteredCat = [...categories].filter((v) => v != catName);
       setExcludedCategories(ec);
-      setCategories(filteredCat);
+      dispatch(updateCategoriesToInclude(catName));
     } else {
       flashErrorMessage("minimum 3 attributes");
     }
   }
 
   function includeCategory(catName: string) {
-    const ec = [catName, ...categories];
     const filteredCat = [...excludedCategories].filter((v) => v != catName);
-    setCategories(ec);
+    dispatch(updateCategoriesToInclude(catName));
     setExcludedCategories(filteredCat);
   }
 
@@ -217,34 +234,51 @@ export default function RadarChart() {
           {errorMessage && (
             <div className="attribute-error-message">{errorMessage}</div>
           )}
-          <span>Attribute(s) To Include :</span>
-          <div>
+          <h2 style={{ textAlign: "center" }}>Attributes to include</h2>
+          <div className="attribute-selector-buttons">
             {categories?.map((cat) => (
               <button
                 key={`${cat}-included`}
                 className="category-selector included"
+                style={{
+                  backgroundColor: getQSAttributeColor(cat),
+                  color: getQSAttributeFontColor(cat),
+                }}
                 onClick={() => {
                   excludeCategory(cat);
                 }}
               >
                 <span>{getQSAttributeLabel(cat)} </span>
-                <span> x</span>
+                <CancelSVG
+                  fill={getQSAttributeFontColor(cat)}
+                  width={20}
+                  height={20}
+                />
               </button>
             ))}
           </div>
         </div>
         <div className="attribute-selector-group">
-          <span>Attribute(s) To Exclude :</span>
-          <div>
+          <h2 style={{ textAlign: "center" }}>Attributes to exclude</h2>
+          <div className="attribute-selector-buttons">
             {excludedCategories?.map((cat) => (
               <button
                 key={`${cat}-excluded`}
                 className="category-selector excluded"
+                style={{
+                  backgroundColor: getQSAttributeColor(cat),
+                  color: getQSAttributeFontColor(cat),
+                }}
                 onClick={() => {
                   includeCategory(cat);
                 }}
               >
-                {getQSAttributeLabel(cat)} <span>+</span>
+                {getQSAttributeLabel(cat)}{" "}
+                <AddSVG
+                  fill={getQSAttributeFontColor(cat)}
+                  width={20}
+                  height={20}
+                />
               </button>
             ))}
           </div>

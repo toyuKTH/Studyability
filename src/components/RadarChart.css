@@ -1,14 +1,15 @@
 .radar-chart-group {
-  margin: 0 100px;
-  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   .radar-chart-container {
-    top: -80px;
-    left: 40px;
-    position: relative;
-    height: 350px;
-    overflow: hidden;
-    margin: 40px 40px 0;
+    min-height: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 
     .apexcharts-xaxis-label,
     .apexcharts-legend-series {
@@ -25,11 +26,36 @@
     min-height: 100px;
     font-size: 12px;
     display: flex;
-    width: 65%;
-    margin: -70px auto 10px;
+    width: 70%;
+    justify-content: center;
 
     .attribute-selector-group {
-      min-width: 250px;
+      min-width: 50%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -50px;
+
+      h2 {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .attribute-selector-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
       .attribute-error-message {
         position: fixed;
         color: red;
@@ -39,15 +65,18 @@
 
     .category-selector {
       border: none;
-      color: black;
+      color: white;
+      font-weight: bold;
       padding: 10px 20px;
+      padding-right: 5px;
       text-align: center;
       text-decoration: none;
-      display: inline-block;
+      display: flex;
+      flex-wrap: wrap;
       margin: 4px 2px;
       cursor: pointer;
       border-radius: 16px;
-      background-color: #ddd;
+
       &:hover {
         background-color: #aeaeae;
       }
