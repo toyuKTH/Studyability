@@ -3,8 +3,12 @@ import { useEffect, useRef, useState } from "react";
 import { getFilteredData, IUniversity } from "../state/slices/dataSlice";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
 import { titleCase } from "../helpers/stringUtils";
-import { setCurrentUniversity } from "../state/slices/uniSelectionSlice";
+import {
+  setCurrentUniversity,
+  setCurrentUniversityGeoJSON,
+} from "../state/slices/uniSelectionSlice";
 import "./ScatterPlot.css";
+import { getUniGeoJSON } from "../helpers/fetchGeoJSON";
 
 export default function ScatterPlot() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -177,9 +181,13 @@ export default function ScatterPlot() {
             const selectedUniversity = eventData.points[0]
               .customdata as unknown;
             dispatch(setCurrentUniversity(selectedUniversity as IUniversity));
+            getUniGeoJSON(selectedUniversity as IUniversity).then((geoJSON) =>
+              dispatch(setCurrentUniversityGeoJSON(geoJSON))
+            );
           }
           if (eventData.points[0].data.name == "Selected") {
             dispatch(setCurrentUniversity(null));
+            dispatch(setCurrentUniversityGeoJSON(null));
           }
         });
         sc.on("plotly_hover", (eventData) => {

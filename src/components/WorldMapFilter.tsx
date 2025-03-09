@@ -1,8 +1,10 @@
+import { getUniGeoJSON } from "../helpers/fetchGeoJSON";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
 import { getFilteredData } from "../state/slices/dataSlice";
 import {
   addUniToCompare,
   setCurrentUniversity,
+  setCurrentUniversityGeoJSON,
 } from "../state/slices/uniSelectionSlice";
 import UniversityRow from "./UniversityRow";
 import "./WorldMapFilter.css";
@@ -47,8 +49,12 @@ export default function WorldMapFilter() {
                 onClick={(_) => {
                   if (uni.name === currentUniversity?.name) {
                     dispatch(setCurrentUniversity(null));
+                    dispatch(setCurrentUniversityGeoJSON(null));
                   } else {
                     dispatch(setCurrentUniversity(uni));
+                    getUniGeoJSON(uni).then((geoJSON) => {
+                      dispatch(setCurrentUniversityGeoJSON(geoJSON));
+                    });
                   }
                 }}
                 onToggleCheckbox={(_) => {
