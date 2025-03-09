@@ -35,3 +35,19 @@ export const fetchMapData = async (filteredData: IUniversity[]) => {
     return null;
   }
 };
+
+export const getUniGeoJSON = async (university: IUniversity) => {
+  try {
+    const data = await fetchGeoJSON();
+
+    const geoJSON = data.features.find((feature: GeoJSONFeature) => {
+      const properties = feature.properties as IStudiabilityFeatureProperties;
+      return properties.university_name === university.name;
+    });
+
+    return geoJSON;
+  } catch (error) {
+    console.error("Error fetching GeoJSON:", error);
+    return null;
+  }
+};

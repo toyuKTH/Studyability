@@ -1,16 +1,16 @@
 import { useEffect, useRef } from "react";
 import "./WorldMap.css";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
-import {
-  flyToUniComplete,
-  setMapZoomed,
-} from "../state/slices/mapInteractionSlice";
+import { setMapZoomed } from "../state/slices/mapInteractionSlice";
 import mapboxgl, { GeoJSONSource, MapMouseEvent } from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 import { getFilteredData } from "../state/slices/dataSlice";
 import { fetchMapData } from "../helpers/fetchGeoJSON";
-import { setCurrentUniversity } from "../state/slices/uniSelectionSlice";
+import {
+  setCurrentUniversity,
+  setCurrentUniversityGeoJSON,
+} from "../state/slices/uniSelectionSlice";
 
 export interface IStudiabilityFeatureProperties {
   university_id: number;
@@ -33,7 +33,9 @@ export const WorldMap = ({
 
   const filteredData = useAppSelector(getFilteredData);
   const allData = useAppSelector((state) => state.data.universities);
-  const flyToUni = useAppSelector((state) => state.mapInteraction.flyToUni);
+  const currentUniSelectedGeoJSON = useAppSelector(
+    (state) => state.uniSelection.currenUniversityGeoJSON
+  );
 
   const zoomed = useAppSelector((state) => state.mapInteraction.mapZoomed);
 
@@ -204,24 +206,19 @@ export const WorldMap = ({
   }, [width, height]);
 
   useEffect(() => {
-    if (!mapRef.current || flyToUni.state !== "flying" || !flyToUni.uni) return;
+    if (!mapRef.current || !currentUniSelectedGeoJSON) return;
 
-    const geometry = flyToUni.uni.geometry as GeoJSON.Point;
-    const properties = flyToUni.uni
-      .properties as IStudiabilityFeatureProperties;
-
-    if (!geometry || !properties) {
-      dispatch(flyToUniComplete());
-      return;
-    }
+    const geometry = currentUniSelectedGeoJSON.geometry as GeoJSON.Point;
+    const properties =
+      currentUniSelectedGeoJSON.properties as IStudiabilityFeatureProperties;
 
     mapRef.current.fire("closeAllPopups");
 
     mapRef.current
       ?.flyTo({
         center: geometry.coordinates as [number, number],
-        zoom: 15,
-        duration: 5000,
+        zoom: 5,
+        duration: 2000,
         curve: 1.42,
         easing: (t) => t,
       })
@@ -242,13 +239,9 @@ export const WorldMap = ({
           .addTo(mapRef.current!);
 
         popUpRefs.current.push(popup);
-
-        dispatch(flyToUniComplete());
-      })
-      .once("dragstart", () => {
-        dispatch(flyToUniComplete());
+        dispatch(setCurrentUniversityGeoJSON(null));
       });
-  }, [flyToUni]);
+  }, [currentUniSelectedGeoJSON]);
 
   useEffect(() => {
     if (!mapRef.current || !filteredData) return;
