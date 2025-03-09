@@ -10,11 +10,12 @@ import mapboxgl, { GeoJSONSource } from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { getFilteredData } from "../state/slices/dataSlice";
 import { fetchMapData } from "../helpers/fetchGeoJSON";
+import { setCurrentUniversity } from "../state/slices/uniSelectionSlice";
 
 export interface IStudiabilityFeatureProperties {
   university_id: number;
   university_name: string;
-  website?: string;
+  university_website?: string;
 }
 
 export const WorldMap = ({
@@ -165,6 +166,12 @@ export const WorldMap = ({
         const name = properties.university_name;
         const rank = properties.university_id;
 
+        const universityObject = filteredData.filteredUniversities.find(
+          (uni) => uni.name === name
+        );
+        console.log(universityObject, filteredData.filteredUniversities);
+        if (universityObject) dispatch(setCurrentUniversity(universityObject));
+
         // Ensure that if the map is zoomed out such that
         // multiple copies of the feature are visible, the
         // popup appears over the copy being pointed to.
@@ -172,12 +179,12 @@ export const WorldMap = ({
           coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
 
-        const uniWebsite = properties.website;
+        const uniWebsite = properties.university_website;
 
         const popup = new mapboxgl.Popup()
           .setLngLat(coordinates as [number, number])
           .setHTML(
-            `Name: ${name}<br>Rank: ${rank}${
+            `Name: ${name}<br>Rank: ${rank + 1}${
               uniWebsite
                 ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
                 : ""
@@ -253,13 +260,13 @@ export const WorldMap = ({
         easing: (t) => t,
       })
       .once("moveend", () => {
-        const uniWebsite = properties.website;
+        const uniWebsite = properties.university_website;
 
         const popup = new mapboxgl.Popup()
           .setLngLat(geometry.coordinates as [number, number])
           .setHTML(
             `Name: ${properties.university_name}<br>Rank: ${
-              properties.university_id
+              properties.university_id + 1
             }${
               uniWebsite
                 ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
