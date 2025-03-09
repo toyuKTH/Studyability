@@ -33,7 +33,7 @@ export default function RadialBar() {
         "Employment Outcomes",
         "International Students",
       ],
-      colors: ["#FF3F34", "#FF3F34", "#E72C35", "#C3202F"],
+      colors: ["#FF6B57", "#FF3F34", "#E72C35", "#C3202F"],
       plotOptions: {
         radialBar: {
           offsetY: 0,
