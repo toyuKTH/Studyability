@@ -142,9 +142,9 @@ export default function ParallelPlot() {
             return rankNumber;
           }),
           colorscale: [
-            [0, "green"],
-            [1, "red"],
-            [0.5, "yellow"],
+            [0, "#3498DB"],   // bule
+            [0.5, "#9B59B6"], // puper
+            [1, "#E42C2C"],   // red
           ],
           opacity: 10,
         },
@@ -166,6 +166,11 @@ export default function ParallelPlot() {
         l: 55,
       },
       paper_bgcolor: paperBGColor,
+      font: { 
+        family: "Arial Black, sans-serif",
+        size: 12,
+        color: "#000000",
+      },
     };
 
     Plotly.newPlot(containerRef.current, plotData, layout, {
