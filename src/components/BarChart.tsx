@@ -8,7 +8,6 @@ export default function BarChart({
 }: Readonly<{
   title: string;
   data: { x: string; y: number; fillColor: string };
-  label: string[];
 }>) {
   const containerRef = useRef<HTMLDivElement>(null);
   const uniToCompare = useAppSelector(
