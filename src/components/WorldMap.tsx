@@ -289,7 +289,7 @@ export const WorldMap = ({
     const universityObject = Object.values(allData).find(
       (uni) => uni.name === name
     );
-    console.log(universityObject, name, filteredData.filteredUniversities);
+
     if (universityObject) dispatch(setCurrentUniversity(universityObject));
 
     // Ensure that if the map is zoomed out such that
