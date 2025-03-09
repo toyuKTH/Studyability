@@ -26,14 +26,16 @@ export default function RadialBar() {
         currentUniversity.academic_reputation,
         currentUniversity.employment_outcomes,
         currentUniversity.international_students,
+        currentUniversity.faculty_student,
       ],
       labels: [
         "Sustainability",
         "Academic Reputation",
         "Employment Outcomes",
         "International Students",
+        "Faculty Student Ratio",
       ],
-      colors: ["#FF6B57", "#FF3F34", "#E72C35", "#C3202F"],
+      colors: ["#52687f", "#4e5f70", "#3d4a56", "#37414b", "#2b3035"],
       plotOptions: {
         radialBar: {
           offsetY: 0,
