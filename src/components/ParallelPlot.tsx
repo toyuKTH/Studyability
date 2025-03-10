@@ -13,7 +13,7 @@ export default function ParallelPlot() {
   const dispatch = useAppDispatch();
 
   const data = useAppSelector((state) => state.data);
-
+  const filters = useAppSelector((state) => state.filter);
   const minMaxUnis = useAppSelector(selectUniversitiesMaxMinFilterValues);
   const minMaxCountries = useAppSelector(selectCountriesMaxMinFilterValues);
 
@@ -43,11 +43,19 @@ export default function ParallelPlot() {
       let range: [number, number] = [0, 0];
       let values: number[] = [];
       let label = "";
-      let constraintRange: [number, number] | null = null;
+      let constraintRange: [[number, number]] | [] = [];
+      let currentFilter: [[number, number]] | [] = [];
 
       switch (key) {
         case "rank":
-          constraintRange = [1, 50];
+          currentFilter = filters.universityRankings["rank"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [[1, 50]];
+          }
+
           range = [minMaxUnis.rank.maxRank, minMaxUnis.rank.minRank];
           values = Object.keys(data.universities).map((key) => {
             const rankNumber = parseInt(data.universities[key].rank);
@@ -59,6 +67,14 @@ export default function ParallelPlot() {
           label = "Rank";
           break;
         case "tuitionFee":
+          currentFilter = filters.universityRankings["tuitionFee"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [];
+          }
+
           range = [
             minMaxUnis.tuitionFee.minTuitionFee,
             minMaxUnis.tuitionFee.maxTuitionFee,
@@ -73,6 +89,14 @@ export default function ParallelPlot() {
           label = "Tuition Fee";
           break;
         case "temperature":
+          currentFilter = filters.countries["temperature"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [];
+          }
+
           label = "Temperature";
           range = [
             minMaxCountries.temperature.minTemperature,
@@ -91,6 +115,14 @@ export default function ParallelPlot() {
           );
           break;
         case "ef_score":
+          currentFilter = filters.countries["ef_score"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [];
+          }
+
           label = "English Proficiency";
           range = [
             minMaxCountries.englishProficiency.minEnglishProficiency,
@@ -111,6 +143,14 @@ export default function ParallelPlot() {
           );
           break;
         case "cost_of_living_index":
+          currentFilter = filters.countries["cost_of_living_index"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [];
+          }
+
           label = "Cost of Living";
           range = [
             minMaxCountries.costOfLiving.minCostOfLiving,
@@ -142,9 +182,9 @@ export default function ParallelPlot() {
             return rankNumber;
           }),
           colorscale: [
-            [0, "#3498DB"],   // bule
+            [0, "#3498DB"], // bule
             [0.5, "#9B59B6"], // puper
-            [1, "#E42C2C"],   // red
+            [1, "#E42C2C"], // red
           ],
           opacity: 10,
         },
@@ -166,7 +206,7 @@ export default function ParallelPlot() {
         l: 55,
       },
       paper_bgcolor: paperBGColor,
-      font: { 
+      font: {
         family: "Arial Black, sans-serif",
         size: 12,
         color: "#000000",
