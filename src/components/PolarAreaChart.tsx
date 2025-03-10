@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import ApexCharts from "apexcharts";
 import { IUniversity } from "../state/slices/dataSlice";
 import {
+  getQSAttributeColor,
   getQSAttributeLabel,
   qsAttributeKeys,
 } from "../helpers/qsAttributeUtils";
@@ -15,12 +16,10 @@ export default function PolarAreaChart({
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const [categories, setCategories] = useState([...qsAttributeKeys]);
-
   useEffect(() => {
     if (!containerRef.current) return;
 
-    let series = categories.map((category) => {
+    let series = qsAttributeKeys.map((category) => {
       const categoryData = uni[category as keyof IUniversity];
       return categoryData;
     });
@@ -47,8 +46,11 @@ export default function PolarAreaChart({
       yaxis: {
         show: !empty,
       },
+      xaxis: {
+        formatter: (val: string) => getQSAttributeLabel(val),
+      },
       fill: {
-        opacity: 0.8,
+        opacity: 0.9,
       },
       legend: {
         position: "top",
@@ -67,7 +69,8 @@ export default function PolarAreaChart({
           },
         },
       ],
-      labels: categories.map((category) => getQSAttributeLabel(category)),
+      labels: qsAttributeKeys.map((category) => getQSAttributeLabel(category)),
+      colors: qsAttributeKeys.map((category) => getQSAttributeColor(category)),
     };
 
     const chart = new ApexCharts(containerRef.current, chartOptions);

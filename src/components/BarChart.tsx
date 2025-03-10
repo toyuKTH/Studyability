@@ -1,14 +1,19 @@
 import ApexCharts from "apexcharts";
 import { useEffect, useRef } from "react";
-import { useAppSelector } from "../state/hooks";
+import { useAppDispatch, useAppSelector } from "../state/hooks";
+import { getQSAttributeColor } from "../helpers/qsAttributeUtils";
+import { setUniToHighlight } from "../state/slices/highlightInteractionSlice";
 
 export default function BarChart({
   title,
   data,
+  label,
 }: Readonly<{
   title: string;
-  data: { x: string; y: number; fillColor: string };
+  data: { x: string; y: number; fillColor: string }[];
+  label: string;
 }>) {
+  const dispatch = useAppDispatch();
   const containerRef = useRef<HTMLDivElement>(null);
   const uniToCompare = useAppSelector(
     (state) => state.uniSelection.uniToCompare
@@ -17,6 +22,8 @@ export default function BarChart({
     (state) => state.highlightInteraction.uniToHighlight
   );
 
+  const maxValue = Math.max(...data.map((d) => d.y));
+
   useEffect(() => {
     if (!containerRef.current) return;
 
@@ -24,9 +31,28 @@ export default function BarChart({
       series: [{ data }],
       chart: {
         type: "bar",
-        height: 310,
+        height: 300,
         toolbar: {
           show: false,
+        },
+        events: {
+          dataPointSelection: function (
+            event: any,
+            chartContext: any,
+            opts: any
+          ) {
+            const clickedUni = uniToCompare.find(
+              (uni) => uni.name === data[opts.dataPointIndex].x
+            );
+
+            if (!clickedUni) return;
+
+            dispatch(
+              setUniToHighlight(
+                clickedUni === highlightedUni ? null : clickedUni
+              )
+            );
+          },
         },
       },
       plotOptions: {
@@ -36,21 +62,28 @@ export default function BarChart({
       },
       yaxis: {
         min: 0,
-        max: 100,
+        max: maxValue >= 95 ? 100 : maxValue + 5,
       },
       xaxis: {
-        label: {
+        labels: {
           trim: true,
         },
       },
       title: {
         text: title,
+        style: {
+          color: getQSAttributeColor(label),
+        },
       },
       tooltip: {
         enabled: false,
       },
-      onItemHover: {
-        highlightDataSeries: false,
+      states: {
+        hover: {
+          filter: {
+            type: "darken",
+          },
+        },
       },
     };
 
