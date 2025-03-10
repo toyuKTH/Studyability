@@ -1,0 +1,128 @@
+[
+    {
+        "university_id": 12,
+        "university_name": "The University Of Melbourne",
+        "query": "The University of Melbourne, Parkville Campus",
+        "error": "No features found"
+    },
+    {
+        "university_id": 39,
+        "university_name": "King'S College London",
+        "query": "King's College London, Waterloo Campus",
+        "error": "No features found"
+    },
+    {
+        "university_id": 130,
+        "university_name": "University Of Basel",
+        "query": "Faculty of Psychology, University of Basel",
+        "error": "No features found"
+    },
+    {
+        "university_id": 203,
+        "university_name": "University Of Minnesota Twin Cities",
+        "query": "The University of Minnesota, Twin Cities Campus",
+        "error": "No features found"
+    },
+    {
+        "university_id": 351,
+        "university_name": "City, University Of London",
+        "query": "University of Fort Hare, East London Campus: W. L. Nkuhlu Building",
+        "error": "No features found"
+    },
+    {
+        "university_id": 387,
+        "university_name": "Universidade Nova De Lisboa",
+        "query": "Universidade Nova de Lisboa (Nova IMS, Nova FCSH, New School of Law)",
+        "error": "No features found"
+    },
+    {
+        "university_id": 559,
+        "university_name": "Ulster University",
+        "query": "Ulster University, Magee Campus",
+        "error": "No features found"
+    },
+    {
+        "university_id": 655,
+        "university_name": "University Of The Basque Country",
+        "query": "Euskal Herriko Unibertsitatea, Ibaeta Campusa",
+        "error": "No features found"
+    },
+    {
+        "university_id": 747,
+        "university_name": "University Of The West Of England",
+        "query": "University of the West of England, Frenchay Campus",
+        "error": "No features found"
+    },
+    {
+        "university_id": 759,
+        "university_name": "University Of Calcutta",
+        "query": "University of Calcutta, Rajabazar Science College Campus",
+        "error": "No features found"
+    },
+    {
+        "university_id": 764,
+        "university_name": "Bangladesh University Of Engineering And Technology",
+        "query": "Bangladesh University of Engineering and Technology (BUET), Public university, BUET Central Road, Dhaka",
+        "error": "No features found"
+    },
+    {
+        "university_id": 835,
+        "university_name": "Universit\u00e4t Rostock",
+        "query": "Universit\u00e4t Rostock, Hauptgeb\u00e4ude",
+        "error": "No features found"
+    },
+    {
+        "university_id": 890,
+        "university_name": "University Of Hertfordshire",
+        "query": "University of Hertfordshire, College Lane Campus",
+        "error": "No features found"
+    },
+    {
+        "university_id": 975,
+        "university_name": "Indian Institute Of Technology Bhubaneswar",
+        "query": "Indian Institute of Technology, Bhubaneswar",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1049,
+        "university_name": "Guru Gobind Singh Indraprastha University",
+        "query": "Guru Gobind Singh Indraprastha University",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1068,
+        "university_name": "London Metropolitan University",
+        "query": "London Metropolitan University, Holloway Campus",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1315,
+        "university_name": "Technische Universit\u00e4t Kaiserslautern",
+        "query": "Rheinland-Pf\u00e4lzische Technische Universit\u00e4t, Campus Kaiserslautern",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1387,
+        "university_name": "University Of Ostrava",
+        "query": "Pedagogick\u00e1 fakulta, Ostravsk\u00e1 univerzita (budova B)",
+        "error": "No features found"
+    },
+    {
+        "university_id": 885,
+        "university_name": "University At Albany Suny",
+        "query": "University at Albany, The State University of New York",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1425,
+        "university_name": "International University Of Business, Agriculture And Technology (Iubat)",
+        "query": "College of Nursing, IUBAT",
+        "error": "No features found"
+    },
+    {
+        "university_id": 1511,
+        "university_name": "University Of Oradea",
+        "query": "Universitatea din Oradea, Campus A",
+        "error": "No features found"
+    }
+]

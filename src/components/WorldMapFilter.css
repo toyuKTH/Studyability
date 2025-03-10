@@ -1,31 +1,95 @@
-.map-filtering-container {
-  flex: 1;
-  background-color: #F0F0F0;
-  padding: 20px;
+.filtering-list-container {
+  height: 50%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  gap: 20px;
-  /* border-radius: 10px; */
+  background-color: #f0f0f0;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
   box-sizing: border-box;
 
-  .map-filtering {
-    flex: 1;
+  /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); */
+
+  .map-filtering-title {
+    font-weight: bolder;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+
+    .map-filtering-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* padding-right: 10px; */
+
+      p {
+        margin: 0;
+        font-size: 15px;
+        color: rgb(92, 92, 92);
+      }
+    }
   }
-  /* 
-  input {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: white;
-    color: black;
-  } */
+
+  .map-filtering-title h2 {
+    margin: auto;
+    font-weight: 400;
+  }
+
+  .map-filtering-body {
+    overflow-y: scroll;
+    max-height: 400px;
+    scrollbar-color: #e42c2c9e transparent;
+    scrollbar-width: thin;
+
+    .university-list-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 5px;
+      margin-bottom: 5px;
+
+      .university-list-label {
+        flex: 1;
+
+        .university-name {
+          font-weight: bold;
+        }
+
+        .university-location {
+          font-size: 15px;
+          color: rgb(92, 92, 92);
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        background-color: lightgray;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .university-selected {
+      background-color: #354248;
+      color: white;
+
+      .university-location {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.817) !important;
+      }
+
+      &:hover {
+        background-color: #354248a3;
+      }
+    }
+  }
 
   .map-filtering-buttons {
     width: 100%;
@@ -33,29 +97,5 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
-  }
-
-  .map-filtering-country-list {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    overflow-y: auto;
-
-    .country-list-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-      border-radius: 5px;
-      background-color: white;
-      color: black;
-      cursor: pointer;
-
-      &:hover {
-        background-color: lightgray;
-      }
-    }
   }
 }

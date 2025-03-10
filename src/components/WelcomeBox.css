@@ -1,0 +1,14 @@
+.welcome-box-wrapper {
+  height: 100%;
+  overflow-y: auto;
+  .paraplot-name {
+    font-weight: bold;
+    cursor: pointer;
+    /* color: #646cff; */
+    text-decoration: underline;
+  }
+
+  a {
+    color: blue;
+  }
+}

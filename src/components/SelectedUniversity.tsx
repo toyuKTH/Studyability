@@ -1,47 +1,138 @@
 import { useAppDispatch, useAppSelector } from "../state/hooks";
-import { flyToUni } from "../state/slices/mapInteractionSlice";
-import { setCurrentUniversity } from "../state/slices/uniSelectionSlice";
+import {
+  addUniToCompare,
+  setCurrentUniversity,
+  setCurrentUniversityGeoJSON,
+} from "../state/slices/uniSelectionSlice";
 import RadialBar from "./RadialBar";
 import "./SelectedUniversity.css";
+import { IUniversity } from "../state/slices/dataSlice";
+import CancelSVG from "./svg/CancelSVG";
+import RankSVG from "./svg/RankSVG";
+import MoneySVG from "./svg/MoneySVG";
+import TemperatureSVG from "./svg/TemperatureSVG";
+import LanguageSVG from "./svg/LanguageSVG";
+import AddSVG from "./svg/AddSVG";
+import RemoveSVG from "./svg/RemoveSVG";
 
-function SelectedUniversity() {
-  const currentUniversity = useAppSelector(
-    (state) => state.uniSelection.currentUniversity
-  );
+function SelectedUniversity({
+  currentUniversity,
+}: {
+  currentUniversity: IUniversity;
+}) {
   const dispatch = useAppDispatch();
 
-  return (
-    <div className="selected-university-container">
-      <div className="selected-university-header">
-        <button onClick={() => dispatch(flyToUni(currentUniversity!))}>
-          fly to
-        </button>
-        <button className="cancel-selection" onClick={cancelUniSelection}>
-          <svg
-            width="30"
-            height="30"
-            viewBox="0 0 30 30"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M15.009 2.73145e-06C6.72471 -0.0049429 0.00494851 6.70675 2.73162e-06 14.991C-0.00494305 23.2753 6.70675 29.995 14.991 30C18.971 30.0065 22.7896 28.427 25.6021 25.6111C28.4157 22.7998 29.9976 18.9863 30 15.009C30.0049 6.7247 23.2932 0.00494851 15.009 2.73145e-06ZM15.0094 28.4994C7.55386 28.5044 1.5059 22.4647 1.50077 15.0092C1.49573 7.55367 7.53554 1.50563 14.991 1.50059C18.5731 1.49418 22.0099 2.91545 24.5411 5.44988C27.0733 7.97965 28.4972 11.4115 28.4996 14.9908C28.5047 22.4463 22.4649 28.4943 15.0094 28.4994ZM16.0519 15L20.8262 10.2257C21.1122 9.93396 21.1122 9.46713 20.8262 9.17542C20.5363 8.8795 20.0613 8.87474 19.7654 9.16471L14.991 13.939L10.2167 9.1648C9.92499 8.87895 9.45816 8.87895 9.16645 9.1648C8.87053 9.45477 8.86577 9.92975 9.15574 10.2257L13.9301 15L9.15574 19.7743C9.01506 19.915 8.93611 20.1058 8.93602 20.3047C8.93602 20.719 9.27187 21.055 9.68622 21.0551C9.88524 21.0554 10.0762 20.9762 10.2167 20.8353L14.991 16.061L19.7654 20.8353C19.9058 20.9762 20.0968 21.0554 20.2958 21.0551C20.4948 21.055 20.6854 20.976 20.8261 20.8355C21.1192 20.5425 21.1192 20.0674 20.8262 19.7743L16.0519 15Z"
-              fill="#0F1010"
-            />
-          </svg>
-        </button>
-      </div>
-      <h2 className="selected-university-title">{currentUniversity?.name}</h2>
-      <ul>
-        <li>QS Rank: {currentUniversity?.rank}</li>
-      </ul>
-      <RadialBar />
-    </div>
+  const unisToCompare = useAppSelector(
+    (state) => state.uniSelection.uniToCompare
   );
 
   function cancelUniSelection() {
     dispatch(setCurrentUniversity(null));
+    dispatch(setCurrentUniversityGeoJSON(null));
   }
+
+  function handleAddToCompare() {
+    dispatch(addUniToCompare(currentUniversity));
+  }
+
+  const uniIsInCompareList = unisToCompare.some(
+    (compareUni) => compareUni.name === currentUniversity.name
+  );
+
+  return (
+    <div className="selected-university-container">
+      <div className="selected-university-header">
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <h2 className="selected-university-title">
+            {currentUniversity?.name}
+          </h2>
+          <button
+            className="cancel-selection"
+            style={{ width: "24px", height: "24" }}
+            onClick={cancelUniSelection}
+          >
+            <CancelSVG width={24} height={24} />
+          </button>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            width: "100%",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <h3 className="selected-university-subtitle">
+            {currentUniversity?.city}, {currentUniversity?.countryName}
+          </h3>
+          <div
+            className={
+              uniIsInCompareList ? "remove-compare-button" : "compare-button"
+            }
+          >
+            <button
+              onClick={handleAddToCompare}
+              disabled={!uniIsInCompareList && unisToCompare.length >= 5}
+            >
+              {uniIsInCompareList ? (
+                <RemoveSVG width={20} height={20} fill="white" />
+              ) : (
+                <AddSVG width={20} height={20} fill="white" />
+              )}
+              <div>Compare</div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="selected-university-element">
+        <div
+          style={{
+            width: "40%",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-evenly",
+            alignItems: "center",
+          }}
+        >
+          <div>
+            <div className="info-row-header">Rank</div>
+            <div className="info-row">
+              <RankSVG width={24} height={24} />
+              <div>{currentUniversity?.rank}</div>
+            </div>
+          </div>
+          <div>
+            <div className="info-row-header">Tuition (USD)</div>
+            <div className="info-row">
+              <MoneySVG width={24} height={24} />
+              <div>{currentUniversity?.tuitionFee}</div>
+            </div>
+          </div>
+          <div>
+            <div className="info-row-header">Temperature (°C)</div>
+            <div className="info-row">
+              <TemperatureSVG width={24} height={24} />
+              <div>{currentUniversity.temperature}</div>
+            </div>
+          </div>
+          <div>
+            <div className="info-row-header">English proficiency</div>
+            <div className="info-row">
+              <LanguageSVG width={24} height={24} />
+              <div>{currentUniversity.ef_score}</div>
+            </div>
+          </div>
+        </div>
+        <RadialBar />
+      </div>
+    </div>
+  );
 }
 
 export default SelectedUniversity;

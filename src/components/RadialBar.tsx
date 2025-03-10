@@ -1,7 +1,7 @@
-import ApexCharts from 'apexcharts';
-import { useEffect, useRef } from 'react';
-import { useAppSelector } from '../state/hooks';
-import './RadialBar.css';
+import ApexCharts from "apexcharts";
+import { useEffect, useRef } from "react";
+import { useAppSelector } from "../state/hooks";
+import "./RadialBar.css";
 
 export default function RadialBar() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -15,9 +15,10 @@ export default function RadialBar() {
 
     const chartOptions = {
       chart: {
-        height: 250,
-        type: 'radialBar',
-        background: '#fff',
+        height: "100%",
+        width: "100%",
+        type: "radialBar",
+        // background: "#fff",
         enableTooltip: true,
       },
       series: [
@@ -25,14 +26,16 @@ export default function RadialBar() {
         currentUniversity.academic_reputation,
         currentUniversity.employment_outcomes,
         currentUniversity.international_students,
+        currentUniversity.faculty_student,
       ],
       labels: [
-        'Sustainability',
-        'Academic Reputation',
-        'Employment Outcomes',
-        'International Students',
+        "Sustainability",
+        "Academic Reputation",
+        "Employment Outcomes",
+        "International Students",
+        "Faculty Student Ratio",
       ],
-      colors: ['#FF3F34', '#FF3F34', '#E72C35', '#C3202F'],
+      colors: ["#FF6B57", "#FF3F34", "#E72C35", "#C3202F", "#AA1D2B"],
       plotOptions: {
         radialBar: {
           offsetY: 0,
@@ -40,8 +43,8 @@ export default function RadialBar() {
           endAngle: 270,
           hollow: {
             margin: 5,
-            size: '30%',
-            background: 'transparent',
+            size: "30%",
+            background: "transparent",
             image: undefined,
           },
           dataLabels: {
@@ -59,8 +62,8 @@ export default function RadialBar() {
             enabled: true,
             useSeriesColors: true,
             offsetX: -8,
-            fontSize: '11px',
-            formatter: function (seriesName: string, opts) {
+            fontSize: "11px",
+            formatter: function (seriesName: string, _: any) {
               return seriesName;
             },
           },
@@ -95,5 +98,5 @@ export default function RadialBar() {
     };
   }, [containerRef.current, currentUniversity]);
 
-  return <div className='radial-bar-container' ref={containerRef} />;
+  return <div className="radial-bar-container" ref={containerRef} />;
 }

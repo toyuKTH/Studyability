@@ -1,0 +1,980 @@
+[
+    {
+        "university_id": 92,
+        "university_name": "Pontificia Universidad Cat\u00f3lica De Chile (Uc)",
+        "query": "Pontificia Universidad Cat%C3%B3lica de Chile CL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 131,
+        "university_name": "Sapienza University Of Rome",
+        "query": "Sapienza University of Rome IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 182,
+        "university_name": "Hamad Bin Khalifa University",
+        "query": "Hamad Bin Khalifa University QA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 192,
+        "university_name": "Queen'S University At Kingston",
+        "query": "Queen%27s University at Kingston CA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 204,
+        "university_name": "Ecole Des Ponts Paristech",
+        "query": "%C3%89cole des Ponts ParisTech FR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 248,
+        "university_name": "University Of Navarra",
+        "query": "University of Navarra ES",
+        "error": "No features found "
+    },
+    {
+        "university_id": 253,
+        "university_name": "University Of G\u00f6ttingen",
+        "query": "University of G%C3%B6ttingen DE",
+        "error": "No features found "
+    },
+    {
+        "university_id": 280,
+        "university_name": "The Hebrew University Of Jerusalem",
+        "query": "The Hebrew University of Jerusalem IL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 297,
+        "university_name": "Bauman Moscow State Technical University",
+        "query": "Bauman Moscow State Technical University RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 314,
+        "university_name": "Quaid-I-Azam University",
+        "query": "Quaid-i-Azam University PK",
+        "error": "No features found "
+    },
+    {
+        "university_id": 347,
+        "university_name": "University Of Naples - Federico Ii",
+        "query": "University of Naples Federico II IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 381,
+        "university_name": "University Of Pisa",
+        "query": "University of Pisa IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 392,
+        "university_name": "National And Kapodistrian University Of Athens",
+        "query": "National and Kapodistrian University of Athens GR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 394,
+        "university_name": "University Of Rome \"Tor Vergata\"",
+        "query": "University of Rome Tor Vergata IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 418,
+        "university_name": "Bo?Azi\u00e7i University",
+        "query": "Bo%C4%9Fazi%C3%A7i University TR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 428,
+        "university_name": "Central South University",
+        "query": "Central South University CN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 512,
+        "university_name": "Imam Abdulrahman Bin Faisal University (Iau) (Formerly University Of Dammam)",
+        "query": "Imam Abdulrahman Bin Faisal University SA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 513,
+        "university_name": "Prince Mohammad Bin Fahd University",
+        "query": "Prince Mohammad Bin Fahd University SA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 514,
+        "university_name": "University Of Milano-Bicocca",
+        "query": "University of Milano-Bicocca IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 531,
+        "university_name": "Indian Institute Of Technology (Bhu) Varanasi",
+        "query": "IIT %28BHU%29 Varanasi IN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 536,
+        "university_name": "University Of Bordeaux",
+        "query": "University of Bordeaux FR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 580,
+        "university_name": "Nanjing Agricultural University",
+        "query": "Nanjing Agricultural University CN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 600,
+        "university_name": "Ca' Foscari University Of Venice",
+        "query": "Ca%27 Foscari University of Venice IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 606,
+        "university_name": "Paris Lodron University Of Salzburg",
+        "query": "Paris Lodron University of Salzburg AT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 623,
+        "university_name": "Auezov South Kazakhstan University (Sku)",
+        "query": "Auezov South Kazakhstan University KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 657,
+        "university_name": "Palack\u00fd University Olomouc",
+        "query": "Palack%C3%BD University Olomouc CZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 671,
+        "university_name": "Universidad De La Rep\u00fablica (Udelar)",
+        "query": "Universidad de la Rep%C3%BAblica UY",
+        "error": "No features found "
+    },
+    {
+        "university_id": 686,
+        "university_name": "Princess Nourah Bint Abdulrahman University",
+        "query": "Princess Nourah University SA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 691,
+        "university_name": "Norwegian University Of Life Sciences (Umb)",
+        "query": "Norwegian University of Life Sciences NO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 699,
+        "university_name": "University Of Brescia",
+        "query": "University of Brescia IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 701,
+        "university_name": "University Of Siena",
+        "query": "University of Siena IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 718,
+        "university_name": "Saint Joseph University Of Beirut (Usj)",
+        "query": "Saint Joseph University of Beirut LB",
+        "error": "No features found "
+    },
+    {
+        "university_id": 719,
+        "university_name": "The National University Of Science And Technology Misis",
+        "query": "NUST Misis RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 734,
+        "university_name": "Universit\u00e9 De Rennes 1 (University Of Rennes)",
+        "query": "Universit%C3%A9 de Rennes 1 FR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 735,
+        "university_name": "University Of Modena And Reggio Emilia",
+        "query": "University of Modena and Reggio Emilia IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 736,
+        "university_name": "University Of Trieste",
+        "query": "University of Trieste IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 740,
+        "university_name": "Altai State University",
+        "query": "Altai State University RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 749,
+        "university_name": "V. N. Karazin Kharkiv National University",
+        "query": "V. N. Karazin Kharkiv National University UA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 762,
+        "university_name": "University Of Messina (Unime)",
+        "query": "University of Messina IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 763,
+        "university_name": "Adam Mickiewicz University, Pozna?",
+        "query": "Adam Mickiewicz University PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 777,
+        "university_name": "Universit\u00e9 De Tunis El Manar",
+        "query": "Universit%C3%A9 de Tunis El Manar TN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 780,
+        "university_name": "Verona University",
+        "query": "University of Verona IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 783,
+        "university_name": "National University Of Uzbekistan",
+        "query": "National University of Uzbekistan UZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 790,
+        "university_name": "University Of Mons",
+        "query": "University of Mons BE",
+        "error": "No features found "
+    },
+    {
+        "university_id": 802,
+        "university_name": "Al-Ahliyya Amman University",
+        "query": "Al-Ahliyya Amman University JO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 810,
+        "university_name": "Gda?Sk University Of Technology",
+        "query": "Gda%C5%84sk University of Technology PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 815,
+        "university_name": "Khoja Akhmet Yassawi International Kazakh-Turkish University",
+        "query": "Khoja Akhmet Yassawi International Kazakh-Turkish University KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 839,
+        "university_name": "University Of Alicante",
+        "query": "University of Alicante ES",
+        "error": "No features found "
+    },
+    {
+        "university_id": 847,
+        "university_name": "University Of Salerno",
+        "query": "University of Salerno IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 850,
+        "university_name": "Northwest Agriculture And Forestry University",
+        "query": "Northwest Agriculture and Forestry University CN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 861,
+        "university_name": "Gulf University For Science And Technology",
+        "query": "Gulf University for Science and Technology KW",
+        "error": "No features found "
+    },
+    {
+        "university_id": 864,
+        "university_name": "Karaganda State Technical University",
+        "query": "Karaganda State Technical University KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 872,
+        "university_name": "Pavol Jozef \u0160af\u00e1rik University In Ko\u0161ice",
+        "query": "Pavol Jozef %C5%A0af%C3%A1rik University in Ko%C5%A1ice SK",
+        "error": "No features found "
+    },
+    {
+        "university_id": 880,
+        "university_name": "Universidad Ort Uruguay",
+        "query": "Universidad ORT Uruguay UY",
+        "error": "No features found "
+    },
+    {
+        "university_id": 893,
+        "university_name": "University Of Palermo",
+        "query": "University of Palermo IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 904,
+        "university_name": "Catania University",
+        "query": "University of Catania IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 909,
+        "university_name": "Imam Mohammad Ibn Saud Islamic University \u2013 Imsiu",
+        "query": "Imam Mohammad Ibn Saud Islamic University SA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 911,
+        "university_name": "Karaganda Buketov University",
+        "query": "Karaganda Buketov University KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 917,
+        "university_name": "National Research Saratov State University",
+        "query": "National Research Saratov State University RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 922,
+        "university_name": "Ritsumeikan Asia Pacific University",
+        "query": "Ritsumeikan Asia Pacific University JP",
+        "error": "No features found "
+    },
+    {
+        "university_id": 925,
+        "university_name": "Universidad Cat\u00f3lica Del Uruguay (Ucu)",
+        "query": "Universidad Cat%C3%B3lica del Uruguay UY",
+        "error": "No features found "
+    },
+    {
+        "university_id": 929,
+        "university_name": "Universidad Nacional De C\u00f3rdoba - Unc",
+        "query": "Universidad Nacional de C%C3%B3rdoba AR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 934,
+        "university_name": "Universit\u00e0 Degli Studi Della Tuscia (University Of Tuscia)",
+        "query": "Universit%C3%A0 degli Studi della Tuscia IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 935,
+        "university_name": "Universit\u00e0 Degli Studi Roma Tre",
+        "query": "Universit%C3%A0 Roma Tre IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 937,
+        "university_name": "University Of Calabria",
+        "query": "University of Calabria IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 942,
+        "university_name": "University Of Murcia",
+        "query": "University of Murcia ES",
+        "error": "No features found "
+    },
+    {
+        "university_id": 946,
+        "university_name": "University Paris 2 Panth\u00e9on-Assas",
+        "query": "Paris 2 Panth%C3%A9on-Assas University FR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 947,
+        "university_name": "Viet Nam National University Ho Chi Minh City (Vnu-Hcm)",
+        "query": "Vietnam National University Ho Chi Minh City VN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 948,
+        "university_name": "Viet Nam National University Ho Chi Minh City (Vnu-Hcm)",
+        "query": "Vietnam National University Ho Chi Minh City VN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 951,
+        "university_name": "Wroclaw University Of Science And Technology (Wrust)",
+        "query": "Wroc%C5%82aw University of Science and Technology PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 952,
+        "university_name": "Wroclaw University Of Science And Technology (Wrust)",
+        "query": "Wroc%C5%82aw University of Science and Technology PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 969,
+        "university_name": "D. Serikbayev East Kazakhstan State Technical University",
+        "query": "D. Serikbayev East Kazakhstan State Technical University KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 971,
+        "university_name": "Financial University Under The Government Of The Russian Federation",
+        "query": "Financial University under the Government of the Russian Federation RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 972,
+        "university_name": "Financial University Under The Government Of The Russian Federation",
+        "query": "Financial University under the Government of the Russian Federation RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 982,
+        "university_name": "Northern Borders University",
+        "query": "Northern Borders University SA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 985,
+        "university_name": "Queen Margaret University , Edinburgh",
+        "query": "Queen Margaret University%2C Edinburgh UK",
+        "error": "No features found "
+    },
+    {
+        "university_id": 988,
+        "university_name": "S.D. Asfendiyarov Kazakh National Medical University",
+        "query": "S.D. Asfendiyarov Kazakh National Medical University KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 996,
+        "university_name": "Universidad De C\u00f3rdoba - Espa\u00f1a",
+        "query": "Universidad de C%C3%B3rdoba %28Espa%C3%B1a%29 ES",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1000,
+        "university_name": "Universidad De San Andr\u00e9s - Udesa",
+        "query": "Universidad de San Andr%C3%A9s AR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1002,
+        "university_name": "Universidad T\u00e9cnica Federico Santa Mar\u00eda (Usm)",
+        "query": "Universidad T%C3%A9cnica Federico Santa Mar%C3%ADa CL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1003,
+        "university_name": "Universidad Torcuato Di Tella",
+        "query": "Universidad Torcuato Di Tella AR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1005,
+        "university_name": "Universit\u00e9 Toulouse 1 Capitole",
+        "query": "Universit%C3%A9 Toulouse 1 Capitole FR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1006,
+        "university_name": "Universiti Pendidikan Sultan Idris (Upsi)",
+        "query": "Universiti Pendidikan Sultan Idris MY",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1011,
+        "university_name": "University Of Parma",
+        "query": "University of Parma IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1024,
+        "university_name": "Azerbaijan State Oil And Industry University",
+        "query": "Azerbaijan State Oil and Industry University AZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1025,
+        "university_name": "Azerbaijan State University Of Economics",
+        "query": "Azerbaijan State University of Economics AZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1039,
+        "university_name": "Cracow University Of Technology (Politechnika Krakowska)",
+        "query": "Cracow University of Technology PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1064,
+        "university_name": "Kyushu Institute Of Technology",
+        "query": "Kyushu Institute of Technology JP",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1067,
+        "university_name": "Lodz University Of Technology",
+        "query": "Lodz University of Technology PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1076,
+        "university_name": "Mykolas Romeris University",
+        "query": "Mykolas Romeris University LT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1085,
+        "university_name": "O.P. Jindal Global University",
+        "query": "O.P. Jindal Global University IN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1088,
+        "university_name": "Paul Val\u00e9ry University Montpellier",
+        "query": "Paul Val%C3%A9ry University FR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1090,
+        "university_name": "Pozna? University Of Technology",
+        "query": "Pozna%C5%84 University of Technology PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1093,
+        "university_name": "Saint Petersburg Electrotechnical University Etu-Leti",
+        "query": "ETU-LETI RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1094,
+        "university_name": "Saint-Petersburg Mining University",
+        "query": "Saint Petersburg Mining University RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1095,
+        "university_name": "Samara National Research University (Samara University)",
+        "query": "Samara National Research University RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1102,
+        "university_name": "Slovak University Of Technology In Bratislava",
+        "query": "Slovak University of Technology in Bratislava SK",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1103,
+        "university_name": "Sohar University",
+        "query": "Sohar University OM",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1129,
+        "university_name": "Universidad De Las Am\u00e9ricas Puebla (Udlap)",
+        "query": "Universidad de las Am%C3%A9ricas Puebla MX",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1147,
+        "university_name": "Universidad Tecnol\u00f3gica De Panam\u00e1 (Utp)",
+        "query": "Universidad Tecnol%C3%B3gica de Panam%C3%A1 PA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1154,
+        "university_name": "Universita' Degli Studi \"G. D'Annunzio\" Chieti Pescara",
+        "query": "Universit%C3%A0 degli Studi G. d%27Annunzio Chieti-Pescara IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1165,
+        "university_name": "Universit\u00e9 De Toulouse Ii-Le Mirail",
+        "query": "Universit%C3%A9 Toulouse II - Le Mirail FR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1168,
+        "university_name": "Universit\u00e9 Mohammed V De Rabat",
+        "query": "Universit%C3%A9 Mohammed V MA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1177,
+        "university_name": "University Of Hradec Kralove",
+        "query": "University of Hradec Kr%C3%A1lov%C3%A9 CZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1187,
+        "university_name": "University Of Naples Parthenope",
+        "query": "University of Naples Parthenope IT",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1204,
+        "university_name": "University Of Warmia And Mazury In Olsztyn",
+        "query": "University of Warmia and Mazury in Olsztyn PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1209,
+        "university_name": "Vsb - Technical University Of Ostrava",
+        "query": "VSB %E2%80%93 Technical University of Ostrava CZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1210,
+        "university_name": "Warsaw University Of Life Sciences \u2013 Sggw (Wuls-Sggw)",
+        "query": "Warsaw University of Life Sciences %28SGGW%29 PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1213,
+        "university_name": "Yokohama National University",
+        "query": "Yokohama National University JP",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1219,
+        "university_name": "Atma Jaya Catholic University Jakarta",
+        "query": "Atma Jaya Catholic University ID",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1232,
+        "university_name": "Chittagong University Of Engineering And Technology",
+        "query": "Chittagong University of Engineering %26 Technology BD",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1245,
+        "university_name": "Fundaci\u00f3n Ceu San Pablo",
+        "query": "Fundaci%C3%B3n CEU San Pablo ES",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1270,
+        "university_name": "Kwame Nkrumah University Of Science And Technology",
+        "query": "Kwame Nkrumah University of Science and Technology GH",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1272,
+        "university_name": "Kyrgyz State Technical University",
+        "query": "Kyrgyz State Technical University KG",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1275,
+        "university_name": "Mendeleev University Of Chemical Technology",
+        "query": "Mendeleev University of Chemical Technology RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1283,
+        "university_name": "Novosibirsk State Technical University",
+        "query": "Novosibirsk State Technical University RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1285,
+        "university_name": "Odessa I.I. Mechnikov National University",
+        "query": "Odessa I. I. Mechnikov National University UA",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1287,
+        "university_name": "Perm State National Research University",
+        "query": "Perm State National Research University RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1296,
+        "university_name": "Saken Seifullin Kazakh Agrotechnical University",
+        "query": "Saken Seifullin Kazakh Agrotechnical University KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1304,
+        "university_name": "Siksha 'O' Anusandhan (Deemed To Be University)",
+        "query": "Siksha %27O%27 Anusandhan University IN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1308,
+        "university_name": "Suleyman Demirel University, Kazakhstan",
+        "query": "Suleyman Demirel University%2C Kazakhstan KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1312,
+        "university_name": "Technical University Of Cluj-Napoca",
+        "query": "Technical University of Cluj-Napoca RO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1313,
+        "university_name": "Technical University Of Liberec",
+        "query": "Technical University of Liberec CZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1314,
+        "university_name": "Technical University Of Lublin",
+        "query": "Technical University of Lublin PL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1316,
+        "university_name": "The \"Gheorghe Asachi\" Technical University Of Iasi",
+        "query": "Gheorghe Asachi Technical University of Ia%C8%99i RO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1317,
+        "university_name": "The Herzen State Pedagogical University Of Russia",
+        "query": "Herzen State Pedagogical University RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1318,
+        "university_name": "The Josip Juraj Strossmayer University Of Osijek",
+        "query": "Josip Juraj Strossmayer University of Osijek HR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1321,
+        "university_name": "Tomas Bata University In Zlin",
+        "query": "Tomas Bata University in Zl%C3%ADn CZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1323,
+        "university_name": "Transilvania University Of Brasov",
+        "query": "Transilvania University of Brasov RO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1325,
+        "university_name": "Universidad Aut\u00f3noma De Guadalajara (Uag)",
+        "query": "Universidad Aut%C3%B3noma de Guadalajara MX",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1326,
+        "university_name": "Universidad Aut\u00f3noma Del Estado De Hidalgo (Uaeh)",
+        "query": "Universidad Aut%C3%B3noma del Estado de Hidalgo MX",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1329,
+        "university_name": "Universidad De Las Am\u00e9ricas (Udla) Ecuador",
+        "query": "Universidad de Las Am%C3%A9ricas EC",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1336,
+        "university_name": "Universidad De Valpara\u00edso (Uv)",
+        "query": "Universidad de Valpara%C3%ADso CL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1344,
+        "university_name": "Universidad Mayor De San Andr\u00e9s (Umsa)",
+        "query": "Universidad Mayor de San Andr%C3%A9s BO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1347,
+        "university_name": "Universidad Nacional Aut\u00f3noma De Honduras (Unah)",
+        "query": "Universidad Nacional Aut%C3%B3noma de Honduras HN",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1348,
+        "university_name": "Universidad Nacional De Ingenier\u00eda Peru",
+        "query": "Universidad Nacional de Ingenier%C3%ADa PE",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1350,
+        "university_name": "Universidad Nacional De R\u00edo Cuarto - Unrc",
+        "query": "Universidad Nacional de R%C3%ADo Cuarto AR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1351,
+        "university_name": "Universidad Nacional De San Mart\u00edn (Unsam)",
+        "query": "Universidad Nacional de San Mart%C3%ADn AR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1354,
+        "university_name": "Universidad Nacional, Costa Rica",
+        "query": "Universidad Nacional de Costa Rica CR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1361,
+        "university_name": "Universidade Federal De Vi\u00e7osa (Ufv)",
+        "query": "Universidade Federal de Vi%C3%A7osa BR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1362,
+        "university_name": "Universidade Federal Do Cear\u00e1 (Ufc)",
+        "query": "Universidade Federal do Cear%C3%A1 BR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1370,
+        "university_name": "Universitatea De Vest Din Timisoara / West University Of Timisoara",
+        "query": "West University of Timi%C8%99oara RO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1372,
+        "university_name": "Universit\u00e9 Jean Moulin Lyon 3",
+        "query": "Universit%C3%A9 Jean Moulin Lyon 3 FR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1389,
+        "university_name": "University Of Pardubice",
+        "query": "University of Pardubice CZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1392,
+        "university_name": "University Of Rijeka",
+        "query": "University of Rijeka HR",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1401,
+        "university_name": "University Of Tyumen",
+        "query": "University of Tyumen RU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1402,
+        "university_name": "University Of West Bohemia",
+        "query": "University of West Bohemia CZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1409,
+        "university_name": "Yogyakarta State University",
+        "query": "Yogyakarta State University ID",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1420,
+        "university_name": "Fundaci\u00f3n Universidad De Bogot\u00e1-Jorge Tadeo Lozano",
+        "query": "Universidad de Bogot%C3%A1 Jorge Tadeo Lozano CO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1427,
+        "university_name": "Korkyt Ata Kyzylorda University",
+        "query": "Korkyt Ata Kyzylorda University KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1429,
+        "university_name": "Lucian Blaga University Of Sibiu",
+        "query": "Lucian Blaga University of Sibiu RO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1430,
+        "university_name": "M.Kh. Dulaty Taraz Regional University",
+        "query": "M.Kh. Dulaty Taraz Regional University KZ",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1450,
+        "university_name": "Stefan Cel Mare University Of Suceava",
+        "query": "Stefan cel Mare University of Suceava RO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1458,
+        "university_name": "Universidad Aut\u00f3noma De Quer\u00e9taro (Uaq)",
+        "query": "Universidad Aut%C3%B3noma de Quer%C3%A9taro MX",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1459,
+        "university_name": "Universidad Aut\u00f3noma De San Luis De Potos\u00ed",
+        "query": "Universidad Aut%C3%B3noma de San Luis Potos%C3%AD MX",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1461,
+        "university_name": "Universidad Aut\u00f3noma Del Estado De Morelos (Uaem)",
+        "query": "Universidad Aut%C3%B3noma del Estado de Morelos MX",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1465,
+        "university_name": "Universidad Cat\u00f3lica De La Sant\u00edsima Concepci\u00f3n - Ucsc",
+        "query": "Universidad Cat%C3%B3lica de la Sant%C3%ADsima Concepci%C3%B3n CL",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1472,
+        "university_name": "Universidad De C\u00f3rdoba - Colombia",
+        "query": "Universidad de C%C3%B3rdoba CO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1490,
+        "university_name": "Universidad Tecnica Particular De Loja (Utpl)",
+        "query": "Universidad T%C3%A9cnica Particular de Loja EC",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1492,
+        "university_name": "Universidad Tecnol\u00f3gica De La Habana Jos\u00e9 Antonio Echeverr\u00eda, Cujae",
+        "query": "Universidad Tecnol%C3%B3gica de La Habana Jos%C3%A9 Antonio Echeverr%C3%ADa CU",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1507,
+        "university_name": "University Of Craiova",
+        "query": "University of Craiova RO",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1508,
+        "university_name": "University Of Lampung",
+        "query": "University of Lampung ID",
+        "error": "No features found "
+    },
+    {
+        "university_id": 1511,
+        "university_name": "University Of Oradea",
+        "query": "University of Oradea RO",
+        "error": "No features found "
+    }
+]

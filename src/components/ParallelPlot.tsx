@@ -13,11 +13,17 @@ export default function ParallelPlot() {
   const dispatch = useAppDispatch();
 
   const data = useAppSelector((state) => state.data);
-
+  const filters = useAppSelector((state) => state.filter);
   const minMaxUnis = useAppSelector(selectUniversitiesMaxMinFilterValues);
   const minMaxCountries = useAppSelector(selectCountriesMaxMinFilterValues);
 
+  const isPlotHighlighted = useAppSelector(
+    (state) => state.highlightInteraction.isParaplotHighlighted
+  );
+
   const containerRef = useRef<HTMLDivElement>(null);
+
+  let paperBGColor = "#f0f0f0";
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -37,10 +43,20 @@ export default function ParallelPlot() {
       let range: [number, number] = [0, 0];
       let values: number[] = [];
       let label = "";
+      let constraintRange: [[number, number]] | [] = [];
+      let currentFilter: [[number, number]] | [] = [];
 
       switch (key) {
         case "rank":
-          range = [minMaxUnis.rank.minRank, minMaxUnis.rank.maxRank];
+          currentFilter = filters.universityRankings["rank"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [[1, 50]];
+          }
+
+          range = [minMaxUnis.rank.maxRank, minMaxUnis.rank.minRank];
           values = Object.keys(data.universities).map((key) => {
             const rankNumber = parseInt(data.universities[key].rank);
             if (isNaN(rankNumber)) {
@@ -51,6 +67,14 @@ export default function ParallelPlot() {
           label = "Rank";
           break;
         case "tuitionFee":
+          currentFilter = filters.universityRankings["tuitionFee"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [];
+          }
+
           range = [
             minMaxUnis.tuitionFee.minTuitionFee,
             minMaxUnis.tuitionFee.maxTuitionFee,
@@ -65,6 +89,14 @@ export default function ParallelPlot() {
           label = "Tuition Fee";
           break;
         case "temperature":
+          currentFilter = filters.countries["temperature"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [];
+          }
+
           label = "Temperature";
           range = [
             minMaxCountries.temperature.minTemperature,
@@ -83,6 +115,14 @@ export default function ParallelPlot() {
           );
           break;
         case "ef_score":
+          currentFilter = filters.countries["ef_score"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [];
+          }
+
           label = "English Proficiency";
           range = [
             minMaxCountries.englishProficiency.minEnglishProficiency,
@@ -103,13 +143,24 @@ export default function ParallelPlot() {
           );
           break;
         case "cost_of_living_index":
+          currentFilter = filters.countries["cost_of_living_index"].domain;
+
+          if (currentFilter.length > 0) {
+            constraintRange = currentFilter;
+          } else {
+            constraintRange = [];
+          }
+
           label = "Cost of Living";
           range = [
             minMaxCountries.costOfLiving.minCostOfLiving,
             minMaxCountries.costOfLiving.maxCostOfLiving,
           ];
           values = Object.keys(data.universities).map((key) => {
-            return data.universities[key].cost_of_living_index;
+            return (
+              data.universities[key].cost_of_living_index ||
+              minMaxCountries.costOfLiving.maxCostOfLiving
+            );
           });
           break;
       }
@@ -118,30 +169,48 @@ export default function ParallelPlot() {
         range,
         label,
         values,
+        constraintrange: constraintRange,
       };
     });
 
-    var plotData = [
+    const plotData = [
       {
         type: "parcoords" as Plotly.PlotType,
-        // pad: [80, 80, 80, 80],
         line: {
           color: Object.keys(data.universities).map((key) => {
             const rankNumber = parseInt(data.universities[key].rank);
             return rankNumber;
           }),
           colorscale: [
-            [minMaxUnis.rank.minRank, "green"],
-            [minMaxUnis.rank.maxRank, "red"],
-            [(minMaxUnis.rank.minRank + minMaxUnis.rank.maxRank) / 2, "yellow"],
+            [0, "#3498DB"], // bule
+            [0.5, "#9B59B6"], // puper
+            [1, "#E42C2C"], // red
           ],
+          opacity: 10,
         },
         dimensions,
+        unselected: {
+          line: {
+            color: "#afafb3",
+          },
+        },
       },
     ];
 
-    var layout = {
-      width: 600,
+    const layout = {
+      autosize: true,
+      margin: {
+        t: 60,
+        b: 35,
+        r: 50,
+        l: 55,
+      },
+      paper_bgcolor: paperBGColor,
+      font: {
+        family: "Arial Black, sans-serif",
+        size: 12,
+        color: "#000000",
+      },
     };
 
     Plotly.newPlot(containerRef.current, plotData, layout, {
@@ -178,5 +247,16 @@ export default function ParallelPlot() {
     };
   }, [containerRef.current]);
 
-  return <div className="plot-container" ref={containerRef} id="graph"></div>;
+  return (
+    <div className="plot-container" ref={containerRef} id="graph">
+      <div
+        className="highlight-mask"
+        hidden={!isPlotHighlighted}
+        style={{
+          width: containerRef.current?.clientWidth,
+          height: containerRef.current?.clientHeight,
+        }}
+      />
+    </div>
+  );
 }

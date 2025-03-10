@@ -1,0 +1,6 @@
+university_id,university_name,url
+0,Massachusetts Institute Of Technology (Mit),https://nominatim.openstreetmap.org/search.php?q=Massachusetts%20Institute%20Of%20Technology%20%20Cambridge%20US&format=geojson&addressdetails=1&limit=1
+1,Imperial College London,https://nominatim.openstreetmap.org/search.php?q=Imperial%20College%20London%20London%20UK&format=geojson&addressdetails=1&limit=1
+2,University Of Oxford,https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Oxford%20Oxford%20UK&format=geojson&addressdetails=1&limit=1
+3,Harvard University,https://nominatim.openstreetmap.org/search.php?q=Harvard%20University%20Cambridge%20US&format=geojson&addressdetails=1&limit=1
+4,University Of Cambridge,https://nominatim.openstreetmap.org/search.php?q=University%20Of%20Cambridge%20Cambridge%20UK&format=geojson&addressdetails=1&limit=1

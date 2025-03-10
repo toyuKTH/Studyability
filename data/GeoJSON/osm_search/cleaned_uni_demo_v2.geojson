@@ -1,0 +1,334 @@
+{
+  "type": "FeatureCollection",
+  "name": "cleaned_uni_demo_v2",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 288781139,
+        "osm_type": "way",
+        "osm_id": 28919560,
+        "place_rank": 30,
+        "category": "amenity",
+        "type": "university",
+        "importance": 0.37221179442822561,
+        "addresstype": "amenity",
+        "name": "Universidad Panamericana",
+        "display_name": "Universidad Panamericana, Calle Algeciras, Colonia Insurgentes Mixcoac, Ciudad de México, Benito Juárez, Ciudad de México, 03920, México",
+        "address": {
+          "amenity": "Universidad Panamericana",
+          "road": "Calle Algeciras",
+          "neighbourhood": "Colonia Insurgentes Mixcoac",
+          "city": "Ciudad de México",
+          "borough": "Benito Juárez",
+          "state": "Ciudad de México",
+          "ISO3166-2-lvl4": "MX-CMX",
+          "postcode": "03920",
+          "country": "México",
+          "country_code": "mx"
+        },
+        "university_id": 696,
+        "university_name": "Universidad Panamericana (Up)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.183352959246861, 19.373076611402084]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 326262562,
+        "osm_type": "way",
+        "osm_id": 9105672,
+        "place_rank": 26,
+        "category": "highway",
+        "type": "residential",
+        "importance": 0.053414635690852183,
+        "addresstype": "road",
+        "name": "Essex Street",
+        "display_name": "Essex Street, Dovercourt Village, University—Rosedale, Toronto, Golden Horseshoe, Ontario, M6G 1T3, Canada",
+        "address": {
+          "road": "Essex Street",
+          "city_block": "Dovercourt Village",
+          "quarter": "University—Rosedale",
+          "city": "Toronto",
+          "state_district": "Golden Horseshoe",
+          "state": "Ontario",
+          "ISO3166-2-lvl4": "CA-ON",
+          "postcode": "M6G 1T3",
+          "country": "Canada",
+          "country_code": "ca"
+        },
+        "university_id": 471,
+        "university_name": "Essex, University Of"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.423459519708018, 43.667699592682872]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 394531164,
+        "osm_type": "way",
+        "osm_id": 1342821538,
+        "place_rank": 30,
+        "category": "tourism",
+        "type": "artwork",
+        "importance": 6.5098802166735603e-5,
+        "addresstype": "tourism",
+        "name": "University of Newcastle",
+        "display_name": "University of Newcastle, Ring Road, Callaghan, Newcastle, Newcastle-Maitland, City of Newcastle, New South Wales, 2308, Australia",
+        "address": {
+          "tourism": "University of Newcastle",
+          "road": "Ring Road",
+          "suburb": "Callaghan",
+          "city": "Newcastle",
+          "municipality": "City of Newcastle",
+          "state": "New South Wales",
+          "ISO3166-2-lvl4": "AU-NSW",
+          "postcode": "2308",
+          "country": "Australia",
+          "country_code": "au"
+        },
+        "university_id": 178,
+        "university_name": "The University Of Newcastle, Australia (Uon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [151.697866503118917, -32.895025255560689]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 60674698,
+        "osm_type": "way",
+        "osm_id": 1124222585,
+        "place_rank": 22,
+        "category": "waterway",
+        "type": "stream",
+        "importance": 0.1067153284504463,
+        "addresstype": "stream",
+        "name": "Aubach",
+        "display_name": "Aubach, Gundersdorf, Ragnitz, Bezirk Leibnitz, Steiermark, 8413, Österreich",
+        "address": {
+          "stream": "Aubach",
+          "village": "Gundersdorf",
+          "county": "Bezirk Leibnitz",
+          "state": "Steiermark",
+          "ISO3166-2-lvl4": "AT-6",
+          "postcode": "8413",
+          "country": "Österreich",
+          "country_code": "at"
+        },
+        "university_id": 249,
+        "university_name": "American University Of Beirut (Aub)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.583078604980459, 46.837941516706252]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 155625384,
+        "osm_type": "way",
+        "osm_id": 694645860,
+        "place_rank": 26,
+        "category": "highway",
+        "type": "unclassified",
+        "importance": 0.053407024490730107,
+        "addresstype": "road",
+        "name": "Aurakatu",
+        "display_name": "Aurakatu, Aninkaistenmäki, VI, Keskusta, Turku, Turun seutukunta, Varsinais-Suomi, Manner-Suomi, 20800, Suomi / Finland",
+        "address": {
+          "road": "Aurakatu",
+          "neighbourhood": "Aninkaistenmäki",
+          "suburb": "Keskusta",
+          "city": "Turku",
+          "municipality": "Turun seutukunta",
+          "state": "Varsinais-Suomi",
+          "ISO3166-2-lvl4": "FI-19",
+          "region": "Manner-Suomi",
+          "postcode": "20800",
+          "country": "Suomi / Finland",
+          "country_code": "fi"
+        },
+        "university_id": 484,
+        "university_name": "American University Of Ras Al Khaimah ( Aurak )"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.267395944502322, 60.450186296824313]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 147400326,
+        "osm_type": "way",
+        "osm_id": 849939285,
+        "place_rank": 26,
+        "category": "highway",
+        "type": "residential",
+        "importance": 0.05338114824139769,
+        "addresstype": "road",
+        "name": "Goldsmiths",
+        "display_name": "Goldsmiths, Ufford, East Suffolk, Suffolk, England, IP13 6FB, United Kingdom",
+        "address": {
+          "road": "Goldsmiths",
+          "village": "Ufford",
+          "city": "East Suffolk",
+          "county": "Suffolk",
+          "ISO3166-2-lvl6": "GB-SFK",
+          "state": "England",
+          "ISO3166-2-lvl4": "GB-ENG",
+          "postcode": "IP13 6FB",
+          "country": "United Kingdom",
+          "country_code": "gb"
+        },
+        "university_id": 682,
+        "university_name": "Goldsmiths, University Of London"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.347786856151059, 52.124696266480065]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 291375509,
+        "osm_type": "way",
+        "osm_id": 134929514,
+        "place_rank": 26,
+        "category": "highway",
+        "type": "residential",
+        "importance": 0.053392973983367634,
+        "addresstype": "road",
+        "name": "Universidad Iberoamericana",
+        "display_name": "Universidad Iberoamericana, Saltillo, Coahuila, 25260, México",
+        "address": {
+          "road": "Universidad Iberoamericana",
+          "city": "Saltillo",
+          "county": "Saltillo",
+          "state": "Coahuila",
+          "ISO3166-2-lvl4": "MX-COA",
+          "postcode": "25260",
+          "country": "México",
+          "country_code": "mx"
+        },
+        "university_id": 830,
+        "university_name": "Universidad Iberoamericana Ibero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-101.0045303, 25.44523685]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 288704130,
+        "osm_type": "way",
+        "osm_id": 730040409,
+        "place_rank": 26,
+        "category": "highway",
+        "type": "residential",
+        "importance": 0.053396865033951288,
+        "addresstype": "road",
+        "name": "Universidad de Guadalajara",
+        "display_name": "Universidad de Guadalajara, Morelia, Michoacán, 58337, México",
+        "address": {
+          "road": "Universidad de Guadalajara",
+          "city": "Morelia",
+          "county": "Morelia",
+          "state": "Michoacán",
+          "ISO3166-2-lvl4": "MX-MIC",
+          "postcode": "58337",
+          "country": "México",
+          "country_code": "mx"
+        },
+        "university_id": 1127,
+        "university_name": "Universidad De Guadalajara (Udg)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-101.250517340979869, 19.72065661466716]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 6295302,
+        "osm_type": "way",
+        "osm_id": 843156584,
+        "place_rank": 26,
+        "category": "highway",
+        "type": "unclassified",
+        "importance": 0.05339010528725105,
+        "addresstype": "road",
+        "name": "UFPR",
+        "display_name": "UFPR, Pinhais, Região Geográfica Imediata de Curitiba, Região Metropolitana de Curitiba, Região Geográfica Intermediária de Curitiba, Paraná, Região Sul, 83328-300, Brasil",
+        "address": {
+          "road": "UFPR",
+          "city": "Pinhais",
+          "municipality": "Região Geográfica Imediata de Curitiba",
+          "county": "Região Metropolitana de Curitiba",
+          "state_district": "Região Geográfica Intermediária de Curitiba",
+          "state": "Paraná",
+          "ISO3166-2-lvl4": "BR-PR",
+          "region": "Região Sul",
+          "postcode": "83328-300",
+          "country": "Brasil",
+          "country_code": "br"
+        },
+        "university_id": 1152,
+        "university_name": "Universidade Federal Do Paraná - Ufpr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.120632631889777, -25.398614652004625]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_id": 287632608,
+        "osm_type": "way",
+        "osm_id": 469961097,
+        "place_rank": 27,
+        "category": "highway",
+        "type": "footway",
+        "importance": 0.040073144884412902,
+        "addresstype": "road",
+        "name": "Caminos dentro del intec",
+        "display_name": "Caminos dentro del intec, Constelación, Santo Domingo de Guzmán, Distrito Nacional, 10604, República Dominicana",
+        "address": {
+          "road": "Caminos dentro del intec",
+          "neighbourhood": "Constelación",
+          "city": "Santo Domingo de Guzmán",
+          "state": "Distrito Nacional",
+          "ISO3166-2-lvl4": "DO-01",
+          "postcode": "10604",
+          "country": "República Dominicana",
+          "country_code": "do"
+        },
+        "university_id": 1252,
+        "university_name": "Instituto Tecnológico De Santo Domingo (Intec)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.961936602456092, 18.487594511769746]
+      }
+    }
+  ]
+}

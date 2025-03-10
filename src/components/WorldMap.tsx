@@ -1,20 +1,21 @@
 import { useEffect, useRef } from "react";
 import "./WorldMap.css";
 import { useAppDispatch, useAppSelector } from "../state/hooks";
-import {
-  flyToUniComplete,
-  setMapZoomed,
-} from "../state/slices/mapInteractionSlice";
-import mapboxgl, { GeoJSONFeature, GeoJSONSource } from "mapbox-gl";
+import { setMapZoomed } from "../state/slices/mapInteractionSlice";
+import mapboxgl, { GeoJSONSource, MapMouseEvent } from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 import { getFilteredData } from "../state/slices/dataSlice";
+import { fetchMapData } from "../helpers/fetchGeoJSON";
+import {
+  setCurrentUniversity,
+  setCurrentUniversityGeoJSON,
+} from "../state/slices/uniSelectionSlice";
 
-interface IStudiabilityFeatureProperties {
-  st_university: string;
-  st_rank: number;
-  st_country_code: string;
-  website?: string;
+export interface IStudiabilityFeatureProperties {
+  university_id: number;
+  university_name: string;
+  university_website?: string;
 }
 
 export const WorldMap = ({
@@ -24,18 +25,24 @@ export const WorldMap = ({
   width?: number;
   height?: number;
 }) => {
-  const mapToken = import.meta.env.VITE_MAP_BOX_TOKEN;
+  // const mapToken = import.meta.env.VITE_MAP_BOX_TOKEN;
+  const mapToken =
+    "pk.eyJ1IjoidG95dWt0aCIsImEiOiJjbTd5d2V3czIwY2F3MmpzYTA4b2x4d3EwIn0.zZv52q9VqahrIq6dturYUQ";
 
   const dispatch = useAppDispatch();
 
   const filteredData = useAppSelector(getFilteredData);
-  const flyToUni = useAppSelector((state) => state.mapInteraction.flyToUni);
+  const allData = useAppSelector((state) => state.data.universities);
+  const currentUniSelectedGeoJSON = useAppSelector(
+    (state) => state.uniSelection.currenUniversityGeoJSON
+  );
 
   const zoomed = useAppSelector((state) => state.mapInteraction.mapZoomed);
 
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
-  const featureRef = useRef<GeoJSONFeature | null>(null);
+
+  const popUpRefs = useRef<mapboxgl.Popup[]>([]);
 
   useEffect(() => {
     if (!mapContainerRef.current) return;
@@ -46,19 +53,24 @@ export const WorldMap = ({
       projection: "mercator",
       renderWorldCopies: false,
       container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/dark-v11",
+      style: "mapbox://styles/toyukth/cm81ddad500zk01qu1p9ydafi",
       center: [0, 70],
       zoom: 0,
     });
 
-    mapRef.current.on("load", () => {
+    mapRef.current.on("load", async () => {
       if (!mapRef.current) return;
+
+      const rawData = await fetchMapData(filteredData.filteredUniversities);
 
       mapRef.current.addSource("uni_locations", {
         type: "geojson",
-        data: "./data/GeoJSON/UniCleanedGeojson/unis_point_geometry.geojson",
+        data: {
+          type: "FeatureCollection",
+          features: rawData,
+        },
         cluster: true,
-        clusterMaxZoom: 14,
+        clusterMaxZoom: 30,
         clusterRadius: 50,
       });
 
@@ -71,11 +83,11 @@ export const WorldMap = ({
           "circle-color": [
             "step",
             ["get", "point_count"],
-            "#51bbd6",
+            "#517F96",
             100,
-            "#f1f075",
+            "#D37D6C",
             750,
-            "#f28cb1",
+            "#DCAB97",
           ],
           "circle-radius": [
             "step",
@@ -149,36 +161,7 @@ export const WorldMap = ({
       // the unclustered-point layer, open a popup at
       // the location of the feature, with
       // description HTML from its properties.
-      mapRef.current.on("click", "unclustered-point", (e) => {
-        if (!mapRef.current || !e.features) return;
-
-        const geometry = e.features[0].geometry as GeoJSON.Point;
-        const properties = e.features[0]
-          .properties as IStudiabilityFeatureProperties;
-        const coordinates = geometry.coordinates;
-        const name = properties.st_university;
-        const rank = properties.st_rank;
-
-        // Ensure that if the map is zoomed out such that
-        // multiple copies of the feature are visible, the
-        // popup appears over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-
-        const uniWebsite = properties.website;
-
-        new mapboxgl.Popup()
-          .setLngLat(coordinates as [number, number])
-          .setHTML(
-            `Name: ${name}<br>Rank: ${rank}${
-              uniWebsite
-                ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
-                : ""
-            }`
-          )
-          .addTo(mapRef.current);
-      });
+      mapRef.current.on("click", "unclustered-point", handleClusterClick);
 
       mapRef.current.on("mouseenter", "clusters", () => {
         if (!mapRef.current) return;
@@ -188,6 +171,8 @@ export const WorldMap = ({
         if (!mapRef.current) return;
         mapRef.current.getCanvas().style.cursor = "";
       });
+
+      console.log("Map loaded with " + rawData.length + " features");
     });
 
     const handleZoom = () => {
@@ -202,6 +187,11 @@ export const WorldMap = ({
     };
 
     mapRef.current.on("zoom", handleZoom);
+    mapRef.current.on("closeAllPopups", () => {
+      popUpRefs.current.forEach((popup) => {
+        popup.remove();
+      });
+    });
 
     return () => {
       if (mapRef.current) {
@@ -211,52 +201,112 @@ export const WorldMap = ({
   }, []);
 
   useEffect(() => {
-    if (!mapRef.current || !flyToUni) return;
+    if (!mapRef.current) return;
+    mapRef.current.resize();
+  }, [width, height]);
 
-    const name = flyToUni.name;
-    const countryCode = flyToUni.countryCode;
+  useEffect(() => {
+    if (!mapRef.current || !currentUniSelectedGeoJSON) return;
 
-    fetch(`./data/GeoJSON/UniCleanedGeojson/unis_point_geometry.geojson`).then(
-      (res) =>
-        res.json().then((data) => {
-          data.features.forEach((feature: GeoJSONFeature) => {
-            const properties =
-              feature.properties as IStudiabilityFeatureProperties;
-            if (
-              properties.st_university === name &&
-              properties.st_country_code === countryCode
-            ) {
-              const geometry = feature.geometry as GeoJSON.Point;
-              mapRef.current
-                ?.flyTo({
-                  center: geometry.coordinates as [number, number],
-                  zoom: 15,
-                  duration: 5000,
-                  curve: 1.42,
-                  easing: (t) => t,
-                })
-                .once("moveend", () => {
-                  const uniWebsite = properties.website;
-                  new mapboxgl.Popup()
-                    .setLngLat(geometry.coordinates as [number, number])
-                    .setHTML(
-                      `Name: ${name}<br>Rank: ${properties.st_rank}${
-                        uniWebsite
-                          ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
-                          : ""
-                      }`
-                    )
-                    .addTo(mapRef.current!);
+    const geometry = currentUniSelectedGeoJSON.geometry as GeoJSON.Point;
+    const properties =
+      currentUniSelectedGeoJSON.properties as IStudiabilityFeatureProperties;
 
-                  dispatch(flyToUniComplete());
-                });
-            } else {
-              dispatch(flyToUniComplete());
-            }
-          });
-        })
+    mapRef.current.fire("closeAllPopups");
+
+    mapRef.current
+      ?.flyTo({
+        center: geometry.coordinates as [number, number],
+        zoom: 5,
+        duration: 2000,
+        curve: 1.42,
+        easing: (t) => t,
+      })
+      .once("moveend", () => {
+        const uniWebsite = properties.university_website;
+
+        const popup = new mapboxgl.Popup()
+          .setLngLat(geometry.coordinates as [number, number])
+          .setHTML(
+            `Name: ${properties.university_name}<br>Rank: ${
+              properties.university_id + 1
+            }${
+              uniWebsite
+                ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
+                : ""
+            }`
+          )
+          .addTo(mapRef.current!);
+
+        popUpRefs.current.push(popup);
+        dispatch(setCurrentUniversityGeoJSON(null));
+      });
+  }, [currentUniSelectedGeoJSON]);
+
+  useEffect(() => {
+    if (!mapRef.current || !filteredData) return;
+
+    const source = mapRef.current.getSource("uni_locations") as GeoJSONSource;
+
+    if (!source) return;
+
+    const updateMapData = async () => {
+      try {
+        const data = await fetchMapData(filteredData.filteredUniversities);
+
+        source.setData({
+          type: "FeatureCollection",
+          features: data,
+        });
+
+        console.log("Map updated with " + data.length + " features");
+      } catch (error) {
+        console.error("Error fetching GeoJSON:", error);
+        return null;
+      }
+    };
+
+    updateMapData();
+  }, [filteredData]);
+
+  const handleClusterClick = (e: MapMouseEvent) => {
+    if (!mapRef.current || !e.features) return;
+
+    const geometry = e.features[0].geometry as GeoJSON.Point;
+    const properties = e.features[0]
+      .properties as IStudiabilityFeatureProperties;
+    const coordinates = geometry.coordinates;
+    const name = properties.university_name;
+    const rank = properties.university_id;
+
+    const universityObject = Object.values(allData).find(
+      (uni) => uni.name === name
     );
-  }, [flyToUni]);
+
+    if (universityObject) dispatch(setCurrentUniversity(universityObject));
+
+    // Ensure that if the map is zoomed out such that
+    // multiple copies of the feature are visible, the
+    // popup appears over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+      coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    const uniWebsite = properties.university_website;
+
+    const popup = new mapboxgl.Popup()
+      .setLngLat(coordinates as [number, number])
+      .setHTML(
+        `Name: ${name}<br>Rank: ${rank + 1}${
+          uniWebsite
+            ? `<br><a href="${uniWebsite}" target="_blank">${uniWebsite}</a>`
+            : ""
+        }`
+      )
+      .addTo(mapRef.current);
+
+    popUpRefs.current.push(popup);
+  };
 
   const handleResetZoom = () => {
     if (mapRef.current) {

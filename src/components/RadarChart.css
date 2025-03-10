@@ -1,0 +1,88 @@
+.radar-chart-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .radar-chart-container {
+    min-height: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    .apexcharts-xaxis-label,
+    .apexcharts-legend-series {
+      cursor: pointer;
+    }
+    .radar-x-label {
+      text-decoration-thickness: 25%;
+      font-weight: 600;
+    }
+  }
+
+  .attribute-container {
+    color: #000;
+    min-height: 100px;
+    font-size: 12px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+
+    .attribute-selector-group {
+      min-width: 50%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: -50px;
+
+      h2 {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .attribute-selector-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .attribute-error-message {
+        position: fixed;
+        color: red;
+        margin-top: -16px;
+      }
+    }
+
+    .category-selector {
+      border: none;
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+      padding-right: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 16px;
+
+      &:hover {
+        background-color: #aeaeae;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

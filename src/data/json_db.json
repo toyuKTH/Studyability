@@ -5239,7 +5239,7 @@
                 "ef_score": 575.0
             },
             "name": "Brunei",
-            "temperature": null,
+            "temperature": 28.0,
             "universities": [
                 385,
                 562
@@ -5259,7 +5259,7 @@
                 "ef_score": 466.0
             },
             "name": "Brazil",
-            "temperature": null,
+            "temperature": 27.7,
             "universities": [
                 91,
                 231,
@@ -5333,7 +5333,7 @@
                 "ef_score": 650.0
             },
             "name": "Canada",
-            "temperature": null,
+            "temperature": 5.5,
             "universities": [
                 24,
                 28,
@@ -5381,7 +5381,7 @@
                 "ef_score": 550.0
             },
             "name": "Switzerland",
-            "temperature": null,
+            "temperature": 9.5,
             "universities": [
                 6,
                 25,
@@ -5452,7 +5452,7 @@
                 "ef_score": 455.0
             },
             "name": "China",
-            "temperature": null,
+            "temperature": 14.0,
             "universities": [
                 13,
                 19,
@@ -5541,7 +5541,7 @@
                 "ef_score": 485.0
             },
             "name": "Colombia",
-            "temperature": null,
+            "temperature": 25.0,
             "universities": [
                 179,
                 219,
@@ -5583,7 +5583,7 @@
                 "ef_score": 558.0
             },
             "name": "Cyprus",
-            "temperature": null,
+            "temperature": 18.0,
             "universities": [
                 389
             ]
@@ -5636,7 +5636,7 @@
                 "ef_score": 598.0
             },
             "name": "Germany",
-            "temperature": null,
+            "temperature": 9.7,
             "universities": [
                 27,
                 58,
@@ -5878,7 +5878,7 @@
                 "ef_score": 590.0
             },
             "name": "Finland",
-            "temperature": null,
+            "temperature": 5.0,
             "universities": [
                 112,
                 116,
@@ -6106,7 +6106,7 @@
                 "ef_score": 602.0
             },
             "name": "Greece",
-            "temperature": null,
+            "temperature": 15.6,
             "universities": [
                 321,
                 392,
@@ -6279,7 +6279,7 @@
                 "ef_score": 522.0
             },
             "name": "Israel",
-            "temperature": null,
+            "temperature": 20.0,
             "universities": [
                 208,
                 280,
@@ -6303,7 +6303,7 @@
                 "ef_score": 490.0
             },
             "name": "India",
-            "temperature": null,
+            "temperature": 26.7,
             "universities": [
                 117,
                 149,
@@ -6367,7 +6367,7 @@
                 "ef_score": 414.0
             },
             "name": "Iraq",
-            "temperature": null,
+            "temperature": 26.0,
             "universities": [
                 840,
                 1074,
@@ -6417,7 +6417,7 @@
                 "ef_score": 620.0
             },
             "name": "Iceland",
-            "temperature": null,
+            "temperature": 4.0,
             "universities": [
                 549
             ]
@@ -6496,7 +6496,7 @@
                 "ef_score": 431.0
             },
             "name": "Jordan",
-            "temperature": null,
+            "temperature": 18.0,
             "universities": [
                 368,
                 554,
@@ -6823,7 +6823,7 @@
                 "ef_score": 576.0
             },
             "name": "Luxembourg",
-            "temperature": null,
+            "temperature": 11.0,
             "universities": [
                 356
             ]
@@ -6863,7 +6863,7 @@
                 "ef_score": 479.0
             },
             "name": "Morocco",
-            "temperature": null,
+            "temperature": 18.0,
             "universities": [
                 1168
             ]
@@ -6882,7 +6882,7 @@
                 "ef_score": 536.0
             },
             "name": "Moldova",
-            "temperature": null,
+            "temperature": 10.0,
             "universities": []
         },
         "ME": {
@@ -6933,7 +6933,7 @@
                 "ef_score": 615.0
             },
             "name": "Malta",
-            "temperature": null,
+            "temperature": 19.0,
             "universities": [
                 761
             ]
@@ -7257,7 +7257,7 @@
                 "ef_score": 493.0
             },
             "name": "Pakistan",
-            "temperature": null,
+            "temperature": 24.0,
             "universities": [
                 314,
                 352,
@@ -7330,7 +7330,7 @@
                 "ef_score": 565.0
             },
             "name": "Puerto Rico",
-            "temperature": null,
+            "temperature": 28.0,
             "universities": [
                 1133
             ]
@@ -7375,7 +7375,7 @@
                 "ef_score": 480.0
             },
             "name": "Qatar",
-            "temperature": null,
+            "temperature": 26.0,
             "universities": [
                 121,
                 182
@@ -7741,7 +7741,7 @@
                 "ef_score": 555.0
             },
             "name": "Trinidad and Tobago",
-            "temperature": null,
+            "temperature": 28.0,
             "universities": []
         },
         "TW": {
@@ -7803,7 +7803,7 @@
                 "ef_score": 535.0
             },
             "name": "Ukraine",
-            "temperature": null,
+            "temperature": 7.5,
             "universities": [
                 707,
                 749,
@@ -7832,7 +7832,7 @@
                 "ef_score": 650.0
             },
             "name": "United States",
-            "temperature": null,
+            "temperature": 14.0,
             "universities": [
                 0,
                 3,
@@ -8180,7 +8180,7 @@
         "1": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Imperial College London",
             "qsRankingInfo": {
@@ -8455,7 +8455,7 @@
         "1008": {
             "location": {
                 "city": "Preston",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Central Lancashire",
             "qsRankingInfo": {
@@ -9055,7 +9055,7 @@
         "103": {
             "location": {
                 "city": "St Andrews",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of St Andrews",
             "qsRankingInfo": {
@@ -9080,7 +9080,7 @@
         "1030": {
             "location": {
                 "city": "Birmingham",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Birmingham City University",
             "qsRankingInfo": {
@@ -9155,7 +9155,7 @@
         "1033": {
             "location": {
                 "city": "Christchurch",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Canterbury Christ Church University",
             "qsRankingInfo": {
@@ -9330,7 +9330,7 @@
         "104": {
             "location": {
                 "city": "Sheffield",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "The University Of Sheffield",
             "qsRankingInfo": {
@@ -9530,7 +9530,7 @@
         "1047": {
             "location": {
                 "city": "Glasgow",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Glasgow Caledonian University",
             "qsRankingInfo": {
@@ -10030,7 +10030,7 @@
         "1065": {
             "location": {
                 "city": "Leeds",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Leeds Beckett University",
             "qsRankingInfo": {
@@ -10105,7 +10105,7 @@
         "1068": {
             "location": {
                 "city": "Toronto",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "London Metropolitan University",
             "qsRankingInfo": {
@@ -10155,7 +10155,7 @@
         "107": {
             "location": {
                 "city": "Nottingham",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Nottingham",
             "qsRankingInfo": {
@@ -10905,7 +10905,7 @@
         "1097": {
             "location": {
                 "city": "Sheffield",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Sheffield Hallam University",
             "qsRankingInfo": {
@@ -11480,7 +11480,7 @@
         "1117": {
             "location": {
                 "city": "Cairo",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "The University Of Northampton",
             "qsRankingInfo": {
@@ -13080,7 +13080,7 @@
         "1175": {
             "location": {
                 "city": "Denver",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Derby",
             "qsRankingInfo": {
@@ -13480,7 +13480,7 @@
         "119": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Queen Mary University Of London",
             "qsRankingInfo": {
@@ -13930,7 +13930,7 @@
         "1205": {
             "location": {
                 "city": "Wolverhampton",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Wolverhampton",
             "qsRankingInfo": {
@@ -15105,7 +15105,7 @@
         "1248": {
             "location": {
                 "city": "Mexico",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Harper Adams University",
             "qsRankingInfo": {
@@ -15980,7 +15980,7 @@
         "128": {
             "location": {
                 "city": "Newcastle upon Tyne",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Newcastle University",
             "qsRankingInfo": {
@@ -19330,7 +19330,7 @@
         "140": {
             "location": {
                 "city": "Lancaster",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Lancaster University",
             "qsRankingInfo": {
@@ -22105,7 +22105,7 @@
         "150": {
             "location": {
                 "city": "Bath",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Bath",
             "qsRankingInfo": {
@@ -22880,7 +22880,7 @@
         "165": {
             "location": {
                 "city": "Liverpool",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Liverpool",
             "qsRankingInfo": {
@@ -22980,7 +22980,7 @@
         "169": {
             "location": {
                 "city": "Exeter",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "The University Of Exeter",
             "qsRankingInfo": {
@@ -23055,7 +23055,7 @@
         "171": {
             "location": {
                 "city": "Reading",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Reading",
             "qsRankingInfo": {
@@ -23380,7 +23380,7 @@
         "183": {
             "location": {
                 "city": "York",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of York",
             "qsRankingInfo": {
@@ -23430,7 +23430,7 @@
         "185": {
             "location": {
                 "city": "Cardiff",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Cardiff University",
             "qsRankingInfo": {
@@ -23830,7 +23830,7 @@
         "2": {
             "location": {
                 "city": "Oxford",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Oxford",
             "qsRankingInfo": {
@@ -24005,7 +24005,7 @@
         "205": {
             "location": {
                 "city": "Belfast",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Queen'S University Belfast",
             "qsRankingInfo": {
@@ -24530,7 +24530,7 @@
         "224": {
             "location": {
                 "city": "Loughborough",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Loughborough University",
             "qsRankingInfo": {
@@ -24855,7 +24855,7 @@
         "236": {
             "location": {
                 "city": "Aberdeen",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Aberdeen",
             "qsRankingInfo": {
@@ -25130,7 +25130,7 @@
         "246": {
             "location": {
                 "city": "Brighton",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Sussex",
             "qsRankingInfo": {
@@ -25405,7 +25405,7 @@
         "256": {
             "location": {
                 "city": "Edinburgh",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Heriot-Watt University",
             "qsRankingInfo": {
@@ -25505,7 +25505,7 @@
         "26": {
             "location": {
                 "city": "Edinburgh",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "The University Of Edinburgh",
             "qsRankingInfo": {
@@ -26105,7 +26105,7 @@
         "281": {
             "location": {
                 "city": "Glasgow",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Strathclyde",
             "qsRankingInfo": {
@@ -26255,7 +26255,7 @@
         "287": {
             "location": {
                 "city": "Leicester",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Leicester",
             "qsRankingInfo": {
@@ -26305,7 +26305,7 @@
         "289": {
             "location": {
                 "city": "Guildford",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Surrey",
             "qsRankingInfo": {
@@ -26555,7 +26555,7 @@
         "298": {
             "location": {
                 "city": "Swansea",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Swansea University",
             "qsRankingInfo": {
@@ -27530,7 +27530,7 @@
         "332": {
             "location": {
                 "city": "Norwich",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of East Anglia (Uea)",
             "qsRankingInfo": {
@@ -27730,7 +27730,7 @@
         "34": {
             "location": {
                 "city": "Manchester",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "The University Of Manchester",
             "qsRankingInfo": {
@@ -27780,7 +27780,7 @@
         "341": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Brunel University London",
             "qsRankingInfo": {
@@ -28055,7 +28055,7 @@
         "351": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "City, University Of London",
             "qsRankingInfo": {
@@ -28855,7 +28855,7 @@
         "380": {
             "location": {
                 "city": "Canterbury",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Kent",
             "qsRankingInfo": {
@@ -29105,7 +29105,7 @@
         "39": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "King'S College London",
             "qsRankingInfo": {
@@ -29380,7 +29380,7 @@
         "4": {
             "location": {
                 "city": "Cambridge",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Cambridge",
             "qsRankingInfo": {
@@ -29605,7 +29605,7 @@
         "407": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Birkbeck, University Of London",
             "qsRankingInfo": {
@@ -29830,7 +29830,7 @@
         "415": {
             "location": {
                 "city": "Oxford",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Oxford Brookes University",
             "qsRankingInfo": {
@@ -29880,7 +29880,7 @@
         "417": {
             "location": {
                 "city": "Dundee",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Dundee",
             "qsRankingInfo": {
@@ -30030,7 +30030,7 @@
         "422": {
             "location": {
                 "city": "Birmingham",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Aston University",
             "qsRankingInfo": {
@@ -30905,7 +30905,7 @@
         "454": {
             "location": {
                 "city": "Stirling",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Stirling",
             "qsRankingInfo": {
@@ -31380,7 +31380,7 @@
         "471": {
             "location": {
                 "city": "Colchester",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Essex, University Of",
             "qsRankingInfo": {
@@ -31430,7 +31430,7 @@
         "473": {
             "location": {
                 "city": "Bangor",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Bangor University",
             "qsRankingInfo": {
@@ -31580,7 +31580,7 @@
         "479": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Royal Holloway University Of London",
             "qsRankingInfo": {
@@ -32305,7 +32305,7 @@
         "504": {
             "location": {
                 "city": "Huddersfield",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Huddersfield",
             "qsRankingInfo": {
@@ -32430,7 +32430,7 @@
         "509": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Soas University Of London",
             "qsRankingInfo": {
@@ -32455,7 +32455,7 @@
         "51": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "The London School Of Economics And Political Science (Lse)",
             "qsRankingInfo": {
@@ -32755,7 +32755,7 @@
         "520": {
             "location": {
                 "city": "Hull",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Hull",
             "qsRankingInfo": {
@@ -33005,7 +33005,7 @@
         "53": {
             "location": {
                 "city": "Bristol",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Bristol",
             "qsRankingInfo": {
@@ -33030,7 +33030,7 @@
         "530": {
             "location": {
                 "city": "Coventry",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Coventry University",
             "qsRankingInfo": {
@@ -33155,7 +33155,7 @@
         "535": {
             "location": {
                 "city": "Newcastle upon Tyne",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Northumbria University At Newcastle",
             "qsRankingInfo": {
@@ -33430,7 +33430,7 @@
         "545": {
             "location": {
                 "city": "Bradford",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Bradford",
             "qsRankingInfo": {
@@ -33805,7 +33805,7 @@
         "559": {
             "location": {
                 "city": "Coleraine",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Ulster University",
             "qsRankingInfo": {
@@ -34730,7 +34730,7 @@
         "592": {
             "location": {
                 "city": "Nottingham",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Nottingham Trent University",
             "qsRankingInfo": {
@@ -35055,7 +35055,7 @@
         "603": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Kingston University, London",
             "qsRankingInfo": {
@@ -35080,7 +35080,7 @@
         "604": {
             "location": {
                 "city": "Manchester",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Manchester Metropolitan University (Mmu)",
             "qsRankingInfo": {
@@ -36130,7 +36130,7 @@
         "642": {
             "location": {
                 "city": "Portsmouth",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Portsmouth",
             "qsRankingInfo": {
@@ -36655,7 +36655,7 @@
         "661": {
             "location": {
                 "city": "Aberystwyth",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Aberystwyth University",
             "qsRankingInfo": {
@@ -36980,7 +36980,7 @@
         "673": {
             "location": {
                 "city": "Plymouth",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Plymouth",
             "qsRankingInfo": {
@@ -37155,7 +37155,7 @@
         "68": {
             "location": {
                 "city": "Coventry",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "The University Of Warwick",
             "qsRankingInfo": {
@@ -37230,7 +37230,7 @@
         "682": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Goldsmiths, University Of London",
             "qsRankingInfo": {
@@ -37755,7 +37755,7 @@
         "700": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Greenwich",
             "qsRankingInfo": {
@@ -38130,7 +38130,7 @@
         "714": {
             "location": {
                 "city": "Leicester",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "De Montfort University",
             "qsRankingInfo": {
@@ -38605,7 +38605,7 @@
         "731": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Middlesex University",
             "qsRankingInfo": {
@@ -39030,7 +39030,7 @@
         "747": {
             "location": {
                 "city": "Paisley",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of The West Of England",
             "qsRankingInfo": {
@@ -39055,7 +39055,7 @@
         "748": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Westminster",
             "qsRankingInfo": {
@@ -39655,7 +39655,7 @@
         "77": {
             "location": {
                 "city": "Glasgow",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Glasgow",
             "qsRankingInfo": {
@@ -39705,7 +39705,7 @@
         "771": {
             "location": {
                 "city": "Bournemouth",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Bournemouth University",
             "qsRankingInfo": {
@@ -40205,7 +40205,7 @@
         "79": {
             "location": {
                 "city": "Birmingham",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Birmingham",
             "qsRankingInfo": {
@@ -40330,7 +40330,7 @@
         "794": {
             "location": {
                 "city": "Keele",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Keele University",
             "qsRankingInfo": {
@@ -40480,7 +40480,7 @@
         "8": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University College London",
             "qsRankingInfo": {
@@ -40505,7 +40505,7 @@
         "80": {
             "location": {
                 "city": "Southampton",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Southampton",
             "qsRankingInfo": {
@@ -40755,7 +40755,7 @@
         "809": {
             "location": {
                 "city": "Edinburgh",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Edinburgh Napier University",
             "qsRankingInfo": {
@@ -40980,7 +40980,7 @@
         "817": {
             "location": {
                 "city": "Liverpool",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Liverpool John Moores University",
             "qsRankingInfo": {
@@ -41005,7 +41005,7 @@
         "818": {
             "location": {
                 "city": "Cairo",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "London South Bank University",
             "qsRankingInfo": {
@@ -41055,7 +41055,7 @@
         "82": {
             "location": {
                 "city": "Leeds",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Leeds",
             "qsRankingInfo": {
@@ -41680,7 +41680,7 @@
         "842": {
             "location": {
                 "city": "Brighton",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Brighton",
             "qsRankingInfo": {
@@ -42705,7 +42705,7 @@
         "88": {
             "location": {
                 "city": "Durham",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Durham University",
             "qsRankingInfo": {
@@ -43005,7 +43005,7 @@
         "890": {
             "location": {
                 "city": "Hatfield",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Hertfordshire",
             "qsRankingInfo": {
@@ -43030,7 +43030,7 @@
         "891": {
             "location": {
                 "city": "Lincoln",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Lincoln",
             "qsRankingInfo": {
@@ -43930,7 +43930,7 @@
         "923": {
             "location": {
                 "city": "Cairo",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Robert Gordon University",
             "qsRankingInfo": {
@@ -44330,7 +44330,7 @@
         "938": {
             "location": {
                 "city": "London",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of East London",
             "qsRankingInfo": {
@@ -44530,7 +44530,7 @@
         "945": {
             "location": {
                 "city": "Salford",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "University Of Salford",
             "qsRankingInfo": {
@@ -45630,7 +45630,7 @@
         "985": {
             "location": {
                 "city": "Cairo",
-                "countryCode": "UK"
+                "countryCode": "GB"
             },
             "name": "Queen Margaret University , Edinburgh",
             "qsRankingInfo": {

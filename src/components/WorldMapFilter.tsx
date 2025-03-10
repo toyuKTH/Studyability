@@ -1,70 +1,74 @@
-import { useAppSelector } from "../state/hooks";
+import { getUniGeoJSON } from "../helpers/fetchGeoJSON";
+import { useAppDispatch, useAppSelector } from "../state/hooks";
 import { getFilteredData } from "../state/slices/dataSlice";
+import {
+  addUniToCompare,
+  setCurrentUniversity,
+  setCurrentUniversityGeoJSON,
+} from "../state/slices/uniSelectionSlice";
+import UniversityRow from "./UniversityRow";
 import "./WorldMapFilter.css";
 
 export default function WorldMapFilter() {
-  const filter = useAppSelector((state) => state.filter);
+  const dispatch = useAppDispatch();
   const filteredData = useAppSelector(getFilteredData);
 
-  console.log("filteredData", filteredData);
+  const currentUniversity = useAppSelector(
+    (state) => state.uniSelection.currentUniversity
+  );
+
+  const unisToCompare = useAppSelector(
+    (state) => state.uniSelection.uniToCompare
+  );
 
   return (
-    <div className="map-filtering-container">
-      <h2>Filtered universities</h2>
-      <div>
-        {Object.values(filteredData.filteredUniversities).length} universities
-        in
+    <div className="filtering-list-container">
+      <div className="map-filtering-title">
+        <h2 style={{ margin: 0, marginTop: "5px" }}>Filtered universities</h2>
+        <div className="map-filtering-info">
+          {filteredData.filteredUniversities.length > 0 && (
+            <p>
+              {filteredData.filteredUniversities.length} universities in{" "}
+              {filteredData.filterdCountries.length} countries
+            </p>
+          )}
+          <p>compare</p>
+        </div>
       </div>
-      {Object.values(filteredData.filterdCountries).length} countries
-      {/* {Object.values(filteredData.filteredUniversities).map((uni) => {
-        return (
-          <div key={uni.name}>
-            {uni.name}, {uni.countryCode}
-          </div>
-        );
-      })}
-        */}
-      {/* {Object.values(filteredData.filterdCountries).map((country, index) => {
-        return <div key={index}>{country.name}</div>;
-      })} */}
-      <h2>filters</h2>
-      <p>QS Overall Score</p>
-      {filter.universityRankings.tuitionFee.domain.map((amount) => {
-        return (
-          <div>
-            <div>{amount[0]}</div>
-            <div>{amount[1]}</div>
-          </div>
-        );
-      })}
-      <h2>Country filters</h2>
-      <p>Temperature</p>
-      {filter.countries.temperature.domain.map((temperature) => {
-        return (
-          <>
-            <div>{temperature[0]}</div>
-            <div>{temperature[1]}</div>
-          </>
-        );
-      })}
-      <p>Cost of living</p>
-      {filter.countries.cost_of_living_index.domain.map((costOfLivingIndex) => {
-        return (
-          <>
-            <div>{costOfLivingIndex[0]}</div>
-            <div>{costOfLivingIndex[1]}</div>
-          </>
-        );
-      })}
-      <p>English proficiency</p>
-      {filter.countries.ef_score.domain.map((efScore) => {
-        return (
-          <>
-            <div>{efScore[0]}</div>
-            <div>{efScore[1]}</div>
-          </>
-        );
-      })}
+      <div className="map-filtering-body">
+        <table style={{ width: "100%" }}>
+          <tbody>
+            {filteredData.filteredUniversities.map((uni, index) => (
+              <UniversityRow
+                uni={uni}
+                key={`uni-${index}`}
+                isSelectedToCompare={unisToCompare.some(
+                  (u) => u.name === uni.name
+                )}
+                selected={currentUniversity?.name === uni.name}
+                onClick={(_) => {
+                  if (uni.name === currentUniversity?.name) {
+                    dispatch(setCurrentUniversity(null));
+                    dispatch(setCurrentUniversityGeoJSON(null));
+                  } else {
+                    dispatch(setCurrentUniversity(uni));
+                    getUniGeoJSON(uni).then((geoJSON) => {
+                      dispatch(setCurrentUniversityGeoJSON(geoJSON));
+                    });
+                  }
+                }}
+                onToggleCheckbox={(_) => {
+                  dispatch(addUniToCompare(uni));
+                }}
+                disabled={
+                  unisToCompare.length >= 5 &&
+                  !unisToCompare.some((u) => u.name === uni.name)
+                }
+              />
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

@@ -28,12 +28,12 @@ export interface ICityDB {
 export interface ICountryDB {
   [country: string]: {
     costOfLiving: {
-      cost_of_living_index: number;
-      cost_of_living_plus_rent_index: number;
-      groceries_index: number;
-      local_purchasing_power_index: number;
-      rent_index: number;
-      restaurant_price_index: number;
+      cost_of_living_index: number | null;
+      cost_of_living_plus_rent_index: number | null;
+      groceries_index: number | null;
+      local_purchasing_power_index: number | null;
+      rent_index: number | null;
+      restaurant_price_index: number | null;
     };
     efScore: {
       ef_level: string | null;
@@ -57,6 +57,11 @@ interface IUniversityBase {
     qs_overall_score: string;
     rank: string;
     sustainability: number | null;
+    employer_reputation: number | null;
+    faculty_student: number | null;
+    citations_per_faculty: number | null;
+    international_faculty: number | null;
+    international_research_network: number | null;
   };
   tuitionFee: {
     amount: number | null;
@@ -67,12 +72,12 @@ interface IUniversityBase {
 export interface IUniversity {
   city: string | null;
   countryCode: keyof typeof data.country_db;
-  cost_of_living_index: number;
-  cost_of_living_plus_rent_index: number;
-  groceries_index: number;
-  local_purchasing_power_index: number;
-  rent_index: number;
-  restaurant_price_index: number;
+  cost_of_living_index: number | null;
+  cost_of_living_plus_rent_index: number | null;
+  groceries_index: number | null;
+  local_purchasing_power_index: number | null;
+  rent_index: number | null;
+  restaurant_price_index: number | null;
   ef_level: string | null;
   ef_score: number | null;
   countryName: string;
@@ -87,6 +92,11 @@ export interface IUniversity {
   tuitionFee: number | null;
   tuitionFeeProvinance: string | null;
   website: string;
+  employer_reputation: number | null;
+  faculty_student: number | null;
+  citations_per_faculty: number | null;
+  international_faculty: number | null;
+  international_research_network: number | null;
 }
 
 export interface IUniversityDB {
@@ -97,6 +107,7 @@ interface IDataState {
   cities: ICityDB;
   countries: ICountryDB;
   universities: IUniversityDB;
+  geoJSONUnis: any;
 }
 
 const uniNamesSet = new Set();
@@ -156,6 +167,12 @@ const initialState: IDataState = {
         restaurant_price_index:
           data.country_db[countryCode].costOfLiving.restaurant_price_index,
         ef_level: data.country_db[countryCode].efScore.ef_level,
+        employer_reputation: tempUni.qsRankingInfo.employer_reputation,
+        faculty_student: tempUni.qsRankingInfo.faculty_student,
+        citations_per_faculty: tempUni.qsRankingInfo.citations_per_faculty,
+        international_faculty: tempUni.qsRankingInfo.international_faculty,
+        international_research_network:
+          tempUni.qsRankingInfo.international_research_network,
       };
 
       uniNamesSet.add(tempUni.name);
@@ -163,6 +180,7 @@ const initialState: IDataState = {
       return acc;
     }, {}),
   },
+  geoJSONUnis: {},
 };
 
 export const dataSlice = createSlice({
@@ -184,12 +202,12 @@ export const selectCountriesMaxMinFilterValues = createSelector(
   (countries) => {
     const maxCostOfLiving = Math.max(
       ...Object.keys(countries).map(
-        (key) => countries[key].costOfLiving.cost_of_living_index
+        (key) => countries[key].costOfLiving.cost_of_living_index || 0
       )
     );
     const minCostOfLiving = Math.min(
       ...Object.keys(countries).map(
-        (key) => countries[key].costOfLiving.cost_of_living_index
+        (key) => countries[key].costOfLiving.cost_of_living_index || 10000
       )
     );
 
@@ -403,7 +421,6 @@ export const getFilteredData = createSelector(
           }
 
           if (value >= domain[0] && value <= domain[1]) {
-            // } else {
             fitsCurrentFilter = true;
           }
         });
@@ -480,7 +497,7 @@ export const getFilteredData = createSelector(
     );
 
     return {
-      filterdCountries: filteredCountriesObject,
+      filterdCountries: Object.values(filteredCountriesObject),
       filteredUniversities,
     };
   }

@@ -1,0 +1,4031 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 64945918,
+                "osm_type": "node",
+                "osm_id": 6595702378,
+                "place_rank": 30,
+                "category": "office",
+                "type": "company",
+                "importance": 7.85145342183111e-05,
+                "addresstype": "office",
+                "name": "ETH Z\u00fcrich",
+                "display_name": "ETH Z\u00fcrich, 130, Binzm\u00fchlestrasse, Oerlikon, Kreis 11, Z\u00fcrich, Bezirk Z\u00fcrich, Z\u00fcrich, 8050, Schweiz/Suisse/Svizzera/Svizra",
+                "address": {
+                    "office": "ETH Z\u00fcrich",
+                    "house_number": "130",
+                    "road": "Binzm\u00fchlestrasse",
+                    "suburb": "Oerlikon",
+                    "city": "Z\u00fcrich",
+                    "county": "Bezirk Z\u00fcrich",
+                    "state": "Z\u00fcrich",
+                    "ISO3166-2-lvl4": "CH-ZH",
+                    "postcode": "8050",
+                    "country": "Schweiz/Suisse/Svizzera/Svizra",
+                    "country_code": "ch"
+                },
+                "university_id": 6,
+                "university_name": "Eth Zurich - Swiss Federal Institute Of Technology"
+            },
+            "bbox": [
+                8.5374414,
+                47.413168,
+                8.5375414,
+                47.413268
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5374914,
+                    47.413218
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 243339592,
+                "osm_type": "node",
+                "osm_id": 306328978,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "traffic_signals",
+                "importance": 8.593499656667457e-05,
+                "addresstype": "highway",
+                "name": "\u56fd\u7acb\u6771\u4eac\u9ad8\u5c02",
+                "display_name": "\u56fd\u7acb\u6771\u4eac\u9ad8\u5c02, \u691a\u7530\u907a\u8de1\u516c\u5712\u901a\u308a, \u691a\u7530\u753a, \u516b\u738b\u5b50\u5e02, \u6771\u4eac\u90fd, 193-0942, \u65e5\u672c",
+                "address": {
+                    "highway": "\u56fd\u7acb\u6771\u4eac\u9ad8\u5c02",
+                    "road": "\u691a\u7530\u907a\u8de1\u516c\u5712\u901a\u308a",
+                    "neighbourhood": "\u691a\u7530\u753a",
+                    "city": "\u516b\u738b\u5b50\u5e02",
+                    "ISO3166-2-lvl4": "JP-13",
+                    "postcode": "193-0942",
+                    "country": "\u65e5\u672c",
+                    "country_code": "jp"
+                },
+                "university_id": 84,
+                "university_name": "Tokyo Institute Of Technology (Tokyo Tech)"
+            },
+            "bbox": [
+                139.3008389,
+                35.6381746,
+                139.3009389,
+                35.6382746
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.3008889,
+                    35.6382246
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 394531164,
+                "osm_type": "way",
+                "osm_id": 1342821538,
+                "place_rank": 30,
+                "category": "tourism",
+                "type": "artwork",
+                "importance": 6.50988021667356e-05,
+                "addresstype": "tourism",
+                "name": "University of Newcastle",
+                "display_name": "University of Newcastle, Ring Road, Callaghan, Newcastle, Newcastle-Maitland, City of Newcastle, New South Wales, 2308, Australia",
+                "address": {
+                    "tourism": "University of Newcastle",
+                    "road": "Ring Road",
+                    "suburb": "Callaghan",
+                    "city": "Newcastle",
+                    "municipality": "City of Newcastle",
+                    "state": "New South Wales",
+                    "ISO3166-2-lvl4": "AU-NSW",
+                    "postcode": "2308",
+                    "country": "Australia",
+                    "country_code": "au"
+                },
+                "university_id": 178,
+                "university_name": "The University Of Newcastle, Australia (Uon)"
+            },
+            "bbox": [
+                151.6977409,
+                -32.8950322,
+                151.697993,
+                -32.8950096
+            ],
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        151.697993,
+                        -32.8950203
+                    ],
+                    [
+                        151.6979065,
+                        -32.8950322
+                    ],
+                    [
+                        151.697828,
+                        -32.8950293
+                    ],
+                    [
+                        151.6977409,
+                        -32.8950096
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 82005006,
+                "osm_type": "way",
+                "osm_id": 250759372,
+                "place_rank": 30,
+                "category": "railway",
+                "type": "platform",
+                "importance": 7.913862821388598e-05,
+                "addresstype": "railway",
+                "name": "ENS Lyon",
+                "display_name": "ENS Lyon, Avenue Debourg, Le Bon Lait, Gerland, Lyon 7e Arrondissement, Lyon, M\u00e9tropole de Lyon, Rh\u00f4ne, Auvergne-Rh\u00f4ne-Alpes, France m\u00e9tropolitaine, 69007, France",
+                "address": {
+                    "railway": "ENS Lyon",
+                    "road": "Avenue Debourg",
+                    "quarter": "Le Bon Lait",
+                    "suburb": "Gerland",
+                    "city": "Lyon",
+                    "municipality": "Lyon",
+                    "county": "M\u00e9tropole de Lyon",
+                    "ISO3166-2-lvl6": "FR-69M",
+                    "state_district": "Rh\u00f4ne",
+                    "state": "Auvergne-Rh\u00f4ne-Alpes",
+                    "ISO3166-2-lvl4": "FR-ARA",
+                    "region": "France m\u00e9tropolitaine",
+                    "postcode": "69007",
+                    "country": "France",
+                    "country_code": "fr"
+                },
+                "university_id": 186,
+                "university_name": "\u00c9cole Normale Sup\u00e9rieure De Lyon"
+            },
+            "bbox": [
+                4.8283507,
+                45.7313971,
+                4.8292472,
+                45.7314604
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4.8283507,
+                            45.7314336
+                        ],
+                        [
+                            4.8292437,
+                            45.7313971
+                        ],
+                        [
+                            4.8292452,
+                            45.7314098
+                        ],
+                        [
+                            4.8292472,
+                            45.7314267
+                        ],
+                        [
+                            4.8283523,
+                            45.7314604
+                        ],
+                        [
+                            4.8283514,
+                            45.7314461
+                        ],
+                        [
+                            4.8283507,
+                            45.7314336
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 113020969,
+                "osm_type": "way",
+                "osm_id": 949322216,
+                "place_rank": 30,
+                "category": "building",
+                "type": "yes",
+                "importance": 7.148928053707205e-05,
+                "addresstype": "building",
+                "name": "TU",
+                "display_name": "TU, Prinzenschneise, Wixhausen, Darmstadt, Hessen, 64291, Deutschland",
+                "address": {
+                    "building": "TU",
+                    "road": "Prinzenschneise",
+                    "city_district": "Wixhausen",
+                    "city": "Darmstadt",
+                    "municipality": "Darmstadt",
+                    "state": "Hessen",
+                    "ISO3166-2-lvl4": "DE-HE",
+                    "postcode": "64291",
+                    "country": "Deutschland",
+                    "country_code": "de"
+                },
+                "university_id": 241,
+                "university_name": "Technical University Of Darmstadt"
+            },
+            "bbox": [
+                8.6781988,
+                49.9314257,
+                8.6797971,
+                49.931496
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.6781988,
+                            49.9314257
+                        ],
+                        [
+                            8.6797971,
+                            49.931435
+                        ],
+                        [
+                            8.6797965,
+                            49.931496
+                        ],
+                        [
+                            8.6797326,
+                            49.9314958
+                        ],
+                        [
+                            8.6794503,
+                            49.9314949
+                        ],
+                        [
+                            8.6790536,
+                            49.9314934
+                        ],
+                        [
+                            8.6787482,
+                            49.9314914
+                        ],
+                        [
+                            8.6781993,
+                            49.9314881
+                        ],
+                        [
+                            8.6781988,
+                            49.9314257
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 60674698,
+                "osm_type": "way",
+                "osm_id": 1124222585,
+                "place_rank": 22,
+                "category": "waterway",
+                "type": "stream",
+                "importance": 0.1067153284504463,
+                "addresstype": "stream",
+                "name": "Aubach",
+                "display_name": "Aubach, Gundersdorf, Ragnitz, Bezirk Leibnitz, Steiermark, 8413, \u00d6sterreich",
+                "address": {
+                    "stream": "Aubach",
+                    "village": "Gundersdorf",
+                    "county": "Bezirk Leibnitz",
+                    "state": "Steiermark",
+                    "ISO3166-2-lvl4": "AT-6",
+                    "postcode": "8413",
+                    "country": "\u00d6sterreich",
+                    "country_code": "at"
+                },
+                "university_id": 249,
+                "university_name": "American University Of Beirut (Aub)"
+            },
+            "bbox": [
+                15.5791386,
+                46.8370191,
+                15.5869174,
+                46.8391779
+            ],
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        15.5791386,
+                        46.8370191
+                    ],
+                    [
+                        15.5794769,
+                        46.8371411
+                    ],
+                    [
+                        15.5796521,
+                        46.8371805
+                    ],
+                    [
+                        15.5797594,
+                        46.8372545
+                    ],
+                    [
+                        15.5799203,
+                        46.8372847
+                    ],
+                    [
+                        15.5802597,
+                        46.8372684
+                    ],
+                    [
+                        15.5805682,
+                        46.8371766
+                    ],
+                    [
+                        15.5808441,
+                        46.837133
+                    ],
+                    [
+                        15.5810129,
+                        46.8371868
+                    ],
+                    [
+                        15.5813207,
+                        46.8372426
+                    ],
+                    [
+                        15.5818141,
+                        46.8372567
+                    ],
+                    [
+                        15.5822481,
+                        46.8373433
+                    ],
+                    [
+                        15.5824298,
+                        46.837535
+                    ],
+                    [
+                        15.583067,
+                        46.837832
+                    ],
+                    [
+                        15.5833054,
+                        46.8378892
+                    ],
+                    [
+                        15.5835382,
+                        46.8381418
+                    ],
+                    [
+                        15.5837578,
+                        46.838247
+                    ],
+                    [
+                        15.5840601,
+                        46.8383362
+                    ],
+                    [
+                        15.5844607,
+                        46.8386188
+                    ],
+                    [
+                        15.5845947,
+                        46.8386686
+                    ],
+                    [
+                        15.585278,
+                        46.8387407
+                    ],
+                    [
+                        15.5859506,
+                        46.8387226
+                    ],
+                    [
+                        15.5864185,
+                        46.8387895
+                    ],
+                    [
+                        15.5866312,
+                        46.8388948
+                    ],
+                    [
+                        15.5868104,
+                        46.8390294
+                    ],
+                    [
+                        15.5869174,
+                        46.8391779
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 27077777,
+                "osm_type": "way",
+                "osm_id": 177629384,
+                "place_rank": 30,
+                "category": "place",
+                "type": "house",
+                "importance": 0.4977934830316414,
+                "addresstype": "place",
+                "name": "Institut Teknologi Bandung",
+                "display_name": "Institut Teknologi Bandung, 10-12, Taman Hewan, Lebak Siliwangi, Coblong, Kota Bandung, Jawa Barat, Jawa, 40132, Indonesia",
+                "address": {
+                    "place": "Institut Teknologi Bandung",
+                    "house_number": "10-12",
+                    "road": "Taman Hewan",
+                    "village": "Lebak Siliwangi",
+                    "subdistrict": "Coblong",
+                    "city": "Kota Bandung",
+                    "state": "Jawa Barat",
+                    "ISO3166-2-lvl4": "ID-JB",
+                    "region": "Jawa",
+                    "ISO3166-2-lvl3": "ID-JW",
+                    "postcode": "40132",
+                    "country": "Indonesia",
+                    "country_code": "id"
+                },
+                "university_id": 255,
+                "university_name": "Bandung Institute Of Technology (Itb)"
+            },
+            "bbox": [
+                107.6081711,
+                -6.8936567,
+                107.6127309,
+                -6.8873266
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            107.6081711,
+                            -6.8914998
+                        ],
+                        [
+                            107.6081752,
+                            -6.8920734
+                        ],
+                        [
+                            107.6081765,
+                            -6.8923945
+                        ],
+                        [
+                            107.6081971,
+                            -6.8925159
+                        ],
+                        [
+                            107.6082756,
+                            -6.8928143
+                        ],
+                        [
+                            107.6084654,
+                            -6.8933882
+                        ],
+                        [
+                            107.6085197,
+                            -6.8935514
+                        ],
+                        [
+                            107.6085547,
+                            -6.8936567
+                        ],
+                        [
+                            107.6086186,
+                            -6.8936319
+                        ],
+                        [
+                            107.6087531,
+                            -6.8935797
+                        ],
+                        [
+                            107.6090054,
+                            -6.8934818
+                        ],
+                        [
+                            107.6093543,
+                            -6.8933439
+                        ],
+                        [
+                            107.6097943,
+                            -6.8932693
+                        ],
+                        [
+                            107.610043,
+                            -6.8932272
+                        ],
+                        [
+                            107.6101995,
+                            -6.8931979
+                        ],
+                        [
+                            107.6102615,
+                            -6.8931354
+                        ],
+                        [
+                            107.6102904,
+                            -6.8930795
+                        ],
+                        [
+                            107.6102874,
+                            -6.8929403
+                        ],
+                        [
+                            107.6103163,
+                            -6.8928813
+                        ],
+                        [
+                            107.6104139,
+                            -6.8928737
+                        ],
+                        [
+                            107.6105099,
+                            -6.8928722
+                        ],
+                        [
+                            107.6105693,
+                            -6.89291
+                        ],
+                        [
+                            107.6105846,
+                            -6.8931181
+                        ],
+                        [
+                            107.6106231,
+                            -6.8931598
+                        ],
+                        [
+                            107.6107212,
+                            -6.8931726
+                        ],
+                        [
+                            107.610878,
+                            -6.8932004
+                        ],
+                        [
+                            107.6111272,
+                            -6.8932589
+                        ],
+                        [
+                            107.611547,
+                            -6.8934006
+                        ],
+                        [
+                            107.6118264,
+                            -6.8935094
+                        ],
+                        [
+                            107.6118615,
+                            -6.8935265
+                        ],
+                        [
+                            107.6119555,
+                            -6.8935512
+                        ],
+                        [
+                            107.6119573,
+                            -6.8934055
+                        ],
+                        [
+                            107.6119912,
+                            -6.8925976
+                        ],
+                        [
+                            107.6120578,
+                            -6.8922957
+                        ],
+                        [
+                            107.6122531,
+                            -6.8919813
+                        ],
+                        [
+                            107.612414,
+                            -6.8909481
+                        ],
+                        [
+                            107.6124899,
+                            -6.8899297
+                        ],
+                        [
+                            107.6125568,
+                            -6.8893049
+                        ],
+                        [
+                            107.6126358,
+                            -6.8886502
+                        ],
+                        [
+                            107.6127028,
+                            -6.8885266
+                        ],
+                        [
+                            107.6127309,
+                            -6.8882201
+                        ],
+                        [
+                            107.6120407,
+                            -6.8881536
+                        ],
+                        [
+                            107.6120465,
+                            -6.8874292
+                        ],
+                        [
+                            107.6119814,
+                            -6.887421
+                        ],
+                        [
+                            107.6114592,
+                            -6.8873266
+                        ],
+                        [
+                            107.6102684,
+                            -6.8877302
+                        ],
+                        [
+                            107.6097574,
+                            -6.8877695
+                        ],
+                        [
+                            107.6092418,
+                            -6.8878148
+                        ],
+                        [
+                            107.6086262,
+                            -6.8878687
+                        ],
+                        [
+                            107.6084532,
+                            -6.887888
+                        ],
+                        [
+                            107.6083674,
+                            -6.8879353
+                        ],
+                        [
+                            107.6083106,
+                            -6.8880141
+                        ],
+                        [
+                            107.608265,
+                            -6.8880887
+                        ],
+                        [
+                            107.6082221,
+                            -6.8882298
+                        ],
+                        [
+                            107.6081916,
+                            -6.8888493
+                        ],
+                        [
+                            107.6081952,
+                            -6.8896385
+                        ],
+                        [
+                            107.6081791,
+                            -6.8900805
+                        ],
+                        [
+                            107.6081727,
+                            -6.890817
+                        ],
+                        [
+                            107.6081711,
+                            -6.8914998
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 224703959,
+                "osm_type": "way",
+                "osm_id": 1138189976,
+                "place_rank": 30,
+                "category": "railway",
+                "type": "station",
+                "importance": 0.20759174723523172,
+                "addresstype": "railway",
+                "name": "IIT Kanpur",
+                "display_name": "IIT Kanpur, NH34, Kanpur, Kanpur Nagar, Uttar Pradesh, 208016, India",
+                "address": {
+                    "railway": "IIT Kanpur",
+                    "road": "NH34",
+                    "city": "Kanpur",
+                    "state_district": "Kanpur Nagar",
+                    "state": "Uttar Pradesh",
+                    "ISO3166-2-lvl4": "IN-UP",
+                    "postcode": "208016",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 262,
+                "university_name": "Indian Institute Of Technology Kanpur (Iitk)"
+            },
+            "bbox": [
+                80.2479683,
+                26.5088451,
+                80.2486574,
+                26.5095668
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            80.2479683,
+                            26.5094249
+                        ],
+                        [
+                            80.2481639,
+                            26.5091867
+                        ],
+                        [
+                            80.2481207,
+                            26.5091583
+                        ],
+                        [
+                            80.2482449,
+                            26.5090071
+                        ],
+                        [
+                            80.2482829,
+                            26.5090322
+                        ],
+                        [
+                            80.2484365,
+                            26.5088451
+                        ],
+                        [
+                            80.2486574,
+                            26.5089904
+                        ],
+                        [
+                            80.2481841,
+                            26.5095668
+                        ],
+                        [
+                            80.2479683,
+                            26.5094249
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 269682777,
+                "osm_type": "node",
+                "osm_id": 5079192913,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "bicycle_rental",
+                "importance": 6.331960021358079e-05,
+                "addresstype": "amenity",
+                "name": "Gbici - Univ. UC3M",
+                "display_name": "Gbici - Univ. UC3M, 126, Calle Madrid, Las Margaritas, Getafe, Comunidad de Madrid, 28903, Espa\u00f1a",
+                "address": {
+                    "amenity": "Gbici - Univ. UC3M",
+                    "house_number": "126",
+                    "road": "Calle Madrid",
+                    "suburb": "Las Margaritas",
+                    "city": "Getafe",
+                    "state": "Comunidad de Madrid",
+                    "ISO3166-2-lvl4": "ES-MD",
+                    "postcode": "28903",
+                    "country": "Espa\u00f1a",
+                    "country_code": "es"
+                },
+                "university_id": 285,
+                "university_name": "Universidad Carlos Iii De Madrid (Uc3M)"
+            },
+            "bbox": [
+                -3.7269481,
+                40.3165132,
+                -3.7268481,
+                40.3166132
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.7268981,
+                    40.3165632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 250195581,
+                "osm_type": "node",
+                "osm_id": 4636161180,
+                "place_rank": 30,
+                "category": "tourism",
+                "type": "information",
+                "importance": 7.06881818874955e-05,
+                "addresstype": "tourism",
+                "name": "DGIST \ud6c4\ubb38",
+                "display_name": "DGIST \ud6c4\ubb38, 333, \ud14c\ud06c\ub178\uc911\uc559\ub300\ub85c, \uc720\uac00\uc74d, \ub2ec\uc131\uad70, \ub300\uad6c\uad11\uc5ed\uc2dc, 42988, \ub300\ud55c\ubbfc\uad6d",
+                "address": {
+                    "tourism": "DGIST \ud6c4\ubb38",
+                    "house_number": "333",
+                    "road": "\ud14c\ud06c\ub178\uc911\uc559\ub300\ub85c",
+                    "town": "\uc720\uac00\uc74d",
+                    "county": "\ub2ec\uc131\uad70",
+                    "city": "\ub300\uad6c\uad11\uc5ed\uc2dc",
+                    "ISO3166-2-lvl4": "KR-27",
+                    "postcode": "42988",
+                    "country": "\ub300\ud55c\ubbfc\uad6d",
+                    "country_code": "kr"
+                },
+                "university_id": 325,
+                "university_name": "Daegu Gyeongbuk Institute Of Science And Technology (Dgist)"
+            },
+            "bbox": [
+                128.4541674,
+                35.7027747,
+                128.4542674,
+                35.7028747
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    128.4542174,
+                    35.7028247
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 155805820,
+                "osm_type": "node",
+                "osm_id": 782442079,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 6.325551232161467e-05,
+                "addresstype": "highway",
+                "name": "LUT-Yliopisto",
+                "display_name": "LUT-Yliopisto, Yliopistonkatu, Skinnarila, Lappeenranta, Lappeenrannan seutukunta, Etel\u00e4-Karjala, Manner-Suomi, 53810, Suomi / Finland",
+                "address": {
+                    "highway": "LUT-Yliopisto",
+                    "road": "Yliopistonkatu",
+                    "suburb": "Skinnarila",
+                    "city": "Lappeenranta",
+                    "municipality": "Lappeenrannan seutukunta",
+                    "state": "Etel\u00e4-Karjala",
+                    "ISO3166-2-lvl4": "FI-02",
+                    "region": "Manner-Suomi",
+                    "postcode": "53810",
+                    "country": "Suomi / Finland",
+                    "country_code": "fi"
+                },
+                "university_id": 336,
+                "university_name": "Lappeenranta-Lahti University Of Technology Lut"
+            },
+            "bbox": [
+                28.0950247,
+                61.0651526,
+                28.0951247,
+                61.0652526
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.0950747,
+                    61.0652026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 212197634,
+                "osm_type": "node",
+                "osm_id": 7242298925,
+                "place_rank": 30,
+                "category": "office",
+                "type": "quango",
+                "importance": 7.457007705801507e-05,
+                "addresstype": "office",
+                "name": "La French Tech Taiwan",
+                "display_name": "La French Tech Taiwan, N.2, \u5357\u4eac\u6771\u8def\u56db\u6bb5, \u7f8e\u4ec1\u91cc, \u677e\u5c71\u5340, \u4e2d\u5d19, \u81fa\u5317\u5e02, 105, \u81fa\u7063",
+                "address": {
+                    "office": "La French Tech Taiwan",
+                    "house_number": "N.2",
+                    "road": "\u5357\u4eac\u6771\u8def\u56db\u6bb5",
+                    "neighbourhood": "\u7f8e\u4ec1\u91cc",
+                    "suburb": "\u677e\u5c71\u5340",
+                    "village": "\u4e2d\u5d19",
+                    "city": "\u81fa\u5317\u5e02",
+                    "ISO3166-2-lvl4": "TW-TPE",
+                    "postcode": "105",
+                    "country": "\u81fa\u7063",
+                    "country_code": "tw"
+                },
+                "university_id": 391,
+                "university_name": "National Taiwan University Of Science And Technology (Taiwan Tech)"
+            },
+            "bbox": [
+                121.5495396,
+                25.050276,
+                121.5496396,
+                25.050376
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.5495896,
+                    25.050326
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 82175805,
+                "osm_type": "way",
+                "osm_id": 446223786,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "college",
+                "importance": 0.48763187125830926,
+                "addresstype": "amenity",
+                "name": "Institut National des Sciences Appliqu\u00e9es de Lyon",
+                "display_name": "Institut National des Sciences Appliqu\u00e9es de Lyon, 20, Avenue Albert Einstein, Croix-Luizet, Villeurbanne, Lyon, M\u00e9tropole de Lyon, Rh\u00f4ne, Auvergne-Rh\u00f4ne-Alpes, France m\u00e9tropolitaine, 69100, France",
+                "address": {
+                    "amenity": "Institut National des Sciences Appliqu\u00e9es de Lyon",
+                    "house_number": "20",
+                    "road": "Avenue Albert Einstein",
+                    "suburb": "Croix-Luizet",
+                    "city": "Villeurbanne",
+                    "municipality": "Lyon",
+                    "county": "M\u00e9tropole de Lyon",
+                    "ISO3166-2-lvl6": "FR-69M",
+                    "state_district": "Rh\u00f4ne",
+                    "state": "Auvergne-Rh\u00f4ne-Alpes",
+                    "ISO3166-2-lvl4": "FR-ARA",
+                    "region": "France m\u00e9tropolitaine",
+                    "postcode": "69100",
+                    "country": "France",
+                    "country_code": "fr"
+                },
+                "university_id": 404,
+                "university_name": "Institut National Des Sciences Appliqu\u00e9es De Lyon (Insa)"
+            },
+            "bbox": [
+                4.8707876,
+                45.7792446,
+                4.884328,
+                45.787047
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            4.8707876,
+                            45.7848934
+                        ],
+                        [
+                            4.8708259,
+                            45.7848063
+                        ],
+                        [
+                            4.8708464,
+                            45.7847615
+                        ],
+                        [
+                            4.8712991,
+                            45.7837518
+                        ],
+                        [
+                            4.8713561,
+                            45.7837643
+                        ],
+                        [
+                            4.8714243,
+                            45.7837792
+                        ],
+                        [
+                            4.8715265,
+                            45.7838026
+                        ],
+                        [
+                            4.8715518,
+                            45.7838079
+                        ],
+                        [
+                            4.8716529,
+                            45.7838306
+                        ],
+                        [
+                            4.871716,
+                            45.7838333
+                        ],
+                        [
+                            4.8721885,
+                            45.7839358
+                        ],
+                        [
+                            4.8722708,
+                            45.7839554
+                        ],
+                        [
+                            4.8723065,
+                            45.7839612
+                        ],
+                        [
+                            4.8724008,
+                            45.7837562
+                        ],
+                        [
+                            4.8724234,
+                            45.7837041
+                        ],
+                        [
+                            4.8725906,
+                            45.7833066
+                        ],
+                        [
+                            4.8722974,
+                            45.7832357
+                        ],
+                        [
+                            4.8722004,
+                            45.7832147
+                        ],
+                        [
+                            4.8721876,
+                            45.7832117
+                        ],
+                        [
+                            4.8711149,
+                            45.7829693
+                        ],
+                        [
+                            4.8711366,
+                            45.7829223
+                        ],
+                        [
+                            4.8711478,
+                            45.7828966
+                        ],
+                        [
+                            4.8714957,
+                            45.7821376
+                        ],
+                        [
+                            4.8715338,
+                            45.7820551
+                        ],
+                        [
+                            4.8717171,
+                            45.7816591
+                        ],
+                        [
+                            4.8718873,
+                            45.7812913
+                        ],
+                        [
+                            4.8720166,
+                            45.7810142
+                        ],
+                        [
+                            4.8717731,
+                            45.7809576
+                        ],
+                        [
+                            4.8724866,
+                            45.7793154
+                        ],
+                        [
+                            4.8725172,
+                            45.7792446
+                        ],
+                        [
+                            4.8726129,
+                            45.7792564
+                        ],
+                        [
+                            4.8731304,
+                            45.7793323
+                        ],
+                        [
+                            4.8732642,
+                            45.7793527
+                        ],
+                        [
+                            4.8735868,
+                            45.7794082
+                        ],
+                        [
+                            4.8738174,
+                            45.7794502
+                        ],
+                        [
+                            4.8739439,
+                            45.7794732
+                        ],
+                        [
+                            4.8742883,
+                            45.7795413
+                        ],
+                        [
+                            4.8746986,
+                            45.7796304
+                        ],
+                        [
+                            4.8747558,
+                            45.7796417
+                        ],
+                        [
+                            4.8741245,
+                            45.781069
+                        ],
+                        [
+                            4.8752671,
+                            45.7813259
+                        ],
+                        [
+                            4.8752211,
+                            45.7814226
+                        ],
+                        [
+                            4.8750765,
+                            45.7817329
+                        ],
+                        [
+                            4.8749647,
+                            45.7819759
+                        ],
+                        [
+                            4.8750401,
+                            45.7819927
+                        ],
+                        [
+                            4.8751244,
+                            45.7820116
+                        ],
+                        [
+                            4.8755761,
+                            45.7821125
+                        ],
+                        [
+                            4.8757624,
+                            45.7821541
+                        ],
+                        [
+                            4.877093,
+                            45.7824513
+                        ],
+                        [
+                            4.8772802,
+                            45.7824334
+                        ],
+                        [
+                            4.8791935,
+                            45.7828311
+                        ],
+                        [
+                            4.8834972,
+                            45.7838156
+                        ],
+                        [
+                            4.8834502,
+                            45.7839176
+                        ],
+                        [
+                            4.8840689,
+                            45.7840524
+                        ],
+                        [
+                            4.8841238,
+                            45.7839326
+                        ],
+                        [
+                            4.884328,
+                            45.7839799
+                        ],
+                        [
+                            4.8835525,
+                            45.7856901
+                        ],
+                        [
+                            4.8835436,
+                            45.785709
+                        ],
+                        [
+                            4.8834648,
+                            45.785691
+                        ],
+                        [
+                            4.8832778,
+                            45.7856498
+                        ],
+                        [
+                            4.8831144,
+                            45.7856134
+                        ],
+                        [
+                            4.8828131,
+                            45.7855464
+                        ],
+                        [
+                            4.8824347,
+                            45.7854622
+                        ],
+                        [
+                            4.8820301,
+                            45.7853722
+                        ],
+                        [
+                            4.8818136,
+                            45.785324
+                        ],
+                        [
+                            4.8817268,
+                            45.7853047
+                        ],
+                        [
+                            4.8815258,
+                            45.78526
+                        ],
+                        [
+                            4.8813673,
+                            45.7856193
+                        ],
+                        [
+                            4.8813519,
+                            45.7856541
+                        ],
+                        [
+                            4.8811381,
+                            45.7856092
+                        ],
+                        [
+                            4.8809477,
+                            45.7860238
+                        ],
+                        [
+                            4.8811914,
+                            45.786079
+                        ],
+                        [
+                            4.8811266,
+                            45.7862189
+                        ],
+                        [
+                            4.8809673,
+                            45.7865531
+                        ],
+                        [
+                            4.8807665,
+                            45.786966
+                        ],
+                        [
+                            4.8807297,
+                            45.787047
+                        ],
+                        [
+                            4.8805693,
+                            45.7870154
+                        ],
+                        [
+                            4.8780519,
+                            45.7864427
+                        ],
+                        [
+                            4.8755385,
+                            45.7858667
+                        ],
+                        [
+                            4.8755536,
+                            45.7858355
+                        ],
+                        [
+                            4.8760562,
+                            45.7847347
+                        ],
+                        [
+                            4.8760972,
+                            45.7846463
+                        ],
+                        [
+                            4.874559,
+                            45.7843082
+                        ],
+                        [
+                            4.8740041,
+                            45.7855352
+                        ],
+                        [
+                            4.8738908,
+                            45.7855104
+                        ],
+                        [
+                            4.8707876,
+                            45.7848934
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 260113571,
+                "osm_type": "node",
+                "osm_id": 7860903096,
+                "place_rank": 30,
+                "category": "railway",
+                "type": "station",
+                "importance": 0.3445378330881743,
+                "addresstype": "railway",
+                "name": "Birkbeck",
+                "display_name": "Birkbeck, Witham Road, Anerley, London Borough of Bromley, London, Greater London, England, SE20 7YB, United Kingdom",
+                "address": {
+                    "railway": "Birkbeck",
+                    "road": "Witham Road",
+                    "suburb": "Anerley",
+                    "city_district": "London Borough of Bromley",
+                    "ISO3166-2-lvl8": "GB-BRY",
+                    "city": "London",
+                    "state_district": "Greater London",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "SE20 7YB",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 407,
+                "university_name": "Birkbeck, University Of London"
+            },
+            "bbox": [
+                -0.0615394,
+                51.3984563,
+                -0.0515394,
+                51.4084563
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.0565394,
+                    51.4034563
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 155625384,
+                "osm_type": "way",
+                "osm_id": 694645860,
+                "place_rank": 26,
+                "category": "highway",
+                "type": "unclassified",
+                "importance": 0.05340702449073011,
+                "addresstype": "road",
+                "name": "Aurakatu",
+                "display_name": "Aurakatu, Aninkaistenm\u00e4ki, VI, Keskusta, Turku, Turun seutukunta, Varsinais-Suomi, Manner-Suomi, 20800, Suomi / Finland",
+                "address": {
+                    "road": "Aurakatu",
+                    "neighbourhood": "Aninkaistenm\u00e4ki",
+                    "suburb": "Keskusta",
+                    "city": "Turku",
+                    "municipality": "Turun seutukunta",
+                    "state": "Varsinais-Suomi",
+                    "ISO3166-2-lvl4": "FI-19",
+                    "region": "Manner-Suomi",
+                    "postcode": "20800",
+                    "country": "Suomi / Finland",
+                    "country_code": "fi"
+                },
+                "university_id": 484,
+                "university_name": "American University Of Ras Al Khaimah ( Aurak )"
+            },
+            "bbox": [
+                22.2666717,
+                60.4496812,
+                22.2681216,
+                60.4506935
+            ],
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        22.2666717,
+                        60.4506935
+                    ],
+                    [
+                        22.2668207,
+                        60.4505899
+                    ],
+                    [
+                        22.2668671,
+                        60.4505587
+                    ],
+                    [
+                        22.2669117,
+                        60.4505273
+                    ],
+                    [
+                        22.2671813,
+                        60.4503374
+                    ],
+                    [
+                        22.2674867,
+                        60.4501224
+                    ],
+                    [
+                        22.2677152,
+                        60.4499615
+                    ],
+                    [
+                        22.2678577,
+                        60.4498612
+                    ],
+                    [
+                        22.2678916,
+                        60.4498371
+                    ],
+                    [
+                        22.2679763,
+                        60.4497771
+                    ],
+                    [
+                        22.2681216,
+                        60.4496812
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 17112038,
+                "osm_type": "way",
+                "osm_id": 252615722,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "theatre",
+                "importance": 6.666590371552632e-05,
+                "addresstype": "amenity",
+                "name": "Taller de Teatro UNLP",
+                "display_name": "Taller de Teatro UNLP, 1076, Calle 10, La Plata, Partido de La Plata, Buenos Aires, B1900BHB, Argentina",
+                "address": {
+                    "amenity": "Taller de Teatro UNLP",
+                    "house_number": "1076",
+                    "road": "Calle 10",
+                    "city": "La Plata",
+                    "state_district": "Partido de La Plata",
+                    "state": "Buenos Aires",
+                    "ISO3166-2-lvl4": "AR-B",
+                    "postcode": "B1900BHB",
+                    "country": "Argentina",
+                    "country_code": "ar"
+                },
+                "university_id": 533,
+                "university_name": "Universidad Nacional De La Plata (Unlp)"
+            },
+            "bbox": [
+                -57.9498688,
+                -34.9198157,
+                -57.949604,
+                -34.9195969
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -57.9498688,
+                            -34.9197388
+                        ],
+                        [
+                            -57.9497724,
+                            -34.9198157
+                        ],
+                        [
+                            -57.949604,
+                            -34.9196738
+                        ],
+                        [
+                            -57.9497004,
+                            -34.9195969
+                        ],
+                        [
+                            -57.9498688,
+                            -34.9197388
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 317678816,
+                "osm_type": "way",
+                "osm_id": 469420916,
+                "place_rank": 24,
+                "category": "leisure",
+                "type": "park",
+                "importance": 0.272124500803288,
+                "addresstype": "park",
+                "name": "Lums Pond State Park",
+                "display_name": "Lums Pond State Park, New Castle County, Delaware, United States",
+                "address": {
+                    "park": "Lums Pond State Park",
+                    "county": "New Castle County",
+                    "state": "Delaware",
+                    "ISO3166-2-lvl4": "US-DE",
+                    "country": "United States",
+                    "country_code": "us"
+                },
+                "university_id": 534,
+                "university_name": "Lahore University Of Management Sciences (Lums)"
+            },
+            "bbox": [
+                -75.7380237,
+                39.5473234,
+                -75.697921,
+                39.5743809
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -75.7380237,
+                            39.57163
+                        ],
+                        [
+                            -75.7374422,
+                            39.567629
+                        ],
+                        [
+                            -75.7373568,
+                            39.5670415
+                        ],
+                        [
+                            -75.7371544,
+                            39.5670237
+                        ],
+                        [
+                            -75.7360372,
+                            39.5669257
+                        ],
+                        [
+                            -75.7360372,
+                            39.566107
+                        ],
+                        [
+                            -75.7372924,
+                            39.5660159
+                        ],
+                        [
+                            -75.7372868,
+                            39.565957
+                        ],
+                        [
+                            -75.7371957,
+                            39.5650041
+                        ],
+                        [
+                            -75.7371439,
+                            39.5644618
+                        ],
+                        [
+                            -75.7370837,
+                            39.5638322
+                        ],
+                        [
+                            -75.7369169,
+                            39.5620872
+                        ],
+                        [
+                            -75.7361747,
+                            39.5621211
+                        ],
+                        [
+                            -75.735539,
+                            39.5621501
+                        ],
+                        [
+                            -75.7352862,
+                            39.5621616
+                        ],
+                        [
+                            -75.7353137,
+                            39.5623922
+                        ],
+                        [
+                            -75.735372,
+                            39.5628813
+                        ],
+                        [
+                            -75.7338806,
+                            39.5629804
+                        ],
+                        [
+                            -75.7337768,
+                            39.5622372
+                        ],
+                        [
+                            -75.7333819,
+                            39.562269
+                        ],
+                        [
+                            -75.7332691,
+                            39.5615655
+                        ],
+                        [
+                            -75.7337282,
+                            39.5615361
+                        ],
+                        [
+                            -75.7344753,
+                            39.5614882
+                        ],
+                        [
+                            -75.7346643,
+                            39.5614761
+                        ],
+                        [
+                            -75.7351145,
+                            39.5614497
+                        ],
+                        [
+                            -75.7351789,
+                            39.5620494
+                        ],
+                        [
+                            -75.7353562,
+                            39.5620351
+                        ],
+                        [
+                            -75.7367453,
+                            39.5619233
+                        ],
+                        [
+                            -75.7368955,
+                            39.5618219
+                        ],
+                        [
+                            -75.7367882,
+                            39.5607218
+                        ],
+                        [
+                            -75.7366988,
+                            39.5600472
+                        ],
+                        [
+                            -75.7363501,
+                            39.5574157
+                        ],
+                        [
+                            -75.7353049,
+                            39.5549052
+                        ],
+                        [
+                            -75.7350286,
+                            39.5544745
+                        ],
+                        [
+                            -75.7347116,
+                            39.5539801
+                        ],
+                        [
+                            -75.7343612,
+                            39.5534339
+                        ],
+                        [
+                            -75.7337844,
+                            39.5525345
+                        ],
+                        [
+                            -75.7317804,
+                            39.5500114
+                        ],
+                        [
+                            -75.7304428,
+                            39.5490131
+                        ],
+                        [
+                            -75.7303789,
+                            39.5489654
+                        ],
+                        [
+                            -75.7297019,
+                            39.5485621
+                        ],
+                        [
+                            -75.728378,
+                            39.5479301
+                        ],
+                        [
+                            -75.7263183,
+                            39.5474417
+                        ],
+                        [
+                            -75.7228662,
+                            39.5473234
+                        ],
+                        [
+                            -75.7209793,
+                            39.5474845
+                        ],
+                        [
+                            -75.7200139,
+                            39.5477906
+                        ],
+                        [
+                            -75.7196426,
+                            39.5479342
+                        ],
+                        [
+                            -75.7186437,
+                            39.5483205
+                        ],
+                        [
+                            -75.7139167,
+                            39.5502853
+                        ],
+                        [
+                            -75.7126762,
+                            39.5508252
+                        ],
+                        [
+                            -75.7114558,
+                            39.551351
+                        ],
+                        [
+                            -75.7112242,
+                            39.5514508
+                        ],
+                        [
+                            -75.7106525,
+                            39.5516971
+                        ],
+                        [
+                            -75.7100462,
+                            39.5519583
+                        ],
+                        [
+                            -75.7096193,
+                            39.5521557
+                        ],
+                        [
+                            -75.708354,
+                            39.5527406
+                        ],
+                        [
+                            -75.7080202,
+                            39.552895
+                        ],
+                        [
+                            -75.7060898,
+                            39.5537319
+                        ],
+                        [
+                            -75.7051914,
+                            39.5541354
+                        ],
+                        [
+                            -75.7046051,
+                            39.5545324
+                        ],
+                        [
+                            -75.7040756,
+                            39.5550534
+                        ],
+                        [
+                            -75.7040538,
+                            39.5550748
+                        ],
+                        [
+                            -75.7039497,
+                            39.5552409
+                        ],
+                        [
+                            -75.7044367,
+                            39.5560099
+                        ],
+                        [
+                            -75.7032887,
+                            39.5587313
+                        ],
+                        [
+                            -75.7023778,
+                            39.5585606
+                        ],
+                        [
+                            -75.6991079,
+                            39.5670252
+                        ],
+                        [
+                            -75.697921,
+                            39.5700274
+                        ],
+                        [
+                            -75.6983235,
+                            39.5701586
+                        ],
+                        [
+                            -75.6981906,
+                            39.5704427
+                        ],
+                        [
+                            -75.6982931,
+                            39.5704825
+                        ],
+                        [
+                            -75.6982104,
+                            39.5706729
+                        ],
+                        [
+                            -75.7017587,
+                            39.5718122
+                        ],
+                        [
+                            -75.7044334,
+                            39.5727855
+                        ],
+                        [
+                            -75.705561,
+                            39.5731038
+                        ],
+                        [
+                            -75.7059727,
+                            39.5731603
+                        ],
+                        [
+                            -75.7063901,
+                            39.573154
+                        ],
+                        [
+                            -75.706804,
+                            39.572636
+                        ],
+                        [
+                            -75.7068499,
+                            39.5725785
+                        ],
+                        [
+                            -75.707334,
+                            39.5720104
+                        ],
+                        [
+                            -75.7079998,
+                            39.5713288
+                        ],
+                        [
+                            -75.7082849,
+                            39.5710369
+                        ],
+                        [
+                            -75.7087979,
+                            39.5705091
+                        ],
+                        [
+                            -75.709567,
+                            39.5697179
+                        ],
+                        [
+                            -75.7101371,
+                            39.5691313
+                        ],
+                        [
+                            -75.7103913,
+                            39.5688698
+                        ],
+                        [
+                            -75.7113418,
+                            39.5694549
+                        ],
+                        [
+                            -75.7089647,
+                            39.5716459
+                        ],
+                        [
+                            -75.7094731,
+                            39.5719443
+                        ],
+                        [
+                            -75.7102372,
+                            39.5718623
+                        ],
+                        [
+                            -75.7122053,
+                            39.571651
+                        ],
+                        [
+                            -75.7123324,
+                            39.5725743
+                        ],
+                        [
+                            -75.7168825,
+                            39.5721639
+                        ],
+                        [
+                            -75.7166956,
+                            39.5712195
+                        ],
+                        [
+                            -75.7195774,
+                            39.5710719
+                        ],
+                        [
+                            -75.7228469,
+                            39.5707876
+                        ],
+                        [
+                            -75.7229801,
+                            39.5715394
+                        ],
+                        [
+                            -75.7237663,
+                            39.5714633
+                        ],
+                        [
+                            -75.7243036,
+                            39.5714113
+                        ],
+                        [
+                            -75.7243992,
+                            39.571402
+                        ],
+                        [
+                            -75.7243128,
+                            39.5708087
+                        ],
+                        [
+                            -75.7249936,
+                            39.5707311
+                        ],
+                        [
+                            -75.725101,
+                            39.5713334
+                        ],
+                        [
+                            -75.7263734,
+                            39.5712173
+                        ],
+                        [
+                            -75.7262837,
+                            39.5705983
+                        ],
+                        [
+                            -75.7276632,
+                            39.5704569
+                        ],
+                        [
+                            -75.7277884,
+                            39.571233
+                        ],
+                        [
+                            -75.7275003,
+                            39.5712653
+                        ],
+                        [
+                            -75.727577,
+                            39.5742004
+                        ],
+                        [
+                            -75.7279021,
+                            39.5743809
+                        ],
+                        [
+                            -75.7306121,
+                            39.5729308
+                        ],
+                        [
+                            -75.7319981,
+                            39.5739587
+                        ],
+                        [
+                            -75.733869,
+                            39.5719871
+                        ],
+                        [
+                            -75.7335766,
+                            39.5706489
+                        ],
+                        [
+                            -75.7346441,
+                            39.5705528
+                        ],
+                        [
+                            -75.7348051,
+                            39.5713529
+                        ],
+                        [
+                            -75.7366182,
+                            39.5717313
+                        ],
+                        [
+                            -75.7380237,
+                            39.57163
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 252261299,
+                "osm_type": "node",
+                "osm_id": 502591255,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 7.204776073849115e-05,
+                "addresstype": "highway",
+                "name": "Northumbria University",
+                "display_name": "Northumbria University, Sandyford Road, Haymarket, Newcastle upon Tyne, Tyne and Wear, North East, England, NE99 1NT, United Kingdom",
+                "address": {
+                    "highway": "Northumbria University",
+                    "road": "Sandyford Road",
+                    "suburb": "Haymarket",
+                    "city": "Newcastle upon Tyne",
+                    "ISO3166-2-lvl8": "GB-NET",
+                    "county": "Tyne and Wear",
+                    "state_district": "North East",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "NE99 1NT",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 535,
+                "university_name": "Northumbria University At Newcastle"
+            },
+            "bbox": [
+                -1.6096901,
+                54.9787191,
+                -1.6095901,
+                54.9788191
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.6096401,
+                    54.9787691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 225464271,
+                "osm_type": "node",
+                "osm_id": 12050509463,
+                "place_rank": 30,
+                "category": "office",
+                "type": "educational_institution",
+                "importance": 5.2462806134081296e-05,
+                "addresstype": "office",
+                "name": "Shoolini University",
+                "display_name": "Shoolini University, SH6, Solan, Himachal Pradesh, 173212, India",
+                "address": {
+                    "office": "Shoolini University",
+                    "road": "SH6",
+                    "city": "Solan",
+                    "county": "Solan",
+                    "state_district": "Solan",
+                    "state": "Himachal Pradesh",
+                    "ISO3166-2-lvl4": "IN-HP",
+                    "postcode": "173212",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 587,
+                "university_name": "Shoolini University Of Biotechnology And Management Sciences"
+            },
+            "bbox": [
+                77.1180994,
+                30.8644484,
+                77.1181994,
+                30.8645484
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.1181494,
+                    30.8644984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 229792197,
+                "osm_type": "way",
+                "osm_id": 1121681918,
+                "place_rank": 30,
+                "category": "building",
+                "type": "college",
+                "importance": 0.40257347745351757,
+                "addresstype": "building",
+                "name": "Atur Centre",
+                "display_name": "Atur Centre, Gokhale Road, Model Colony, Pune City, Pune, Maharashtra, 411016, India",
+                "address": {
+                    "building": "Atur Centre",
+                    "road": "Gokhale Road",
+                    "suburb": "Model Colony",
+                    "city": "Pune City",
+                    "state_district": "Pune",
+                    "state": "Maharashtra",
+                    "ISO3166-2-lvl4": "IN-MH",
+                    "postcode": "411016",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 652,
+                "university_name": "Symbiosis International (Deemed University)"
+            },
+            "bbox": [
+                73.8333555,
+                18.5331642,
+                73.8338011,
+                18.533457
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            73.8333555,
+                            18.5333335
+                        ],
+                        [
+                            73.833443,
+                            18.5331642
+                        ],
+                        [
+                            73.8334913,
+                            18.5331869
+                        ],
+                        [
+                            73.8335015,
+                            18.5331743
+                        ],
+                        [
+                            73.8335606,
+                            18.5332007
+                        ],
+                        [
+                            73.8335372,
+                            18.5332468
+                        ],
+                        [
+                            73.8335546,
+                            18.5332415
+                        ],
+                        [
+                            73.833572,
+                            18.5332339
+                        ],
+                        [
+                            73.8336087,
+                            18.5332356
+                        ],
+                        [
+                            73.83365,
+                            18.533251
+                        ],
+                        [
+                            73.8336761,
+                            18.533268
+                        ],
+                        [
+                            73.8336872,
+                            18.5332888
+                        ],
+                        [
+                            73.8336899,
+                            18.5333099
+                        ],
+                        [
+                            73.8337164,
+                            18.533265
+                        ],
+                        [
+                            73.8338011,
+                            18.5333076
+                        ],
+                        [
+                            73.8337231,
+                            18.533457
+                        ],
+                        [
+                            73.8336303,
+                            18.5334146
+                        ],
+                        [
+                            73.8336468,
+                            18.5333851
+                        ],
+                        [
+                            73.8336103,
+                            18.5333939
+                        ],
+                        [
+                            73.8335889,
+                            18.533389
+                        ],
+                        [
+                            73.8335558,
+                            18.5333756
+                        ],
+                        [
+                            73.8335249,
+                            18.5333614
+                        ],
+                        [
+                            73.8335123,
+                            18.5333481
+                        ],
+                        [
+                            73.8334962,
+                            18.5333239
+                        ],
+                        [
+                            73.8334709,
+                            18.5333721
+                        ],
+                        [
+                            73.8334009,
+                            18.5333408
+                        ],
+                        [
+                            73.8333957,
+                            18.5333514
+                        ],
+                        [
+                            73.8333555,
+                            18.5333335
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 147400326,
+                "osm_type": "way",
+                "osm_id": 849939285,
+                "place_rank": 26,
+                "category": "highway",
+                "type": "residential",
+                "importance": 0.05338114824139769,
+                "addresstype": "road",
+                "name": "Goldsmiths",
+                "display_name": "Goldsmiths, Ufford, East Suffolk, Suffolk, England, IP13 6FB, United Kingdom",
+                "address": {
+                    "road": "Goldsmiths",
+                    "village": "Ufford",
+                    "city": "East Suffolk",
+                    "county": "Suffolk",
+                    "ISO3166-2-lvl6": "GB-SFK",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "IP13 6FB",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 682,
+                "university_name": "Goldsmiths, University Of London"
+            },
+            "bbox": [
+                1.347339,
+                52.1243642,
+                1.3482992,
+                52.1248691
+            ],
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        1.347339,
+                        52.1243642
+                    ],
+                    [
+                        1.3475742,
+                        52.1245379
+                    ],
+                    [
+                        1.347624,
+                        52.1246581
+                    ],
+                    [
+                        1.347661,
+                        52.1247198
+                    ],
+                    [
+                        1.347698,
+                        52.1247716
+                    ],
+                    [
+                        1.3477417,
+                        52.124803
+                    ],
+                    [
+                        1.3477961,
+                        52.124831
+                    ],
+                    [
+                        1.3478478,
+                        52.1248533
+                    ],
+                    [
+                        1.347921,
+                        52.1248691
+                    ],
+                    [
+                        1.3479786,
+                        52.1248682
+                    ],
+                    [
+                        1.3480363,
+                        52.1248574
+                    ],
+                    [
+                        1.3480859,
+                        52.1248385
+                    ],
+                    [
+                        1.3481248,
+                        52.1248195
+                    ],
+                    [
+                        1.3482992,
+                        52.124732
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 226758120,
+                "osm_type": "node",
+                "osm_id": 4423130990,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "school",
+                "importance": 5.000152590214416e-05,
+                "addresstype": "amenity",
+                "name": "UET Lahore, Faisalabad Campus",
+                "display_name": "UET Lahore, Faisalabad Campus, Faisalabad ByPass, \u0631\u0627\u0645 \u0646\u06af\u0631, \u062a\u062d\u0635\u06cc\u0644 \u062c\u0691\u0627\u0646\u0648\u0627\u0644\u06c1, \u0636\u0644\u0639 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f, \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646",
+                "address": {
+                    "amenity": "UET Lahore, Faisalabad Campus",
+                    "road": "Faisalabad ByPass",
+                    "village": "\u0631\u0627\u0645 \u0646\u06af\u0631",
+                    "subdistrict": "\u062a\u062d\u0635\u06cc\u0644 \u062c\u0691\u0627\u0646\u0648\u0627\u0644\u06c1",
+                    "district": "\u0636\u0644\u0639 \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f",
+                    "historical_division": "\u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f \u0688\u0648\u06cc\u0698\u0646",
+                    "state": "\u067e\u0646\u062c\u0627\u0628",
+                    "ISO3166-2-lvl4": "PK-PB",
+                    "country": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646",
+                    "country_code": "pk"
+                },
+                "university_id": 760,
+                "university_name": "University Of Engineering & Technology (Uet) Lahore"
+            },
+            "bbox": [
+                73.2541289,
+                31.4659666,
+                73.2542289,
+                31.4660666
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.2541789,
+                    31.4660166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 229003395,
+                "osm_type": "node",
+                "osm_id": 4293343216,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 5.36987869077137e-05,
+                "addresstype": "highway",
+                "name": "BITS Pilani",
+                "display_name": "BITS Pilani, Lover's Lane, Kapra mandal, Medchal\u2013Malkajgiri, Telangana, 500087, India",
+                "address": {
+                    "highway": "BITS Pilani",
+                    "road": "Lover's Lane",
+                    "county": "Kapra mandal",
+                    "state_district": "Medchal\u2013Malkajgiri",
+                    "state": "Telangana",
+                    "ISO3166-2-lvl4": "IN-TS",
+                    "postcode": "500087",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 808,
+                "university_name": "Birla Institute Of Technology And Science, Pilani"
+            },
+            "bbox": [
+                78.572741,
+                17.547135,
+                78.572841,
+                17.547235
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.572791,
+                    17.547185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 291375509,
+                "osm_type": "way",
+                "osm_id": 134929514,
+                "place_rank": 26,
+                "category": "highway",
+                "type": "residential",
+                "importance": 0.053392973983367634,
+                "addresstype": "road",
+                "name": "Universidad Iberoamericana",
+                "display_name": "Universidad Iberoamericana, Saltillo, Coahuila, 25260, M\u00e9xico",
+                "address": {
+                    "road": "Universidad Iberoamericana",
+                    "city": "Saltillo",
+                    "county": "Saltillo",
+                    "state": "Coahuila",
+                    "ISO3166-2-lvl4": "MX-COA",
+                    "postcode": "25260",
+                    "country": "M\u00e9xico",
+                    "country_code": "mx"
+                },
+                "university_id": 830,
+                "university_name": "Universidad Iberoamericana Ibero"
+            },
+            "bbox": [
+                -101.004841,
+                25.4451014,
+                -101.0042196,
+                25.4453723
+            ],
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -101.004841,
+                        25.4453723
+                    ],
+                    [
+                        -101.0042196,
+                        25.4451014
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 232028947,
+                "osm_type": "node",
+                "osm_id": 6888414909,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "blood_bank",
+                "importance": 5.509498741126142e-05,
+                "addresstype": "amenity",
+                "name": "Saveetha Medical College and Hospital Blood Bank (A unit of Saveetha Institute of Medical and Technical Sciences)",
+                "display_name": "Saveetha Medical College and Hospital Blood Bank (A unit of Saveetha Institute of Medical and Technical Sciences), NH48, Thandalam, Sriperumbudur, Kanchipuram, Thiruvallur, Tamil Nadu, 602105, India",
+                "address": {
+                    "amenity": "Saveetha Medical College and Hospital Blood Bank (A unit of Saveetha Institute of Medical and Technical Sciences)",
+                    "road": "NH48",
+                    "village": "Thandalam",
+                    "municipality": "Sriperumbudur",
+                    "district": "Kanchipuram",
+                    "state_district": "Thiruvallur",
+                    "state": "Tamil Nadu",
+                    "ISO3166-2-lvl4": "IN-TN",
+                    "postcode": "602105",
+                    "country": "India",
+                    "country_code": "in"
+                },
+                "university_id": 989,
+                "university_name": "Saveetha Institute Of Medical And Technical Sciences (Deemed To Be University)"
+            },
+            "bbox": [
+                80.015561,
+                13.0245362,
+                80.015661,
+                13.0246362
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.015611,
+                    13.0245862
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 44804750,
+                "osm_type": "way",
+                "osm_id": 1000419510,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "college",
+                "importance": 7.960402838173521e-05,
+                "addresstype": "amenity",
+                "name": "Arab Academy for Science Technology & Maritime Transport",
+                "display_name": "Arab Academy for Science Technology & Maritime Transport, \u0634\u0627\u0631\u0639 \u0627\u0644\u0627\u0645\u064a\u0631 \u0648\u0644\u064a\u062f \u0628\u0646 \u062b\u0646\u064a\u0627\u0646, \u0628\u0644\u0648\u0643 1161, Sheraton, \u0627\u0644\u0642\u0627\u0647\u0631\u0629, 11799, \u0645\u0635\u0631",
+                "address": {
+                    "amenity": "Arab Academy for Science Technology & Maritime Transport",
+                    "road": "\u0634\u0627\u0631\u0639 \u0627\u0644\u0627\u0645\u064a\u0631 \u0648\u0644\u064a\u062f \u0628\u0646 \u062b\u0646\u064a\u0627\u0646",
+                    "neighbourhood": "\u0628\u0644\u0648\u0643 1161",
+                    "city": "\u0627\u0644\u0642\u0627\u0647\u0631\u0629",
+                    "state": "\u0627\u0644\u0642\u0627\u0647\u0631\u0629",
+                    "ISO3166-2-lvl4": "EG-C",
+                    "postcode": "11799",
+                    "country": "\u0645\u0635\u0631",
+                    "country_code": "eg"
+                },
+                "university_id": 1022,
+                "university_name": "Arab Academy For Science, Technology And Maritime Transport"
+            },
+            "bbox": [
+                31.3733006,
+                30.095762,
+                31.3739048,
+                30.0967924
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            31.3733006,
+                            30.0966961
+                        ],
+                        [
+                            31.3734066,
+                            30.0957986
+                        ],
+                        [
+                            31.3734743,
+                            30.0958021
+                        ],
+                        [
+                            31.3734763,
+                            30.095762
+                        ],
+                        [
+                            31.3738418,
+                            30.0957823
+                        ],
+                        [
+                            31.3738625,
+                            30.0957954
+                        ],
+                        [
+                            31.3738699,
+                            30.095816
+                        ],
+                        [
+                            31.3738699,
+                            30.0958511
+                        ],
+                        [
+                            31.3739048,
+                            30.0958537
+                        ],
+                        [
+                            31.3738954,
+                            30.0959767
+                        ],
+                        [
+                            31.3737881,
+                            30.0967547
+                        ],
+                        [
+                            31.3737177,
+                            30.0967924
+                        ],
+                        [
+                            31.3733677,
+                            30.0967651
+                        ],
+                        [
+                            31.3733006,
+                            30.0966961
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 312384910,
+                "osm_type": "way",
+                "osm_id": 564781459,
+                "place_rank": 24,
+                "category": "leisure",
+                "type": "park",
+                "importance": 0.08007400396734567,
+                "addresstype": "park",
+                "name": "Rotary Park Space at IUPUI",
+                "display_name": "Rotary Park Space at IUPUI, Indianapolis, Marion County, Indiana, United States",
+                "address": {
+                    "park": "Rotary Park Space at IUPUI",
+                    "city": "Indianapolis",
+                    "county": "Marion County",
+                    "state": "Indiana",
+                    "ISO3166-2-lvl4": "US-IN",
+                    "country": "United States",
+                    "country_code": "us"
+                },
+                "university_id": 1054,
+                "university_name": "Indiana University\u2013Purdue University Indianapolis"
+            },
+            "bbox": [
+                -86.1835316,
+                39.7747701,
+                -86.1814169,
+                39.7781171
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -86.1835316,
+                            39.7751251
+                        ],
+                        [
+                            -86.1834714,
+                            39.7749483
+                        ],
+                        [
+                            -86.1834502,
+                            39.7749197
+                        ],
+                        [
+                            -86.1833882,
+                            39.7748843
+                        ],
+                        [
+                            -86.1815514,
+                            39.7747701
+                        ],
+                        [
+                            -86.1814983,
+                            39.7748163
+                        ],
+                        [
+                            -86.1814948,
+                            39.7750081
+                        ],
+                        [
+                            -86.1814948,
+                            39.7750897
+                        ],
+                        [
+                            -86.1814346,
+                            39.7753576
+                        ],
+                        [
+                            -86.1814169,
+                            39.7757602
+                        ],
+                        [
+                            -86.1814222,
+                            39.7766524
+                        ],
+                        [
+                            -86.1814452,
+                            39.7771664
+                        ],
+                        [
+                            -86.1814293,
+                            39.7775717
+                        ],
+                        [
+                            -86.1814488,
+                            39.777656
+                        ],
+                        [
+                            -86.1814647,
+                            39.7780749
+                        ],
+                        [
+                            -86.1818469,
+                            39.7780831
+                        ],
+                        [
+                            -86.1822398,
+                            39.7781171
+                        ],
+                        [
+                            -86.1825976,
+                            39.7781127
+                        ],
+                        [
+                            -86.182752,
+                            39.7781107
+                        ],
+                        [
+                            -86.1827866,
+                            39.7781103
+                        ],
+                        [
+                            -86.1827848,
+                            39.7767217
+                        ],
+                        [
+                            -86.1827866,
+                            39.7761641
+                        ],
+                        [
+                            -86.182868,
+                            39.7759914
+                        ],
+                        [
+                            -86.1832113,
+                            39.775733
+                        ],
+                        [
+                            -86.1832024,
+                            39.7756691
+                        ],
+                        [
+                            -86.1831599,
+                            39.7756487
+                        ],
+                        [
+                            -86.1829264,
+                            39.7757765
+                        ],
+                        [
+                            -86.1827229,
+                            39.7757942
+                        ],
+                        [
+                            -86.182668,
+                            39.7758418
+                        ],
+                        [
+                            -86.1826326,
+                            39.7755684
+                        ],
+                        [
+                            -86.1823566,
+                            39.7755603
+                        ],
+                        [
+                            -86.182327,
+                            39.775533
+                        ],
+                        [
+                            -86.1823257,
+                            39.7754514
+                        ],
+                        [
+                            -86.1817071,
+                            39.7754419
+                        ],
+                        [
+                            -86.1817053,
+                            39.775155
+                        ],
+                        [
+                            -86.181785,
+                            39.7750543
+                        ],
+                        [
+                            -86.1823743,
+                            39.775053
+                        ],
+                        [
+                            -86.1827105,
+                            39.7749729
+                        ],
+                        [
+                            -86.1833953,
+                            39.7750005
+                        ],
+                        [
+                            -86.1833953,
+                            39.775164
+                        ],
+                        [
+                            -86.1834043,
+                            39.7752297
+                        ],
+                        [
+                            -86.1833743,
+                            39.7753863
+                        ],
+                        [
+                            -86.1833413,
+                            39.7754911
+                        ],
+                        [
+                            -86.1832724,
+                            39.7755325
+                        ],
+                        [
+                            -86.18315,
+                            39.7755288
+                        ],
+                        [
+                            -86.1831211,
+                            39.7755279
+                        ],
+                        [
+                            -86.183275,
+                            39.7756296
+                        ],
+                        [
+                            -86.1833546,
+                            39.7756337
+                        ],
+                        [
+                            -86.1833935,
+                            39.7755997
+                        ],
+                        [
+                            -86.1834519,
+                            39.7755181
+                        ],
+                        [
+                            -86.1834909,
+                            39.7754487
+                        ],
+                        [
+                            -86.1835139,
+                            39.7753753
+                        ],
+                        [
+                            -86.1835245,
+                            39.7752774
+                        ],
+                        [
+                            -86.1835298,
+                            39.7751999
+                        ],
+                        [
+                            -86.1835316,
+                            39.7751251
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 205791201,
+                "osm_type": "way",
+                "osm_id": 506068996,
+                "place_rank": 24,
+                "category": "leisure",
+                "type": "park",
+                "importance": 0.0800684161135271,
+                "addresstype": "park",
+                "name": "IIUI HOSTELS TRACK",
+                "display_name": "IIUI HOSTELS TRACK, \u062c\u06cc-10/2, \u0627\u06cc\u0641-10, \u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, \u0632\u0648\u0646 1, \u0648\u0641\u0627\u0642\u06cc \u062f\u0627\u0631\u0627\u0644\u062d\u06a9\u0648\u0645\u062a \u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f, 44000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646",
+                "address": {
+                    "park": "IIUI HOSTELS TRACK",
+                    "residential": "\u062c\u06cc-10/2",
+                    "suburb": "\u0627\u06cc\u0641-10",
+                    "city": "\u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f",
+                    "municipality": "\u0632\u0648\u0646 1",
+                    "state": "\u0648\u0641\u0627\u0642\u06cc \u062f\u0627\u0631\u0627\u0644\u062d\u06a9\u0648\u0645\u062a \u0627\u0633\u0644\u0627\u0645 \u0622\u0628\u0627\u062f",
+                    "ISO3166-2-lvl4": "PK-IS",
+                    "postcode": "44000",
+                    "country": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646",
+                    "country_code": "pk"
+                },
+                "university_id": 1056,
+                "university_name": "International Islamic University Islamabad (Iiu)"
+            },
+            "bbox": [
+                73.0052174,
+                33.6806404,
+                73.0063717,
+                33.6818391
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            73.0052174,
+                            33.6809354
+                        ],
+                        [
+                            73.0054287,
+                            33.6806404
+                        ],
+                        [
+                            73.0057702,
+                            33.6808055
+                        ],
+                        [
+                            73.0058222,
+                            33.6807135
+                        ],
+                        [
+                            73.0059328,
+                            33.6807541
+                        ],
+                        [
+                            73.0059328,
+                            33.6808326
+                        ],
+                        [
+                            73.0059458,
+                            33.6809273
+                        ],
+                        [
+                            73.0060271,
+                            33.6810571
+                        ],
+                        [
+                            73.0061116,
+                            33.6811302
+                        ],
+                        [
+                            73.0062092,
+                            33.6812087
+                        ],
+                        [
+                            73.0062677,
+                            33.6812871
+                        ],
+                        [
+                            73.0063165,
+                            33.6813656
+                        ],
+                        [
+                            73.0063555,
+                            33.681436
+                        ],
+                        [
+                            73.0063717,
+                            33.6815198
+                        ],
+                        [
+                            73.0063652,
+                            33.6815848
+                        ],
+                        [
+                            73.0063425,
+                            33.6816578
+                        ],
+                        [
+                            73.0062157,
+                            33.6818391
+                        ],
+                        [
+                            73.0052824,
+                            33.6813521
+                        ],
+                        [
+                            73.005484,
+                            33.681068
+                        ],
+                        [
+                            73.0052174,
+                            33.6809354
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 391247395,
+                "osm_type": "node",
+                "osm_id": 12407449968,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 7.041504539554463e-05,
+                "addresstype": "highway",
+                "name": "\u897f\u5317\u5927\u5b66",
+                "display_name": "\u897f\u5317\u5927\u5b66, \u592a\u767d\u5317\u8def, \u5f20\u5bb6\u6751\u8857\u9053, \u7891\u6797\u533a, \u897f\u5b89\u5e02, \u9655\u897f\u7701, 710069, \u4e2d\u56fd",
+                "address": {
+                    "highway": "\u897f\u5317\u5927\u5b66",
+                    "road": "\u592a\u767d\u5317\u8def",
+                    "suburb": "\u5f20\u5bb6\u6751\u8857\u9053",
+                    "city": "\u7891\u6797\u533a",
+                    "state": "\u9655\u897f\u7701",
+                    "ISO3166-2-lvl4": "CN-SN",
+                    "postcode": "710069",
+                    "country": "\u4e2d\u56fd",
+                    "country_code": "cn"
+                },
+                "university_id": 1084,
+                "university_name": "Northwest University (China)"
+            },
+            "bbox": [
+                108.9189273,
+                34.2488475,
+                108.9190273,
+                34.2489475
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.9189773,
+                    34.2488975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 258694937,
+                "osm_type": "node",
+                "osm_id": 5844132581,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "fast_food",
+                "importance": 6.515526054775338e-05,
+                "addresstype": "amenity",
+                "name": "Subway",
+                "display_name": "Subway, Nunn Mills Road, Northampton, West Northamptonshire, England, NN1 5PA, United Kingdom",
+                "address": {
+                    "amenity": "Subway",
+                    "road": "Nunn Mills Road",
+                    "town": "Northampton",
+                    "county": "West Northamptonshire",
+                    "ISO3166-2-lvl6": "GB-WNH",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "NN1 5PA",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
+                },
+                "university_id": 1117,
+                "university_name": "The University Of Northampton"
+            },
+            "bbox": [
+                -0.8899306,
+                52.2311958,
+                -0.8898306,
+                52.2312958
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.8898806,
+                    52.2312458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 287920486,
+                "osm_type": "way",
+                "osm_id": 840379698,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "college",
+                "importance": 6.207598992900004e-05,
+                "addresstype": "amenity",
+                "name": "Unidad El Cerrillo UAEMex",
+                "display_name": "Unidad El Cerrillo UAEMex, Avenida Independencia Poniente, El Cerrillo Piedras Blancas, Toluca, Estado de M\u00e9xico, 50200, M\u00e9xico",
+                "address": {
+                    "amenity": "Unidad El Cerrillo UAEMex",
+                    "road": "Avenida Independencia Poniente",
+                    "hamlet": "El Cerrillo Piedras Blancas",
+                    "county": "Toluca",
+                    "state": "Estado de M\u00e9xico",
+                    "ISO3166-2-lvl4": "MX-MEX",
+                    "postcode": "50200",
+                    "country": "M\u00e9xico",
+                    "country_code": "mx"
+                },
+                "university_id": 1125,
+                "university_name": "Universidad Aut\u00f3noma Del Estado De M\u00e9xico (Uaemex)"
+            },
+            "bbox": [
+                -99.6945983,
+                19.4056389,
+                -99.6867139,
+                19.4109962
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -99.6945983,
+                            19.408902
+                        ],
+                        [
+                            -99.6942121,
+                            19.4081785
+                        ],
+                        [
+                            -99.6930453,
+                            19.4088311
+                        ],
+                        [
+                            -99.6928468,
+                            19.4089045
+                        ],
+                        [
+                            -99.6915728,
+                            19.4074145
+                        ],
+                        [
+                            -99.690885,
+                            19.4056389
+                        ],
+                        [
+                            -99.6905659,
+                            19.4059725
+                        ],
+                        [
+                            -99.6906086,
+                            19.4061335
+                        ],
+                        [
+                            -99.6901756,
+                            19.4065917
+                        ],
+                        [
+                            -99.6902081,
+                            19.4066224
+                        ],
+                        [
+                            -99.6890489,
+                            19.4078581
+                        ],
+                        [
+                            -99.6890373,
+                            19.4078705
+                        ],
+                        [
+                            -99.6879477,
+                            19.409017
+                        ],
+                        [
+                            -99.6878623,
+                            19.4089346
+                        ],
+                        [
+                            -99.6872483,
+                            19.4096847
+                        ],
+                        [
+                            -99.6871875,
+                            19.409759
+                        ],
+                        [
+                            -99.6867139,
+                            19.4104051
+                        ],
+                        [
+                            -99.6875269,
+                            19.4109726
+                        ],
+                        [
+                            -99.688401,
+                            19.4099699
+                        ],
+                        [
+                            -99.6895378,
+                            19.4109962
+                        ],
+                        [
+                            -99.6904531,
+                            19.4101637
+                        ],
+                        [
+                            -99.6909666,
+                            19.4106855
+                        ],
+                        [
+                            -99.6928763,
+                            19.4090816
+                        ],
+                        [
+                            -99.6932733,
+                            19.409585
+                        ],
+                        [
+                            -99.6945983,
+                            19.408902
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 288704130,
+                "osm_type": "way",
+                "osm_id": 730040409,
+                "place_rank": 26,
+                "category": "highway",
+                "type": "residential",
+                "importance": 0.05339686503395129,
+                "addresstype": "road",
+                "name": "Universidad de Guadalajara",
+                "display_name": "Universidad de Guadalajara, Morelia, Michoac\u00e1n, 58337, M\u00e9xico",
+                "address": {
+                    "road": "Universidad de Guadalajara",
+                    "city": "Morelia",
+                    "county": "Morelia",
+                    "state": "Michoac\u00e1n",
+                    "ISO3166-2-lvl4": "MX-MIC",
+                    "postcode": "58337",
+                    "country": "M\u00e9xico",
+                    "country_code": "mx"
+                },
+                "university_id": 1127,
+                "university_name": "Universidad De Guadalajara (Udg)"
+            },
+            "bbox": [
+                -101.250761,
+                19.7203015,
+                -101.2504154,
+                19.720886
+            ],
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -101.2504154,
+                        19.7203015
+                    ],
+                    [
+                        -101.2504475,
+                        19.720435
+                    ],
+                    [
+                        -101.2504579,
+                        19.7205033
+                    ],
+                    [
+                        -101.2504651,
+                        19.7205967
+                    ],
+                    [
+                        -101.2504707,
+                        19.7207192
+                    ],
+                    [
+                        -101.2504761,
+                        19.7207495
+                    ],
+                    [
+                        -101.2504795,
+                        19.7207665
+                    ],
+                    [
+                        -101.2505058,
+                        19.7207993
+                    ],
+                    [
+                        -101.2505379,
+                        19.7208247
+                    ],
+                    [
+                        -101.2505738,
+                        19.7208393
+                    ],
+                    [
+                        -101.250761,
+                        19.720886
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 6295302,
+                "osm_type": "way",
+                "osm_id": 843156584,
+                "place_rank": 26,
+                "category": "highway",
+                "type": "unclassified",
+                "importance": 0.05339010528725105,
+                "addresstype": "road",
+                "name": "UFPR",
+                "display_name": "UFPR, Pinhais, Regi\u00e3o Geogr\u00e1fica Imediata de Curitiba, Regi\u00e3o Metropolitana de Curitiba, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Curitiba, Paran\u00e1, Regi\u00e3o Sul, 83328-300, Brasil",
+                "address": {
+                    "road": "UFPR",
+                    "city": "Pinhais",
+                    "municipality": "Regi\u00e3o Geogr\u00e1fica Imediata de Curitiba",
+                    "county": "Regi\u00e3o Metropolitana de Curitiba",
+                    "state_district": "Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Curitiba",
+                    "state": "Paran\u00e1",
+                    "ISO3166-2-lvl4": "BR-PR",
+                    "region": "Regi\u00e3o Sul",
+                    "postcode": "83328-300",
+                    "country": "Brasil",
+                    "country_code": "br"
+                },
+                "university_id": 1152,
+                "university_name": "Universidade Federal Do Paran\u00e1 - Ufpr"
+            },
+            "bbox": [
+                -49.1214059,
+                -25.4012638,
+                -49.1198824,
+                -25.3958255
+            ],
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -49.1199884,
+                        -25.3958255
+                    ],
+                    [
+                        -49.1199616,
+                        -25.3959176
+                    ],
+                    [
+                        -49.1199522,
+                        -25.3960702
+                    ],
+                    [
+                        -49.1199388,
+                        -25.3961526
+                    ],
+                    [
+                        -49.1198905,
+                        -25.3963356
+                    ],
+                    [
+                        -49.1198824,
+                        -25.3964216
+                    ],
+                    [
+                        -49.1198932,
+                        -25.3965706
+                    ],
+                    [
+                        -49.1199669,
+                        -25.3968953
+                    ],
+                    [
+                        -49.1202874,
+                        -25.3974247
+                    ],
+                    [
+                        -49.1203652,
+                        -25.3975991
+                    ],
+                    [
+                        -49.1204095,
+                        -25.3978136
+                    ],
+                    [
+                        -49.1204457,
+                        -25.3981455
+                    ],
+                    [
+                        -49.1204631,
+                        -25.3982812
+                    ],
+                    [
+                        -49.1205221,
+                        -25.3984036
+                    ],
+                    [
+                        -49.1207032,
+                        -25.3986967
+                    ],
+                    [
+                        -49.1207609,
+                        -25.3988215
+                    ],
+                    [
+                        -49.1207863,
+                        -25.3989124
+                    ],
+                    [
+                        -49.1208091,
+                        -25.3990772
+                    ],
+                    [
+                        -49.1208279,
+                        -25.3991838
+                    ],
+                    [
+                        -49.1208883,
+                        -25.3992928
+                    ],
+                    [
+                        -49.1213147,
+                        -25.3997507
+                    ],
+                    [
+                        -49.1213764,
+                        -25.3998634
+                    ],
+                    [
+                        -49.1214059,
+                        -25.3999797
+                    ],
+                    [
+                        -49.1213885,
+                        -25.4001093
+                    ],
+                    [
+                        -49.1213751,
+                        -25.4003129
+                    ],
+                    [
+                        -49.1213308,
+                        -25.4004134
+                    ],
+                    [
+                        -49.1210063,
+                        -25.4006218
+                    ],
+                    [
+                        -49.1209473,
+                        -25.4007369
+                    ],
+                    [
+                        -49.1209258,
+                        -25.4009053
+                    ],
+                    [
+                        -49.1209057,
+                        -25.4011451
+                    ],
+                    [
+                        -49.1208789,
+                        -25.4012638
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 287632608,
+                "osm_type": "way",
+                "osm_id": 469961097,
+                "place_rank": 27,
+                "category": "highway",
+                "type": "footway",
+                "importance": 0.0400731448844129,
+                "addresstype": "road",
+                "name": "Caminos dentro del intec",
+                "display_name": "Caminos dentro del intec, Constelaci\u00f3n, Santo Domingo de Guzm\u00e1n, Distrito Nacional, 10604, Rep\u00fablica Dominicana",
+                "address": {
+                    "road": "Caminos dentro del intec",
+                    "neighbourhood": "Constelaci\u00f3n",
+                    "city": "Santo Domingo de Guzm\u00e1n",
+                    "state": "Distrito Nacional",
+                    "ISO3166-2-lvl4": "DO-01",
+                    "postcode": "10604",
+                    "country": "Rep\u00fablica Dominicana",
+                    "country_code": "do"
+                },
+                "university_id": 1252,
+                "university_name": "Instituto Tecnol\u00f3gico De Santo Domingo (Intec)"
+            },
+            "bbox": [
+                -69.9620743,
+                18.487587,
+                -69.9617524,
+                18.4876506
+            ],
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -69.9620743,
+                        18.4876506
+                    ],
+                    [
+                        -69.9620662,
+                        18.487587
+                    ],
+                    [
+                        -69.9617524,
+                        18.4875921
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 245012558,
+                "osm_type": "node",
+                "osm_id": 9081279031,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 7.531471732657385e-05,
+                "addresstype": "highway",
+                "name": "\u5de6\u4eac\u533a\u7dcf\u5408\u5e81\u820e\u30fb\u4eac\u90fd\u5de5\u82b8\u7e4a\u7dad\u5927\u5b66\u524d",
+                "display_name": "\u5de6\u4eac\u533a\u7dcf\u5408\u5e81\u820e\u30fb\u4eac\u90fd\u5de5\u82b8\u7e4a\u7dad\u5927\u5b66\u524d, \u5317\u6cc9\u901a, \u677e\u30b1\u5d0e\u5802\u30ce\u4e0a\u753a, \u5de6\u4eac\u533a, \u4eac\u90fd\u5e02, \u4eac\u90fd\u5e9c, 606-0931, \u65e5\u672c",
+                "address": {
+                    "highway": "\u5de6\u4eac\u533a\u7dcf\u5408\u5e81\u820e\u30fb\u4eac\u90fd\u5de5\u82b8\u7e4a\u7dad\u5927\u5b66\u524d",
+                    "road": "\u5317\u6cc9\u901a",
+                    "neighbourhood": "\u677e\u30b1\u5d0e\u5802\u30ce\u4e0a\u753a",
+                    "suburb": "\u5de6\u4eac\u533a",
+                    "city": "\u4eac\u90fd\u5e02",
+                    "province": "\u4eac\u90fd\u5e9c",
+                    "ISO3166-2-lvl4": "JP-26",
+                    "postcode": "606-0931",
+                    "country": "\u65e5\u672c",
+                    "country_code": "jp"
+                },
+                "university_id": 1271,
+                "university_name": "Kyoto Institute Of Technology"
+            },
+            "bbox": [
+                135.7798711,
+                35.0482024,
+                135.7799711,
+                35.0483024
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.7799211,
+                    35.0482524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 285884670,
+                "osm_type": "way",
+                "osm_id": 730332311,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "parking",
+                "importance": 6.893492027156508e-05,
+                "addresstype": "amenity",
+                "name": "ULACIT - Parqueo 1",
+                "display_name": "ULACIT - Parqueo 1, Avenida 15, Tourn\u00f3n, San Francisco, Cant\u00f3n de Goicoechea, San Jos\u00e9, 10802, Costa Rica",
+                "address": {
+                    "amenity": "ULACIT - Parqueo 1",
+                    "road": "Avenida 15",
+                    "neighbourhood": "Tourn\u00f3n",
+                    "village": "San Francisco",
+                    "county": "Cant\u00f3n de Goicoechea",
+                    "province": "San Jos\u00e9",
+                    "ISO3166-2-lvl4": "CR-SJ",
+                    "postcode": "10802",
+                    "country": "Costa Rica",
+                    "country_code": "cr"
+                },
+                "university_id": 1343,
+                "university_name": "Universidad Latinoamericana De Ciencia Y Tecnolog\u00eda Costa Rica (Ulacit)"
+            },
+            "bbox": [
+                -84.0769023,
+                9.9395339,
+                -84.0762599,
+                9.9403716
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -84.0769023,
+                            9.9400939
+                        ],
+                        [
+                            -84.0766805,
+                            9.9397813
+                        ],
+                        [
+                            -84.0763924,
+                            9.9395339
+                        ],
+                        [
+                            -84.0762599,
+                            9.9399254
+                        ],
+                        [
+                            -84.0766974,
+                            9.9403321
+                        ],
+                        [
+                            -84.0768931,
+                            9.9403716
+                        ],
+                        [
+                            -84.0769023,
+                            9.9400939
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 56598223,
+                "osm_type": "node",
+                "osm_id": 6131413450,
+                "place_rank": 30,
+                "category": "highway",
+                "type": "bus_stop",
+                "importance": 6.542076752875589e-05,
+                "addresstype": "highway",
+                "name": "\u0423\u043d\u0438\u0432\u0435\u0440\u0437\u0438\u0442\u0435\u0442",
+                "display_name": "\u0423\u043d\u0438\u0432\u0435\u0440\u0437\u0438\u0442\u0435\u0442, \u0421\u043b\u043e\u0431\u043e\u0434\u0435, \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446, \u0413\u0440\u0430\u0434 \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446, \u0428\u0443\u043c\u0430\u0434\u0438\u0458\u0441\u043a\u0438 \u0443\u043f\u0440\u0430\u0432\u043d\u0438 \u043e\u043a\u0440\u0443\u0433, \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u043d\u0430 \u0421\u0440\u0431\u0438\u0458\u0430, 34114, \u0421\u0440\u0431\u0438\u0458\u0430",
+                "address": {
+                    "highway": "\u0423\u043d\u0438\u0432\u0435\u0440\u0437\u0438\u0442\u0435\u0442",
+                    "road": "\u0421\u043b\u043e\u0431\u043e\u0434\u0435",
+                    "city": "\u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446",
+                    "municipality": "\u0413\u0440\u0430\u0434 \u041a\u0440\u0430\u0433\u0443\u0458\u0435\u0432\u0430\u0446",
+                    "county": "\u0428\u0443\u043c\u0430\u0434\u0438\u0458\u0441\u043a\u0438 \u0443\u043f\u0440\u0430\u0432\u043d\u0438 \u043e\u043a\u0440\u0443\u0433",
+                    "ISO3166-2-lvl6": "RS-12",
+                    "state": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u043d\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
+                    "postcode": "34114",
+                    "country": "\u0421\u0440\u0431\u0438\u0458\u0430",
+                    "country_code": "rs"
+                },
+                "university_id": 1380,
+                "university_name": "University Of Kragujevac"
+            },
+            "bbox": [
+                20.9203531,
+                44.0224567,
+                20.9204531,
+                44.0225567
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.9204031,
+                    44.0225067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 198067365,
+                "osm_type": "way",
+                "osm_id": 717844930,
+                "place_rank": 30,
+                "category": "office",
+                "type": "educational_institution",
+                "importance": 6.84161135270774e-05,
+                "addresstype": "office",
+                "name": "NUML (National University of Modern Languages)",
+                "display_name": "NUML (National University of Modern Languages), Khadim Hussain Road, \u06a9\u0627\u0645\u0631\u0627\u0646 \u0686\u0648\u06a9, \u0635\u062f\u0631, \u062a\u062d\u0635\u06cc\u0644 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0686\u06be\u0627\u0624\u0646\u06cc, \u0636\u0644\u0639 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc, \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646, \u067e\u0646\u062c\u0627\u0628, 46000, \u067e\u0627\u06a9\u0633\u062a\u0627\u0646",
+                "address": {
+                    "office": "NUML (National University of Modern Languages)",
+                    "road": "Khadim Hussain Road",
+                    "suburb": "\u06a9\u0627\u0645\u0631\u0627\u0646 \u0686\u0648\u06a9",
+                    "town": "\u0635\u062f\u0631",
+                    "county": "\u0636\u0644\u0639 \u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc",
+                    "state_district": "\u0631\u0627\u0648\u0644\u067e\u0646\u0688\u06cc \u0688\u0648\u06cc\u0698\u0646",
+                    "state": "\u067e\u0646\u062c\u0627\u0628",
+                    "ISO3166-2-lvl4": "PK-PB",
+                    "postcode": "46000",
+                    "country": "\u067e\u0627\u06a9\u0633\u062a\u0627\u0646",
+                    "country_code": "pk"
+                },
+                "university_id": 1435,
+                "university_name": "National University Of Modern Languages (Numl), Islamabad"
+            },
+            "bbox": [
+                73.0605126,
+                33.5788251,
+                73.0622714,
+                33.5797536
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            73.0605126,
+                            33.5794901
+                        ],
+                        [
+                            73.0606066,
+                            33.5793292
+                        ],
+                        [
+                            73.0607604,
+                            33.5790786
+                        ],
+                        [
+                            73.0608066,
+                            33.5790116
+                        ],
+                        [
+                            73.0609296,
+                            33.5791013
+                        ],
+                        [
+                            73.0610339,
+                            33.5790017
+                        ],
+                        [
+                            73.0609553,
+                            33.5789404
+                        ],
+                        [
+                            73.0609843,
+                            33.5789134
+                        ],
+                        [
+                            73.0609536,
+                            33.578892
+                        ],
+                        [
+                            73.0609912,
+                            33.5788407
+                        ],
+                        [
+                            73.0610168,
+                            33.578855
+                        ],
+                        [
+                            73.0610322,
+                            33.5788251
+                        ],
+                        [
+                            73.0618168,
+                            33.579201
+                        ],
+                        [
+                            73.0622714,
+                            33.5793776
+                        ],
+                        [
+                            73.0622185,
+                            33.5795471
+                        ],
+                        [
+                            73.0621945,
+                            33.5797536
+                        ],
+                        [
+                            73.0615963,
+                            33.5796183
+                        ],
+                        [
+                            73.0609331,
+                            33.5795343
+                        ],
+                        [
+                            73.0605126,
+                            33.5794901
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 8688187,
+                "osm_type": "node",
+                "osm_id": 1607420124,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "hospital",
+                "importance": 0.3214027699176201,
+                "addresstype": "amenity",
+                "name": "Hospital e Maternidade Celso Pierro",
+                "display_name": "Hospital e Maternidade Celso Pierro, Avenida John Boyd Dunlop, Jardim Paulic\u00e9ia, Campinas, Regi\u00e3o Imediata de Campinas, Regi\u00e3o Metropolitana de Campinas, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Campinas, S\u00e3o Paulo, Regi\u00e3o Sudeste, 13060-904, Brasil",
+                "address": {
+                    "amenity": "Hospital e Maternidade Celso Pierro",
+                    "road": "Avenida John Boyd Dunlop",
+                    "suburb": "Jardim Paulic\u00e9ia",
+                    "city_district": "Campinas",
+                    "city": "Campinas",
+                    "municipality": "Regi\u00e3o Imediata de Campinas",
+                    "county": "Regi\u00e3o Metropolitana de Campinas",
+                    "state_district": "Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de Campinas",
+                    "state": "S\u00e3o Paulo",
+                    "ISO3166-2-lvl4": "BR-SP",
+                    "region": "Regi\u00e3o Sudeste",
+                    "postcode": "13060-904",
+                    "country": "Brasil",
+                    "country_code": "br"
+                },
+                "university_id": 1438,
+                "university_name": "Pontificia Universidade Cat\u00f3lica Do Campinas - Puc Campinas"
+            },
+            "bbox": [
+                -47.1193852,
+                -22.9221961,
+                -47.1192852,
+                -22.9220961
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -47.1193352,
+                    -22.9221461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 181639878,
+                "osm_type": "node",
+                "osm_id": 10278408409,
+                "place_rank": 30,
+                "category": "amenity",
+                "type": "college",
+                "importance": 8.908293278396304e-05,
+                "addresstype": "amenity",
+                "name": "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u043e\u043b\u043b\u0435\u0434\u0436 \u0420\u0413\u0410\u0423 \u041c\u0421\u0425\u0410 \u0438\u043c. \u041a.\u00a0\u0410.\u00a0\u0422\u0438\u043c\u0438\u0440\u044f\u0437\u0435\u0432\u0430",
+                "display_name": "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u043e\u043b\u043b\u0435\u0434\u0436 \u0420\u0413\u0410\u0423 \u041c\u0421\u0425\u0410 \u0438\u043c. \u041a.\u00a0\u0410.\u00a0\u0422\u0438\u043c\u0438\u0440\u044f\u0437\u0435\u0432\u0430, 14\u04416, \u0443\u043b\u0438\u0446\u0430 \u041f\u0440\u044f\u043d\u0438\u0448\u043d\u0438\u043a\u043e\u0432\u0430, \u041d\u0438\u0436\u043d\u0438\u0435 \u041b\u0438\u0445\u043e\u0431\u043e\u0440\u044b, \u0422\u0438\u043c\u0438\u0440\u044f\u0437\u0435\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u041c\u043e\u0441\u043a\u0432\u0430, \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, 127550, \u0420\u043e\u0441\u0441\u0438\u044f",
+                "address": {
+                    "amenity": "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u043e\u043b\u043b\u0435\u0434\u0436 \u0420\u0413\u0410\u0423 \u041c\u0421\u0425\u0410 \u0438\u043c. \u041a.\u00a0\u0410.\u00a0\u0422\u0438\u043c\u0438\u0440\u044f\u0437\u0435\u0432\u0430",
+                    "house_number": "14\u04416",
+                    "road": "\u0443\u043b\u0438\u0446\u0430 \u041f\u0440\u044f\u043d\u0438\u0448\u043d\u0438\u043a\u043e\u0432\u0430",
+                    "neighbourhood": "\u041d\u0438\u0436\u043d\u0438\u0435 \u041b\u0438\u0445\u043e\u0431\u043e\u0440\u044b",
+                    "suburb": "\u0422\u0438\u043c\u0438\u0440\u044f\u0437\u0435\u0432\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d",
+                    "city": "\u041c\u043e\u0441\u043a\u0432\u0430",
+                    "state": "\u041c\u043e\u0441\u043a\u0432\u0430",
+                    "ISO3166-2-lvl4": "RU-MOW",
+                    "region": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433",
+                    "postcode": "127550",
+                    "country": "\u0420\u043e\u0441\u0441\u0438\u044f",
+                    "country_code": "ru"
+                },
+                "university_id": 1440,
+                "university_name": "Russian State Agrarian University - Moscow Timiryazev Agricultural Academy"
+            },
+            "bbox": [
+                37.5572581,
+                55.8365447,
+                37.5573581,
+                55.8366447
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.5573081,
+                    55.8365947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 2701792,
+                "osm_type": "node",
+                "osm_id": 1855823883,
+                "place_rank": 25,
+                "category": "place",
+                "type": "square",
+                "importance": 0.2535713079130456,
+                "addresstype": "square",
+                "name": "ESPE",
+                "display_name": "ESPE, Urb. la Colina, Sangolqu\u00ed, Sangolqui, Pichincha, 170808, Ecuador",
+                "address": {
+                    "square": "ESPE",
+                    "neighbourhood": "Urb. la Colina",
+                    "city": "Sangolqu\u00ed",
+                    "county": "Sangolqui",
+                    "plot": "Pichincha",
+                    "ISO3166-2-lvl4": "EC-P",
+                    "postcode": "170808",
+                    "country": "Ecuador",
+                    "country_code": "ec"
+                },
+                "university_id": 1477,
+                "university_name": "Universidad De Las Fuerzas Armadas Espe (Ex - Escuela Polit\u00e9cnica Del Ej\u00e9rcito)"
+            },
+            "bbox": [
+                -78.4447507,
+                -0.3145338,
+                -78.4446507,
+                -0.3144338
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.4447007,
+                    -0.3144838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "place_id": 288490442,
+                "osm_type": "way",
+                "osm_id": 545711623,
+                "place_rank": 30,
+                "category": "building",
+                "type": "school",
+                "importance": 4.139391165021771e-05,
+                "addresstype": "building",
+                "name": "UPAEP",
+                "display_name": "UPAEP, Rivorosa, Texmelucan, San Mart\u00edn Texmelucan, Puebla, 74000, M\u00e9xico",
+                "address": {
+                    "building": "UPAEP",
+                    "road": "Rivorosa",
+                    "town": "Texmelucan",
+                    "county": "San Mart\u00edn Texmelucan",
+                    "state": "Puebla",
+                    "ISO3166-2-lvl4": "MX-PUE",
+                    "postcode": "74000",
+                    "country": "M\u00e9xico",
+                    "country_code": "mx"
+                },
+                "university_id": 1488,
+                "university_name": "Universidad Popular Aut\u00f3noma Del Estado De Puebla (Upaep)"
+            },
+            "bbox": [
+                -98.4398779,
+                19.2812939,
+                -98.4391971,
+                19.2818385
+            ],
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -98.4398779,
+                            19.2813229
+                        ],
+                        [
+                            -98.4392856,
+                            19.2812939
+                        ],
+                        [
+                            -98.4391971,
+                            19.2817804
+                        ],
+                        [
+                            -98.4397356,
+                            19.2818385
+                        ],
+                        [
+                            -98.4398779,
+                            19.2813229
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
