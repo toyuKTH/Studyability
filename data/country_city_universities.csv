@@ -1,147 +1,147 @@
 university,country,city,alpha_2,alpha_3,region,sub_region
-Massachusetts Institute of Technology (MIT),United States of America,Cambridge,,,,
-Imperial College London,United Kingdom of Great Britain and Northern Ireland,London,,,,
-University of Oxford,United Kingdom of Great Britain and Northern Ireland,Oxford,,,,
-Harvard University,United States of America,Cambridge,,,,
-University of Cambridge,United Kingdom of Great Britain and Northern Ireland,Cambridge,,,,
-Stanford University,United States of America,Stanford,,,,
+Massachusetts Institute of Technology (MIT),United States,Cambridge,US,USA,Americas,Northern America
+Imperial College London,United Kingdom,London,GB,GBR,Europe,Northern Europe
+University of Oxford,United Kingdom,Oxford,GB,GBR,Europe,Northern Europe
+Harvard University,United States,Cambridge,US,USA,Americas,Northern America
+University of Cambridge,United Kingdom,Cambridge,GB,GBR,Europe,Northern Europe
+Stanford University,United States,Stanford,US,USA,Americas,Northern America
 ETH Zurich - Swiss Federal Institute of Technology,Switzerland,Zurich,CH,CHE,Europe,Western Europe
 National University of Singapore (NUS),Singapore,Singapore,SG,SGP,Asia,South-eastern Asia
-UCL,United Kingdom of Great Britain and Northern Ireland,London,,,,
-California Institute of Technology (Caltech),United States of America,Pasadena,,,,
-University of Pennsylvania,United States of America,Philadelphia,,,,
-"University of California, Berkeley (UCB)",United States of America,Berkeley,,,,
+UCL,United Kingdom,London,GB,GBR,Europe,Northern Europe
+California Institute of Technology (Caltech),United States,Pasadena,US,USA,Americas,Northern America
+University of Pennsylvania,United States,Philadelphia,US,USA,Americas,Northern America
+"University of California, Berkeley (UCB)",United States,Berkeley,US,USA,Americas,Northern America
 The University of Melbourne,Australia,Melbourne,AU,AUS,Oceania,Australia and New Zealand
 Peking University,China,Beijing,CN,CHN,Asia,Eastern Asia
 "Nanyang Technological University, Singapore (NTU)",Singapore,Singapore,SG,SGP,Asia,South-eastern Asia
-Cornell University,United States of America,Ithaca,,,,
+Cornell University,United States,Ithaca,US,USA,Americas,Northern America
 The University of Hong Kong,Hong Kong,Hong Kong,HK,HKG,Asia,Eastern Asia
 The University of Sydney,Australia,Sydney,AU,AUS,Oceania,Australia and New Zealand
 The University of New South Wales (UNSW Sydney),Australia,Sydney,AU,AUS,Oceania,Australia and New Zealand
 Tsinghua University,China,Beijing,CN,CHN,Asia,Eastern Asia
-University of Chicago,United States of America,Chicago,,,,
-Princeton University,United States of America,Princeton,,,,
-Yale University,United States of America,New Haven,,,,
+University of Chicago,United States,Chicago,US,USA,Americas,Northern America
+Princeton University,United States,Princeton,US,USA,Americas,Northern America
+Yale University,United States,New Haven,US,USA,Americas,Northern America
 Université PSL,France,Paris,FR,FRA,Europe,Western Europe
 University of Toronto,Canada,Toronto,CA,CAN,Americas,Northern America
 EPFL,Switzerland,Lausanne,CH,CHE,Europe,Western Europe
-The University of Edinburgh,United Kingdom of Great Britain and Northern Ireland,Edinburgh,,,,
+The University of Edinburgh,United Kingdom,Edinburgh,GB,GBR,Europe,Northern Europe
 Technical University of Munich,Germany,Munich,DE,DEU,Europe,Western Europe
 McGill University,Canada,Montreal,CA,CAN,Americas,Northern America
 The Australian National University,Australia,Canberra,AU,AUS,Oceania,Australia and New Zealand
-Seoul National University,"Korea, Republic of",Seoul,,,,
-Johns Hopkins University,United States of America,Baltimore,,,,
+Seoul National University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
+Johns Hopkins University,United States,Baltimore,US,USA,Americas,Northern America
 The University of Tokyo,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
-Columbia University,United States of America,New York,,,,
-The University of Manchester,United Kingdom of Great Britain and Northern Ireland,Manchester,,,,
+Columbia University,United States,New York,US,USA,Americas,Northern America
+The University of Manchester,United Kingdom,Manchester,GB,GBR,Europe,Northern Europe
 The Chinese University of Hong Kong (CUHK),Hong Kong,Hong Kong,HK,HKG,Asia,Eastern Asia
 Monash University,Australia,Melbourne,AU,AUS,Oceania,Australia and New Zealand
 University of British Columbia,Canada,Vancouver,CA,CAN,Americas,Northern America
 Fudan University,China,Shanghai,CN,CHN,Asia,Eastern Asia
-King's College London,United Kingdom of Great Britain and Northern Ireland,London,,,,
+King's College London,United Kingdom,London,GB,GBR,Europe,Northern Europe
 The University of Queensland,Australia,Brisbane,AU,AUS,Oceania,Australia and New Zealand
-"University of California, Los Angeles (UCLA)",United States of America,Los Angeles,,,,
-New York University (NYU),United States of America,New York,,,,
-University of Michigan-Ann Arbor,United States of America,Ann Arbor,,,,
+"University of California, Los Angeles (UCLA)",United States,Los Angeles,US,USA,Americas,Northern America
+New York University (NYU),United States,New York,US,USA,Americas,Northern America
+University of Michigan-Ann Arbor,United States,Ann Arbor,US,USA,Americas,Northern America
 Shanghai Jiao Tong University,China,Shanghai,CN,CHN,Asia,Eastern Asia
 Institut Polytechnique de Paris,France,Paris,FR,FRA,Europe,Western Europe
 The Hong Kong University of Science and Technology,Hong Kong,Hong Kong,HK,HKG,Asia,Eastern Asia
 Zhejiang University,China,Hangzhou,CN,CHN,Asia,Eastern Asia
-Delft University of Technology,"Netherlands, Kingdom of the",Delft,,,,
+Delft University of Technology,Netherlands,Delft,NL,NLD,Europe,Western Europe
 Kyoto University,Japan,Kyoto,JP,JPN,Asia,Eastern Asia
-Northwestern University,United States of America,Evanston,,,,
-The London School of Economics and Political Science (LSE),United Kingdom of Great Britain and Northern Ireland,London,,,,
-KAIST - Korea Advanced Institute of Science & Technology,"Korea, Republic of",Daejeon,,,,
-University of Bristol,United Kingdom of Great Britain and Northern Ireland,Bristol,,,,
-University of Amsterdam,"Netherlands, Kingdom of the",Amsterdam,,,,
-Yonsei University,"Korea, Republic of",Seoul,,,,
+Northwestern University,United States,Evanston,US,USA,Americas,Northern America
+The London School of Economics and Political Science (LSE),United Kingdom,London,GB,GBR,Europe,Northern Europe
+KAIST - Korea Advanced Institute of Science & Technology,Korea,Daejeon,KR,KOR,Asia,Eastern Asia
+University of Bristol,United Kingdom,Bristol,GB,GBR,Europe,Northern Europe
+University of Amsterdam,Netherlands,Amsterdam,NL,NLD,Europe,Western Europe
+Yonsei University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 The Hong Kong Polytechnic University,Hong Kong,Hong Kong,HK,HKG,Asia,Eastern Asia
-Carnegie Mellon University,United States of America,Pittsburgh,,,,
+Carnegie Mellon University,United States,Pittsburgh,US,USA,Americas,Northern America
 Ludwig-Maximilians-Universität München,Germany,Munich,DE,DEU,Europe,Western Europe
 Universiti Malaya (UM),Malaysia,Kuala Lumpur,MY,MYS,Asia,South-eastern Asia
-Duke University,United States of America,Durham,,,,
+Duke University,United States,Durham,US,USA,Americas,Northern America
 City University of Hong Kong,Hong Kong,Hong Kong,HK,HKG,Asia,Eastern Asia
 KU Leuven,Belgium,Leuven,BE,BEL,Europe,Western Europe
 Sorbonne University,France,Paris,FR,FRA,Europe,Western Europe
 The University of Auckland,New Zealand,Auckland,NZ,NZL,Oceania,Australia and New Zealand
-University of Texas at Austin,United States of America,Austin,,,,
-Korea University,"Korea, Republic of",Seoul,,,,
-National Taiwan University (NTU),"Taiwan, Province of China",Taipei,,,,
-The University of Warwick,United Kingdom of Great Britain and Northern Ireland,Coventry,,,,
-University of Illinois at Urbana-Champaign,United States of America,Urbana-Champaign,,,,
+University of Texas at Austin,United States,Austin,US,USA,Americas,Northern America
+Korea University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
+National Taiwan University (NTU),Taiwan,Taipei,TW,TWN,,
+The University of Warwick,United Kingdom,Coventry,GB,GBR,Europe,Northern Europe
+University of Illinois at Urbana-Champaign,United States,Urbana-Champaign,US,USA,Americas,Northern America
 Universidad de Buenos Aires (UBA),Argentina,Buenos Aires,AR,ARG,Americas,Latin America and the Caribbean
-"University of California, San Diego (UCSD)",United States of America,La Jolla,,,,
+"University of California, San Diego (UCSD)",United States,La Jolla,US,USA,Americas,Northern America
 Université Paris-Saclay,France,Paris,FR,FRA,Europe,Western Europe
 KTH Royal Institute of Technology,Sweden,Stockholm,SE,SWE,Europe,Northern Europe
 Lund University,Sweden,Lund,SE,SWE,Europe,Northern Europe
-University of Washington,United States of America,Seattle,,,,
+University of Washington,United States,Seattle,US,USA,Americas,Northern America
 The University of Western Australia,Australia,Perth,AU,AUS,Oceania,Australia and New Zealand
-University of Glasgow,United Kingdom of Great Britain and Northern Ireland,Glasgow,,,,
-Brown University,United States of America,Providence,,,,
-University of Birmingham,United Kingdom of Great Britain and Northern Ireland,Birmingham,,,,
-University of Southampton,United Kingdom of Great Britain and Northern Ireland,Southampton,,,,
+University of Glasgow,United Kingdom,Glasgow,GB,GBR,Europe,Northern Europe
+Brown University,United States,Providence,US,USA,Americas,Northern America
+University of Birmingham,United Kingdom,Birmingham,GB,GBR,Europe,Northern Europe
+University of Southampton,United Kingdom,Southampton,GB,GBR,Europe,Northern Europe
 The University of Adelaide,Australia,Adelaide,AU,AUS,Oceania,Australia and New Zealand
-University of Leeds,United Kingdom of Great Britain and Northern Ireland,Leeds,,,,
+University of Leeds,United Kingdom,Leeds,GB,GBR,Europe,Northern Europe
 Ruprecht-Karls-Universität Heidelberg,Germany,Heidelberg,DE,DEU,Europe,Western Europe
 Tokyo Institute of Technology (Tokyo Tech),Japan,Tokyo,JP,JPN,Asia,Eastern Asia
 Osaka University,Japan,Osaka,JP,JPN,Asia,Eastern Asia
 "Trinity College Dublin, The University of Dublin",Ireland,Dublin,IE,IRL,Europe,Northern Europe
 University of Technology Sydney,Australia,Sydney,AU,AUS,Oceania,Australia and New Zealand
-Durham University,United Kingdom of Great Britain and Northern Ireland,Durham,,,,
-Pennsylvania State University,United States of America,State College,,,,
-Purdue University,United States of America,West Lafayette,,,,
+Durham University,United Kingdom,Durham,GB,GBR,Europe,Northern Europe
+Pennsylvania State University,United States,State College,US,USA,Americas,Northern America
+Purdue University,United States,West Lafayette,US,USA,Americas,Northern America
 Universidade de São Paulo,Brazil,São Paulo,BR,BRA,Americas,Latin America and the Caribbean
 Pontificia Universidad Católica de Chile (UC),Chile,Santiago,CL,CHL,Americas,Latin America and the Caribbean
-Lomonosov Moscow State University,Russian Federation,Lomonosov,,,,
+Lomonosov Moscow State University,Russia,Lomonosov,RU,RUS,Europe,Eastern Europe
 Universidad Nacional Autónoma de México (UNAM),Mexico,Mexico City,MX,MEX,Americas,Latin America and the Caribbean
 University of Alberta,Canada,Edmonton,CA,CAN,Americas,Northern America
 Freie Universitaet Berlin,Germany,Berlin,DE,DEU,Europe,Western Europe
-Pohang University of Science And Technology (POSTECH),"Korea, Republic of",Pohang,,,,
+Pohang University of Science And Technology (POSTECH),Korea,Pohang,KR,KOR,Asia,Eastern Asia
 RWTH Aachen University,Germany,Aachen,DE,DEU,Europe,Western Europe
 University of Copenhagen,Denmark,Copenhagen,DK,DNK,Europe,Northern Europe
 King Fahd University of Petroleum & Minerals,Saudi Arabia,Dhahran,SA,SAU,Asia,Western Asia
 "KIT, Karlsruhe Institute of Technology",Germany,Karlsruhe,DE,DEU,Europe,Western Europe
 Uppsala University,Sweden,Uppsala,SE,SWE,Europe,Northern Europe
-University of St Andrews,United Kingdom of Great Britain and Northern Ireland,St Andrews,,,,
-The University of Sheffield,United Kingdom of Great Britain and Northern Ireland,Sheffield,,,,
-Utrecht University,"Netherlands, Kingdom of the",Utrecht,,,,
+University of St Andrews,United Kingdom,St Andrews,GB,GBR,Europe,Northern Europe
+The University of Sheffield,United Kingdom,Sheffield,GB,GBR,Europe,Northern Europe
+Utrecht University,Netherlands,Utrecht,NL,NLD,Europe,Western Europe
 Tohoku University,Japan,Sendai,JP,JPN,Asia,Eastern Asia
-University of Nottingham,United Kingdom of Great Britain and Northern Ireland,Nottingham,,,,
+University of Nottingham,United Kingdom,Nottingham,GB,GBR,Europe,Northern Europe
 Technical University of Denmark,Denmark,Lyngby,DK,DNK,Europe,Northern Europe
 University of Zurich,Switzerland,Zurich,CH,CHE,Europe,Western Europe
 Politecnico di Milano,Italy,Milan,IT,ITA,Europe,Southern Europe
-Boston University,United States of America,Boston,,,,
+Boston University,United States,Boston,US,USA,Americas,Northern America
 Aalto University,Finland,Espoo,FI,FIN,Europe,Northern Europe
-Georgia Institute of Technology,United States of America,Atlanta,,,,
+Georgia Institute of Technology,United States,Atlanta,US,USA,Americas,Northern America
 University of Waterloo,Canada,Waterloo,CA,CAN,Americas,Northern America
-University of Wisconsin-Madison,United States of America,Madison,,,,
+University of Wisconsin-Madison,United States,Madison,US,USA,Americas,Northern America
 University of Helsinki,Finland,Helsinki,FI,FIN,Europe,Northern Europe
 Indian Institute of Technology Bombay (IITB),India,Mumbai,IN,IND,Asia,Southern Asia
 University of Oslo,Norway,Oslo,NO,NOR,Europe,Northern Europe
-Queen Mary University of London,United Kingdom of Great Britain and Northern Ireland,London,,,,
+Queen Mary University of London,United Kingdom,London,GB,GBR,Europe,Northern Europe
 Western University,Canada,London,CA,CAN,Americas,Northern America
 Qatar University,Qatar,Doha,QA,QAT,Asia,Western Asia
 RMIT University,Australia,Melbourne,AU,AUS,Oceania,Australia and New Zealand
-Sungkyunkwan University(SKKU),"Korea, Republic of",Seoul,,,,
-University of Southern California,United States of America,Los Angeles,,,,
+Sungkyunkwan University(SKKU),Korea,Seoul,KR,KOR,Asia,Eastern Asia
+University of Southern California,United States,Los Angeles,US,USA,Americas,Northern America
 Humboldt-Universität zu Berlin,Germany,Berlin,DE,DEU,Europe,Western Europe
 University College Dublin,Ireland,Dublin,IE,IRL,Europe,Northern Europe
 Stockholm University,Sweden,Stockholm,SE,SWE,Europe,Northern Europe
-Newcastle University,United Kingdom of Great Britain and Northern Ireland,Newcastle upon Tyne,,,,
-"University of California, Davis",United States of America,Davis,,,,
+Newcastle University,United Kingdom,Newcastle upon Tyne,GB,GBR,Europe,Northern Europe
+"University of California, Davis",United States,Davis,US,USA,Americas,Northern America
 University of Basel,Switzerland,Basel,CH,CHE,Europe,Western Europe
 Sapienza University of Rome,Italy,Rome,IT,ITA,Europe,Southern Europe
 Alma Mater Studiorum - University of Bologna,Italy,Bologna,IT,ITA,Europe,Southern Europe
 Macquarie University,Australia,Sydney,AU,AUS,Oceania,Australia and New Zealand
 Nanjing University,China,Nanjing,CN,CHN,Asia,Eastern Asia
-Eindhoven University of Technology,"Netherlands, Kingdom of the",Eindhoven,,,,
+Eindhoven University of Technology,Netherlands,Eindhoven,NL,NLD,Europe,Western Europe
 University of Vienna,Austria,Vienna,AT,AUT,Europe,Western Europe
 Universiti Kebangsaan Malaysia (UKM),Malaysia,Bangi,MY,MYS,Asia,South-eastern Asia
 Chalmers University of Technology,Sweden,Gothenburg,SE,SWE,Europe,Northern Europe
 Universidad de Chile,Chile,Santiago,CL,CHL,Americas,Latin America and the Caribbean
-Lancaster University,United Kingdom of Great Britain and Northern Ireland,Lancaster,,,,
-Leiden University,"Netherlands, Kingdom of the",Leiden,,,,
-Rice University,United States of America,Houston,,,,
+Lancaster University,United Kingdom,Lancaster,GB,GBR,Europe,Northern Europe
+Leiden University,Netherlands,Leiden,NL,NLD,Europe,Western Europe
+Rice University,United States,Houston,US,USA,Americas,Northern America
 Aarhus University,Denmark,Aarhus,DK,DNK,Europe,Northern Europe
 University of Science and Technology of China,China,Hefei,CN,CHN,Asia,Eastern Asia
 Universiti Sains Malaysia (USM),Malaysia,Penang,MY,MYS,Asia,South-eastern Asia
@@ -149,42 +149,42 @@ Technische Universität Berlin (TU Berlin),Germany,Berlin,DE,DEU,Europe,Western 
 Universiti Putra Malaysia (UPM),Malaysia,Serdang,MY,MYS,Asia,South-eastern Asia
 King Abdulaziz University (KAU),Saudi Arabia,Jeddah,SA,SAU,Asia,Western Asia
 Indian Institute of Technology Delhi (IITD),India,New Delhi,IN,IND,Asia,Southern Asia
-University of Bath,United Kingdom of Great Britain and Northern Ireland,Bath,,,,
-Michigan State University,United States of America,Lansing,,,,
+University of Bath,United Kingdom,Bath,GB,GBR,Europe,Northern Europe
+Michigan State University,United States,Lansing,US,USA,Americas,Northern America
 Nagoya University,Japan,Nagoya,JP,JPN,Asia,Eastern Asia
-Texas A&M University,United States of America,College Station,,,,
+Texas A&M University,United States,College Station,US,USA,Americas,Northern America
 University of Geneva,Switzerland,Geneva,CH,CHE,Europe,Western Europe
-"University of North Carolina, Chapel Hill",United States of America,Chapel Hill,,,,
-Wageningen University & Research,"Netherlands, Kingdom of the",Wageningen,,,,
-Erasmus University Rotterdam,"Netherlands, Kingdom of the",Rotterdam,,,,
+"University of North Carolina, Chapel Hill",United States,Chapel Hill,US,USA,Americas,Northern America
+Wageningen University & Research,Netherlands,Wageningen,NL,NLD,Europe,Western Europe
+Erasmus University Rotterdam,Netherlands,Rotterdam,NL,NLD,Europe,Western Europe
 Université de Montréal,Canada,Montreal,CA,CAN,Americas,Northern America
-University of Groningen,"Netherlands, Kingdom of the",Groningen,,,,
+University of Groningen,Netherlands,Groningen,NL,NLD,Europe,Western Europe
 University of Bern,Switzerland,Bern,CH,CHE,Europe,Western Europe
-Hanyang University,"Korea, Republic of",Seoul,,,,
+Hanyang University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Al-Farabi Kazakh National University,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
 Complutense University of Madrid,Spain,Madrid,ES,ESP,Europe,Southern Europe
 Universitat de Barcelona,Spain,Barcelona,ES,ESP,Europe,Southern Europe
-University of Liverpool,United Kingdom of Great Britain and Northern Ireland,Liverpool,,,,
+University of Liverpool,United Kingdom,Liverpool,GB,GBR,Europe,Northern Europe
 Kyushu University,Japan,Fukuoka,JP,JPN,Asia,Eastern Asia
 University of Wollongong,Australia,Wollongong,AU,AUS,Oceania,Australia and New Zealand
 Ghent University,Belgium,Ghent,BE,BEL,Europe,Western Europe
-The University of Exeter,United Kingdom of Great Britain and Northern Ireland,Exeter,,,,
+The University of Exeter,United Kingdom,Exeter,GB,GBR,Europe,Northern Europe
 University of Cape Town,South Africa,Cape Town,ZA,ZAF,Africa,Sub-Saharan Africa
-University of Reading,United Kingdom of Great Britain and Northern Ireland,Reading,,,,
+University of Reading,United Kingdom,Reading,GB,GBR,Europe,Northern Europe
 Hokkaido University,Japan,Sapporo,JP,JPN,Asia,Eastern Asia
 Curtin University,Australia,Perth,AU,AUS,Oceania,Australia and New Zealand
 Universitat Autònoma de Barcelona,Spain,Barcelona,ES,ESP,Europe,Southern Europe
 McMaster University,Canada,Hamilton,CA,CAN,Americas,Northern America
-Washington University in St. Louis,United States of America,Washington,,,,
-"University of California, Santa Barbara (UCSB)",United States of America,Santa Barbara,,,,
+Washington University in St. Louis,United States,Washington,US,USA,Americas,Northern America
+"University of California, Santa Barbara (UCSB)",United States,Santa Barbara,US,USA,Americas,Northern America
 "The University of Newcastle, Australia (UON)",Australia,Callaghan,AU,AUS,Oceania,Australia and New Zealand
 Universidad de los Andes,Colombia,Bogotá,CO,COL,Americas,Latin America and the Caribbean
 Universiti Teknologi Malaysia,Malaysia,Skudai,MY,MYS,Asia,South-eastern Asia
 Waseda University,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
 Hamad Bin Khalifa University,Qatar,Doha,QA,QAT,Asia,Western Asia
-University of York,United Kingdom of Great Britain and Northern Ireland,York,,,,
+University of York,United Kingdom,York,GB,GBR,Europe,Northern Europe
 Tecnológico de Monterrey,Mexico,Monterrey,MX,MEX,Americas,Latin America and the Caribbean
-Cardiff University,United Kingdom of Great Britain and Northern Ireland,Cardiff,,,,
+Cardiff University,United Kingdom,Cardiff,GB,GBR,Europe,Northern Europe
 École Normale Supérieure de Lyon,France,Lyon,FR,FRA,Europe,Western Europe
 Keio University,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
 University of Ottawa,Canada,Ottawa,CA,CAN,Americas,Northern America
@@ -194,59 +194,59 @@ Wuhan University,China,Wuhan,CN,CHN,Asia,Eastern Asia
 Queen's University at Kingston,Canada,Kingston,CA,CAN,Americas,Northern America
 University of Gothenburg,Sweden,Gothenburg,SE,SWE,Europe,Northern Europe
 Beijing Normal University,China,Beijing,CN,CHN,Asia,Eastern Asia
-Emory University,United States of America,Atlanta,,,,
+Emory University,United States,Atlanta,US,USA,Americas,Northern America
 Deakin University,Australia,Geelong,AU,AUS,Oceania,Australia and New Zealand
 Universidad Autónoma de Madrid,Spain,Madrid,ES,ESP,Europe,Southern Europe
 University of Calgary,Canada,Calgary,CA,CAN,Americas,Northern America
-Arizona State University,United States of America,Tempe,,,,
+Arizona State University,United States,Tempe,US,USA,Americas,Northern America
 King Saud University,Saudi Arabia,Riyadh,SA,SAU,Asia,Western Asia
 Khalifa University of Science and Technology,United Arab Emirates,Abu Dhabi,AE,ARE,Asia,Western Asia
 Université catholique de Louvain (UCLouvain),Belgium,Louvain-la-Neuve,BE,BEL,Europe,Western Europe
-University of Minnesota Twin Cities,United States of America,Minneapolis,,,,
+University of Minnesota Twin Cities,United States,Minneapolis,US,USA,Americas,Northern America
 Ecole des Ponts ParisTech,France,Paris,FR,FRA,Europe,Western Europe
-Queen's University Belfast,United Kingdom of Great Britain and Northern Ireland,Belfast,,,,
+Queen's University Belfast,United Kingdom,Belfast,GB,GBR,Europe,Northern Europe
 Universitas Indonesia,Indonesia,Depok,ID,IDN,Asia,South-eastern Asia
-The Ohio State University,United States of America,Columbus,,,,
+The Ohio State University,United States,Columbus,US,USA,Americas,Northern America
 Tel Aviv University,Israel,Tel Aviv,IL,ISR,Asia,Western Asia
-National Tsing Hua University,"Taiwan, Province of China",Hsinchu,,,,
+National Tsing Hua University,Taiwan,Hsinchu,TW,TWN,,
 Indian Institute of Science,India,Bangalore,IN,IND,Asia,Southern Asia
 Albert-Ludwigs-Universitaet Freiburg,Germany,Freiburg,DE,DEU,Europe,Western Europe
 Queensland University of Technology (QUT),Australia,Brisbane,AU,AUS,Oceania,Australia and New Zealand
 University of Otago,New Zealand,Dunedin,NZ,NZL,Oceania,Australia and New Zealand
-National Cheng Kung University (NCKU),"Taiwan, Province of China",Tainan,,,,
-University of Florida,United States of America,Florida,,,,
+National Cheng Kung University (NCKU),Taiwan,Tainan,TW,TWN,,
+University of Florida,United States,Florida,US,USA,Americas,Northern America
 La Trobe University,Australia,Melbourne,AU,AUS,Oceania,Australia and New Zealand
-"University of Maryland, College Park",United States of America,College Park,,,,
-National Yang Ming Chiao Tung University,"Taiwan, Province of China",Hsinchu,,,,
+"University of Maryland, College Park",United States,College Park,US,USA,Americas,Northern America
+National Yang Ming Chiao Tung University,Taiwan,Hsinchu,TW,TWN,,
 Universidad Nacional de Colombia,Colombia,Bogotá,CO,COL,Americas,Latin America and the Caribbean
-Vrije Universiteit Amsterdam,"Netherlands, Kingdom of the",Amsterdam,,,,
+Vrije Universiteit Amsterdam,Netherlands,Amsterdam,NL,NLD,Europe,Western Europe
 Eberhard Karls Universität Tübingen,Germany,Tübingen,DE,DEU,Europe,Western Europe
 Indian Institute of Technology Kharagpur (IIT-KGP),India,Kharagpur,IN,IND,Asia,Southern Asia
 Friedrich-Alexander-Universität Erlangen-Nürnberg,Germany,Erlangen,DE,DEU,Europe,Western Europe
-Loughborough University,United Kingdom of Great Britain and Northern Ireland,Loughborough,,,,
+Loughborough University,United Kingdom,Loughborough,GB,GBR,Europe,Northern Europe
 University of Lausanne,Switzerland,Lausanne,CH,CHE,Europe,Western Europe
 Indian Institute of Technology Madras (IITM),India,Chennai,IN,IND,Asia,Southern Asia
 Rheinische Friedrich-Wilhelms-Universität Bonn,Germany,Bonn,DE,DEU,Europe,Western Europe
 Chulalongkorn University,Thailand,Bangkok,TH,THA,Asia,South-eastern Asia
-Maastricht University,"Netherlands, Kingdom of the",Maastricht,,,,
+Maastricht University,Netherlands,Maastricht,NL,NLD,Europe,Western Europe
 Universite libre de Bruxelles,Belgium,Brussels,BE,BEL,Europe,Western Europe
 Universidade Estadual de Campinas (Unicamp),Brazil,Campinas,BR,BRA,Americas,Latin America and the Caribbean
-University of Twente,"Netherlands, Kingdom of the",Enschede,,,,
+University of Twente,Netherlands,Enschede,NL,NLD,Europe,Western Europe
 Technische Universität Dresden,Germany,Dresden,DE,DEU,Europe,Western Europe
 University of Waikato,New Zealand,Hamilton,NZ,NZL,Oceania,Australia and New Zealand
 Università di Padova,Italy,Padua,IT,ITA,Europe,Southern Europe
-University of Aberdeen,United Kingdom of Great Britain and Northern Ireland,Aberdeen,,,,
-University of Rochester,United States of America,Rochester,,,,
+University of Aberdeen,United Kingdom,Aberdeen,GB,GBR,Europe,Northern Europe
+University of Rochester,United States,Rochester,US,USA,Americas,Northern America
 Gadjah Mada University,Indonesia,Yogyakarta,ID,IDN,Asia,South-eastern Asia
 Massey University,New Zealand,Palmerston North,NZ,NZL,Oceania,Australia and New Zealand
 Politecnico di Torino,Italy,Turin,IT,ITA,Europe,Southern Europe
 Technical University of Darmstadt,Germany,Darmstadt,DE,DEU,Europe,Western Europe
-Dartmouth College,United States of America,Hanover,,,,
+Dartmouth College,United States,Hanover,US,USA,Americas,Northern America
 Victoria University of Wellington,New Zealand,Wellington,NZ,NZL,Oceania,Australia and New Zealand
 University of Macau,Macao,Macau,MO,MAC,Asia,Eastern Asia
-Charles University,Czechia,Prague,,,,
-University of Sussex,United Kingdom of Great Britain and Northern Ireland,Brighton,,,,
-Vanderbilt University,United States of America,Nashville,,,,
+Charles University,Czech Republic,Prague,CZ,CZE,Europe,Eastern Europe
+University of Sussex,United Kingdom,Brighton,GB,GBR,Europe,Northern Europe
+Vanderbilt University,United States,Nashville,US,USA,Americas,Northern America
 University of Navarra,Spain,Pamplona,ES,ESP,Europe,Southern Europe
 American University of Beirut (AUB),Lebanon,Beirut,LB,LBN,Asia,Western Asia
 Taylor's University,Malaysia,Subang Jaya,MY,MYS,Asia,South-eastern Asia
@@ -255,9 +255,9 @@ Hong Kong Baptist University,Hong Kong,Hong Kong,HK,HKG,Asia,Eastern Asia
 University of Göttingen,Germany,Göttingen,DE,DEU,Europe,Western Europe
 Griffith University,Australia,Griffith,AU,AUS,Oceania,Australia and New Zealand
 Bandung Institute of Technology (ITB),Indonesia,Bandung,ID,IDN,Asia,South-eastern Asia
-Heriot-Watt University,United Kingdom of Great Britain and Northern Ireland,Edinburgh,,,,
+Heriot-Watt University,United Kingdom,Edinburgh,GB,GBR,Europe,Northern Europe
 University of Warsaw,Poland,Warsaw,PL,POL,Europe,Eastern Europe
-Case Western Reserve University,United States of America,Cleveland,,,,
+Case Western Reserve University,United States,Cleveland,US,USA,Americas,Northern America
 University of Lisbon,Portugal,Lisbon,PT,PRT,Europe,Southern Europe
 United Arab Emirates University,United Arab Emirates,Al Ain,AE,ARE,Asia,Western Asia
 University of Canterbury | Te Whare W?nanga o Waitaha,New Zealand,Christchurch,NZ,NZL,Oceania,Australia and New Zealand
@@ -270,68 +270,68 @@ University of Witwatersrand,South Africa,Johannesburg,ZA,ZAF,Africa,Sub-Saharan 
 Sun Yat-sen University,China,Guangzhou,CN,CHN,Asia,Eastern Asia
 Universiti Teknologi PETRONAS (UTP),Malaysia,Tronoh,MY,MYS,Asia,South-eastern Asia
 Harbin Institute of Technology,China,Harbin,CN,CHN,Asia,Eastern Asia
-Radboud University,"Netherlands, Kingdom of the",Nijmegen,,,,
+Radboud University,Netherlands,Nijmegen,NL,NLD,Europe,Western Europe
 University College Cork,Ireland,Cork,IE,IRL,Europe,Northern Europe
 University of Galway,Ireland,Galway,IE,IRL,Europe,Northern Europe
 Dalhousie University,Canada,Dalhousie,CA,CAN,Americas,Northern America
-University of Massachusetts Amherst,United States of America,Amherst,,,,
-University of Pittsburgh,United States of America,Pittsburgh,,,,
+University of Massachusetts Amherst,United States,Amherst,US,USA,Americas,Northern America
+University of Pittsburgh,United States,Pittsburgh,US,USA,Americas,Northern America
 University of Porto,Portugal,Porto,PT,PRT,Europe,Southern Europe
 Vrije Universiteit Brussel (VUB),Belgium,Brussels,BE,BEL,Europe,Western Europe
-Ulsan National Institute of Science and Technology (UNIST),"Korea, Republic of",Ulsan,,,,
+Ulsan National Institute of Science and Technology (UNIST),Korea,Ulsan,KR,KOR,Asia,Eastern Asia
 The Hebrew University of Jerusalem,Israel,Jerusalem,IL,ISR,Asia,Western Asia
-University of Strathclyde,United Kingdom of Great Britain and Northern Ireland,Glasgow,,,,
+University of Strathclyde,United Kingdom,Glasgow,GB,GBR,Europe,Northern Europe
 Université Paris 1 Panthéon-Sorbonne,France,Paris,FR,FRA,Europe,Western Europe
 Xiamen University,China,Xiamen,CN,CHN,Asia,Eastern Asia
-Middle East Technical University,Türkiye,Ankara,,,,
+Middle East Technical University,Turkey,Ankara,TR,TUR,Asia,Western Asia
 Universidad Carlos III de Madrid (UC3M),Spain,Madrid,ES,ESP,Europe,Southern Europe
 University of Cologne,Germany,Cologne,DE,DEU,Europe,Western Europe
-University of Leicester,United Kingdom of Great Britain and Northern Ireland,Leicester,,,,
+University of Leicester,United Kingdom,Leicester,GB,GBR,Europe,Northern Europe
 University of Milan,Italy,Milan,IT,ITA,Europe,Southern Europe
-University of Surrey,United Kingdom of Great Britain and Northern Ireland,Guildford,,,,
+University of Surrey,United Kingdom,Guildford,GB,GBR,Europe,Northern Europe
 Swinburne University of Technology,Australia,Melbourne,AU,AUS,Oceania,Australia and New Zealand
 University of Bergen,Norway,Bergen,NO,NOR,Europe,Northern Europe
-The University of Arizona,United States of America,Tucson,,,,
+The University of Arizona,United States,Tucson,US,USA,Americas,Northern America
 University of Tasmania,Australia,Hobart,AU,AUS,Oceania,Australia and New Zealand
 Beijing Institute of Technology,China,Beijing,CN,CHN,Asia,Eastern Asia
 Stellenbosch University,South Africa,Stellenbosch,ZA,ZAF,Africa,Sub-Saharan Africa
-University of Virginia,United States of America,Charlottesville,,,,
-Bauman Moscow State Technical University,Russian Federation,Moscow,,,,
-Swansea University,United Kingdom of Great Britain and Northern Ireland,Swansea,,,,
+University of Virginia,United States,Charlottesville,US,USA,Americas,Northern America
+Bauman Moscow State Technical University,Russia,Moscow,RU,RUS,Europe,Eastern Europe
+Swansea University,United Kingdom,Swansea,GB,GBR,Europe,Northern Europe
 Huazhong University of Science and Technology,China,Wuhan,CN,CHN,Asia,Eastern Asia
-Georgetown University,United States of America,Washington,,,,
+Georgetown University,United States,Washington,US,USA,Americas,Northern America
 Sichuan University,China,Chengdu,CN,CHN,Asia,Eastern Asia
 Université Paris Cité,France,Paris,FR,FRA,Europe,Western Europe
 Linköping University,Sweden,Linköping,SE,SWE,Europe,Northern Europe
 Universidade Federal do Rio de Janeiro,Brazil,Rio de Janeiro,BR,BRA,Americas,Latin America and the Caribbean
 Aalborg University,Denmark,Aalborg,DK,DNK,Europe,Northern Europe
-"University of California, Irvine",United States of America,Irvine,,,,
+"University of California, Irvine",United States,Irvine,US,USA,Americas,Northern America
 Airlangga University,Indonesia,Surabaya,ID,IDN,Asia,South-eastern Asia
 Goethe-University Frankfurt am Main,Germany,Frankfurt,DE,DEU,Europe,Western Europe
 Universität Innsbruck,Austria,Innsbruck,AT,AUT,Europe,Western Europe
-North Carolina State University,United States of America,Carolina,,,,
+North Carolina State University,United States,Carolina,US,USA,Americas,Northern America
 Jagiellonian University,Poland,Kraków,PL,POL,Europe,Eastern Europe
 University of Johannesburg,South Africa,Johannesburg,ZA,ZAF,Africa,Sub-Saharan Africa
 Universität Stuttgart,Germany,Stuttgart,DE,DEU,Europe,Western Europe
 Quaid-i-Azam University,Pakistan,Islamabad,PK,PAK,Asia,Southern Asia
-RUDN University,Russian Federation,Moscow,,,,
+RUDN University,Russia,Moscow,RU,RUS,Europe,Eastern Europe
 Shanghai University,China,Shanghai,CN,CHN,Asia,Eastern Asia
-University of Notre Dame,United States of America,Notre Dame,,,,
+University of Notre Dame,United States,Notre Dame,US,USA,Americas,Northern America
 Simon Fraser University,Canada,Burnaby,CA,CAN,Americas,Northern America
-University of Colorado Boulder,United States of America,Boulder,,,,
+University of Colorado Boulder,United States,Boulder,US,USA,Americas,Northern America
 L.N. Gumilyov Eurasian National University (ENU),Kazakhstan,Nur-Sultan,KZ,KAZ,Asia,Central Asia
 National Technical University of Athens,Greece,Athens,GR,GRC,Europe,Southern Europe
 Universidad Politécnica de Madrid (UPM),Spain,Madrid,ES,ESP,Europe,Southern Europe
-University of Miami,United States of America,Miami,,,,
+University of Miami,United States,Miami,US,USA,Americas,Northern America
 University of Southern Denmark (SDU),Denmark,Odense,DK,DNK,Europe,Northern Europe
-Daegu Gyeongbuk Institute of Science and Technology (DGIST),"Korea, Republic of",Daegu,,,,
-Istanbul Technical University,Türkiye,Istanbul,,,,
-Kyung Hee University,"Korea, Republic of",Seoul,,,,
-Rutgers University–New Brunswick,United States of America,New Brunswick,,,,
+Daegu Gyeongbuk Institute of Science and Technology (DGIST),Korea,Daegu,KR,KOR,Asia,Eastern Asia
+Istanbul Technical University,Turkey,Istanbul,TR,TUR,Asia,Western Asia
+Kyung Hee University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
+Rutgers University–New Brunswick,United States,New Brunswick,US,USA,Americas,Northern America
 University of Delhi,India,Delhi,IN,IND,Asia,Southern Asia
 Renmin (People's) University of China,China,Beijing,CN,CHN,Asia,Eastern Asia
 American University of Sharjah,United Arab Emirates,Sharjah,AE,ARE,Asia,Western Asia
-University of East Anglia (UEA),United Kingdom of Great Britain and Northern Ireland,Norwich,,,,
+University of East Anglia (UEA),United Kingdom,Norwich,GB,GBR,Europe,Northern Europe
 Université Grenoble Alpes,France,Grenoble,FR,FRA,Europe,Western Europe
 Indian Institute of Technology Roorkee (IITR),India,Roorkee,IN,IND,Asia,Southern Asia
 Flinders University,Australia,Flinders,AU,AUS,Oceania,Australia and New Zealand
@@ -340,36 +340,36 @@ Xi’an Jiaotong University,China,Xi'an,CN,CHN,Asia,Eastern Asia
 University of the Philippines,Philippines,Quezon City,PH,PHL,Asia,South-eastern Asia
 University of Saskatchewan,Canada,Saskatoon,CA,CAN,Americas,Northern America
 University of South Australia,Australia,Adelaide,AU,AUS,Oceania,Australia and New Zealand
-Brunel University London,United Kingdom of Great Britain and Northern Ireland,London,,,,
-Sharif University of Technology,"Iran, Islamic Republic of",Tehran,,,,
+Brunel University London,United Kingdom,London,GB,GBR,Europe,Northern Europe
+Sharif University of Technology,Iran,Tehran,IR,IRN,Asia,Southern Asia
 Indian Institute of Technology Guwahati (IITG),India,Guwahati,IN,IND,Asia,Southern Asia
-Tufts University,United States of America,Medford,,,,
+Tufts University,United States,Medford,US,USA,Americas,Northern America
 University of Oulu,Finland,Oulu,FI,FIN,Europe,Northern Europe
-Tilburg University,"Netherlands, Kingdom of the",Tilburg,,,,
+Tilburg University,Netherlands,Tilburg,NL,NLD,Europe,Western Europe
 University of Naples - Federico II,Italy,Naples,IT,ITA,Europe,Southern Europe
 University of Victoria (UVic),Canada,Victoria,CA,CAN,Americas,Northern America
 Cairo University,Egypt,Cairo,EG,EGY,Africa,Northern Africa
 Sciences Po,France,Paris,FR,FRA,Europe,Western Europe
-"City, University of London",United Kingdom of Great Britain and Northern Ireland,London,,,,
+"City, University of London",United Kingdom,London,GB,GBR,Europe,Northern Europe
 National University of Sciences And Technology (NUST) Islamabad,Pakistan,Islamabad,PK,PAK,Asia,Southern Asia
 University of Pretoria,South Africa,Pretoria,ZA,ZAF,Africa,Sub-Saharan Africa
-Indiana University Bloomington,United States of America,Bloomington,,,,
+Indiana University Bloomington,United States,Bloomington,US,USA,Americas,Northern America
 University of Coimbra,Portugal,Coimbra,PT,PRT,Europe,Southern Europe
 University of Luxembourg,Luxembourg,Luxemburg,LU,LUX,Europe,Western Europe
 University of Tartu,Estonia,Tartu,EE,EST,Europe,Northern Europe
-Gwangju Institute of Science and Technology (GIST),"Korea, Republic of",Gwangju,,,,
+Gwangju Institute of Science and Technology (GIST),Korea,Gwangju,KR,KOR,Asia,Eastern Asia
 Pontificia Universidad Católica del Perú,Peru,Lima,PE,PER,Americas,Latin America and the Caribbean
 University of Aveiro,Portugal,Aveiro,PT,PRT,Europe,Southern Europe
 Sultan Qaboos University,Oman,Muscat,OM,OMN,Asia,Western Asia
 Nankai University,China,Shanghai,CN,CHN,Asia,Eastern Asia
 York University,Canada,Toronto,CA,CAN,Americas,Northern America
-Saint Petersburg State University,Russian Federation,Saint Petersburg,,,,
-University of Illinois at Chicago (UIC),United States of America,Chicago,,,,
+Saint Petersburg State University,Russia,Saint Petersburg,RU,RUS,Europe,Eastern Europe
+University of Illinois at Chicago (UIC),United States,Chicago,US,USA,Americas,Northern America
 Westfälische Wilhelms-Universität Münster,Germany,Münster,DE,DEU,Europe,Western Europe
 Mahidol University,Thailand,Bangkok,TH,THA,Asia,South-eastern Asia
 University of Jordan,Jordan,Amman,JO,JOR,Asia,Western Asia
-University of Tehran,"Iran, Islamic Republic of",Tehran,,,,
-George Washington University,United States of America,Washington,,,,
+University of Tehran,Iran,Tehran,IR,IRN,Asia,Southern Asia
+George Washington University,United States,Washington,US,USA,Americas,Northern America
 Lincoln University,New Zealand,Lincoln,NZ,NZL,Oceania,Australia and New Zealand
 Universitat Politècnica de Catalunya · BarcelonaTech (UPC),Spain,Barcelona,ES,ESP,Europe,Southern Europe
 University of Turin,Italy,Turin,IT,ITA,Europe,Southern Europe
@@ -379,7 +379,7 @@ Tianjin University,China,Tianjin,CN,CHN,Asia,Eastern Asia
 Pontificia Universidad Javeriana,Colombia,Bogotá,CO,COL,Americas,Latin America and the Caribbean
 University of Tsukuba,Japan,Tsukuba,JP,JPN,Asia,Eastern Asia
 Technische Universität Bergakademie Freiberg,Germany,Freiberg,DE,DEU,Europe,Western Europe
-University of Kent,United Kingdom of Great Britain and Northern Ireland,Canterbury,,,,
+University of Kent,United Kingdom,Canterbury,GB,GBR,Europe,Northern Europe
 University of Pisa,Italy,Pisa,IT,ITA,Europe,Southern Europe
 Anna University,India,Chennai,IN,IND,Asia,Southern Asia
 Western Sydney University,Australia,Sydney,AU,AUS,Oceania,Australia and New Zealand
@@ -389,59 +389,59 @@ Belarusian State University,Belarus,Minsk,BY,BLR,Europe,Eastern Europe
 Universidade Nova de Lisboa,Portugal,Lisbon,PT,PRT,Europe,Southern Europe
 Università Vita-Salute San Raffaele,Italy,Milan,IT,ITA,Europe,Southern Europe
 University of Cyprus (UCY),Cyprus,Nicosia,CY,CYP,Asia,Western Asia
-Virginia Polytechnic Institute and State University,United States of America,Blacksburg,,,,
-National Taiwan University of Science and Technology (Taiwan Tech),"Taiwan, Province of China",Taipei,,,,
+Virginia Polytechnic Institute and State University,United States,Blacksburg,US,USA,Americas,Northern America
+National Taiwan University of Science and Technology (Taiwan Tech),Taiwan,Taipei,TW,TWN,,
 National and Kapodistrian University of Athens,Greece,Athens,GR,GRC,Europe,Southern Europe
-"University of California, Santa Cruz",United States of America,Santa Cruz,,,,
+"University of California, Santa Cruz",United States,Santa Cruz,US,USA,Americas,Northern America
 "University of Rome ""Tor Vergata""",Italy,Rome,IT,ITA,Europe,Southern Europe
-Northeastern University,United States of America,Boston,,,,
+Northeastern University,United States,Boston,US,USA,Americas,Northern America
 Ruhr-Universität Bochum,Germany,Bochum,DE,DEU,Europe,Western Europe
-Sejong University,"Korea, Republic of",Seoul,,,,
+Sejong University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Université de Liège,Belgium,Liège,BE,BEL,Europe,Western Europe
 University of Southern Queensland,Australia,Toowoomba,AU,AUS,Oceania,Australia and New Zealand
-Kazan (Volga region) Federal University,Russian Federation,Kazan,,,,
-Koç University,Türkiye,Istanbul,,,,
-Amirkabir University of Technology,"Iran, Islamic Republic of",Tehran,,,,
+Kazan (Volga region) Federal University,Russia,Kazan,RU,RUS,Europe,Eastern Europe
+Koç University,Turkey,Istanbul,TR,TUR,Asia,Western Asia
+Amirkabir University of Technology,Iran,Tehran,IR,IRN,Asia,Southern Asia
 University of Canberra,Australia,Canberra,AU,AUS,Oceania,Australia and New Zealand
 Institut National des Sciences Appliquées de Lyon (INSA),France,Lyon,FR,FRA,Europe,Western Europe
 Satbayev University,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
 USI - Università della Svizzera italiana,Switzerland,Lugano,CH,CHE,Europe,Western Europe
-"Birkbeck, University of London",United Kingdom of Great Britain and Northern Ireland,London,,,,
-Masaryk University,Czechia,Brno,,,,
-HSE University,Russian Federation,Moscow,,,,
+"Birkbeck, University of London",United Kingdom,London,GB,GBR,Europe,Northern Europe
+Masaryk University,Czech Republic,Brno,CZ,CZE,Europe,Eastern Europe
+HSE University,Russia,Moscow,RU,RUS,Europe,Eastern Europe
 The American University in Cairo,Egypt,Cairo,EG,EGY,Africa,Northern Africa
 Auckland University of Technology (AUT),New Zealand,Auckland,NZ,NZL,Oceania,Australia and New Zealand
 Graz University of Technology,Austria,Graz,AT,AUT,Europe,Western Europe
-Yeshiva University,United States of America,New York,,,,
+Yeshiva University,United States,New York,US,USA,Americas,Northern America
 Concordia University,Canada,Montreal,CA,CAN,Americas,Northern America
-Oxford Brookes University,United Kingdom of Great Britain and Northern Ireland,Oxford,,,,
+Oxford Brookes University,United Kingdom,Oxford,GB,GBR,Europe,Northern Europe
 Technion - Israel Institute of Technology,Israel,Haifa,IL,ISR,Asia,Western Asia
-University of Dundee,United Kingdom of Great Britain and Northern Ireland,Dundee,,,,
-Bo?aziçi University,Türkiye,Istanbul,,,,
-Czech Technical University in Prague,Czechia,Prague,,,,
+University of Dundee,United Kingdom,Dundee,GB,GBR,Europe,Northern Europe
+Bo?aziçi University,Turkey,Istanbul,TR,TUR,Asia,Western Asia
+Czech Technical University in Prague,Czech Republic,Prague,CZ,CZE,Europe,Eastern Europe
 Dublin City University,Ireland,Dublin,IE,IRL,Europe,Northern Europe
 University of Limerick,Ireland,Limerick,IE,IRL,Europe,Northern Europe
-Aston University,United Kingdom of Great Britain and Northern Ireland,Birmingham,,,,
+Aston University,United Kingdom,Birmingham,GB,GBR,Europe,Northern Europe
 Université Laval,Canada,Quebec City,CA,CAN,Americas,Northern America
-National Taipei University of Technology,"Taiwan, Province of China",Taipei,,,,
+National Taipei University of Technology,Taiwan,Taipei,TW,TWN,,
 IPB University (a.k.a. Bogor Agricultural University),Indonesia,Bogor,ID,IDN,Asia,South-eastern Asia
 Leibniz University Hannover,Germany,Hanover,DE,DEU,Europe,Western Europe
 Julius-Maximilians-Universität Würzburg,Germany,Würzburg,DE,DEU,Europe,Western Europe
 Central South University,China,Changsha,CN,CHN,Asia,Eastern Asia
 University of Science and Technology Beijing,China,Beijing,CN,CHN,Asia,Eastern Asia
 University of Electronic Science and Technology of China,China,Chengdu,CN,CHN,Asia,Eastern Asia
-Tomsk State University,Russian Federation,Tomsk,,,,
+Tomsk State University,Russia,Tomsk,RU,RUS,Europe,Eastern Europe
 University of Granada,Spain,Granada,ES,ESP,Europe,Southern Europe
 University of Sharjah,United Arab Emirates,Sharjah,AE,ARE,Asia,Western Asia
 IE University,Spain,Madrid,ES,ESP,Europe,Southern Europe
-Iran University of Science and Technology,"Iran, Islamic Republic of",Tehran,,,,
+Iran University of Science and Technology,Iran,Tehran,IR,IRN,Asia,Southern Asia
 Murdoch University,Australia,Perth,AU,AUS,Oceania,Australia and New Zealand
 Universitat Politècnica de València,Spain,Valencia,ES,ESP,Europe,Southern Europe
 Vilnius University,Lithuania,Vilnius,LT,LTU,Europe,Northern Europe
 Singapore University of Technology and Design,Singapore,Singapore,SG,SGP,Asia,South-eastern Asia
 Università degli Studi di Pavia,Italy,Pavia,IT,ITA,Europe,Southern Europe
-Colorado State University,United States of America,Fort Collins,,,,
-Novosibirsk State University,Russian Federation,Novosibirsk,,,,
+Colorado State University,United States,Fort Collins,US,USA,Americas,Northern America
+Novosibirsk State University,Russia,Novosibirsk,RU,RUS,Europe,Eastern Europe
 Università Cattolica del Sacro Cuore,Italy,Milan,IT,ITA,Europe,Southern Europe
 James Cook University,Australia,Townsville,AU,AUS,Oceania,Australia and New Zealand
 Justus-Liebig-University Giessen,Germany,Giessen,DE,DEU,Europe,Western Europe
@@ -451,14 +451,14 @@ South China University of Technology,China,Guangzhou,CN,CHN,Asia,Eastern Asia
 Université de Montpellier,France,Montpellier,FR,FRA,Europe,Western Europe
 Hunan University,China,Changsha,CN,CHN,Asia,Eastern Asia
 Nanjing University of Science and Technology,China,Nanjing,CN,CHN,Asia,Eastern Asia
-National Taiwan Normal University,"Taiwan, Province of China",Taipei,,,,
-University of Kansas,United States of America,Lawrence,,,,
-University of Stirling,United Kingdom of Great Britain and Northern Ireland,Stirling,,,,
-Moscow Institute of Physics and Technology (MIPT / Moscow Phystech),Russian Federation,Dolgoprudny,,,,
+National Taiwan Normal University,Taiwan,Taipei,TW,TWN,,
+University of Kansas,United States,Lawrence,US,USA,Americas,Northern America
+University of Stirling,United Kingdom,Stirling,GB,GBR,Europe,Northern Europe
+Moscow Institute of Physics and Technology (MIPT / Moscow Phystech),Russia,Dolgoprudny,RU,RUS,Europe,Eastern Europe
 Umea University,Sweden,Umeå,SE,SWE,Europe,Northern Europe
 Université de Strasbourg,France,Strasbourg,FR,FRA,Europe,Western Europe
 University of Guelph,Canada,Guelph,CA,CAN,Americas,Northern America
-"Stony Brook University, State University of New York",United States of America,Stony Brook,,,,
+"Stony Brook University, State University of New York",United States,Stony Brook,US,USA,Americas,Northern America
 Universidad de Santiago de Chile (USACH),Chile,Santiago,CL,CHL,Americas,Latin America and the Caribbean
 Tampere University,Finland,Tampere,FI,FIN,Europe,Northern Europe
 Universidad de Sevilla,Spain,Seville,ES,ESP,Europe,Southern Europe
@@ -466,50 +466,50 @@ Macau University of Science and Technology,Macao,Macau,MO,MAC,Asia,Eastern Asia
 Kobe University,Japan,Kobe,JP,JPN,Asia,Eastern Asia
 Universität Konstanz,Germany,Konstanz,DE,DEU,Europe,Western Europe
 Universitat Ramon Llull,Spain,Barcelona,ES,ESP,Europe,Southern Europe
-University at Buffalo SUNY,United States of America,Buffalo,,,,
-Washington State University,United States of America,Washington,,,,
-Iowa State University,United States of America,Ames,,,,
+University at Buffalo SUNY,United States,Buffalo,US,USA,Americas,Northern America
+Washington State University,United States,Washington,US,USA,Americas,Northern America
+Iowa State University,United States,Ames,US,USA,Americas,Northern America
 Ben-Gurion University of The Negev,Israel,Beersheba,IL,ISR,Asia,Western Asia
-"Essex, University of",United Kingdom of Great Britain and Northern Ireland,Colchester,,,,
+"Essex, University of",United Kingdom,Colchester,GB,GBR,Europe,Northern Europe
 Johannes Kepler University Linz,Austria,Linz,AT,AUT,Europe,Western Europe
-Bangor University,United Kingdom of Great Britain and Northern Ireland,Bangor,,,,
+Bangor University,United Kingdom,Bangor,GB,GBR,Europe,Northern Europe
 Hiroshima University,Japan,Hiroshima,JP,JPN,Asia,Eastern Asia
 Universität Potsdam,Germany,Potsdam,DE,DEU,Europe,Western Europe
 Ajman University,United Arab Emirates,Ajman,AE,ARE,Asia,Western Asia
-Bilkent University,Türkiye,Ankara,,,,
+Bilkent University,Turkey,Ankara,TR,TUR,Asia,Western Asia
 Indian Institute of Technology Indore (IIT Indore),India,Indore,IN,IND,Asia,Southern Asia
-Royal Holloway University of London,United Kingdom of Great Britain and Northern Ireland,Egham,,,,
+Royal Holloway University of London,United Kingdom,Egham,GB,GBR,Europe,Northern Europe
 Aix-Marseille University,France,Marseille,FR,FRA,Europe,Western Europe
 Pontificia Universidad Católica Argentina,Argentina,Buenos Aires,AR,ARG,Americas,Latin America and the Caribbean
-"The University of Tennessee, Knoxville",United States of America,Knoxville,,,,
+"The University of Tennessee, Knoxville",United States,Knoxville,US,USA,Americas,Northern America
 China Agricultural University,China,Beijing,CN,CHN,Asia,Eastern Asia
 American University of Ras Al Khaimah ( AURAK ),United Arab Emirates,Ras Al Khaimah,AE,ARE,Asia,Western Asia
-National Sun Yat-sen University,"Taiwan, Province of China",Kaohsiung,,,,
+National Sun Yat-sen University,Taiwan,Kaohsiung,TW,TWN,,
 Universität Mannheim,Germany,Mannheim,DE,DEU,Europe,Western Europe
-University of Hawai?i at M?noa,United States of America,Honolulu,,,,
+University of Hawai?i at M?noa,United States,Honolulu,US,USA,Americas,Northern America
 Dalian University of Technology,China,Dalian,CN,CHN,Asia,Eastern Asia
-Chung-Ang University (CAU),"Korea, Republic of",Seoul,,,,
-Isfahan University of Technology,"Iran, Islamic Republic of",Isfahan,,,,
+Chung-Ang University (CAU),Korea,Seoul,KR,KOR,Asia,Eastern Asia
+Isfahan University of Technology,Iran,Isfahan,IR,IRN,Asia,Southern Asia
 Southeast University,China,Nanjing,CN,CHN,Asia,Eastern Asia
 UNESP,Brazil,São Paulo,BR,BRA,Americas,Latin America and the Caribbean
 University of Jyväskylä,Finland,Jyväskylä,FI,FIN,Europe,Northern Europe
 Central Queensland University (CQUniversity Australia),Australia,Rockhampton,AU,AUS,Oceania,Australia and New Zealand
-Duy Tan University,Viet Nam,Da Nang,,,,
+Duy Tan University,Vietnam,Da Nang,VN,VNM,Asia,South-eastern Asia
 Chongqing University,China,Chongqing,CN,CHN,Asia,Eastern Asia
-National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),Russian Federation,Moscow,,,,
+National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),Russia,Moscow,RU,RUS,Europe,Eastern Europe
 Universidad de Costa Rica,Costa Rica,San José,CR,CRI,Americas,Latin America and the Caribbean
-"University of California, Riverside",United States of America,Riverside,,,,
+"University of California, Riverside",United States,Riverside,US,USA,Americas,Northern America
 Abu Dhabi University,United Arab Emirates,Abu Dhabi,AE,ARE,Asia,Western Asia
-Colorado School of Mines,United States of America,Golden,,,,
+Colorado School of Mines,United States,Golden,US,USA,Americas,Northern America
 Zhengzhou University,China,Zhengzhou,CN,CHN,Asia,Eastern Asia
 Johannes Gutenberg Universität Mainz,Germany,Mainz,DE,DEU,Europe,Western Europe
-University of Huddersfield,United Kingdom of Great Britain and Northern Ireland,Huddersfield,,,,
-University of Delaware,United States of America,Delaware,,,,
+University of Huddersfield,United Kingdom,Huddersfield,GB,GBR,Europe,Northern Europe
+University of Delaware,United States,Delaware,US,USA,Americas,Northern America
 University of Trento,Italy,Trento,IT,ITA,Europe,Southern Europe
 Aristotle University of Thessaloniki,Greece,Thessaloniki,GR,GRC,Europe,Southern Europe
 China University of Petroleum,China,Beijing,CN,CHN,Asia,Eastern Asia
-SOAS University of London,United Kingdom of Great Britain and Northern Ireland,London,,,,
-Ewha Womans University,"Korea, Republic of",Seoul,,,,
+SOAS University of London,United Kingdom,London,GB,GBR,Europe,Northern Europe
+Ewha Womans University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Beihang University (former BUAA),China,Beijing,CN,CHN,Asia,Eastern Asia
 Imam Abdulrahman Bin Faisal University (IAU) (formerly UNIVERSITY OF DAMMAM),Saudi Arabia,Dammam,SA,SAU,Asia,Western Asia
 Prince Mohammad Bin Fahd university,Saudi Arabia,Al Khobar,SA,SAU,Asia,Western Asia
@@ -517,24 +517,24 @@ University of Milano-Bicocca,Italy,Milan,IT,ITA,Europe,Southern Europe
 Ateneo de Manila University,Philippines,Quezon City,PH,PHL,Asia,South-eastern Asia
 Edith Cowan University,Australia,Perth,AU,AUS,Oceania,Australia and New Zealand
 INTI International University,Malaysia,Subang Jaya,MY,MYS,Asia,South-eastern Asia
-Kyungpook National University,"Korea, Republic of",Daegu,,,,
-Sabanci University,Türkiye,Istanbul,,,,
-University of Hull,United Kingdom of Great Britain and Northern Ireland,Hull,,,,
-Ural Federal University - UrFU,Russian Federation,Yekaterinburg,,,,
+Kyungpook National University,Korea,Daegu,KR,KOR,Asia,Eastern Asia
+Sabanci University,Turkey,Istanbul,TR,TUR,Asia,Western Asia
+University of Hull,United Kingdom,Hull,GB,GBR,Europe,Northern Europe
+Ural Federal University - UrFU,Russia,Yekaterinburg,RU,RUS,Europe,Eastern Europe
 Canadian University Dubai,United Arab Emirates,Dubai,AE,ARE,Asia,Western Asia
-Pusan National University,"Korea, Republic of",Busan,,,,
+Pusan National University,Korea,Busan,KR,KOR,Asia,Eastern Asia
 Universidad Austral,Argentina,Buenos Aires,AR,ARG,Americas,Latin America and the Caribbean
 Universität Jena,Germany,Jena,DE,DEU,Europe,Western Europe
-Missouri University of Science and Technology,United States of America,Rolla,,,,
+Missouri University of Science and Technology,United States,Rolla,US,USA,Americas,Northern America
 Universität Leipzig,Germany,Leipzig,DE,DEU,Europe,Western Europe
 University of Bayreuth,Germany,Bayreuth,DE,DEU,Europe,Western Europe
 Warsaw University of Technology,Poland,Warsaw,PL,POL,Europe,Eastern Europe
-Coventry University,United Kingdom of Great Britain and Northern Ireland,Coventry,,,,
+Coventry University,United Kingdom,Coventry,GB,GBR,Europe,Northern Europe
 Indian Institute of Technology (BHU) Varanasi,India,Varanasi,IN,IND,Asia,Southern Asia
-University of Utah,United States of America,Salt Lake City,,,,
+University of Utah,United States,Salt Lake City,US,USA,Americas,Northern America
 Universidad Nacional de La Plata (UNLP),Argentina,La Plata,AR,ARG,Americas,Latin America and the Caribbean
 Lahore University of Management Sciences (LUMS),Pakistan,Lahore,PK,PAK,Asia,Southern Asia
-Northumbria University at Newcastle,United Kingdom of Great Britain and Northern Ireland,Newcastle upon Tyne,,,,
+Northumbria University at Newcastle,United Kingdom,Newcastle upon Tyne,GB,GBR,Europe,Northern Europe
 University of Bordeaux,France,Bordeaux,FR,FRA,Europe,Western Europe
 University of Eastern Finland,Finland,Joensuu,FI,FIN,Europe,Northern Europe
 Applied Science University - Bahrain,Bahrain,Riffa,BH,BHR,Asia,Western Asia
@@ -544,38 +544,38 @@ Université de Fribourg,Switzerland,Fribourg,CH,CHE,Europe,Western Europe
 University of Salamanca,Spain,Salamanca,ES,ESP,Europe,Southern Europe
 Universidad de Zaragoza,Spain,Zaragoza,ES,ESP,Europe,Southern Europe
 Universidad Pontificia Comillas,Spain,Madrid,ES,ESP,Europe,Southern Europe
-University of Bradford,United Kingdom of Great Britain and Northern Ireland,Bradford,,,,
+University of Bradford,United Kingdom,Bradford,GB,GBR,Europe,Northern Europe
 East China University of Science and Technology,China,Shanghai,CN,CHN,Asia,Eastern Asia
 Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU),Uzbekistan,Tashkent,UZ,UZB,Asia,Central Asia
 University of Genoa,Italy,Genoa,IT,ITA,Europe,Southern Europe
 University of Iceland,Iceland,Reykjavik,IS,ISL,Europe,Northern Europe
 University of Windsor,Canada,Windsor,CA,CAN,Americas,Northern America
 Al Ain University,United Arab Emirates,Al Ain,AE,ARE,Asia,Western Asia
-University of Tabriz,"Iran, Islamic Republic of",Tabriz,,,,
+University of Tabriz,Iran,Tabriz,IR,IRN,Asia,Southern Asia
 Hasselt University,Belgium,Hasselt,BE,BEL,Europe,Western Europe
 Jordan University of Science & Technology,Jordan,Irbid,JO,JOR,Asia,Western Asia
 Universiti Utara Malaysia (UUM),Malaysia,Sintok,MY,MYS,Asia,South-eastern Asia
 University of Dhaka,Bangladesh,Dhaka,BD,BGD,Asia,Southern Asia
 University Ulm,Germany,Ulm,DE,DEU,Europe,Western Europe
-Peter the Great St. Petersburg Polytechnic University,Russian Federation,Saint Petersburg,,,,
-Ulster University,United Kingdom of Great Britain and Northern Ireland,Belfast,,,,
+Peter the Great St. Petersburg Polytechnic University,Russia,Saint Petersburg,RU,RUS,Europe,Eastern Europe
+Ulster University,United Kingdom,Belfast,GB,GBR,Europe,Northern Europe
 Umm Al-Qura University,Saudi Arabia,Mecca,SA,SAU,Asia,Western Asia
 Université Claude Bernard Lyon 1,France,Lyon,FR,FRA,Europe,Western Europe
 Universiti Teknologi Brunei,Brunei Darussalam,Bandar Seri Begawan,BN,BRN,Asia,South-eastern Asia
 Eötvös Loránd University,Hungary,Budapest,HU,HUN,Europe,Eastern Europe
 China University of Mining and Technology,China,Xuzhou,CN,CHN,Asia,Eastern Asia
-University of Connecticut,United States of America,Storrs,,,,
+University of Connecticut,United States,Storrs,US,USA,Americas,Northern America
 Chiang Mai University,Thailand,Chiang Mai,TH,THA,Asia,South-eastern Asia
 Lebanese University,Lebanon,Beirut,LB,LBN,Asia,Western Asia
-MGIMO University,Russian Federation,Moscow,,,,
-"University of Chemistry and Technology, Prague",Czechia,Prague,,,,
+MGIMO University,Russia,Moscow,RU,RUS,Europe,Eastern Europe
+"University of Chemistry and Technology, Prague",Czech Republic,Prague,CZ,CZE,Europe,Eastern Europe
 University of Szeged,Hungary,Szeged,HU,HUN,Europe,Eastern Europe
 University of the Punjab,Pakistan,Lahore,PK,PAK,Asia,Southern Asia
-Florida State University,United States of America,Florida,,,,
-Florida International University,United States of America,Florida,,,,
+Florida State University,United States,Florida,US,USA,Americas,Northern America
+Florida International University,United States,Florida,US,USA,Americas,Northern America
 University of Debrecen,Hungary,Debrecen,HU,HUN,Europe,Eastern Europe
-National Research Tomsk Polytechnic University,Russian Federation,Tomsk,,,,
-Sogang University,"Korea, Republic of",Seoul,,,,
+National Research Tomsk Polytechnic University,Russia,Tomsk,RU,RUS,Europe,Eastern Europe
+Sogang University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Southern Cross University,Australia,Lismore,AU,AUS,Oceania,Australia and New Zealand
 Universidad Adolfo Ibáñez,Chile,Santiago,CL,CHL,Americas,Latin America and the Caribbean
 Jawaharlal Nehru University,India,New Delhi,IN,IND,Asia,Southern Asia
@@ -587,92 +587,92 @@ Institut Teknologi Sepuluh Nopember (ITS Surabaya),Indonesia,Surabaya,ID,IDN,Asi
 Singapore Management University,Singapore,Singapore,SG,SGP,Asia,South-eastern Asia
 Bond University,Australia,Gold Coast,AU,AUS,Oceania,Australia and New Zealand
 Shoolini University of Biotechnology and Management Sciences,India,Solan,IN,IND,Asia,Southern Asia
-The University of Georgia,United States of America,Athens,,,,
+The University of Georgia,United States,Athens,US,USA,Americas,Northern America
 Universiti Teknologi MARA - UiTM,Malaysia,Shah Alam,MY,MYS,Asia,South-eastern Asia
 University of Kwazulu-Natal,South Africa,Durban,ZA,ZAF,Africa,Sub-Saharan Africa
 Ain Shams University,Egypt,Cairo,EG,EGY,Africa,Northern Africa
-Nottingham Trent University,United Kingdom of Great Britain and Northern Ireland,Nottingham,,,,
+Nottingham Trent University,United Kingdom,Nottingham,GB,GBR,Europe,Northern Europe
 Universität Bremen,Germany,Bremen,DE,DEU,Europe,Western Europe
-ITMO University,Russian Federation,Saint Petersburg,,,,
+ITMO University,Russia,Saint Petersburg,RU,RUS,Europe,Eastern Europe
 Thammasat University,Thailand,Bangkok,TH,THA,Asia,South-eastern Asia
 Universitas Padjadjaran,Indonesia,Bandung,ID,IDN,Asia,South-eastern Asia
-University of Iowa,United States of America,Iowa City,,,,
+University of Iowa,United States,Iowa City,US,USA,Americas,Northern America
 University of Ljubljana,Slovenia,Ljubljana,SI,SVN,Europe,Southern Europe
-University of Texas Dallas,United States of America,Richardson,,,,
+University of Texas Dallas,United States,Richardson,US,USA,Americas,Northern America
 Ca' Foscari University of Venice,Italy,Venice,IT,ITA,Europe,Southern Europe
-Illinois Institute of Technology,United States of America,Chicago,,,,
+Illinois Institute of Technology,United States,Chicago,US,USA,Americas,Northern America
 King Khalid University,Saudi Arabia,Abha,SA,SAU,Asia,Western Asia
-"Kingston University, London",United Kingdom of Great Britain and Northern Ireland,London,,,,
-Manchester Metropolitan University (MMU),United Kingdom of Great Britain and Northern Ireland,Manchester,,,,
-National Chengchi University,"Taiwan, Province of China",Taipei,,,,
+"Kingston University, London",United Kingdom,London,GB,GBR,Europe,Northern Europe
+Manchester Metropolitan University (MMU),United Kingdom,Manchester,GB,GBR,Europe,Northern Europe
+National Chengchi University,Taiwan,Taipei,TW,TWN,,
 Paris Lodron University of Salzburg,Austria,Salzburg,AT,AUT,Europe,Western Europe
-Rensselaer Polytechnic Institute,United States of America,Troy,,,,
+Rensselaer Polytechnic Institute,United States,Troy,US,USA,Americas,Northern America
 Universität des Saarlandes,Germany,Saarbrücken,DE,DEU,Europe,Western Europe
 University of Crete,Greece,Rethymno,GR,GRC,Europe,Southern Europe
 University of Hohenheim,Germany,Stuttgart,DE,DEU,Europe,Western Europe
-University of South Carolina,United States of America,Columbia,,,,
+University of South Carolina,United States,Columbia,US,USA,Americas,Northern America
 American University of the Middle East,Kuwait,Kuwait City,KW,KWT,Asia,Western Asia
 Asia Pacific University of Technology and Innovation (APU),Malaysia,Kuala Lumpur,MY,MYS,Asia,South-eastern Asia
-Brno University of Technology,Czechia,Brno,,,,
+Brno University of Technology,Czech Republic,Brno,CZ,CZE,Europe,Eastern Europe
 Christian-Albrechts-University zu Kiel,Germany,Kiel,DE,DEU,Europe,Western Europe
 Eastern Mediterranean University,North Cyprus,Famagusta,,,,
 Pontifícia Universidade Católica do Rio de Janeiro,Brazil,Rio de Janeiro,BR,BRA,Americas,Latin America and the Caribbean
-Taipei Medical University (TMU),"Taiwan, Province of China",Taipei,,,,
+Taipei Medical University (TMU),Taiwan,Taipei,TW,TWN,,
 University of Klagenfurt,Austria,Klagenfurt,AT,AUT,Europe,Western Europe
 University of Minho,Portugal,Braga,PT,PRT,Europe,Southern Europe
 Abo Akademi University,Finland,Turku,FI,FIN,Europe,Northern Europe
 American University in Dubai,United Arab Emirates,Dubai,AE,ARE,Asia,Western Asia
 Auezov South Kazakhstan University (SKU),Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
 Charles Darwin University,Australia,Darwin,AU,AUS,Oceania,Australia and New Zealand
-Istanbul University,Türkiye,Istanbul,,,,
+Istanbul University,Turkey,Istanbul,TR,TUR,Asia,Western Asia
 Beijing University of Chemical Technology,China,Beijing,CN,CHN,Asia,Eastern Asia
 Tallinn University of Technology (TalTech),Estonia,Tallinn,EE,EST,Europe,Northern Europe
 Universidad de Alcalá,Spain,Alcalá de Henares,ES,ESP,Europe,Southern Europe
 Universidad de Palermo (UP),Argentina,Buenos Aires,AR,ARG,Americas,Latin America and the Caribbean
-University of South Florida,United States of America,Florida,,,,
+University of South Florida,United States,Florida,US,USA,Americas,Northern America
 University of Tromsø The Arctic University of Norway,Norway,Tromsø,NO,NOR,Europe,Northern Europe
 Zayed University,United Arab Emirates,Abu Dhabi,AE,ARE,Asia,Western Asia
-Ajou University,"Korea, Republic of",Suwon,,,,
-Boston College,United States of America,Boston,,,,
-Chang Gung University,"Taiwan, Province of China",Taoyuan,,,,
+Ajou University,Korea,Suwon,KR,KOR,Asia,Eastern Asia
+Boston College,United States,Boston,US,USA,Americas,Northern America
+Chang Gung University,Taiwan,Taoyuan,TW,TWN,,
 Shenzhen University,China,Shenzhen,CN,CHN,Asia,Eastern Asia
-Far Eastern Federal University,Russian Federation,Vladivostok,,,,
-Inha University,"Korea, Republic of",Incheon,,,,
+Far Eastern Federal University,Russia,Vladivostok,RU,RUS,Europe,Eastern Europe
+Inha University,Korea,Incheon,KR,KOR,Asia,Eastern Asia
 Savitribai Phule Pune University,India,Pune,IN,IND,Asia,Southern Asia
-Tulane University,United States of America,New Orleans,,,,
+Tulane University,United States,New Orleans,US,USA,Americas,Northern America
 Universidad de Concepción,Chile,Concepción,CL,CHL,Americas,Latin America and the Caribbean
-University of Portsmouth,United Kingdom of Great Britain and Northern Ireland,Portsmouth,,,,
+University of Portsmouth,United Kingdom,Portsmouth,GB,GBR,Europe,Northern Europe
 Beirut Arab University,Lebanon,Beirut,LB,LBN,Asia,Western Asia
 De La Salle University,Philippines,Manila,PH,PHL,Asia,South-eastern Asia
 Northwestern Polytechnical University,China,Xi'an,CN,CHN,Asia,Eastern Asia
-Hacettepe University,Türkiye,Ankara,,,,
-Lehigh University,United States of America,Bethlehem,,,,
-National Central University,"Taiwan, Province of China",Taoyuan,,,,
-Oregon State University,United States of America,Oregon,,,,
+Hacettepe University,Turkey,Ankara,TR,TUR,Asia,Western Asia
+Lehigh University,United States,Bethlehem,US,USA,Americas,Northern America
+National Central University,Taiwan,Taoyuan,TW,TWN,,
+Oregon State University,United States,Oregon,US,USA,Americas,Northern America
 Ritsumeikan University,Japan,Kyoto,JP,JPN,Asia,Eastern Asia
 East China Normal University,China,Shanghai,CN,CHN,Asia,Eastern Asia
 Symbiosis International (Deemed University),India,Pune,IN,IND,Asia,Southern Asia
 Universiti Tenaga Nasional (UNITEN),Malaysia,Bangi,MY,MYS,Asia,South-eastern Asia
-"University of Missouri, Columbia",United States of America,Columbia,,,,
+"University of Missouri, Columbia",United States,Columbia,US,USA,Americas,Northern America
 University of the Basque Country,Spain,Bilbao,ES,ESP,Europe,Southern Europe
-HUFS - Hankuk (Korea) University of Foreign Studies,"Korea, Republic of",Seoul,,,,
-Palacký University Olomouc,Czechia,Olomouc,,,,
+HUFS - Hankuk (Korea) University of Foreign Studies,Korea,Seoul,KR,KOR,Asia,Eastern Asia
+Palacký University Olomouc,Czech Republic,Olomouc,CZ,CZE,Europe,Eastern Europe
 Universidade de Santiago de Compostela,Spain,Santiago de Compostela,ES,ESP,Europe,Southern Europe
-University of Houston,United States of America,Houston,,,,
+University of Houston,United States,Houston,US,USA,Americas,Northern America
 University of Zagreb,Croatia,Zagreb,HR,HRV,Europe,Southern Europe
-Aberystwyth University,United Kingdom of Great Britain and Northern Ireland,Aberystwyth,,,,
-City University of New York,United States of America,New York,,,,
-Comenius University Bratislava,Slovakia,Bratislava,,,,
+Aberystwyth University,United Kingdom,Aberystwyth,GB,GBR,Europe,Northern Europe
+City University of New York,United States,New York,US,USA,Americas,Northern America
+Comenius University Bratislava,Slovak Republic,Bratislava,SK,SVK,Europe,Eastern Europe
 Free University of Bozen-Bolzano,Italy,Bolzano,IT,ITA,Europe,Southern Europe
 International Islamic University Malaysia (IIUM),Malaysia,Gombak,MY,MYS,Asia,South-eastern Asia
 ISCTE - Instituto Universitario de Lisboa,Portugal,Lisbon,PT,PRT,Europe,Southern Europe
 Memorial University of Newfoundland,Canada,Saint John,CA,CAN,Americas,Northern America
-National Chung Hsing University,"Taiwan, Province of China",Taichung,,,,
+National Chung Hsing University,Taiwan,Taichung,TW,TWN,,
 "Sofia University ""St. Kliment Ohridski""",Bulgaria,Sofia,BG,BGR,Europe,Eastern Europe
 Tokyo Medical and Dental University (TMDU),Japan,Tokyo,JP,JPN,Asia,Eastern Asia
 Universidad de la República (Udelar),Uruguay,Montevideo,UY,URY,Americas,Latin America and the Caribbean
 University of Manitoba,Canada,Winnipeg,CA,CAN,Americas,Northern America
-University of Plymouth,United Kingdom of Great Britain and Northern Ireland,Plymouth,,,,
+University of Plymouth,United Kingdom,Plymouth,GB,GBR,Europe,Northern Europe
 Abai Kazakh National Pedagogical University,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
 Bar-Ilan University,Israel,Ramat Gan,IL,ISR,Asia,Western Asia
 Karl-Franzens-Universitaet Graz,Austria,Graz,AT,AUT,Europe,Western Europe
@@ -681,56 +681,56 @@ Martin-Luther-Universität Halle-Wittenberg,Germany,Halle,DE,DEU,Europe,Western 
 Universidade Federal de Minas Gerais,Brazil,Belo Horizonte,BR,BRA,Americas,Latin America and the Caribbean
 University of Haifa,Israel,Haifa,IL,ISR,Asia,Western Asia
 Soochow University,China,Suzhou,CN,CHN,Asia,Eastern Asia
-"Goldsmiths, University of London",United Kingdom of Great Britain and Northern Ireland,London,,,,
+"Goldsmiths, University of London",United Kingdom,London,GB,GBR,Europe,Northern Europe
 Indian Institute of Technology Hyderabad,India,Hyderabad,IN,IND,Asia,Southern Asia
-Jeonbuk National University,"Korea, Republic of",Jeonju,,,,
+Jeonbuk National University,Korea,Jeonju,KR,KOR,Asia,Eastern Asia
 Prince Sultan University,Saudi Arabia,Riyadh,SA,SAU,Asia,Western Asia
 Princess Nourah bint Abdulrahman University,Saudi Arabia,Riyadh,SA,SAU,Asia,Western Asia
-Temple University,United States of America,Temple,,,,
+Temple University,United States,Temple,US,USA,Americas,Northern America
 "University of Agriculture, Faisalabad",Pakistan,Faisalabad,PK,PAK,Asia,Southern Asia
 University of New Brunswick,Canada,Fredericton,CA,CAN,Americas,Northern America
 Chandigarh University,India,Chandigarh,IN,IND,Asia,Southern Asia
 Norwegian University of Life Sciences (UMB),Norway,Ås,NO,NOR,Europe,Northern Europe
 Pakistan Institute of Engineering and Applied Sciences (PIEAS),Pakistan,Islamabad,PK,PAK,Asia,Southern Asia
-Shiraz University,"Iran, Islamic Republic of",Shiraz,,,,
+Shiraz University,Iran,Shiraz,IR,IRN,Asia,Southern Asia
 Universidad Central de Venezuela,"Venezuela, Bolivarian Republic of",Caracas,VE,VEN,Americas,Latin America and the Caribbean
 Universidad de La Habana,Cuba,Havana,CU,CUB,Americas,Latin America and the Caribbean
 Universidad Panamericana (UP),Mexico,Mexico City,MX,MEX,Americas,Latin America and the Caribbean
 Universidade Federal de São Paulo,Brazil,São Paulo,BR,BRA,Americas,Latin America and the Caribbean
 Universidade Federal do Rio Grande Do Sul,Brazil,Porto Alegre,BR,BRA,Americas,Latin America and the Caribbean
 University of Brescia,Italy,Brescia,IT,ITA,Europe,Southern Europe
-University of Greenwich,United Kingdom of Great Britain and Northern Ireland,London,,,,
+University of Greenwich,United Kingdom,London,GB,GBR,Europe,Northern Europe
 University of Siena,Italy,Siena,IT,ITA,Europe,Southern Europe
 Huazhong Agricultural University,China,Wuhan,CN,CHN,Asia,Eastern Asia
-Dongguk University,"Korea, Republic of",Seoul,,,,
+Dongguk University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Lebanese American University,Lebanon,Beirut,LB,LBN,Asia,Western Asia
 National Institute of Technology Tiruchirappalli,India,Tiruchirappalli,IN,IND,Asia,Southern Asia
-Stevens Institute of Technology,United States of America,Hoboken,,,,
+Stevens Institute of Technology,United States,Hoboken,US,USA,Americas,Northern America
 Taras Shevchenko National University of Kyiv,Ukraine,Shevchenko,UA,UKR,Europe,Eastern Europe
-University of Nebraska - Lincoln,United States of America,Lincoln,,,,
-University of Oklahoma,United States of America,Norman,,,,
+University of Nebraska - Lincoln,United States,Lincoln,US,USA,Americas,Northern America
+University of Oklahoma,United States,Norman,US,USA,Americas,Northern America
 Ahlia University,Bahrain,Manama,BH,BHR,Asia,Western Asia
-American University,United States of America,Washington,,,,
+American University,United States,Washington,US,USA,Americas,Northern America
 COMSATS University Islamabad,Pakistan,Islamabad,PK,PAK,Asia,Southern Asia
-Czech University of Life Sciences in Prague,Czechia,Prague,,,,
-De Montfort University,United Kingdom of Great Britain and Northern Ireland,Leicester,,,,
+Czech University of Life Sciences in Prague,Czech Republic,Prague,CZ,CZE,Europe,Eastern Europe
+De Montfort University,United Kingdom,Leicester,GB,GBR,Europe,Northern Europe
 "Lingnan University, Hong Kong",Hong Kong,Hong Kong,HK,HKG,Asia,Eastern Asia
 Nanjing University of Aeronautics and Astronautics,China,Nanjing,CN,CHN,Asia,Eastern Asia
-Plekhanov Russian University of Economics,Russian Federation,Moscow,,,,
+Plekhanov Russian University of Economics,Russia,Moscow,RU,RUS,Europe,Eastern Europe
 Saint Joseph University of Beirut (USJ),Lebanon,Beirut,LB,LBN,Asia,Western Asia
-The National University of Science and Technology MISIS,Russian Federation,Moscow,,,,
-Ton Duc Thang University,Viet Nam,Ho Chi Minh City,,,,
+The National University of Science and Technology MISIS,Russia,Moscow,RU,RUS,Europe,Eastern Europe
+Ton Duc Thang University,Vietnam,Ho Chi Minh City,VN,VNM,Asia,South-eastern Asia
 Université de Franche-Comté,France,Besançon,FR,FRA,Europe,Western Europe
 University of Mumbai,India,Mumbai,IN,IND,Asia,Southern Asia
-Brandeis University,United States of America,Waltham,,,,
+Brandeis University,United States,Waltham,US,USA,Americas,Northern America
 Budapest University of Technology and Economics,Hungary,Budapest,HU,HUN,Europe,Eastern Europe
 Diponegoro University,Indonesia,Semarang,ID,IDN,Asia,South-eastern Asia
-Drexel University,United States of America,Philadelphia,,,,
+Drexel University,United States,Philadelphia,US,USA,Americas,Northern America
 Effat University,Saudi Arabia,Jeddah,SA,SAU,Asia,Western Asia
 Jadavpur University,India,Kolkata,IN,IND,Asia,Southern Asia
-Konkuk University,"Korea, Republic of",Seoul,,,,
+Konkuk University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Jinan University (China),China,Guangzhou,CN,CHN,Asia,Eastern Asia
-Middlesex University,United Kingdom of Great Britain and Northern Ireland,London,,,,
+Middlesex University,United Kingdom,London,GB,GBR,Europe,Northern Europe
 Riga Technical University,Latvia,Riga,LV,LVA,Europe,Northern Europe
 Université de Lille,France,Lille,FR,FRA,Europe,Western Europe
 Université de Rennes 1 (University of Rennes),France,Rennes,FR,FRA,Europe,Western Europe
@@ -739,19 +739,19 @@ University of Trieste,Italy,Trieste,IT,ITA,Europe,Southern Europe
 Universitat Rovira i Virgili,Spain,Tarragona,ES,ESP,Europe,Southern Europe
 Université Côte d\'Azur,France,Nice,FR,FRA,Europe,Western Europe
 University of Belgrade,Serbia,Belgrade,RS,SRB,Europe,Southern Europe
-Altai State University,Russian Federation,Barnaul,,,,
+Altai State University,Russia,Barnaul,RU,RUS,Europe,Eastern Europe
 Carleton University,Canada,Ottawa,CA,CAN,Americas,Northern America
 Universidad Católica Andres Bello,"Venezuela, Bolivarian Republic of",Caracas,VE,VEN,Americas,Latin America and the Caribbean
 Universidad de Montevideo (UM),Uruguay,Montevideo,UY,URY,Americas,Latin America and the Caribbean
 Universität Regensburg,Germany,Regensburg,DE,DEU,Europe,Western Europe
 Universiti Malaysia Pahang,Malaysia,Kuantan,MY,MYS,Asia,South-eastern Asia
-University of Central Florida,United States of America,Florida,,,,
-University of the West of England,United Kingdom of Great Britain and Northern Ireland,Bristol,,,,
-University of Westminster,United Kingdom of Great Britain and Northern Ireland,London,,,,
+University of Central Florida,United States,Florida,US,USA,Americas,Northern America
+University of the West of England,United Kingdom,Bristol,GB,GBR,Europe,Northern Europe
+University of Westminster,United Kingdom,London,GB,GBR,Europe,Northern Europe
 V. N. Karazin Kharkiv National University,Ukraine,Kharkiv,UA,UKR,Europe,Eastern Europe
 Victoria University,Australia,Melbourne,AU,AUS,Oceania,Australia and New Zealand
 Vytautas Magnus University,Lithuania,Kaunas,LT,LTU,Europe,Northern Europe
-Wake Forest University,United States of America,Winston-Salem,,,,
+Wake Forest University,United States,Winston-Salem,US,USA,Americas,Northern America
 Instituto Tecnológico Autónomo de México (ITAM),Mexico,Mexico City,MX,MEX,Americas,Latin America and the Caribbean
 Kaunas University of Technology,Lithuania,Kaunas,LT,LTU,Europe,Northern Europe
 Technische Universität Braunschweig,Germany,Braunschweig,DE,DEU,Europe,Western Europe
@@ -766,26 +766,26 @@ University of Messina (UniME),Italy,Messina,IT,ITA,Europe,Southern Europe
 Bangladesh University of Engineering and Technology,Bangladesh,Dhaka,BD,BGD,Asia,Southern Asia
 King Faisal University,Saudi Arabia,Al-Hofuf,SA,SAU,Asia,Western Asia
 Ocean University of China,China,Qingdao,CN,CHN,Asia,Eastern Asia
-University of Cincinnati,United States of America,Cincinnati,,,,
-"University of Colorado, Denver",United States of America,Denver,,,,
+University of Cincinnati,United States,Cincinnati,US,USA,Americas,Northern America
+"University of Colorado, Denver",United States,Denver,US,USA,Americas,Northern America
 University of Patras,Greece,Patras,GR,GRC,Europe,Southern Europe
 Addis Ababa University,Ethiopia,Addis Ababa,ET,ETH,Africa,Sub-Saharan Africa
-Bournemouth University,United Kingdom of Great Britain and Northern Ireland,Bournemouth,,,,
+Bournemouth University,United Kingdom,Bournemouth,GB,GBR,Europe,Northern Europe
 Chiba University,Japan,Chiba,JP,JPN,Asia,Eastern Asia
 Beijing University of Posts and Telecommunications,China,Beijing,CN,CHN,Asia,Eastern Asia
 Colegio de México,Mexico,Mexico City,MX,MEX,Americas,Latin America and the Caribbean
 Holy Spirit University of Kaslik,Lebanon,Kaslik,LB,LBN,Asia,Western Asia
 Universidad del Rosario,Colombia,Bogotá,CO,COL,Americas,Latin America and the Caribbean
 Université de Tunis El Manar,Tunisia,Tunis,TN,TUN,Africa,Northern Africa
-"University of Maryland, Baltimore County",United States of America,Baltimore,,,,
+"University of Maryland, Baltimore County",United States,Baltimore,US,USA,Americas,Northern America
 University of Pecs,Hungary,Pécs,HU,HUN,Europe,Eastern Europe
 Verona University,Italy,Verona,IT,ITA,Europe,Southern Europe
 Babes-Bolyai University,Romania,Cluj-Napoca,RO,ROU,Europe,Eastern Europe
 Kasetsart University,Thailand,Bangkok,TH,THA,Asia,South-eastern Asia
 National University of Uzbekistan,Uzbekistan,Tashkent,UZ,UZB,Asia,Central Asia
 Qassim University,Saudi Arabia,Buraydah,SA,SAU,Asia,Western Asia
-Texas Tech University,United States of America,Lubbock,,,,
-The New School,United States of America,New York,,,,
+Texas Tech University,United States,Lubbock,US,USA,Americas,Northern America
+The New School,United States,New York,US,USA,Americas,Northern America
 Universidad de Belgrano,Argentina,Buenos Aires,AR,ARG,Americas,Latin America and the Caribbean
 Universidade Federal de Santa Catarina,Brazil,Florianópolis,BR,BRA,Americas,Latin America and the Caribbean
 University of Latvia,Latvia,Riga,LV,LVA,Europe,Northern Europe
@@ -793,39 +793,39 @@ University of Mons,Belgium,Mons,BE,BEL,Europe,Western Europe
 Zurich University of Applied Sciences (ZHAW),Switzerland,Zurich,CH,CHE,Europe,Western Europe
 Alfaisal University,Saudi Arabia,Riyadh,SA,SAU,Asia,Western Asia
 Ivane Javakhishvili Tbilisi State University,Georgia,Tbilisi,GE,GEO,Asia,Western Asia
-Keele University,United Kingdom of Great Britain and Northern Ireland,Keele,,,,
-New Jersey Institute of Technology (NJIT),United States of America,Newark,,,,
-Sechenov University,Russian Federation,Moscow,,,,
+Keele University,United Kingdom,Keele,GB,GBR,Europe,Northern Europe
+New Jersey Institute of Technology (NJIT),United States,Newark,US,USA,Americas,Northern America
+Sechenov University,Russia,Moscow,RU,RUS,Europe,Eastern Europe
 Universidad de Antioquia,Colombia,Medellín,CO,COL,Americas,Latin America and the Caribbean
-University of Kentucky,United States of America,Lexington,,,,
-University of New Mexico,United States of America,Mexico,,,,
+University of Kentucky,United States,Lexington,US,USA,Americas,Northern America
+University of New Mexico,United States,Mexico,US,USA,Americas,Northern America
 Vellore Institute of Technology (VIT),India,Vellore,IN,IND,Asia,Southern Asia
-Wayne State University,United States of America,Wayne,,,,
+Wayne State University,United States,Wayne,US,USA,Americas,Northern America
 Al-Ahliyya Amman University,Jordan,Amman,JO,JOR,Asia,Western Asia
 Alexandria University,Egypt,Alexandria,EG,EGY,Africa,Northern Africa
-Ankara Üniversitesi,Türkiye,Ankara,,,,
-Asia University Taiwan,"Taiwan, Province of China",Taichung,,,,
+Ankara Üniversitesi,Turkey,Ankara,TR,TUR,Asia,Western Asia
+Asia University Taiwan,Taiwan,Taichung,TW,TWN,,
 Donghua University,China,Shanghai,CN,CHN,Asia,Eastern Asia
 Belarusian National Technical University (BNTU),Belarus,Minsk,BY,BLR,Europe,Eastern Europe
 "Birla Institute of Technology and Science, Pilani",India,Pilani,IN,IND,Asia,Southern Asia
-Edinburgh Napier University,United Kingdom of Great Britain and Northern Ireland,Edinburgh,,,,
+Edinburgh Napier University,United Kingdom,Edinburgh,GB,GBR,Europe,Northern Europe
 Gda?sk University of Technology,Poland,Gdańsk,PL,POL,Europe,Eastern Europe
 Wuhan University of Technology,China,Wuhan,CN,CHN,Asia,Eastern Asia
-Immanuel Kant Baltic Federal University,Russian Federation,Kaliningrad,,,,
+Immanuel Kant Baltic Federal University,Russia,Kaliningrad,RU,RUS,Europe,Eastern Europe
 Instituto Politécnico Nacional (IPN),Mexico,Mexico City,MX,MEX,Americas,Latin America and the Caribbean
 Jouf University,Saudi Arabia,Sakakah,SA,SAU,Asia,Western Asia
 Khoja Akhmet Yassawi International Kazakh-Turkish University,Kazakhstan,Turkistan,KZ,KAZ,Asia,Central Asia
 Kuwait University,Kuwait,Kuwait City,KW,KWT,Asia,Western Asia
-Liverpool John Moores University,United Kingdom of Great Britain and Northern Ireland,Liverpool,,,,
-London South Bank University,United Kingdom of Great Britain and Northern Ireland,London,,,,
+Liverpool John Moores University,United Kingdom,Liverpool,GB,GBR,Europe,Northern Europe
+London South Bank University,United Kingdom,London,GB,GBR,Europe,Northern Europe
 Maynooth University,Ireland,Maynooth,IE,IRL,Europe,Northern Europe
 "National Technical University of Ukraine ""Igor Sikorsky Kyiv Polytechnic Institute""",Ukraine,Kyiv,UA,UKR,Europe,Eastern Europe
 Lanzhou University,China,Lanzhou,CN,CHN,Asia,Eastern Asia
 Philipps-Universität Marburg,Germany,Marburg,DE,DEU,Europe,Western Europe
 Pontificia Universidad Católica de Valparaíso,Chile,Valparaíso,CL,CHL,Americas,Latin America and the Caribbean
-Rutgers University–Newark,United States of America,Newark,,,,
-Syracuse University,United States of America,Syracuse,,,,
-The Catholic University of Korea,"Korea, Republic of",Seoul,,,,
+Rutgers University–Newark,United States,Newark,US,USA,Americas,Northern America
+Syracuse University,United States,Syracuse,US,USA,Americas,Northern America
+The Catholic University of Korea,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Toronto Metropolitan University,Canada,Toronto,CA,CAN,Americas,Northern America
 TU Dortmund University,Germany,Dortmund,DE,DEU,Europe,Western Europe
 Universidad Anáhuac México,Mexico,Mexico City,MX,MEX,Americas,Latin America and the Caribbean
@@ -837,44 +837,44 @@ Universität Duisburg-Essen,Germany,Duisburg-Essen,DE,DEU,Europe,Western Europe
 Universität Rostock,Germany,Rostock,DE,DEU,Europe,Western Europe
 Université de Lorraine,France,Nancy,FR,FRA,Europe,Western Europe
 Universiti Tunku Abdul Rahman (UTAR),Malaysia,Kampar,MY,MYS,Asia,South-eastern Asia
-University of Alaska Fairbanks,United States of America,Fairbanks,,,,
+University of Alaska Fairbanks,United States,Fairbanks,US,USA,Americas,Northern America
 University of Alicante,Spain,Alicante,ES,ESP,Europe,Southern Europe
 University of Baghdad,Iraq,Baghdad,IQ,IRQ,Asia,Western Asia
 University of Bari,Italy,Bari,IT,ITA,Europe,Southern Europe
-University of Brighton,United Kingdom of Great Britain and Northern Ireland,Brighton,,,,
+University of Brighton,United Kingdom,Brighton,GB,GBR,Europe,Northern Europe
 University of Bucharest,Romania,Bucharest,RO,ROU,Europe,Eastern Europe
 University of Hyderabad,India,Hyderabad,IN,IND,Asia,Southern Asia
-University of Oregon,United States of America,Oregon,,,,
+University of Oregon,United States,Oregon,US,USA,Americas,Northern America
 University of Petroleum and Energy Studies (UPES),India,Dehradun,IN,IND,Asia,Southern Asia
 University of Salerno,Italy,Salerno,IT,ITA,Europe,Southern Europe
 University of Stavanger,Norway,Stavanger,NO,NOR,Europe,Northern Europe
-University of Ulsan,"Korea, Republic of",Ulsan,,,,
+University of Ulsan,Korea,Ulsan,KR,KOR,Asia,Eastern Asia
 Northwest Agriculture and Forestry University,China,Yangling,CN,CHN,Asia,Eastern Asia
 AGH University of Science and Technology,Poland,Kraków,PL,POL,Europe,Eastern Europe
 Al-Quds University,"Palestine, State of",Abu Dis,PS,PSE,Asia,Western Asia
 Applied Science Private University - Jordan,Jordan,Amman,JO,JOR,Asia,Western Asia
 Charles Sturt University,Australia,Bathurst,AU,AUS,Oceania,Australia and New Zealand
-Chonnam National University,"Korea, Republic of",Gwangju,,,,
-Chungnam National University,"Korea, Republic of",Daejeon,,,,
-Clarkson University,United States of America,Potsdam,,,,
+Chonnam National University,Korea,Gwangju,KR,KOR,Asia,Eastern Asia
+Chungnam National University,Korea,Daejeon,KR,KOR,Asia,Eastern Asia
+Clarkson University,United States,Potsdam,US,USA,Americas,Northern America
 CY Cergy Paris University,France,Cergy,FR,FRA,Europe,Western Europe
 Beijing University of Technology,China,Beijing,CN,CHN,Asia,Eastern Asia
-Georgia State University,United States of America,Atlanta,,,,
+Georgia State University,United States,Atlanta,US,USA,Americas,Northern America
 Gulf University for Science and Technology,Kuwait,Kuwait City,KW,KWT,Asia,Western Asia
 Jamia Millia Islamia,India,New Delhi,IN,IND,Asia,Southern Asia
-Kansas State University,United States of America,Manhattan,,,,
+Kansas State University,United States,Manhattan,US,USA,Americas,Northern America
 Karaganda State Technical University,Kazakhstan,Karaganda,KZ,KAZ,Asia,Central Asia
 Kyrgyz Russian Slavic University,Kyrgyzstan,Bishkek,KG,KGZ,Asia,Central Asia
-Mendel University in Brno,Czechia,Brno,,,,
+Mendel University in Brno,Czech Republic,Brno,CZ,CZE,Europe,Eastern Europe
 Nagasaki University,Japan,Nagasaki,JP,JPN,Asia,Eastern Asia
 Beijing Jiaotong University,China,Beijing,CN,CHN,Asia,Eastern Asia
 North-West University,South Africa,Potchefstroom,ZA,ZAF,Africa,Sub-Saharan Africa
 Okayama University,Japan,Okayama,JP,JPN,Asia,Eastern Asia
-Oklahoma State University,United States of America,Stillwater,,,,
-Pavol Jozef Šafárik University in Košice,Slovakia,Košice,,,,
+Oklahoma State University,United States,Stillwater,US,USA,Americas,Northern America
+Pavol Jozef Šafárik University in Košice,Slovak Republic,Košice,SK,SVK,Europe,Eastern Europe
 Poznan University of Life Sciences,Poland,Poznań,PL,POL,Europe,Eastern Europe
-Shahid Beheshti University (SBU),"Iran, Islamic Republic of",Tehran,,,,
-Swarthmore College,United States of America,Swarthmore,,,,
+Shahid Beheshti University (SBU),Iran,Tehran,IR,IRN,Asia,Southern Asia
+Swarthmore College,United States,Swarthmore,US,USA,Americas,Northern America
 Technological University Dublin,Ireland,Dublin,IE,IRL,Europe,Northern Europe
 Thapar Institute of Engineering & Technology,India,Patiala,IN,IND,Asia,Southern Asia
 Tokyo University of Agriculture and Technology,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
@@ -884,46 +884,46 @@ Universita' degli Studi di Ferrara,Italy,Ferrara,IT,ITA,Europe,Southern Europe
 Université de Nantes,France,Nantes,FR,FRA,Europe,Western Europe
 Université de Sherbrooke,Canada,Sherbrooke,CA,CAN,Americas,Northern America
 Université du Québec,Canada,Quebec City,CA,CAN,Americas,Northern America
-University at Albany SUNY,United States of America,Albany,,,,
+University at Albany SUNY,United States,Albany,US,USA,Americas,Northern America
 University Duesseldorf,Germany,Düsseldorf,DE,DEU,Europe,Western Europe
 University of Dubai,United Arab Emirates,Dubai,AE,ARE,Asia,Western Asia
 UNIVERSITY OF GDANSK,Poland,Gdańsk,PL,POL,Europe,Eastern Europe
 University of Ghana,Ghana,Accra,GH,GHA,Africa,Sub-Saharan Africa
-University of Hertfordshire,United Kingdom of Great Britain and Northern Ireland,Hatfield,,,,
-University of Lincoln,United Kingdom of Great Britain and Northern Ireland,Lincoln,,,,
-University of Mississippi,United States of America,Oxford,,,,
+University of Hertfordshire,United Kingdom,Hatfield,GB,GBR,Europe,Northern Europe
+University of Lincoln,United Kingdom,Lincoln,GB,GBR,Europe,Northern Europe
+University of Mississippi,United States,Oxford,US,USA,Americas,Northern America
 University of Palermo,Italy,Palermo,IT,ITA,Europe,Southern Europe
 University of Santo Tomas,Philippines,Manila,PH,PHL,Asia,South-eastern Asia
 University of South Africa,South Africa,Pretoria,ZA,ZAF,Africa,Sub-Saharan Africa
 University of Wroclaw,Poland,Wroclaw,PL,POL,Europe,Eastern Europe
-"Vietnam National University, Hanoi",Viet Nam,Hanoi,,,,
+"Vietnam National University, Hanoi",Vietnam,Hanoi,VN,VNM,Asia,South-eastern Asia
 Vilnius Gediminas Technical University,Lithuania,Vilnius,LT,LTU,Europe,Northern Europe
-Virginia Commonwealth University,United States of America,Richmond,,,,
-Yildiz Technical University,Türkiye,Istanbul,,,,
+Virginia Commonwealth University,United States,Richmond,US,USA,Americas,Northern America
+Yildiz Technical University,Turkey,Istanbul,TR,TUR,Asia,Western Asia
 Australian Catholic University,Australia,Brisbane,AU,AUS,Oceania,Australia and New Zealand
 China University of Geosciences,China,Wuhan,CN,CHN,Asia,Eastern Asia
 Harbin Engineering University,China,Harbin,CN,CHN,Asia,Eastern Asia
 Catania University,Italy,Catania,IT,ITA,Europe,Southern Europe
 Future University in Egypt,Egypt,New Cairo,EG,EGY,Africa,Northern Africa
-Gazi Üniversitesi,Türkiye,Ankara,,,,
+Gazi Üniversitesi,Turkey,Ankara,TR,TUR,Asia,Western Asia
 Georgian Technical University,Georgia,Tbilisi,GE,GEO,Asia,Western Asia
 German Jordanian University,Jordan,Amman,JO,JOR,Asia,Western Asia
 Imam Mohammad Ibn Saud Islamic University – IMSIU,Saudi Arabia,Riyadh,SA,SAU,Asia,Western Asia
 Kanazawa University,Japan,Kanazawa,JP,JPN,Asia,Eastern Asia
 Karaganda Buketov University,Kazakhstan,Karaganda,KZ,KAZ,Asia,Central Asia
 Kyrgyz-Turkish Manas University,Kyrgyzstan,Bishkek,KG,KGZ,Asia,Central Asia
-Louisiana State University,United States of America,Baton Rouge,,,,
+Louisiana State University,United States,Baton Rouge,US,USA,Americas,Northern America
 Makerere University,Uganda,Kampala,UG,UGA,Africa,Sub-Saharan Africa
 "Manipal Academy of Higher Education, Manipal, Karnataka, India",India,Manipal,IN,IND,Asia,Southern Asia
-Michigan Technological University,United States of America,Houghton,,,,
-National Research Saratov State University,Russian Federation,Saratov,,,,
+Michigan Technological University,United States,Houghton,US,USA,Americas,Northern America
+National Research Saratov State University,Russia,Saratov,RU,RUS,Europe,Eastern Europe
 Nicolaus Copernicus University,Poland,Toruń,PL,POL,Europe,Eastern Europe
 North South University,Bangladesh,Dhaka,BD,BGD,Asia,Southern Asia
 Osaka Metropolitan University,Japan,Osaka,JP,JPN,Asia,Eastern Asia
 Princess Sumaya University for Technology,Jordan,Amman,JO,JOR,Asia,Western Asia
 Ritsumeikan Asia Pacific University,Japan,Beppu,JP,JPN,Asia,Eastern Asia
-Robert Gordon University,United Kingdom of Great Britain and Northern Ireland,Aberdeen,,,,
-South Ural State University (National Research University),Russian Federation,Chelyabinsk,,,,
+Robert Gordon University,United Kingdom,Aberdeen,GB,GBR,Europe,Northern Europe
+South Ural State University (National Research University),Russia,Chelyabinsk,RU,RUS,Europe,Eastern Europe
 Universidad Católica del Uruguay (UCU),Uruguay,Montevideo,UY,URY,Americas,Latin America and the Caribbean
 "Universidad Central ""Marta Abreu"" de Las Villas",Cuba,Santa Clara,CU,CUB,Americas,Latin America and the Caribbean
 Universidad EAFIT,Colombia,Medellín,CO,COL,Americas,Latin America and the Caribbean
@@ -935,33 +935,33 @@ Universidade Católica Portuguesa - UCP,Portugal,Lisbon,PT,PRT,Europe,Southern E
 Universidade de Vigo,Spain,Vigo,ES,ESP,Europe,Southern Europe
 Università degli Studi della Tuscia (University of Tuscia),Italy,Viterbo,IT,ITA,Europe,Southern Europe
 Università degli studi Roma Tre,Italy,Rome,IT,ITA,Europe,Southern Europe
-"University of Alabama, Birmingham",United States of America,Birmingham,,,,
+"University of Alabama, Birmingham",United States,Birmingham,US,USA,Americas,Northern America
 University of Calabria,Italy,Rende,IT,ITA,Europe,Southern Europe
-University of East London,United Kingdom of Great Britain and Northern Ireland,London,,,,
+University of East London,United Kingdom,London,GB,GBR,Europe,Northern Europe
 University of Hail,Saudi Arabia,Hail,SA,SAU,Asia,Western Asia
 University of Lodz,Poland,Łódź,PL,POL,Europe,Eastern Europe
 University of Maribor,Slovenia,Maribor,SI,SVN,Europe,Southern Europe
 University of Murcia,Spain,Murcia,ES,ESP,Europe,Southern Europe
 University of Nairobi,Kenya,Nairobi,KE,KEN,Africa,Sub-Saharan Africa
 University of Peshawar,Pakistan,Peshawar,PK,PAK,Asia,Southern Asia
-University of Salford,United Kingdom of Great Britain and Northern Ireland,Salford,,,,
+University of Salford,United Kingdom,Salford,GB,GBR,Europe,Northern Europe
 University Paris 2 Panthéon-Assas,France,Paris,FR,FRA,Europe,Western Europe
-Viet Nam National University Ho Chi Minh City (VNU-HCM),Viet Nam,Ho Chi Minh City,,,,
-Worcester Polytechnic Institute,United States of America,Worcester,,,,
+Viet Nam National University Ho Chi Minh City (VNU-HCM),Vietnam,Ho Chi Minh City,VN,VNM,Asia,South-eastern Asia
+Worcester Polytechnic Institute,United States,Worcester,US,USA,Americas,Northern America
 Wroclaw University of Science and Technology (WRUST),Poland,Wroclaw,PL,POL,Europe,Eastern Europe
 Yerevan State University,Armenia,Yerevan,AM,ARM,Asia,Western Asia
 Yokohama City University,Japan,Seto,JP,JPN,Asia,Eastern Asia
 Almaty Technological University,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
 Athens University of Economics and Business,Greece,Athens,GR,GRC,Europe,Southern Europe
-Auburn University,United States of America,Auburn,,,,
+Auburn University,United States,Auburn,US,USA,Americas,Northern America
 Baku State University,Azerbaijan,Baku,AZ,AZE,Asia,Western Asia
 Bina Nusantara University (BINUS),Indonesia,Jakarta,ID,IDN,Asia,South-eastern Asia
-Clark University,United States of America,Worcester,,,,
-Clemson University,United States of America,Clemson,,,,
+Clark University,United States,Worcester,US,USA,Americas,Northern America
+Clemson University,United States,Clemson,US,USA,Americas,Northern America
 D. Serikbayev East Kazakhstan state technical university,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
-Ferdowsi University of Mashhad,"Iran, Islamic Republic of",Mashhad,,,,
-Financial University under the Government of the Russian Federation,Russian Federation,Moscow,,,,
-Hallym University,"Korea, Republic of",Chuncheon,,,,
+Ferdowsi University of Mashhad,Iran,Mashhad,IR,IRN,Asia,Southern Asia
+Financial University under the Government of the Russian Federation,Russia,Moscow,RU,RUS,Europe,Eastern Europe
+Hallym University,Korea,Chuncheon,KR,KOR,Asia,Eastern Asia
 Indian Institute of Technology Bhubaneswar,India,Bhubaneswar,IN,IND,Asia,Southern Asia
 Instituto Tecnológico de Buenos Aires (ITBA),Argentina,Buenos Aires,AR,ARG,Americas,Latin America and the Caribbean
 Khon Kaen University,Thailand,Khon Kaen,TH,THA,Asia,South-eastern Asia
@@ -972,15 +972,15 @@ Niigata University,Japan,Niigata,JP,JPN,Asia,Eastern Asia
 Northern Borders University,Saudi Arabia,Arar,SA,SAU,Asia,Western Asia
 Pontificia Universidad Católica del Ecuador (PUCE),Ecuador,Quito,EC,ECU,Americas,Latin America and the Caribbean
 Prince of Songkla University,Thailand,Hat Yai,TH,THA,Asia,South-eastern Asia
-"Queen Margaret University , Edinburgh",United Kingdom of Great Britain and Northern Ireland,Edinburgh,,,,
+"Queen Margaret University , Edinburgh",United Kingdom,Edinburgh,GB,GBR,Europe,Northern Europe
 Rhodes University,South Africa,Grahamstown,ZA,ZAF,Africa,Sub-Saharan Africa
 Riga Stradins University,Latvia,Riga,LV,LVA,Europe,Northern Europe
 S.D. Asfendiyarov Kazakh National Medical University,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
 Saveetha Institute of Medical and Technical Sciences (deemed to be university),India,Chennai,IN,IND,Asia,Southern Asia
 Sophia University,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
-Southern Federal University,Russian Federation,Rostov-on-Don,,,,
-St. Louis University,United States of America,St. Louis,,,,
-The University of Alabama,United States of America,Tuscaloosa,,,,
+Southern Federal University,Russia,Rostov-on-Don,RU,RUS,Europe,Eastern Europe
+St. Louis University,United States,St. Louis,US,USA,Americas,Northern America
+The University of Alabama,United States,Tuscaloosa,US,USA,Americas,Northern America
 The University of Lahore,Pakistan,Lahore,PK,PAK,Asia,Southern Asia
 Universidad Autónoma Metropolitana (UAM),Mexico,Mexico City,MX,MEX,Americas,Latin America and the Caribbean
 Universidad de Córdoba - España,Spain,Córdoba,ES,ESP,Europe,Southern Europe
@@ -995,15 +995,15 @@ Université Sorbonne Paris Nord,France,Paris,FR,FRA,Europe,Western Europe
 Université Toulouse 1 Capitole,France,Toulouse,FR,FRA,Europe,Western Europe
 Universiti Pendidikan Sultan Idris (UPSI),Malaysia,Tanjung Malim,MY,MYS,Asia,South-eastern Asia
 University of Bahrain,Bahrain,Sakhir,BH,BHR,Asia,Western Asia
-University of Central Lancashire,United Kingdom of Great Britain and Northern Ireland,Preston,,,,
+University of Central Lancashire,United Kingdom,Preston,GB,GBR,Europe,Northern Europe
 University of Colombo,Sri Lanka,Colombo,LK,LKA,Asia,Southern Asia
-University of Denver,United States of America,Denver,,,,
+University of Denver,United States,Denver,US,USA,Americas,Northern America
 University of Parma,Italy,Parma,IT,ITA,Europe,Southern Europe
 University of Regina,Canada,Regina,CA,CAN,Americas,Northern America
-University of South Bohemia,Czechia,České Budějovice,,,,
+University of South Bohemia,Czech Republic,České Budějovice,CZ,CZE,Europe,Eastern Europe
 University of the Western Cape,South Africa,Cape Town,ZA,ZAF,Africa,Sub-Saharan Africa
 Yarmouk University,Jordan,Irbid,JO,JOR,Asia,Western Asia
-Yeungnam University,"Korea, Republic of",Gyeongsan,,,,
+Yeungnam University,Korea,Gyeongsan,KR,KOR,Asia,Eastern Asia
 Al-Azhar University,Egypt,Cairo,EG,EGY,Africa,Northern Africa
 Aligarh Muslim University,India,Aligarh,IN,IND,Asia,Southern Asia
 Amity University,India,Noida,IN,IND,Asia,Southern Asia
@@ -1014,98 +1014,98 @@ Assiut University,Egypt,Assiut,EG,EGY,Africa,Northern Africa
 Azerbaijan State Oil and Industry University,Azerbaijan,Baku,AZ,AZE,Asia,Western Asia
 Azerbaijan State University of Economics,Azerbaijan,Baku,AZ,AZE,Asia,Western Asia
 Banaras Hindu University,India,Varanasi,IN,IND,Asia,Southern Asia
-Baylor University,United States of America,Waco,,,,
+Baylor University,United States,Waco,US,USA,Americas,Northern America
 Bielefeld University,Germany,Bielefeld,DE,DEU,Europe,Western Europe
-Binghamton University SUNY,United States of America,Binghamton,,,,
-Birmingham City University,United Kingdom of Great Britain and Northern Ireland,Birmingham,,,,
+Binghamton University SUNY,United States,Binghamton,US,USA,Americas,Northern America
+Birmingham City University,United Kingdom,Birmingham,GB,GBR,Europe,Northern Europe
 BRAC University,Bangladesh,Dhaka,BD,BGD,Asia,Southern Asia
-Brigham Young University,United States of America,Provo,,,,
-Canterbury Christ Church University,United Kingdom of Great Britain and Northern Ireland,Canterbury,,,,
-Chang Jung Christian University,"Taiwan, Province of China",Tainan,,,,
-Chung Yuan Christian University,"Taiwan, Province of China",Taoyuan,,,,
-Chungbuk National University,"Korea, Republic of",Cheongju,,,,
-College of William and Mary,United States of America,Williamsburg,,,,
+Brigham Young University,United States,Provo,US,USA,Americas,Northern America
+Canterbury Christ Church University,United Kingdom,Canterbury,GB,GBR,Europe,Northern Europe
+Chang Jung Christian University,Taiwan,Tainan,TW,TWN,,
+Chung Yuan Christian University,Taiwan,Taoyuan,TW,TWN,,
+Chungbuk National University,Korea,Cheongju,KR,KOR,Asia,Eastern Asia
+College of William and Mary,United States,Williamsburg,US,USA,Americas,Northern America
 Corvinus University of Budapest,Hungary,Budapest,HU,HUN,Europe,Eastern Europe
 Cracow University of Technology (Politechnika Krakowska),Poland,Kraków,PL,POL,Europe,Eastern Europe
-Dankook University,"Korea, Republic of",Yongin,,,,
-EGE UNIVERSITY,Türkiye,Izmir,,,,
+Dankook University,Korea,Yongin,KR,KOR,Asia,Eastern Asia
+EGE UNIVERSITY,Turkey,Izmir,TR,TUR,Asia,Western Asia
 Escuela Superior Politécnica del Litoral (ESPOL),Ecuador,Guayaquil,EC,ECU,Americas,Latin America and the Caribbean
-Fordham University,United States of America,New York,,,,
-Gebze Technical University (GTU),Türkiye,Gebze,,,,
-George Mason University,United States of America,Mason,,,,
+Fordham University,United States,New York,US,USA,Americas,Northern America
+Gebze Technical University (GTU),Turkey,Gebze,TR,TUR,Asia,Western Asia
+George Mason University,United States,Mason,US,USA,Americas,Northern America
 Gifu University,Japan,Gifu,JP,JPN,Asia,Eastern Asia
-Glasgow Caledonian University,United Kingdom of Great Britain and Northern Ireland,Glasgow,,,,
+Glasgow Caledonian University,United Kingdom,Glasgow,GB,GBR,Europe,Northern Europe
 Gunma University,Japan,Maebashi,JP,JPN,Asia,Eastern Asia
 Guru Gobind Singh Indraprastha University,India,Delhi,IN,IND,Asia,Southern Asia
 Jilin University,China,Jilin,CN,CHN,Asia,Eastern Asia
 Nanjing Normal University,China,Nanjing,CN,CHN,Asia,Eastern Asia
-Howard University,United States of America,Howard,,,,
+Howard University,United States,Howard,US,USA,Americas,Northern America
 Hungarian University of Agriculture and Life Sciences,Hungary,Budapest,HU,HUN,Europe,Eastern Europe
-Indiana University–Purdue University Indianapolis,United States of America,Indianapolis,,,,
+Indiana University–Purdue University Indianapolis,United States,Indianapolis,US,USA,Americas,Northern America
 International Christian University,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
 International Islamic University Islamabad (IIU),Pakistan,Islamabad,PK,PAK,Asia,Southern Asia
 Islamic University of Madinah,Saudi Arabia,Medina,SA,SAU,Asia,Western Asia
 "ITESO, Universidad Jesuita de Guadalajara",Mexico,Guadalajara,MX,MEX,Americas,Latin America and the Caribbean
 Jiangnan University,China,Wuxi,CN,CHN,Asia,Eastern Asia
 Kagoshima University,Japan,Kagoshima,JP,JPN,Asia,Eastern Asia
-Kangwon National University,"Korea, Republic of",Chuncheon,,,,
+Kangwon National University,Korea,Chuncheon,KR,KOR,Asia,Eastern Asia
 Kazakh-British Technical University,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
-Kent State University,United States of America,Kent,,,,
+Kent State University,United States,Kent,US,USA,Americas,Northern America
 Kyushu Institute of Technology,Japan,Kitakyushu,JP,JPN,Asia,Eastern Asia
-Leeds Beckett University,United Kingdom of Great Britain and Northern Ireland,Leeds,,,,
-Lobachevsky University,Russian Federation,Nizhny Novgorod,,,,
+Leeds Beckett University,United Kingdom,Leeds,GB,GBR,Europe,Northern Europe
+Lobachevsky University,Russia,Nizhny Novgorod,RU,RUS,Europe,Eastern Europe
 Lodz University of Technology,Poland,Łódź,PL,POL,Europe,Eastern Europe
-London Metropolitan University,United Kingdom of Great Britain and Northern Ireland,London,,,,
-Loyola University Chicago,United States of America,Chicago,,,,
+London Metropolitan University,United Kingdom,London,GB,GBR,Europe,Northern Europe
+Loyola University Chicago,United States,Chicago,US,USA,Americas,Northern America
 Lviv Polytechnic National University,Ukraine,Lviv,UA,UKR,Europe,Eastern Europe
-Marmara University,Türkiye,Istanbul,,,,
-Mississippi State University,United States of America,Starkville,,,,
+Marmara University,Turkey,Istanbul,TR,TUR,Asia,Western Asia
+Mississippi State University,United States,Starkville,US,USA,Americas,Northern America
 Multimedia University (MMU),Malaysia,Cyberjaya,MY,MYS,Asia,South-eastern Asia
 Mustansiriyah University,Iraq,Baghdad,IQ,IRQ,Asia,Western Asia
 Mutah University,Jordan,Karak,JO,JOR,Asia,Western Asia
 Mykolas Romeris University,Lithuania,Vilnius,LT,LTU,Europe,Northern Europe
 Southwest University,China,Beibei,CN,CHN,Asia,Eastern Asia
 Narxoz University,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
-National Chung Cheng University,"Taiwan, Province of China",Chiayi,,,,
+National Chung Cheng University,Taiwan,Chiayi,TW,TWN,,
 "National Technical University ""Kharkiv Polytechnic Institute""",Ukraine,Kharkiv,UA,UKR,Europe,Eastern Europe
 National University of Kyiv-Mohyla Academy (NaUKMA),Ukraine,Kyiv,UA,UKR,Europe,Eastern Europe
 NJSC KIMEP University,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
-Northern Arizona University,United States of America,Flagstaff,,,,
+Northern Arizona University,United States,Flagstaff,US,USA,Americas,Northern America
 Northwest University (China),China,Xi'an,CN,CHN,Asia,Eastern Asia
 O.P. Jindal Global University,India,Sonipat,IN,IND,Asia,Southern Asia
-Ohio University,United States of America,Athens,,,,
+Ohio University,United States,Athens,US,USA,Americas,Northern America
 Panjab University,India,Chandigarh,IN,IND,Asia,Southern Asia
 Paul Valéry University Montpellier,France,Montpellier,FR,FRA,Europe,Western Europe
 Pontifícia Universidade Católica de São Paulo,Brazil,São Paulo,BR,BRA,Americas,Latin America and the Caribbean
 Pozna? University of Technology,Poland,Poznań,PL,POL,Europe,Eastern Europe
-Rochester Institute of Technology (RIT),United States of America,Rochester,,,,
-Russian Presidential Academy of National Economy and Public Administration,Russian Federation,Moscow,,,,
-Saint Petersburg Electrotechnical University ETU-LETI,Russian Federation,Saint Petersburg,,,,
-Saint-Petersburg Mining University,Russian Federation,Saint Petersburg,,,,
-Samara National Research University (Samara University),Russian Federation,Samara,,,,
-San Diego State University,United States of America,San Diego,,,,
-Sheffield Hallam University,United Kingdom of Great Britain and Northern Ireland,Sheffield,,,,
+Rochester Institute of Technology (RIT),United States,Rochester,US,USA,Americas,Northern America
+Russian Presidential Academy of National Economy and Public Administration,Russia,Moscow,RU,RUS,Europe,Eastern Europe
+Saint Petersburg Electrotechnical University ETU-LETI,Russia,Saint Petersburg,RU,RUS,Europe,Eastern Europe
+Saint-Petersburg Mining University,Russia,Saint Petersburg,RU,RUS,Europe,Eastern Europe
+Samara National Research University (Samara University),Russia,Samara,RU,RUS,Europe,Eastern Europe
+San Diego State University,United States,San Diego,US,USA,Americas,Northern America
+Sheffield Hallam University,United Kingdom,Sheffield,GB,GBR,Europe,Northern Europe
 Shinshu University,Japan,Asahi,JP,JPN,Asia,Eastern Asia
-"Siberian Federal University, SibFU",Russian Federation,Krasnoyarsk,,,,
+"Siberian Federal University, SibFU",Russia,Krasnoyarsk,RU,RUS,Europe,Eastern Europe
 Silesian University of Technology,Poland,Gliwice,PL,POL,Europe,Eastern Europe
-Slovak University of Agriculture in Nitra,Slovakia,Nitra,,,,
-Slovak University of Technology in Bratislava,Slovakia,Bratislava,,,,
+Slovak University of Agriculture in Nitra,Slovak Republic,Nitra,SK,SVK,Europe,Eastern Europe
+Slovak University of Technology in Bratislava,Slovak Republic,Bratislava,SK,SVK,Europe,Eastern Europe
 Sohar University,Oman,Sohar,OM,OMN,Asia,Western Asia
-Soonchunhyang University,"Korea, Republic of",Asan,,,,
-Southern Methodist University,United States of America,Dallas,,,,
+Soonchunhyang University,Korea,Asan,KR,KOR,Asia,Eastern Asia
+Southern Methodist University,United States,Dallas,US,USA,Americas,Northern America
 Hohai University,China,Nanjing,CN,CHN,Asia,Eastern Asia
 SRM INSTITUTE OF SCIENCE AND TECHNOLOGY,India,Chennai,IN,IND,Asia,Southern Asia
 Sumy State University,Ukraine,Sumy,UA,UKR,Europe,Eastern Europe
-Sungshin Women's University,"Korea, Republic of",Seoul,,,,
+Sungshin Women's University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Széchenyi István University,Hungary,Győr,HU,HUN,Europe,Eastern Europe
 Taibah University,Saudi Arabia,Medina,SA,SAU,Asia,Western Asia
 Tallinn University,Estonia,Tallinn,EE,EST,Europe,Northern Europe
-Technical University of Kosice,Slovakia,Kosice,,,,
+Technical University of Kosice,Slovak Republic,Kosice,SK,SVK,Europe,Eastern Europe
 Tecnológico de Costa Rica -TEC,Costa Rica,Cartago,CR,CRI,Americas,Latin America and the Caribbean
 Telkom University,Indonesia,Bandung,ID,IDN,Asia,South-eastern Asia
 The Hashemite University,Jordan,Zarqa,JO,JOR,Asia,Western Asia
-The University of Northampton,United Kingdom of Great Britain and Northern Ireland,Northampton,,,,
-The University of Texas at Arlington,United States of America,Arlington,,,,
+The University of Northampton,United Kingdom,Northampton,GB,GBR,Europe,Northern Europe
+The University of Texas at Arlington,United States,Arlington,US,USA,Americas,Northern America
 Tokushima University,Japan,Tokushima,JP,JPN,Asia,Eastern Asia
 Tokyo Metropolitan University,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
 Universidad Andrés Bello,Chile,Santiago,CL,CHL,Americas,Latin America and the Caribbean
@@ -1161,51 +1161,51 @@ Universiti Malaysia Sabah (UMS),Malaysia,Kota Kinabalu,MY,MYS,Asia,South-eastern
 Universiti Malaysia Sarawak (UNIMAS),Malaysia,Kota Samarahan,MY,MYS,Asia,South-eastern Asia
 Universiti Malaysia Terengganu (UMT),Malaysia,Kuala Terengganu,MY,MYS,Asia,South-eastern Asia
 Universiti Tun Hussein Onn University of Malaysia (UTHM),Malaysia,Batu Pahat,MY,MYS,Asia,South-eastern Asia
-University of Arkansas Fayetteville,United States of America,Fayetteville,,,,
-University of Derby,United Kingdom of Great Britain and Northern Ireland,Derby,,,,
+University of Arkansas Fayetteville,United States,Fayetteville,US,USA,Americas,Northern America
+University of Derby,United Kingdom,Derby,GB,GBR,Europe,Northern Europe
 University of Deusto,Spain,Bilbao,ES,ESP,Europe,Southern Europe
-University of Hradec Kralove,Czechia,Hradec Králové,,,,
+University of Hradec Kralove,Czech Republic,Hradec Králové,CZ,CZE,Europe,Eastern Europe
 University of Ibadan,Nigeria,Ibadan,NG,NGA,Africa,Sub-Saharan Africa
-University of Idaho,United States of America,Moscow,,,,
+University of Idaho,United States,Moscow,US,USA,Americas,Northern America
 University of Ioannina,Greece,Ioannina,GR,GRC,Europe,Southern Europe
 University of Karachi,Pakistan,Karachi,PK,PAK,Asia,Southern Asia
 University of Khartoum,Sudan,Khartoum,SD,SDN,Africa,Northern Africa
 University of Lagos,Nigeria,Lagos,NG,NGA,Africa,Sub-Saharan Africa
-University of Louisville,United States of America,Louisville,,,,
-University of Massachusetts Boston,United States of America,Boston,,,,
-"University of Missouri, Kansas City",United States of America,Kansas City,,,,
+University of Louisville,United States,Louisville,US,USA,Americas,Northern America
+University of Massachusetts Boston,United States,Boston,US,USA,Americas,Northern America
+"University of Missouri, Kansas City",United States,Kansas City,US,USA,Americas,Northern America
 University of Naples Parthenope,Italy,Naples,IT,ITA,Europe,Southern Europe
 University of New England Australia,Australia,Armidale,AU,AUS,Oceania,Australia and New Zealand
-University of New Hampshire,United States of America,Durham,,,,
-University of North Carolina at Charlotte,United States of America,Charlotte,,,,
-University of North Texas,United States of America,Denton,,,,
+University of New Hampshire,United States,Durham,US,USA,Americas,Northern America
+University of North Carolina at Charlotte,United States,Charlotte,US,USA,Americas,Northern America
+University of North Texas,United States,Denton,US,USA,Americas,Northern America
 University of Novi Sad,Serbia,Novi Sad,RS,SRB,Europe,Southern Europe
-University of Rhode Island,United States of America,Washington,,,,
+University of Rhode Island,United States,Washington,US,USA,Americas,Northern America
 University of Sarajevo,Bosnia and Herzegovina,Sarajevo,BA,BIH,Europe,Southern Europe
-University of Seoul,"Korea, Republic of",Seoul,,,,
+University of Seoul,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 University of Tabuk,Saudi Arabia,Tabuk,SA,SAU,Asia,Western Asia
-University of Texas at San Antonio,United States of America,San Antonio,,,,
-University of Texas El Paso,United States of America,El Paso,,,,
+University of Texas at San Antonio,United States,San Antonio,US,USA,Americas,Northern America
+University of Texas El Paso,United States,El Paso,US,USA,Americas,Northern America
 University of the Free State,South Africa,Bloemfontein,ZA,ZAF,Africa,Sub-Saharan Africa
 University of the Sunshine Coast,Australia,Sunshine Coast,AU,AUS,Oceania,Australia and New Zealand
-University of Toledo,United States of America,Toledo,,,,
-University of Tulsa,United States of America,Tulsa,,,,
-University of Vermont,United States of America,Prospect,,,,
+University of Toledo,United States,Toledo,US,USA,Americas,Northern America
+University of Tulsa,United States,Tulsa,US,USA,Americas,Northern America
+University of Vermont,United States,Prospect,US,USA,Americas,Northern America
 University of Warmia and Mazury in Olsztyn,Poland,Olsztyn,PL,POL,Europe,Eastern Europe
-University of Wolverhampton,United Kingdom of Great Britain and Northern Ireland,Wolverhampton,,,,
-University of Wyoming,United States of America,Wyoming,,,,
-University of Žilina,Slovakia,Žilina,,,,
-Utah State University,United States of America,Logan,,,,
-VSB - Technical University of Ostrava,Czechia,Ostrava,,,,
+University of Wolverhampton,United Kingdom,Wolverhampton,GB,GBR,Europe,Northern Europe
+University of Wyoming,United States,Wyoming,US,USA,Americas,Northern America
+University of Žilina,Slovak Republic,Žilina,SK,SVK,Europe,Eastern Europe
+Utah State University,United States,Logan,US,USA,Americas,Northern America
+VSB - Technical University of Ostrava,Czech Republic,Ostrava,CZ,CZE,Europe,Eastern Europe
 Warsaw University of Life Sciences – SGGW (WULS-SGGW),Poland,Warsaw,PL,POL,Europe,Eastern Europe
-West Virginia University,United States of America,Morgantown,,,,
+West Virginia University,United States,Morgantown,US,USA,Americas,Northern America
 Xi'an Jiaotong Liverpool University,China,Suzhou,CN,CHN,Asia,Eastern Asia
 Yokohama National University,Japan,Yokohama,JP,JPN,Asia,Eastern Asia
 Al-Balqa Applied University,Jordan,Al-Salt,JO,JOR,Asia,Western Asia
 Alexandru Ioan Cuza University,Romania,Iași,RO,ROU,Europe,Eastern Europe
-Anadolu University,Türkiye,Eskişehir,,,,
+Anadolu University,Turkey,Eskişehir,TR,TUR,Asia,Western Asia
 Aoyama Gakuin University,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
-Ataturk University,Türkiye,Erzurum,,,,
+Ataturk University,Turkey,Erzurum,TR,TUR,Asia,Western Asia
 Atma Jaya Catholic University Jakarta,Indonesia,Jakarta,ID,IDN,Asia,South-eastern Asia
 Bahauddin Zakariya University,Pakistan,Multan,PK,PAK,Asia,Southern Asia
 Beijing Foreign Studies University,China,Beijing,CN,CHN,Asia,Eastern Asia
@@ -1215,40 +1215,40 @@ Benemérita Universidad Autónoma de Puebla,Mexico,Puebla,MX,MEX,Americas,Latin 
 Birzeit university,"Palestine, State of",Ramallah,PS,PSE,Asia,Western Asia
 British University in Egypt,Egypt,Cairo,EG,EGY,Africa,Northern Africa
 Brock University,Canada,St. Catharines,CA,CAN,Americas,Northern America
-Central Michigan University,United States of America,Mount Pleasant,,,,
-Chaoyang University of Technology,"Taiwan, Province of China",Taichung,,,,
+Central Michigan University,United States,Mount Pleasant,US,USA,Americas,Northern America
+Chaoyang University of Technology,Taiwan,Taichung,TW,TWN,,
 China University of Political Science and Law,China,Beijing,CN,CHN,Asia,Eastern Asia
 Chitkara University,India,Rajpura,IN,IND,Asia,Southern Asia
 Chittagong University of Engineering and Technology,Bangladesh,Chittagong,BD,BGD,Asia,Southern Asia
-Cleveland State University,United States of America,Cleveland,,,,
-Cukurova University,Türkiye,Adana,,,,
-CUNY The City College of New York,United States of America,New York,,,,
+Cleveland State University,United States,Cleveland,US,USA,Americas,Northern America
+Cukurova University,Turkey,Adana,TR,TUR,Asia,Western Asia
+CUNY The City College of New York,United States,New York,US,USA,Americas,Northern America
 Daffodil International University,Bangladesh,Dhaka,BD,BGD,Asia,Southern Asia
 Damascus University,Syrian Arab Republic,Damascus,SY,SYR,Asia,Western Asia
-Dokuz Eylül Üniversitesi,Türkiye,Izmir,,,,
+Dokuz Eylül Üniversitesi,Turkey,Izmir,TR,TUR,Asia,Western Asia
 Doshisha University,Japan,Kyoto,JP,JPN,Asia,Eastern Asia
-Erciyes Üniversitesi,Türkiye,Kayseri,,,,
+Erciyes Üniversitesi,Turkey,Kayseri,TR,TUR,Asia,Western Asia
 Escuela Politécnica Nacional,Ecuador,Quito,EC,ECU,Americas,Latin America and the Caribbean
-Feng Chia University,"Taiwan, Province of China",Taichung,,,,
-Florida Atlantic University - Boca Raton,United States of America,Boca Raton,,,,
-Fu Jen Catholic University,"Taiwan, Province of China",New Taipei,,,,
+Feng Chia University,Taiwan,Taichung,TW,TWN,,
+Florida Atlantic University - Boca Raton,United States,Boca Raton,US,USA,Americas,Northern America
+Fu Jen Catholic University,Taiwan,New Taipei,TW,TWN,,
 Fundación CEU San Pablo,Spain,Madrid,ES,ESP,Europe,Southern Europe
 German University in Cairo,Egypt,New Cairo,EG,EGY,Africa,Northern Africa
-Hanoi University of Science and Technology,Viet Nam,Hanoi,,,,
-Harper Adams University,United Kingdom of Great Britain and Northern Ireland,Newport,,,,
+Hanoi University of Science and Technology,Vietnam,Hanoi,VN,VNM,Asia,South-eastern Asia
+Harper Adams University,United Kingdom,Newport,GB,GBR,Europe,Northern Europe
 Helwan University,Egypt,Helwan,EG,EGY,Africa,Northern Africa
-Hongik University,"Korea, Republic of",Seoul,,,,
-Hue University,Viet Nam,Hue,,,,
+Hongik University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
+Hue University,Vietnam,Hue,VN,VNM,Asia,South-eastern Asia
 Instituto Tecnológico de Santo Domingo (INTEC),Dominican Republic,Santo Domingo,DO,DOM,Americas,Latin America and the Caribbean
-Istanbul Aydin University,Türkiye,Istanbul,,,,
-Istanbul Bilgi Üniversitesi,Türkiye,Istanbul,,,,
+Istanbul Aydin University,Turkey,Istanbul,TR,TUR,Asia,Western Asia
+Istanbul Bilgi Üniversitesi,Turkey,Istanbul,TR,TUR,Asia,Western Asia
 Ivan Franko National University of Lviv,Ukraine,Lviv,UA,UKR,Europe,Eastern Europe
-Izmir Institute of Technology (IZTECH),Türkiye,Izmir,,,,
+Izmir Institute of Technology (IZTECH),Turkey,Izmir,TR,TUR,Asia,Western Asia
 Jahangirnagar University,Bangladesh,Savar,BD,BGD,Asia,Southern Asia
 Jamia Hamdard,India,New Delhi,IN,IND,Asia,Southern Asia
-Jeju National University,"Korea, Republic of",Jeju,,,,
+Jeju National University,Korea,Jeju,KR,KOR,Asia,Eastern Asia
 Kazakh Ablai Khan University of International Relations and World Languages,Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
-Kazan National Research Technological University,Russian Federation,Kazan,,,,
+Kazan National Research Technological University,Russia,Kazan,RU,RUS,Europe,Eastern Europe
 Kenyatta University,Kenya,Nairobi,KE,KEN,Africa,Sub-Saharan Africa
 Kharkiv National University of Radio Electronics,Ukraine,Kharkiv,UA,UKR,Europe,Eastern Europe
 Khulna University,Bangladesh,Khulna,BD,BGD,Asia,Southern Asia
@@ -1256,62 +1256,62 @@ Khulna University of Engineering and Technology,Bangladesh,Khulna,BD,BGD,Asia,So
 Kindai University (Kinki University),Japan,Higashi-Osaka,JP,JPN,Asia,Eastern Asia
 King Mongkut\'s Institute of Technology Ladkrabang,Thailand,Bangkok,TH,THA,Asia,South-eastern Asia
 King Mongkut's University of Technology North Bangkok,Thailand,Bangkok,TH,THA,Asia,South-eastern Asia
-Kookmin University,"Korea, Republic of",Seoul,,,,
+Kookmin University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Kwame Nkrumah University of Science and Technology,Ghana,Kumasi,GH,GHA,Africa,Sub-Saharan Africa
 Kyoto Institute of Technology,Japan,Kyoto,JP,JPN,Asia,Eastern Asia
 Kyrgyz State Technical University,Kyrgyzstan,Bishkek,KG,KGZ,Asia,Central Asia
-Marquette University,United States of America,Marquette,,,,
+Marquette University,United States,Marquette,US,USA,Americas,Northern America
 Meiji University,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
-Mendeleev University of Chemical Technology,Russian Federation,Moscow,,,,
-Miami University,United States of America,Miami,,,,
-Moscow Pedagogical State University,Russian Federation,Moscow,,,,
+Mendeleev University of Chemical Technology,Russia,Moscow,RU,RUS,Europe,Eastern Europe
+Miami University,United States,Miami,US,USA,Americas,Northern America
+Moscow Pedagogical State University,Russia,Moscow,RU,RUS,Europe,Eastern Europe
 Nagoya Institute of Technology (NIT),Japan,Nagoya,JP,JPN,Asia,Eastern Asia
-National Dong Hwa University,"Taiwan, Province of China",Hualien,,,,
-National Research University Moscow Power Engineering Institute (MPEI),Russian Federation,Moscow,,,,
-National Taipei University,"Taiwan, Province of China",Taipei,,,,
-National Taiwan Ocean University,"Taiwan, Province of China",Keelung,,,,
-Novosibirsk State Technical University,Russian Federation,Novosibirsk,,,,
+National Dong Hwa University,Taiwan,Hualien,TW,TWN,,
+National Research University Moscow Power Engineering Institute (MPEI),Russia,Moscow,RU,RUS,Europe,Eastern Europe
+National Taipei University,Taiwan,Taipei,TW,TWN,,
+National Taiwan Ocean University,Taiwan,Keelung,TW,TWN,,
+Novosibirsk State Technical University,Russia,Novosibirsk,RU,RUS,Europe,Eastern Europe
 Óbuda University,Hungary,Budapest,HU,HUN,Europe,Eastern Europe
 Odessa I.I. Mechnikov National University,Ukraine,Odessa,UA,UKR,Europe,Eastern Europe
 OSMANIA UNIVERSITY,India,Hyderabad,IN,IND,Asia,Southern Asia
-Perm State National Research University,Russian Federation,Perm,,,,
+Perm State National Research University,Russia,Perm,RU,RUS,Europe,Eastern Europe
 Pondicherry University,India,Pondicherry,IN,IND,Asia,Southern Asia
 Pontificia Universidad Catolica Madre y Maestra,Dominican Republic,Santiago,DO,DOM,Americas,Latin America and the Caribbean
 Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS),Brazil,Porto Alegre,BR,BRA,Americas,Latin America and the Caribbean
-Portland State University,United States of America,Portland,,,,
-Pukyong National University,"Korea, Republic of",Busan,,,,
+Portland State University,United States,Portland,US,USA,Americas,Northern America
+Pukyong National University,Korea,Busan,KR,KOR,Asia,Eastern Asia
 Rajshahi University,Bangladesh,Rajshahi,BD,BGD,Asia,Southern Asia
 Rikkyo University,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
 Saitama University,Japan,Saitama,JP,JPN,Asia,Eastern Asia
 Saken Seifullin Kazakh Agrotechnical University,Kazakhstan,Kyzylorda,KZ,KAZ,Asia,Central Asia
-San Francisco State University,United States of America,San Francisco,,,,
+San Francisco State University,United States,San Francisco,US,USA,Americas,Northern America
 Sathyabama Institute of Science and Technology (deemed to be university),India,Chennai,IN,IND,Asia,Southern Asia
-Seattle University,United States of America,Seattle,,,,
-Seoul National University of Science and Technology,"Korea, Republic of",Seoul,,,,
+Seattle University,United States,Seattle,US,USA,Americas,Northern America
+Seoul National University of Science and Technology,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Shahjalal University of Science and Technology,Bangladesh,Sylhet,BD,BGD,Asia,Southern Asia
 Shanghai International Studies University,China,Shanghai,CN,CHN,Asia,Eastern Asia
 Shanghai University of Finance and Economics,China,Shanghai,CN,CHN,Asia,Eastern Asia
 Siksha 'O' Anusandhan (Deemed to be University),India,Bhubaneswar,IN,IND,Asia,Southern Asia
-Sookmyung Women's University,"Korea, Republic of",Seoul,,,,
+Sookmyung Women's University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Suez Canal University,Egypt,Suez,EG,EGY,Africa,Northern Africa
-Suleyman Demirel University,Türkiye,Isparta,,,,
+Suleyman Demirel University,Turkey,Isparta,TR,TUR,Asia,Western Asia
 "Suleyman Demirel University, Kazakhstan",Kazakhstan,Almaty,KZ,KAZ,Asia,Central Asia
 Suranaree University of Technology,Thailand,Nakhon Ratchasima,TH,THA,Asia,South-eastern Asia
-Tamkang University,"Taiwan, Province of China",New Taipei,,,,
+Tamkang University,Taiwan,New Taipei,TW,TWN,,
 Tanta University,Egypt,Tanta,EG,EGY,Africa,Northern Africa
 Technical University of Cluj-Napoca,Romania,Cluj-Napoca,RO,ROU,Europe,Eastern Europe
-Technical University of Liberec,Czechia,Liberec,,,,
+Technical University of Liberec,Czech Republic,Liberec,CZ,CZE,Europe,Eastern Europe
 Technical University of Lublin,Poland,Lublin,PL,POL,Europe,Eastern Europe
 Technische Universität Kaiserslautern,Germany,Kaiserslautern,DE,DEU,Europe,Western Europe
 "The ""Gheorghe Asachi"" Technical University of Iasi",Romania,Iasi,RO,ROU,Europe,Eastern Europe
-The Herzen State Pedagogical University of Russia,Russian Federation,St. Petersburg,,,,
+The Herzen State Pedagogical University of Russia,Russia,St. Petersburg,RU,RUS,Europe,Eastern Europe
 The Josip Juraj Strossmayer University of Osijek,Croatia,Osijek,HR,HRV,Europe,Southern Europe
-"The National Research University ""Belgorod State University""",Russian Federation,Belgorod,,,,
+"The National Research University ""Belgorod State University""",Russia,Belgorod,RU,RUS,Europe,Eastern Europe
 Tokai University,Japan,Hiratsuka,JP,JPN,Asia,Eastern Asia
-Tomas Bata University in Zlin,Czechia,Zlín,,,,
+Tomas Bata University in Zlin,Czech Republic,Zlín,CZ,CZE,Europe,Eastern Europe
 Toraighyrov University,Kazakhstan,Kokshetau,KZ,KAZ,Asia,Central Asia
 Transilvania University of Brasov,Romania,Brasov,RO,ROU,Europe,Eastern Europe
-Tunghai University,"Taiwan, Province of China",Taichung,,,,
+Tunghai University,Taiwan,Taichung,TW,TWN,,
 Universidad Autónoma de Guadalajara (UAG),Mexico,Guadalajara,MX,MEX,Americas,Latin America and the Caribbean
 Universidad Autónoma del Estado de Hidalgo (UAEH),Mexico,Pachuca,MX,MEX,Americas,Latin America and the Caribbean
 Universidad Católica del Norte,Chile,Antofagasta,CL,CHL,Americas,Latin America and the Caribbean
@@ -1369,72 +1369,72 @@ University of Bialystok,Poland,Bialystok,PL,POL,Europe,Eastern Europe
 University of International Business and Economics,China,Beijing,CN,CHN,Asia,Eastern Asia
 University of Kragujevac,Serbia,Kragujevac,RS,SRB,Europe,Southern Europe
 University of Kufa,Iraq,Kufa,IQ,IRQ,Asia,Western Asia
-University of Memphis,United States of America,Memphis,,,,
+University of Memphis,United States,Memphis,US,USA,Americas,Northern America
 University of Miskolc,Hungary,Miskolc,HU,HUN,Europe,Eastern Europe
-University of Missouri Saint Louis,United States of America,St. Louis,,,,
+University of Missouri Saint Louis,United States,St. Louis,US,USA,Americas,Northern America
 University of Niš,Serbia,Niš,RS,SRB,Europe,Southern Europe
-University of North Carolina at Greensboro,United States of America,Greensboro,,,,
-University of Ostrava,Czechia,Ostrava,,,,
+University of North Carolina at Greensboro,United States,Greensboro,US,USA,Americas,Northern America
+University of Ostrava,Czech Republic,Ostrava,CZ,CZE,Europe,Eastern Europe
 University of Pannonia,Hungary,Veszprém,HU,HUN,Europe,Eastern Europe
-University of Pardubice,Czechia,Pardubice,,,,
+University of Pardubice,Czech Republic,Pardubice,CZ,CZE,Europe,Eastern Europe
 University of Peradeniya,Sri Lanka,Peradeniya,LK,LKA,Asia,Southern Asia
 University of Primorska,Slovenia,Koper,SI,SVN,Europe,Southern Europe
 University of Rijeka,Croatia,Rijeka,HR,HRV,Europe,Southern Europe
 University of Rzeszów,Poland,Rzeszów,PL,POL,Europe,Eastern Europe
-University of San Diego,United States of America,San Diego,,,,
-University of San Francisco,United States of America,San Francisco,,,,
+University of San Diego,United States,San Diego,US,USA,Americas,Northern America
+University of San Francisco,United States,San Francisco,US,USA,Americas,Northern America
 University of Silesia in Katowice,Poland,Katowice,PL,POL,Europe,Eastern Europe
-University of South Alabama (USA),United States of America,Mobile,,,,
+University of South Alabama (USA),United States,Mobile,US,USA,Americas,Northern America
 University of Split,Croatia,Split,HR,HRV,Europe,Southern Europe
 University of Sri Jayewardenepura,Sri Lanka,Nugegoda,LK,LKA,Asia,Southern Asia
-University of the Pacific,United States of America,Stockton,,,,
-University of Tyumen,Russian Federation,Tyumen,,,,
-University of West Bohemia,Czechia,Pilsen,,,,
-University of Wisconsin Milwaukee,United States of America,Milwaukee,,,,
+University of the Pacific,United States,Stockton,US,USA,Americas,Northern America
+University of Tyumen,Russia,Tyumen,RU,RUS,Europe,Eastern Europe
+University of West Bohemia,Czech Republic,Pilsen,CZ,CZE,Europe,Eastern Europe
+University of Wisconsin Milwaukee,United States,Milwaukee,US,USA,Americas,Northern America
 University POLITEHNICA of Bucharest,Romania,Bucharest,RO,ROU,Europe,Eastern Europe
 Vancouver Island University,Canada,Nanaimo,CA,CAN,Americas,Northern America
-Voronezh State University,Russian Federation,Voronezh,,,,
-Western Michigan University,United States of America,Kalamazoo,,,,
+Voronezh State University,Russia,Voronezh,RU,RUS,Europe,Eastern Europe
+Western Michigan University,United States,Kalamazoo,US,USA,Americas,Northern America
 Yamaguchi University,Japan,Yamaguchi,JP,JPN,Asia,Eastern Asia
 Yogyakarta State University,Indonesia,Yogyakarta,ID,IDN,Asia,South-eastern Asia
-Youngsan University,"Korea, Republic of",Ulsan,,,,
-Yuan Ze University,"Taiwan, Province of China",Taoyuan,,,,
+Youngsan University,Korea,Ulsan,KR,KOR,Asia,Eastern Asia
+Yuan Ze University,Taiwan,Taoyuan,TW,TWN,,
 Zagazig University,Egypt,Zagazig,EG,EGY,Africa,Northern Africa
-Don State Technical University,Russian Federation,Rostov-on-Don,,,,
-Akdeniz Üniversitesi,Türkiye,Antalya,,,,
-California Polytechnic State University,United States of America,San Luis Obispo,,,,
-California State University - Los Angeles,United States of America,Los Angeles,,,,
-"California State University, Long Beach",United States of America,Long Beach,,,,
+Don State Technical University,Russia,Rostov-on-Don,RU,RUS,Europe,Eastern Europe
+Akdeniz Üniversitesi,Turkey,Antalya,TR,TUR,Asia,Western Asia
+California Polytechnic State University,United States,San Luis Obispo,US,USA,Americas,Northern America
+California State University - Los Angeles,United States,Los Angeles,US,USA,Americas,Northern America
+"California State University, Long Beach",United States,Long Beach,US,USA,Americas,Northern America
 Católica de Córdoba,Argentina,Córdoba,AR,ARG,Americas,Latin America and the Caribbean
 East West University,Bangladesh,Dhaka,BD,BGD,Asia,Southern Asia
 Fundación Universidad De Bogotá-Jorge Tadeo Lozano,Colombia,Bogotá,CO,COL,Americas,Latin America and the Caribbean
-Humboldt State University,United States of America,Arcata,,,,
-Illinois State University,United States of America,Normal,,,,
+Humboldt State University,United States,Arcata,US,USA,Americas,Northern America
+Illinois State University,United States,Normal,US,USA,Americas,Northern America
 "Indian Institute of Information Technology, Allahabad",India,Allahabad,IN,IND,Asia,Southern Asia
-Indiana State University,United States of America,Terre Haute,,,,
+Indiana State University,United States,Terre Haute,US,USA,Americas,Northern America
 "International University of Business, Agriculture and Technology (IUBAT)",Bangladesh,Dhaka,BD,BGD,Asia,Southern Asia
-Irkutsk State University,Russian Federation,Irkutsk,,,,
+Irkutsk State University,Russia,Irkutsk,RU,RUS,Europe,Eastern Europe
 Korkyt Ata Kyzylorda University,Kazakhstan,Kyzylorda,KZ,KAZ,Asia,Central Asia
 Kwansei Gakuin University,Japan,Nishinomiya,JP,JPN,Asia,Eastern Asia
 Lucian Blaga University of Sibiu,Romania,Sibiu,RO,ROU,Europe,Eastern Europe
 M.Kh. Dulaty Taraz Regional University,Kazakhstan,Taraz,KZ,KAZ,Asia,Central Asia
-MIREA - Russian Technological University,Russian Federation,Moscow,,,,
-Moscow City University,Russian Federation,Moscow,,,,
+MIREA - Russian Technological University,Russia,Moscow,RU,RUS,Europe,Eastern Europe
+Moscow City University,Russia,Moscow,RU,RUS,Europe,Eastern Europe
 Naresuan University,Thailand,Phitsanulok,TH,THA,Asia,South-eastern Asia
 National University of Life and Environmental Sciences of Ukraine,Ukraine,Uman,UA,UKR,Europe,Eastern Europe
 "National University of Modern Languages (NUML), Islamabad",Pakistan,Islamabad,PK,PAK,Asia,Southern Asia
-Nova Southeastern University,United States of America,Fort Lauderdale,,,,
+Nova Southeastern University,United States,Fort Lauderdale,US,USA,Americas,Northern America
 Pontifícia Universidade Católica de Minas Gerais – PUC Minas,Brazil,Belo Horizonte,BR,BRA,Americas,Latin America and the Caribbean
 Pontificia Universidade Católica do Campinas - PUC Campinas,Brazil,Campinas,BR,BRA,Americas,Latin America and the Caribbean
 Pontifícia Universidade Católica do Paraná,Brazil,Curitiba,BR,BRA,Americas,Latin America and the Caribbean
-Russian State Agrarian University - Moscow Timiryazev Agricultural Academy,Russian Federation,Moscow,,,,
-Russian State University for the Humanities,Russian Federation,Moscow,,,,
-Sakarya University,Türkiye,Sakarya,,,,
+Russian State Agrarian University - Moscow Timiryazev Agricultural Academy,Russia,Moscow,RU,RUS,Europe,Eastern Europe
+Russian State University for the Humanities,Russia,Moscow,RU,RUS,Europe,Eastern Europe
+Sakarya University,Turkey,Sakarya,TR,TUR,Asia,Western Asia
 Shanghai Normal University,China,Shanghai,CN,CHN,Asia,Eastern Asia
 Shibaura Institute of Technology,Japan,Tokyo,JP,JPN,Asia,Eastern Asia
 Silpakorn University,Thailand,Bangkok,TH,THA,Asia,South-eastern Asia
-Soochow University (Taiwan),"Taiwan, Province of China",Taipei,,,,
-Soongsil University,"Korea, Republic of",Seoul,,,,
+Soochow University (Taiwan),Taiwan,Taipei,TW,TWN,,
+Soongsil University,Korea,Seoul,KR,KOR,Asia,Eastern Asia
 Stamford University Bangladesh,Bangladesh,Dhaka,BD,BGD,Asia,Southern Asia
 State University of Malang,Indonesia,Malang,ID,IDN,Asia,South-eastern Asia
 Stefan cel Mare University of Suceava,Romania,Suceava,RO,ROU,Europe,Eastern Europe
@@ -1493,12 +1493,12 @@ Universitas Andalas,Indonesia,Padang,ID,IDN,Asia,South-eastern Asia
 Universitas Kristen Petra,Indonesia,Surabaya,ID,IDN,Asia,South-eastern Asia
 Universitas Muhammadiyah Surakarta,Indonesia,Surakarta,ID,IDN,Asia,South-eastern Asia
 Universiti Sains Islam Malaysia,Malaysia,Nilai,MY,MYS,Asia,South-eastern Asia
-University of Central Oklahoma,United States of America,Edmond,,,,
+University of Central Oklahoma,United States,Edmond,US,USA,Americas,Northern America
 University of Craiova,Romania,Craiova,RO,ROU,Europe,Eastern Europe
 University of Lampung,Indonesia,Bandar Lampung,ID,IDN,Asia,South-eastern Asia
 University of Mataram,Indonesia,Mataram,ID,IDN,Asia,South-eastern Asia
-University of Montana Missoula,United States of America,Missoula,,,,
+University of Montana Missoula,United States,Missoula,US,USA,Americas,Northern America
 University of Oradea,Romania,Oradea,RO,ROU,Europe,Eastern Europe
 University of San Carlos,Philippines,Cebu,PH,PHL,Asia,South-eastern Asia
 "University Politehnica of Timisoara, UPT",Romania,Timisoara,RO,ROU,Europe,Eastern Europe
-Western Washington University,United States of America,Washington,,,,
+Western Washington University,United States,Washington,US,USA,Americas,Northern America
