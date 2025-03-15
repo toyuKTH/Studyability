@@ -1,0 +1,812 @@
+university,country,city
+Massachusetts Institute of Technology (MIT),United States of America,Cambridge
+ETH Zurich - Swiss Federal Institute of Technology,Switzerland,Zurich
+National University of Singapore (NUS),Singapore,Singapore
+UCL,United Kingdom of Great Britain and Northern Ireland,London
+California Institute of Technology (Caltech),United States of America,Pasadena
+University of California, Berkeley (UCB),United States of America,Berkeley
+The University of Melbourne,Australia,Melbourne
+Nanyang Technological University, Singapore (NTU),Singapore,Singapore
+The University of Hong Kong,Hong Kong,Hong Kong
+The University of Sydney,Australia,Sydney
+The University of New South Wales (UNSW Sydney),Australia,Sydney
+Université PSL,France,Paris
+EPFL,Switzerland,Lausanne
+The University of Edinburgh,United Kingdom of Great Britain and Northern Ireland,Edinburgh
+The Australian National University,Australia,Canberra
+The University of Tokyo,Japan,Tokyo
+The University of Manchester,United Kingdom of Great Britain and Northern Ireland,Manchester
+The Chinese University of Hong Kong (CUHK),Hong Kong,Hong Kong
+The University of Queensland,Australia,Brisbane
+University of California, Los Angeles (UCLA),United States of America,Los Angeles
+New York University (NYU),United States of America,New York
+University of Michigan-Ann Arbor,United States of America,Ann Arbor
+The Hong Kong University of Science and Technology,Hong Kong,Hong Kong
+The London School of Economics and Political Science (LSE),United Kingdom of Great Britain and Northern Ireland,London
+KAIST - Korea Advanced Institute of Science & Technology,Korea, Republic of,Daejeon
+The Hong Kong Polytechnic University,Hong Kong,Hong Kong
+Ludwig-Maximilians-Universität München,Germany,Munich
+Universiti Malaya (UM),Malaysia,Kuala Lumpur
+The University of Auckland,New Zealand,Auckland
+National Taiwan University (NTU),Taiwan, Province of China,Taipei
+The University of Warwick,United Kingdom of Great Britain and Northern Ireland,Coventry
+University of Illinois at Urbana-Champaign,United States of America,Urbana-Champaign
+Universidad de Buenos Aires (UBA),Argentina,Buenos Aires
+University of California, San Diego (UCSD),United States of America,La Jolla
+Université Paris-Saclay,France,Paris
+The University of Western Australia,Australia,Perth
+The University of Adelaide,Australia,Adelaide
+Ruprecht-Karls-Universität Heidelberg,Germany,Heidelberg
+Tokyo Institute of Technology (Tokyo Tech),Japan,Tokyo
+Trinity College Dublin, The University of Dublin,Ireland,Dublin
+Universidade de São Paulo,Brazil,São Paulo
+Pontificia Universidad Católica de Chile (UC),Chile,Santiago
+Universidad Nacional Autónoma de México (UNAM),Mexico,Mexico City
+Freie Universitaet Berlin,Germany,Berlin
+Pohang University of Science And Technology (POSTECH),Korea, Republic of,Pohang
+King Fahd University of Petroleum & Minerals,Saudi Arabia,Dhahran
+KIT, Karlsruhe Institute of Technology,Germany,Karlsruhe
+The University of Sheffield,United Kingdom of Great Britain and Northern Ireland,Sheffield
+Politecnico di Milano,Italy,Milan
+University of Wisconsin-Madison,United States of America,Madison
+Indian Institute of Technology Bombay (IITB),India,Mumbai
+Sungkyunkwan University(SKKU),Korea, Republic of,Seoul
+Humboldt-Universität zu Berlin,Germany,Berlin
+Alma Mater Studiorum - University of Bologna,Italy,Bologna
+Universiti Kebangsaan Malaysia (UKM),Malaysia,Bangi
+Universidad de Chile,Chile,Santiago
+Universiti Sains Malaysia (USM),Malaysia,Penang
+Technische Universität Berlin (TU Berlin),Germany,Berlin
+Universiti Putra Malaysia (UPM),Malaysia,Serdang
+King Abdulaziz University (KAU),Saudi Arabia,Jeddah
+Indian Institute of Technology Delhi (IITD),India,New Delhi
+Texas A&M University,United States of America,College Station
+University of North Carolina, Chapel Hill,United States of America,Chapel Hill
+Université de Montréal,Canada,Montreal
+Al-Farabi Kazakh National University,Kazakhstan,Almaty
+Universitat de Barcelona,Spain,Barcelona
+The University of Exeter,United Kingdom of Great Britain and Northern Ireland,Exeter
+Universitat Autònoma de Barcelona,Spain,Barcelona
+University of California, Santa Barbara (UCSB),United States of America,Santa Barbara
+The University of Newcastle, Australia (UON),Australia,Newcastle
+Universidad de los Andes,Colombia,Bogotá
+Universiti Teknologi Malaysia,Malaysia,Skudai
+Tecnológico de Monterrey,Mexico,Monterrey
+Technische Universität Wien,Austria,Vienna
+Universität Hamburg,Germany,Hamburg
+Queen's University at Kingston,Canada,Kingston
+Universidad Autónoma de Madrid,Spain,Madrid
+Khalifa University of Science and Technology,United Arab Emirates,Abu Dhabi
+Université catholique de Louvain (UCLouvain),Belgium,Louvain-la-Neuve
+University of Minnesota Twin Cities,United States of America,Minneapolis
+Ecole des Ponts ParisTech,France,Paris
+Universitas Indonesia,Indonesia,Depok
+The Ohio State University,United States of America,Columbus
+Albert-Ludwigs-Universitaet Freiburg,Germany,Freiburg
+Queensland University of Technology (QUT),Australia,Brisbane
+National Cheng Kung University (NCKU),Taiwan, Province of China,Tainan
+Universidad Nacional de Colombia,Colombia,Bogotá
+Vrije Universiteit Amsterdam,Netherlands, Kingdom of the,Amsterdam
+Eberhard Karls Universität Tübingen,Germany,Tübingen
+Indian Institute of Technology Kharagpur (IIT-KGP),India,Kharagpur
+Friedrich-Alexander-Universität Erlangen-Nürnberg,Germany,Erlangen
+Indian Institute of Technology Madras (IITM),India,Chennai
+Rheinische Friedrich-Wilhelms-Universität Bonn,Germany,Bonn
+Universite libre de Bruxelles,Belgium,Brussels
+Universidade Estadual de Campinas (Unicamp),Brazil,Campinas
+Technische Universität Dresden,Germany,Dresden
+Università di Padova,Italy,Padua
+Politecnico di Torino,Italy,Turin
+Charles University,Czechia,Prague
+American University of Beirut (AUB),Lebanon,Beirut
+Taylor's University,Malaysia,Subang Jaya
+Bandung Institute of Technology (ITB),Indonesia,Bandung
+University of Canterbury | Te Whare W?nanga o Waitaha,New Zealand,Christchurch
+Indian Institute of Technology Kanpur (IITK),India,Kanpur
+UCSI University,Malaysia,Kuala Lumpur
+Universitat Pompeu Fabra (Barcelona),Spain,Barcelona
+University of Witwatersrand,South Africa,Johannesburg
+Universiti Teknologi PETRONAS (UTP),Malaysia,Tronoh
+Ulsan National Institute of Science and Technology (UNIST),Korea, Republic of,Ulsan
+The Hebrew University of Jerusalem,Israel,Jerusalem
+Université Paris 1 Panthéon-Sorbonne,France,Paris
+Universidad Carlos III de Madrid (UC3M),Spain,Madrid
+The University of Arizona,United States of America,Tucson
+Bauman Moscow State Technical University,Russian Federation,Moscow
+Universidade Federal do Rio de Janeiro,Brazil,Rio de Janeiro
+Airlangga University,Indonesia,Surabaya
+Goethe-University Frankfurt am Main,Germany,Frankfurt
+Universität Innsbruck,Austria,Innsbruck
+Universität Stuttgart,Germany,Stuttgart
+RUDN University,Russian Federation,Moscow
+L.N. Gumilyov Eurasian National University (ENU),Kazakhstan,Nur-Sultan
+Universidad Politécnica de Madrid (UPM),Spain,Madrid
+University of Southern Denmark (SDU),Denmark,Odense
+Daegu Gyeongbuk Institute of Science and Technology (DGIST),Korea, Republic of,Daegu
+Rutgers University–New Brunswick,United States of America,New Brunswick
+University of Delhi,India,Delhi
+Renmin (People's) University of China,China,Beijing
+American University of Sharjah,United Arab Emirates,Sharjah
+University of East Anglia (UEA),United Kingdom of Great Britain and Northern Ireland,Norwich
+Indian Institute of Technology Roorkee (IITR),India,Roorkee
+Lappeenranta-Lahti University of Technology LUT,Finland,Lappeenranta
+Xi’an Jiaotong University,China,Xi'an
+University of the Philippines,Philippines,Quezon City
+Indian Institute of Technology Guwahati (IITG),India,Guwahati
+University of Naples - Federico II,Italy,Naples
+University of Victoria (UVic),Canada,Victoria
+National University of Sciences And Technology (NUST) Islamabad,Pakistan,Islamabad
+Gwangju Institute of Science and Technology (GIST),Korea, Republic of,Gwangju
+Pontificia Universidad Católica del Perú,Peru,Lima
+Saint Petersburg State University,Russian Federation,Saint Petersburg
+University of Illinois at Chicago (UIC),United States of America,Chicago
+Westfälische Wilhelms-Universität Münster,Germany,Münster
+Universitat Politècnica de Catalunya · BarcelonaTech (UPC),Spain,Barcelona
+Pontificia Universidad Javeriana,Colombia,Bogotá
+Technische Universität Bergakademie Freiberg,Germany,Freiberg
+Universiti Brunei Darussalam (UBD),Brunei Darussalam,Bandar Seri Begawan
+Universidade Nova de Lisboa,Portugal,Lisbon
+Università Vita-Salute San Raffaele,Italy,Milan
+University of Cyprus (UCY),Cyprus,Nicosia
+Virginia Polytechnic Institute and State University,United States of America,Blacksburg
+National Taiwan University of Science and Technology (Taiwan Tech),Taiwan, Province of China,Taipei
+University of Rome "Tor Vergata",Italy,Rome
+Ruhr-Universität Bochum,Germany,Bochum
+Université de Liège,Belgium,Liège
+Kazan (Volga region) Federal University,Russian Federation,Kazan
+Institut National des Sciences Appliquées de Lyon (INSA),France,Lyon
+Satbayev University,Kazakhstan,Almaty
+USI - Università della Svizzera italiana,Switzerland,Lugano
+HSE University,Russian Federation,Moscow
+The American University in Cairo,Egypt,Cairo
+Auckland University of Technology (AUT),New Zealand,Auckland
+Technion - Israel Institute of Technology,Israel,Haifa
+Université Laval,Canada,Quebec City
+IPB University (a.k.a. Bogor Agricultural University),Indonesia,Bogor
+Julius-Maximilians-Universität Würzburg,Germany,Würzburg
+IE University,Spain,Madrid
+Universitat Politècnica de València,Spain,Valencia
+Università degli Studi di Pavia,Italy,Pavia
+Università Cattolica del Sacro Cuore,Italy,Milan
+Justus-Liebig-University Giessen,Germany,Giessen
+Universitat de Valencia,Spain,Valencia
+Université de Montpellier,France,Montpellier
+Moscow Institute of Physics and Technology (MIPT / Moscow Phystech),Russian Federation,Dolgoprudny
+Umea University,Sweden,Umeå
+Université de Strasbourg,France,Strasbourg
+Stony Brook University, State University of New York,United States of America,Stony Brook
+Universidad de Santiago de Chile (USACH),Chile,Santiago
+Universidad de Sevilla,Spain,Seville
+Universität Konstanz,Germany,Konstanz
+Universitat Ramon Llull,Spain,Barcelona
+University at Buffalo SUNY,United States of America,Buffalo
+Essex, University of,United Kingdom of Great Britain and Northern Ireland,Colchester
+Universität Potsdam,Germany,Potsdam
+Ajman University,United Arab Emirates,Ajman
+Indian Institute of Technology Indore (IIT Indore),India,Indore
+Royal Holloway University of London,United Kingdom of Great Britain and Northern Ireland,Egham
+Pontificia Universidad Católica Argentina,Argentina,Buenos Aires
+The University of Tennessee, Knoxville,United States of America,Knoxville
+American University of Ras Al Khaimah ( AURAK ),United Arab Emirates,Ras Al Khaimah
+Universität Mannheim,Germany,Mannheim
+University of Hawai?i at M?noa,United States of America,Honolulu
+Chung-Ang University (CAU),Korea, Republic of,Seoul
+UNESP,Brazil,São Paulo
+Central Queensland University (CQUniversity Australia),Australia,Rockhampton
+Duy Tan University,Viet Nam,Da Nang
+National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),Russian Federation,Moscow
+Universidad de Costa Rica,Costa Rica,San José
+Abu Dhabi University,United Arab Emirates,Abu Dhabi
+Johannes Gutenberg Universität Mainz,Germany,Mainz
+China University of Petroleum,China,Beijing
+Beihang University (former BUAA),China,Beijing
+Imam Abdulrahman Bin Faisal University (IAU) (formerly UNIVERSITY OF DAMMAM),Saudi Arabia,Dammam
+Prince Mohammad Bin Fahd university,Saudi Arabia,Al Khobar
+Ateneo de Manila University,Philippines,Quezon City
+INTI International University,Malaysia,Subang Jaya
+Sabanci University,Türkiye,Istanbul
+Ural Federal University - UrFU,Russian Federation,Yekaterinburg
+Canadian University Dubai,United Arab Emirates,Dubai
+Universidad Austral,Argentina,Buenos Aires
+Universität Jena,Germany,Jena
+Universität Leipzig,Germany,Leipzig
+Universidad Nacional de La Plata (UNLP),Argentina,La Plata
+Lahore University of Management Sciences (LUMS),Pakistan,Lahore
+Northumbria University at Newcastle,United Kingdom of Great Britain and Northern Ireland,Newcastle upon Tyne
+Applied Science University - Bahrain,Bahrain,Riffa
+Université de Fribourg,Switzerland,Fribourg
+Universidad de Zaragoza,Spain,Zaragoza
+Universidad Pontificia Comillas,Spain,Madrid
+Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU),Uzbekistan,Tashkent
+Al Ain University,United Arab Emirates,Al Ain
+Jordan University of Science & Technology,Jordan,Irbid
+Universiti Utara Malaysia (UUM),Malaysia,Sintok
+University Ulm,Germany,Ulm
+Ulster University,United Kingdom of Great Britain and Northern Ireland,Belfast
+Université Claude Bernard Lyon 1,France,Lyon
+Universiti Teknologi Brunei,Brunei Darussalam,Bandar Seri Begawan
+China University of Mining and Technology,China,Xuzhou
+MGIMO University,Russian Federation,Moscow
+National Research Tomsk Polytechnic University,Russian Federation,Tomsk
+Universidad Adolfo Ibáñez,Chile,Santiago
+Management and Science University,Malaysia,Shah Alam
+Politecnico di Bari,Italy,Bari
+Université Paul Sabatier Toulouse III,France,Toulouse
+Institut Teknologi Sepuluh Nopember (ITS Surabaya),Indonesia,Surabaya
+Shoolini University of Biotechnology and Management Sciences,India,Solan
+The University of Georgia,United States of America,Athens
+Universiti Teknologi MARA - UiTM,Malaysia,Shah Alam
+Universität Bremen,Germany,Bremen
+Universitas Padjadjaran,Indonesia,Bandung
+University of Texas Dallas,United States of America,Richardson
+Kingston University, London,United Kingdom of Great Britain and Northern Ireland,Kingston upon Thames
+Manchester Metropolitan University (MMU),United Kingdom of Great Britain and Northern Ireland,Manchester
+Paris Lodron University of Salzburg,Austria,Salzburg
+Universität des Saarlandes,Germany,Saarbrücken
+University of South Carolina,United States of America,Columbia
+American University of the Middle East,Kuwait,Kuwait City
+Asia Pacific University of Technology and Innovation (APU),Malaysia,Kuala Lumpur
+Christian-Albrechts-University zu Kiel,Germany,Kiel
+Pontifícia Universidade Católica do Rio de Janeiro,Brazil,Rio de Janeiro
+Taipei Medical University (TMU),Taiwan, Province of China,Taipei
+University of Klagenfurt,Austria,Klagenfurt
+Abo Akademi University,Finland,Turku
+American University in Dubai,United Arab Emirates,Dubai
+Auezov South Kazakhstan University (SKU),Kazakhstan,Almaty
+Tallinn University of Technology (TalTech),Estonia,Tallinn
+Universidad de Alcalá,Spain,Alcalá de Henares
+Universidad de Palermo (UP),Argentina,Buenos Aires
+University of Tromsø The Arctic University of Norway,Norway,Tromsø
+Zayed University,United Arab Emirates,Abu Dhabi
+Universidad de Concepción,Chile,Concepción
+Beirut Arab University,Lebanon,Beirut
+De La Salle University,Philippines,Manila
+Symbiosis International (Deemed University),India,Pune
+Universiti Tenaga Nasional (UNITEN),Malaysia,Bangi
+University of Missouri, Columbia,United States of America,Columbia
+HUFS - Hankuk (Korea) University of Foreign Studies,Korea, Republic of,Seoul
+Universidade de Santiago de Compostela,Spain,Santiago de Compostela
+City University of New York,United States of America,New York
+International Islamic University Malaysia (IIUM),Malaysia,Gombak
+ISCTE - Instituto Universitario de Lisboa,Portugal,Lisbon
+Sofia University "St. Kliment Ohridski",Bulgaria,Sofia
+Tokyo Medical and Dental University (TMDU),Japan,Tokyo
+Universidad de la República (Udelar),Uruguay,Montevideo
+Abai Kazakh National Pedagogical University,Kazakhstan,Almaty
+Karl-Franzens-Universitaet Graz,Austria,Graz
+Kazakh National Agrarian University KazNAU,Kazakhstan,Almaty
+Martin-Luther-Universität Halle-Wittenberg,Germany,Halle
+Universidade Federal de Minas Gerais,Brazil,Belo Horizonte
+Prince Sultan University,Saudi Arabia,Riyadh
+University of Agriculture, Faisalabad,Pakistan,Faisalabad
+Chandigarh University,India,Chandigarh
+Norwegian University of Life Sciences (UMB),Norway,Ås
+Pakistan Institute of Engineering and Applied Sciences (PIEAS),Pakistan,Islamabad
+Universidad Central de Venezuela,Venezuela, Bolivarian Republic of,Caracas
+Universidad de La Habana,Cuba,Havana
+Universidad Panamericana (UP),Mexico,Mexico City
+Universidade Federal de São Paulo,Brazil,São Paulo
+Universidade Federal do Rio Grande Do Sul,Brazil,Porto Alegre
+National Institute of Technology Tiruchirappalli,India,Tiruchirappalli
+University of Nebraska - Lincoln,United States of America,Lincoln
+University of Oklahoma,United States of America,Norman
+Ahlia University,Bahrain,Manama
+Czech University of Life Sciences in Prague,Czechia,Prague
+Lingnan University, Hong Kong,Hong Kong,Hong Kong
+Plekhanov Russian University of Economics,Russian Federation,Moscow
+Saint Joseph University of Beirut (USJ),Lebanon,Beirut
+The National University of Science and Technology MISIS,Russian Federation,Moscow
+Ton Duc Thang University,Viet Nam,Ho Chi Minh City
+Université de Franche-Comté,France,Besançon
+University of Mumbai,India,Mumbai
+Diponegoro University,Indonesia,Semarang
+Effat University,Saudi Arabia,Jeddah
+Jinan University (China),China,Guangzhou
+Université de Lille,France,Lille
+Université de Rennes 1 (University of Rennes),France,Rennes
+Universitat Rovira i Virgili,Spain,Tarragona
+Université Côte d'Azur,France,Nice
+Altai State University,Russian Federation,Barnaul
+Universidad Católica Andres Bello,Venezuela, Bolivarian Republic of,Caracas
+Universidad de Montevideo (UM),Uruguay,Montevideo
+Universität Regensburg,Germany,Regensburg
+Universiti Malaysia Pahang,Malaysia,Kuantan
+University of the West of England,United Kingdom of Great Britain and Northern Ireland,Bristol
+V. N. Karazin Kharkiv National University,Ukraine,Kharkiv
+Vytautas Magnus University,Lithuania,Kaunas
+Instituto Tecnológico Autónomo de México (ITAM),Mexico,Mexico City
+Technische Universität Braunschweig,Germany,Braunschweig
+Universidade de Brasília,Brazil,Brasília
+Universita' Politecnica delle Marche,Italy,Ancona
+University of Engineering & Technology (UET) Lahore,Pakistan,Lahore
+University of Messina (UniME),Italy,Messina
+Adam Mickiewicz University, Pozna?,Poland,Poznań
+Bangladesh University of Engineering and Technology,Bangladesh,Dhaka
+University of Colorado, Denver,United States of America,Denver
+Colegio de México,Mexico,Mexico City
+Holy Spirit University of Kaslik,Lebanon,Kaslik
+Universidad del Rosario,Colombia,Bogotá
+Université de Tunis El Manar,Tunisia,Tunis
+University of Pecs,Hungary,Pécs
+Verona University,Italy,Verona
+Babes-Bolyai University,Romania,Cluj-Napoca
+National University of Uzbekistan,Uzbekistan,Tashkent
+The New School,United States of America,New York
+Universidad de Belgrano,Argentina,Buenos Aires
+Universidade Federal de Santa Catarina,Brazil,Florianópolis
+New Jersey Institute of Technology (NJIT),United States of America,Newark
+Universidad de Antioquia,Colombia,Medellín
+Vellore Institute of Technology (VIT),India,Vellore
+Al-Ahliyya Amman University,Jordan,Amman
+Ankara Üniversitesi,Türkiye,Ankara
+Asia University Taiwan,Taiwan, Province of China,Taichung
+Belarusian National Technical University (BNTU),Belarus,Minsk
+Immanuel Kant Baltic Federal University,Russian Federation,Kaliningrad
+Instituto Politécnico Nacional (IPN),Mexico,Mexico City
+Jouf University,Saudi Arabia,Sakakah
+Khoja Akhmet Yassawi International Kazakh-Turkish University,Kazakhstan,Turkistan
+London South Bank University,United Kingdom of Great Britain and Northern Ireland,London
+Maynooth University,Ireland,Maynooth
+National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute",Ukraine,Kyiv
+Philipps-Universität Marburg,Germany,Marburg
+Pontificia Universidad Católica de Valparaíso,Chile,Valparaíso
+Rutgers University–Newark,United States of America,Newark
+The Catholic University of Korea,Korea, Republic of,Seoul
+TU Dortmund University,Germany,Dortmund
+Universidad Anáhuac México,Mexico,Mexico City
+Universidad Iberoamericana IBERO,Mexico,Mexico City
+Universidad San Francisco de Quito (USFQ),Ecuador,Quito
+Università degli Studi di Perugia,Italy,Perugia
+Universitas Brawijaya,Indonesia,Malang
+Universität Duisburg-Essen,Germany,Duisburg-Essen
+Universität Rostock,Germany,Rostock
+Université de Lorraine,France,Nancy
+Universiti Tunku Abdul Rahman (UTAR),Malaysia,Kampar
+University of Baghdad,Iraq,Baghdad
+University of Petroleum and Energy Studies (UPES),India,Dehradun
+Northwest Agriculture and Forestry University,China,Yangling
+Al-Quds University,Palestine, State of,Abu Dis
+Applied Science Private University - Jordan,Jordan,Amman
+Gulf University for Science and Technology,Kuwait,Kuwait City
+Karaganda State Technical University,Kazakhstan,Karaganda
+Kyrgyz Russian Slavic University,Kyrgyzstan,Bishkek
+Poznan University of Life Sciences,Poland,Poznań
+Shahid Beheshti University (SBU),Iran, Islamic Republic of,Tehran
+Technological University Dublin,Ireland,Dublin
+Thapar Institute of Engineering & Technology,India,Patiala
+Universidad de Valladolid,Spain,Valladolid
+Universidad ORT Uruguay,Uruguay,Montevideo
+Universita' degli Studi di Ferrara,Italy,Ferrara
+Université de Nantes,France,Nantes
+Université de Sherbrooke,Canada,Sherbrooke
+Université du Québec,Canada,Quebec City
+University at Albany SUNY,United States of America,Albany
+University Duesseldorf,Germany,Düsseldorf
+University of Dubai,United Arab Emirates,Dubai
+UNIVERSITY OF GDANSK,Poland,Gdańsk
+University of Santo Tomas,Philippines,Manila
+University of Wroclaw,Poland,Wroclaw
+Vilnius Gediminas Technical University,Lithuania,Vilnius
+Yildiz Technical University,Türkiye,Istanbul
+China University of Geosciences,China,Wuhan
+Catania University,Italy,Catania
+Future University in Egypt,Egypt,New Cairo
+Gazi Üniversitesi,Türkiye,Ankara
+German Jordanian University,Jordan,Amman
+Imam Mohammad Ibn Saud Islamic University – IMSIU,Saudi Arabia,Riyadh
+Karaganda Buketov University,Kazakhstan,Karaganda
+Kyrgyz-Turkish Manas University,Kyrgyzstan,Bishkek
+Louisiana State University,United States of America,Baton Rouge
+Manipal Academy of Higher Education, Manipal, Karnataka, India,India,Manipal
+National Research Saratov State University,Russian Federation,Saratov
+North South University,Bangladesh,Dhaka
+Princess Sumaya University for Technology,Jordan,Amman
+Ritsumeikan Asia Pacific University,Japan,Beppu
+Robert Gordon University,United Kingdom of Great Britain and Northern Ireland,Aberdeen
+South Ural State University (National Research University),Russian Federation,Chelyabinsk
+Universidad Católica del Uruguay (UCU),Uruguay,Montevideo
+Universidad Central "Marta Abreu" de Las Villas,Cuba,Santa Clara
+Universidad EAFIT,Colombia,Medellín
+Universidad Externado de Colombia,Colombia,Bogotá
+Universidad Nacional de Córdoba - UNC,Argentina,Córdoba
+Universidad Nacional Mayor de San Marcos,Peru,Lima
+Universidad Pontificia Bolivariana,Colombia,Medellín
+Universidade Católica Portuguesa - UCP,Portugal,Lisbon
+Universidade de Vigo,Spain,Vigo
+Università degli Studi della Tuscia (University of Tuscia),Italy,Viterbo
+Università degli studi Roma Tre,Italy,Rome
+University of Alabama, Birmingham,United States of America,Birmingham
+University of East London,United Kingdom of Great Britain and Northern Ireland,London
+University of Hail,Saudi Arabia,Hail
+University Paris 2 Panthéon-Assas,France,Paris
+Viet Nam National University Ho Chi Minh City (VNU-HCM),Viet Nam,Ho Chi Minh City
+Wroclaw University of Science and Technology (WRUST),Poland,Wroclaw
+Yerevan State University,Armenia,Yerevan
+Almaty Technological University,Kazakhstan,Almaty
+Athens University of Economics and Business,Greece,Athens
+Baku State University,Azerbaijan,Baku
+Bina Nusantara University (BINUS),Indonesia,Jakarta
+D. Serikbayev East Kazakhstan state technical university,Kazakhstan,Almaty
+Financial University under the Government of the Russian Federation,Russian Federation,Moscow
+Instituto Tecnológico de Buenos Aires (ITBA),Argentina,Buenos Aires
+Northern Borders University,Saudi Arabia,Arar
+Pontificia Universidad Católica del Ecuador (PUCE),Ecuador,Quito
+Queen Margaret University , Edinburgh,United Kingdom of Great Britain and Northern Ireland,Edinburgh
+Riga Stradins University,Latvia,Riga
+S.D. Asfendiyarov Kazakh National Medical University,Kazakhstan,Almaty
+Sophia University,Japan,Tokyo
+St. Louis University,United States of America,St. Louis
+The University of Alabama,United States of America,Tuscaloosa
+The University of Lahore,Pakistan,Lahore
+Universidad Autónoma Metropolitana (UAM),Mexico,Mexico City
+Universidad de Córdoba - España,Spain,Córdoba
+Universidad de La Sabana,Colombia,Chía
+Universidad de León,Spain,León
+Universidad de los Andes - Chile,Chile,Santiago
+Universidad de San Andrés - UdeSA,Argentina,Buenos Aires
+Universidad Nacional de Rosario (UNR),Argentina,Rosario
+Universidad Técnica Federico Santa María (USM),Chile,Valparaíso
+Universidad Torcuato Di Tella,Argentina,Buenos Aires
+Université Sorbonne Paris Nord,France,Paris
+Université Toulouse 1 Capitole,France,Toulouse
+Universiti Pendidikan Sultan Idris (UPSI),Malaysia,Tanjung Malim
+University of Bahrain,Bahrain,Sakhir
+University of the Western Cape,South Africa,Cape Town
+Yarmouk University,Jordan,Irbid
+Amity University,India,Noida
+Arab Academy for Science, Technology and Maritime Transport,Egypt,Alexandria
+Azerbaijan State Oil and Industry University,Azerbaijan,Baku
+Azerbaijan State University of Economics,Azerbaijan,Baku
+Binghamton University SUNY,United States of America,Binghamton
+Birmingham City University,United Kingdom of Great Britain and Northern Ireland,Birmingham
+BRAC University,Bangladesh,Dhaka
+Canterbury Christ Church University,United Kingdom of Great Britain and Northern Ireland,Canterbury
+Chang Jung Christian University,Taiwan, Province of China,Tainan
+College of William and Mary,United States of America,Williamsburg
+Corvinus University of Budapest,Hungary,Budapest
+Cracow University of Technology (Politechnika Krakowska),Poland,Kraków
+Escuela Superior Politécnica del Litoral (ESPOL),Ecuador,Guayaquil
+Gebze Technical University (GTU),Türkiye,Gebze
+Guru Gobind Singh Indraprastha University,India,Delhi
+Indiana University–Purdue University Indianapolis,United States of America,Indianapolis
+International Christian University,Japan,Tokyo
+International Islamic University Islamabad (IIU),Pakistan,Islamabad
+Islamic University of Madinah,Saudi Arabia,Medina
+ITESO, Universidad Jesuita de Guadalajara,Mexico,Guadalajara
+Kazakh-British Technical University,Kazakhstan,Almaty
+London Metropolitan University,United Kingdom of Great Britain and Northern Ireland,London
+Lviv Polytechnic National University,Ukraine,Lviv
+Multimedia University (MMU),Malaysia,Cyberjaya
+Mustansiriyah University,Iraq,Baghdad
+Mutah University,Jordan,Karak
+Mykolas Romeris University,Lithuania,Vilnius
+Narxoz University,Kazakhstan,Almaty
+National Technical University "Kharkiv Polytechnic Institute",Ukraine,Kharkiv
+National University of Kyiv-Mohyla Academy (NaUKMA),Ukraine,Kyiv
+NJSC KIMEP University,Kazakhstan,Almaty
+Northwest University (China),China,Xi'an
+O.P. Jindal Global University,India,Sonipat
+Paul Valéry University Montpellier,France,Montpellier
+Pontifícia Universidade Católica de São Paulo,Brazil,São Paulo
+Rochester Institute of Technology (RIT),United States of America,Rochester
+Russian Presidential Academy of National Economy and Public Administration,Russian Federation,Moscow
+Saint Petersburg Electrotechnical University ETU-LETI,Russian Federation,Saint Petersburg
+Saint-Petersburg Mining University,Russian Federation,Saint Petersburg
+Samara National Research University (Samara University),Russian Federation,Samara
+Siberian Federal University, SibFU,Russian Federation,Krasnoyarsk
+Slovak University of Agriculture in Nitra,Slovakia,Nitra
+Sohar University,Oman,Sohar
+Sumy State University,Ukraine,Sumy
+Sungshin Women's University,Korea, Republic of,Seoul
+Széchenyi István University,Hungary,Győr
+Tallinn University,Estonia,Tallinn
+Technical University of Kosice,Slovakia,Kosice
+Tecnológico de Costa Rica -TEC,Costa Rica,Cartago
+Telkom University,Indonesia,Bandung
+The Hashemite University,Jordan,Zarqa
+The University of Northampton,United Kingdom of Great Britain and Northern Ireland,Northampton
+The University of Texas at Arlington,United States of America,Arlington
+Universidad Andrés Bello,Chile,Santiago
+Universidad Austral de Chile,Chile,Valdivia
+Universidad Autónoma Chapingo,Mexico,Texcoco
+Universidad Autónoma de Nuevo León,Mexico,Monterrey
+Universidad Autónoma del Estado de México (UAEMex),Mexico,Toluca
+Universidad de Castilla-La Mancha,Spain,Albacete
+Universidad de Guadalajara (UDG),Mexico,Guadalajara
+Universidad de La Frontera (UFRO),Chile,Temuco
+Universidad de las Américas Puebla (UDLAP),Mexico,Cholula
+Universidad de Lima,Peru,Lima
+Universidad de Los Andes - (ULA) Mérida,Venezuela, Bolivarian Republic of,Mérida
+Universidad de Oviedo,Spain,Oviedo
+Universidad de Puerto Rico,Puerto Rico,San Juan
+Universidad de Talca,Chile,Talca
+Universidad del Norte,Colombia,Barranquilla
+Universidad del Pacífico,Peru,Lima
+Universidad del Valle,Colombia,Cali
+Universidad Diego Portales (UDP),Chile,Santiago
+Universidad ICESI,Colombia,Cali
+Universidad Nacional de Cuyo,Argentina,Mendoza
+Universidad Nacional de la Asunción,Paraguay,Asunción
+Universidad Nacional de San Luis,Argentina,San Luis
+Universidad Nacional del Centro de la Provincia de Buenos Aires (UNICEN),Argentina,Tandil
+Universidad Peruana Cayetano Heredia (UPCH),Peru,Lima
+Universidad Rey Juan Carlos,Spain,Madrid
+Universidad Simón Bolívar (USB),Venezuela, Bolivarian Republic of,Caracas
+Universidad Tecnológica de Panamá (UTP),Panama,Panama City
+Universidad Tecnológica Nacional (UTN),Argentina,Buenos Aires
+Universidade da Coruña,Spain,A Coruña
+Universidade Federal de Pernambuco (UFPE),Brazil,Recife
+Universidade Federal de São Carlos (UFSCar),Brazil,São Carlos
+Universidade Federal do Paraná - UFPR,Brazil,Curitiba
+Universidade Federal Fluminense,Brazil,Niterói
+Universita' degli Studi "G. d'Annunzio" Chieti Pescara,Italy,Chieti
+Università degli Studi di Udine,Italy,Udine
+Università del Salento,Italy,Lecce
+Universitas Hasanuddin,Indonesia,Makassar
+Universitas Sebelas Maret,Indonesia,Surakarta
+Universität Siegen,Germany,Siegen
+Université de Caen Normandie,France,Caen
+Université de Poitiers,France,Poitiers
+Université de Sfax,Tunisia,Sfax
+Université de Sousse,Tunisia,Sousse
+Université de Toulouse II-Le Mirail,France,Toulouse
+Université de Tunis,Tunisia,Tunis
+Université Lumière Lyon 2,France,Lyon
+Université Mohammed V de Rabat,Morocco,Rabat
+Université Paris-Nanterre,France,Paris
+Universiti Malaysia Sabah (UMS),Malaysia,Kota Kinabalu
+Universiti Malaysia Sarawak (UNIMAS),Malaysia,Kota Samarahan
+Universiti Malaysia Terengganu (UMT),Malaysia,Kuala Terengganu
+Universiti Tun Hussein Onn University of Malaysia (UTHM),Malaysia,Batu Pahat
+University of Arkansas Fayetteville,United States of America,Fayetteville
+University of Derby,United Kingdom of Great Britain and Northern Ireland,Derby
+University of Deusto,Spain,Bilbao
+University of Hradec Kralove,Czechia,Hradec Králové
+University of Khartoum,Sudan,Khartoum
+University of Missouri, Kansas City,United States of America,Kansas City
+University of New England Australia,Australia,Armidale
+University of Sarajevo,Bosnia and Herzegovina,Sarajevo
+University of Texas El Paso,United States of America,El Paso
+University of Žilina,Slovakia,Žilina
+VSB - Technical University of Ostrava,Czechia,Ostrava
+Warsaw University of Life Sciences – SGGW (WULS-SGGW),Poland,Warsaw
+Xi'an Jiaotong Liverpool University,China,Suzhou
+Al-Balqa Applied University,Jordan,Al-Salt
+Alexandru Ioan Cuza University,Romania,Iași
+Aoyama Gakuin University,Japan,Tokyo
+Ataturk University,Türkiye,Erzurum
+Atma Jaya Catholic University Jakarta,Indonesia,Jakarta
+Beijing Foreign Studies University,China,Beijing
+Belarusian State University of Informatics and Radioelectronics,Belarus,Minsk
+Benemérita Universidad Autónoma de Puebla,Mexico,Puebla
+Birzeit University,Palestine, State of,Ramallah
+Chaoyang University of Technology,Taiwan, Province of China,Taichung
+China University of Political Science and Law,China,Beijing
+Chitkara University,India,Rajpura
+Chittagong University of Engineering and Technology,Bangladesh,Chittagong
+Cukurova University,Türkiye,Adana
+CUNY The City College of New York,United States of America,New York
+Daffodil International University,Bangladesh,Dhaka
+Damascus University,Syrian Arab Republic,Damascus
+Dokuz Eylül Üniversitesi,Türkiye,Izmir
+Erciyes Üniversitesi,Türkiye,Kayseri
+Escuela Politécnica Nacional,Ecuador,Quito
+Florida Atlantic University - Boca Raton,United States of America,Boca Raton
+Fundación CEU San Pablo,Spain,Madrid
+German University in Cairo,Egypt,New Cairo
+Harper Adams University,United Kingdom of Great Britain and Northern Ireland,Newport
+Hue University,Viet Nam,Hue
+Instituto Tecnológico de Santo Domingo (INTEC),Dominican Republic,Santo Domingo
+Istanbul Aydin University,Türkiye,Istanbul
+Istanbul Bilgi Üniversitesi,Türkiye,Istanbul
+Ivan Franko National University of Lviv,Ukraine,Lviv
+Izmir Institute of Technology (IZTECH),Türkiye,Izmir
+Jahangirnagar University,Bangladesh,Savar
+Jamia Hamdard,India,New Delhi
+Kazakh Ablai Khan University of International Relations and World Languages,Kazakhstan,Almaty
+Kazan National Research Technological University,Russian Federation,Kazan
+Kenyatta University,Kenya,Nairobi
+Kharkiv National University of Radio Electronics,Ukraine,Kharkiv
+Khulna University,Bangladesh,Khulna
+Khulna University of Engineering and Technology,Bangladesh,Khulna
+Kindai University (Kinki University),Japan,Higashi-Osaka
+King Mongkut's Institute of Technology Ladkrabang,Thailand,Bangkok
+King Mongkut's University of Technology North Bangkok,Thailand,Bangkok
+Kyrgyz State Technical University,Kyrgyzstan,Bishkek
+Mendeleev University of Chemical Technology,Russian Federation,Moscow
+Moscow Pedagogical State University,Russian Federation,Moscow
+Nagoya Institute of Technology (NIT),Japan,Nagoya
+National Research University Moscow Power Engineering Institute (MPEI),Russian Federation,Moscow
+National Taipei University,Taiwan, Province of China,Taipei
+Novosibirsk State Technical University,Russian Federation,Novosibirsk
+Óbuda University,Hungary,Budapest
+Odessa I.I. Mechnikov National University,Ukraine,Odessa
+OSMANIA UNIVERSITY,India,Hyderabad
+Perm State National Research University,Russian Federation,Perm
+Pontificia Universidad Catolica Madre y Maestra,Dominican Republic,Santiago
+Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS),Brazil,Porto Alegre
+Rajshahi University,Bangladesh,Rajshahi
+Saken Seifullin Kazakh Agrotechnical University,Kazakhstan,Kyzylorda
+Sathyabama Institute of Science and Technology (deemed to be university),India,Chennai
+Seattle University,United States of America,Seattle
+Shahjalal University of Science and Technology,Bangladesh,Sylhet
+Shanghai International Studies University,China,Shanghai
+Siksha 'O' Anusandhan (Deemed to be University),India,Bhubaneswar
+Suleyman Demirel University,Türkiye,Isparta
+Suleyman Demirel University, Kazakhstan,Kazakhstan,Almaty
+Technical University of Cluj-Napoca,Romania,Cluj-Napoca
+Technical University of Liberec,Czechia,Liberec
+Technical University of Lublin,Poland,Lublin
+Technische Universität Kaiserslautern,Germany,Kaiserslautern
+The "Gheorghe Asachi" Technical University of Iasi,Romania,Iasi
+The Herzen State Pedagogical University of Russia,Russian Federation,St. Petersburg
+The Josip Juraj Strossmayer University of Osijek,Croatia,Osijek
+The National Research University "Belgorod State University",Russian Federation,Belgorod
+Tomas Bata University in Zlin,Czechia,Zlín
+Toraighyrov University,Kazakhstan,Kokshetau
+Transilvania University of Brasov,Romania,Brasov
+Universidad Autónoma de Guadalajara (UAG),Mexico,Guadalajara
+Universidad Autónoma del Estado de Hidalgo (UAEH),Mexico,Pachuca
+Universidad Católica del Norte,Chile,Antofagasta
+Universidad Central del Ecuador,Ecuador,Quito
+Universidad de Las Américas (UDLA) Ecuador,Ecuador,Quito
+Universidad de Monterrey (UDEM),Mexico,Monterrey
+Universidad de Oriente Santiago de Cuba,Cuba,Santiago de Cuba
+Universidad de Panama,Panama,Panama City
+Universidad de Piura,Peru,Piura
+Universidad de San Carlos de Guatemala - USAC,Guatemala,Guatemala City
+Universidad de Tarapaca,Chile,Arica
+Universidad de Valparaíso (UV),Chile,Valparaíso
+Universidad del Bío-Bío,Chile,Concepción
+Universidad del Desarrollo (UDD),Chile,Santiago
+Universidad del Salvador,Argentina,Buenos Aires
+Universidad del Zulia,Venezuela, Bolivarian Republic of,Maracaibo
+Universidad Industrial de Santander - UIS,Colombia,Bucaramanga
+Universidad La Salle (ULSA),Mexico,Monterrey
+Universidad Latinoamericana de Ciencia y Tecnología Costa Rica (ULACIT),Costa Rica,San José
+Universidad Mayor de San Andrés (UMSA),Bolivia, Plurinational State of,La Paz
+Universidad Metropolitana,Venezuela, Bolivarian Republic of,Caracas
+Universidad Nacional Agraria la Molina,Peru,Lima
+Universidad Nacional Autónoma de Honduras (UNAH),Honduras,Tegucigalpa
+Universidad Nacional de Ingeniería Peru,Peru,Lima
+Universidad Nacional de Mar del Plata,Argentina,Mar del Plata
+Universidad Nacional de Río Cuarto - UNRC,Argentina,Río Cuarto
+Universidad Nacional de San Martín (UNSAM),Argentina,San Martín
+Universidad Nacional del Litoral,Argentina,Santa Fe
+Universidad Nacional del Sur,Argentina,Bahía Blanca
+Universidad Nacional, Costa Rica,Costa Rica,Heredia
+Universidad Peruana de Ciencias Aplicadas,Peru,Lima
+Universidade do Estado do Rio de Janeiro (UERJ),Brazil,Rio de Janeiro
+Universidade Federal da Bahia,Brazil,Salvador
+Universidade Federal de Juiz de Fora- (UFJF),Brazil,Juiz de Fora
+Universidade Federal de Pelotas,Brazil,Pelotas
+Universidade Federal de Santa Maria,Brazil,Santa Maria
+Universidade Federal de Viçosa (UFV),Brazil,Viçosa
+Universidade Federal do Ceará (UFC),Brazil,Fortaleza
+Universidade Federal do Rio Grande Do Norte,Brazil,Natal
+Universidade Presbiteriana Mackenzie,Brazil,São Paulo
+Università degli studi di Bergamo,Italy,Bergamo
+Universitas Islam Indonesia,Indonesia,Yogyakarta
+Universitas Muhammadiyah Yogyakarta,Indonesia,Yogyakarta
+Universitas Pendidikan Indonesia,Indonesia,Bandung
+Universitas Sumatera Utara,Indonesia,Medan
+Universitatea de Vest din Timisoara / West University of Timisoara,Romania,Timisoara
+Université de Limoges,France,Limoges
+Université Jean Moulin Lyon 3,France,Lyon
+Universiti Kuala Lumpur (UniKL),Malaysia,Kuala Lumpur
+Universiti Malaysia Perlis,Malaysia,Kangar
+Universiti Teknikal Malaysia Melaka,Malaysia,Melaka
+University of Babylon,Iraq,Hillah
+University of Basrah,Iraq,Basrah
+University of Kufa,Iraq,Kufa
+University of Miskolc,Hungary,Miskolc
+University of Missouri Saint Louis,United States of America,St. Louis
+University of Pannonia,Hungary,Veszprém
+University of Pardubice,Czechia,Pardubice
+University of Primorska,Slovenia,Koper
+University of San Diego,United States of America,San Diego
+University of South Alabama (USA),United States of America,Mobile
+University of Sri Jayewardenepura,Sri Lanka,Nugegoda
+University of the Pacific,United States of America,Stockton
+University of Tyumen,Russian Federation,Tyumen
+University of West Bohemia,Czechia,Pilsen
+University of Wisconsin Milwaukee,United States of America,Milwaukee
+University POLITEHNICA of Bucharest,Romania,Bucharest
+Vancouver Island University,Canada,Nanaimo
+Voronezh State University,Russian Federation,Voronezh
+Yogyakarta State University,Indonesia,Yogyakarta
+Youngsan University,Korea, Republic of,Ulsan
+Don State Technical University,Russian Federation,Rostov-on-Don
+Akdeniz Üniversitesi,Türkiye,Antalya
+California Polytechnic State University,United States of America,San Luis Obispo
+California State University - Los Angeles,United States of America,Los Angeles
+Católica de Córdoba,Argentina,Córdoba
+East West University,Bangladesh,Dhaka
+Fundación Universidad De Bogotá-Jorge Tadeo Lozano,Colombia,Bogotá
+Humboldt State University,United States of America,Arcata
+Indian Institute of Information Technology, Allahabad,India,Allahabad
+Indiana State University,United States of America,Terre Haute
+International University of Business, Agriculture and Technology (IUBAT),Bangladesh,Dhaka
+Irkutsk State University,Russian Federation,Irkutsk
+Korkyt Ata Kyzylorda University,Kazakhstan,Kyzylorda
+Lucian Blaga University of Sibiu,Romania,Sibiu
+M.Kh. Dulaty Taraz Regional University,Kazakhstan,Taraz
+MIREA - Russian Technological University,Russian Federation,Moscow
+Moscow City University,Russian Federation,Moscow
+Naresuan University,Thailand,Phitsanulok
+National University of Life and Environmental Sciences of Ukraine,Ukraine,Uman
+National University of Modern Languages (NUML), Islamabad, Pakistan,Islamabad
+Pontifícia Universidade Católica de Minas Gerais – PUC Minas,Brazil,Belo Horizonte
+Pontificia Universidade Católica do Campinas - PUC Campinas,Brazil,Campinas
+Pontifícia Universidade Católica do Paraná,Brazil,Curitiba
+Russian State Agrarian University - Moscow Timiryazev Agricultural Academy,Russian Federation,Moscow
+Russian State University for the Humanities,Russian Federation,Moscow
+Shibaura Institute of Technology,Japan,Tokyo
+Silpakorn University,Thailand,Bangkok
+Soochow University (Taiwan),Taiwan,Province of China,Taipei
+Stamford University Bangladesh,Bangladesh,Dhaka
+State University of Malang,Indonesia,Malang
+Stefan cel Mare University of Suceava,Romania,Suceava
+The University of Notre Dame, Australia,Australia,Fremantle
+Udayana University,Indonesia,Denpasar
+United International University,Bangladesh,Dhaka
+Universidad Alberto Hurtado,Chile,Santiago
+Universidad Autónoma de Aguascalientes,Mexico,Aguascalientes
+Universidad Autónoma de Baja California,Mexico,Mexicali
+Universidad Autónoma de Chile,Chile,Santiago
+Universidad Autónoma de Querétaro (UAQ),Mexico,Querétaro
+Universidad Autónoma de San Luis de Potosí,Mexico,San Luis Potosí
+Universidad Autonoma de Yucatan,Mexico,Mérida
+Universidad Autónoma del Estado de Morelos (UAEM),Mexico,Cuernavaca
+Universidad Bernardo O'Higgins,Chile,Santiago
+Universidad Católica Boliviana "San Pablo",Bolivia,La Paz
+Universidad Católica de Colombia,Colombia,Bogotá
+Universidad Católica de La Santísima Concepción - UCSC,Chile,Concepción
+Universidad Católica de Santiago de Guayaquil,Ecuador,Guayaquil
+Universidad Católica de Temuco,Chile,Temuco
+Universidad Central de Chile,Chile,Santiago
+Universidad de Caldas,Colombia,Manizales
+Universidad de Carabobo,Venezuela,Valencia
+Universidad de Cartagena,Colombia,Cartagena
+Universidad de Córdoba - Colombia,Colombia,Montería
+Universidad de Cuenca,Ecuador,Cuenca
+Universidad de Guanajuato,Mexico,Guanajuato
+Universidad de La Salle,Colombia,Bogotá
+Universidad de La Serena,Chile,La Serena
+Universidad de las Fuerzas Armadas ESPE (Ex - Escuela Politécnica del Ejército),Ecuador,Quito
+Universidad de Medellín,Colombia,Medellín
+Universidad de Santander - UDES,Colombia,Bucaramanga
+Universidad de Sonora,Mexico,Hermosillo
+Universidad del Cauca,Colombia,Popayán
+Universidad del Valle de Mexico (UVM),Mexico,Mexico City
+Universidad Michoacana de San Nicolás de Hidalgo,Mexico,Morelia
+Universidad Nacional de Quilmes,Argentina,Quilmes
+Universidad Nacional de Tucumán,Argentina,San Miguel de Tucumán
+Universidad Nacional del Comahue,Argentina,Neuquén
+UNIVERSIDAD POLITECNICA SALESIANA,Ecuador,Quito
+Universidad Popular Autónoma del Estado de Puebla (UPAEP),Mexico,Puebla
+Universidad San Ignacio de Loyola,Peru,Lima
+Universidad Tecnica Particular De Loja (UTPL),Ecuador,Loja
+Universidad Tecnológica de Bolívar,Colombia,Cartagena
+Universidad Tecnológica de la Habana José Antonio Echeverría, Cujae,Cuba,Havana
+Universidad Tecnológica de Pereira,Colombia,Pereira
+Universidad Veracruzana,Mexico,Xalapa
+Universidade do Estado de Santa Catarina,Brazil,Florianópolis
+Universidade Estadual de Londrina,Brazil,Londrina
+Universidade Federal da Paraíba,Brazil,João Pessoa
+Universidade Federal de Goiás,Brazil,Goiânia
+Universidade Federal de Uberlândia,Brazil,Uberlândia
+Universidade Federal do Estado do Rio de Janeiro - UNIRIO,Brazil,Rio de Janeiro
+Universidade Federal do Parà - UFPA,Brazil,Belém
+Universitas Andalas,Indonesia,Padang
+Universitas Kristen Petra,Indonesia,Surabaya
+Universitas Muhammadiyah Surakarta,Indonesia,Surakarta
+Universiti Sains Islam Malaysia,Malaysia,Nilai
+University of Central Oklahoma,United States of America,Edmond
+University of Craiova,Romania,Craiova
+University of Lampung,Indonesia,Bandar Lampung
+University of Mataram,Indonesia,Mataram
+University of Montana Missoula,United States of America,Missoula
+University of Oradea,Romania,Oradea
+University of San Carlos,Philippines,Cebu
+University Politehnica of Timisoara, UPT,Romania,Timisoara
