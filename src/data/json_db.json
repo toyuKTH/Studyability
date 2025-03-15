@@ -5241,7 +5241,7 @@
                 "ef_score": 575.0
             },
             "name": "Brunei",
-            "temperature": null,
+            "temperature": 28.0,
             "universities": [
                 385,
                 562
@@ -5261,7 +5261,7 @@
                 "ef_score": 466.0
             },
             "name": "Brazil",
-            "temperature": null,
+            "temperature": 27.7,
             "universities": [
                 91,
                 231,
@@ -5335,7 +5335,7 @@
                 "ef_score": 650.0
             },
             "name": "Canada",
-            "temperature": null,
+            "temperature": 5.5,
             "universities": [
                 24,
                 28,
@@ -5383,7 +5383,7 @@
                 "ef_score": 550.0
             },
             "name": "Switzerland",
-            "temperature": null,
+            "temperature": 9.5,
             "universities": [
                 6,
                 25,
@@ -5454,7 +5454,7 @@
                 "ef_score": 455.0
             },
             "name": "China",
-            "temperature": null,
+            "temperature": 14.0,
             "universities": [
                 13,
                 19,
@@ -5543,7 +5543,7 @@
                 "ef_score": 485.0
             },
             "name": "Colombia",
-            "temperature": null,
+            "temperature": 25.0,
             "universities": [
                 179,
                 219,
@@ -5585,7 +5585,7 @@
                 "ef_score": 558.0
             },
             "name": "Cyprus",
-            "temperature": null,
+            "temperature": 18.0,
             "universities": [
                 389
             ]
@@ -5638,7 +5638,7 @@
                 "ef_score": 598.0
             },
             "name": "Germany",
-            "temperature": null,
+            "temperature": 9.7,
             "universities": [
                 27,
                 58,
@@ -5880,7 +5880,7 @@
                 "ef_score": 590.0
             },
             "name": "Finland",
-            "temperature": null,
+            "temperature": 5.0,
             "universities": [
                 112,
                 116,
@@ -6108,7 +6108,7 @@
                 "ef_score": 602.0
             },
             "name": "Greece",
-            "temperature": null,
+            "temperature": 15.6,
             "universities": [
                 321,
                 392,
@@ -6281,7 +6281,7 @@
                 "ef_score": 522.0
             },
             "name": "Israel",
-            "temperature": null,
+            "temperature": 20.0,
             "universities": [
                 208,
                 280,
@@ -6305,7 +6305,7 @@
                 "ef_score": 490.0
             },
             "name": "India",
-            "temperature": null,
+            "temperature": 26.7,
             "universities": [
                 117,
                 149,
@@ -6369,7 +6369,7 @@
                 "ef_score": 414.0
             },
             "name": "Iraq",
-            "temperature": null,
+            "temperature": 26.0,
             "universities": [
                 840,
                 1073,
@@ -6419,7 +6419,7 @@
                 "ef_score": 620.0
             },
             "name": "Iceland",
-            "temperature": null,
+            "temperature": 4.0,
             "universities": [
                 549
             ]
@@ -6498,7 +6498,7 @@
                 "ef_score": 431.0
             },
             "name": "Jordan",
-            "temperature": null,
+            "temperature": 18.0,
             "universities": [
                 368,
                 554,
@@ -6825,7 +6825,7 @@
                 "ef_score": 576.0
             },
             "name": "Luxembourg",
-            "temperature": null,
+            "temperature": 11.0,
             "universities": [
                 356
             ]
@@ -6865,7 +6865,7 @@
                 "ef_score": 479.0
             },
             "name": "Morocco",
-            "temperature": null,
+            "temperature": 18.0,
             "universities": [
                 1167
             ]
@@ -6884,7 +6884,7 @@
                 "ef_score": 536.0
             },
             "name": "Moldova",
-            "temperature": null,
+            "temperature": 10.0,
             "universities": []
         },
         "ME": {
@@ -6935,7 +6935,7 @@
                 "ef_score": 615.0
             },
             "name": "Malta",
-            "temperature": null,
+            "temperature": 19.0,
             "universities": [
                 761
             ]
@@ -7259,7 +7259,7 @@
                 "ef_score": 493.0
             },
             "name": "Pakistan",
-            "temperature": null,
+            "temperature": 24.0,
             "universities": [
                 314,
                 352,
@@ -7332,7 +7332,7 @@
                 "ef_score": 565.0
             },
             "name": "Puerto Rico",
-            "temperature": null,
+            "temperature": 28.0,
             "universities": [
                 1132
             ]
@@ -7377,7 +7377,7 @@
                 "ef_score": 480.0
             },
             "name": "Qatar",
-            "temperature": null,
+            "temperature": 26.0,
             "universities": [
                 121,
                 182
@@ -7743,7 +7743,7 @@
                 "ef_score": 555.0
             },
             "name": "Trinidad and Tobago",
-            "temperature": null,
+            "temperature": 28.0,
             "universities": []
         },
         "TW": {
@@ -7805,7 +7805,7 @@
                 "ef_score": 535.0
             },
             "name": "Ukraine",
-            "temperature": null,
+            "temperature": 7.5,
             "universities": [
                 707,
                 749,
@@ -7834,7 +7834,7 @@
                 "ef_score": 650.0
             },
             "name": "United States",
-            "temperature": null,
+            "temperature": 14.0,
             "universities": [
                 0,
                 3,
