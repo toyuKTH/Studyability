@@ -59408,43 +59408,45 @@
         {
             "type": "Feature",
             "properties": {
-                "place_id": 317534746,
+                "place_id": 258805460,
                 "osm_type": "way",
-                "osm_id": 34844903,
+                "osm_id": 327731413,
                 "place_rank": 30,
                 "category": "amenity",
-                "type": "college",
-                "importance": 0.36870256390699163,
+                "type": "university",
+                "importance": 0.000076060883497322,
                 "addresstype": "amenity",
-                "name": "Oxford College of Emory University",
-                "display_name": "Oxford College of Emory University, Wesley Street, Cedar Ridge, Oxford, Newton County, Georgia, 30054, United States",
+                "name": "Old Road Campus, University of Oxford",
+                "display_name": "Old Road Campus, University of Oxford, Roosevelt Drive, Headington Hill, Headington, Oxford, Oxfordshire, England, OX3 7XD, United Kingdom",
                 "address": {
-                    "amenity": "Oxford College of Emory University",
-                    "road": "Wesley Street",
-                    "hamlet": "Cedar Ridge",
-                    "village": "Oxford",
-                    "county": "Newton County",
-                    "state": "Georgia",
-                    "ISO3166-2-lvl4": "US-GA",
-                    "postcode": "30054",
-                    "country": "United States",
-                    "country_code": "us"
+                    "amenity": "Old Road Campus, University of Oxford",
+                    "road": "Roosevelt Drive",
+                    "neighbourhood": "Headington Hill",
+                    "suburb": "Headington",
+                    "city": "Oxford",
+                    "county": "Oxfordshire",
+                    "ISO3166-2-lvl6": "GB-OXF",
+                    "state": "England",
+                    "ISO3166-2-lvl4": "GB-ENG",
+                    "postcode": "OX3 7XD",
+                    "country": "United Kingdom",
+                    "country_code": "gb"
                 },
                 "university_id": 2,
                 "university_name": "University Of Oxford",
-                "university_website": ""
+                "university_website": "https://www.ox.ac.uk/"
             },
             "bbox": [
-                -83.8758654,
-                33.616796,
-                -83.8675357,
-                33.6227415
+                -1.2167587,
+                51.7513827,
+                -1.2120334,
+                51.7534537
             ],
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -83.87149157642763,
-                    33.6199366
+                    -1.2143299631547,
+                    51.75254605
                 ]
             }
         },
