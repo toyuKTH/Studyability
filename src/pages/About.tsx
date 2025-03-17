@@ -1,6 +1,7 @@
 import { useLocation } from "react-router";
-import "./About.css";
 import { useEffect } from "react";
+import "./About.css";
+import AboutChangelog from "../components/AboutChangelog";
 
 function About() {
   const { hash } = useLocation();
@@ -9,7 +10,7 @@ function About() {
     if (hash) {
       const el = document.getElementById(hash);
       if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
+        el.scrollIntoView();
       }
     }
   }, [hash]);
@@ -62,7 +63,7 @@ function About() {
       </div>
       <div className="about-section" id="changelog">
         <h2>Changelog</h2>
-        <p>Lorem Ipsum</p>
+        <AboutChangelog />
       </div>
       <div className="about-section" id="resources">
         <h2>Project Resources</h2>

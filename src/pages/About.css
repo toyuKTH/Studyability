@@ -4,6 +4,7 @@
   align-items: center;
   background-color: #f0f0f0;
   padding: 20px;
+  scroll-behavior: smooth;
 
   .about-section {
     color: black;
