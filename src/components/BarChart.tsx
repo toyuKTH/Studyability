@@ -72,7 +72,7 @@ export default function BarChart({
       title: {
         text: title,
         style: {
-          color: getQSAttributeColor(label),
+          color: "black",
         },
       },
       tooltip: {
@@ -95,5 +95,14 @@ export default function BarChart({
       chart.destroy();
     };
   }, [containerRef.current, uniToCompare, highlightedUni]);
-  return <div className="bar-chart-container" ref={containerRef} />;
+  return (
+    <div
+      className="bar-chart-container"
+      style={{
+        borderTop: `1px solid ${getQSAttributeColor(label)}`,
+        padding: "10px",
+      }}
+      ref={containerRef}
+    />
+  );
 }
