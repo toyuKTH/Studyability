@@ -31,29 +31,44 @@ export default function CompareUniCard({
         <h2>{currentUniversity.name || "University name"}</h2>
       </div>
       <PolarAreaChart uni={currentUniversity} />
+      <p
+        style={{
+          margin: 0,
+          paddingLeft: "10px",
+          fontSize: "small",
+          textAlign: "center",
+        }}
+      >
+        {currentUniversity.city}, {currentUniversity.countryName}
+      </p>
       <div className="card-stats-container">
-        <div className="card-stat">
-          <RankSVG width={20} height={20} />
-          <p>{currentUniversity.rank}</p>
+        <div className="card-stats-header">
+          <div className="info-row-header">Rank</div>
+          <div className="card-stat">
+            <RankSVG width={20} height={20} />
+            <p>{currentUniversity.rank}</p>
+          </div>
         </div>
-        <div className="card-stat">
-          <MoneySVG width={20} height={20} />
-          <p>{currentUniversity.tuitionFee}</p>
+        <div className="card-stats-header">
+          <div className="info-row-header">Tuition fee</div>
+          <div className="card-stat">
+            <MoneySVG width={20} height={20} />
+            <p>{currentUniversity.tuitionFee}</p>
+          </div>
         </div>
-        <br />
-        <div className="card-stat">
-          <TemperatureSVG width={20} height={20} />
-          <p>{currentUniversity.temperature}</p>
+        <div className="card-stats-header">
+          <div className="info-row-header">Temperature</div>
+          <div className="card-stat">
+            <TemperatureSVG width={20} height={20} />
+            <p>{currentUniversity.temperature}</p>
+          </div>
         </div>
-        <div className="card-stat">
-          <LanguageSVG width={20} height={20} />
-          <p>{currentUniversity.ef_score}</p>
-        </div>
-        <div className="card-stat">
-          <LocationSVG width={20} height={20} />
-          <p>
-            {currentUniversity.city}, {currentUniversity.countryName}
-          </p>
+        <div className="card-stats-header">
+          <div className="info-row-header">English proficiency</div>
+          <div className="card-stat">
+            <LanguageSVG width={20} height={20} />
+            <p>{currentUniversity.ef_score}</p>
+          </div>
         </div>
       </div>
     </div>
