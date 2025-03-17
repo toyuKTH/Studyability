@@ -63,7 +63,7 @@ function AboutChangelog() {
     },
     {
       versionName: "Final Deliverable",
-      date: "2025/02/28",
+      date: "2025/03/19",
       feedbacks: [
         {
           source: "Mentimeter",
