@@ -14,10 +14,10 @@ function PageNav() {
         Explore
       </NavLink>
       <NavLink to="/compare" end>
-        Compare
         {unisToCompare.length > 0 && route.pathname !== "/compare" && (
           <div className="unis-selected">{unisToCompare.length}</div>
         )}
+        Compare
       </NavLink>
       <NavLink to="/about" end>
         About
