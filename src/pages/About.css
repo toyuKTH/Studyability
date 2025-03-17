@@ -1,14 +1,38 @@
 .about-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   background-color: #f0f0f0;
-  padding: 20px;
-  scroll-behavior: smooth;
+  overflow: hidden;
+  height: 100%;
 
-  .about-section {
-    color: black;
-    margin: 10px auto;
-    width: 80%;
+  .about-sidebar {
+    margin: 0 20px;
+    height: inherit;
+    flex: 0;
+    .about-link {
+      width: 180px;
+      margin: 5px auto 0;
+      background-color: #39596a;
+      &:hover {
+        background-color: #517f96;
+      }
+    }
+  }
+
+  .about-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: inherit;
+    .about-section {
+      color: black;
+      margin: 10px auto;
+      width: 80%;
+    }
   }
 }
