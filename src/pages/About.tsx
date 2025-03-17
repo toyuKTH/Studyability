@@ -65,6 +65,7 @@ function About() {
 
   function handleClick(hash: string) {
     return () => {
+      history.pushState({}, "", `#${hash}`);
       scrollToHash(hash);
     };
   }
