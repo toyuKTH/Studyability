@@ -25,6 +25,50 @@ function Compare() {
       </div>
       {uniToCompare.length > 0 && (
         <>
+          <div className="compare-legend">
+            <div style={{ textAlign: "center" }}>
+              The different colors in the chart represent different "Lens" from
+              QS World University Ranking, each "Lens" consists of different
+              "Indicators" (hover to view)
+            </div>
+            <div className="compare-legend-categories">
+              <div className="legend-container">
+                <div
+                  className="legend-color"
+                  style={{ background: "#3B508A" }}
+                />
+                <span>Global Engagement</span>
+              </div>
+              <div className="legend-container">
+                <div
+                  className="legend-color"
+                  style={{ background: "#FDE725" }}
+                />
+                <span>Research and Discovery</span>
+              </div>
+              <div className="legend-container">
+                <div
+                  className="legend-color"
+                  style={{ background: "#D4ED99" }}
+                />
+                <span>Employment Outcomes</span>
+              </div>
+              <div className="legend-container">
+                <div
+                  className="legend-color"
+                  style={{ background: "#2CA02C" }}
+                />
+                <span>Sustainability</span>
+              </div>
+              <div className="legend-container">
+                <div
+                  className="legend-color"
+                  style={{ background: "#461667" }}
+                />
+                <span>Learning Experience</span>
+              </div>
+            </div>
+          </div>
           <RadarChart />
           <MultipleBarChart />
         </>
