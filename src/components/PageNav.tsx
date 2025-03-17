@@ -19,6 +19,9 @@ function PageNav() {
           <div className="unis-selected">{unisToCompare.length}</div>
         )}
       </NavLink>
+      <NavLink to="/about" end>
+        About
+      </NavLink>
     </nav>
   );
 }

@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import PageLayout from "./components/PageLayout.tsx";
 import Home from "./pages/Home.tsx";
 import Compare from "./pages/Compare.tsx";
+import About from "./pages/About.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -14,8 +15,9 @@ createRoot(document.getElementById("root")!).render(
       <BrowserRouter>
         <PageLayout>
           <Routes>
-            <Route index path='/' element={<Home />} />
-            <Route path='/compare' element={<Compare />} />
+            <Route index path="/" element={<Home />} />
+            <Route path="/compare" element={<Compare />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </PageLayout>
       </BrowserRouter>
