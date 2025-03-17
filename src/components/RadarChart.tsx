@@ -258,6 +258,14 @@ export default function RadarChart() {
             ))}
           </div>
         </div>
+        <div
+          style={{
+            width: "1px",
+            minHeight: "50%",
+            backgroundColor: "black",
+            margin: "0 20px",
+          }}
+        />
         <div className="attribute-selector-group">
           <h2 style={{ textAlign: "center" }}>Attributes to exclude</h2>
           <div className="attribute-selector-buttons">
