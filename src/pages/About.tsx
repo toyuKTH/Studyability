@@ -1,9 +1,22 @@
+import { useLocation } from "react-router";
 import "./About.css";
+import { useEffect } from "react";
 
 function About() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.getElementById(hash);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [hash]);
+
   return (
     <div className="about-container">
-      <div className="about-section">
+      <div className="about-section" id="overview">
         <h2>Project Overview</h2>
         <p>
           Studyability Map assists prospective students in finding the ideal
@@ -21,7 +34,7 @@ function About() {
           universities.
         </p>
       </div>
-      <div className="about-section">
+      <div className="about-section" id="how">
         <h2>How To Use</h2>
         <p>Three steps to use Studyability Map</p>
         <ol>
@@ -39,19 +52,19 @@ function About() {
           </li>
         </ol>
       </div>
-      <div className="about-section">
+      <div className="about-section" id="team">
         <h2>Team</h2>
         <p>Lorem Ipsum</p>
       </div>
-      <div className="about-section">
+      <div className="about-section" id="data">
         <h2>Data</h2>
         <p>Lorem Ipsum</p>
       </div>
-      <div className="about-section">
+      <div className="about-section" id="changelog">
         <h2>Changelog</h2>
         <p>Lorem Ipsum</p>
       </div>
-      <div className="about-section">
+      <div className="about-section" id="resources">
         <h2>Project Resources</h2>
         <h3>References</h3>
         <ul>
