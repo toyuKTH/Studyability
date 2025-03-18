@@ -99,7 +99,7 @@ export default function BarChart({
     <div
       className="bar-chart-container"
       style={{
-        borderTop: `1px solid ${getQSAttributeColor(label)}`,
+        borderTop: `3px solid ${getQSAttributeColor(label)}`,
         padding: "10px",
       }}
       ref={containerRef}
