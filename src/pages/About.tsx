@@ -62,7 +62,7 @@ function About() {
     if (bodyRef.current && hash) {
       scrollToHash(hash);
     }
-  }, [hash]);
+  });
 
   function handleClick(hash: string) {
     return () => {

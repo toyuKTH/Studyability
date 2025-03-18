@@ -109,7 +109,7 @@ function AboutChangelog() {
                   ) : (
                     <span>{feedback.source}</span>
                   )}
-                  :
+                  {index - 1 > -1 && ` in ${logData[index - 1].versionName}`}:
                   <ul>
                     {feedback.comments.map((comment) => (
                       <li key={comment}>{comment}</li>
