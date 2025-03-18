@@ -41,7 +41,7 @@ export default function ComparePageDataInfo() {
           <TemperatureSVG width={20} height={20} /> Temperature
         </h4>
         <div className="data-container">
-          <p>Indicates the average yearly country temperature in Celsius</p>
+          <p>Indicates the average yearly country temperature in Celsius. Higher value = warmer temperature.</p>
         </div>
         <h4>
           <LanguageSVG width={20} height={20} /> English Profiency
@@ -70,7 +70,7 @@ export default function ComparePageDataInfo() {
       <div className="data-container">
         <p>
           The different colors in the charts represent different "Lens" from QS
-          World University Ranking. Each "Lens" consists of different
+          World University Rankings. Each "Lens" consists of different
           "Indicators" with the following mapping (Read:{" "}
           <a
             href="https://support.qs.com/hc/en-gb/articles/4405955370898-QS-World-University-Rankings"
@@ -88,8 +88,8 @@ export default function ComparePageDataInfo() {
           <ul>
             <li>International Faculty Ratio</li>
             <div className="data-container">
-              “The International Faculty Ratio (IFR) indicator looks at the
-              ratio of international faculty staff to overall staff.” - Read
+              <i>“The International Faculty Ratio (IFR) indicator looks at the
+              ratio of international faculty staff to overall staff.”</i> - Read
               more on{" "}
               <a
                 href="https://support.qs.com/hc/en-gb/articles/4403961809554-International-Faculty-Ratio-Indicator#:~:text=The%20International%20Faculty%20Ratio%20(IFR,and%20teaching%20diversity%20and%20collaborations."
@@ -100,9 +100,9 @@ export default function ComparePageDataInfo() {
             </div>
             <li>International Research Network</li>
             <div className="data-container">
-              “International Research Network (IRN) is a measure of an
+              <i>“International Research Network (IRN) is a measure of an
               institution's success in creating and sustaining research
-              partnerships with institutions in other locations.” - Read more on{" "}
+              partnerships with institutions in other locations.”</i> - Read more on{" "}
               <a
                 href="https://support.qs.com/hc/en-gb/articles/360021865579-International-Research-Network-Indicator"
                 target="_blank"
@@ -112,8 +112,8 @@ export default function ComparePageDataInfo() {
             </div>
             <li>International Student Ratio</li>
             <div className="data-container">
-              “The International Faculty Ratio (IFR) indicator looks at the
-              ratio of international faculty staff to overall staff.” - Read
+              <i>“The International Faculty Ratio (IFR) indicator looks at the
+              ratio of international faculty staff to overall staff.”</i> - Read
               more on{" "}
               <a
                 href="https://support.qs.com/hc/en-gb/articles/4403961727506-International-Student-Ratio-Indicator"
@@ -132,9 +132,9 @@ export default function ComparePageDataInfo() {
           <ul>
             <li>Academic Reputation</li>
             <div className="data-container">
-              “The Academic Reputation (AR) indicator measures the reputation of
+              <i>“The Academic Reputation (AR) indicator measures the reputation of
               institutions and their programmes by asking academic experts to
-              nominate universities based on their subject area of expertise.” -
+              nominate universities based on their subject area of expertise.”</i> -
               Read more on{" "}
               <a
                 href="https://support.qs.com/hc/en-gb/articles/4405952675346-Academic-Reputation-Indicator"
@@ -145,9 +145,9 @@ export default function ComparePageDataInfo() {
             </div>
             <li>Citations per Faculty</li>
             <div className="data-container">
-              “The Citations per Faculty (CPF) indicator is a measure of the
+              <i>“The Citations per Faculty (CPF) indicator is a measure of the
               relative intensity and volume of research being done at an
-              institution.” - Read more on{" "}
+              institution.”</i> - Read more on{" "}
               <a
                 href="https://support.qs.com/hc/en-gb/articles/360019107580-Citations-per-Faculty-Indicator"
                 target="_blank"
@@ -165,10 +165,8 @@ export default function ComparePageDataInfo() {
           <ul>
             <li>Employer Reputation</li>
             <div className="data-container">
-              “The Employer Reputation (ER) indicator measures the reputation of
-              institutions and their programmes among employers. We remain the
-              only major ranking to focus on this vital aspect of a student's
-              educational journey.“ - Read more on{" "}
+              <i>“The Employer Reputation (ER) indicator measures the reputation of
+              institutions and their programmes among employers.“</i> - Read more on{" "}
               <a
                 href="https://support.qs.com/hc/en-gb/articles/4407794203410-Employer-Reputation-Indicator"
                 target="_blank"
@@ -178,10 +176,10 @@ export default function ComparePageDataInfo() {
             </div>
             <li>Employment Outcomes</li>
             <div className="data-container">
-              “The Employment Outcomes (EO) indicator measures to what degree
+              <i>“The Employment Outcomes (EO) indicator measures to what degree
               institutions can ensure a high level of employability for their
               graduates, and their record in producing graduates that have gone
-              on to make a meaningful impact on society.” - Read more on{" "}
+              on to make a meaningful impact on society.”</i> - Read more on{" "}
               <a
                 href="https://support.qs.com/hc/en-gb/articles/4744563188508-Employment-Outcomes-Indicator"
                 target="_blank"
@@ -199,10 +197,10 @@ export default function ComparePageDataInfo() {
           <ul>
             <li>Sustainability</li>
             <div className="data-container">
-              “The Sustainability (SUS) indicator highlights which institutions
+              <i>“The Sustainability (SUS) indicator highlights which institutions
               are demonstrating a commitment to a more sustainable existence,
               and encompasses a variety of factors across environmental, social
-              and governance (ESG).” - Read more on{" "}
+              and governance (ESG).”</i> - Read more on{" "}
               <a
                 href="https://support.qs.com/hc/en-gb/articles/8322582098460-Sustainability-Indicator"
                 target="_blank"
@@ -220,8 +218,8 @@ export default function ComparePageDataInfo() {
           <ul>
             <li>Faculty Student Ratio</li>
             <div className="data-container">
-              “The Faculty-Student Ratio indicator is a measure of the number of
-              academic staff that an institution has to teach its students.” -
+              <i>“The Faculty-Student Ratio indicator is a measure of the number of
+              academic staff that an institution has to teach its students.”</i> -
               Read more on{" "}
               <a
                 href="https://support.qs.com/hc/en-gb/articles/360019108240-Faculty-Student-Ratio-Indicator"
