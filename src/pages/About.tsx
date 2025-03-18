@@ -51,9 +51,10 @@ function About() {
   ];
 
   function scrollToHash(hash: string) {
+    hash = hash.replace("#", "");
     const matchSection = sectionCollection.find((s) => s.hash === hash);
     if (matchSection?.ref.current) {
-      matchSection.ref.current.scrollIntoView();
+      matchSection.ref.current.scrollIntoView({ behavior: "smooth" });
     }
   }
 
