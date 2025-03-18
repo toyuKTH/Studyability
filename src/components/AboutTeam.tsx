@@ -21,8 +21,8 @@ const teamData: ITeamMember[] = [
     image: "/sasa.jpg",
   },
   {
-    name: "Fauzan Helmi Sudaryanto",
-    role: "User Evaluation Lead, Data Handling, Design",
+    name: "Fauzan H. Sudaryanto",
+    role: "User Evaluation Lead, Data Handling, Visualization Design",
     contact: "fhsu@kth.se",
     image: "/fauzan.jpg",
   },
@@ -34,7 +34,7 @@ const teamData: ITeamMember[] = [
   },
   {
     name: "Tong Yu",
-    role: "Design Lead, Frontend Development, User Evaluation",
+    role: "Visualization Design Lead, Frontend Development, User Evaluation",
     contact: "toyu@kth.se",
     image: "/tong.jpg",
   },

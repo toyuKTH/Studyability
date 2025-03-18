@@ -73,7 +73,6 @@ function AboutChangelog() {
             "Provided data definitions for attributes shown in Compare page",
             "Added description about legend in Radial Bar Chart in Compare page",
             "Provided a way to describe the icons in Comparison Table in Compare page",
-            "Feedback from discussion in Final Presentation",
             "Make the title of Multiple Bar Chart more readable",
           ],
         },
@@ -101,7 +100,7 @@ function AboutChangelog() {
             <div>
               {feedbacks.map((feedback) => (
                 <div key={feedback.source}>
-                  Feedback from{" "}
+                  Feedback from discussion and {" "}
                   {feedback.link ? (
                     <a target="_blank" href={feedback.link}>
                       {feedback.source}
@@ -122,7 +121,7 @@ function AboutChangelog() {
           {features && (
             <div>
               {" "}
-              {index > 0 ? "Feature Updates" : "Features"}
+              {index > 0 ? "Feature Updates:" : "Features:"}
               <ul>
                 {features.map((feature) => (
                   <li key={feature.content}>
