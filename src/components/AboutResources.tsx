@@ -81,7 +81,7 @@ function AboutResources() {
           href="https://gits-15.sys.kth.se/DH2321-2025-Group-10/studyability"
           target="_blank"
         >
-          Github Repository
+          GitHub Repository
         </a>
       </p>
       <h3>Presentations</h3>

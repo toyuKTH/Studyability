@@ -68,7 +68,7 @@ function AboutHow() {
         </li>
         <li>
           Tuition fees are displayed for international students, with no waiver
-          available based on possession of a passport or residence permit.
+          available based on possession of a passport or residence permit
         </li>
       </ul>
     </>

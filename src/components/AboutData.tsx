@@ -6,7 +6,7 @@ import TemperatureSVG from "./svg/TemperatureSVG";
 function AboutData() {
   return (
     <>
-      <h3>Mean temperature for countries by year</h3>
+      <h3>1. Mean temperature for countries by year</h3>
       <ul>
         <li>Data origin</li>
         <ul>
@@ -46,7 +46,7 @@ function AboutData() {
           </li>
         </ul>
       </ul>
-      <h3>Cost of Living Index by Country 2025</h3>
+      <h3>2. Cost of Living Index by Country 2025</h3>
       <ul>
         <li>Data origin</li>
         <ul>
@@ -73,7 +73,7 @@ function AboutData() {
           </li>
         </ul>
       </ul>
-      <h3>EF English Proficiency Index 2024</h3>
+      <h3>3. EF English Proficiency Index 2024</h3>
       <ul>
         <li>Data Origin</li>
         <ul>
@@ -112,7 +112,7 @@ function AboutData() {
           </li>
         </ul>
       </ul>
-      <h3>QS World University Rankings 2025: Top global universities</h3>
+      <h3>4. QS World University Rankings 2025: Top global universities</h3>
       <ul>
         <li>Data origin</li>
         <ul>
@@ -161,7 +161,7 @@ function AboutData() {
         </ul>
       </ul>
       <h3>
-        Yearly tuition fee for master’s degree for international students in USD
+        5. Yearly tuition fee for master’s degree for international students in USD
       </h3>
       <ul>
         <li>Data origin</li>
@@ -198,7 +198,7 @@ function AboutData() {
           </li>
         </ul>
       </ul>
-      <h3>Geolocation of universities</h3>
+      <h3>6. Geolocation of universities</h3>
       <ul>
         <li>Data origin</li>
         <ul>
@@ -236,7 +236,7 @@ function AboutData() {
           </li>
         </ul>
       </ul>
-      <h3>Website of universities</h3>
+      <h3>7. Website of universities</h3>
       <ul>
         <li>Data origin</li>
         <ul>
@@ -272,7 +272,7 @@ function AboutData() {
       </ul>
       <p>
         All stated AI usage was done so under the direct approval of the course
-        supervisor
+        supervisor.
       </p>
     </>
   );
