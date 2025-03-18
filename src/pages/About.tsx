@@ -51,7 +51,9 @@ function About() {
   ];
 
   function scrollToHash(hash: string) {
-    const matchSection = sectionCollection.find((s) => s.hash === hash);
+    const matchSection = sectionCollection.find(
+      (s) => s.hash === hash || "#" + s.hash === hash
+    );
     if (matchSection?.ref.current) {
       matchSection.ref.current.scrollIntoView();
     }
@@ -61,7 +63,7 @@ function About() {
     if (bodyRef.current && hash) {
       scrollToHash(hash);
     }
-  }, [hash]);
+  });
 
   function handleClick(hash: string) {
     return () => {
