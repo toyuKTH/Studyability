@@ -17,8 +17,10 @@
 
 To run Studyability Map:
 
+After cloning the repository run both of the following commands from the root directory of the project
 ```bash
-// instructions here
+npm install
+npm run dev
 ```
 
 ## Data Sources & Insights
