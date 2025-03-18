@@ -13,7 +13,7 @@ export default function ExplorPageDataInfo() {
         </p>
         <h4>Temperature</h4>
         <div className="data-container">
-          <p>Indicates the average yearly country temperature in Celsius</p>
+          <p>Indicates the average yearly country temperature in Celsius. Higher value = warmer temperature.</p>
         </div>
         <h4>English Profiency</h4>
         <div className="data-container">
@@ -25,7 +25,7 @@ export default function ExplorPageDataInfo() {
             target="_blank"
           >
             EF EPI Proficiency Bands
-          </a>
+          </a>:
           <br />
           <ul>
             <li>Very high proficiency (score 600+)</li>
@@ -46,14 +46,14 @@ export default function ExplorPageDataInfo() {
             target="_blank"
           >
             Numbeo's Cost of Living Indexes
-          </a>{" "}
+          </a>:{" "}
           <ul>
-            “Cost of Living Index (Excl. Rent): This index indicates the
+            <i>“Cost of Living Index (Excl. Rent): This index indicates the
             relative prices of consumer goods like groceries, restaurants,
             transportation, and utilities. It excludes accommodation expenses
             such as rent or mortgage. For instance, a city with a Cost of Living
             Index of 120 is estimated to be 20% more expensive than New York
-            City (excluding rent)”.
+            City (excluding rent)”.</i>
           </ul>
         </div>
         <h4>Rank</h4>
@@ -77,18 +77,18 @@ export default function ExplorPageDataInfo() {
       <h3>Scatter Plot</h3>
       <div className="data-container">
         <p>
-          You can interact with the scatter plot by changing the x and y axis
+          You can interact with the scatter plot by changing the x and y-axis
           attributes from the dropdown menu. Hovering over the data points will
-          show the university name and the value of the x and y axis. Clicking
+          show the university name and the value of the x and y-axis. Clicking
           on the data points will select the university and show the detailed
           information in the right panel as well as move the map to the location
           of the university.
         </p>
         <h4>Academic Reputation</h4>
         <div className="data-container">
-          “The Academic Reputation (AR) indicator measures the reputation of
+          <i>“The Academic Reputation (AR) indicator measures the reputation of
           institutions and their programmes by asking academic experts to
-          nominate universities based on their subject area of expertise.” -
+          nominate universities based on their subject area of expertise.”</i> -
           Read more on{" "}
           <a
             href="https://support.qs.com/hc/en-gb/articles/4405952675346-Academic-Reputation-Indicator"
@@ -99,10 +99,10 @@ export default function ExplorPageDataInfo() {
         </div>
         <h4>Employment Outcomes</h4>
         <div className="data-container">
-          “The Employment Outcomes (EO) indicator measures to what degree
+          <i>“The Employment Outcomes (EO) indicator measures to what degree
           institutions can ensure a high level of employability for their
           graduates, and their record in producing graduates that have gone on
-          to make a meaningful impact on society.” - Read more on{" "}
+          to make a meaningful impact on society.”</i> - Read more on{" "}
           <a
             href="https://support.qs.com/hc/en-gb/articles/4744563188508-Employment-Outcomes-Indicator"
             target="_blank"
@@ -112,8 +112,8 @@ export default function ExplorPageDataInfo() {
         </div>
         <h4>International Student Ratio</h4>
         <div className="data-container">
-          “The International Faculty Ratio (IFR) indicator looks at the ratio of
-          international faculty staff to overall staff.” - Read more on{" "}
+          <i>“The International Student Ratio (ISR) indicator looks at the ratio of 
+          international students to overall students.”</i> - Read more on{" "}
           <a
             href="https://support.qs.com/hc/en-gb/articles/4403961727506-International-Student-Ratio-Indicator"
             target="_blank"
@@ -123,8 +123,8 @@ export default function ExplorPageDataInfo() {
         </div>
         <h4>Faculty Student Ratio</h4>
         <div className="data-container">
-          “The Faculty-Student Ratio indicator is a measure of the number of
-          academic staff that an institution has to teach its students.” - Read
+          <i>“The Faculty-Student Ratio indicator is a measure of the number of
+          academic staff that an institution has to teach its students.”</i> - Read
           more on{" "}
           <a
             href="https://support.qs.com/hc/en-gb/articles/360019108240-Faculty-Student-Ratio-Indicator"
@@ -135,10 +135,10 @@ export default function ExplorPageDataInfo() {
         </div>
         <h4>Sustainability</h4>
         <div className="data-container">
-          “The Sustainability (SUS) indicator highlights which institutions are
+          <i>“The Sustainability (SUS) indicator highlights which institutions are
           demonstrating a commitment to a more sustainable existence, and
           encompasses a variety of factors across environmental, social and
-          governance (ESG).” - Read more on{" "}
+          governance (ESG).”</i> - Read more on{" "}
           <a
             href="https://support.qs.com/hc/en-gb/articles/8322582098460-Sustainability-Indicator"
             target="_blank"

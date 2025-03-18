@@ -50,21 +50,21 @@ export default function CompareUniCard({
           </div>
         </div>
         <div className="card-stats-header">
-          <div className="info-row-header">Tuition fee</div>
+          <div className="info-row-header">Tuition Fee (USD)</div>
           <div className="card-stat">
             <MoneySVG width={20} height={20} />
             <p>{currentUniversity.tuitionFee}</p>
           </div>
         </div>
         <div className="card-stats-header">
-          <div className="info-row-header">Temperature</div>
+          <div className="info-row-header">Temperature (°C)</div>
           <div className="card-stat">
             <TemperatureSVG width={20} height={20} />
             <p>{currentUniversity.temperature}</p>
           </div>
         </div>
         <div className="card-stats-header">
-          <div className="info-row-header">English proficiency</div>
+          <div className="info-row-header">English Proficiency</div>
           <div className="card-stat">
             <LanguageSVG width={20} height={20} />
             <p>{currentUniversity.ef_score}</p>
