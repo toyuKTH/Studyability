@@ -13,7 +13,14 @@ export default function TeamMemberContainer({
         <img src={teamMember.image} alt={teamMember.name} />
       </div>
       <div className="info-container">
-        <h3>{teamMember.name}</h3>
+        <h3
+          style={{
+            fontSize:
+              teamMember.name === "Fauzan H. Sudaryanto" ? "19px" : "20px",
+          }}
+        >
+          {teamMember.name}
+        </h3>
         <div>
           {teamMember.role.split(",").map((role) => (
             <p key={role}>{role}</p>
