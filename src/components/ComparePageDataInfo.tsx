@@ -78,7 +78,7 @@ export default function ComparePageDataInfo() {
           >
             Methodology
           </a>
-          )
+          ). You can select specific university in the Spider Chart and Bar Chart to enable highlighted comparison.
         </p>
         <div className="legend-header">
           <div className="legend-color" style={{ background: "#3B508A" }} />
