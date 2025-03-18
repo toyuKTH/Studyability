@@ -56,6 +56,16 @@ function AboutHow() {
         </li>
       </ol>
       <h4>Watch our video to learn more</h4>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/REak3zI7U2U?si=F-1wqiktvrDU9SwB"
+        title="Studiability Map Demo"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen={true}
+        style={{ borderRadius: "10px" }}
+      />
       <h4>Limitations</h4>
       <ul>
         <li>
