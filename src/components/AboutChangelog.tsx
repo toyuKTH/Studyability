@@ -79,12 +79,26 @@ function AboutChangelog() {
       ],
       features: [
         {
+          content: "Fixed data for missing cities",
+        },
+        {
+          content:
+            "Added information panel for data attributes shown in Explore page",
+        },
+        {
+          content:
+            "Added information panel for data attributes shown in Compare page",
+        },
+        {
+          content: "Change color scheme for multiple bar chart title",
+        },
+        {
+          content:
+            "Added legend for QS indicators in Radial Bar Chart in Compare page",
+        },
+        {
           content:
             "Published About page explaining the project overview, the team, how to use, data sources, and relevant references",
-        },
-
-        {
-          content: "Fixed data for missing cities",
         },
       ],
     },
@@ -100,7 +114,7 @@ function AboutChangelog() {
             <div>
               {feedbacks.map((feedback) => (
                 <div key={feedback.source}>
-                  Feedback from discussion and {" "}
+                  Feedback from discussion and{" "}
                   {feedback.link ? (
                     <a target="_blank" href={feedback.link}>
                       {feedback.source}
