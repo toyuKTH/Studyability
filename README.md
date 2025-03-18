@@ -37,4 +37,4 @@ The project integrates multiple data sources to power its visualizations:
 
 ## More Information
 
-Learn more about overall project, the team, data sources, and other resources here: [Studyability Map - About](https://gits-15.sys.kth.se/pages/DH2321-2025-Group-10/studyability/about)
+Learn more about the overall project, team, data sources, and other resources from `About` tab in [Studyability Map](https://gits-15.sys.kth.se/pages/DH2321-2025-Group-10/studyability/).
