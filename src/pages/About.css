@@ -8,8 +8,10 @@
 
   .about-sidebar {
     margin: 0 20px;
+    padding-top: 30px;
     height: inherit;
     flex: 0;
+    box-sizing: border-box;
     .about-link {
       width: 180px;
       margin: 5px auto 0;
@@ -28,11 +30,18 @@
     background-color: #f0f0f0;
     scroll-behavior: smooth;
     overflow-y: scroll;
+    overflow-x: hidden;
     height: inherit;
+    padding: 20px;
     .about-section {
       color: black;
-      margin: 10px auto;
-      width: 80%;
+      margin: 10px;
+      width: 100%;
+      border-bottom: 1px solid #d3d3d3;
+
+      &:last-child {
+        border-bottom: none;
+      }
     }
   }
 }

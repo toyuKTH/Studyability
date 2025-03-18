@@ -51,11 +51,10 @@ function About() {
   ];
 
   function scrollToHash(hash: string) {
-    const matchSection = sectionCollection.find(
-      (s) => s.hash === hash || "#" + s.hash === hash
-    );
+    hash = hash.replace("#", "");
+    const matchSection = sectionCollection.find((s) => s.hash === hash);
     if (matchSection?.ref.current) {
-      matchSection.ref.current.scrollIntoView();
+      matchSection.ref.current.scrollIntoView({ behavior: "smooth" });
     }
   }
 
