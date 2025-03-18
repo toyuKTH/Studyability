@@ -62,11 +62,17 @@ function AboutResources() {
     },
   ] as IPresentation[];
 
+  function compareAuthor(a: IReference, b: IReference) {
+    if (a.author > b.author) return 1;
+    if (a.author < b.author) return -1;
+    return 0;
+  }
+
   return (
     <>
       <h3>References</h3>
       <ol>
-        {projectReferences.map(({ bib, link }) => (
+        {[...projectReferences].sort(compareAuthor).map(({ bib, link }) => (
           <li key={`ref-${link}`}>
             <span>{bib} </span>
             <a href={link} target="_blank">
