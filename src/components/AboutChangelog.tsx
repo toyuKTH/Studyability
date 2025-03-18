@@ -90,7 +90,7 @@ function AboutChangelog() {
             "Added information panel for data attributes shown in Compare page",
         },
         {
-          content: "Change color scheme for multiple bar chart title",
+          content: "Change color scheme for Multiple Bar Chart title",
         },
         {
           content:
