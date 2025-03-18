@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+
 function AboutOverview() {
   return (
     <>
@@ -9,12 +11,15 @@ function AboutOverview() {
       </p>
       <p>
         There are many considerations for a student to choose their study
-        destination. Lee (2014) found that students prefer a comfortable climate
-        and value the “reputation of education quality,” which includes how well
-        the education is recognized by employers. Doda et al. (2024) pointed out
-        that lower living costs and tuition fees can attract students, while
-        Eder et al. (2010) observed that language is an important factor, with
-        many students leaning towards English-speaking countries.
+        destination. <NavLink to={"/about#resources"}>Lee (2014)</NavLink> found
+        that students prefer a comfortable climate and value the “reputation of
+        education quality,” which includes how well the education is recognized
+        by employers.{" "}
+        <NavLink to={"/about#resources"}>Doda et al. (2024)</NavLink> pointed
+        out that lower living costs and tuition fees can attract students, while{" "}
+        <NavLink to={"/about#resources"}>Eder et al. (2010)</NavLink> observed
+        that language is an important factor, with many students leaning towards
+        English-speaking countries.
       </p>
       <p>
         Recognizing the difficulty in gathering and comparing information

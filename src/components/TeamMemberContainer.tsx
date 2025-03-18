@@ -16,7 +16,7 @@ export default function TeamMemberContainer({
         <h3>{teamMember.name}</h3>
         <div>
           {teamMember.role.split(",").map((role) => (
-            <p>{role}</p>
+            <p key={role}>{role}</p>
           ))}
         </div>
         <a

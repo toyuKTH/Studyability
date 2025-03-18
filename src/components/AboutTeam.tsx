@@ -51,7 +51,7 @@ function AboutTeam() {
       }}
     >
       {teamData.map((teamMember) => (
-        <TeamMemberContainer teamMember={teamMember} />
+        <TeamMemberContainer teamMember={teamMember} key={teamMember.name} />
       ))}
     </div>
   );

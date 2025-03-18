@@ -1,8 +1,11 @@
+import { NavLink } from "react-router";
+
 function AboutHow() {
   return (
     <>
       <p>
-        Studyability Map focuses on the following formal tasks (Munzner, 2014)
+        Studyability Map focuses on the following formal tasks{" "}
+        <NavLink to={"/about#resources"}>(Munzner, 2014)</NavLink>
       </p>
       <ul>
         <li>
