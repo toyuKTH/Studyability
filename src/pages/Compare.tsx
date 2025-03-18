@@ -28,8 +28,8 @@ function Compare() {
           <div className="compare-legend">
             <div style={{ textAlign: "center" }}>
               The different colors in the chart represent different "Lens" from
-              QS World University Ranking, each "Lens" consists of different
-              "Indicators" (hover to view)
+              QS World University Rankings, each "Lens" consists of different
+              "Indicators" <i>(hover to view)</i>
             </div>
             <div className="compare-legend-categories">
               <div className="legend-container">

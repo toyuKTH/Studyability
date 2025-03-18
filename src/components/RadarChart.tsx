@@ -234,7 +234,7 @@ export default function RadarChart() {
           {errorMessage && (
             <div className="attribute-error-message">{errorMessage}</div>
           )}
-          <h2 style={{ textAlign: "center" }}>Attributes to include</h2>
+          <h2 style={{ textAlign: "center" }}>Included attributes</h2>
           <div className="attribute-selector-buttons">
             {categories?.map((cat) => (
               <button
@@ -267,7 +267,7 @@ export default function RadarChart() {
           }}
         />
         <div className="attribute-selector-group">
-          <h2 style={{ textAlign: "center" }}>Attributes to exclude</h2>
+          <h2 style={{ textAlign: "center" }}>Excluded attributes</h2>
           <div className="attribute-selector-buttons">
             {excludedCategories?.map((cat) => (
               <button
