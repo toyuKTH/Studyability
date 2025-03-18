@@ -16,6 +16,7 @@
       width: 180px;
       margin: 5px auto 0;
       background-color: #39596a;
+      color: #fff;
       &:hover {
         background-color: #517f96;
       }
