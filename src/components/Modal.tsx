@@ -56,8 +56,8 @@ export default function Modal({
       </div>
       <p style={{ borderBottom: "1px solid #ccc" }}>
         Please read the “Data” section in{" "}
-        <NavLink to={"/about#data"}>About page</NavLink> to learn more about the
-        data sources.
+        <NavLink to={"/about#data"}>About page</NavLink> to learn more about the data
+        sources.
       </p>
       <div className="modal-content">
         {location === "/" && <ExplorPageDataInfo />}

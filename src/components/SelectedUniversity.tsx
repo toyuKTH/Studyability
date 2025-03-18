@@ -108,7 +108,7 @@ function SelectedUniversity({
             </div>
           </div>
           <div>
-            <div className="info-row-header">Tuition (USD)</div>
+            <div className="info-row-header">Tuition Fee (USD)</div>
             <div className="info-row">
               <MoneySVG width={24} height={24} />
               <div>{currentUniversity?.tuitionFee}</div>
@@ -122,7 +122,7 @@ function SelectedUniversity({
             </div>
           </div>
           <div>
-            <div className="info-row-header">English proficiency</div>
+            <div className="info-row-header">English Proficiency</div>
             <div className="info-row">
               <LanguageSVG width={24} height={24} />
               <div>{currentUniversity.ef_score}</div>
