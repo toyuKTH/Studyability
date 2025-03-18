@@ -86,7 +86,7 @@ export default function ParallelPlot() {
             }
             return tuitionFee;
           });
-          label = "Tuition Fee";
+          label = "Tuition Fee (USD)";
           break;
         case "temperature":
           currentFilter = filters.countries["temperature"].domain;
@@ -97,7 +97,7 @@ export default function ParallelPlot() {
             constraintRange = [];
           }
 
-          label = "Temperature";
+          label = "Temperature (°C)";
           range = [
             minMaxCountries.temperature.minTemperature,
             minMaxCountries.temperature.maxTemperature,
