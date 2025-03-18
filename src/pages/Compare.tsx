@@ -51,7 +51,7 @@ function Compare() {
                   className="legend-color"
                   style={{ background: "#D4ED99" }}
                 />
-                <span>Employment Outcomes</span>
+                <span>Employability and Outcomes</span>
               </div>
               <div className="legend-container">
                 <div
