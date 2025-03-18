@@ -1,67 +1,100 @@
+import { useLocation } from "react-router";
+import { useEffect, useRef } from "react";
+import AboutChangelog from "../components/AboutChangelog";
+import AboutOverview from "../components/AboutOverview";
+import AboutHow from "../components/AboutHow";
+import AboutTeam from "../components/AboutTeam";
+import AboutData from "../components/AboutData";
+import AboutResources from "../components/AboutResources";
 import "./About.css";
 
 function About() {
+  const { hash } = useLocation();
+  const bodyRef = useRef<HTMLDivElement>(null);
+  const sectionCollection = [
+    {
+      hash: "overview",
+      ref: useRef<HTMLDivElement>(null),
+      title: "Project Overview",
+      element: <AboutOverview />,
+    },
+    {
+      hash: "how",
+      ref: useRef<HTMLDivElement>(null),
+      title: "How To Use",
+      element: <AboutHow />,
+    },
+    {
+      hash: "team",
+      ref: useRef<HTMLDivElement>(null),
+      title: "Team",
+      element: <AboutTeam />,
+    },
+    {
+      hash: "data",
+      ref: useRef<HTMLDivElement>(null),
+      title: "Data",
+      element: <AboutData />,
+    },
+    {
+      hash: "changelog",
+      ref: useRef<HTMLDivElement>(null),
+      title: "Changelog",
+      element: <AboutChangelog />,
+    },
+    {
+      hash: "resources",
+      ref: useRef<HTMLDivElement>(null),
+      title: "Project Resources",
+      element: <AboutResources />,
+    },
+  ];
+
+  function scrollToHash(hash: string) {
+    const matchSection = sectionCollection.find((s) => s.hash === hash);
+    if (matchSection?.ref.current) {
+      matchSection.ref.current.scrollIntoView();
+    }
+  }
+
+  useEffect(() => {
+    if (bodyRef.current && hash) {
+      scrollToHash(hash);
+    }
+  }, [hash]);
+
+  function handleClick(hash: string) {
+    return () => {
+      history.pushState({}, "", `#${hash}`);
+      scrollToHash(hash);
+    };
+  }
+
   return (
     <div className="about-container">
-      <div className="about-section">
-        <h2>Project Overview</h2>
-        <p>
-          Studyability Map assists prospective students in finding the ideal
-          university and location for their next study destination. The
-          visualization will help those who are considering attending a
-          university and are in search of their dream institution and place to
-          live.
-        </p>
-        <p>
-          Recognizing the difficulty in gathering and comparing information
-          through internet searches, Studyability Map streamlines the process,
-          making it easier for students to make informed decisions about their
-          future. It can also be used by researchers, professors, and admission
-          officers to gather and analyze important information about different
-          universities.
-        </p>
+      <div className="about-sidebar">
+        {sectionCollection.map(({ hash, title }) => (
+          <button
+            key={`link-${hash}`}
+            className="about-link"
+            onClick={handleClick(hash)}
+          >
+            {title}
+          </button>
+        ))}
       </div>
-      <div className="about-section">
-        <h2>How To Use</h2>
-        <p>Three steps to use Studyability Map</p>
-        <ol>
-          <li>
-            <strong>Explore</strong>
-            <span> the possibilities by adjusting your preferences</span>
-          </li>
-          <li>
-            <strong>Select</strong>
-            <span> up to 5 universities that matches your interest</span>
-          </li>
-          <li>
-            <strong>Compare</strong>
-            <span> in details to help your decision making</span>
-          </li>
-        </ol>
-      </div>
-      <div className="about-section">
-        <h2>Team</h2>
-        <p>Lorem Ipsum</p>
-      </div>
-      <div className="about-section">
-        <h2>Data</h2>
-        <p>Lorem Ipsum</p>
-      </div>
-      <div className="about-section">
-        <h2>Changelog</h2>
-        <p>Lorem Ipsum</p>
-      </div>
-      <div className="about-section">
-        <h2>Project Resources</h2>
-        <h3>References</h3>
-        <ul>
-          <li>Lorem Ipsum</li>
-          <li>Lorem Ipsum</li>
-        </ul>
-        <h3>Source Code</h3>
-        <p>Lorem Ipsum</p>
-        <h3>Presentations</h3>
-        <p>Lorem Ipsum</p>
+      <div className="about-body" ref={bodyRef}>
+        {sectionCollection.map(({ hash, title, ref: sectionRef, element }) => (
+          <div
+            className="about-section"
+            id={hash}
+            ref={sectionRef}
+            key={`body-${hash}`}
+          >
+            <h2 className="about-section-title">{title}</h2>
+            {element}
+          </div>
+        ))}
       </div>
     </div>
   );
