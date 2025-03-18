@@ -16,7 +16,7 @@ const teamData: ITeamMember[] = [
   },
   {
     name: "Diagnosa Fenomena",
-    role: "Frontend Development, User Evaluation",
+    role: "Backend Development Lead, Frontend Development, User Evaluation",
     contact: "diagnosa@kth.se",
     image: "/sasa.jpg",
   },
@@ -28,7 +28,7 @@ const teamData: ITeamMember[] = [
   },
   {
     name: "Gianluca Beltran",
-    role: "Frontend Development Lead, Data Handling",
+    role: "Frontend Development Lead, Backend Development, Data Handling",
     contact: "gbeltran@kth.se",
     image: "/luca.png",
   },

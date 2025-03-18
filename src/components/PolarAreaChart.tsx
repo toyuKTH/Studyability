@@ -6,6 +6,7 @@ import {
   getQSAttributeLabel,
   qsAttributeKeys,
 } from "../helpers/qsAttributeUtils";
+import "./PolarAreaChart.css";
 
 export default function PolarAreaChart({
   uni,
