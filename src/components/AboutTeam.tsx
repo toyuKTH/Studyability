@@ -30,7 +30,7 @@ const teamData: ITeamMember[] = [
     name: "Gianluca Beltran",
     role: "Frontend Development Lead, Backend Development, Data Handling",
     contact: "gbeltran@kth.se",
-    image: `${import.meta.env.BASE_URL}luca.jpg`,
+    image: `${import.meta.env.BASE_URL}luca.png`,
   },
   {
     name: "Tong Yu",
