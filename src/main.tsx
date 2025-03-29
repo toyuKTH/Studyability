@@ -12,7 +12,7 @@ import About from "./pages/About.tsx";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Studyability">
         <PageLayout>
           <Routes>
             <Route index path="/" element={<Home />} />
