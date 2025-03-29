@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { store } from "./state/store.ts";
 import { Provider } from "react-redux";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageLayout from "./components/PageLayout.tsx";
 import Home from "./pages/Home.tsx";
 import Compare from "./pages/Compare.tsx";
