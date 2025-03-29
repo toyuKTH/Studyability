@@ -36,7 +36,7 @@ const teamData: ITeamMember[] = [
     name: "Tong Yu",
     role: "Visualization Design Lead, Frontend Development, User Evaluation",
     contact: "toyu@kth.se",
-    image: "/tong.jpg",
+    image: `${import.meta.env.BASE_URL}tong.jpg`,
   },
 ];
 
