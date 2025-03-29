@@ -5,7 +5,7 @@ import { ICountryDB, IUniversity } from "../state/slices/dataSlice";
 export async function fetchGeoJSON(url?: string) {
   try {
     const response = await fetch(
-      url || `./data/GeoJSON/osm_search/joined_uni_demo_v2b.geojson`
+      url || `${import.meta.env.BASE_URL}data/GeoJSON/osm_search/joined_uni_demo_v2b.geojson`
     );
     const geoJSON = await response.json();
 
